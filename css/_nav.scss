@@ -1,0 +1,105 @@
+
+
+
+$opened_width: 300px;
+$closed_width: 100px;
+
+
+@mixin close_width {
+  width: 0px;
+  @media only screen and (min-width: $bp-medium) {width: $closed_width;}
+}
+
+@mixin close_margin {
+  margin-left: 0px;
+  @media only screen and (min-width: $bp-medium) {margin-left: $closed_width;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidenav:hover, .sidenav_open {
+  width: $opened_width !important;
+}
+.sidenav:hover ~ #main, .sidenav_open_main {
+  margin-left: $opened_width !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  @include close_width;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $ct-gray;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  @include close_margin;
+}
+
+
+/* Add a black background color to the top navigation */
+#topnav {
+  background-color: $ct-gray;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  white-space: nowrap;
+}
