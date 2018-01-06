@@ -4,11 +4,14 @@ body {
   overflow-x: hidden;
 }
 
-
+#topnav {
+  transition: margin-left .5s;
+  overflow: hidden;
+}
 
 
 #main {
   transition: margin-left .5s;
-  padding: 20px;
   overflow: hidden;
+  min-height: 100vh;
 }
