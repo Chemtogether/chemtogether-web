@@ -2,7 +2,7 @@
 
 // check if side navigation is already opened (based on whether the respective class is set) and switch state
 function switchNav() {
-  if ($("#sidenav").hasClass("sidenav_open")) {
+  if ($("#sidenav").hasClass("sidenav_open-nav")) {
     closeNav();
   } else {
     openNav();
@@ -15,32 +15,29 @@ function switchNav() {
 
 
 function closeNav() {
-  $("#sidenav").removeClass("sidenav_open");
-  $("#main").removeClass("sidenav_open_main");
-  $("#topnav").removeClass("sidenav_open_main");
-
-  if (!!('ontouchstart' in window)) {//check for touch device
-    $("#main").unbind("click",closeNav);
-  }
+  $("#sidenav").removeClass("sidenav_open-nav");
+  $("#main").removeClass("sidenav_open-content");
+  $("#topnav").removeClass("sidenav_open-content");
+  $("#main").unbind("click",closeNav);
+  $("#sidenav").click(openNav);
 }
 
 function openNav() {
-  $("#sidenav").addClass("sidenav_open");
-  $("#main").addClass("sidenav_open_main");
-  $("#topnav").addClass("sidenav_open_main");
-
-  if (!!('ontouchstart' in window)) {//check for touch device
-    $("#main").click(closeNav);
-  }
+  $("#sidenav").addClass("sidenav_open-nav");
+  $("#main").addClass("sidenav_open-content");
+  $("#topnav").addClass("sidenav_open-content");
+  $("#main").click(closeNav);
+  $("#sidenav").unbind("click",openNav);
 }
 
 
 
-
+$("#sidenav").click(openNav);
+$("#sidenav").hover(openNav, closeNav);
 
 if (!!('ontouchstart' in window)) {//check for touch device
   //behaviour and events for touch device
 }
 else {
-  $("#sidenav").hover(switchNav);
+  $("#sidenav").hover(openNav, closeNav);
 }

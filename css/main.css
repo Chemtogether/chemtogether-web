@@ -1,62 +1,28 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; }
+  box-sizing: border-box; }
 
-#topnav {
-  transition: margin-left .5s;
-  overflow: hidden; }
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%; }
 
 #main {
-  transition: margin-left .5s;
-  overflow: hidden;
+  overflow-x: hidden;
   min-height: 100vh; }
 
-.sidenav_open {
-  width: 250px !important; }
-
-.sidenav_open_main {
-  margin-left: 250px !important; }
-
-#sidenav {
-  height: 100%;
-  width: 0px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+#topnav, #topnav-container {
   background-color: #2b2b2b;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
-  white-space: nowrap; }
-  @media only screen and (min-width: 600px) {
-    #sidenav {
-      width: 100px; } }
+  overflow: hidden;
+  width: 100%; }
 
 #sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
-  display: block;
-  transition: 0.3s; }
-
-#main {
-  margin-left: 0px; }
-  @media only screen and (min-width: 600px) {
-    #main {
-      margin-left: 100px; } }
-
-#topnav {
-  display: inherit; }
-  @media only screen and (min-width: 600px) {
-    #topnav {
-      display: none; } }
-
-#topnav {
-  background-color: #2b2b2b;
-  overflow: hidden; }
+  display: block; }
 
 #topnav a {
   float: left;
@@ -67,5 +33,64 @@ body {
   text-decoration: none;
   font-size: 17px;
   white-space: nowrap; }
+
+#sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2b2b2b;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  white-space: nowrap; }
+
+#topnav {
+  display: inherit;
+  transition: 0.5s;
+  transform: translate3d(0, 0, 0); }
+
+#sidenav {
+  width: 250px;
+  transform: translate3d(-250px, 0, 0);
+  transition: 0.5s; }
+
+.sidenav_open-content {
+  transform: translate3d(250px, 0, 0) !important; }
+
+.sidenav_open-nav {
+  transform: translate3d(0, 0, 0) !important; }
+
+#main {
+  transition: 0.5s;
+  transform: translate3d(0, 0, 0); }
+
+@media only screen and (min-width: 600px) {
+  #topnav {
+    display: none;
+    transition: 0.5s;
+    transform: translate3d(0, 0, 0); }
+
+  #sidenav {
+    width: 100px;
+    transform: translate3d(0, 0, 0);
+    transition: 0.5s; }
+
+  .sidenav_open-content {
+    transform: translate3d(150px, 0, 0) !important; }
+
+  .sidenav_open-nav {
+    width: 250px !important; }
+
+  #main {
+    margin-left: 100px;
+    transition: 0.5s;
+    transform: translate3d(0, 0, 0); } }
+#content {
+  max-width: 960px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=main.css.map */
