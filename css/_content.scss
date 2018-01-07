@@ -25,11 +25,24 @@
 
 
 
+#main {
+  position:relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+  z-index: 20;
+  background-color: $bg-gray;
+}
 
 
-#content {
+.container {
+  background-color: blue;
+}
+
+
+.content {
   max-width: 960px;
-  width: 95%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  background-color: red;
 }
