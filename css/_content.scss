@@ -26,9 +26,10 @@
 
 
 #main {
-  position:relative;
+  position: relative;
   overflow-x: hidden;
   min-height: 100vh;
+  width: 100vw;
   z-index: 20;
   background-color: $bg-gray;
 }
@@ -36,13 +37,28 @@
 
 .container {
   background-color: blue;
+  width: 100vw;
 }
 
 
 .content {
   max-width: 960px;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   background-color: red;
+}
+
+
+
+@media only screen and (min-width: $bp-medium) {
+
+  #main {
+    width: calc(100vw - #{$closed_width});
+  }
+
+  .container {
+    width: calc(100vw - #{$closed_width});
+  }
+
 }
