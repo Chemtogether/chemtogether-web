@@ -1,93 +1,102 @@
+$opened_width: 250px; //width of sidenav in opened state
+$closed_width: 100px; //width of sidenav in closed state
+$navbar_height: 50px; //height of navbar in mobile design
+
+//type of transition for sliding, check for different options at http://easings.net
+$transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 
 
 
-$opened_width: 250px;
-$closed_width: 100px;
 
-$transition_push: 0.5s;
+//
+// mobile-first: no visible closed sidebar, instead visible navbar
+// applies for all, but is overridden if device larger than $bp-medium
+//
 
-#topnav {
-  display: inherit;
-  transition: $transition_push;
+#topnav, #topnav-container {
+  //display navbar and set initial translation
+  display: block;
+  transition: $transition;
   transform: translate3d(0,0,0);
+
+  //pin navbar to top of page
+  position: fixed;
+  height: $navbar_height;
+  left: 0;
+  top: 0;
 }
+
 
 #sidenav {
+  //set width of sidenav to be constant at $opened_width, but translate outside of viewport by its $opened_width, so its hidden
   width: $opened_width;
   transform: translate3d(-$opened_width,0,0);
-  transition: $transition_push;
+  transition: $transition;
 }
 
+
 .sidenav_open-content {
+  //if sidenav is opened, translate content by $opened_width to the right
   transform: translate3d($opened_width, 0, 0) !important;
 }
 
+
 .sidenav_open-nav {
+  //if sidenav is opened, translate sidenav back into view
   transform: translate3d(0, 0, 0) !important;
 }
 
+
 #main {
-  transition: $transition_push;
+  //set initial transition and set padding to accomodate fixed navbar
+  transition: $transition;
   transform: translate3d(0,0,0);
+  padding-top: $navbar_height;
 }
 
 
+
+
+//
+// desktop-second: hide navbar and instead show fraction of sidenav
+// additional parameters for devices wider than $bp-medium
+//
 
 @media only screen and (min-width: $bp-medium) {
 
-  #topnav {
+  #topnav, #topnav-container {
+    //hide navbar again
     display: none;
-    transition: $transition_push;
-    transform: translate3d(0,0,0);
   }
+
 
   #sidenav {
-    width: $closed_width;
+    //set width of sidenav to be constant at $opened_width and set initial translation back to zero
+    width: $opened_width;
     transform: translate3d(0,0,0);
-    transition: $transition_push;
+    transition: $transition;
   }
+
 
   .sidenav_open-content {
-    transform: translate3d($opened_width - $closed_width, 0, 0) !important;
+    //if sidenav is opened, translate content by $opened_width to the right
+    transform: translate3d($opened_width, 0, 0) !important;
   }
+
 
   .sidenav_open-nav {
-    width: $opened_width !important;
+    //if sidenav is opened, keep translation as before (just fallback)
+    transform: translate3d(0, 0, 0) !important;
   }
 
+
   #main {
-    margin-left: $closed_width;
-    transition: $transition_push;
-    transform: translate3d(0,0,0);
+    //set initial translation of content to $closed_width of sidenav, to hide it up to $closed_width, remember that main has larger z-index than sidenav, so sidenav becomes hidden
+    transition: $transition;
+    transform: translate3d($closed_width,0,0);
+
+    //also reset padding-top to nothing, as there is no navbar to be accomodated
+    padding-top: 0;
   }
 
 }
-
-
-//
-// .sidenav_open-nav {
-//   width: $opened_width !important;
-// }
-// .sidenav_open-content {
-//   transform: translate3d($opened_width, 0, 0) !important;
-//   @media only screen and (min-width: $bp-medium) {transform: translate3d($opened_width - $closed_width, 0, 0) !important;}
-// }
-//
-//
-//
-// #sidenav {
-//   @include sidenav-width;
-// }
-//
-//
-// #main {
-//   @include main-margin;
-//   transition: $transition_push;
-//   transform: translate3d(0,0,0);
-// }
-//
-// #topnav {
-//   @include topnav-display;
-//   transition: $transition_push;
-//   transform: translate3d(0,0,0);
-// }

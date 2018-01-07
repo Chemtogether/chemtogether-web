@@ -2,6 +2,7 @@
   background-color: $ct-gray;
   overflow: hidden;
   width: 100%;
+  z-index: 30;
 }
 
 #sidenav a {
@@ -26,7 +27,7 @@
 #sidenav {
   height: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   top: 0;
   left: 0;
   background-color: $ct-gray;
