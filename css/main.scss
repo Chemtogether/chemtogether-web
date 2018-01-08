@@ -4,6 +4,27 @@
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+@mixin order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
 
 
 $bp-large: 768px;
@@ -13,6 +34,7 @@ $bp-medium: 600px;
 $opened_width: 250px; //width of sidenav in opened state
 $closed_width: 100px; //width of sidenav in closed state
 $navbar_height: 50px; //height of navbar in mobile design
+$footer_height: 300px; //height of footer
 
 //type of transition for sliding, check for different options at http://easings.net
 $transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);

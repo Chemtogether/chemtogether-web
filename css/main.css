@@ -140,7 +140,7 @@ body {
   display: block;
   font-family: montserrat; }
 
-#topnav a {
+#topnav p {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -187,6 +187,10 @@ body {
   transform: translate3d(0, 0, 0);
   padding-top: 50px; }
 
+#footer-container {
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform: translate3d(0, 0, 0); }
+
 @media only screen and (min-width: 600px) {
   #topnav, #topnav-container {
     display: none; }
@@ -205,11 +209,15 @@ body {
   #main {
     transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transform: translate3d(100px, 0, 0);
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  #footer-container {
+    transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: translate3d(100px, 0, 0); } }
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: 100vh;
+  min-height: calc(100vh - 300px);
   width: 100vw;
   z-index: 20;
   background-color: whitesmoke; }
@@ -225,11 +233,29 @@ body {
   margin-right: auto;
   background-color: red; }
 
+#footer-container {
+  position: relative;
+  overflow-x: hidden;
+  height: 300px;
+  width: 100vw;
+  z-index: 20;
+  background-color: #e56b2e; }
+
+#footer {
+  max-width: 960px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #56abd6; }
+
 @media only screen and (min-width: 600px) {
   #main {
     width: calc(100vw - 100px); }
 
   .container {
+    width: calc(100vw - 100px); }
+
+  #footer-container {
     width: calc(100vw - 100px); } }
 
 /*# sourceMappingURL=main.css.map */

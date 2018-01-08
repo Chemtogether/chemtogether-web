@@ -18,7 +18,9 @@ function closeNav() {
   $("#sidenav").removeClass("sidenav_open-nav");
   $("#main").removeClass("sidenav_open-content");
   $("#topnav").removeClass("sidenav_open-content");
+  $("#footer-container").removeClass("sidenav_open-content");
   $("#main").unbind("click",closeNav);
+  $("#footer-container").unbind("click",closeNav);
   $("#sidenav").click(openNav);
 }
 
@@ -26,7 +28,9 @@ function openNav() {
   $("#sidenav").addClass("sidenav_open-nav");
   $("#main").addClass("sidenav_open-content");
   $("#topnav").addClass("sidenav_open-content");
+  $("#footer-container").addClass("sidenav_open-content");
   $("#main").click(closeNav);
+  $("#footer-container").click(closeNav);
   $("#sidenav").unbind("click",openNav);
 }
 

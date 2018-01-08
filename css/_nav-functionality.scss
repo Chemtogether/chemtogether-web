@@ -46,6 +46,12 @@
 }
 
 
+#footer-container {
+  transition: $transition;
+  transform: translate3d(0,0,0);
+}
+
+
 
 
 //
@@ -88,6 +94,12 @@
 
     //also reset padding-top to nothing, as there is no navbar to be accomodated
     padding-top: 0;
+  }
+
+
+  #footer-container {
+    transition: $transition;
+    transform: translate3d($closed_width,0,0);
   }
 
 }
