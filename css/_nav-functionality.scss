@@ -7,12 +7,12 @@
 #topnav, #topnav-container {
   //display navbar and set initial translation
   display: block;
-  transition: $transition;
+  transition: $sidenav-transition;
   transform: translate3d(0,0,0);
 
   //pin navbar to top of page
   position: fixed;
-  height: $navbar_height;
+  height: $navbar-height;
   left: 0;
   top: 0;
 }
@@ -20,15 +20,15 @@
 
 #sidenav {
   //set width of sidenav to be constant at $opened_width, but translate outside of viewport by its $opened_width, so its hidden
-  width: $opened_width;
-  transform: translate3d(-$opened_width,0,0);
-  transition: $transition;
+  width: $sidenav-width_opened;
+  transform: translate3d(-$sidenav-width_opened,0,0);
+  transition: $sidenav-transition;
 }
 
 
 .sidenav_open-content {
   //if sidenav is opened, translate content by $opened_width to the right
-  transform: translate3d($opened_width, 0, 0) !important;
+  transform: translate3d($sidenav-width_opened, 0, 0) !important;
 }
 
 
@@ -39,15 +39,16 @@
 
 
 #main {
-  //set initial transition and set padding to accomodate fixed navbar
-  transition: $transition;
+  //set initial translation and set padding to accomodate fixed navbar
+  transition: $sidenav-transition;
   transform: translate3d(0,0,0);
-  padding-top: $navbar_height;
+  padding-top: $navbar-height;
 }
 
 
 #footer-container {
-  transition: $transition;
+  //set initial translation
+  transition: $sidenav-transition;
   transform: translate3d(0,0,0);
 }
 
@@ -69,15 +70,15 @@
 
   #sidenav {
     //set width of sidenav to be constant at $opened_width and set initial translation back to zero
-    width: $opened_width;
+    width: $sidenav-width_opened;
     transform: translate3d(0,0,0);
-    transition: $transition;
+    transition: $sidenav-transition;
   }
 
 
   .sidenav_open-content {
     //if sidenav is opened, translate content by $opened_width to the right
-    transform: translate3d($opened_width, 0, 0) !important;
+    transform: translate3d($sidenav-width_opened, 0, 0) !important;
   }
 
 
@@ -89,8 +90,8 @@
 
   #main {
     //set initial translation of content to $closed_width of sidenav, to hide it up to $closed_width, remember that main has larger z-index than sidenav, so sidenav becomes hidden
-    transition: $transition;
-    transform: translate3d($closed_width,0,0);
+    transition: $sidenav-transition;
+    transform: translate3d($sidenav-width_closed,0,0);
 
     //also reset padding-top to nothing, as there is no navbar to be accomodated
     padding-top: 0;
@@ -98,8 +99,9 @@
 
 
   #footer-container {
-    transition: $transition;
-    transform: translate3d($closed_width,0,0);
+    //set initial translation of footer to $closed_width of sidenav, to hide the sidenav similar as with #main
+    transition: $sidenav-transition;
+    transform: translate3d($sidenav-width_closed,0,0);
   }
 
 }

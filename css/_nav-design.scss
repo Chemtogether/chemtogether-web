@@ -1,3 +1,17 @@
+#sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: $ct-gray;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+
 #topnav, #topnav-container {
   background-color: $ct-gray;
   overflow: hidden;
@@ -22,18 +36,5 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  white-space: nowrap;
-}
-
-#sidenav {
-  height: 100%;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  background-color: $ct-gray;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
   white-space: nowrap;
 }

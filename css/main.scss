@@ -31,13 +31,13 @@ $bp-large: 768px;
 $bp-medium: 600px;
 
 
-$opened_width: 250px; //width of sidenav in opened state
-$closed_width: 100px; //width of sidenav in closed state
-$navbar_height: 50px; //height of navbar in mobile design
-$footer_height: 300px; //height of footer
+$sidenav-width_opened: 250px; //width of sidenav in opened state
+$sidenav-width_closed: 100px; //width of sidenav in closed state
+$navbar-height: 50px; //height of navbar in mobile design
+$footer-height: 300px; //height of footer
 
 //type of transition for sliding, check for different options at http://easings.net
-$transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+$sidenav-transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 
 $ct-gray: #2b2b2b;
 $ct-orange: rgba(229,107,46,1);
@@ -55,3 +55,4 @@ $bg-gray: rgba(245, 245, 245, 1);
 @import "nav-design";
 @import "nav-functionality";
 @import "content";
+@import "footer";

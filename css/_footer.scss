@@ -1,20 +1,14 @@
-#main {
+#footer-container {
   position: relative;
   overflow-x: hidden;
-  min-height: calc(100vh - #{$footer-height});
+  height: $footer-height;
   width: 100vw;
   z-index: 20;
-  background-color: $bg-gray;
+  background-color: $ct-orange;
 }
 
 
-.container {
-  width: 100vw;
-}
-
-
-.content {
-  text-align: justify;
+#footer {
   max-width: 960px;
   width: 90%;
   margin-left: auto;
@@ -23,14 +17,9 @@
 
 
 
-
 @media only screen and (min-width: $bp-medium) {
 
-  #main {
-    width: calc(100vw - #{$sidenav-width_closed});
-  }
-
-  .container {
+  #footer-container {
     width: calc(100vw - #{$sidenav-width_closed});
   }
 
