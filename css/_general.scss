@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: opensans;
 }
 
 body {
@@ -13,45 +14,45 @@ body {
 
 
 
-.col-s-1 {width: 8.33%;}
-.col-s-2 {width: 16.66%;}
-.col-s-3 {width: 25%;}
-.col-s-4 {width: 33.33%;}
-.col-s-5 {width: 41.66%;}
-.col-s-6 {width: 50%;}
-.col-s-7 {width: 58.33%;}
-.col-s-8 {width: 66.66%;}
-.col-s-9 {width: 75%;}
-.col-s-10 {width: 83.33%;}
-.col-s-11 {width: 91.66%;}
-.col-s-12 {width: 100%;}
+.s-1 {width: 8.33%;}
+.s-2 {width: 16.66%;}
+.s-3 {width: 25%;}
+.s-4 {width: 33.33%;}
+.s-5 {width: 41.66%;}
+.s-6 {width: 50%;}
+.s-7 {width: 58.33%;}
+.s-8 {width: 66.66%;}
+.s-9 {width: 75%;}
+.s-10 {width: 83.33%;}
+.s-11 {width: 91.66%;}
+.s-12 {width: 100%;}
 
 @media only screen and (min-width: $bp-medium) {
-  .col-m-1 {width: 8.33%;}
-  .col-m-2 {width: 16.66%;}
-  .col-m-3 {width: 25%;}
-  .col-m-4 {width: 33.33%;}
-  .col-m-5 {width: 41.66%;}
-  .col-m-6 {width: 50%;}
-  .col-m-7 {width: 58.33%;}
-  .col-m-8 {width: 66.66%;}
-  .col-m-9 {width: 75%;}
-  .col-m-10 {width: 83.33%;}
-  .col-m-11 {width: 91.66%;}
-  .col-m-12 {width: 100%;}
+  .m-1 {width: 8.33%;}
+  .m-2 {width: 16.66%;}
+  .m-3 {width: 25%;}
+  .m-4 {width: 33.33%;}
+  .m-5 {width: 41.66%;}
+  .m-6 {width: 50%;}
+  .m-7 {width: 58.33%;}
+  .m-8 {width: 66.66%;}
+  .m-9 {width: 75%;}
+  .m-10 {width: 83.33%;}
+  .m-11 {width: 91.66%;}
+  .m-12 {width: 100%;}
 }
 
 @media only screen and (min-width: $bp-large) {
-  .col-l-1 {width: 8.33%;}
-  .col-l-2 {width: 16.66%;}
-  .col-l-3 {width: 25%;}
-  .col-l-4 {width: 33.33%;}
-  .col-l-5 {width: 41.66%;}
-  .col-l-6 {width: 50%;}
-  .col-l-7 {width: 58.33%;}
-  .col-l-8 {width: 66.66%;}
-  .col-l-9 {width: 75%;}
-  .col-l-10 {width: 83.33%;}
-  .col-l-11 {width: 91.66%;}
-  .col-l-12 {width: 100%;}
+  .l-1 {width: 8.33%;}
+  .l-2 {width: 16.66%;}
+  .l-3 {width: 25%;}
+  .l-4 {width: 33.33%;}
+  .l-5 {width: 41.66%;}
+  .l-6 {width: 50%;}
+  .l-7 {width: 58.33%;}
+  .l-8 {width: 66.66%;}
+  .l-9 {width: 75%;}
+  .l-10 {width: 83.33%;}
+  .l-11 {width: 91.66%;}
+  .l-12 {width: 100%;}
 }

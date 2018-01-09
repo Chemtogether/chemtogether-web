@@ -1,2 +1,0 @@
-# chemtogether-web
-Chemtogether Website

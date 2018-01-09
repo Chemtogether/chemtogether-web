@@ -35,6 +35,7 @@
 .sidenav_open-nav {
   //if sidenav is opened, translate sidenav back into view
   transform: translate3d(0, 0, 0) !important;
+  transition: $sidenav-transition;
 }
 
 
@@ -75,6 +76,12 @@
     transition: $sidenav-transition;
   }
 
+  #sidenav:after {
+    //pseudo-shadow element is positioned to the right of sidenav
+    transform: translate3d($sidenav-width_closed,0,0);
+    transition: $sidenav-transition;
+  }
+
 
   .sidenav_open-content {
     //if sidenav is opened, translate content by $opened_width to the right
@@ -85,6 +92,11 @@
   .sidenav_open-nav {
     //if sidenav is opened, keep translation as before (just fallback)
     transform: translate3d(0, 0, 0) !important;
+  }
+
+  .sidenav_open-nav:after {
+    //upon opening of the sidenav, move the shadow pseudo element with the main
+    transform: translate3d($sidenav-width_opened, 0, 0) !important;
   }
 
 

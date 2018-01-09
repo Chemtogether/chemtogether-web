@@ -12,6 +12,29 @@
 }
 
 
+#sidenav:after {
+  box-shadow: -3px 0px 6px rgba(0,0,0,0.16), -3px 0px 6px rgba(0,0,0,0.23);
+  content: " ";
+  height: 100%;
+  right: -10px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+@media only screen and (min-width: $bp-medium) {
+  #sidenav:after {
+    box-shadow: -3px 0px 6px rgba(0,0,0,0.16), -3px 0px 6px rgba(0,0,0,0.23);
+    content: " ";
+    height: 100%;
+    right: calc(#{$sidenav-width_opened} - 10px);
+    position: absolute;
+    top: 0;
+    width: 10px;
+  }
+}
+
+
 #topnav, #topnav-container {
   background-color: $ct-gray;
   overflow: hidden;
