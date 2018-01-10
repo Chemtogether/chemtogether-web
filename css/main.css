@@ -171,18 +171,32 @@ body {
   display: block;
   font-family: montserrat; }
 
-#topnav p {
-  float: left;
-  display: block;
+#topnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+
+#topnav div {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
   text-decoration: none;
   font-size: 17px;
   white-space: nowrap; }
 
+#topnav-left, #topnav-right {
+  flex-grow: 0; }
+
+#topnav-center {
+  height: 1px;
+  flex-grow: 1;
+  background-color: #f2f2f2; }
+
 #topnav, #topnav-container {
-  display: block;
   transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: translate3d(0, 0, 0);
   position: fixed;

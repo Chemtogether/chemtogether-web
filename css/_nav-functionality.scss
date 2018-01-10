@@ -6,7 +6,6 @@
 
 #topnav, #topnav-container {
   //display navbar and set initial translation
-  display: block;
   transition: $sidenav-transition;
   transform: translate3d(0,0,0);
 

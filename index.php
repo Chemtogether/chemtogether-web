@@ -16,6 +16,9 @@
   <!-- css includes -->
   <link rel="stylesheet" href="/css/main.css"/>
 
+  <!-- js includes -->
+  <script type="text/javascript" src="/js/fontawesome.js"></script>
+
 
 </head>
 
@@ -28,9 +31,14 @@
 
   <div id="topnav-container">
     <div id="topnav">
-      <p onclick="switchNav()">
-        Open soifhaspoghaepo
-      </p>
+      <div id="topnav-left" onclick="switchNav()">
+        <i class="fas fa-bars"></i>&nbsp;&nbsp;Menu
+      </div>
+      <div id="topnav-center">
+      </div>
+      <div id="topnav-right">
+        Chemtogether 2018
+      </div>
     </div>
   </div>
 
