@@ -24,17 +24,24 @@
 
 <body>
   <div id="sidenav">
-    <a href="#">About</a>
-    <a href="#">Features</a>
-    <a href="#">Contact Us</a>
+    <div id="sidenav-logo">
+      <img id="sidenav-logo-closed" src="/img/logo/chemtogether_empty_1x.png"></img>
+      <img id="sidenav-logo-opened" src="/img/logo/chemtogether_full_1x.png"></img>
+    </div>
+    <a href="#">Home</a>
+    <a href="#">The Fair</a>
+    <a href="#">The Companies</a>
+    <a href="#">The Team</a>
+    <a href="#">Archive</a>
+    <a href="#">For Companies</a>
   </div>
 
   <div id="topnav-container">
     <div id="topnav">
+      <div id="topnav-bg">
+      </div>
       <div id="topnav-left" onclick="switchNav()">
         <i class="fas fa-bars"></i>&nbsp;&nbsp;Menu
-      </div>
-      <div id="topnav-center">
       </div>
       <div id="topnav-right">
         Chemtogether 2018

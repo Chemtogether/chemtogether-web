@@ -37,10 +37,11 @@
 
 #topnav, #topnav-container {
   background-color: $ct-gray;
-  overflow: hidden;
-  width: 100%;
+  overflow-x: hidden;
+  width: 100vw;
   z-index: 30;
 }
+
 
 #sidenav a {
   padding: 8px 8px 8px 32px;
@@ -52,37 +53,77 @@
 }
 
 
+#sidenav-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 72px;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #sidenav-logo-closed {
+    opacity: 1;
+  }
+
+  #sidenav-logo-opened {
+    opacity: 0;
+  }
+}
 
 
+.sidenav_open-nav #sidenav-logo-opened {
+  opacity: 1 !important;
+}
 
-#topnav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+.sidenav_open-nav #sidenav-logo-closed {
+  opacity: 0 !important;
 }
 
 
 
 
-#topnav div {
+
+
+
+#topnav-left, #topnav-right {
+  position: relative;
+  display: inline;
   color: $topnav-main;
+  background-color: $ct-gray;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 14px;
+  margin-bottom: 13px;
   text-decoration: none;
   font-size: 17px;
   white-space: nowrap;
+  z-index: 25;
 }
 
-#topnav-left, #topnav-right {
-  flex-grow: 0;
+#topnav-left {
+  float: left;
 }
 
-#topnav-center {
+#topnav-right {
+  float: right;
+}
+
+#topnav-bg {
+  margin-top: 26px;
+  margin-left: 50px;
+  margin-top: 26px;
+  z-index: 22;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   height: 1px;
-  flex-grow: 1;
+  width: 100vw;
   background-color: $topnav-main;
 }
