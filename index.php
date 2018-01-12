@@ -36,16 +36,14 @@
     <a href="#">For Companies</a>
   </div>
 
-  <div id="topnav-container">
-    <div id="topnav">
-      <div id="topnav-bg">
-      </div>
-      <div id="topnav-left" onclick="switchNav()">
-        <i class="fas fa-bars"></i>&nbsp;&nbsp;Menu
-      </div>
-      <div id="topnav-right">
-        Chemtogether 2018
-      </div>
+  <div id="topnav">
+    <div id="topnav-left" onclick="switchNav()">
+      <i class="fas fa-bars"></i>&nbsp;&nbsp;Menu
+    </div>
+    <div id="topnav-center">
+    </div>
+    <div id="topnav-right">
+      Chemtogether 2018
     </div>
   </div>
 

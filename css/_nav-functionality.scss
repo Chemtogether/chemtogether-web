@@ -4,7 +4,7 @@
 // applies for all, but is overridden if device larger than $bp-medium
 //
 
-#topnav, #topnav-container {
+#topnav {
   //display navbar and set initial translation
   transition: $sidenav-transition;
   transform: translate3d(0,0,0);
@@ -62,7 +62,7 @@
 
 @media only screen and (min-width: $bp-medium) {
 
-  #topnav, #topnav-container {
+  #topnav {
     //hide navbar again
     display: none;
   }
