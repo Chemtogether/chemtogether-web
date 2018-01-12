@@ -11,12 +11,14 @@
 
 .container {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 
 .content {
   max-width: 960px;
   width: 90%;
+  overflow-x: hidden;
   margin-left: auto;
   margin-right: auto;
 }

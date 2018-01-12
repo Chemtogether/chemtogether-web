@@ -195,7 +195,7 @@ body {
 #topnav-left, #topnav-right {
   position: relative;
   display: inline;
-  color: #f2f2f2;
+  color: blue;
   background-color: #2b2b2b;
   text-align: center;
   margin-left: 10px;
@@ -294,11 +294,13 @@ body {
   background-color: whitesmoke; }
 
 .container {
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden; }
 
 .content {
   max-width: 960px;
   width: 90%;
+  overflow-x: hidden;
   margin-left: auto;
   margin-right: auto; }
 
