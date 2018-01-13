@@ -1,7 +1,7 @@
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: calc(100vh - #{$footer-height});
+  min-height: 100vh;
   width: 100vw;
   z-index: 20;
   background-color: $bg-gray;

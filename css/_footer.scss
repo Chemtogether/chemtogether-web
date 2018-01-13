@@ -1,7 +1,6 @@
 #footer-container {
   position: relative;
   overflow-x: hidden;
-  height: $footer-height;
   width: 100vw;
   z-index: 20;
   background-color: $ct-orange;
@@ -13,7 +12,102 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
+
+.footer-left, .footer-right {
+  position: relative;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.footer-left {
+  order: 2;
+}
+
+.footer-right {
+  order: 1;
+  padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#date-day1, #date-day2, #date-month, #date-year {
+  color: $text-white;
+  font-family: montserrat;
+  font-size: 50px;
+  font-size: 10vw;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+
+  .date-bar {
+    flex-grow: 1;
+    height: 1px;
+    height: .5vw;
+    background-color: $text-white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
+@media only screen and (min-width: $bp-large) {
+  .footer-left {
+    order: 1;
+  }
+
+  .footer-right {
+    order: 2;
+  }
+
+  #date-day1, #date-day2, #date-month, #date-year {
+    font-size: 80px !important;
+  }
+
+  .date-bar {
+    height: 5px !important;
+  }
+}
+
+
+@media only screen and (min-width: $bp-max + $sidenav-width_closed) {
+
+  #date-day1, #date-day2, #date-month, #date-year {
+    font-size: 100px !important;
+  }
+
+  .date-bar {
+    height: 5px !important;
+  }
+
+}
+
+
+
 
 
 
@@ -23,4 +117,37 @@
     width: calc(100vw - #{$sidenav-width_closed});
   }
 
+}
+
+
+
+#contact-container {
+  color: $text-white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 25px;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer-text {
+  color: $text-white;
+  font-family: opensans;
+  font-size: 16px;
+
+  #footer-text-3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

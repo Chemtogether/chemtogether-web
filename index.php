@@ -65,16 +65,42 @@
 
 
   <div id="footer-container">
-    <div id="footer">
-      saguhapghp9rughwpghswrgh
+    <div id="footer" class="flex">
+      <div class="footer-left l-4 m-12 s-12">
+        <span id="footer-text">
+          <span id="footer-text-1">Chemtogether<br></span>
+          <span id="footer-text-2">Career fair at ETH Zurich<br></span>
+          <p id="footer-text-3"><br>
+            info@chemtogether.ethz.ch<br>
+            VCS, Postfach 84<br>
+            Wolfgang-Pauli-Str. 9<br>
+            8093 Zürich<br><br></span>
+          </p>
+        </div>
+        <div class="footer-right l-8 m-12 s-12">
+          <div class="date-container">
+            <span id="date-day1">6</span>
+            <span class="date-bar"></span>
+            <span id="date-day2">7</span>
+          </div>
+          <div class="date-container">
+            <span id="date-month">Nov.</span>
+            <span id="date-year">2018</span>
+          </div>
+          <span id="contact-container">
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+          </span>
+        </div>
+      </div>
     </div>
-  </div>
 
 
 
-  <!-- js includes -->
-  <script type="text/javascript" src="/js/jquery.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
+    <!-- js includes -->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
 
-</body>
-</html>
+  </body>
+  </html>

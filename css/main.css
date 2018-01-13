@@ -4,8 +4,38 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-family: 'opensans-condensed';
+  src: url("/css/fonts/Open_Sans_condensed/OpenSansCondensed-Light.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'montserrat';
   src: url("/css/fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url("/css/fonts/Montserrat/Montserrat-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'cabin';
+  src: url("/css/fonts/Cabin/Cabin-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'dosis';
+  src: url("/css/fonts/Dosis/Dosis-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'poppins';
+  src: url("/css/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'saira';
+  src: url("/css/fonts/Saira/SairaCondensed-Regular.ttf");
   font-weight: normal;
   font-style: normal; }
 * {
@@ -128,7 +158,7 @@ body {
   .l-12 {
     width: 100%; } }
 #sidenav {
-  height: 100%;
+  min-height: 100%;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -168,7 +198,7 @@ body {
 #sidenav a {
   padding: 8px 8px 8px 23px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: #818181;
   display: block;
   font-family: montserrat; }
@@ -283,7 +313,7 @@ body {
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: calc(100vh - 300px);
+  min-height: 100vh;
   width: 100vw;
   z-index: 20;
   background-color: whitesmoke; }
@@ -319,7 +349,6 @@ body {
 #footer-container {
   position: relative;
   overflow-x: hidden;
-  height: 300px;
   width: 100vw;
   z-index: 20;
   background-color: #e56b2e; }
@@ -328,10 +357,86 @@ body {
   max-width: 960px;
   width: 90%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: center; }
 
+.footer-left, .footer-right {
+  position: relative;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.footer-left {
+  order: 2; }
+
+.footer-right {
+  order: 1;
+  padding-bottom: 100px; }
+
+#date-day1, #date-day2, #date-month, #date-year {
+  color: white;
+  font-family: montserrat;
+  font-size: 50px;
+  font-size: 10vw; }
+
+.date-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto; }
+  .date-container .date-bar {
+    flex-grow: 1;
+    height: 1px;
+    height: .5vw;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px; }
+
+@media only screen and (min-width: 768px) {
+  .footer-left {
+    order: 1; }
+
+  .footer-right {
+    order: 2; }
+
+  #date-day1, #date-day2, #date-month, #date-year {
+    font-size: 80px !important; }
+
+  .date-bar {
+    height: 5px !important; } }
+@media only screen and (min-width: 1060px) {
+  #date-day1, #date-day2, #date-month, #date-year {
+    font-size: 100px !important; }
+
+  .date-bar {
+    height: 5px !important; } }
 @media only screen and (min-width: 600px) {
   #footer-container {
     width: calc(100vw - 100px); } }
+#contact-container {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 25px;
+  padding-right: 15px; }
+
+#footer-text {
+  color: white;
+  font-family: opensans;
+  font-size: 16px; }
+  #footer-text #footer-text-3 {
+    font-size: 12px;
+    line-height: 16px; }
 
 /*# sourceMappingURL=main.css.map */

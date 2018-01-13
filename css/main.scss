@@ -26,7 +26,7 @@
   order: $val;
 }
 
-
+$bp-max: 960px;
 $bp-large: 768px;
 $bp-medium: 600px;
 
@@ -34,7 +34,6 @@ $bp-medium: 600px;
 $sidenav-width_opened: 250px; //width of sidenav in opened state
 $sidenav-width_closed: 100px; //width of sidenav in closed state
 $navbar-height: 50px; //height of navbar in mobile design
-$footer-height: 300px; //height of footer
 
 //type of transition for sliding, check for different options at http://easings.net
 $sidenav-transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -48,6 +47,7 @@ $pg-gold: rgb(212,175,55);
 $pg-platinum: rgb(229,228,226);
 
 $bg-gray: rgba(245, 245, 245, 1);
+$text-white: white;
 
 $topnav-main: #f2f2f2;
 $sidenav-main: #818181;
