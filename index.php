@@ -66,18 +66,28 @@
 
   <div id="footer-container">
     <div id="footer" class="flex">
-      <div class="footer-left l-4 m-12 s-12">
+      <div class="footer-left l-5 m-12 s-12">
         <span id="footer-text">
-          <span id="footer-text-1">Chemtogether<br></span>
-          <span id="footer-text-2">Career fair at ETH Zurich<br></span>
-          <p id="footer-text-3"><br>
+          <span class="footer-text-1">Chemtogether<br></span>
+          <span class="footer-text-2">Annual career fair<br>at ETH Zurich<br><br><br></span>
+          <span class="footer-text-3">Contact<br></span>
+          <p class="footer-text-4">
             info@chemtogether.ethz.ch<br>
+          </p><br><br>
+          <span class="footer-text-3">Mailing address<br></span>
+          <p class="footer-text-4">
             VCS, Postfach 84<br>
             Wolfgang-Pauli-Str. 9<br>
-            8093 Zürich<br><br></span>
+            8093 Zürich<br></span>
+          </p><br><br>
+          <span class="footer-text-3">Organisation<br></span>
+          <p class="footer-text-4">
+            A joint effort of <a href="http://vcs.ethz.ch">VCS</a> and <a href="http://vac.ethz.ch">VAC</a><br>
+            supported by <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a>
+            </span>
           </p>
         </div>
-        <div class="footer-right l-8 m-12 s-12">
+        <div class="footer-right l-7 m-12 s-12">
           <div class="date-container">
             <span id="date-day1">6</span>
             <span class="date-bar"></span>
@@ -88,9 +98,9 @@
             <span id="date-year">2018</span>
           </div>
           <span id="contact-container">
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href="mailto:info@chemtogether.ethz.ch"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.facebook.com/chemtogether/"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
           </span>
         </div>
       </div>

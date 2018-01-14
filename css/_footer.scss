@@ -23,7 +23,7 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 35px;
 }
 
 
@@ -76,6 +76,7 @@
 
 
 @media only screen and (min-width: $bp-large) {
+
   .footer-left {
     order: 1;
   }
@@ -85,7 +86,7 @@
   }
 
   #date-day1, #date-day2, #date-month, #date-year {
-    font-size: 80px !important;
+    font-size: 70px !important;
   }
 
   .date-bar {
@@ -122,13 +123,17 @@
 
 
 #contact-container {
-  color: $text-white;
-  font-size: 40px;
   position: absolute;
   bottom: 0px;
   right: 0px;
   margin-bottom: 25px;
   padding-right: 15px;
+
+  a {
+    color: $text-white;
+    font-size: 40px;
+    padding-left: 5px;
+  }
 }
 
 
@@ -142,12 +147,34 @@
 
 
 #footer-text {
+  display: block;
   color: $text-white;
   font-family: opensans;
   font-size: 16px;
+  padding-top: 20px;
 
-  #footer-text-3 {
-    font-size: 12px;
-    line-height: 16px;
+  .footer-text-1 {
+    font-family: montserrat;
+    font-size: 26px;
+  }
+
+  .footer-text-2 {
+    font-family: opensans;
+    font-size: 18px;
+  }
+
+  .footer-text-3 {
+    font-family: montserrat;
+    font-size: 18px;
+  }
+
+  .footer-text-4 {
+    font-size: 16px;
+    a {
+      color: $text-white;
+      font-family: opensans;
+      font-size: 16px;
+      text-decoration: none;
+    }
   }
 }

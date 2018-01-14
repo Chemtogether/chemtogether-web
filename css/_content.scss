@@ -1,7 +1,7 @@
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: 100vh;
+  min-height: calc(100vh - 494px);
   width: 100vw;
   z-index: 20;
   background-color: $bg-gray;
