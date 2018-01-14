@@ -50,6 +50,22 @@
   <div id="main">
 
     <div class="container">
+      <div id="slideshow-container">
+        <ul class="slideshow">
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+        </ul>
+        <ul class="overlay">
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+        </ul>
+      </div>
       <div class="content flex">
         <div class="text l-6 m-12 s-12">
           Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
@@ -84,33 +100,33 @@
           <p class="footer-text-4">
             A joint effort of <a href="http://vcs.ethz.ch">VCS</a> and <a href="http://vac.ethz.ch">VAC</a><br>
             supported by <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a>
-            </span>
-          </p>
-        </div>
-        <div class="footer-right l-7 m-12 s-12">
-          <div class="date-container">
-            <span id="date-day1">6</span>
-            <span class="date-bar"></span>
-            <span id="date-day2">7</span>
-          </div>
-          <div class="date-container">
-            <span id="date-month">Nov.</span>
-            <span id="date-year">2018</span>
-          </div>
-          <span id="contact-container">
-            <a href="mailto:info@chemtogether.ethz.ch"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.facebook.com/chemtogether/"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
           </span>
+        </p>
+      </div>
+      <div class="footer-right l-7 m-12 s-12">
+        <div class="date-container">
+          <span id="date-day1">6</span>
+          <span class="date-bar"></span>
+          <span id="date-day2">7</span>
         </div>
+        <div class="date-container">
+          <span id="date-month">Nov.</span>
+          <span id="date-year">2018</span>
+        </div>
+        <span id="contact-container">
+          <a href="mailto:info@chemtogether.ethz.ch"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.facebook.com/chemtogether/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
+        </span>
       </div>
     </div>
+  </div>
 
 
 
-    <!-- js includes -->
-    <script type="text/javascript" src="/js/jquery.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+  <!-- js includes -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
 
-  </body>
-  </html>
+</body>
+</html>
