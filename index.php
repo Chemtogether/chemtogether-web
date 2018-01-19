@@ -65,6 +65,31 @@
           <li><span></span></li>
           <li><span></span></li>
         </ul>
+        <div id="home-top">
+          <div class="date-container">
+            <span id="date-day1">6</span>
+            <span class="date-bar"></span>
+            <span id="date-day2">7</span>
+          </div>
+          <div class="date-container">
+            <span id="date-month">Nov.</span>
+            <span id="date-year">2018</span>
+          </div>
+          <div class="date-container">
+            <span id="date-place">HCI G-floor</span>
+            <span id="date-time">9.00 - 17.00</span>
+          </div>
+        </div>
+        <div id="home-bottom">
+          <div id="link-container">
+            <div id="link-visitors">
+              <a href="/fair"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for visitors</span></a>
+            </div>
+            <div id="link-companies">
+              <a href="/companies"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for companies</span></a>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="content flex">
         <div class="text l-6 m-12 s-12">

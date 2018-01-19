@@ -38,6 +38,7 @@ $navbar-height: 50px; //height of navbar in mobile design
 //type of transition for sliding, check for different options at http://easings.net
 $sidenav-transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 $sidenav_logo-transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s;
+$slideshow_link-transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 
 $ct-gray: #2b2b2b;
 $ct-orange: rgba(229,107,46,1);
