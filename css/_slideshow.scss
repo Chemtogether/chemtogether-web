@@ -147,7 +147,8 @@
   height: 50%;
   width: 100%;
   opacity: 0;
-  animation: homeAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1s forwards;
+  animation: homeAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  animation-delay: 2.25s;
 }
 
 #home-top {
