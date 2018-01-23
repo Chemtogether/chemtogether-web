@@ -140,6 +140,28 @@ body {
   transition: 0.5s;
   white-space: nowrap;
   will-change: transform; }
+  #sidenav .sidenav-link {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    background-color: inherit;
+    display: block;
+    font-family: montserrat;
+    transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: translate3d(0, 0, 0); }
+  #sidenav .sidenav-link:hover:before {
+    content: '/';
+    position: fixed;
+    animation: navpseudoAnimation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-fill-mode: both; }
+  #sidenav .sidenav-link:hover {
+    color: #e56b2e;
+    transform: translate3d(10px, 0, 0); }
+  #sidenav #active {
+    color: white; }
+  #sidenav #active:hover {
+    color: #56abd6; }
 
 #sidenav:after {
   box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.16), -3px 0px 6px rgba(0, 0, 0, 0.23);
@@ -167,14 +189,6 @@ body {
   width: 100vw;
   z-index: 25; }
 
-#sidenav a {
-  padding: 8px 8px 8px 23px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  font-family: montserrat; }
-
 #sidenav-logo {
   margin-left: auto;
   margin-right: auto;
@@ -197,6 +211,26 @@ body {
 
   .sidenav_open-nav #sidenav-logo-opened {
     opacity: 1.0 !important; } }
+#sidenav-language {
+  width: 250px;
+  text-align: center;
+  font-family: montserrat;
+  color: #818181; }
+  #sidenav-language a {
+    text-decoration: none;
+    font-family: montserrat;
+    color: #818181;
+    transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  #sidenav-language a:hover {
+    color: #e56b2e; }
+  #sidenav-language #active {
+    color: white; }
+  #sidenav-language #active:hover {
+    color: #56abd6; }
+
+@media only screen and (min-width: 600px) {
+  #sidenav-language {
+    width: 100px; } }
 #topnav {
   display: flex;
   flex-direction: row;
@@ -223,6 +257,13 @@ body {
   flex-grow: 1;
   background-color: #f2f2f2; }
 
+@keyframes navpseudoAnimation {
+  0% {
+    color: transparent;
+    transform: translate3d(0, 0, 0); }
+  100% {
+    color: inherit;
+    transform: translate3d(-10px, 0, 0); } }
 #topnav {
   transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: translate3d(0, 0, 0);
@@ -428,6 +469,8 @@ body {
       font-family: opensans;
       font-size: 16px;
       text-decoration: none; }
+    #footer-text .footer-text-4 a:hover {
+      text-decoration: underline; }
 
 .slideshow {
   position: absolute;
@@ -609,7 +652,6 @@ body {
     transition: text-decoration-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 #link-companies a:hover, #link-visitors a:hover {
-  color: #e56b2e;
   transform: translate3d(15px, 0, 0) !important; }
   #link-companies a:hover span, #link-visitors a:hover span {
     text-decoration: underline;

@@ -11,23 +11,17 @@ include('php/language_cookie.php');
 // creates $lang array and provides translation text for common elements (navigation and footer)
 include('includes/language.php');
 
+// include all translations from local file
+include('lang.php');
 
 
-//
-// GENERAL SETTINGS FOR THIS PAGE
-//
+// GENERAL
 
-$lang['general']['page_title'] = array('Test1', 'Test2');
-$lang['navigation']['topnav_title']= array('Test1', 'Test2');
-
-
+$active_nav = 'home';
 
 
 
 ?>
-
-
-
 <?php include('includes/head.php');  ?>
 <?php include('includes/nav.php');  ?>
 
@@ -69,10 +63,10 @@ $lang['navigation']['topnav_title']= array('Test1', 'Test2');
       <div id="home-bottom">
         <div id="link-container">
           <div id="link-visitors">
-            <a href="/fair"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for visitors</span></a>
+            <a href="/fair/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for visitors</span></a>
           </div>
           <div id="link-companies">
-            <a href="/companies"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for companies</span></a>
+            <a href="/companies/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for companies</span></a>
           </div>
         </div>
       </div>
