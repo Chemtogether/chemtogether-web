@@ -15,6 +15,10 @@
   overflow-x: hidden;
 }
 
+.spacer {
+  height: 25px;
+}
+
 
 .content {
   max-width: 960px;
@@ -38,6 +42,51 @@
 }
 
 
+.title {
+  position: relative;
+  max-width: 1100px;
+  width: 90%;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  .title-text {
+    position: relative;
+    float: left;
+    font-family: montserrat;
+    font-size: 25px;
+    font-size: 10vw;
+    background-color: $bg-gray;
+    padding-right: 25px;
+    animation: titletextAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+  }
+}
+
+.title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  animation: titlebarAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+  animation-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: $bp-medium) {
@@ -50,4 +99,27 @@
     width: calc(100vw - #{$sidenav-width_closed});
   }
 
+  .title .title-text {
+    font-size: 75px;
+  }
+
+}
+
+
+@keyframes titlebarAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes titletextAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
