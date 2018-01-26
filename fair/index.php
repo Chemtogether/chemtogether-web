@@ -30,13 +30,19 @@ $active_nav = 'fair';
 <div id="main">
 
   <div class="container">
+
     <div class="spacer">
     </div>
+
     <div class="title">
       <span class="title-text">
-        The Fair
+        <?php echo($lang['content']['title'][$eng]); ?>
       </span>
     </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="content flex">
       <div class="text l-6 m-12 s-12">
         Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
@@ -47,8 +53,13 @@ $active_nav = 'fair';
         Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
       </div>
     </div>
+
     <div class="spacer">
     </div>
+
+    <div class="spacer">
+    </div>
+
   </div>
 
 

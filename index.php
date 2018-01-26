@@ -12,7 +12,7 @@ include('php/language_cookie.php');
 include('includes/language.php');
 
 // include all translations from local file
-include('lang.php');
+include('./lang.php');
 
 
 // GENERAL
@@ -30,6 +30,7 @@ $active_nav = 'home';
 <div id="main">
 
   <div class="container">
+
     <div id="slideshow-container">
       <ul class="slideshow">
         <li><span></span></li>
@@ -71,6 +72,20 @@ $active_nav = 'home';
         </div>
       </div>
     </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="title">
+      <span class="title-text">
+        <?php echo($lang['content']['title'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+
     <div class="content flex">
       <div class="text l-6 m-12 s-12">
         Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
@@ -81,6 +96,13 @@ $active_nav = 'home';
         Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
       </div>
     </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
   </div>
 
 
