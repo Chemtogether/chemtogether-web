@@ -55,7 +55,7 @@
     float: left;
     font-family: montserrat;
     font-size: 25px;
-    font-size: 10vw;
+    font-size: 8vw;
     background-color: $bg-gray;
     padding-right: 25px;
     animation: titletextAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
@@ -76,7 +76,28 @@
 
 
 
+.section {
+  position: relative;
+  max-width: 960px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 
+  span {
+    height: 100%;
+    font-family: montserrat;
+    font-size: 20px;
+    font-size: calc(18px + 1vw);
+  }
+
+  .section-slashes span:nth-child(1) {
+    color: $ct-blue;
+  }
+
+  .section-slashes span:nth-child(2) {
+    color: $ct-orange;
+  }
+}
 
 
 
@@ -103,6 +124,14 @@
     font-size: 75px;
   }
 
+  .section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section span {
+    font-size: 30px;
+  }
 }
 
 

@@ -369,7 +369,7 @@ body {
     float: left;
     font-family: montserrat;
     font-size: 25px;
-    font-size: 10vw;
+    font-size: 8vw;
     background-color: whitesmoke;
     padding-right: 25px;
     animation: titletextAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; }
@@ -385,6 +385,22 @@ body {
   animation: titlebarAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) both;
   animation-delay: 1s; }
 
+.section {
+  position: relative;
+  max-width: 960px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .section span {
+    height: 100%;
+    font-family: montserrat;
+    font-size: 20px;
+    font-size: calc(18px + 1vw); }
+  .section .section-slashes span:nth-child(1) {
+    color: #56abd6; }
+  .section .section-slashes span:nth-child(2) {
+    color: #e56b2e; }
+
 @media only screen and (min-width: 600px) {
   #main {
     width: calc(100vw - 100px); }
@@ -393,7 +409,14 @@ body {
     width: calc(100vw - 100px); }
 
   .title .title-text {
-    font-size: 75px; } }
+    font-size: 75px; }
+
+  .section {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .section span {
+    font-size: 30px; } }
 @keyframes titlebarAnimation {
   0% {
     width: 0%; }

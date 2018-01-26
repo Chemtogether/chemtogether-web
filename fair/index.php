@@ -57,6 +57,29 @@ $active_nav = 'fair';
     <div class="spacer">
     </div>
 
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        Supporting Programme
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-6 m-12 s-12">
+        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
+        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      </div>
+      <div class="text l-6 m-12 s-12">
+        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
+        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="spacer">
     </div>
 
