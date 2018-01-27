@@ -8,6 +8,22 @@ $lang['navigation']['topnav_title']= array('Test1', 'Test3');
 
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
+$lang['content']['slideshow_floor'] = array('Stock','floor');
+$lang['content']['slideshow_linkcompanies'] = array('Informationen für Firmen','Information for companies');
+$lang['content']['slideshow_linkvisitors'] = array('Informationen für Besucher','Information for visitors');
+
+
+
+$lang['content']['intro_text'] = array(
+  'Zum sechsten Mal findet die Chemtogether in diesem Jahr am 6. & 7. November 2018 statt und präsentiert achtzehn Unternehmen der chemischen und pharamzeutischen Industrie. Als ein gemeinsames Projekt der Studentenorganisation, VCS, und der Vereinigung der Doktorierenden, VAC, laden wir alle Studenten, Doktoranden und externe Besucher dazu ein, erste Kontakte mit möglichen Arbeitgebern auf der Chemtogether zu knüpfen.',
+  'In its sixth iteration, this year\'s Chemtogether will take place on the 6. & 7. November, 2018, and features eighteen companies from the chemical and pharmaceutical industry. As a joint effort between the student association, VCS, and the association of PhD students, VAC, of the department of chemistry D-CHAB at the ETH Zürich, we welcome all students, PhDs and external visitors to forge first links with potential employers at Chemtogether.');
+
+
+
+
+
+
+
 
 
 ?>

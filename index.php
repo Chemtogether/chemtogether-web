@@ -57,17 +57,17 @@ $active_nav = 'home';
           <span id="date-year">2018</span>
         </div>
         <div class="date-container">
-          <span id="date-place">HCI G-floor</span>
+          <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>
           <span id="date-time">9.00 - 17.00</span>
         </div>
       </div>
       <div id="home-bottom">
         <div id="link-container">
           <div id="link-visitors">
-            <a href="/fair/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for visitors</span></a>
+            <a href="/fair/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkvisitors'][$eng]); ?></span></a>
           </div>
           <div id="link-companies">
-            <a href="/companies/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span>Information for companies</span></a>
+            <a href="/companies/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkcompanies'][$eng]); ?></span></a>
           </div>
         </div>
       </div>
@@ -87,13 +87,8 @@ $active_nav = 'home';
 
 
     <div class="content flex">
-      <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-      </div>
-      <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
     </div>
 

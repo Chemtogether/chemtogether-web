@@ -14,12 +14,12 @@
 
   <br>
 
-  <a class="sidenav-link" id="<?php if($active_nav == 'home') echo('active'); ?>" href="/">Home</a>
-  <a class="sidenav-link" id="<?php if($active_nav == 'fair') echo('active'); ?>" href="/fair/">The Fair</a>
-  <a class="sidenav-link" id="<?php if($active_nav == 'companies') echo('active'); ?>" href="/companies/">The Companies</a>
-  <a class="sidenav-link" id="<?php if($active_nav == 'aboutus') echo('active'); ?>" href="/aboutus/">The Team</a>
-  <a class="sidenav-link" id="<?php if($active_nav == 'archive') echo('active'); ?>" href="/archive/">Archive</a>
-  <a class="sidenav-link" id="<?php if($active_nav == 'exhibitors') echo('active'); ?>" href="/exhibitors/">For Companies</a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'home') echo('active'); ?>" href="/"><?php echo($lang['navigation']['sidenav_home'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'fair') echo('active'); ?>" href="/fair/"><?php echo($lang['navigation']['sidenav_fair'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'companies') echo('active'); ?>" href="/companies/"><?php echo($lang['navigation']['sidenav_companies'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'aboutus') echo('active'); ?>" href="/aboutus/"><?php echo($lang['navigation']['sidenav_aboutus'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'archive') echo('active'); ?>" href="/archive/"><?php echo($lang['navigation']['sidenav_archive'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'exhibitors') echo('active'); ?>" href="/exhibitors/"><?php echo($lang['navigation']['sidenav_exhibitors'][$eng]); ?></a>
 
 
 </div>
