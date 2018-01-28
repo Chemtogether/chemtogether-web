@@ -36,7 +36,7 @@ $active_nav = 'exhibitors';
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['content']['title'][$eng]); ?>
+        <?php echo($lang['general']['title'][$eng]); ?>
       </span>
     </div>
 
@@ -44,14 +44,41 @@ $active_nav = 'exhibitors';
     </div>
 
     <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['intro_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex">
       <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        Please do not hesitate to contact us:<br><br>
+        <ul class="fa-ul">
+          <li><a href="mailto:info@chemtogether.ethz.ch"><span class="fa-li"><i class="fa-fw far fa-envelope"></i></span>info@chemtogether.ethz.ch</a></li>
+          <li><span class="fa-li"><i class="fa-fw far fa-building"></i></span>VCS, Postfach 84, Wolfgang-Pauli-Str. 9, 8093 Zürich</li>
+        </ul>
       </div>
       <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+        Additional documents:<br><br>
+        <ul class="fa-ul">
+          <li><a href="link"><span class="fa-li"><i class="fa-fw far fa-file-alt"></i></span>Broschure for companies (2018)</a></li>
+          <li><a href="link"><span class="fa-li"><i class="fa-fw far fa-file-alt"></i></span>Expo Guide (2017)</a></li>
+        </ul>
       </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        Partner Options
+      </span>
     </div>
 
     <div class="spacer">

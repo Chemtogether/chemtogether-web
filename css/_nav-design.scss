@@ -26,7 +26,7 @@
   .sidenav-link:hover:before {
     content: '/';
     position: fixed;
-    animation: navpseudoAnimation $sidenav_link-transition;
+    animation: navpseudo_orange_Animation $sidenav_link-transition;
     animation-fill-mode: both;
   }
 
@@ -42,6 +42,11 @@
 
   #active:hover {
     color: $ct-blue;
+  }
+
+  #active:hover:before {
+    animation: navpseudo_blue_Animation $sidenav_link-transition;
+    animation-fill-mode: both;
   }
 }
 
@@ -200,13 +205,24 @@
 
 
 
-@keyframes navpseudoAnimation {
+@keyframes navpseudo_orange_Animation {
   0% {
     color: transparent;
     transform: translate3d(0,0,0);
   }
   100% {
-    color: inherit;
+    color: $ct-orange;
+    transform: translate3d(-10px,0,0);
+  }
+}
+
+@keyframes navpseudo_blue_Animation {
+  0% {
+    color: transparent;
+    transform: translate3d(0,0,0);
+  }
+  100% {
+    color: $ct-blue;
     transform: translate3d(-10px,0,0);
   }
 }

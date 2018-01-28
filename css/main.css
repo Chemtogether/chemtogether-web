@@ -20,6 +20,12 @@ body {
   height: 100%;
   background-color: #2b2b2b; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    text-decoration: underline; }
+
 .s-1 {
   width: 8.33%; }
 
@@ -153,7 +159,7 @@ body {
   #sidenav .sidenav-link:hover:before {
     content: '/';
     position: fixed;
-    animation: navpseudoAnimation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation: navpseudo_orange_Animation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     animation-fill-mode: both; }
   #sidenav .sidenav-link:hover {
     color: #e56b2e;
@@ -162,6 +168,9 @@ body {
     color: white; }
   #sidenav #active:hover {
     color: #56abd6; }
+  #sidenav #active:hover:before {
+    animation: navpseudo_blue_Animation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-fill-mode: both; }
 
 #sidenav:after {
   box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.16), -3px 0px 6px rgba(0, 0, 0, 0.23);
@@ -257,12 +266,19 @@ body {
   flex-grow: 1;
   background-color: #f2f2f2; }
 
-@keyframes navpseudoAnimation {
+@keyframes navpseudo_orange_Animation {
   0% {
     color: transparent;
     transform: translate3d(0, 0, 0); }
   100% {
-    color: inherit;
+    color: #e56b2e;
+    transform: translate3d(-10px, 0, 0); } }
+@keyframes navpseudo_blue_Animation {
+  0% {
+    color: transparent;
+    transform: translate3d(0, 0, 0); }
+  100% {
+    color: #56abd6;
     transform: translate3d(-10px, 0, 0); } }
 #topnav {
   transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
