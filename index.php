@@ -95,6 +95,41 @@ $active_nav = 'home';
     <div class="spacer">
     </div>
 
+
+    <div class="content flex">
+      <div class="infobox-container l-8 m-12 s-12">
+        <div class="infobox" id="fair">
+          <div class="infoboxtext">
+            A
+          </div>
+        </div>
+      </div>
+
+      <div class="infobox-container l-4 m-12 s-12">
+        <div class="infobox" id="archive">
+          A
+        </div>
+      </div>
+    </div>
+
+    <div class="content flex">
+      <div class="infobox-container l-4 m-12 s-12">
+        <div class="infobox" id="companies">
+          A
+        </div>
+      </div>
+
+      <div class="infobox-container l-8 m-12 s-12">
+        <div class="infobox" id="aboutus">
+          A
+        </div>
+      </div>
+    </div>
+
+
+    <div class="spacer">
+    </div>
+
     <div class="spacer">
     </div>
 

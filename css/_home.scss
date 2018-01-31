@@ -337,3 +337,67 @@
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
+
+.infobox-container {
+  height: 350px;
+
+  .infobox {
+    position: relative;
+    z-index: 20;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin: 15px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    z-index: 10;
+
+    .infoboxtext {
+      position: relative;
+      top: 15px;
+      z-index: 35;
+      margin: 15px;
+      padding: 5px;
+      background-color: $ct-orange;
+      color: $text-white;
+    }
+  }
+
+  #fair {
+    background-image: url(/img/slideshow/1.jpg);
+  }
+
+  #companies {
+    background-image: url(/img/slideshow/2.jpg);
+  }
+
+  #archive {
+    background-image: url(/img/slideshow/3.jpg);
+  }
+
+  #aboutus {
+    background-image: url(/img/slideshow/6.jpg);
+  }
+
+
+  .infobox:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+    content: '';
+    background: transparent url(/img/slideshow/pattern.png) repeat top left;
+  }
+
+}
