@@ -98,31 +98,41 @@ $active_nav = 'home';
 
     <div class="content flex">
       <div class="infobox-container l-8 m-12 s-12">
-        <div class="infobox" id="fair">
-          <div class="infoboxtext">
-            A
+        <a href="/fair/" class="infobox" id="fair">
+          <div class="infoboxtext blue">
+            Dates, Place and Supporting Programme<br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Learn more about the fair</span>
           </div>
-        </div>
+        </a>
       </div>
 
       <div class="infobox-container l-4 m-12 s-12">
-        <div class="infobox" id="archive">
-          A
-        </div>
+        <a href="/news/" class="infobox" id="news">
+          <div class="infoboxtext orange" style="order:2">
+            News<br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Get the latest updates</span>
+          </div>
+        </a>
       </div>
     </div>
 
     <div class="content flex">
       <div class="infobox-container l-4 m-12 s-12">
-        <div class="infobox" id="companies">
-          A
-        </div>
+        <a href="/aboutus/" class="infobox" id="aboutus">
+          <div class="infoboxtext orange">
+            About Us<br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>The team &amp; organization</span>
+          </div>
+        </a>
       </div>
 
       <div class="infobox-container l-8 m-12 s-12">
-        <div class="infobox" id="aboutus">
-          A
-        </div>
+        <a href="/companies/" class="infobox" id="companies">
+          <div class="infoboxtext blue">
+            The attending companies<br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Learn more about the exhibitors</span>
+          </div>
+        </a>
       </div>
     </div>
 
@@ -132,6 +142,10 @@ $active_nav = 'home';
 
     <div class="spacer">
     </div>
+
+    <div class="spacer">
+    </div>
+
 
   </div>
 

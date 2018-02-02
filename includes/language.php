@@ -6,6 +6,7 @@ $lang = array();
 $lang['navigation'] = array(
   'topnav_menu' => array('Menü', 'Menu'),
   'sidenav_home' => array('Home','Home'),
+  'sidenav_news' => array('Neuigkeiten','News'),
   'sidenav_fair' => array('Die Messe','The Fair'),
   'sidenav_companies' => array('Die Firmen','The Companies'),
   'sidenav_aboutus' => array('Das Team','The Team'),

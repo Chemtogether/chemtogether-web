@@ -15,6 +15,7 @@
   <br>
 
   <a class="sidenav-link" id="<?php if($active_nav == 'home') echo('active'); ?>" href="/"><?php echo($lang['navigation']['sidenav_home'][$eng]); ?></a>
+  <a class="sidenav-link" id="<?php if($active_nav == 'news') echo('active'); ?>" href="/news/"><?php echo($lang['navigation']['sidenav_news'][$eng]); ?></a>
   <a class="sidenav-link" id="<?php if($active_nav == 'fair') echo('active'); ?>" href="/fair/"><?php echo($lang['navigation']['sidenav_fair'][$eng]); ?></a>
   <a class="sidenav-link" id="<?php if($active_nav == 'companies') echo('active'); ?>" href="/companies/"><?php echo($lang['navigation']['sidenav_companies'][$eng]); ?></a>
   <a class="sidenav-link" id="<?php if($active_nav == 'aboutus') echo('active'); ?>" href="/aboutus/"><?php echo($lang['navigation']['sidenav_aboutus'][$eng]); ?></a>
