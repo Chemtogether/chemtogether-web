@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-family: 'opensans-bold';
+  src: url("/css/fonts/Open_Sans/OpenSans-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'montserrat';
   src: url("/css/fonts/Montserrat/Montserrat-Regular.ttf");
   font-weight: normal;
@@ -373,37 +378,6 @@ a {
   text-align: justify;
   padding: 15px; }
 
-.image {
-  background-image: url(/img/slideshow/1.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: none; }
-
-.patterned {
-  background: rgba(255, 255, 255, 0.25) url(/img/slideshow/pattern.png) repeat top left; }
-
-.image-container {
-  padding: 15px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: auto;
-  margin-right: auto; }
-  .image-container span {
-    color: white;
-    font-family: montserrat;
-    font-size: 50px; }
-  .image-container .bar {
-    flex-grow: 1;
-    height: 2px;
-    background-color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 20px;
-    margin-right: 20px; }
-
 .title {
   position: relative;
   max-width: 1100px;
@@ -447,6 +421,11 @@ a {
     color: #56abd6; }
   .section .section-slashes span:nth-child(2) {
     color: #e56b2e; }
+
+.subsection {
+  font-family: opensans-bold;
+  font-size: 16px;
+  margin-bottom: 10px; }
 
 @media only screen and (min-width: 600px) {
   #main {
@@ -873,5 +852,82 @@ a {
   .infobox-container .infobox:hover span:nth-child(3) {
     text-decoration: underline;
     text-decoration-color: white; }
+
+.image {
+  background-image: url(/img/slideshow/1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none; }
+
+.patterned {
+  background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%), url(/img/slideshow/pattern.png) repeat top left; }
+  .patterned .left, .patterned .right {
+    color: white;
+    font-family: montserrat;
+    font-size: 50px; }
+
+#fair-image {
+  padding-bottom: 15px;
+  max-width: 960px;
+  width: 80%;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+  #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+    color: white;
+    font-family: montserrat;
+    font-size: 50px;
+    font-size: 12vw; }
+  #fair-image #date-place, #fair-image #date-time {
+    color: white;
+    font-family: montserrat;
+    font-size: 20px;
+    font-size: 5vw; }
+  #fair-image .date-container {
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end; }
+    #fair-image .date-container .date-bar {
+      flex-grow: 1;
+      height: 1px;
+      height: .5vw;
+      background-color: white;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 20px;
+      margin-right: 20px; }
+  @media only screen and (min-width: 768px) {
+    #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+      font-size: 80px !important; }
+    #fair-image #date-place, #fair-image #date-time {
+      font-size: 20px !important; }
+    #fair-image .date-bar {
+      height: 5px !important; } }
+  @media only screen and (min-width: 1060px) {
+    #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+      font-size: 100px !important; }
+    #fair-image #date-place, #fair-image #date-time {
+      font-size: 40px !important; }
+    #fair-image .date-bar {
+      height: 5px !important; } }
+
+.schedule tr td:nth-child(1) {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 5px;
+  white-space: nowrap; }
+.schedule tr td:nth-child(2) {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 10px;
+  white-space: nowrap; }
+.schedule tr td:nth-child(3) {
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */

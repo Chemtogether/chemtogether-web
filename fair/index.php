@@ -54,18 +54,120 @@ $active_nav = 'fair';
 
     <div class="image">
       <div class="patterned">
-        <div class="content image-container">
-          <span>1</span><div class="bar"></div><span>Career Event</span><br>
-        </div>
-        <div class="content image-container">
-          <span>2</span><div class="bar"></div><span>Days</span><br>
-        </div>
-        <div class="content image-container">
-          <span>18</span><div class="bar"></div><span>Companies</span><br>
+        <div id="fair-image">
+          <div class="date-container">
+            <span id="date-day1">6</span>
+            <span class="date-bar"></span>
+            <span id="date-day2">7</span>
+          </div>
+          <div class="date-container">
+            <span id="date-month">Nov.</span>
+            <span id="date-year">2018</span>
+          </div>
+          <div class="date-container">
+            <span id="date-place">HCI G-<?php echo($lang['content']['image_floor'][$eng]); ?></span>
+            <span id="date-time">9.00 - 17.00</span>
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="spacer">
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12m-12 s-12">
+        <?php echo($lang['content']['main_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        Schedule
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12m-12 s-12">
+        <?php echo($lang['content']['schedule_text'][$eng]); ?>
+      </div>
+
+      <div class="text l-12m-12 s-12">
+        <div class="subsection">
+            Monday, 5th November
+        </div>
+        <table class="schedule">
+          <tr>
+            <td><i class="far fa-fw fa-comment"></i></td>
+            <td>18:00</td>
+            <td>ETH Career Center Talk: How to write a CV</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="text l-12m-12 s-12">
+        <div class="subsection">
+            Tuesday, 6th November
+        </div>
+        <table class="schedule">
+          <tr>
+            <td><i class="far fa-fw fa-clock"></i></td>
+            <td>09:00</td>
+            <td>Start of the fair</td>
+          </tr>
+          <tr>
+            <td><i class="far fa-fw fa-comment"></i></td>
+            <td>09:00</td>
+            <td>Opening Talk</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-fw fa-utensils"></i></td>
+            <td>16:00</td>
+            <td>Apéro</td>
+          </tr>
+          <tr>
+            <td><i class="far fa-fw fa-clock"></i></td>
+            <td>17:00</td>
+            <td>End of the fair</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="text l-12m-12 s-12">
+        <div class="subsection">
+            Wednesday, 7th November
+        </div>
+        <table class="schedule">
+          <tr>
+            <td><i class="far fa-fw fa-clock"></i></td>
+            <td>09:00</td>
+            <td>Start of the fair</td>
+          </tr>
+          <tr>
+            <td><i class="far fa-fw fa-comment"></i></td>
+            <td>09:00</td>
+            <td>Opening Talk</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-fw fa-utensils"></i></td>
+            <td>16:00</td>
+            <td>Apéro</td>
+          </tr>
+          <tr>
+            <td><i class="far fa-fw fa-clock"></i></td>
+            <td>17:00</td>
+            <td>End of the fair</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
 
     <div class="spacer">
     </div>
