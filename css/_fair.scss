@@ -102,6 +102,25 @@
 
 
 
+.fair-introlinks {
+  text-align: left;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover span {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: $bp-max) {
+  .fair-introlinks {
+    text-align: center;
+  }
+
+}
+
 
 .schedule {
   tr {

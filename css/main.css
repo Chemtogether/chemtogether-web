@@ -917,6 +917,16 @@ a {
     #fair-image .date-bar {
       height: 5px !important; } }
 
+.fair-introlinks {
+  text-align: left; }
+  .fair-introlinks a {
+    text-decoration: none; }
+  .fair-introlinks a:hover span {
+    text-decoration: underline; }
+
+@media only screen and (min-width: 960px) {
+  .fair-introlinks {
+    text-align: center; } }
 .schedule tr td:nth-child(1) {
   text-align: right;
   vertical-align: top;
