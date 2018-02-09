@@ -27,7 +27,7 @@ $active_nav = 'exhibitors';
 
 
 <!-- START CONTENT -->
-<div id="main">
+<div id="main" class="exhibitors">
 
   <div class="container">
 
@@ -52,21 +52,61 @@ $active_nav = 'exhibitors';
     <div class="spacer">
     </div>
 
+    <div class="image">
+      <div class="patterned">
+        <div class="image-container">
+          <span>1</span>
+          <div class="bar"></div>
+          <span>Fair day</span>
+        </div>
+        <div class="image-container">
+          <span>500</span>
+          <div class="bar"></div>
+          <span>Daily visitors</span>
+        </div>
+        <div class="image-container">
+          <span>5/6</span>
+          <div class="bar"></div>
+          <span>Ø Rating</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="content flex">
-      <div class="text l-6 m-12 s-12">
+      <div class="text l-12 m-12 s-12">
         Please do not hesitate to contact us:<br><br>
-        <ul class="fa-ul">
-          <li><a href="mailto:info@chemtogether.ethz.ch"><span class="fa-li"><i class="fa-fw far fa-envelope"></i></span>info@chemtogether.ethz.ch</a></li>
-          <li><span class="fa-li"><i class="fa-fw far fa-building"></i></span>VCS, Postfach 84, Wolfgang-Pauli-Str. 9, 8093 Zürich</li>
-        </ul>
+        <table>
+          <tr>
+            <td><i class="fa-fw far fa-envelope"></i></td>
+            <td><a href="mailto:info@chemtogether.ethz.ch">info@chemtogether.ethz.ch</a></td>
+          </tr>
+          <tr>
+            <td><i class="fa-fw far fa-building"></i></td>
+            <td>VCS, Postfach 84, Wolfgang-Pauli-Str. 9, 8093 Zürich</td>
+          </tr>
+        </table>
       </div>
-      <div class="text l-6 m-12 s-12">
+    </div>
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
         Additional documents:<br><br>
-        <ul class="fa-ul">
-          <li><a href="link"><span class="fa-li"><i class="fa-fw far fa-file-alt"></i></span>Broschure for companies (2018)</a></li>
-          <li><a href="link"><span class="fa-li"><i class="fa-fw far fa-file-alt"></i></span>Expo Guide (2017)</a></li>
-        </ul>
+        <table>
+          <tr>
+            <td><i class="fa-fw far fa-file-alt"></i></td>
+            <td><a href="link">Broschure for companies (2018)</a></td>
+          </tr>
+          <tr>
+            <td><i class="fa-fw far fa-file-alt"></i></td>
+            <td><a href="link">Expo Guide (2017)</a></td>
+          </tr>
+        </table>
       </div>
+    </div>
+
+    <div class="spacer">
     </div>
 
     <div class="spacer">

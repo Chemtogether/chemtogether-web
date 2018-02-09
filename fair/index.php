@@ -27,7 +27,7 @@ $active_nav = 'fair';
 
 
 <!-- START CONTENT -->
-<div id="main">
+<div id="main" class="fair">
 
   <div class="container">
 

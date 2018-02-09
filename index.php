@@ -27,7 +27,7 @@ $active_nav = 'home';
 
 
 <!-- START CONTENT -->
-<div id="main">
+<div id="main" class="home">
 
   <div class="container">
 
@@ -67,7 +67,7 @@ $active_nav = 'home';
             <a href="/fair/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkvisitors'][$eng]); ?></span></a>
           </div>
           <div id="link-companies">
-            <a href="/companies/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkcompanies'][$eng]); ?></span></a>
+            <a href="/exhibitors/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkcompanies'][$eng]); ?></span></a>
           </div>
         </div>
       </div>

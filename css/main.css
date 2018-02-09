@@ -376,7 +376,9 @@ a {
 
 .text {
   text-align: justify;
-  padding: 15px; }
+  padding: 15px;
+  font-family: opensans;
+  font-size: 16px; }
 
 .title {
   position: relative;
@@ -428,6 +430,9 @@ a {
   margin-bottom: 10px; }
 
 @media only screen and (min-width: 600px) {
+  .text, .subsection {
+    font-size: 20px; }
+
   #main {
     width: calc(100vw - 100px); }
 
@@ -442,7 +447,7 @@ a {
     padding-right: 15px; }
 
   .section span {
-    font-size: 30px; } }
+    font-size: 40px; } }
 @keyframes titlebarAnimation {
   0% {
     width: 0%; }
@@ -565,7 +570,7 @@ a {
     #footer-text .footer-text-4 a:hover {
       text-decoration: underline; }
 
-.slideshow {
+.home .slideshow {
   position: absolute;
   top: 0;
   left: 0;
@@ -574,14 +579,12 @@ a {
   height: calc(100vh - 200px);
   z-index: 40;
   overflow: hidden; }
-
-#slideshow-container {
+.home #slideshow-container {
   position: relative;
   z-index: 41;
   min-height: 500px;
   height: calc(100vh - 200px); }
-
-.slideshow:after {
+.home .slideshow:after {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -590,8 +593,7 @@ a {
   z-index: 0;
   content: '';
   background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
-
-.slideshow li span {
+.home .slideshow li span {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -604,31 +606,24 @@ a {
   opacity: 0;
   z-index: 0;
   animation: imageAnimation 36s linear infinite 0s; }
-
-.slideshow li:nth-child(1) span {
+.home .slideshow li:nth-child(1) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg); }
-
-.slideshow li:nth-child(2) span {
+.home .slideshow li:nth-child(2) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/2.jpg);
   animation-delay: 6s; }
-
-.slideshow li:nth-child(3) span {
+.home .slideshow li:nth-child(3) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/3.jpg);
   animation-delay: 12s; }
-
-.slideshow li:nth-child(4) span {
+.home .slideshow li:nth-child(4) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/4.jpg);
   animation-delay: 18s; }
-
-.slideshow li:nth-child(5) span {
+.home .slideshow li:nth-child(5) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/5.jpg);
   animation-delay: 24s; }
-
-.slideshow li:nth-child(6) span {
+.home .slideshow li:nth-child(6) span {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/6.jpg);
   animation-delay: 30s; }
-
-.overlay {
+.home .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -637,8 +632,7 @@ a {
   height: calc(100vh - 200px);
   z-index: 41;
   overflow: hidden; }
-
-.overlay li span {
+.home .overlay li span {
   transform: translate3d(100vh, -100vh, 0);
   width: 100%;
   height: 100%;
@@ -647,24 +641,19 @@ a {
   left: 0px;
   z-index: 1;
   animation: overlayAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards; }
-
-.overlay li:nth-child(1) span {
+.home .overlay li:nth-child(1) span {
   background: repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%);
   animation-delay: 1.00s; }
-
-.overlay li:nth-child(2) span {
+.home .overlay li:nth-child(2) span {
   background: repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%);
   animation-delay: 1.35s; }
-
-.overlay li:nth-child(3) span {
+.home .overlay li:nth-child(3) span {
   background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%);
   animation-delay: 2.4s; }
-
-.overlay li:nth-child(4) span {
+.home .overlay li:nth-child(4) span {
   background: repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%);
   animation-delay: 2.5s; }
-
-#home-top, #home-bottom {
+.home #home-top, .home #home-bottom {
   padding-left: 5%;
   padding-right: 5%;
   position: relative;
@@ -675,18 +664,17 @@ a {
   opacity: 0;
   animation: homeAnimation 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
   animation-delay: 2.25s; }
-
-#home-top #date-day1, #home-top #date-day2, #home-top #date-month, #home-top #date-year {
+.home #home-top #date-day1, .home #home-top #date-day2, .home #home-top #date-month, .home #home-top #date-year {
   color: white;
   font-family: montserrat;
   font-size: 50px;
   font-size: 12vw; }
-#home-top #date-place, #home-top #date-time {
+.home #home-top #date-place, .home #home-top #date-time {
   color: white;
   font-family: montserrat;
   font-size: 20px;
   font-size: 5vw; }
-#home-top .date-container {
+.home #home-top .date-container {
   float: right;
   clear: both;
   max-width: 700px;
@@ -697,7 +685,7 @@ a {
   justify-content: space-between;
   align-items: flex-end;
   margin: 0; }
-  #home-top .date-container .date-bar {
+  .home #home-top .date-container .date-bar {
     flex-grow: 1;
     height: 1px;
     height: .5vw;
@@ -707,25 +695,23 @@ a {
     margin-left: 20px;
     margin-right: 20px; }
 @media only screen and (min-width: 768px) {
-  #home-top #date-day1, #home-top #date-day2, #home-top #date-month, #home-top #date-year {
+  .home #home-top #date-day1, .home #home-top #date-day2, .home #home-top #date-month, .home #home-top #date-year {
     font-size: 80px !important; }
-  #home-top #date-place, #home-top #date-time {
+  .home #home-top #date-place, .home #home-top #date-time {
     font-size: 20px !important; }
-  #home-top .date-bar {
+  .home #home-top .date-bar {
     height: 5px !important; } }
 @media only screen and (min-width: 1060px) {
-  #home-top #date-day1, #home-top #date-day2, #home-top #date-month, #home-top #date-year {
+  .home #home-top #date-day1, .home #home-top #date-day2, .home #home-top #date-month, .home #home-top #date-year {
     font-size: 100px !important; }
-  #home-top #date-place, #home-top #date-time {
+  .home #home-top #date-place, .home #home-top #date-time {
     font-size: 40px !important; }
-  #home-top .date-bar {
+  .home #home-top .date-bar {
     height: 5px !important; } }
-
-#link-container {
+.home #link-container {
   position: absolute;
   bottom: 20px; }
-
-#link-visitors, #link-companies, #link-visitors span, #link-companies span, #link-companies a, #link-visitors a {
+.home #link-visitors, .home #link-companies, .home #link-visitors span, .home #link-companies span, .home #link-companies a, .home #link-visitors a {
   text-decoration: none;
   text-decoration-color: transparent;
   margin-top: 20px;
@@ -733,31 +719,27 @@ a {
   color: white;
   font-family: montserrat;
   font-size: 18px; }
-
-#link-companies a, #link-visitors a {
+.home #link-companies a, .home #link-visitors a {
   transition: color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: translate3d(0, 0, 0);
   display: block; }
-  #link-companies a span, #link-visitors a span {
+  .home #link-companies a span, .home #link-visitors a span {
     text-decoration: underline;
     text-decoration-color: transparent;
     transition: color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: text-decoration-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
-
-#link-companies a:hover, #link-visitors a:hover {
+.home #link-companies a:hover, .home #link-visitors a:hover {
   transform: translate3d(15px, 0, 0) !important; }
-  #link-companies a:hover span, #link-visitors a:hover span {
+  .home #link-companies a:hover span, .home #link-visitors a:hover span {
     text-decoration: underline;
     text-decoration-color: #e56b2e; }
-
 @media only screen and (min-width: 768px) {
-  #link-visitors, #link-companies, #link-visitors span, #link-companies span, #link-companies a, #link-visitors a {
+  .home #link-visitors, .home #link-companies, .home #link-visitors span, .home #link-companies span, .home #link-companies a, .home #link-visitors a {
     font-size: 20px !important; } }
 @media only screen and (min-width: 1060px) {
-  #link-container {
+  .home #link-container {
     bottom: 100px; }
-
-  #link-visitors, #link-companies, #link-visitors span, #link-companies span, #link-companies a, #link-visitors a {
+  .home #link-visitors, .home #link-companies, .home #link-visitors span, .home #link-companies span, .home #link-companies a, .home #link-visitors a {
     font-size: 30px !important; } }
 @keyframes imageAnimation {
   0% {
@@ -786,9 +768,9 @@ a {
     animation-timing-function: ease-out; }
   100% {
     opacity: 1; } }
-.infobox-container {
+.home .infobox-container {
   height: 350px; }
-  .infobox-container .infobox {
+  .home .infobox-container .infobox {
     display: block;
     position: relative;
     z-index: 10;
@@ -799,7 +781,7 @@ a {
     background-position: 50% 50%;
     background-repeat: none;
     z-index: 10; }
-    .infobox-container .infobox .infoboxtext {
+    .home .infobox-container .infobox .infoboxtext {
       position: relative;
       display: inline-block;
       z-index: 35;
@@ -809,26 +791,26 @@ a {
       color: white;
       font-family: montserrat;
       font-size: 20px; }
-      .infobox-container .infobox .infoboxtext span {
+      .home .infobox-container .infobox .infoboxtext span {
         font-family: opensans;
         font-size: 16px; }
-      .infobox-container .infobox .infoboxtext span:nth-child(3) {
+      .home .infobox-container .infobox .infoboxtext span:nth-child(3) {
         text-decoration: underline;
         text-decoration-color: transparent;
         transition: text-decoration-color 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
-    .infobox-container .infobox .blue {
+    .home .infobox-container .infobox .blue {
       background-color: #56abd6; }
-    .infobox-container .infobox .orange {
+    .home .infobox-container .infobox .orange {
       background-color: #e56b2e; }
-  .infobox-container #fair {
+  .home .infobox-container #fair {
     background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg); }
-  .infobox-container #companies {
+  .home .infobox-container #companies {
     background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/2.jpg); }
-  .infobox-container #news {
+  .home .infobox-container #news {
     background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/3.jpg); }
-  .infobox-container #aboutus {
+  .home .infobox-container #aboutus {
     background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/6.jpg); }
-  .infobox-container .infobox:after {
+  .home .infobox-container .infobox:after {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -839,7 +821,7 @@ a {
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     content: '';
     background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
-  .infobox-container .infobox:hover:after {
+  .home .infobox-container .infobox:hover:after {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -849,41 +831,39 @@ a {
     opacity: 0;
     content: '';
     background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
-  .infobox-container .infobox:hover span:nth-child(3) {
+  .home .infobox-container .infobox:hover span:nth-child(3) {
     text-decoration: underline;
     text-decoration-color: white; }
 
-.image {
+.fair .image {
   background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: none; }
-
-.patterned {
+.fair .patterned {
   background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%), url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
-  .patterned .left, .patterned .right {
+  .fair .patterned .left, .fair .patterned .right {
     color: white;
     font-family: montserrat;
     font-size: 50px; }
-
-#fair-image {
+.fair #fair-image {
   padding-bottom: 15px;
   max-width: 960px;
   width: 80%;
   overflow-x: hidden;
   margin-left: auto;
   margin-right: auto; }
-  #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+  .fair #fair-image #date-day1, .fair #fair-image #date-day2, .fair #fair-image #date-month, .fair #fair-image #date-year {
     color: white;
     font-family: montserrat;
     font-size: 50px;
     font-size: 12vw; }
-  #fair-image #date-place, #fair-image #date-time {
+  .fair #fair-image #date-place, .fair #fair-image #date-time {
     color: white;
     font-family: montserrat;
     font-size: 20px;
     font-size: 5vw; }
-  #fair-image .date-container {
+  .fair #fair-image .date-container {
     max-width: 700px;
     width: 100%;
     margin-left: auto;
@@ -893,7 +873,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end; }
-    #fair-image .date-container .date-bar {
+    .fair #fair-image .date-container .date-bar {
       flex-grow: 1;
       height: 1px;
       height: .5vw;
@@ -903,41 +883,75 @@ a {
       margin-left: 20px;
       margin-right: 20px; }
   @media only screen and (min-width: 768px) {
-    #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+    .fair #fair-image #date-day1, .fair #fair-image #date-day2, .fair #fair-image #date-month, .fair #fair-image #date-year {
       font-size: 80px !important; }
-    #fair-image #date-place, #fair-image #date-time {
+    .fair #fair-image #date-place, .fair #fair-image #date-time {
       font-size: 20px !important; }
-    #fair-image .date-bar {
+    .fair #fair-image .date-bar {
       height: 5px !important; } }
   @media only screen and (min-width: 1060px) {
-    #fair-image #date-day1, #fair-image #date-day2, #fair-image #date-month, #fair-image #date-year {
+    .fair #fair-image #date-day1, .fair #fair-image #date-day2, .fair #fair-image #date-month, .fair #fair-image #date-year {
       font-size: 100px !important; }
-    #fair-image #date-place, #fair-image #date-time {
+    .fair #fair-image #date-place, .fair #fair-image #date-time {
       font-size: 40px !important; }
-    #fair-image .date-bar {
+    .fair #fair-image .date-bar {
       height: 5px !important; } }
-
-.fair-introlinks {
+.fair .fair-introlinks {
   text-align: left; }
-  .fair-introlinks a {
+  .fair .fair-introlinks a {
     text-decoration: none; }
-  .fair-introlinks a:hover span {
+  .fair .fair-introlinks a:hover span {
     text-decoration: underline; }
-
 @media only screen and (min-width: 960px) {
-  .fair-introlinks {
+  .fair .fair-introlinks {
     text-align: center; } }
-.schedule tr td:nth-child(1) {
+.fair .schedule tr td:nth-child(1) {
   text-align: right;
   vertical-align: top;
   padding-right: 5px;
   white-space: nowrap; }
-.schedule tr td:nth-child(2) {
+.fair .schedule tr td:nth-child(2) {
   text-align: right;
   vertical-align: top;
   padding-right: 10px;
   white-space: nowrap; }
-.schedule tr td:nth-child(3) {
+.fair .schedule tr td:nth-child(3) {
   text-align: left; }
+
+.exhibitors .image {
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none; }
+.exhibitors .patterned {
+  background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%), url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern2.png) repeat top left; }
+.exhibitors .image-container {
+  padding: 15px;
+  max-width: 760px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto; }
+  .exhibitors .image-container span {
+    color: white;
+    font-family: montserrat;
+    font-size: 25px; }
+  .exhibitors .image-container .bar {
+    flex-grow: 1;
+    height: 1px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px; }
+@media only screen and (min-width: 768px) {
+  .exhibitors .image-container span {
+    font-size: 50px !important; }
+  .exhibitors .image-container .bar {
+    height: 2px !important; } }
 
 /*# sourceMappingURL=main.css.map */
