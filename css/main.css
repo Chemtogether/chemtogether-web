@@ -589,7 +589,7 @@ a {
   left: 0px;
   z-index: 0;
   content: '';
-  background: transparent url(/img/slideshow/pattern.png) repeat top left; }
+  background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
 
 .slideshow li span {
   width: 100%;
@@ -606,26 +606,26 @@ a {
   animation: imageAnimation 36s linear infinite 0s; }
 
 .slideshow li:nth-child(1) span {
-  background-image: url(/img/slideshow/1.jpg); }
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg); }
 
 .slideshow li:nth-child(2) span {
-  background-image: url(/img/slideshow/2.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/2.jpg);
   animation-delay: 6s; }
 
 .slideshow li:nth-child(3) span {
-  background-image: url(/img/slideshow/3.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/3.jpg);
   animation-delay: 12s; }
 
 .slideshow li:nth-child(4) span {
-  background-image: url(/img/slideshow/4.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/4.jpg);
   animation-delay: 18s; }
 
 .slideshow li:nth-child(5) span {
-  background-image: url(/img/slideshow/5.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/5.jpg);
   animation-delay: 24s; }
 
 .slideshow li:nth-child(6) span {
-  background-image: url(/img/slideshow/6.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/6.jpg);
   animation-delay: 30s; }
 
 .overlay {
