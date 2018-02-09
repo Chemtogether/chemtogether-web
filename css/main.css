@@ -821,13 +821,13 @@ a {
     .infobox-container .infobox .orange {
       background-color: #e56b2e; }
   .infobox-container #fair {
-    background-image: url(/img/slideshow/1.jpg); }
+    background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg); }
   .infobox-container #companies {
-    background-image: url(/img/slideshow/2.jpg); }
+    background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/2.jpg); }
   .infobox-container #news {
-    background-image: url(/img/slideshow/3.jpg); }
+    background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/3.jpg); }
   .infobox-container #aboutus {
-    background-image: url(/img/slideshow/6.jpg); }
+    background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/6.jpg); }
   .infobox-container .infobox:after {
     position: absolute;
     width: 100%;
@@ -838,7 +838,7 @@ a {
     opacity: 1;
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     content: '';
-    background: transparent url(/img/slideshow/pattern.png) repeat top left; }
+    background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
   .infobox-container .infobox:hover:after {
     position: absolute;
     width: 100%;
@@ -848,19 +848,19 @@ a {
     z-index: 30;
     opacity: 0;
     content: '';
-    background: transparent url(/img/slideshow/pattern.png) repeat top left; }
+    background: transparent url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
   .infobox-container .infobox:hover span:nth-child(3) {
     text-decoration: underline;
     text-decoration-color: white; }
 
 .image {
-  background-image: url(/img/slideshow/1.jpg);
+  background-image: url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/1.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: none; }
 
 .patterned {
-  background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%), url(/img/slideshow/pattern.png) repeat top left; }
+  background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%), url(https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/pattern.png) repeat top left; }
   .patterned .left, .patterned .right {
     color: white;
     font-family: montserrat;

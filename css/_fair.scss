@@ -1,5 +1,5 @@
 .image {
-  background-image: url(/img/slideshow/1.jpg);
+  background-image: url(#{$awss3}/img/1.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: none;
@@ -10,7 +10,7 @@
   repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
   repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
   repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, $ct-orange 5%, $ct-orange 15%, transparent 15%, transparent 100%),
-  url(/img/slideshow/pattern.png) repeat top left;
+  url(#{$awss3}/img/pattern.png) repeat top left;
 
   .left, .right {
     color: $text-white;

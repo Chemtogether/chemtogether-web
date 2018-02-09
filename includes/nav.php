@@ -2,8 +2,8 @@
 
 <div id="sidenav">
   <div id="sidenav-logo">
-    <img id="sidenav-logo-closed" src="/img/logo/chemtogether_empty_1x.png"></img>
-    <img id="sidenav-logo-opened" src="/img/logo/chemtogether_full_1x.png"></img>
+    <img id="sidenav-logo-closed" src="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_empty_1x.png"></img>
+    <img id="sidenav-logo-opened" src="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_full_1x.png"></img>
   </div>
 
   <br>
