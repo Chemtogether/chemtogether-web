@@ -57,4 +57,72 @@
       height: 2px !important;
     }
   }
+
+
+
+  .packages-base, .packages-silver, .packages-gold, .packages-platinum {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $ct-gray;
+
+    span {
+      margin: auto;
+      font-family: opensans-bold;
+      font-size: 75px;
+    }
+  }
+
+  .packages-base {
+    background-color: $ct-gray;
+    color: white;
+  }
+
+  .packages-silver {
+    background-color: $pg-silver;
+  }
+
+  .packages-gold {
+    background-color: $pg-gold;
+  }
+
+  .packages-platinum {
+    background-color: $pg-platinum;
+  }
+
+
+  .packages {
+    tr td:nth-child(1) {
+      padding-right: 10px;
+      vertical-align: top;
+    }
+    tr td:nth-child(2) {
+      text-align: left;
+    }
+  }
+
+  .feedback {
+    tr td {
+      vertical-align: top;
+    }
+    tr td:nth-child(4) {
+      text-align: left;
+      padding-left: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 }
