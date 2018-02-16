@@ -36,7 +36,7 @@ $active_nav = 'companies';
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['content']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['title'][$eng]); ?>
       </span>
     </div>
 
@@ -44,13 +44,14 @@ $active_nav = 'companies';
     </div>
 
     <div class="content flex">
-      <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
-      <div class="text l-6 m-12 s-12">
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br>
-        Test sfdndjshflgoöhasdpfogiih püsd908hgp9dshgüä sd0gds Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['coming_soon'][$eng]); ?>
       </div>
     </div>
 

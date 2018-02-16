@@ -78,7 +78,7 @@ $active_nav = 'home';
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['content']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['title'][$eng]); ?>
       </span>
     </div>
 
@@ -100,8 +100,8 @@ $active_nav = 'home';
       <div class="infobox-container l-8 m-12 s-12">
         <a href="/fair/" class="infobox" id="fair">
           <div class="infoboxtext blue">
-            Dates, Place and Supporting Programme<br>
-            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Learn more about the fair</span>
+            <?php echo($lang['content']['infobox1_text'][$eng]); ?><br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox1_link'][$eng]); ?></span>
           </div>
         </a>
       </div>
@@ -109,8 +109,8 @@ $active_nav = 'home';
       <div class="infobox-container l-4 m-12 s-12">
         <a href="/news/" class="infobox" id="news">
           <div class="infoboxtext orange" style="order:2">
-            News<br>
-            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Get the latest updates</span>
+            <?php echo($lang['content']['infobox2_text'][$eng]); ?><br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox2_link'][$eng]); ?></span>
           </div>
         </a>
       </div>
@@ -120,8 +120,8 @@ $active_nav = 'home';
       <div class="infobox-container l-4 m-12 s-12">
         <a href="/aboutus/" class="infobox" id="aboutus">
           <div class="infoboxtext orange">
-            About Us<br>
-            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>The team &amp; organization</span>
+            <?php echo($lang['content']['infobox3_text'][$eng]); ?><br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox3_link'][$eng]); ?></span>
           </div>
         </a>
       </div>
@@ -129,8 +129,8 @@ $active_nav = 'home';
       <div class="infobox-container l-8 m-12 s-12">
         <a href="/companies/" class="infobox" id="companies">
           <div class="infoboxtext blue">
-            The attending companies<br>
-            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span>Learn more about the exhibitors</span>
+            <?php echo($lang['content']['infobox4_text'][$eng]); ?><br>
+            <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox4_link'][$eng]); ?></span>
           </div>
         </a>
       </div>

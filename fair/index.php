@@ -36,7 +36,7 @@ $active_nav = 'fair';
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['content']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['title'][$eng]); ?>
       </span>
     </div>
 

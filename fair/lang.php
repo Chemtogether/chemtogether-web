@@ -1,8 +1,8 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2018 - Die Messe', 'Chemtogether 2018 - The Fair');
-$lang['content']['title'] = array('Die Messe', 'The Fair');
+$lang['general']['page_title'] = array('Chemtogether 2018 - Messe', 'Chemtogether 2018 - Fair');
+$lang['navigation']['title'] = array('Die Messe', 'The Fair');
 $lang['navigation']['topnav_title']= array('Die Messe', 'The Fair');
 
 

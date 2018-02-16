@@ -36,7 +36,7 @@ $active_nav = 'exhibitors';
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['general']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['title'][$eng]); ?>
       </span>
     </div>
 
@@ -57,17 +57,17 @@ $active_nav = 'exhibitors';
         <div class="image-container">
           <span>1</span>
           <div class="bar"></div>
-          <span>Fair day</span>
+          <span><?php echo($lang['img']['1'][$eng]); ?></span>
         </div>
         <div class="image-container">
           <span>500</span>
           <div class="bar"></div>
-          <span>Daily visitors</span>
+          <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
           <span>4.5/5</span>
           <div class="bar"></div>
-          <span>Ø Rating</span>
+          <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@ $active_nav = 'exhibitors';
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        Please do not hesitate to contact us:<br style="line-height:40px;" />
+        <?php echo($lang['content']['contact_text'][$eng]); ?><br style="line-height:40px;" />
         <table>
           <tr>
             <td><i class="fa-fw far fa-envelope"></i></td>
@@ -98,15 +98,15 @@ $active_nav = 'exhibitors';
     </div>
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        Additional documents:<br style="line-height:40px;" />
+        <?php echo($lang['content']['documents_text'][$eng]); ?><br style="line-height:40px;" />
         <table>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="link">Broschure for companies (2018)</a></td>
+            <td><a href="link"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="link">Expo Guide (2017)</a></td>
+            <td><a href="link"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
         </table>
       </div>
@@ -123,13 +123,13 @@ $active_nav = 'exhibitors';
         <span>/</span><span>/</span>
       </span>
       <span class="section-text">
-        Partner Options
+        <?php echo($lang['content']['packages_subsection'][$eng]); ?>
       </span>
     </div>
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        Here is some informational text
+        <?php echo($lang['content']['packages_text'][$eng]); ?>
       </div>
     </div>
 
@@ -144,20 +144,20 @@ $active_nav = 'exhibitors';
       </div>
       <div class="text l-8 m-6 s-12">
         <div class="subsection">
-          Base Package
+          <?php echo($lang['content']['packages_base']['name'][$eng]); ?>
         </div>
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 1</td>
+            <td><?php echo($lang['content']['packages_base']['item1'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 2</td>
+            <td><?php echo($lang['content']['packages_base']['item2'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 3</td>
+            <td><?php echo($lang['content']['packages_base']['item3'][$eng]); ?></td>
           </tr>
         </table>
         <br>
@@ -176,20 +176,20 @@ $active_nav = 'exhibitors';
       </div>
       <div class="text l-8 m-6 s-12">
         <div class="subsection">
-          Silver Package
+          <?php echo($lang['content']['packages_silver']['name'][$eng]); ?>
         </div>
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 1</td>
+            <td><?php echo($lang['content']['packages_silver']['item1'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 2</td>
+            <td><?php echo($lang['content']['packages_silver']['item2'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 3</td>
+            <td><?php echo($lang['content']['packages_silver']['item3'][$eng]); ?></td>
           </tr>
         </table>
         <br>
@@ -208,20 +208,20 @@ $active_nav = 'exhibitors';
       </div>
       <div class="text l-8 m-6 s-12">
         <div class="subsection">
-          Gold Package
+          <?php echo($lang['content']['packages_gold']['name'][$eng]); ?>
         </div>
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 1</td>
+            <td><?php echo($lang['content']['packages_gold']['item1'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 2</td>
+            <td><?php echo($lang['content']['packages_gold']['item2'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 3</td>
+            <td><?php echo($lang['content']['packages_gold']['item3'][$eng]); ?></td>
           </tr>
         </table>
         <br>
@@ -240,20 +240,20 @@ $active_nav = 'exhibitors';
       </div>
       <div class="text l-8 m-6 s-12">
         <div class="subsection">
-          Platinum Package
+          <?php echo($lang['content']['packages_platinum']['name'][$eng]); ?>
         </div>
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 1</td>
+            <td><?php echo($lang['content']['packages_platinum']['item1'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 2</td>
+            <td><?php echo($lang['content']['packages_platinum']['item2'][$eng]); ?></td>
           </tr>
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
-            <td>Item 3</td>
+            <td><?php echo($lang['content']['packages_platinum']['item3'][$eng]); ?></td>
           </tr>
         </table>
         <br>
@@ -272,7 +272,7 @@ $active_nav = 'exhibitors';
         <span>/</span><span>/</span>
       </span>
       <span class="section-text">
-        Company Feedback
+        <?php echo($lang['content']['feedback_subsection'][$eng]); ?>
       </span>
     </div>
 
@@ -285,49 +285,49 @@ $active_nav = 'exhibitors';
             <td>4.5</td>
             <td>/</td>
             <td>5</td>
-            <td>Organisation und Kommunikation vor der Messe</td>
+            <td><?php echo($lang['content']['feedback_entries']['1'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.8</td>
             <td>/</td>
             <td>5</td>
-            <td>Betreuung während der Messe</td>
+            <td><?php echo($lang['content']['feedback_entries']['2'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.6</td>
             <td>/</td>
             <td>5</td>
-            <td>Frequentierung der Stände durch Studenten</td>
+            <td><?php echo($lang['content']['feedback_entries']['3'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.5</td>
             <td>/</td>
             <td>5</td>
-            <td>Qualität der Gespräche mit Studenten</td>
+            <td><?php echo($lang['content']['feedback_entries']['4'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.6</td>
             <td>/</td>
             <td>5</td>
-            <td>Verpflegung</td>
+            <td><?php echo($lang['content']['feedback_entries']['5'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.3</td>
             <td>/</td>
             <td>5</td>
-            <td>Standposition</td>
+            <td><?php echo($lang['content']['feedback_entries']['6'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.3</td>
             <td>/</td>
             <td>5</td>
-            <td>Preis-Leistung</td>
+            <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
             <td>4.5</td>
             <td>/</td>
             <td>5</td>
-            <td>Gesamteindruck</td>
+            <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
           </tr>
         </table>
       </div>
