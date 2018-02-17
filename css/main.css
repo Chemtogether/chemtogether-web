@@ -154,7 +154,7 @@ a {
   #sidenav .sidenav-link {
     padding: 8px 8px 8px 20px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: #818181;
     background-color: inherit;
     display: block;
@@ -374,6 +374,13 @@ a {
   justify-content: space-between;
   align-items: flex-start; }
 
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+
 .text {
   text-align: justify;
   padding: 15px;
@@ -410,7 +417,7 @@ a {
 
 .section {
   position: relative;
-  max-width: 960px;
+  max-width: 1040px;
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
@@ -425,6 +432,7 @@ a {
     color: #e56b2e; }
 
 .subsection {
+  text-align: left;
   font-family: opensans-bold;
   font-size: 16px;
   margin-bottom: 10px; }
@@ -576,14 +584,14 @@ a {
   left: 0;
   width: 100%;
   min-height: 500px;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 135px);
   z-index: 40;
   overflow: hidden; }
 .home #slideshow-container {
   position: relative;
   z-index: 41;
   min-height: 500px;
-  height: calc(100vh - 200px); }
+  height: calc(100vh - 135px); }
 .home .slideshow:after {
   position: absolute;
   width: 100%;
@@ -629,7 +637,7 @@ a {
   left: 0;
   width: 100%;
   min-height: 500px;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 135px);
   z-index: 41;
   overflow: hidden; }
 .home .overlay li span {
@@ -986,5 +994,44 @@ a {
 .exhibitors .feedback tr td:nth-child(4) {
   text-align: left;
   padding-left: 10px; }
+
+.aboutus .image-big div {
+  width: calc(100% - 30px);
+  line-height: 0px;
+  margin: 15px;
+  padding: 10px;
+  background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%); }
+  .aboutus .image-big div img {
+    width: 100%;
+    height: auto; }
+.aboutus .image-member {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .aboutus .image-member div {
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    line-height: 0px;
+    padding: 5px;
+    background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%, #56abd6 70%, #56abd6 75%, transparent 75%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, #56abd6 85%, #56abd6 95%, transparent 95%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, #e56b2e 25%, #e56b2e 30%, transparent 30%, transparent 100%), repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, #e56b2e 5%, #e56b2e 15%, transparent 15%, transparent 100%); }
+    .aboutus .image-member div img {
+      width: 100%;
+      max-width: 200px;
+      height: auto; }
+.aboutus .image-organisation {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .aboutus .image-organisation div {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    line-height: 0px;
+    padding: 5px; }
+    .aboutus .image-organisation div img {
+      width: 100%;
+      max-width: 300px;
+      height: auto; }
 
 /*# sourceMappingURL=main.css.map */

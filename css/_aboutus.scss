@@ -1,0 +1,71 @@
+.aboutus {
+
+.image-big {
+  div {
+    width: calc(100% - 30px);
+    line-height: 0px;
+    margin: 15px;
+    padding: 10px;
+    background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%,  $ct-blue 70%, $ct-blue 75%,  transparent 75%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, $ct-orange 5%, $ct-orange 15%, transparent 15%, transparent 100%);
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.image-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    line-height: 0px;
+    padding: 5px;
+    background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%,  $ct-blue 70%, $ct-blue 75%,  transparent 75%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
+    repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, $ct-orange 5%, $ct-orange 15%, transparent 15%, transparent 100%);
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  }
+}
+
+.image-organisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    line-height: 0px;
+    padding: 5px;
+    // background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%,  $ct-blue 70%, $ct-blue 75%,  transparent 75%, transparent 100%),
+    // repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
+    // repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
+    // repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, $ct-orange 5%, $ct-orange 15%, transparent 15%, transparent 100%);
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  }
+}
+
+
+
+}
