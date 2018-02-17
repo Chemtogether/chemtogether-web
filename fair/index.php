@@ -83,13 +83,22 @@ $active_nav = 'fair';
 
     <div class="content flex">
       <div class="text l-4 m-12 s-12 fair-introlinks">
-        <a href="https://www.ethz.ch/de/campus/standorte-anreise/standorte-ZH/hoenggerberg.html"><i class="far fa-fw fa-map"></i> <span>Get directions</span></a>
+        <a href="https://www.ethz.ch/de/campus/standorte-anreise/standorte-ZH/hoenggerberg.html">
+          <i class="far fa-fw fa-map"></i>&nbsp;
+          <span><?php echo($lang['content']['links_directions'][$eng]); ?></span>
+        </a>
       </div>
       <div class="text l-4 m-12 s-12 fair-introlinks">
-        <a href="/files/expoguide.pdf"><i class="far fa-fw fa-file-alt"></i> <span>Download the expo guide</span></a>
+        <a href="/files/expoguide.pdf">
+          <i class="far fa-fw fa-file-alt"></i>&nbsp;
+          <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
+        </a>
       </div>
       <div class="text l-4 m-12 s-12 fair-introlinks">
-        <a href="/companies/"><i class="far fa-fw fa-building"></i> <span>Check out the exhibitors</span></a>
+        <a href="/companies/">
+          <i class="far fa-fw fa-building"></i>&nbsp;
+          <span><?php echo($lang['content']['links_companies'][$eng]); ?></span>
+        </a>
       </div>
     </div>
   </div>
@@ -97,7 +106,7 @@ $active_nav = 'fair';
   <div class="spacer">
   </div>
 
-  <div class="spacer">
+  <div class="spacer" id="schedule">
   </div>
 
   <div class="section">
@@ -105,7 +114,7 @@ $active_nav = 'fair';
       <span>/</span><span>/</span>
     </span>
     <span class="section-text">
-      Schedule
+      <?php echo($lang['content']['schedule_subsection'][$eng]); ?>
     </span>
   </div>
 
@@ -116,69 +125,69 @@ $active_nav = 'fair';
 
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        Monday, 5th November
+        <?php echo($lang['content']['schedule_monday']['title'][$eng]); ?>
       </div>
       <table class="schedule">
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
           <td>18:00</td>
-          <td>ETH Career Center Talk: How to write a CV</td>
+          <td><?php echo($lang['content']['schedule_monday']['event1'][$eng]); ?></td>
         </tr>
       </table>
     </div>
 
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        Tuesday, 6th November
+        <?php echo($lang['content']['schedule_tuesday']['title'][$eng]); ?>
       </div>
       <table class="schedule">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>09:00</td>
-          <td>Start of the fair</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event1'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
           <td>09:00</td>
-          <td>Opening Talk</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="fas fa-fw fa-utensils"></i></td>
           <td>16:00</td>
-          <td>Apéro</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event3'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>17:00</td>
-          <td>End of the fair</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event4'][$eng]); ?></td>
         </tr>
       </table>
     </div>
 
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        Wednesday, 7th November
+        <?php echo($lang['content']['schedule_wednesday']['title'][$eng]); ?>
       </div>
       <table class="schedule">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>09:00</td>
-          <td>Start of the fair</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event1'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
           <td>09:00</td>
-          <td>Opening Talk</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="fas fa-fw fa-utensils"></i></td>
           <td>16:00</td>
-          <td>Apéro</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event3'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>17:00</td>
-          <td>End of the fair</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event4'][$eng]); ?></td>
         </tr>
       </table>
     </div>
@@ -188,7 +197,7 @@ $active_nav = 'fair';
   <div class="spacer">
   </div>
 
-  <div class="spacer">
+  <div class="spacer" id="programme">
   </div>
 
   <div class="section">
@@ -196,65 +205,81 @@ $active_nav = 'fair';
       <span>/</span><span>/</span>
     </span>
     <span class="section-text">
-      Supporting Programme
+      <?php echo($lang['content']['programme_subsection'][$eng]); ?>
     </span>
   </div>
 
   <div class="content flex">
     <div class="text l-12 m-12 s-12">
-      <div class="subsection">
-        Flash presentations
-      </div>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-      <br><br>
-      <table>
-        <tr>
-          <td><i class="far fa-fw fa-clock"></i></td>
-          <td> see schedule</td>
-        </tr>
-        <tr>
-          <td><i class="far fa-fw fa-map"></i></td>
-          <td>HCI G2</td>
-        </tr>
-      </table>
+      <?php echo($lang['content']['programme_text'][$eng]); ?>
     </div>
   </div>
 
   <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        ETH Career Center: CV-Training
+        <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      <?php echo($lang['content']['programme_1']['description'][$eng]); ?>
       <br><br>
       <table>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
-          <td> Monday, 6th November, at 18:00</td>
+          <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-map"></i></td>
-          <td>HCI tba</td>
+          <td><?php echo($lang['content']['programme_1']['place'][$eng]); ?></td>
         </tr>
       </table>
     </div>
   </div>
 
+  <div class="spacer">
+  </div>
+
   <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        CV-Pics: Photo-Shoot
+        <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
       </div>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      <?php echo($lang['content']['programme_2']['description'][$eng]); ?>
       <br><br>
       <table>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
-          <td> throughout both days, registration necessary</td>
+          <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-map"></i></td>
-          <td>HCI tba</td>
+          <td><?php echo($lang['content']['programme_2']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="spacer">
+  </div>
+
+  <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_3']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_3']['description'][$eng]); ?>
+      <br><br>
+      <table>
+        <tr>
+          <td><i class="fas fa-fw fa-exclamation"></i></td>
+          <td><?php echo($lang['content']['programme_3']['other'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_3']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_3']['place'][$eng]); ?></td>
         </tr>
       </table>
     </div>

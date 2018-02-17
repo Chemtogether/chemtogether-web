@@ -9,7 +9,7 @@ $lang['navigation'] = array(
   'sidenav_news' => array('Neuigkeiten','News'),
   'sidenav_fair' => array('Die Messe','The Fair'),
   'sidenav_companies' => array('Die Firmen','The Companies'),
-  'sidenav_aboutus' => array('Das Team','The Team'),
+  'sidenav_aboutus' => array('Über Uns','About Us'),
   'sidenav_archive' => array('Archiv','Archive'),
   'sidenav_exhibitors' => array('Für Austeller','For Exhibitors'),
 );
