@@ -93,15 +93,15 @@ $lang['content']['team_member_12'] = array(
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
 
-$lang['content']['alumni_member_2017'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Andreas Gimpel<br>David Hahn<br>Anton Hartner<br>Lukas Lätsch<br>Josephine Scheiter<br>Erik Schrader<br>Cyril Schroeder<br>Esther Tschanen-Hammann<br>Patrik Willi<br>Konstantin Zouboulis';
+$lang['content']['alumni_member_2017'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Andreas Gimpel<br>David Hahn<br>Anton Hartner<br>Lukas Lätsch<br>Josephine Scheiter<br>Erik Schrader<br>Cyril Schroeder<br>Esther Tschanen-Hammann<br>Patrik Willi<br>Konstantin Zouboulis<br><br>';
 
-$lang['content']['alumni_member_2016'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Moritz Benisch<br>Frederik Eiler<br>David Hahn<br>Karina Hugentobler<br>Lukas Lätsch<br>Josephine Scheiter<br>Cyril Schroeder';
+$lang['content']['alumni_member_2016'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Moritz Benisch<br>Frederik Eiler<br>David Hahn<br>Karina Hugentobler<br>Lukas Lätsch<br>Josephine Scheiter<br>Cyril Schroeder<br><br>';
 
-$lang['content']['alumni_member_2015'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Jérôme Käslin<br>Lukas Lätsch<br>Mario Lenz<br>Jan-Grimo Sobez';
+$lang['content']['alumni_member_2015'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Jérôme Käslin<br>Lukas Lätsch<br>Mario Lenz<br>Jan-Grimo Sobez<br><br>';
 
-$lang['content']['alumni_member_2014'] = 'Stefan Allner<br>Moritz Benisch<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Mario Lenz<br>Jan-Grimo Sobez';
+$lang['content']['alumni_member_2014'] = 'Stefan Allner<br>Moritz Benisch<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Mario Lenz<br>Jan-Grimo Sobez<br><br>';
 
-$lang['content']['alumni_member_2013'] = 'Stefan Allner<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Marco Hartmann<br>Jan-Grimo Sobez<br>Nino Willi';
+$lang['content']['alumni_member_2013'] = 'Stefan Allner<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Marco Hartmann<br>Jan-Grimo Sobez<br>Nino Willi<br><br>';
 
 
 

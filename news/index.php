@@ -27,7 +27,7 @@ $active_nav = 'news';
 
 
 <!-- START CONTENT -->
-<div id="main">
+<div id="main" class="news">
 
   <div class="container">
 
@@ -47,6 +47,33 @@ $active_nav = 'news';
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
+    </div>
+
+
+<?php
+  $files = array_reverse(array_diff(scandir('./data'), array('.', '..')));
+
+  foreach($files as $path) {
+    include('./data/'.$path);
+
+    echo('<div class="spacer"></div><div class="spacer"></div>');
+
+    echo('<div class="content flex"><div class="text l-12 m-12 s-12">');
+
+    echo('<div class="subsection">');
+    echo($title[$eng]);
+    echo('</div>');
+
+    echo($date[$eng]);
+    echo('<br><br>');
+
+    echo($content);
+
+    echo('</div></div>');
+  }
+?>
+
+    <div class="spacer">
     </div>
 
     <div class="spacer">
