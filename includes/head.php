@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- ########################################### -->
+<!-- #                                         # -->
+<!-- #         ✋-made for Chemtogether         # -->
+<!-- #    check out github.com/Chemtogether    # -->
+<!-- #                                         # -->
+<!-- ########################################### -->
 <html lang="<?php echo($language);?>">
 
 <!-- START HEAD -->
