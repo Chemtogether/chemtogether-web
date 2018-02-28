@@ -151,31 +151,6 @@ a {
   transition: 0.5s;
   white-space: nowrap;
   will-change: transform; }
-  #sidenav .sidenav-link {
-    padding: 8px 8px 8px 20px;
-    text-decoration: none;
-    font-size: 24px;
-    color: #818181;
-    background-color: inherit;
-    display: block;
-    font-family: montserrat;
-    transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transform: translate3d(0, 0, 0); }
-  #sidenav .sidenav-link:hover:before {
-    content: '/';
-    position: fixed;
-    animation: navpseudo_orange_Animation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    animation-fill-mode: both; }
-  #sidenav .sidenav-link:hover {
-    color: #e56b2e;
-    transform: translate3d(10px, 0, 0); }
-  #sidenav #active {
-    color: white; }
-  #sidenav #active:hover {
-    color: #56abd6; }
-  #sidenav #active:hover:before {
-    animation: navpseudo_blue_Animation 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    animation-fill-mode: both; }
 
 #sidenav:after {
   box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.16), -3px 0px 6px rgba(0, 0, 0, 0.23);
@@ -245,6 +220,51 @@ a {
 @media only screen and (min-width: 600px) {
   #sidenav-language {
     width: 100px; } }
+.sidenav-link {
+  min-width: 40px;
+  padding: 10px 0px 10px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #818181;
+  background-color: inherit;
+  display: table;
+  font-family: montserrat;
+  transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  .sidenav-link:hover {
+    color: #e56b2e;
+    text-decoration: none; }
+    .sidenav-link:hover span {
+      color: #e56b2e;
+      text-decoration: none; }
+  .sidenav-link span {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #818181;
+    background-color: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: montserrat;
+    transition: color 0.25s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+#active {
+  color: white; }
+  #active span {
+    color: white; }
+  #active:hover {
+    color: #56abd6; }
+    #active:hover span {
+      color: #56abd6; }
+
+@media only screen and (min-width: 600px) {
+  .sidenav-link {
+    padding: 10px 0px 10px 30px;
+    font-size: 32px;
+    line-height: 40px; }
+    .sidenav-link span {
+      padding-left: 30px;
+      font-size: 22px; } }
 #topnav {
   display: flex;
   flex-direction: row;
@@ -271,20 +291,6 @@ a {
   flex-grow: 1;
   background-color: #f2f2f2; }
 
-@keyframes navpseudo_orange_Animation {
-  0% {
-    color: transparent;
-    transform: translate3d(0, 0, 0); }
-  100% {
-    color: #e56b2e;
-    transform: translate3d(-10px, 0, 0); } }
-@keyframes navpseudo_blue_Animation {
-  0% {
-    color: transparent;
-    transform: translate3d(0, 0, 0); }
-  100% {
-    color: #56abd6;
-    transform: translate3d(-10px, 0, 0); } }
 #topnav {
   transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: translate3d(0, 0, 0);
@@ -296,7 +302,8 @@ a {
 #sidenav {
   width: 250px;
   transform: translate3d(-250px, 0, 0);
-  transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  will-change: transform; }
 
 .sidenav_open-content {
   transform: translate3d(250px, 0, 0) !important; }

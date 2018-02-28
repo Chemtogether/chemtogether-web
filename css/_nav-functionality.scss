@@ -22,6 +22,7 @@
   width: $sidenav-width_opened;
   transform: translate3d(-$sidenav-width_opened,0,0);
   transition: $sidenav-transition;
+  will-change: transform;
 }
 
 

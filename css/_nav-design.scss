@@ -10,44 +10,6 @@
   transition: 0.5s;
   white-space: nowrap;
   will-change: transform;
-
-  .sidenav-link {
-    padding: 8px 8px 8px 20px;
-    text-decoration: none;
-    font-size: 24px;
-    color: $sidenav-main;
-    background-color: inherit;
-    display: block;
-    font-family: montserrat;
-    transition: color $sidenav_link-transition, transform $sidenav_link-transition;
-    transform: translate3d(0,0,0);
-  }
-
-  .sidenav-link:hover:before {
-    content: '/';
-    position: fixed;
-    animation: navpseudo_orange_Animation $sidenav_link-transition;
-    animation-fill-mode: both;
-  }
-
-  .sidenav-link:hover {
-    color: $ct-orange;
-    transform: translate3d(10px,0,0);
-  }
-
-
-  #active {
-    color: $text-white;
-  }
-
-  #active:hover {
-    color: $ct-blue;
-  }
-
-  #active:hover:before {
-    animation: navpseudo_blue_Animation $sidenav_link-transition;
-    animation-fill-mode: both;
-  }
 }
 
 
@@ -153,9 +115,71 @@
 
 
 
+.sidenav-link {
+  min-width: 40px;
+  padding: 10px 0px 10px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: $sidenav-main;
+  background-color: inherit;
+  display: table;
+  font-family: montserrat;
+  transition: color $sidenav_link-transition;
+
+  &:hover {
+    color: $ct-orange;
+    text-decoration: none;
+
+    span {
+      color: $ct-orange;
+      text-decoration: none;
+    }
+  }
+
+  span {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    color: $sidenav-main;
+    background-color: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: montserrat;
+    transition: color $sidenav_link-transition;
+  }
+}
+
+#active {
+  color: $text-white;
+
+  span {
+    color: $text-white;
+  }
+
+  &:hover {
+    color: $ct-blue;
+
+    span {
+      color: $ct-blue;
+    }
+  }
+}
 
 
 
+@media only screen and (min-width: $bp-medium) {
+  .sidenav-link {
+    padding: 10px 0px 10px 30px;
+    font-size: 32px;
+    line-height: 40px;
+
+    span {
+      padding-left: 30px;
+      font-size: 22px;
+    }
+  }
+}
 
 
 
@@ -195,34 +219,4 @@
   height: 1px;
   flex-grow: 1;
   background-color: $topnav-main;
-}
-
-
-
-
-
-
-
-
-
-@keyframes navpseudo_orange_Animation {
-  0% {
-    color: transparent;
-    transform: translate3d(0,0,0);
-  }
-  100% {
-    color: $ct-orange;
-    transform: translate3d(-10px,0,0);
-  }
-}
-
-@keyframes navpseudo_blue_Animation {
-  0% {
-    color: transparent;
-    transform: translate3d(0,0,0);
-  }
-  100% {
-    color: $ct-blue;
-    transform: translate3d(-10px,0,0);
-  }
 }
