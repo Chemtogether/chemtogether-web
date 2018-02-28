@@ -1,10 +1,12 @@
 <!-- START NAV -->
 
 <div id="sidenav" class="">
-  <div id="sidenav-logo">
-    <img id="sidenav-logo-closed" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_empty','png'); ?>></img>
-    <img id="sidenav-logo-opened" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_full','png'); ?>></img>
-  </div>
+  <a href="/">
+    <div id="sidenav-logo">
+      <img id="sidenav-logo-closed" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_empty','png'); ?>></img>
+      <img id="sidenav-logo-opened" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_full','png'); ?>></img>
+    </div>
+  </a>
 
   <div id="sidenav-language">
     <a href="index.php<?php echo(addGet('lang','de')); ?>" id="<?php if(!$eng) echo('active'); ?>">DE</a> | <a href="index.php<?php echo(addGet('lang','en')); ?>" id="<?php if($eng) echo('active'); ?>">EN</a>

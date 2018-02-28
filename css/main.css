@@ -723,6 +723,14 @@ a {
     font-size: 40px !important; }
   .home #home-top .date-bar {
     height: 5px !important; } }
+@media only screen and (min-width: 1060px) and (min-height: 500px) {
+  .home #home-top #date-day1, .home #home-top #date-day2, .home #home-top #date-month, .home #home-top #date-year {
+    font-size: 125px !important; }
+  .home #home-top #date-place, .home #home-top #date-time {
+    font-size: 50px !important; }
+  .home #home-top .date-bar {
+    height: 5px !important; } }
+
 .home #link-container {
   position: absolute;
   bottom: 20px; }

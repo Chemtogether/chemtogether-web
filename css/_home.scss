@@ -224,6 +224,20 @@
         height: 5px !important;
       }
 
+      @media only screen and (min-height: 500px) {
+
+        #date-day1, #date-day2, #date-month, #date-year {
+          font-size: 125px !important;
+        }
+
+        #date-place, #date-time {
+          font-size: 50px !important;
+        }
+
+        .date-bar {
+          height: 5px !important;
+        }
+      }
     }
   }
 
