@@ -136,7 +136,7 @@ $active_nav = 'exhibitors';
     <div class="spacer">
     </div>
 
-    <div class="content flex">
+    <div class="content flex-center">
       <div class="text l-4 m-6 s-12">
         <div class="packages-base">
           <span>C</span>
@@ -146,6 +146,15 @@ $active_nav = 'exhibitors';
         <div class="subsection">
           <?php echo($lang['content']['packages_base']['name'][$eng]); ?>
         </div>
+        <span class="packages-desc"><?php echo($lang['content']['packages_base']['desc'][$eng]); ?></span>
+        <br><br>
+        <span class="packages-desc">CHF 1500.- total</span>
+      </div>
+    </div>
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+    <div class="content flex-center">
+      <div class="text l-12 m-12 s-12">
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
@@ -159,16 +168,28 @@ $active_nav = 'exhibitors';
             <td><i class="fas fa-angle-right"></i></td>
             <td><?php echo($lang['content']['packages_base']['item3'][$eng]); ?></td>
           </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_base']['item4'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_base']['item5'][$eng]); ?></td>
+          </tr>
         </table>
-        <br>
-        <span>CHF 1234.- total</span>
       </div>
     </div>
 
     <div class="spacer">
     </div>
 
-    <div class="content flex">
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
       <div class="text l-4 m-6 s-12">
         <div class="packages-silver">
           <span>Ag</span>
@@ -178,6 +199,15 @@ $active_nav = 'exhibitors';
         <div class="subsection">
           <?php echo($lang['content']['packages_silver']['name'][$eng]); ?>
         </div>
+        <span class="packages-desc"><?php echo($lang['content']['packages_silver']['desc'][$eng]); ?></span>
+        <br><br>
+        <span class="packages-desc">CHF 2500.- total</span>
+      </div>
+    </div>
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+    <div class="content flex-center">
+      <div class="text l-12 m-12 s-12">
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
@@ -191,16 +221,32 @@ $active_nav = 'exhibitors';
             <td><i class="fas fa-angle-right"></i></td>
             <td><?php echo($lang['content']['packages_silver']['item3'][$eng]); ?></td>
           </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_silver']['item4'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_silver']['item5'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_silver']['item6'][$eng]); ?></td>
+          </tr>
         </table>
-        <br>
-        <span>CHF 1234.- total</span>
       </div>
     </div>
 
     <div class="spacer">
     </div>
 
-    <div class="content flex">
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
       <div class="text l-4 m-6 s-12">
         <div class="packages-gold">
           <span>Au</span>
@@ -210,6 +256,15 @@ $active_nav = 'exhibitors';
         <div class="subsection">
           <?php echo($lang['content']['packages_gold']['name'][$eng]); ?>
         </div>
+        <span class="packages-desc"><?php echo($lang['content']['packages_gold']['desc'][$eng]); ?></span>
+        <br><br>
+        <span class="packages-desc">CHF 4000.- total</span>
+      </div>
+    </div>
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+    <div class="content flex-center">
+      <div class="text l-12 m-12 s-12">
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
@@ -223,16 +278,48 @@ $active_nav = 'exhibitors';
             <td><i class="fas fa-angle-right"></i></td>
             <td><?php echo($lang['content']['packages_gold']['item3'][$eng]); ?></td>
           </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item4'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item5'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item6'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item7'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item8'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item9'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_gold']['item10'][$eng]); ?></td>
+          </tr>
         </table>
-        <br>
-        <span>CHF 1234.- total</span>
       </div>
     </div>
 
     <div class="spacer">
     </div>
 
-    <div class="content flex">
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
       <div class="text l-4 m-6 s-12">
         <div class="packages-platinum">
           <span>Pt</span>
@@ -242,6 +329,15 @@ $active_nav = 'exhibitors';
         <div class="subsection">
           <?php echo($lang['content']['packages_platinum']['name'][$eng]); ?>
         </div>
+        <span class="packages-desc"><?php echo($lang['content']['packages_platinum']['desc'][$eng]); ?></span>
+        <br><br>
+        <span class="packages-desc">CHF 5000.- total</span>
+      </div>
+    </div>
+    <div class="spacer s-d0 m-d1 l-d1">
+    </div>
+    <div class="content flex-center">
+      <div class="text l-12 m-12 s-12">
         <table class="packages">
           <tr>
             <td><i class="fas fa-angle-right"></i></td>
@@ -255,10 +351,15 @@ $active_nav = 'exhibitors';
             <td><i class="fas fa-angle-right"></i></td>
             <td><?php echo($lang['content']['packages_platinum']['item3'][$eng]); ?></td>
           </tr>
+          <tr>
+            <td><i class="fas fa-angle-right"></i></td>
+            <td><?php echo($lang['content']['packages_platinum']['item4'][$eng]); ?></td>
+          </tr>
         </table>
-        <br>
-        <span>CHF 1234.- total</span>
       </div>
+    </div>
+
+    <div class="spacer">
     </div>
 
     <div class="spacer">

@@ -43,30 +43,47 @@ $lang['content'] = array(
 
   'packages_base' => array(
     'name' => array('Basispaket','Base package'),
-    'item1' => array('1','1'),
-    'item2' => array('2','2'),
-    'item3' => array('3','3')
+    'desc' => array('Grundlage für die Teilnahme an Chemtogether','basis for participation in Chemtogether'),
+    'item1' => array('9m² Stand mit zwei Stehtischen','9m² booth with two bistro tables'),
+    'item2' => array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide'),
+    'item3' => array('kurze Firmenpräsentation während der Messe','short presentation during the fair'),
+    'item4' => array('Nutzung der Jobwall während der Messe','use of job wall during the fair'),
+    'item5' => array('Catering, WLAN und Strom','catering, WLAN and electricity'),
   ),
 
   'packages_silver' => array(
     'name' => array('Silberpaket','Silver package'),
-    'item1' => array('1','1'),
-    'item2' => array('2','2'),
-    'item3' => array('3','3')
+    'desc' => array('limitiert auf zwei Silberpakete pro Tag','limited to two silver packages per day'),
+    'item1' => array('alle Leistungen des Basispakets','all perks of the base package'),
+    'item2' => array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair'),
+    'item3' => array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media'),
+    'item4' => array('einseitige Werbung im Messeführer','one-page advertisment in the expo guide'),
+    'item5' => array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisment in the student magazine'),
+    'item6' => array('Firmenlogo auf Studentenvereinswebsite','company logo on the student organisation\'s homepage'),
   ),
 
   'packages_gold' => array(
     'name' => array('Goldpaket','Gold package'),
-    'item1' => array('1','1'),
-    'item2' => array('2','2'),
-    'item3' => array('3','3')
+    'desc' => array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day'),
+    'item1' => array('zentraler 12m² Stand mit drei Stehtischen','prominent 12m² booth with three bistro tables'),
+    'item2' => array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide'),
+    'item3' => array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair'),
+    'item4' => array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media'),
+    'item5' => array('Werbung auf Doppelseite, erster oder letzter Seite im Messeführer','first, center double or last page advertisment in expo guide'),
+    'item6' => array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisment on first or last page in two editions of the student magazine'),
+    'item7' => array('kurze Firmenpräsentation während der Messe','short presentation during the fair'),
+    'item8' => array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews'),
+    'item9' => array('Nutzung der Jobwall während der Messe','use of job wall during the fair'),
+    'item10' => array('Catering, WLAN und Strom','catering, WLAN and electricity'),
   ),
 
   'packages_platinum' => array(
     'name' => array('Platinpaket','Platinum package'),
-    'item1' => array('1','1'),
-    'item2' => array('2','2'),
-    'item3' => array('3','3')
+    'desc' => array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day'),
+    'item1' => array('alle Leistungen des Goldpakets','all perks of the gold package'),
+    'item2' => array('Werbung auf der Rückseite des Messeführers','advertisment on the back side of the expo guide'),
+    'item3' => array('Präsentation im Auditorium','presentation in the auditorium'),
+    'item4' => array('Veranstaltung eines exklusiven Karrerie-Events nach Wunsch','organisation of a career event as requested'),
   ),
 
   'feedback_subsection' => array(

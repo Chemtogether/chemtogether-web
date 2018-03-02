@@ -22,7 +22,8 @@ a {
 }
 
 
-
+.s-d0 {display: none;}
+.s-d1 {display: block;}
 .s-1 {width: 8.33%;}
 .s-2 {width: 16.66%;}
 .s-3 {width: 25%;}
@@ -37,6 +38,8 @@ a {
 .s-12 {width: 100%;}
 
 @media only screen and (min-width: $bp-medium) {
+  .m-d0 {display: none;}
+  .m-d1 {display: block;}
   .m-1 {width: 8.33%;}
   .m-2 {width: 16.66%;}
   .m-3 {width: 25%;}
@@ -52,6 +55,8 @@ a {
 }
 
 @media only screen and (min-width: $bp-large) {
+  .l-d0 {display: none;}
+  .l-d1 {display: block;}
   .l-1 {width: 8.33%;}
   .l-2 {width: 16.66%;}
   .l-3 {width: 25%;}
