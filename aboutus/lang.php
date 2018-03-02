@@ -11,81 +11,105 @@ $lang['navigation']['topnav_title']= array('Das Team', 'The Team');
 
 $lang['content']['intro_text'] = array(
   'Das Team der Chemtogether besteht aus Studenten und Doktoranden des Departments für Chemie und Angewandte Biowissenschaften der ETH Zürich, die die Organisation der Karrieremesse ehrenamtlich übernehmen. Unterstützt wird die Chemtogether von der Vereinigung der Chemiestudierenden, VCS, und der Vereinigung der Doktorierenden, VAC, sowie den entsprechenden Dachvereinen VSETH und AVETH.',
-  'The team of Chemtogether consists of students and PhDs of the department for Chemistry and Applied Biosciences of ETH Zurich, wo organize the career fair voluntarily. Chemtogether is supported by the association of chemistry students, VCS, and and the association of PhD students, VAC, as well the corresponding umbrella organisations VSETH and AVETH.'
+  'The team of Chemtogether consists of students and PhDs of the department for Chemistry and Applied Biosciences of ETH Zurich, organizing the career fair voluntarily. Chemtogether is supported by the association of chemistry students, VCS, and and the association of PhD students, VAC, as well the corresponding umbrella organisations VSETH and AVETH.'
 );
 
 $lang['content']['team_subsection'] = array('Das Team 2018','The Team of 2018');
 
 $lang['content']['team_member_1'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Patrik Willi',
+  'task' => array('Präsidium','Co-Head'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_2'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Esther Tschanen-Hammann',
+  'task' => array('Präsidium','Co-Head'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_3'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Markus Böcker',
+  'task' => array('Räume und Bewilligungen','Rooms and permits'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_4'] = array(
-  'name' => 'Max Mustermann',
+  'name' => 'Andreas Bumberger',
   'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_5'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Romain Dubey',
+  'task' => array('Catering','Catering'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_6'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Andreas Gimpel',
+  'task' => array('Webmaster','Webmaster'),
+  'info' => array('Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.','Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.'),
+  'mail_prefix' => 'andreas.gimpel',
+  'linkedin' => 'https://www.linkedin.com/in/andreas-gimpel/'
 );
 
 $lang['content']['team_member_7'] = array(
-  'name' => 'Max Mustermann',
+  'name' => 'Clemens Isert',
   'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_8'] = array(
-  'name' => 'Max Mustermann',
+  'name' => 'Ann-Christin Kerl',
   'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_9'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Lukas Lätsch',
+  'task' => array('Webrbung und Design','Promotion and design'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_10'] = array(
-  'name' => 'Max Mustermann',
+  'name' => 'Paul Schnacke',
   'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_11'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Cyril Schroeder',
+  'task' => array('Quästur','Finances'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 $lang['content']['team_member_12'] = array(
-  'name' => 'Max Mustermann',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info on me')
+  'name' => 'Konstantin Zouboulis',
+  'task' => array('Firmenakquise','Company acquisition'),
+  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'mail_prefix' => '',
+  'linkedin' => ''
 );
 
 

@@ -30,7 +30,7 @@
         <span id="date-year">2018</span>
       </div>
       <span id="contact-container">
-        <?php obfuscate_mail('info', '', '<i class="fas fa-envelope"></i>'); ?>
+        <?php obfuscate_mail('info', '', '<i class="fas fa-envelope-square"></i>'); ?>
         <a href="https://www.facebook.com/chemtogether/"><i class="fab fa-facebook-square"></i></a>
         <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
       </span>
