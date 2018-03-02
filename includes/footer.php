@@ -8,7 +8,7 @@
         <span class="footer-text-1">Chemtogether<br></span>
         <span class="footer-text-2"><?php echo($lang['footer']['subtitle1'][$eng]); ?><br><?php echo($lang['footer']['subtitle2'][$eng]); ?><br><br><br></span>
         <span class="footer-text-3"><?php echo($lang['footer']['contact'][$eng]); ?><br></span>
-        <p class="footer-text-4"><a href="mailto:info@chemtogether.ethz.ch">info@chemtogether.ethz.ch</a><br></p>
+        <p class="footer-text-4"><?php obfuscate_mail('info', '', ''); ?><br></p>
         <br><br>
         <span class="footer-text-3"><?php echo($lang['footer']['address'][$eng]); ?><br></span>
         <p class="footer-text-4">VCS, Postfach 84<br>Wolfgang-Pauli-Str. 9<br>8093 Zürich<br></p>
@@ -30,7 +30,7 @@
         <span id="date-year">2018</span>
       </div>
       <span id="contact-container">
-        <a href="mailto:info@chemtogether.ethz.ch"><i class="fas fa-envelope"></i></a>
+        <?php obfuscate_mail('info', '', '<i class="fas fa-envelope"></i>'); ?>
         <a href="https://www.facebook.com/chemtogether/"><i class="fab fa-facebook-square"></i></a>
         <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
       </span>

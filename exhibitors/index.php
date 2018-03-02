@@ -87,7 +87,7 @@ $active_nav = 'exhibitors';
         <table>
           <tr>
             <td><i class="fa-fw far fa-envelope"></i></td>
-            <td><a href="mailto:info@chemtogether.ethz.ch">info@chemtogether.ethz.ch</a></td>
+            <td><?php obfuscate_mail('info', '', ''); ?></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-building"></i></td>
