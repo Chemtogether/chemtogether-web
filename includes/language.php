@@ -11,7 +11,7 @@ $lang['navigation'] = array(
   'sidenav_companies' => array('Firmen','Companies'),
   'sidenav_aboutus' => array('Über Uns','About Us'),
   'sidenav_archive' => array('Archiv','Archive'),
-  'sidenav_exhibitors' => array('Austeller','Exhibitors'),
+  'sidenav_exhibitors' => array('Aussteller','Exhibitors'),
 );
 
 
