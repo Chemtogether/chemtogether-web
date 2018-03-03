@@ -1,7 +1,7 @@
 <?php
 
 // provides small functions
-include('php/general_functions.php');
+include('php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
 include('php/language_cookie.php');
@@ -67,7 +67,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/team_default','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/team_default','jpg'); ?>></img>
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_1','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_1','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -106,7 +106,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_2','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_2','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -131,7 +131,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_3','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_3','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -156,7 +156,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_4','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_4','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -181,7 +181,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_5','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_5','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -206,7 +206,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_6','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_6','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -231,7 +231,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_7','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_7','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -256,7 +256,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_8','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_8','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -281,7 +281,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_9','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_9','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -306,7 +306,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_10','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_10','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -331,7 +331,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_11','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_11','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -356,7 +356,7 @@ $active_nav = 'aboutus';
     <div class="content flex">
       <div class="image-member l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/team/member_12','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/member_12','jpg'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -466,7 +466,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/vcs','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/vcs','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -486,7 +486,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/vac','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/vac','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -506,7 +506,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/vseth','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/vseth','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -526,7 +526,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/aveth','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/aveth','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -546,7 +546,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/dchab','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/dchab','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -566,7 +566,7 @@ $active_nav = 'aboutus';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
         <div>
-          <img <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/img/organisation/eth','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/eth','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">

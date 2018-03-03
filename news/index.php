@@ -1,7 +1,7 @@
 <?php
 
 // provides small functions
-include('php/general_functions.php');
+include('php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
 include('php/language_cookie.php');

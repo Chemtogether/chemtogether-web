@@ -3,8 +3,8 @@
 <div id="sidenav" class="">
   <a href="/">
     <div id="sidenav-logo">
-      <img id="sidenav-logo-closed" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_empty','png'); ?>></img>
-      <img id="sidenav-logo-opened" <?php set_source('https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/logo/chemtogether_full','png'); ?>></img>
+      <img id="sidenav-logo-closed" <?php set_source($awss3.'/logo/chemtogether_empty','png'); ?>></img>
+      <img id="sidenav-logo-opened" <?php set_source($awss3.'/logo/chemtogether_full','png'); ?>></img>
     </div>
   </a>
 

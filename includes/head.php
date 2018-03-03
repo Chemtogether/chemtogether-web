@@ -17,21 +17,20 @@
   <meta name="author" content="webmaster@chemtogether.ethz.ch"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta charset="UTF-8"/>
-  <meta http-equiv="Cache-Control" content="max-age=0" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 
   <!-- title + favicon -->
   <title><?php echo($lang['general']['page_title'][$eng]); ?></title>
-  <link rel="apple-touch-icon" sizes="180x180" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/favicon-16x16.png">
-  <link rel="manifest" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/manifest.json">
-  <link rel="mask-icon" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/safari-pinned-tab.svg" color="#272727">
-  <link rel="shortcut icon" href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo($awss3);?>/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo($awss3);?>/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo($awss3);?>/favicon/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo($awss3);?>/favicon/manifest.json">
+  <link rel="mask-icon" href="<?php echo($awss3);?>/favicon/safari-pinned-tab.svg" color="#272727">
+  <link rel="shortcut icon" href="<?php echo($awss3);?>/favicon/favicon.ico">
   <meta name="apple-mobile-web-app-title" content="Chemtogether">
   <meta name="application-name" content="Chemtogether">
-  <meta name="msapplication-config" content="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/favicon/browserconfig.xml">
+  <meta name="msapplication-config" content="<?php echo($awss3);?>/favicon/browserconfig.xml">
   <meta name="theme-color" content="#272727">
 
 
