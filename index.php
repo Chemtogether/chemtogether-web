@@ -19,7 +19,14 @@ include('./lang.php');
 
 $active_nav = 'home';
 
-
+// $fb = array(
+//   "title"        => "",
+//   "desc"         => "",
+//   "url"          => $awss3."/opengraph/",
+//   "image_url"    => "",
+//   "image_width"  => "",
+//   "image_height" => ""
+// );
 
 ?>
 <?php include('includes/head.php');  ?>

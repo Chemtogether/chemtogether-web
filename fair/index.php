@@ -19,6 +19,15 @@ include('./lang.php');
 
 $active_nav = 'fair';
 
+// $fb = array(
+//   "title"        => "",
+//   "desc"         => "",
+//   "url"          => $awss3."/opengraph/",
+//   "image_url"    => "",
+//   "image_width"  => "",
+//   "image_height" => ""
+// );
+
 
 
 ?>
@@ -222,7 +231,7 @@ $active_nav = 'fair';
       </div>
       <?php echo($lang['content']['programme_1']['description'][$eng]); ?>
       <br><br>
-      <table>
+      <table class="fa-table">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
@@ -245,7 +254,7 @@ $active_nav = 'fair';
       </div>
       <?php echo($lang['content']['programme_2']['description'][$eng]); ?>
       <br><br>
-      <table>
+      <table class="fa-table">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
@@ -268,7 +277,7 @@ $active_nav = 'fair';
       </div>
       <?php echo($lang['content']['programme_3']['description'][$eng]); ?>
       <br><br>
-      <table>
+      <table class="fa-table">
         <tr>
           <td><i class="fas fa-fw fa-exclamation"></i></td>
           <td><?php echo($lang['content']['programme_3']['other'][$eng]); ?></td>

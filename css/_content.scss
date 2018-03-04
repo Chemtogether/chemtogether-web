@@ -116,7 +116,12 @@
   margin-bottom: 10px;
 }
 
-
+.fa-table {
+  tr td:nth-child(1) {
+    padding-right: 5px;
+    vertical-align: top;
+  }
+}
 
 
 

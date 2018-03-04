@@ -124,7 +124,7 @@ $lang['content'] = array(
 
 
 $lang['img']['1'] = array('Messetag', 'Fair day');
-$lang['img']['2'] = array('Tägliche Besucher', 'Daily visitors');
+$lang['img']['2'] = array('Besucher', 'Daily visitors');
 $lang['img']['3'] = array('Ø Bewertung', 'Ø Rating');
 
 

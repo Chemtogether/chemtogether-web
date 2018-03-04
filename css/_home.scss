@@ -28,7 +28,7 @@
     left: 0px;
     z-index: 0;
     content: '';
-    background: transparent url(#{$awss3}/img/pattern.png) repeat top left;
+    background: transparent url(#{$awss3}/img/pattern1.png) repeat top left;
   }
 
 
@@ -438,7 +438,7 @@
       opacity: 1;
       transition: opacity $infobox-transition;
       content: '';
-      background: transparent url(#{$awss3}/img/pattern.png) repeat top left;
+      background: transparent url(#{$awss3}/img/pattern2.png) repeat top left;
     }
 
     .infobox:hover:after {
@@ -450,7 +450,7 @@
       z-index: 30;
       opacity: 0;
       content: '';
-      background: transparent url(#{$awss3}/img/pattern.png) repeat top left;
+      background: transparent url(#{$awss3}/img/pattern2.png) repeat top left;
     }
 
     .infobox:hover span:nth-child(3) {

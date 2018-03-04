@@ -2,7 +2,7 @@
 <!-- ########################################### -->
 <!-- #                                         # -->
 <!-- #         ✋-made for Chemtogether         # -->
-<!-- #    check out github.com/Chemtogether    # -->
+<!-- #         github.com/Chemtogether         # -->
 <!-- #                                         # -->
 <!-- ########################################### -->
 <html lang="<?php echo($language);?>">
@@ -19,6 +19,20 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+  <?php if(isset($fb)) {  ?>
+  <!-- opengraph tags -->
+  <meta property="og:title" content="<?php echo($fb['title']); ?>">
+  <meta property="og:description" content="<?php echo($fb['desc']); ?>">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="<?php echo($fb['url']); ?>">
+  <meta property="og:image" content="<?php echo($fb['image_url']); ?>">
+  <meta property="og:image:width" content="<?php echo($fb['image_width']); ?>">
+  <meta property="og:image:height" content="<?php echo($fb['image_height']); ?>">
+  <meta property="og:locale" content="de_CH">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="en_GB">
+  <?php  }  ?>
 
   <!-- title + favicon -->
   <title><?php echo($lang['general']['page_title'][$eng]); ?></title>

@@ -37,7 +37,7 @@ $sidenav-width_opened: 250px; //width of sidenav in opened state
 $sidenav-width_closed: 100px; //width of sidenav in closed state
 $navbar-height: 50px; //height of navbar in mobile design
 
-//type of transition for sliding, check for different options at http://easings.net
+//type of transition for animation, check for different options at http://easings.net
 $sidenav-transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 $sidenav_logo-transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s;
 $slideshow_link-transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);

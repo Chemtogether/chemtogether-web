@@ -19,7 +19,14 @@ include('./lang.php');
 
 $active_nav = 'exhibitors';
 
-
+// $fb = array(
+//   "title"        => "",
+//   "desc"         => "",
+//   "url"          => $awss3."/opengraph/",
+//   "image_url"    => "",
+//   "image_width"  => "",
+//   "image_height" => ""
+// );
 
 ?>
 <?php include('includes/head.php');  ?>
@@ -84,7 +91,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['contact_text'][$eng]); ?><br style="line-height:40px;" />
-        <table>
+        <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-envelope"></i></td>
             <td><?php obfuscate_mail('info', '', ''); ?></td>
@@ -99,7 +106,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['documents_text'][$eng]); ?><br style="line-height:40px;" />
-        <table>
+        <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
             <td><a href="link"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
