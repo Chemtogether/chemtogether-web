@@ -15,7 +15,7 @@ $lang['content'] = array(
 
   'coming_soon' => array(
     'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf Facebook und LinkedIn!',
-    'No company has completly confirmed its attendence yet! We will update you as soon as possible, so check our Facebook or LinkedIn!')
+    'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our Facebook or LinkedIn!')
 );
 
 ?>

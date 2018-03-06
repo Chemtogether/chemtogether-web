@@ -19,31 +19,31 @@ $lang['content']['team_subsection'] = array('Das Team 2018','The Team of 2018');
 $lang['content']['team_member_1'] = array(
   'name' => 'Patrik Willi',
   'task' => array('Präsidium','Co-Head'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'info' => array('Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.','Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.'),
+  'mail_prefix' => 'patrik.willi',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_2'] = array(
   'name' => 'Esther Tschanen-Hammann',
   'task' => array('Präsidium','Co-Head'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'info' => array('After completing a Master’s degree in Chemistry at ETH, Es- ther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. ','After completing a Master’s degree in Chemistry at ETH, Es- ther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. '),
+  'mail_prefix' => 'esther.tschanen',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_3'] = array(
   'name' => 'Markus Böcker',
   'task' => array('Räume und Bewilligungen','Rooms and permits'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
   'mail_prefix' => '',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_4'] = array(
   'name' => 'Andreas Bumberger',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'task' => array('TBD','TBD'),
+  'info' => array('As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.','As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.'),
   'mail_prefix' => '',
   'linkedin' => ''
 );
@@ -51,7 +51,7 @@ $lang['content']['team_member_4'] = array(
 $lang['content']['team_member_5'] = array(
   'name' => 'Romain Dubey',
   'task' => array('Catering','Catering'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
   'mail_prefix' => '',
   'linkedin' => ''
 );
@@ -65,50 +65,66 @@ $lang['content']['team_member_6'] = array(
 );
 
 $lang['content']['team_member_7'] = array(
-  'name' => 'Clemens Isert',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'name' => 'David Hahn',
+  'task' => array('TBD','TBD'),
+  'info' => array('Besides pursuing a PhD in computational chemistry, David has a great interest in culinary art and enjoys spoiling his guests (and himself) with exquisite self-made menus. On the other hand, he also likes physical activities like running, biking and skiing across the wonderful Swiss landscape.','Besides pursuing a PhD in computational chemistry, David has a great interest in culinary art and enjoys spoiling his guests (and himself) with exquisite self-made menus. On the other hand, he also likes physical activities like running, biking and skiing across the wonderful Swiss landscape.'),
+  'mail_prefix' => 'david.hahn',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_8'] = array(
-  'name' => 'Ann-Christin Kerl',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'name' => 'Clemens Isert',
+  'task' => array('TBD','TBD'),
+  'info' => array('Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.','Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.'),
   'mail_prefix' => '',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_9'] = array(
-  'name' => 'Lukas Lätsch',
-  'task' => array('Webrbung und Design','Promotion and design'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
+  'name' => 'Ann-Christin Kerl',
+  'task' => array('TBD','TBD'),
+  'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
   'mail_prefix' => '',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_10'] = array(
-  'name' => 'Paul Schnacke',
-  'task' => array('Test Manager','Chief Test Officer'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'name' => 'Lukas Lätsch',
+  'task' => array('Webrbung und Design','Promotion and design'),
+  'info' => array('Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years.','Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years. '),
+  'mail_prefix' => 'lukas.laetsch',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_11'] = array(
-  'name' => 'Cyril Schroeder',
-  'task' => array('Quästur','Finances'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'name' => 'Josephine Scheiter',
+  'task' => array('TBD','TBD'),
+  'info' => array('As she likes exploring new places, Josephine decided to start studying in Zurich. Besides her studies she enjoys playing the piano and doing sports as she has been playing tennis on a competitive level for more than 10 years.', 'As she likes exploring new places, Josephine decided to start studying in Zurich. Besides her studies she enjoys playing the piano and doing sports as she has been playing tennis on a competitive level for more than 10 years.'),
+  'mail_prefix' => 'josephine.scheiter',
   'linkedin' => ''
 );
 
 $lang['content']['team_member_12'] = array(
+  'name' => 'Paul Schnacke',
+  'task' => array('TBD','TBD'),
+  'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
+  'mail_prefix' => '',
+  'linkedin' => ''
+);
+
+$lang['content']['team_member_13'] = array(
+  'name' => 'Cyril Schroeder',
+  'task' => array('Quästur','Finances'),
+  'info' => array('Coming from Luxembourg, Cyril had no great difficulties fitting in Zurich. When not studying, he can be found hitting the gym or running in the woods of the Hönggerberg. ','Coming from Luxembourg, Cyril had no great difficulties fitting in Zurich. When not studying, he can be found hitting the gym or running in the woods of the Hönggerberg. '),
+  'mail_prefix' => 'cyril.schroeder',
+  'linkedin' => ''
+);
+
+$lang['content']['team_member_14'] = array(
   'name' => 'Konstantin Zouboulis',
   'task' => array('Firmenakquise','Company acquisition'),
-  'info' => array('Hier könnte deine Info stehen','Some info from me'),
-  'mail_prefix' => '',
+  'info' => array('Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. ','Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. '),
+  'mail_prefix' => 'konstantin.zouboulis',
   'linkedin' => ''
 );
 

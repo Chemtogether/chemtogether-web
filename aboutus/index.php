@@ -385,6 +385,56 @@ $active_nav = 'aboutus';
     <div class="spacer">
     </div>
 
+    <div class="content flex">
+      <div class="image-member l-4 m-6 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/team/member_13','jpg'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['team_member_13']['name']); ?>
+        </div>
+        <span><?php echo($lang['content']['team_member_13']['task'][$eng]); ?></span>
+        <br><br>
+        <?php echo($lang['content']['team_member_13']['info'][$eng]); ?>
+        <br><br>
+        <?php obfuscate_mail($lang['content']['team_member_13']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
+        <?php if ($lang['content']['team_member_13']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_13']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex">
+      <div class="image-member l-4 m-6 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/team/member_14','jpg'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['team_member_14']['name']); ?>
+        </div>
+        <span><?php echo($lang['content']['team_member_14']['task'][$eng]); ?></span>
+        <br><br>
+        <?php echo($lang['content']['team_member_14']['info'][$eng]); ?>
+        <br><br>
+        <?php obfuscate_mail($lang['content']['team_member_14']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
+        <?php if ($lang['content']['team_member_14']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_14']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="spacer" id="alumni">
     </div>
 

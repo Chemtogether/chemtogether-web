@@ -1,6 +1,6 @@
 <?php
 
-$date = array('19. Februar 2018','19th February 2018');
+$date = array('6. März 2018','6th March 2018');
 $title = array('Neue Homepage der Chemtogether veröffentlicht','New homepage of Chemtogether published');
 
 $text = array(

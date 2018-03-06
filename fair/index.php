@@ -91,19 +91,19 @@ $active_nav = 'fair';
     </div>
 
     <div class="content flex">
-      <div class="text l-4 m-12 s-12 fair-introlinks">
+      <div class="text l-6 m-12 s-12 fair-introlinks">
         <a href="https://www.ethz.ch/de/campus/standorte-anreise/standorte-ZH/hoenggerberg.html">
           <i class="far fa-fw fa-map"></i>&nbsp;
           <span><?php echo($lang['content']['links_directions'][$eng]); ?></span>
         </a>
       </div>
-      <div class="text l-4 m-12 s-12 fair-introlinks">
+      <!-- <div class="text l-4 m-12 s-12 fair-introlinks">
         <a href="/files/expoguide.pdf">
           <i class="far fa-fw fa-file-alt"></i>&nbsp;
           <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
         </a>
-      </div>
-      <div class="text l-4 m-12 s-12 fair-introlinks">
+      </div> -->
+      <div class="text l-6 m-12 s-12 fair-introlinks">
         <a href="/companies/">
           <i class="far fa-fw fa-building"></i>&nbsp;
           <span><?php echo($lang['content']['links_companies'][$eng]); ?></span>
