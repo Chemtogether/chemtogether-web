@@ -36,7 +36,7 @@ $lang['content']['team_member_3'] = array(
   'name' => 'Markus Böcker',
   'task' => array('Räume und Bewilligungen','Rooms and permits'),
   'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'markus.boecker',
   'linkedin' => ''
 );
 
@@ -44,7 +44,7 @@ $lang['content']['team_member_4'] = array(
   'name' => 'Andreas Bumberger',
   'task' => array('TBD','TBD'),
   'info' => array('As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.','As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'andreas.bumberger',
   'linkedin' => ''
 );
 
@@ -52,7 +52,7 @@ $lang['content']['team_member_5'] = array(
   'name' => 'Romain Dubey',
   'task' => array('Catering','Catering'),
   'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'romain.dubey',
   'linkedin' => ''
 );
 
@@ -76,7 +76,7 @@ $lang['content']['team_member_8'] = array(
   'name' => 'Clemens Isert',
   'task' => array('TBD','TBD'),
   'info' => array('Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.','Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'clemens.isert',
   'linkedin' => ''
 );
 
@@ -84,7 +84,7 @@ $lang['content']['team_member_9'] = array(
   'name' => 'Ann-Christin Kerl',
   'task' => array('TBD','TBD'),
   'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'ann-christin.kerl',
   'linkedin' => ''
 );
 
@@ -108,7 +108,7 @@ $lang['content']['team_member_12'] = array(
   'name' => 'Paul Schnacke',
   'task' => array('TBD','TBD'),
   'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
-  'mail_prefix' => '',
+  'mail_prefix' => 'paul.schnacke',
   'linkedin' => ''
 );
 
