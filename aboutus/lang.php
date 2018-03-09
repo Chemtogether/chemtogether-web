@@ -75,7 +75,7 @@ $lang['content']['team_member_7'] = array(
 $lang['content']['team_member_8'] = array(
   'name' => 'Clemens Isert',
   'task' => array('Social Media und PR','Social Media and PR'),
-  'info' => array('Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.','Having organized a multitude of events for the chemistry students\' organization in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.'),
+  'info' => array('Having organized a multitude of events for the chemistry students\' association in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.','Having organized a multitude of events for the chemistry students\' association in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.'),
   'mail_prefix' => 'clemens.isert',
   'linkedin' => 'https://www.linkedin.com/in/clemens-isert/'
 );
