@@ -16,7 +16,8 @@ $lang['content']['intro_text'] = array(
 
 $lang['content']['team_subsection'] = array('Das Team 2018','The Team of 2018');
 
-$lang['content']['team_member_1'] = array(
+
+$lang['team'][1] = array(
   'name' => 'Patrik Willi',
   'task' => array('Präsidium','Co-Head'),
   'info' => array('Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.','Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.'),
@@ -24,7 +25,7 @@ $lang['content']['team_member_1'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_2'] = array(
+$lang['team'][2] = array(
   'name' => 'Esther Tschanen-Hammann',
   'task' => array('Präsidium','Co-Head'),
   'info' => array('After completing a Master’s degree in Chemistry at ETH, Esther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. ','After completing a Master’s degree in Chemistry at ETH, Esther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. '),
@@ -32,7 +33,7 @@ $lang['content']['team_member_2'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_3'] = array(
+$lang['team'][3] = array(
   'name' => 'Markus Böcker',
   'task' => array('Räume und Bewilligungen','Rooms and permits'),
   'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
@@ -40,7 +41,7 @@ $lang['content']['team_member_3'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_4'] = array(
+$lang['team'][4] = array(
   'name' => 'Andreas Bumberger',
   'task' => array('Social Media und PR','Social Media and PR'),
   'info' => array('As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.','As an Austrian skiing enthusiast, Andreas enjoys pursuing his chemistry studies in close proximity to the Alps. After long days in the lab, he likes to keep his stamina up by training for the yearly marathon in his hometown of Linz.'),
@@ -48,7 +49,7 @@ $lang['content']['team_member_4'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_5'] = array(
+$lang['team'][5] = array(
   'name' => 'Romain Dubey',
   'task' => array('Catering','Catering'),
   'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
@@ -56,7 +57,7 @@ $lang['content']['team_member_5'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_6'] = array(
+$lang['team'][6] = array(
   'name' => 'Andreas Gimpel',
   'task' => array('Webmaster','Webmaster'),
   'info' => array('Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.','Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.'),
@@ -64,15 +65,15 @@ $lang['content']['team_member_6'] = array(
   'linkedin' => 'https://www.linkedin.com/in/andreas-gimpel/'
 );
 
-$lang['content']['team_member_7'] = array(
+$lang['team'][7] = array(
   'name' => 'David Hahn',
   'task' => array('Consulting','Consulting'),
-  'info' => array('Besides pursuing a PhD in computational chemistry, David has a great interest in culinary art and enjoys spoiling his guests (and himself) with exquisite self-made menus. On the other hand, he also likes physical activities like running, biking and skiing across the wonderful Swiss landscape.','Besides pursuing a PhD in computational chemistry, David has a great interest in culinary art and enjoys spoiling his guests (and himself) with exquisite self-made menus. On the other hand, he also likes physical activities like running, biking and skiing across the wonderful Swiss landscape.'),
+  'info' => array('David pursues a PhD in Computational Chemistry. He likes to compensate for the work in front of the screen by hiking, skiing and mountain biking in the nature. Other interests include growing different tomato varieties and cooking elaborate meals.','David pursues a PhD in Computational Chemistry. He likes to compensate for the work in front of the screen by hiking, skiing and mountain biking in the nature. Other interests include growing different tomato varieties and cooking elaborate meals.'),
   'mail_prefix' => 'david.hahn',
   'linkedin' => ''
 );
 
-$lang['content']['team_member_8'] = array(
+$lang['team'][8] = array(
   'name' => 'Clemens Isert',
   'task' => array('Social Media und PR','Social Media and PR'),
   'info' => array('Having organized a multitude of events for the chemistry students\' association in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.','Having organized a multitude of events for the chemistry students\' association in the past, Clemens joined the team of Chemtogether to apply those skills in a different setting. Besides pursuing a degree in Chemical and Bioengineering, his time is spent improving his cooking skills or figuring out how to pull of good shot of espresso.'),
@@ -80,7 +81,7 @@ $lang['content']['team_member_8'] = array(
   'linkedin' => 'https://www.linkedin.com/in/clemens-isert/'
 );
 
-$lang['content']['team_member_9'] = array(
+$lang['team'][9] = array(
   'name' => 'Ann-Christin Kerl',
   'task' => array('Begleitprogramm','Supporting Programme'),
   'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
@@ -88,7 +89,7 @@ $lang['content']['team_member_9'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_10'] = array(
+$lang['team'][10] = array(
   'name' => 'Lukas Lätsch',
   'task' => array('Werbung und Design','Promotion and Design'),
   'info' => array('Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years.','Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years. '),
@@ -96,7 +97,7 @@ $lang['content']['team_member_10'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_11'] = array(
+$lang['team'][11] = array(
   'name' => 'Josephine Scheiter',
   'task' => array('Sponsoring','Sponsoring'),
   'info' => array('As she likes exploring new places, Josephine decided to start studying in Zurich. Besides her studies she enjoys playing the piano and doing sports as she has been playing tennis on a competitive level for more than 10 years.', 'As she likes exploring new places, Josephine decided to start studying in Zurich. Besides her studies she enjoys playing the piano and doing sports as she has been playing tennis on a competitive level for more than 10 years.'),
@@ -104,7 +105,7 @@ $lang['content']['team_member_11'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_12'] = array(
+$lang['team'][12] = array(
   'name' => 'Paul Schnacke',
   'task' => array('Werbung und Design','Promotion and Design'),
   'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
@@ -112,7 +113,7 @@ $lang['content']['team_member_12'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_13'] = array(
+$lang['team'][13] = array(
   'name' => 'Cyril Schroeder',
   'task' => array('Quästur','Finances'),
   'info' => array('Coming from Luxembourg, Cyril had no great difficulties fitting in Zurich. When not studying, he can be found hitting the gym or running in the woods of the Hönggerberg. ','Coming from Luxembourg, Cyril had no great difficulties fitting in Zurich. When not studying, he can be found hitting the gym or running in the woods of the Hönggerberg. '),
@@ -120,13 +121,14 @@ $lang['content']['team_member_13'] = array(
   'linkedin' => ''
 );
 
-$lang['content']['team_member_14'] = array(
+$lang['team'][14] = array(
   'name' => 'Konstantin Zouboulis',
   'task' => array('Firmenakquise','Company acquisition'),
   'info' => array('Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. ','Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. '),
   'mail_prefix' => 'konstantin.zouboulis',
   'linkedin' => ''
 );
+
 
 
 
@@ -154,5 +156,13 @@ $lang['content']['organisation']['vseth'] = array('Verband der Studierenden an d
 $lang['content']['organisation']['aveth'] = array('Akademische Vereinigung des Mittelbaus der ETH Zürich','Academic Association of Scientific Staff at ETH Zurich ');
 $lang['content']['organisation']['chab'] = array('Departement Chemie und Angewandte Biowissenschaften','Department of Chemistry and Applied Biosciences');
 $lang['content']['organisation']['eth'] = array('ETH Zürich','ETH Zurich');
+
+
+$lang['content']['partners_subsection'] = array('Unsere Partner','Our Partners');
+$lang['content']['partners_text'] = array('Chemtogether kooperiert mit den folgenden Organisationen und Unternehmen. ','Chemtogether cooperates with the following organisations and companies.');
+
+$lang['content']['partners']['careercenter'] = array('ETH Career Center','ETH Career Center');
+$lang['content']['partners']['cvpics'] = array('CV Pics','CV Pics');
+
 
 ?>

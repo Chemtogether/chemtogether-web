@@ -87,8 +87,8 @@ $lang['content'] = array(
   ),
 
   'feedback_subsection' => array(
-    'Ausstellerfeedback',
-    'Company Feedback'),
+    'Rückblick auf 2017',
+    '2017 in Review'),
 
   'feedback_entries' => array(
     '1' => array(
@@ -117,9 +117,13 @@ $lang['content'] = array(
       'Overall satisfaction')
   ),
 
+  'feedback_intro' => array(
+    'Alle ausstellenden Unternehmen der Chemtogether 2017 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.5 von 5 Punkten bewertet, unser beste Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'All exhibitors of Chemtogether 2017 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.5 out of 5, our best result yet. Naturally, we would like to further improve the fair in its sixth iteration and have thus began implementing some of the suggestions we received.'),
+
   'feedback_text' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether 2017 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.5 von 5 Punkten bewertet, unser beste Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.<br><br>Das vollständige Ergebnis der Feedbackauswertung 2017 lautet:',
-    'All exhibitors of Chemtogether 2017 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.5 out of 5, our best result yet. Naturally, we would like to further improve the fair in its sixth iteration and have thus began implementing some of the suggestions we received.<br><br>The complete feedback of 2017 is as follows:')
+    'Das vollständige Ergebnis der Feedbackauswertung 2017 lautet:',
+    'The complete feedback of 2017 is as follows:')
 );
 
 

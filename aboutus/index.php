@@ -77,363 +77,44 @@ $active_nav = 'aboutus';
           <img <?php set_source($awss3.'/img/team/team','jpg'); ?>></img>
         </div>
       </div>
+    </div>
+
+    <div class="spacer">
     </div> -->
 
     <div class="spacer">
     </div>
 
-    <div class="spacer">
-    </div>
 
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_1','jpg'); ?>></img>
+    <?php for ($member_id=1; $member_id <= sizeof($lang['team']); $member_id++) { ?>
+
+      <div class="content flex-center">
+        <div class="image-member l-4 m-6 s-12">
+          <div>
+            <img <?php set_source($awss3.'/img/team/member_'.$member_id,'jpg'); ?>></img>
+          </div>
+        </div>
+        <div class="text l-8 m-6 s-12">
+          <div class="subsection">
+            <?php echo($lang['team'][$member_id]['name']); ?>
+          </div>
+          <span><?php echo($lang['team'][$member_id]['task'][$eng]); ?></span>
+          <br><br>
+          <?php echo($lang['team'][$member_id]['info'][$eng]); ?>
+          <br><br>
+          <?php obfuscate_mail($lang['team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
+          <?php if ($lang['team'][$member_id]['linkedin'] != '') echo('<a href="'.$lang['team'][$member_id]['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
         </div>
       </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_1']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_1']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_1']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_1']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_1']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_1']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
+
+      <div class="spacer">
       </div>
-    </div>
 
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_2','jpg'); ?>></img>
-        </div>
+      <div class="spacer">
       </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_2']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_2']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_2']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_2']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_2']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_2']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
+    <?php } ?>
 
-    <div class="spacer">
-    </div>
 
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_3','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_3']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_3']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_3']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_3']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_3']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_3']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_4','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_4']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_4']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_4']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_4']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_4']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_4']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_5','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_5']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_5']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_5']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_5']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_5']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_5']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_6','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_6']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_6']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_6']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_6']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_6']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_6']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_7','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_7']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_7']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_7']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_7']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_7']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_7']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_8','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_8']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_8']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_8']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_8']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_8']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_8']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_9','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_9']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_9']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_9']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_9']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_9']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_9']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_10','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_10']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_10']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_10']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_10']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_10']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_10']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_11','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_11']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_11']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_11']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_11']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_11']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_11']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_12','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_12']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_12']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_12']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_12']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_12']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_12']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_13','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_13']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_13']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_13']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_13']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_13']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_13']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="image-member l-4 m-6 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/member_14','jpg'); ?>></img>
-        </div>
-      </div>
-      <div class="text l-8 m-6 s-12">
-        <div class="subsection">
-          <?php echo($lang['content']['team_member_14']['name']); ?>
-        </div>
-        <span><?php echo($lang['content']['team_member_14']['task'][$eng]); ?></span>
-        <br><br>
-        <?php echo($lang['content']['team_member_14']['info'][$eng]); ?>
-        <br><br>
-        <?php obfuscate_mail($lang['content']['team_member_14']['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-        <?php if ($lang['content']['team_member_14']['linkedin'] != '') echo('<a href="'.$lang['content']['team_member_14']['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
 
     <div class="spacer" id="alumni">
     </div>
@@ -631,6 +312,70 @@ $active_nav = 'aboutus';
           <?php echo($lang['content']['organisation']['eth'][$eng]); ?>
         </div>
         <a href="https://www.ethz.ch/">www.ethz.ch</a>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer" id="partners">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['partners_subsection'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['partners_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
+      <div class="image-organisation l-4 m-6 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/partners/careercenter','png'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['partners']['careercenter'][$eng]); ?>
+        </div>
+        <a href="https://www.ethz.ch/en/industry-and-society/career-center.html">www.ethz.ch</a>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
+      <div class="image-organisation l-4 m-6 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/partners/cvpics','png'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['partners']['cvpics'][$eng]); ?>
+        </div>
+        <a href="https://www.cvpics.ch/">www.cvpics.ch</a>
       </div>
     </div>
 

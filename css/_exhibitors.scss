@@ -1,6 +1,17 @@
 .exhibitors {
 
 
+  .image-big {
+    div {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
   .image {
     background-image: url(#{$awss3}/img/2.jpg);
     background-size: cover;
