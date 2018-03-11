@@ -143,6 +143,32 @@ $active_nav = 'exhibitors';
     <div class="spacer">
     </div>
 
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <table id="packages-table">
+          <tr>
+            <td></td>
+            <td>C</td>
+            <td>Ag</td>
+            <td>Au</td>
+            <td>Pt</td>
+          </tr>
+          <?php for ($i=1; $i <= sizeof($lang['packages']) ; $i++) { ?>
+            <tr>
+              <td><?php echo($lang['packages'][$i]['perk'][$eng]); ?></td>
+              <td><?php echo($lang['packages'][$i]['base'][$eng]); ?></td>
+              <td><?php echo($lang['packages'][$i]['silver'][$eng]); ?></td>
+              <td><?php echo($lang['packages'][$i]['gold'][$eng]); ?></td>
+              <td><?php echo($lang['packages'][$i]['platinum'][$eng]); ?></td>
+            </tr>
+          <?php } ?>
+        </table>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="content flex-center">
       <div class="text l-4 m-6 s-12">
         <div class="packages-base">

@@ -132,10 +132,126 @@ $lang['img']['2'] = array('Besucher', 'Daily visitors');
 $lang['img']['3'] = array('Ø Bewertung', 'Ø Rating');
 
 
+$i = 1;
+$lang['packages'][$i++] = array(
+  'perk'     => array('',''),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('',''),
+  'platinum' => array('',''),
+);
 
+$lang['packages'][$i++] = array(
+  'perk'     => array('Standgrösse','size of booth'),
+  'base'     => array('6 m²','6 m²'),
+  'silver'   => array('6 m²','6 m²'),
+  'gold'     => array('12 m²','12 m²'),
+  'platinum' => array('12 m²','12 m²'),
+);
 
+$lang['packages'][$i++] = array(
+  'perk'     => array('Stehtische','bistro tables'),
+  'base'     => array('2','2'),
+  'silver'   => array('2','2'),
+  'gold'     => array('3','3'),
+  'platinum' => array('3','3'),
+);
 
+$lang['packages'][$i++] = array(
+  'perk'     => array('Firmenprofil','company profile'),
+  'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
 
+$lang['packages'][$i++] = array(
+  'perk'     => array('Jobwall','jobwall'),
+  'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Präsentation','presentation'),
+  'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Interviews','interviews'),
+  'base'     => array('',''),
+  'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Promotion','promotion'),
+  'base'     => array('',''),
+  'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Werbung in Messeführer','ads in expo guide'),
+  'base'     => array('',''),
+  'silver'   => array('1','1'),
+  'gold'     => array('1','1'),
+  'platinum' => array('1','1'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Werbung in Zeitschrift','ads in magazine'),
+  'base'     => array('',''),
+  'silver'   => array('1','1'),
+  'gold'     => array('2','2'),
+  'platinum' => array('2','2'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Bewerbungsgespräche','job interviews'),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Auditoriumspräsentation','presentation in auditorium'),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('',''),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Karriere-Event','career event'),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('',''),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('',''),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('',''),
+  'platinum' => array('',''),
+);
+
+$lang['packages'][$i++] = array(
+  'perk'     => array('Preis (CHF)','Price (CHF)'),
+  'base'     => array('1500.-','1500.-'),
+  'silver'   => array('2500.-','2500.-'),
+  'gold'     => array('4000.-','4000.-'),
+  'platinum' => array('5000.-','5000.-'),
+);
 
 
 ?>
