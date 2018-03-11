@@ -214,6 +214,14 @@ $lang['packages'][$i++] = array(
 );
 
 $lang['packages'][$i++] = array(
+  'perk'     => array('Zentrale Standposition','prominent booth position'),
+  'base'     => array('',''),
+  'silver'   => array('',''),
+  'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+);
+
+$lang['packages'][$i++] = array(
   'perk'     => array('Bewerbungsgespräche','job interviews'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -246,7 +254,7 @@ $lang['packages'][$i++] = array(
 );
 
 $lang['packages'][$i++] = array(
-  'perk'     => array('Preis (CHF)','Price (CHF)'),
+  'perk'     => array('Preis (CHF)','price (CHF)'),
   'base'     => array('1500.-','1500.-'),
   'silver'   => array('2500.-','2500.-'),
   'gold'     => array('4000.-','4000.-'),
