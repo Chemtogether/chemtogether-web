@@ -126,7 +126,7 @@ $lang['team'][14] = array(
   'task' => array('Firmenakquise','Company acquisition'),
   'info' => array('Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. ','Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. '),
   'mail_prefix' => 'konstantin.zouboulis',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/konstantin-zouboulis-baa49215b/'
 );
 
 
