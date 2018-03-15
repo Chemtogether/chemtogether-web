@@ -45,3 +45,11 @@ if (!!('ontouchstart' in window)) {//check for touch device
 else {
   $("#sidenav").hover(openNav, closeNav);
 }
+
+
+
+jQuery(document).ready(function($) {
+    $(".clickable-tr").click(function() {
+        window.location = $(this).data("url");
+    });
+});
