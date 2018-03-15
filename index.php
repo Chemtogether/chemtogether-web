@@ -19,14 +19,14 @@ include('./lang.php');
 
 $active_nav = 'home';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
+$fb = array(
+  "title"        => "Chemtogether 2018",
+  "desc"         => "This year's Chemtogether will take place on the 6th and 7th November 2018 on the G-floor of the HCI building on the ETH Hönggerberg campus! Over two days, a total of eighteen companies from the chemical and pharmaceutical industry will be present and offer information on careers in their field.",
+  "url"          => "https://www.chemtogether.ethz.ch/",
+  "image_url"    => $awss3."/opengraph/home.png",
+  "image_width"  => "1200",
+  "image_height" => "627"
+);
 
 ?>
 <?php include('includes/head.php');  ?>
