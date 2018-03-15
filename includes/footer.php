@@ -5,7 +5,8 @@
 
     <div class="footer-left l-5 m-12 s-12">
       <span id="footer-text">
-        <span class="footer-text-1">Chemtogether<br></span>
+        <img <?php set_source($awss3.'/logo/chemtogether_full_white','png'); ?>><br>
+        <!-- <span class="footer-text-1">Chemtogether<br></span> -->
         <span class="footer-text-2"><?php echo($lang['footer']['subtitle1'][$eng]); ?><br><?php echo($lang['footer']['subtitle2'][$eng]); ?><br><br><br></span>
         <span class="footer-text-3"><?php echo($lang['footer']['contact'][$eng]); ?><br></span>
         <p class="footer-text-4"><?php obfuscate_mail('info', '', ''); ?><br></p>
@@ -28,6 +29,10 @@
       <div class="date-container">
         <span id="date-month">Nov.</span>
         <span id="date-year">2018</span>
+      </div>
+      <div class="date-container">
+        <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
+        <span id="date-time">9.00 - 17.00</span>
       </div>
       <span id="contact-container">
         <?php obfuscate_mail('info', '', '<i class="fas fa-envelope-square"></i>'); ?>

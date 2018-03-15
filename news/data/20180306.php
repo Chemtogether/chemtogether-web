@@ -8,6 +8,13 @@ $text = array(
   'The newly-made homepage of Chemtogether was uploaded. All old material including interviews of Chemtogether 2017 will be published in the archive soon.'
 );
 
-$content = $text[$eng];
+$logo = set_source($awss3.'/logo/chemtogether','png', FALSE);
+$content = <<<END
+
+<div class="text l-12 m-12 s-12">
+$text[$eng]
+</div>
+
+END;
 
 ?>

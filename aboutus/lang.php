@@ -54,7 +54,7 @@ $lang['team'][5] = array(
   'task' => array('Catering','Catering'),
   'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
 );
 
 $lang['team'][6] = array(
