@@ -18,7 +18,8 @@ $lang['content'] = array(
     'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.facebook.com/chemtogether/">Facebook</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'),
 
   'day1' => array('Dienstag, 6. November','Tuesday, 6th November'),
-  'day2' => array('Mittwoch, 7. November', 'Wednesday, 7th November')
+  'day2' => array('Mittwoch, 7. November', 'Wednesday, 7th November'),
+  'no-companies-notice' => array('Kein Unternehmen hat seine Teilnahme vollständig bestätigt.','No company has fully confirmed its attendence yet.'),
 );
 
 
@@ -30,8 +31,9 @@ $i = 0;
 //   "link_url" => '/companies/dow/',
 //   "logo_url" => $awss3.'/logo/dow',
 //   "name" => "DOW Europe GmbH",
-//   "type" => 2,
+//   "package" => 'gold',
 // );
+
 
 
 
@@ -44,8 +46,8 @@ $i = 0;
 $lang['day2'][$i++] = array(
   "link_url" => '/companies/dow/',
   "logo_url" => $awss3.'/logo/dow',
-  "name" => "DOW Europe GmbH",
-  "type" => 2,
+  "name" => "DOW Europe",
+  "package" => 'gold',
 );
 
 
