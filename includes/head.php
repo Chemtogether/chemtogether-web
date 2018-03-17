@@ -24,7 +24,7 @@
   <meta property="og:title" content="<?php echo($fb['title']); ?>">
   <meta property="og:description" content="<?php echo($fb['desc']); ?>">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="<?php echo($fb['url']); ?>">
+  <?php if($fb['url']!='') { ?><meta property="og:url" content="<?php echo($fb['url']); ?>"><?php } ?>
   <meta property="og:image" content="<?php echo($fb['image_url']); ?>">
   <meta property="og:image:width" content="<?php echo($fb['image_width']); ?>">
   <meta property="og:image:height" content="<?php echo($fb['image_height']); ?>">
@@ -49,7 +49,7 @@
 
 
   <!-- css includes -->
-  <link rel="stylesheet" href="/css/all.css"/>
+  <link rel="stylesheet" href="/css/all.css?v=20180317_0"/>
 
 
   <!-- js includes -->

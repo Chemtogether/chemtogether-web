@@ -18,6 +18,7 @@ $lang['navigation'] = array(
 
 
 $lang['footer'] = array(
+  'floor' => array('Stock','floor'),
   'subtitle1' => array('Jährliche Karrieremesse', 'Annual career fair'),
   'subtitle2' => array('an der ETH Zürich', 'at ETH Zurich'),
   'contact' => array('Kontakt', 'Contact'),

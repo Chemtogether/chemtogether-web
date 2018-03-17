@@ -53,6 +53,14 @@
   font-size: 10vw;
 }
 
+#date-place, #date-time {
+  padding-top: 5px;
+  color: $text-white;
+  font-family: montserrat;
+  font-size: 20px;
+  font-size: 5vw;
+}
+
 .date-container {
   display: flex;
   flex-direction: row;
@@ -89,6 +97,10 @@
     font-size: 70px !important;
   }
 
+  #date-place, #date-time {
+    font-size: 25px !important;
+  }
+
   .date-bar {
     height: 5px !important;
   }
@@ -99,6 +111,10 @@
 
   #date-day1, #date-day2, #date-month, #date-year {
     font-size: 100px !important;
+  }
+
+  #date-place, #date-time {
+    font-size: 40px !important;
   }
 
   .date-bar {
@@ -152,6 +168,15 @@
   font-family: opensans;
   font-size: 16px;
   padding-top: 20px;
+
+  img {
+    position: relative;
+    left: -9%;
+    width: 75%;
+    max-width: 500px;
+    height: auto;
+    image-rendering: crisp-edges;
+  }
 
   .footer-text-1 {
     font-family: montserrat;

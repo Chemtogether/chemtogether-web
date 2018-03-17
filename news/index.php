@@ -57,28 +57,46 @@ $active_nav = 'news';
     </div>
 
 
-<?php
-  $files = array_reverse(array_diff(scandir('./data'), array('.', '..')));
+    <?php
+    $files = array_reverse(array_diff(scandir('./data'), array('.', '..')));
 
-  foreach($files as $path) {
-    include('./data/'.$path);
+    foreach($files as $path) {
+      include('./data/'.$path);
 
-    echo('<div class="spacer"></div><div class="spacer"></div>');
+      echo('<div class="spacer"></div><div class="spacer"></div>');
 
-    echo('<div class="content flex"><div class="text l-12 m-12 s-12">');
+      echo('<div class="content flex-center">');
 
-    echo('<div class="subsection">');
-    echo($title[$eng]);
-    echo('</div>');
+      if (!isset($logo)) {
+        echo('<div class="text l-12 m-12 s-12">');
 
-    echo($date[$eng]);
-    echo('<br><br>');
+        echo('<div class="subsection">');
+        echo($title[$eng]);
+        echo('</div>');
 
-    echo($content);
+        echo($date[$eng]);
+        echo('</div></div>');
+      } else {
+        echo('<div class="logo l-2 m-4 s-3">');
+        echo('<img '.$logo);
+        echo('></img></div>');
 
-    echo('</div></div>');
-  }
-?>
+        echo('<div class="text l-10 m-8 s-9">');
+        echo('<div class="subsection">');
+        echo($title[$eng]);
+        echo('</div>');
+
+        echo($date[$eng]);
+        echo('</div></div>');
+      }
+
+      echo('<div class="content flex">');
+      echo($content);
+      echo('</div>');
+
+      unset($logo, $content, $title);
+    }
+    ?>
 
     <div class="spacer">
     </div>

@@ -54,7 +54,7 @@ $lang['team'][5] = array(
   'task' => array('Catering','Catering'),
   'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
 );
 
 $lang['team'][6] = array(
@@ -86,7 +86,7 @@ $lang['team'][9] = array(
   'task' => array('Begleitprogramm','Supporting Programme'),
   'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
   'mail_prefix' => 'ann-christin.kerl',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/ann-christin-kerl-b7683815b'
 );
 
 $lang['team'][10] = array(
@@ -126,7 +126,7 @@ $lang['team'][14] = array(
   'task' => array('Firmenakquise','Company acquisition'),
   'info' => array('Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. ','Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. '),
   'mail_prefix' => 'konstantin.zouboulis',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/konstantin-zouboulis-baa49215b/'
 );
 
 

@@ -5,7 +5,7 @@
 //
 
 $awss3 = 'https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018';
-
+$awss3_archive = 'https://s3.eu-central-1.amazonaws.com/static.chemtogether.archive';
 
 
 //
@@ -13,9 +13,10 @@ $awss3 = 'https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018';
 //
 
 //
-function set_source($path, $filetype = "") {
+function set_source($path, $filetype = "", $verbose = TRUE) {
 	$filetype = ".".$filetype;
-	echo("src=\"".$path."_1x".$filetype."\" srcset=\"".$path."_1x".$filetype." 1x, ".$path."_2x".$filetype." 2x\"");
+	if ($verbose) echo("src=\"".$path."_1x".$filetype."\" srcset=\"".$path."_1x".$filetype." 1x, ".$path."_2x".$filetype." 2x\"");
+	else return "src=\"".$path."_1x".$filetype."\" srcset=\"".$path."_1x".$filetype." 1x, ".$path."_2x".$filetype." 2x\"";
 }
 
 // reconstructs get parameters and appends a new parameter to the end of the URL. If no parameter is currently set, parameter is appended with ?, otherwise correctly with $
@@ -27,14 +28,16 @@ function addGet($name, $value) {
 }
 
 
-function obfuscate_mail($prefix, $classes, $content = '') {
-	echo("<script type='text/javascript'>suffix='chemtogether.ethz.ch'; mail=('".$prefix."' + '@' + suffix); document.write(\"<a class='".$classes."' href='mailto:\" + mail + \"'>\");</script>");
+function obfuscate_mail($prefix, $classes, $content = '', $suffix = 'chemtogether.ethz.ch', $verbose = TRUE) {
+	$output = "<script type='text/javascript'>suffix='".$suffix."'; mail=('".$prefix."' + '@' + suffix); document.write(\"<a class='".$classes."' href='mailto:\" + mail + \"'>\");</script>";
 	if ($content != '') {
-		echo($content);
+		$output .= $content;
 	} else {
-		echo("<script type='text/javascript'>suffix='chemtogether.ethz.ch'; mail=('".$prefix."' + '@' + suffix); document.write(mail);</script>");
+		$output .= "<script type='text/javascript'>suffix='".$suffix."'; mail=('".$prefix."' + '@' + suffix); document.write(mail);</script>";
 	}
-	echo("</a>");
+	$output .= "</a>";
+	if($verbose) echo($output);
+	else return $output;
 }
 
 
