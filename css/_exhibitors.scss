@@ -145,29 +145,30 @@
         // max-width: 300px;
       }
 
+    }
   }
-}
-
-
-
-
-
 
   .packages-base, .packages-silver, .packages-gold, .packages-platinum {
-    width: 150px;
-    height: 200px;
-    margin: auto;
+    width: 22.5%;
+    max-width: 150px;
+    height: 40vw;
+    max-height: 200px;
     text-align: center;
     vertical-align: middle;
     display: flex;
     align-items: center;
     justify-content: center;
     color: $ct-gray;
+    cursor: pointer;
 
     span {
       margin: auto;
       font-family: opensans-bold;
-      font-size: 75px;
+      font-size: 40px;
+
+      @media only screen and (min-width: $bp-medium) {
+        font-size: 75px;
+      }
     }
   }
 
@@ -187,6 +188,77 @@
   .packages-platinum {
     background-color: $pg-platinum;
   }
+
+
+  .info-packages {
+    overflow-y: hidden;
+    width: 100%;
+    max-height: 0px;
+
+    &.initially-gallery-opened {
+      max-height: 10000px;
+    }
+
+    &.gallery-opened {
+      animation: galleryAnimationIn .5s linear forwards;
+      animation-delay: .495s;
+    }
+
+    &.gallery-closed {
+      animation: galleryAnimationOut .5s linear forwards;
+    }
+
+  }
+  #info-base .box {
+    border: 2px solid $ct-gray;
+
+    .bg {
+      background-color: $ct-gray;
+      color: white;
+    }
+  }
+
+  #info-silver .box {
+    border: 2px solid $pg-silver;
+
+    .bg {
+      background-color: $pg-silver;
+      color: $ct-gray;
+    }
+  }
+
+  #info-gold .box {
+    border: 2px solid $pg-gold;
+
+    .bg {
+      background-color: $pg-gold;
+      color: $ct-gray;
+    }
+  }
+
+  #info-platinum .box {
+    border: 2px solid $pg-platinum;
+
+    .bg {
+      background-color: $pg-platinum;
+      color: $ct-gray;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   .packages {
@@ -217,7 +289,35 @@
 
 
 
+  @keyframes galleryAnimationIn {
+    0% {
+      opacity: 0;
+      max-height: 0px;
+    }
+    1% {
+      opacity: 0;
+      max-height: 10000px;
+    }
+    100% {
+      opacity: 1;
+      max-height: 10000px;
+    }
+  }
 
+  @keyframes galleryAnimationOut {
+    0% {
+      opacity: 1;
+      max-height: 10000px;
+    }
+    99% {
+      opacity: 0;
+      max-height: 10000px;
+    }
+    100% {
+      opacity: 0;
+      max-height: 0px;
+    }
+  }
 
 
 

@@ -67,3 +67,19 @@ $(".spoiler-button").click(function() {
     $(this).addClass("spoiler-button-active");
   }
 });
+
+
+$(".gallery-button").click(function() {
+  $target = $(this).data("targetid");
+  $buttonclass = $(this).data("buttonclass");
+  $familyclass = $(this).data("familyclass");
+
+  $(".initially-gallery-opened").addClass("gallery-closed");
+  $(".initially-gallery-opened").removeClass("initially-gallery-opened");
+  $(".gallery-opened").addClass("gallery-closed");
+  $("."+$familyclass).removeClass("gallery-opened");
+  $("."+$buttonclass).removeClass("gallery-button-active");
+  $(this).addClass("gallery-button-active");
+  $("#"+$target).addClass("gallery-opened");
+  $("#"+$target).removeClass("gallery-closed");
+});
