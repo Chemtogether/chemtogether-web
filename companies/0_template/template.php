@@ -40,16 +40,15 @@ $next_company = $company_list[$key_next];
             </td>
             <td class="spoiler-button" data-targetid="subnavigation-overview-top">
               <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
-              <i class="rotate fas fa-chevron-down"></i>
+              <span><i class="rotate fas fa-chevron-down"></i></span>
             </td>
             <td>
               <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
             </td>
           </tr>
         </table>
-
+        <br>
         <div class="subnavigation-overview" id="subnavigation-overview-top">
-          <br>
           <table>
             <tr>
               <td>
@@ -82,9 +81,6 @@ $next_company = $company_list[$key_next];
       </div>
     </div>
 
-    <div class="spacer" id="direct">
-    </div>
-
     <div class="title">
       <span class="title-text">
         <?php echo($template['company_name']); ?>
@@ -106,13 +102,15 @@ $next_company = $company_list[$key_next];
         <br>
         <table class="fa-table">
           <?php
-          if(isset($template['homepage'])) echo("<tr><td><i class='fas fa-fw fa-globe' data-fa-transform='shrink-6' data-fa-mask='fas fa-fw fa-square'></i></i></td><td><a href='".$template['homepage'][0]."'>".$template['homepage'][1]."</a></td></tr>");
+          if(isset($template['homepage'])) echo("<tr><td><i class='fas fa-fw fa-globe' data-fa-transform='shrink-6' data-fa-mask='fas fa-fw fa-square'></i></td><td><a href='".$template['homepage'][0]."'>".$template['homepage'][1]."</a></td></tr>");
 
           if(isset($template['mail'])) echo("<tr><td><i class='fas fa-fw fa-envelope-square'></i></td><td>".obfuscate_mail($template['mail'][0], '', '', $template['mail'][1], FALSE)."</td></tr>");
 
           if(isset($template['facebook'])) echo("<tr><td><i class='fab  fa-fw fa-facebook-square'></i></td><td><a href='".$template['facebook'][0]."'>".$template['facebook'][1]."</a></td></tr>");
 
           if(isset($template['linkedin'])) echo("<tr><td><i class='fab fa-fw fa-linkedin'></i></td><td><a href='".$template['linkedin'][0]."'>".$template['linkedin'][1]."</a></td></tr>");
+
+          if(isset($template['archive'])) echo("<tr><td><i class='fas fa-fw fa-archive' data-fa-transform='shrink-6' data-fa-mask='fas fa-fw fa-square'></i></td><td><a href='".$template['archive']."'>".$lang['detail']['archive'][$eng]."</a></td></tr>");
           ?>
         </table>
       </div>
@@ -160,72 +158,146 @@ $next_company = $company_list[$key_next];
       </div>
     </div>
 
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer l-d1 m-d1 s-d0">
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <table class="subnavigation-links">
-          <tr>
-            <td>
-              <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
-            </td>
-            <td class="spoiler-button" data-targetid="subnavigation-overview-bottom">
-              <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
-              <i class="rotate fas fa-chevron-down"></i>
-            </td>
-            <td>
-              <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
-            </td>
-          </tr>
-        </table>
-
-        <div class="subnavigation-overview" id="subnavigation-overview-bottom">
-          <br>
-          <table>
-            <tr>
-              <td>
-                <?php echo($lang['detail']['day_short'][1][$eng]); ?>
-              </td>
-              <td>
-                <?php echo($lang['detail']['day_short'][2][$eng]); ?>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <?php echo($lang['detail']['day'][1][$eng]); ?>
-              </td>
-              <td>
-                <?php echo($lang['detail']['day'][2][$eng]); ?>
-              </td>
-            </tr>
-            <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
-              echo('<tr>');
-              if(isset($lang['day1'][$i])) echo('<td><a href="'.$lang['day1'][$i]["link_url"].'">'.$lang['day1'][$i]["name"].'</a></td>');
-              else echo('<td></td>');
-              if(isset($lang['day2'][$i])) echo('<td><a href="'.$lang['day2'][$i]["link_url"].'">'.$lang['day2'][$i]["name"].'</a></td>');
-              else echo('<td></td>');
-              echo('</tr>');
-            } ?>
-          </table>
-        </div>
+    <?php if($template['interview_print_until'] > 0) { ?>
+      <div class="spacer">
       </div>
+
+      <div class="spacer">
+      </div>
+
+      <div class="section">
+        <span class="section-slashes">
+          <span>/</span><span>/</span>
+        </span>
+        <span class="section-text">
+          <?php echo($lang['detail']['interviews']['section'][$eng]); if($template['interview_print_until']>1) echo('s'); ?>
+        </span>
+      </div>
+
+      <?php for ($i=0; ($i < sizeof($template['interview'])) && ($i < $template['interview_print_until']); $i++) { ?>
+        <div class="spacer">
+        </div>
+
+        <div class="content flex-center">
+          <div class="image-interviewee l-4 m-4 s-12">
+            <div>
+              <img <?php set_source($template['interview'][$i]['img_url'], 'jpg'); ?>></img>
+            </div>
+          </div>
+          <div class="text l-8 m-8 s-12">
+            <div class="interview-info">
+              <span><?php echo($template['interview'][$i]['name']); ?></span><br>
+              <span><?php echo($template['interview'][$i]['position'][$eng]); ?></span>
+              <br><br>
+              <span><?php echo($lang['detail']['interviews']['education'][$eng]); ?></span>
+              <table class="fa-table">
+                <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { ?>
+                  <tr>
+                    <td><i class="fas fa-fw fa-chevron-right"></td>
+                      <td><?php echo($template['interview'][$i]['education'][$j]['desc'][$eng]); ?> (<?php echo($template['interview'][$i]['education'][$j]['date']); ?>)</td>
+                    </tr>
+                  <?php } ?>
+                </table>
+                <br>
+                <span><?php echo($lang['detail']['interviews']['career'][$eng]); ?></span>
+                <table class="fa-table">
+                  <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) { ?>
+                    <tr>
+                      <td><i class="fas fa-fw fa-chevron-right"></td>
+                        <td><?php echo($template['interview'][$i]['career'][$j]['desc'][$eng]); ?> (<?php echo($template['interview'][$i]['career'][$j]['date']); ?>)</td>
+                      </tr>
+                    <?php } ?>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="content flex" id="interview-<?php echo($i); ?>">
+              <?php for ($j=0; $j < sizeof($template['interview'][$i]['interview']); $j++) { ?>
+                <div class="text l-12 m-12 s-12">
+                  <div><?php echo($template['interview'][$i]['interview'][$j]['question'][$eng]); ?></div>
+                  <div><?php echo($template['interview'][$i]['interview'][$j]['answer'][$eng]); ?></div>
+                </div>
+              <?php } ?>
+            </div>
+
+            <div class="content flex">
+              <div class="text l-12 m-12 s-12">
+                <div class="interview-separator spoiler-button" data-targetid="interview-<?php echo($i); ?>">
+                  <span><i class="rotate fas fa-chevron-down"></i></span>
+                  <span><?php echo($lang['detail']['interviews']['read_more'][$eng]); ?></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="spacer">
+            </div>
+          <?php } ?>
+
+        <?php } ?>
+
+        <div class="spacer">
+        </div>
+
+        <div class="spacer l-d1 m-d1 s-d0">
+        </div>
+
+        <div class="content flex">
+          <div class="text l-12 m-12 s-12">
+            <table class="subnavigation-links">
+              <tr>
+                <td>
+                  <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
+                </td>
+                <td class="spoiler-button" data-targetid="subnavigation-overview-bottom">
+                  <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
+                  <i class="rotate fas fa-chevron-down"></i>
+                </td>
+                <td>
+                  <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
+                </td>
+              </tr>
+            </table>
+            <br>
+            <div class="subnavigation-overview" id="subnavigation-overview-bottom">
+
+              <table>
+                <tr>
+                  <td>
+                    <?php echo($lang['detail']['day_short'][1][$eng]); ?>
+                  </td>
+                  <td>
+                    <?php echo($lang['detail']['day_short'][2][$eng]); ?>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <?php echo($lang['detail']['day'][1][$eng]); ?>
+                  </td>
+                  <td>
+                    <?php echo($lang['detail']['day'][2][$eng]); ?>
+                  </td>
+                </tr>
+                <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
+                  echo('<tr>');
+                  if(isset($lang['day1'][$i])) echo('<td><a href="'.$lang['day1'][$i]["link_url"].'">'.$lang['day1'][$i]["name"].'</a></td>');
+                  else echo('<td></td>');
+                  if(isset($lang['day2'][$i])) echo('<td><a href="'.$lang['day2'][$i]["link_url"].'">'.$lang['day2'][$i]["name"].'</a></td>');
+                  else echo('<td></td>');
+                  echo('</tr>');
+                } ?>
+              </table>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
+    <!-- END CONTENT  -->
 
-    <div class="spacer">
-    </div>
-
-  </div>
-
-
-</div>
-<!-- END CONTENT  -->
-
-<?php include('includes/footer.php');  ?>
-<?php include('includes/foot.php');  ?>
+    <?php include('includes/footer.php');  ?>
+    <?php include('includes/foot.php');  ?>

@@ -5,7 +5,7 @@
 //
 
 $awss3 = 'https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018';
-
+$awss3_archive = 'https://s3.eu-central-1.amazonaws.com/static.chemtogether.archive';
 
 
 //

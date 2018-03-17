@@ -66,6 +66,8 @@ $lang['detail']['packages']['silver'] = array('Silberpartner','Silver Partner');
 $lang['detail']['packages']['gold'] = array('Goldpartner','Gold Partner');
 $lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partner');
 
+$lang['detail']['archive'] = array('Archiv','Archive');
+
 $lang['detail']['day'][1] = array('Dienstag, 6. November','Tuesday, 6th November');
 $lang['detail']['day'][2] = array('Mittwoch, 7. November','Wednesday, 7th November');
 
@@ -78,8 +80,8 @@ $lang['detail']['we_offer'] = array('We offer','We offer');
 $lang['detail']['we_look'] = array('We are looking for','We are looking for');
 
 
-
-
-
-
+$lang['detail']['interviews']['section'] = array('Interview','Interview');
+$lang['detail']['interviews']['education'] = array('Ausbildung','Education');
+$lang['detail']['interviews']['career'] = array('Karriere','Career');
+$lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 ?>

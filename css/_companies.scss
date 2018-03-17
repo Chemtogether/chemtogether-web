@@ -139,7 +139,7 @@
               display: inline;
               opacity: 0;
               transform: translate3d(-100px, 0, 0);
-              transition: $companies_tr-transition-2;
+              transition: $arrow-transition-2;
             }
             span:nth-child(2) {
               display: inline;
@@ -150,7 +150,7 @@
               display: inline;
               opacity: 1;
               transform: translate3d(10px, 0, 0);
-              transition: $companies_tr-transition-1;
+              transition: $arrow-transition-1;
             }
             text-decoration: none;
           }
@@ -175,14 +175,14 @@
               display: inline;
               opacity: 1;
               transform: translate3d(-20px, 0, 0);
-              transition: $companies_tr-transition-1;
+              transition: $arrow-transition-1;
             }
             span:nth-child(3) {
               position: absolute;
               display: inline;
               opacity: 0;
               transform: translate3d(200px, 0, 0);
-              transition: $companies_tr-transition-2;
+              transition: $arrow-transition-2;
             }
             text-decoration: none;
           }
@@ -269,13 +269,16 @@
       span {
         display: block;
       }
+      span:nth-child(2) {
+        height: 20px;
+      }
       .rotate {
         transform: rotate(0deg);
-        transition: $companies_detail_spin_transition;
+        transition: $spoiler_spin_transition;
       }
       &.spoiler-button-active .rotate {
         transform: rotate(180deg) !important;
-        transition: $companies_detail_spin_transition;
+        transition: $spoiler_spin_transition;
       }
     }
 
@@ -366,7 +369,7 @@
             display: inline;
             opacity: 0;
             transform: translate3d(100px, 0, 0);
-            transition: $companies_tr-transition-2;
+            transition: $arrow-transition-2;
           }
           span:nth-child(2) {
             display: inline;
@@ -377,7 +380,7 @@
             display: inline;
             opacity: 1;
             transform: translate3d(-20px, 0, 0);
-            transition: $companies_tr-transition-1;
+            transition: $arrow-transition-1;
           }
           text-decoration: none;
         }
@@ -391,14 +394,14 @@
             display: inline;
             opacity: 1;
             transform: translate3d(10px, 0, 0);
-            transition: $companies_tr-transition-1;
+            transition: $arrow-transition-1;
           }
           span:nth-child(1) {
             position: absolute;
             display: inline;
             opacity: 0;
             transform: translate3d(-200px, 0, 0);
-            transition: $companies_tr-transition-2;
+            transition: $arrow-transition-2;
           }
           text-decoration: none;
         }
@@ -412,7 +415,7 @@
             display: inline;
             opacity: 0;
             transform: translate3d(-100px, 0, 0);
-            transition: $companies_tr-transition-2;
+            transition: $arrow-transition-2;
           }
           span:nth-child(2) {
             display: inline;
@@ -423,7 +426,7 @@
             display: inline;
             opacity: 1;
             transform: translate3d(10px, 0, 0);
-            transition: $companies_tr-transition-1;
+            transition: $arrow-transition-1;
           }
           text-decoration: none;
         }
@@ -433,14 +436,14 @@
             display: inline;
             opacity: 1;
             transform: translate3d(-20px, 0, 0);
-            transition: $companies_tr-transition-1;
+            transition: $arrow-transition-1;
           }
           span:nth-child(3) {
             position: absolute;
             display: inline;
             opacity: 0;
             transform: translate3d(200px, 0, 0);
-            transition: $companies_tr-transition-2;
+            transition: $arrow-transition-2;
           }
           span:nth-child(2) {
             display: inline;
@@ -461,11 +464,11 @@
   .subnavigation-overview {
     overflow-y: hidden;
     max-height: 0px;
-    transition: $companies_detail_overview_transition-2;
+    transition: $spoiler_transition-2;
 
     &.spoiler-opened {
       max-height: 500px;
-      transition: $companies_detail_overview_transition-1;
+      transition: $spoiler_transition-1;
     }
 
     table {
@@ -520,6 +523,123 @@
       }
     }
   }
+
+
+
+  .interview-info {
+    span:nth-child(1) {
+      font-size: 20px;
+      font-family: montserrat;
+    }
+    .fa-table {
+      font-size: 14px;
+    }
+    @media only screen and (min-width: $bp-medium) {
+      span:nth-child(1) {
+        font-size: 24px;
+      }
+      .fa-table {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .image-interviewee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      width: 100%;
+      max-width: 210px;
+      height: auto;
+      line-height: 0px;
+      padding: 5px;
+      background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%,  $ct-blue 70%, $ct-blue 75%,  transparent 75%, transparent 100%),
+      repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
+      repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
+      repeating-linear-gradient(-45deg, transparent 0%, transparent 5%, $ct-orange 5%, $ct-orange 15%, transparent 15%, transparent 100%);
+
+      img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+    }
+  }
+
+  .interview-separator {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 70%;
+    cursor: pointer;
+    border-top: 1px solid $ct-gray;
+
+    span:nth-child(2) {
+      display: table-row;
+      vertical-align: middle;
+      text-align: center;
+      opacity: 1;
+      transition: $spoiler_text_transition;
+    }
+    span:nth-child(1) {
+      display: table-row;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .rotate {
+      transform: rotate(0deg);
+      transition: $spoiler_spin_transition;
+    }
+    &.spoiler-button-active {
+      span:nth-child(2) {
+        opacity: 0;
+        transition: $spoiler_text_transition;
+      }
+      .rotate {
+        transform: rotate(180deg) !important;
+        transition: $spoiler_spin_transition;
+      }
+    }
+  }
+
+
+  div[id^="interview-"] {
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: $spoiler_transition-2;
+
+    &.spoiler-opened {
+      max-height: 600vh;
+      transition: $spoiler_transition-1;
+    }
+
+    div div:nth-child(1) {
+      font-family: opensans-bold;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
