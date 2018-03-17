@@ -45,3 +45,25 @@ if (!!('ontouchstart' in window)) {//check for touch device
 else {
   $("#sidenav").hover(openNav, closeNav);
 }
+
+
+
+$(".clickable-tr").click(function() {
+  window.location = $(this).data("url");
+});
+
+
+
+
+
+
+$(".spoiler-button").click(function() {
+  $target = $(this).data("targetid");
+  if ($("#"+$target).hasClass("spoiler-opened")) {
+    $("#"+$target).removeClass("spoiler-opened");
+    $(this).removeClass("spoiler-button-active");
+  } else {
+    $("#"+$target).addClass("spoiler-opened");
+    $(this).addClass("spoiler-button-active");
+  }
+});
