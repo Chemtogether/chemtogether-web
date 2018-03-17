@@ -30,11 +30,12 @@ $i = 0;
 // $lang['day1'][$i++] = array(
 //   "link_url" => '/companies/dow/',
 //   "logo_url" => $awss3.'/logo/dow',
-//   "name" => "DOW Europe GmbH",
+//   "name" => "HOFFMANN EITLE",
+//   "name_short" => "dow",
 //   "package" => 'gold',
 // );
 
-
+$lang['day1'] = null;
 
 
 
@@ -47,8 +48,37 @@ $lang['day2'][$i++] = array(
   "link_url" => '/companies/dow/',
   "logo_url" => $awss3.'/logo/dow',
   "name" => "DOW Europe",
+  "name_short" => "dow",
   "package" => 'gold',
 );
+
+
+
+
+
+
+
+$lang['detail']['packages']['overview'] = array('Firmenliste','Overview');
+
+
+$lang['detail']['packages']['base'] = array('Basispartner','Base Partner');
+$lang['detail']['packages']['silver'] = array('Silberpartner','Silver Partner');
+$lang['detail']['packages']['gold'] = array('Goldpartner','Gold Partner');
+$lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partner');
+
+$lang['detail']['day'][1] = array('Dienstag, 6. November','Tuesday, 6th November');
+$lang['detail']['day'][2] = array('Mittwoch, 7. November','Wednesday, 7th November');
+
+$lang['detail']['day_short'][1] = array('6. November','6th November');
+$lang['detail']['day_short'][2] = array('7. November','7th November');
+
+
+$lang['detail']['we_are'] = array('We are','We are');
+$lang['detail']['we_offer'] = array('We offer','We offer');
+$lang['detail']['we_look'] = array('We are looking for','We are looking for');
+
+
+
 
 
 

@@ -48,8 +48,34 @@ else {
 
 
 
-jQuery(document).ready(function($) {
-    $(".clickable-tr").click(function() {
-        window.location = $(this).data("url");
-    });
+$(".clickable-tr").click(function() {
+  window.location = $(this).data("url");
 });
+
+
+
+
+
+
+
+
+
+$("#subnavigation-overview-click").click(switchSubNav);
+
+function switchSubNav() {
+  if ($(".subnavigation-overview").hasClass("opened")) {
+    closeSubNav();
+  } else {
+    openSubNav();
+  }
+}
+
+function closeSubNav() {
+  $(".subnavigation-overview").removeClass("opened");
+  $("#subnavigation-overview-click").removeClass("active");
+}
+
+function openSubNav() {
+  $(".subnavigation-overview").addClass("opened");
+  $("#subnavigation-overview-click").addClass("active");
+}

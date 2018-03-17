@@ -73,8 +73,8 @@ $active_nav = 'companies';
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['no-companies-notice'][$eng]); ?>
-        <!-- <table>
+        <?php if(sizeof($lang['day1'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
+        <table class="overview">
           <?php for ($i=0; $i < sizeof($lang['day1']); $i++) { ?>
           <tr class='clickable-tr' data-url='<?php echo($lang['day1'][$i]['link_url']); ?>'>
             <td><img <?php set_source($lang['day1'][$i]['logo_url'],'png'); ?>></img></td>
@@ -93,7 +93,7 @@ $active_nav = 'companies';
             <td><a href='<?php echo($lang['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
           </tr>
         <?php } ?>
-        </table> -->
+        </table>
       </div>
     </div>
 
@@ -117,7 +117,8 @@ $active_nav = 'companies';
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        <table>
+        <table class="overview">
+          <?php if(sizeof($lang['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
           <?php for ($i=0; $i < sizeof($lang['day2']); $i++) { ?>
           <tr class='clickable-tr' data-url='<?php echo($lang['day2'][$i]['link_url']); ?>'>
             <td><img <?php set_source($lang['day2'][$i]['logo_url'],'png'); ?>></img></td>

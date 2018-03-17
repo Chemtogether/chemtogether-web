@@ -28,14 +28,16 @@ function addGet($name, $value) {
 }
 
 
-function obfuscate_mail($prefix, $classes, $content = '') {
-	echo("<script type='text/javascript'>suffix='chemtogether.ethz.ch'; mail=('".$prefix."' + '@' + suffix); document.write(\"<a class='".$classes."' href='mailto:\" + mail + \"'>\");</script>");
+function obfuscate_mail($prefix, $classes, $content = '', $suffix = 'chemtogether.ethz.ch', $verbose = TRUE) {
+	$output = "<script type='text/javascript'>suffix='".$suffix."'; mail=('".$prefix."' + '@' + suffix); document.write(\"<a class='".$classes."' href='mailto:\" + mail + \"'>\");</script>";
 	if ($content != '') {
-		echo($content);
+		$output .= $content;
 	} else {
-		echo("<script type='text/javascript'>suffix='chemtogether.ethz.ch'; mail=('".$prefix."' + '@' + suffix); document.write(mail);</script>");
+		$output .= "<script type='text/javascript'>suffix='".$suffix."'; mail=('".$prefix."' + '@' + suffix); document.write(mail);</script>";
 	}
-	echo("</a>");
+	$output .= "</a>";
+	if($verbose) echo($output);
+	else return $output;
 }
 
 
