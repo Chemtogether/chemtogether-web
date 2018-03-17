@@ -273,7 +273,7 @@
         transform: rotate(0deg);
         transition: $companies_detail_spin_transition;
       }
-      &.active .rotate {
+      &.spoiler-button-active .rotate {
         transform: rotate(180deg) !important;
         transition: $companies_detail_spin_transition;
       }
@@ -463,7 +463,7 @@
     max-height: 0px;
     transition: $companies_detail_overview_transition-2;
 
-    &.opened {
+    &.spoiler-opened {
       max-height: 500px;
       transition: $companies_detail_overview_transition-1;
     }

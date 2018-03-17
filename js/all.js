@@ -57,25 +57,13 @@ $(".clickable-tr").click(function() {
 
 
 
-
-
-
-$("#subnavigation-overview-click").click(switchSubNav);
-
-function switchSubNav() {
-  if ($(".subnavigation-overview").hasClass("opened")) {
-    closeSubNav();
+$(".spoiler-button").click(function() {
+  $target = $(this).data("targetid");
+  if ($("#"+$target).hasClass("spoiler-opened")) {
+    $("#"+$target).removeClass("spoiler-opened");
+    $(this).removeClass("spoiler-button-active");
   } else {
-    openSubNav();
+    $("#"+$target).addClass("spoiler-opened");
+    $(this).addClass("spoiler-button-active");
   }
-}
-
-function closeSubNav() {
-  $(".subnavigation-overview").removeClass("opened");
-  $("#subnavigation-overview-click").removeClass("active");
-}
-
-function openSubNav() {
-  $(".subnavigation-overview").addClass("opened");
-  $("#subnavigation-overview-click").addClass("active");
-}
+});

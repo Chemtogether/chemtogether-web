@@ -38,7 +38,7 @@ $next_company = $company_list[$key_next];
             <td>
               <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
             </td>
-            <td id="subnavigation-overview-click">
+            <td class="spoiler-button" data-targetid="subnavigation-overview-top">
               <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
               <i class="rotate fas fa-chevron-down"></i>
             </td>
@@ -48,7 +48,7 @@ $next_company = $company_list[$key_next];
           </tr>
         </table>
 
-        <div class="subnavigation-overview">
+        <div class="subnavigation-overview" id="subnavigation-overview-top">
           <br>
           <table>
             <tr>
@@ -164,6 +164,58 @@ $next_company = $company_list[$key_next];
     </div>
 
     <div class="spacer">
+    </div>
+
+    <div class="spacer l-d1 m-d1 s-d0">
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <table class="subnavigation-links">
+          <tr>
+            <td>
+              <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
+            </td>
+            <td class="spoiler-button" data-targetid="subnavigation-overview-bottom">
+              <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
+              <i class="rotate fas fa-chevron-down"></i>
+            </td>
+            <td>
+              <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
+            </td>
+          </tr>
+        </table>
+
+        <div class="subnavigation-overview" id="subnavigation-overview-bottom">
+          <br>
+          <table>
+            <tr>
+              <td>
+                <?php echo($lang['detail']['day_short'][1][$eng]); ?>
+              </td>
+              <td>
+                <?php echo($lang['detail']['day_short'][2][$eng]); ?>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <?php echo($lang['detail']['day'][1][$eng]); ?>
+              </td>
+              <td>
+                <?php echo($lang['detail']['day'][2][$eng]); ?>
+              </td>
+            </tr>
+            <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
+              echo('<tr>');
+              if(isset($lang['day1'][$i])) echo('<td><a href="'.$lang['day1'][$i]["link_url"].'">'.$lang['day1'][$i]["name"].'</a></td>');
+              else echo('<td></td>');
+              if(isset($lang['day2'][$i])) echo('<td><a href="'.$lang['day2'][$i]["link_url"].'">'.$lang['day2'][$i]["name"].'</a></td>');
+              else echo('<td></td>');
+              echo('</tr>');
+            } ?>
+          </table>
+        </div>
+      </div>
     </div>
 
     <div class="spacer">
