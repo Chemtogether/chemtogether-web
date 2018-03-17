@@ -86,7 +86,7 @@ $lang['team'][9] = array(
   'task' => array('Begleitprogramm','Supporting Programme'),
   'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
   'mail_prefix' => 'ann-christin.kerl',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/ann-christin-kerl-b7683815b'
 );
 
 $lang['team'][10] = array(
