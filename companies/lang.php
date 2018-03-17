@@ -47,7 +47,7 @@ $i = 0;
 $lang['day2'][$i++] = array(
   "link_url" => '/companies/dow/',
   "logo_url" => $awss3.'/logo/dow',
-  "name" => "DOW Europe",
+  "name" => "DOW",
   "name_short" => "dow",
   "package" => 'gold',
 );
