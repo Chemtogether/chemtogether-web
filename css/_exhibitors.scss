@@ -130,7 +130,6 @@
 
       tr:nth-child(1) td {
         font-size: 35px;
-        font-family: opensans-bold;
       }
 
       tr td {
@@ -150,8 +149,9 @@
 
   .packages-base, .packages-silver, .packages-gold, .packages-platinum {
     width: 22.5%;
+    position: relative;
     max-width: 150px;
-    height: 40vw;
+    height: 30vw;
     max-height: 200px;
     text-align: center;
     vertical-align: middle;
@@ -159,11 +159,40 @@
     align-items: center;
     justify-content: center;
     color: $ct-gray;
+    z-index: 10;
+    transition: z-index 0.5s linear;
+    transition-delay: 0.495s;
     cursor: pointer;
+
+    @media only screen and (min-width: $bp-medium) {
+      height: 40vw;
+    }
+
+    &:after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      z-index: 20;
+      content: '';
+      background-color: rgba(250,250,250,0.25);
+      transition: background-color .125s linear;
+    }
+
+    &.gallery-button-active {
+      z-index: 50;
+      transition: z-index .5s linear;
+      &:after {
+        background-color: rgba(250,250,250,0);
+        transition: background-color .125s linear;
+        transition-delay: 0.87s;
+      }
+    }
 
     span {
       margin: auto;
-      font-family: opensans-bold;
+      font-family: montserrat;
       font-size: 40px;
 
       @media only screen and (min-width: $bp-medium) {
@@ -194,6 +223,8 @@
     overflow-y: hidden;
     width: 100%;
     max-height: 0px;
+    box-shadow: 0px -1px 6px rgba(0,0,0,0.16), 0px -1px 6px rgba(0,0,0,0.23);
+    z-index: 49;
 
     &.initially-gallery-opened {
       max-height: 10000px;
@@ -209,8 +240,25 @@
     }
 
   }
+
+  .bg {
+    span:nth-child(1) {
+      display: block;
+      font-size: 20px;
+      font-family: montserrat;
+
+      @media only screen and (min-width: $bp-medium) {
+        font-size: 24px;
+      }
+    }
+    span:nth-child(2) {
+      display: block;
+      text-align: left !important;
+    }
+  }
+
   #info-base .box {
-    border: 2px solid $ct-gray;
+    border-bottom: 1px solid $ct-gray;
 
     .bg {
       background-color: $ct-gray;
@@ -219,29 +267,29 @@
   }
 
   #info-silver .box {
-    border: 2px solid $pg-silver;
+    border-bottom: 1px solid $pg-silver;
 
     .bg {
       background-color: $pg-silver;
-      color: $ct-gray;
+      color: black;
     }
   }
 
   #info-gold .box {
-    border: 2px solid $pg-gold;
+    border-bottom: 1px solid $pg-gold;
 
     .bg {
       background-color: $pg-gold;
-      color: $ct-gray;
+      color: black;
     }
   }
 
   #info-platinum .box {
-    border: 2px solid $pg-platinum;
+    border-bottom: 1px solid $pg-platinum;
 
     .bg {
       background-color: $pg-platinum;
-      color: $ct-gray;
+      color: black;
     }
   }
 
@@ -269,10 +317,6 @@
     tr td:nth-child(2) {
       text-align: left;
     }
-  }
-
-  .packages-desc {
-    text-align: left;
   }
 
   .feedback {

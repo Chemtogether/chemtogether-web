@@ -22,12 +22,12 @@ $lang['content'] = array(
     'Please do not hesitate to contact us:'),
 
   'documents_text' => array(
-    'Weitere Dokumente:',
-    'Additional documents:'),
+    'Weitere Informationen:',
+    'Additional information:'),
 
   'documents_broschure' => array(
     'Broschüre für Firmen (2018)',
-    'Broschure for companies (2018)'),
+    'Brochure for companies (2018)'),
 
   'documents_guide' => array(
     'Messeführer (2017)',
@@ -38,53 +38,12 @@ $lang['content'] = array(
     'Partnership Options'),
 
   'packages_text' => array(
-    'Für Ihre Teilnahme an der Chemtogether 2018 bieten wir verschiedene Pakete an. Mit den beschränkt verfügbaren Silber-, Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
+    'Für Ihre Teilnahme an der Chemtogether 2018 bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
     'We offer several different packages for your participation in this year\'s Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
-  'packages_base' => array(
-    'name' => array('Basispaket','Base package'),
-    'desc' => array('Grundlage für die Teilnahme an Chemtogether','basis for participation in Chemtogether'),
-    'item1' => array('9m² Stand mit zwei Stehtischen','9m² booth with two bistro tables'),
-    'item2' => array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide'),
-    'item3' => array('kurze Firmenpräsentation während der Messe','short presentation during the fair'),
-    'item4' => array('Nutzung der Jobwall während der Messe','use of job wall during the fair'),
-    'item5' => array('Catering, WLAN und Strom','catering, WLAN and electricity'),
-  ),
-
-  'packages_silver' => array(
-    'name' => array('Silberpaket','Silver package'),
-    'desc' => array('limitiert auf zwei Silberpakete pro Tag','limited to two silver packages per day'),
-    'item1' => array('alle Leistungen des Basispakets','all perks of the base package'),
-    'item2' => array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair'),
-    'item3' => array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media'),
-    'item4' => array('einseitige Werbung im Messeführer','one-page advertisement in the expo guide'),
-    'item5' => array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisement in the student magazine'),
-    'item6' => array('Firmenlogo auf Studentenvereinswebsite','company logo on the student organisation\'s homepage'),
-  ),
-
-  'packages_gold' => array(
-    'name' => array('Goldpaket','Gold package'),
-    'desc' => array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day'),
-    'item1' => array('zentraler 12m² Stand mit drei Stehtischen','prominent 12m² booth with three bistro tables'),
-    'item2' => array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide'),
-    'item3' => array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair'),
-    'item4' => array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media'),
-    'item5' => array('Werbung auf Doppelseite, erster oder letzter Seite im Messeführer','first, center double or last page advertisement in expo guide'),
-    'item6' => array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine'),
-    'item7' => array('kurze Firmenpräsentation während der Messe','short presentation during the fair'),
-    'item8' => array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews'),
-    'item9' => array('Nutzung der Jobwall während der Messe','use of job wall during the fair'),
-    'item10' => array('Catering, WLAN und Strom','catering, WLAN and electricity'),
-  ),
-
-  'packages_platinum' => array(
-    'name' => array('Platinpaket','Platinum package'),
-    'desc' => array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day'),
-    'item1' => array('alle Leistungen des Goldpakets','all perks of the gold package'),
-    'item2' => array('Werbung auf der Rückseite des Messeführers','advertisement on the back side of the expo guide'),
-    'item3' => array('Präsentation im Auditorium','presentation in the auditorium'),
-    'item4' => array('Veranstaltung eines exklusiven Karrerie-Events nach Wunsch','organisation of a career event as requested'),
-  ),
+  'packages_info' => array(
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/2018brochure.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/2018brochure.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
     'Rückblick auf 2017',
@@ -133,7 +92,7 @@ $lang['img']['3'] = array('Ø Bewertung', 'Ø Rating');
 
 
 $i = 1;
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('',''),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -141,7 +100,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('',''),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Standgrösse','size of booth'),
   'base'     => array('6 m²','6 m²'),
   'silver'   => array('6 m²','6 m²'),
@@ -149,7 +108,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('12 m²','12 m²'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Stehtische','bistro tables'),
   'base'     => array('2','2'),
   'silver'   => array('2','2'),
@@ -157,7 +116,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('3','3'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Firmenprofil','company profile'),
   'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -165,7 +124,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Jobwall','jobwall'),
   'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -173,7 +132,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Präsentation','presentation'),
   'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -181,7 +140,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Interviews','interviews'),
   'base'     => array('',''),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -189,7 +148,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Promotion','promotion'),
   'base'     => array('',''),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -197,7 +156,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Werbung in Messeführer','ads in expo guide'),
   'base'     => array('',''),
   'silver'   => array('1','1'),
@@ -205,7 +164,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('1','1'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Werbung in Zeitschrift','ads in magazine'),
   'base'     => array('',''),
   'silver'   => array('1','1'),
@@ -213,7 +172,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('2','2'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Zentrale Standposition','prominent booth position'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -221,7 +180,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Bewerbungsgespräche','job interviews'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -229,7 +188,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Auditoriumspräsentation','presentation in auditorium'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -237,7 +196,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Karriere-Event','career event'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -245,7 +204,7 @@ $lang['packages'][$i++] = array(
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('',''),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -253,13 +212,75 @@ $lang['packages'][$i++] = array(
   'platinum' => array('',''),
 );
 
-$lang['packages'][$i++] = array(
+$lang['packages_table'][$i++] = array(
   'perk'     => array('Preis (CHF)','price (CHF)'),
   'base'     => array('1500.-','1500.-'),
   'silver'   => array('2500.-','2500.-'),
   'gold'     => array('4000.-','4000.-'),
   'platinum' => array('5000.-','5000.-'),
 );
+
+
+
+
+$lang['packages_info']['base']['name'] = array('Basispaket','Base package');
+$lang['packages_info']['base']['desc'] = array('Grundlage für die Teilnahme an Chemtogether','basis for participation in Chemtogether');
+$i = 0;
+$lang['packages_info']['base']['perks'][$i++] = array('9m² Stand mit zwei Stehtischen','9m² booth with two bistro tables');
+$lang['packages_info']['base']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
+$lang['packages_info']['base']['perks'][$i++] = array('kurze Firmenpräsentation während der Messe','short presentation during the fair');
+$lang['packages_info']['base']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['base']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
+
+
+$lang['packages_info']['silver']['name'] = array('Silberpaket','Silver package');
+$lang['packages_info']['silver']['desc'] = array('keine Limitierung','unlimited');
+$i = 0;
+$lang['packages_info']['silver']['perks'][$i++] = array('9m² Stand mit zwei Stehtischen','9m² booth with two bistro tables');
+$lang['packages_info']['silver']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
+$lang['packages_info']['silver']['perks'][$i++] = array('kurze Firmenpräsentation während der Messe','short presentation during the fair');
+$lang['packages_info']['silver']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['silver']['perks'][$i++] = array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair');
+$lang['packages_info']['silver']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
+$lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung im Messeführer','one-page advertisement in the expo guide');
+$lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisement in the student magazine');
+$lang['packages_info']['silver']['perks'][$i++] = array('Firmenlogo auf Studentenvereinswebsite','company logo on the student organisation\'s homepage');
+$lang['packages_info']['silver']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
+
+
+$lang['packages_info']['gold']['name'] = array('Goldpaket','Gold package');
+$lang['packages_info']['gold']['desc'] = array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day');
+$i = 0;
+$lang['packages_info']['gold']['perks'][$i++] = array('zentraler 12m² Stand mit drei Stehtischen','prominent 12m² booth with three bistro tables');
+$lang['packages_info']['gold']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
+$lang['packages_info']['gold']['perks'][$i++] = array('kurze Firmenpräsentation während der Messe','short presentation during the fair');
+$lang['packages_info']['gold']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['gold']['perks'][$i++] = array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair');
+$lang['packages_info']['gold']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
+$lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf Doppelseite, erster oder letzter Seite im Messeführer','first, center double or last page advertisement in expo guide');
+$lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
+$lang['packages_info']['gold']['perks'][$i++] = array('Firmenlogo auf Studentenvereinswebsite','company logo on the student organisation\'s homepage');
+$lang['packages_info']['gold']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
+$lang['packages_info']['gold']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
+
+
+
+$lang['packages_info']['platinum']['name'] = array('Platinpaket','Platinum package');
+$lang['packages_info']['platinum']['desc'] = array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day');
+$i = 0;
+$lang['packages_info']['platinum']['perks'][$i++] = array('zentraler 12m² Stand mit drei Stehtischen','prominent 12m² booth with three bistro tables');
+$lang['packages_info']['platinum']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
+$lang['packages_info']['platinum']['perks'][$i++] = array('kurze Firmenpräsentation während der Messe','short presentation during the fair');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Veröffentlichung von Interviews vor der Messe','publishing of interviews prior to the fair');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Werbung auf der Rückseite des Messeführers','advertisement on the back side of the expo guide');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Firmenlogo auf Studentenvereinswebsite','company logo on the student organisation\'s homepage');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Präsentation im Auditorium','presentation in the auditorium');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Veranstaltung eines exklusiven Karrerie-Events nach Wunsch','organisation of a career event as requested');
+$lang['packages_info']['platinum']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
 
 
 ?>
