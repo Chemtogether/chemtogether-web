@@ -10,7 +10,7 @@ $archive[$i++] = array(
   "name_short" => "avantama",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'gold'),
 );
 
 $archive[$i++] = array(

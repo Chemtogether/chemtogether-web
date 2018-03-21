@@ -300,7 +300,7 @@
 
 
 
-.companies-detail {
+.archive-detail {
 
   .info {
     span:nth-child(1) {
@@ -380,7 +380,7 @@
           text-decoration: none;
         }
         span:nth-child(1) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -396,7 +396,7 @@
           text-decoration: underline;
         }
         span:nth-child(1) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -417,7 +417,7 @@
           text-decoration: none;
         }
         span:nth-child(3) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -433,7 +433,7 @@
           text-decoration: underline;
         }
         span:nth-child(3) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -449,8 +449,7 @@
       tr td:nth-child(1) {
         a {
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(100px, 0, 0);
             transition: $arrow-transition-2;
@@ -460,10 +459,9 @@
             text-decoration: none;
           }
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(-20px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           text-decoration: none;
@@ -474,15 +472,13 @@
             text-decoration: underline;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(10px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(-200px, 0, 0);
             transition: $arrow-transition-2;
@@ -495,8 +491,7 @@
       tr td:nth-child(3) {
         a {
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(-100px, 0, 0);
             transition: $arrow-transition-2;
@@ -506,25 +501,22 @@
             text-decoration: none;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(10px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           text-decoration: none;
         }
         a:hover {
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(-20px, 0, 0);
+            transform: translate3d(0px, 0, 0);
             transition: $arrow-transition-1;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(200px, 0, 0);
             transition: $arrow-transition-2;
@@ -566,19 +558,6 @@
         vertical-align: middle;
       }
 
-      tr:nth-child(1) td, tr:nth-child(2) td {
-        font-family: montserrat;
-        padding-bottom: 5px;
-      }
-
-      tr:nth-child(1) {
-        display: table-row;
-      }
-
-      tr:nth-child(2) {
-        display: none;
-      }
-
       tr td:nth-child(1) {
         text-align: left;
         border-right: 1px solid $ct-gray;
@@ -587,23 +566,6 @@
       tr td:nth-child(2) {
         text-align: right;
         border-left: 1px solid $ct-gray;
-      }
-    }
-
-
-    @media only screen and (min-width: $bp-large) {
-
-      table {
-        width: 70%;
-
-        tr:nth-child(1) {
-          display: none;
-        }
-
-        tr:nth-child(2) {
-          display: table-row;
-        }
-
       }
     }
   }

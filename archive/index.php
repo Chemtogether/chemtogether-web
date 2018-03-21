@@ -176,7 +176,7 @@ $active_nav = 'archive';
             ?>
             <table class="overview yearly">
               <?php for ($i=0; $i < sizeof($temp_archive); $i++) { ?>
-                <tr class='clickable-tr' data-url='<?php echo($archive[$i]['link_url']); ?>'>
+                <tr class='clickable-tr' data-url='<?php echo($temp_archive[$i]['link_url']); ?>'>
                   <td class="table-logo"><img <?php set_source($temp_archive[$i]['logo_url'],'png'); ?>></img></td>
                   <td class="table-name"><?php echo($temp_archive[$i]['name']); ?></td>
                   <td class="table-package">

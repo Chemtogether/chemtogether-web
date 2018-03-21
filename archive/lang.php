@@ -24,10 +24,13 @@ $lang['content'] = array(
 $lang['detail']['packages']['overview'] = array('Firmenliste','Overview');
 
 
+$lang['detail']['attendences'] = array('Teilnahmen','Attendences');
+
 $lang['detail']['packages']['base'] = array('Basispartner','Base Partner');
 $lang['detail']['packages']['silver'] = array('Silberpartner','Silver Partner');
 $lang['detail']['packages']['gold'] = array('Goldpartner','Gold Partner');
 $lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partner');
+
 
 $lang['detail']['archive'] = array('Archiv','Archive');
 
