@@ -10,7 +10,7 @@ $archive[$i++] = array(
   "name_short" => "avantama",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base', 2016 => 'gold'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -20,7 +20,7 @@ $archive[$i++] = array(
   "name_short" => "bachem",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -30,7 +30,7 @@ $archive[$i++] = array(
   "name_short" => "basf",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'gold'),
+  "attendences" => array(2017 => 'gold', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -40,7 +40,7 @@ $archive[$i++] = array(
   "name_short" => "carbogenamcis",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -50,7 +50,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -60,7 +60,7 @@ $archive[$i++] = array(
   "name_short" => "dow",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'gold'),
+  "attendences" => array(2017 => 'gold', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -70,7 +70,7 @@ $archive[$i++] = array(
   "name_short" => "ems",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -90,7 +90,7 @@ $archive[$i++] = array(
   "name_short" => "hoffmanneitle",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -100,7 +100,7 @@ $archive[$i++] = array(
   "name_short" => "idorsia",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -120,7 +120,7 @@ $archive[$i++] = array(
   "name_short" => "johnsonandjohnson",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'silver'),
+  "attendences" => array(2017 => 'silver', 2016 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -130,7 +130,7 @@ $archive[$i++] = array(
   "name_short" => "lonza",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'silver'),
+  "attendences" => array(2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -140,7 +140,7 @@ $archive[$i++] = array(
   "name_short" => "metrohm",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'silver'),
+  "attendences" => array(2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(

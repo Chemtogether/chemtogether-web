@@ -39,20 +39,20 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('https://www.idorsia.com','idorsia.com');
+$template['facebook'] = array('https://www.facebook.com/idorsia/', 'Idorsia Pharmaceuticals Ltd.');
+$template['linkedin'] = array('https://www.linkedin.com/company/idorsia/','Idorsia Pharmaceuticals Ltd.');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  "Idorsia is an independent biopharmaceutical company specialized in the discovery, development and commercialization of small molecule therapeutics to meet significant unmet medical needs. As a spin-out of Actelion's drug discovery and early clinical pipeline business, Idorsia inherited Actelion's established and validated drug discovery engine and a strong cross-section of its development pipeline and directly benefits from Actelion's 19-year history and experience. Headquartered in Allschwil, Switzerland, we are approximately 600 highly qualified specialists dedicated to our ambitious goals. In drug discovery, about 380 professionals focus on novel molecular target families, combining state-of-the-art technology with human expertise and teamwork to discover and develop novel small molecules. With their multiple functions, Idorsia's clinical and pharmacological research operations bring about the efficient development of these new medicines that will transform the horizon of therapeutic options.",
+  "Idorsia is an independent biopharmaceutical company specialized in the discovery, development and commercialization of small molecule therapeutics to meet significant unmet medical needs. As a spin-out of Actelion's drug discovery and early clinical pipeline business, Idorsia inherited Actelion's established and validated drug discovery engine and a strong cross-section of its development pipeline and directly benefits from Actelion's 19-year history and experience. Headquartered in Allschwil, Switzerland, we are approximately 600 highly qualified specialists dedicated to our ambitious goals. In drug discovery, about 380 professionals focus on novel molecular target families, combining state-of-the-art technology with human expertise and teamwork to discover and develop novel small molecules. With their multiple functions, Idorsia's clinical and pharmacological research operations bring about the efficient development of these new medicines that will transform the horizon of therapeutic options.");
 $template['we_offer'] = array(
-  '',
-  '');
+  'In addition to a state-of- the-art working place in an inspiring environment, Idorsia aims to provide its employees with a competitive compensation package and a good balance between work and private life.',
+  'In addition to a state-of- the-art working place in an inspiring environment, Idorsia aims to provide its employees with a competitive compensation package and a good balance between work and private life.');
 $template['we_look'] = array(
-  '',
-  '');
+  "Idorsia looks for people who are innovative, flexible, enthusiastic, and hands-on in any role. Teamwork, being open to change, and pragmatism are other important parts of Idorsia's core values. In Drug Discovery, we are regularly looking for trainees (e.g. BSc, MSc, and PhD students) to stay with us for 6-12 months. If you are interested in getting an insight into and want to contribute to one of our exciting drug discovery and development projects, please contact Human Resources at Idorsia.",
+  "Idorsia looks for people who are innovative, flexible, enthusiastic, and hands-on in any role. Teamwork, being open to change, and pragmatism are other important parts of Idorsia's core values. In Drug Discovery, we are regularly looking for trainees (e.g. BSc, MSc, and PhD students) to stay with us for 6-12 months. If you are interested in getting an insight into and want to contribute to one of our exciting drug discovery and development projects, please contact Human Resources at Idorsia.");
 
 
 

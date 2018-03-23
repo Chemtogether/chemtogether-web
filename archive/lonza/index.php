@@ -39,20 +39,20 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('http://www.lonza.com/','lonza.com');
+$template['facebook'] = array('https://www.facebook.com/LonzaGroupAG/', 'Lonza Group');
+$template['linkedin'] = array('https://www.linkedin.com/company/lonza/','Lonza');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  'We are the leading supplier using science and technology to improve the quality of life; we work with passion, using advanced technologies, to transform life science into new possibilities for our customers; headquartered in Basel, Switzerland, we operate production, R&D, and business sites around the world, including Europe, North America, and Asia.',
+  'We are the leading supplier using science and technology to improve the quality of life; we work with passion, using advanced technologies, to transform life science into new possibilities for our customers; headquartered in Basel, Switzerland, we operate production, R&D, and business sites around the world, including Europe, North America, and Asia.');
 $template['we_offer'] = array(
-  '',
-  '');
+  'We offer an environment that fosters creativity and success, a company without burdensome bureaucracy, and the ability to be involved in many aspects of internal and external business; you will be rewarded for a job well done, have opportunities to develop your knowledge and skills, and you will be respected and valued.',
+  'We offer an environment that fosters creativity and success, a company without burdensome bureaucracy, and the ability to be involved in many aspects of internal and external business; you will be rewarded for a job well done, have opportunities to develop your knowledge and skills, and you will be respected and valued.');
 $template['we_look'] = array(
-  '',
-  '');
+  'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.',
+  'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.');
 
 
 

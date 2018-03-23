@@ -39,20 +39,38 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('http://www.ivoclarvivadent.ch','ivoclarvivadent.ch');
+$template['facebook'] = array('https://www.facebook.com/ivoclarvivadent/', 'Ivoclar Vivadent');
+$template['linkedin'] = array('https://www.linkedin.com/company/ivoclar-vivadent-ag/','Ivoclar Vivadent AG');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  "Ivoclar Vivadent is one of the world's leading dental companies with 3,500 employees at 31
+locations around the world. With high-quality and innovative products for modern dentistry
+and dental technology, we have achieved sales revenues of over 775 million Swiss Francs in
+2016. For more than 90 years, Ivoclar Vivadent has been a privately owned company with
+the aim to bring a smile to people's faces.",
+"Ivoclar Vivadent is one of the world's leading dental companies with 3,500 employees at 31
+locations around the world. With high-quality and innovative products for modern dentistry
+and dental technology, we have achieved sales revenues of over 775 million Swiss Francs in
+2016. For more than 90 years, Ivoclar Vivadent has been a privately owned company with
+the aim to bring a smile to people's faces.");
 $template['we_offer'] = array(
-  '',
-  '');
+  'We offer you an environment that fosters an open and friendly climate in which people are
+respectful of each other and share ideas openly. As a member of our team, we will give you
+both challenges and support through varied and exciting activities and projects as well as
+through professional development and further education opportunities.',
+  'We offer you an environment that fosters an open and friendly climate in which people are
+respectful of each other and share ideas openly. As a member of our team, we will give you
+both challenges and support through varied and exciting activities and projects as well as
+through professional development and further education opportunities.');
 $template['we_look'] = array(
-  '',
-  '');
+  'We are looking for young ambitious individuals who are passionate about innovation. People
+who aspire to grow and move the company forward with commitment and passion. People
+who find joy in successfully shaping the dental industry with us.',
+  'We are looking for young ambitious individuals who are passionate about innovation. People
+who aspire to grow and move the company forward with commitment and passion. People
+who find joy in successfully shaping the dental industry with us.');
 
 
 

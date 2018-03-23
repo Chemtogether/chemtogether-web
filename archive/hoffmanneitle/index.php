@@ -39,20 +39,20 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('https://www.hoffmanneitle.com','hoffmanneitle.com');
+// $template['facebook'] = array('', '');
+$template['linkedin'] = array('https://www.linkedin.com/company/hoffmann-eitle/','HOFFMANN EITLE');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  'HOFFMANN EITLE is a law firm specialised in IP. With six offices in Munich, London, Milan, Madrid, Düsseldorf and Hamburg, the firm is one of the largest in Europe. Our headquarters are in Munich, which is the centre of patent law in Europe. Each year, we file more than 4,000 new patent applications for our clients, and are involved in more patent opposition cases than any other law firm. The firm’s client base is very international, and includes many well-known corporations from Japan, the US and Europe. We have employees from many different countries, including Germany, the UK, France, Switzerland, Italy, Belgium, Denmark, Bulgaria, Japan, China and the US.',
+  'HOFFMANN EITLE is a law firm specialised in IP. With six offices in Munich, London, Milan, Madrid, Düsseldorf and Hamburg, the firm is one of the largest in Europe. Our headquarters are in Munich, which is the centre of patent law in Europe. Each year, we file more than 4,000 new patent applications for our clients, and are involved in more patent opposition cases than any other law firm. The firm’s client base is very international, and includes many well-known corporations from Japan, the US and Europe. We have employees from many different countries, including Germany, the UK, France, Switzerland, Italy, Belgium, Denmark, Bulgaria, Japan, China and the US.');
 $template['we_offer'] = array(
-  '',
-  '');
+  'We offer our trainees a competitive salary together with top-quality training, and good long-term career perspectives. Our training model has proven to be very effective, and our pass rates for the Qualifying Exams are well above average. We also offer internships throughout the year, to allow potential applicants to get a feel of how it is to work as a Patent Attorney. Our interns work together with a supervisor on various cases, and also have opportunities to attend oral proceedings.',
+  'We offer our trainees a competitive salary together with top-quality training, and good long-term career perspectives. Our training model has proven to be very effective, and our pass rates for the Qualifying Exams are well above average. We also offer internships throughout the year, to allow potential applicants to get a feel of how it is to work as a Patent Attorney. Our interns work together with a supervisor on various cases, and also have opportunities to attend oral proceedings.');
 $template['we_look'] = array(
-  '',
-  '');
+  'Absolute prerequisites for the job include a technical qualification at a university level and excellent English skills (written and spoken). Our trainees must be confident, have first-rate technical comprehension, and the ability to analyze complex facts and present these in precise technical terms.',
+  'Absolute prerequisites for the job include a technical qualification at a university level and excellent English skills (written and spoken). Our trainees must be confident, have first-rate technical comprehension, and the ability to analyze complex facts and present these in precise technical terms.');
 
 
 

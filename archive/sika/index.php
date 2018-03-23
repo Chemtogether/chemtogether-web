@@ -39,20 +39,20 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('http://che.sika.com/','che.sika.com');
+$template['facebook'] = array('https://www.facebook.com/SikaSchweizAG/', 'Sika Schweiz AG');
+$template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  "a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing and protecting in the building sector and automotive industry. Sika has a worldwide presence in 98 countries with over 190 factories and over 17’000 employees. Our aim is to foster a culture of performance and respect - across hierarchies, departments, and countries. Trust is vital to Sika. It's the basis of our relationships with customers and employees. If you trust Sika we can open up a whole world of interesting opportunities for you too.",
+  "a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing and protecting in the building sector and automotive industry. Sika has a worldwide presence in 98 countries with over 190 factories and over 17’000 employees. Our aim is to foster a culture of performance and respect - across hierarchies, departments, and countries. Trust is vital to Sika. It's the basis of our relationships with customers and employees. If you trust Sika we can open up a whole world of interesting opportunities for you too.");
 $template['we_offer'] = array(
-  '',
-  '');
+  'innovative and challenging internships and traineeships focusing on specialty chemicals in the field of research and development. You will work independently and learn first-hand about the many aspects of chemistry and material sciences found in the various fields of Sika Technology.',
+  'innovative and challenging internships and traineeships focusing on specialty chemicals in the field of research and development. You will work independently and learn first-hand about the many aspects of chemistry and material sciences found in the various fields of Sika Technology.');
 $template['we_look'] = array(
-  '',
-  '');
+  'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.',
+  'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.');
 
 
 

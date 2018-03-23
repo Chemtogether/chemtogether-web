@@ -12,12 +12,13 @@ include('php/language_cookie.php');
 include('includes/language.php');
 
 // include all translations from local file
+include('./data.php');
 include('./lang.php');
 
 
 // GENERAL
 
-include('./data.php');
+
 
 
 

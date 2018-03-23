@@ -39,20 +39,58 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('','');
-$template['facebook'] = array('', '');
-$template['linkedin'] = array('','');
-$template['mail'] = array('','');
+$template['homepage'] = array('https://www.metrohm.com','metrohm.com');
+// $template['facebook'] = array('', '');
+$template['linkedin'] = array('https://www.linkedin.com/company/metrohm-/','Metrohm');
+// $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  '',
-  '');
+  'Metrohm is a high-tech company headquartered in Herisau, Switzerland, with 42 subsidiaries all
+around the globe. Our high-precision instruments for chemical analysis are among the best in the
+world. We are growing faster than the market and outperform our competitors; in our main
+business, titration, we are the global number one.</br>
+Of our more than 2200 employees, 460 are working at our International Headquarters in Herisau,
+and every third person there works in R&amp;D.</br>
+We are independent: Metrohm is owned by the charitable Metrohm foundation; profits are
+reinvested in the company and used to support philanthropic projects.',
+  'Metrohm is a high-tech company headquartered in Herisau, Switzerland, with 42 subsidiaries all
+around the globe. Our high-precision instruments for chemical analysis are among the best in the
+world. We are growing faster than the market and outperform our competitors; in our main
+business, titration, we are the global number one.</br>
+Of our more than 2200 employees, 460 are working at our International Headquarters in Herisau,
+and every third person there works in R&amp;D.</br>
+We are independent: Metrohm is owned by the charitable Metrohm foundation; profits are
+reinvested in the company and used to support philanthropic projects.');
 $template['we_offer'] = array(
-  '',
-  '');
+  'We offer you challenging, highly rewarding opportunities at the interface between chemistry,
+electronics, software engineering, and our global customers. Young talents with a «can-do» attitude
+get the chance to take on responsibility quickly.</br>
+People, who come to work for us enjoy a stimulating working environment. We are easy-going, we
+have various different backgrounds – and we are passionate to develop the best analytical
+instruments in the world. Our campus-like headquarters in Herisau were built in 2011 and offer
+state-of- the-art work places.</br>
+We are growing fast, but our business model is sustainable; jobs at Metrohm do not depend on the
+whims of investors.',
+  'We offer you challenging, highly rewarding opportunities at the interface between chemistry,
+electronics, software engineering, and our global customers. Young talents with a «can-do» attitude
+get the chance to take on responsibility quickly.</br>
+People, who come to work for us enjoy a stimulating working environment. We are easy-going, we
+have various different backgrounds – and we are passionate to develop the best analytical
+instruments in the world. Our campus-like headquarters in Herisau were built in 2011 and offer
+state-of- the-art work places.</br>
+We are growing fast, but our business model is sustainable; jobs at Metrohm do not depend on the
+whims of investors.');
 $template['we_look'] = array(
-  '',
-  '');
+  'We are looking for young talents eager to start their career as a</br></br>
+  -chemist / chemical engineer,</br>
+  -software engineer,</br>
+  -electronics engineer, or</br>
+  -design engineer',
+  'We are looking for young talents eager to start their career as a</br></br>
+  -chemist / chemical engineer,</br>
+  -software engineer,</br>
+  -electronics engineer, or</br>
+  -design engineer');
 
 
 
