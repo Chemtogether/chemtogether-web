@@ -163,8 +163,115 @@ $archive[$i++] = array(
   "attendences" => array(2017 => 'base'),
 );
 
+$archive[$i++] = array(
+  "link_url" => '/archive/antonpaar/',
+  "logo_url" => set_source($awss3_archive.'/antonpaar/logo','png',FALSE),
+  "name" => "Anton Paar",
+  "name_short" => "antonpaar",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'gold'),
+);
 
+$archive[$i++] = array(
+  "link_url" => '/archive/blaser/',
+  "logo_url" => set_source($awss3_archive.'/blaser/logo_svg','svg',FALSE),
+  "name" => "Blaser Swisslube",
+  "name_short" => "blaser",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2015 => 'base'),
+);
 
+$archive[$i++] = array(
+  "link_url" => '/archive/clariant/',
+  "logo_url" => set_source($awss3_archive.'/clariant/logo_svg','svg',FALSE),
+  "name" => "Clariant",
+  "name_short" => "clariant",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'silver', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/dsm/',
+  "logo_url" => set_source($awss3_archive.'/dsm/logo_svg','svg',FALSE),
+  "name" => "DSM",
+  "name_short" => "dsm",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2015 => 'gold'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/kelly/',
+  "logo_url" => set_source($awss3_archive.'/kelly/logo','png',FALSE),
+  "name" => "Kelly Scientific",
+  "name_short" => "kelly",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2015 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/kolb/',
+  "logo_url" => set_source($awss3_archive.'/kolb/logo','png',FALSE),
+  "name" => "KOLB",
+  "name_short" => "kolb",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2015 => 'base', 2016 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/novartis/',
+  "logo_url" => set_source($awss3_archive.'/novartis/logo_svg','svg',FALSE),
+  "name" => "Novartis",
+  "name_short" => "novartis",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2016 => 'silver'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/roche/',
+  "logo_url" => set_source($awss3_archive.'/roche/logo_svg','svg',FALSE),
+  "name" => "Roche",
+  "name_short" => "roche",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'base', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/siegfried/',
+  "logo_url" => set_source($awss3_archive.'/siegfried/logo_svg','svg',FALSE),
+  "name" => "Siegfried",
+  "name_short" => "siegfried",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'gold', 2014 => 'base', 2015 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/merck/',
+  "logo_url" => set_source($awss3_archive.'/merck/logo_svg','svg',FALSE),
+  "name" => "Merck",
+  "name_short" => "merck",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/turbobeads/',
+  "logo_url" => set_source($awss3_archive.'/turbobeads/logo','png',FALSE),
+  "name" => "Turbobeads",
+  "name_short" => "turbobeads",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2014 => 'base', 2016 => 'base'),
+);
 
 
 // Sort archive array alphabetically based on "name" index, case-insensitive
