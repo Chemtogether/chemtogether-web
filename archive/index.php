@@ -118,7 +118,7 @@ $active_nav = 'archive';
         <table class="overview alphabetic">
           <?php for ($i=0; $i < sizeof($archive); $i++) { ?>
             <tr class='clickable-tr' data-url='<?php echo($archive[$i]['link_url']); ?>'>
-              <td class="table-logo"><img <?php set_source($archive[$i]['logo_url'],'png'); ?>></img></td>
+              <td class="table-logo"><img <?php echo($archive[$i]['logo_url']); ?>></img></td>
               <td class="table-name"><?php echo($archive[$i]['name']); ?></td>
               <td class="table-info"><?php if($archive[$i]['info']) echo('<i class="fas fa-fw fa-info">'); ?></td>
                 <td class="table-interview"><?php if($archive[$i]['interviews']) echo('<i class="fas fa-fw fa-user"></i>'); ?></td>
@@ -178,7 +178,7 @@ $active_nav = 'archive';
             <table class="overview yearly">
               <?php for ($i=0; $i < sizeof($temp_archive); $i++) { ?>
                 <tr class='clickable-tr' data-url='<?php echo($temp_archive[$i]['link_url']); ?>'>
-                  <td class="table-logo"><img <?php set_source($temp_archive[$i]['logo_url'],'png'); ?>></img></td>
+                  <td class="table-logo"><img <?php echo($temp_archive[$i]['logo_url']); ?>></img></td>
                   <td class="table-name"><?php echo($temp_archive[$i]['name']); ?></td>
                   <td class="table-package">
                     <?php

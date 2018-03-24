@@ -76,7 +76,7 @@ $next_company = $company_list[$key_next];
 
   <div class="content flex-center">
     <div class="image-logo l-5 m-12 s-12">
-      <img <?php set_source($template['logo_url'], 'png'); ?>></img>
+      <img <?php echo($archive[$key]['logo_url']); ?>></img>
     </div>
     <div class="text l-7 m-12 s-12">
       <div class="info">
