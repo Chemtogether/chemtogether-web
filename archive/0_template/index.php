@@ -56,10 +56,146 @@ $template['we_look'] = array(
 
 
 
+
+  //
+  //
+  // $template['interview']['2017'][$i++] = array(
+  //   'name' => '',
+  //   'img_url' => set_source($awss3_archive.'//', 'png', FALSE),
+  //   'position' => array('', ''),
+  //
+  //   'education' => array(
+  //     0 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //     1 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //     2 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //   ),
+  //
+  //   'career' => array(
+  //     0 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //     1 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //     2 => array(
+  //       'date' => '',
+  //       'desc' => array('','')
+  //     ),
+  //   ),
+  //
+  //   'interview' => array(
+  //     0 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     1 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     2 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     3 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     4 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     5 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     6 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     7 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     8 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //     9 => array(
+  //       'question' => array(
+  //         '',
+  //         ''),
+  //       'answer' => array(
+  //         '',
+  //         '')
+  //     ),
+  //   ),
+  // );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $i = 0;
 $template['interview']['2017'][$i++] = array(
   'name' => 'Patrik Willi',
-  'img_url' => $awss3.'/img/team/member_1',
+  'img_url' => set_source($awss3.'/img/team/member_1', 'jpg', FALSE),
   'position' => array('Co-Präsident der Chemtogether', 'Head of Chemtogether'),
 
   'education' => array(
@@ -139,87 +275,7 @@ $template['interview']['2017'][$i++] = array(
 
 $template['interview']['2017'][$i++] = array(
   'name' => 'Esther Tschanen-Hamman',
-  'img_url' => $awss3.'/img/team/member_2',
-  'position' => array('Co-Präsident der Chemtogether', 'Head of Chemtogether'),
-
-  'education' => array(
-    0 => array(
-      'date' => '2000-2002',
-      'desc' => array('PhD. in Chemie an der ETH Zürich','PhD. in chemistry at ETH Zürich')
-    ),
-    1 => array(
-      'date' => '2000-2002',
-      'desc' => array('M.Sc. in Chemie an der ETH Zürich','M.Sc. in chemistry at ETH Zürich')
-    ),
-    2 => array(
-      'date' => '2000-2002',
-      'desc' => array('B.Sc. in Chemie an der ETH Zürich','B.Sc. in chemistry at ETH Zürich')
-    ),
-  ),
-
-  'career' => array(
-    0 => array(
-      'date' => '2000-2002',
-      'desc' => array('CEO bei Chemtogether','CEO at Chemtogether')
-    ),
-    1 => array(
-      'date' => '2000-2002',
-      'desc' => array('Team-Leiter bei Chemtogether','Team-Manager at Chemtogether')
-    ),
-    2 => array(
-      'date' => '2000-2002',
-      'desc' => array('Mitglied der Chemtogether','Member of Chemtogether')
-    ),
-  ),
-
-  'interview' => array(
-    0 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    1 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    2 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    3 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    4 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    5 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    6 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    7 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    8 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-    9 => array(
-      'question' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet?'),
-      'answer' => array('Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.','Chemtogether ist eine Messe an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.')
-    ),
-  ),
-);
-
-$i = 0;
-$template['interview']['2016'][$i++] = array(
-  'name' => 'Esther Tschanen-Hamman',
-  'img_url' => $awss3.'/img/team/member_2',
+  'img_url' => set_source($awss3.'/img/team/member_2', 'jpg', FALSE),
   'position' => array('Co-Präsident der Chemtogether', 'Head of Chemtogether'),
 
   'education' => array(
