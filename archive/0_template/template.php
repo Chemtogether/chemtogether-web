@@ -50,11 +50,13 @@ $next_company = $company_list[$key_next];
         <div class="subnavigation-overview" id="subnavigation-overview-top">
           <table>
           </tr>
-          <?php for ($i=0; $i < sizeof($archive); $i = $i+2) {
+          <?php
+          $half_i = ceil(sizeof($archive)/2);
+          for ($i=0; $i < $half_i; $i++) {
             echo('<tr>');
             if(isset($archive[$i])) echo('<td><a href="'.$archive[$i]["link_url"].'">'.$archive[$i]["name"].'</a></td>');
             else echo('<td></td>');
-            if(isset($archive[$i+1])) echo('<td><a href="'.$archive[$i+1]["link_url"].'">'.$archive[$i+1]["name"].'</a></td>');
+            if(isset($archive[(int) $i+$half_i])) echo('<td><a href="'.$archive[(int) $i+$half_i]["link_url"].'">'.$archive[(int) $i+$half_i]["name"].'</a></td>');
             else echo('<td></td>');
             echo('</tr>');
           } ?>
@@ -253,11 +255,13 @@ $next_company = $company_list[$key_next];
               <div class="subnavigation-overview" id="subnavigation-overview-bottom">
                 <table>
                 </tr>
-                <?php for ($i=0; $i < sizeof($archive); $i = $i+2) {
+                <?php
+                $half_i = ceil(sizeof($archive)/2);
+                for ($i=0; $i < $half_i; $i++) {
                   echo('<tr>');
                   if(isset($archive[$i])) echo('<td><a href="'.$archive[$i]["link_url"].'">'.$archive[$i]["name"].'</a></td>');
                   else echo('<td></td>');
-                  if(isset($archive[$i+1])) echo('<td><a href="'.$archive[$i+1]["link_url"].'">'.$archive[$i+1]["name"].'</a></td>');
+                  if(isset($archive[(int) $i+$half_i])) echo('<td><a href="'.$archive[(int) $i+$half_i]["link_url"].'">'.$archive[(int) $i+$half_i]["name"].'</a></td>');
                   else echo('<td></td>');
                   echo('</tr>');
                 } ?>
