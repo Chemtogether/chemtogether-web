@@ -9,7 +9,7 @@ $archive[$i++] = array(
   "name" => "Avantama",
   "name_short" => "avantama",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
@@ -19,7 +19,7 @@ $archive[$i++] = array(
   "name" => "Bachem",
   "name_short" => "bachem",
   "info" => 1,
-  "interviews" => 1,
+  "interviews" => 0,
   "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
@@ -39,7 +39,7 @@ $archive[$i++] = array(
   "name" => "Carbogen Amcis",
   "name_short" => "carbogenamcis",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
@@ -49,7 +49,7 @@ $archive[$i++] = array(
   "name" => "Dottikon",
   "name_short" => "dottikon",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
@@ -89,7 +89,7 @@ $archive[$i++] = array(
   "name" => "HOFFMANN EITLE",
   "name_short" => "hoffmanneitle",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2017 => 'base', 2016 => 'base'),
 );
 
@@ -149,7 +149,7 @@ $archive[$i++] = array(
   "name" => "Merck Sharp & Dohme",
   "name_short" => "msd",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2017 => 'base'),
 );
 
