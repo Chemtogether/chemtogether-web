@@ -49,7 +49,7 @@
 
 
   <!-- css includes -->
-  <link rel="stylesheet" href="/css/all.css?v=20180318_0"/>
+  <link rel="stylesheet" href="/css/all.css?v=20180326_0"/>
 
 
   <!-- js includes -->
