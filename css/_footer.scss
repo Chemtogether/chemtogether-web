@@ -6,6 +6,17 @@
   background-color: $ct-orange;
 }
 
+@media only screen and (min-width: $bp-large) {
+  #footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 575px;
+    overflow-y: hidden;
+    z-index: 10;
+  }
+}
+
 
 #footer {
   max-width: 960px;
