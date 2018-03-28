@@ -3,8 +3,8 @@
 
 <?php
 
-if($template['day'] == 1) $company_list = $lang["day1"];
-else $company_list = $lang["day2"];
+if($template['day'] == 1) $company_list = $data["day1"];
+else $company_list = $data["day2"];
 
 $key = 0;
 for ($i=0; $i < sizeof($company_list); $i++) {
@@ -66,11 +66,11 @@ $next_company = $company_list[$key_next];
                 <?php echo($lang['detail']['day'][2][$eng]); ?>
               </td>
             </tr>
-            <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
+            <?php for ($i=0; $i < max(sizeof($data['day1']), sizeof($data['day2'])); $i++) {
               echo('<tr>');
-              if(isset($lang['day1'][$i])) echo('<td><a href="'.$lang['day1'][$i]["link_url"].'">'.$lang['day1'][$i]["name"].'</a></td>');
+              if(isset($data['day1'][$i])) echo('<td><a href="'.$data['day1'][$i]["link_url"].'">'.$data['day1'][$i]["name"].'</a></td>');
               else echo('<td></td>');
-              if(isset($lang['day2'][$i])) echo('<td><a href="'.$lang['day2'][$i]["link_url"].'">'.$lang['day2'][$i]["name"].'</a></td>');
+              if(isset($data['day2'][$i])) echo('<td><a href="'.$data['day2'][$i]["link_url"].'">'.$data['day2'][$i]["name"].'</a></td>');
               else echo('<td></td>');
               echo('</tr>');
             } ?>
@@ -92,7 +92,7 @@ $next_company = $company_list[$key_next];
 
     <div class="content flex-center">
       <div class="image-logo l-5 m-12 s-12">
-        <img <?php set_source($template['logo_url'], 'png'); ?>></img>
+        <img <?php echo($template['logo_url']); ?>></img>
       </div>
       <div class="text l-7 m-12 s-12">
         <div class="info">
@@ -280,9 +280,9 @@ $next_company = $company_list[$key_next];
                 </tr>
                 <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
                   echo('<tr>');
-                  if(isset($lang['day1'][$i])) echo('<td><a href="'.$lang['day1'][$i]["link_url"].'">'.$lang['day1'][$i]["name"].'</a></td>');
+                  if(isset($data['day1'][$i])) echo('<td><a href="'.$data['day1'][$i]["link_url"].'">'.$data['day1'][$i]["name"].'</a></td>');
                   else echo('<td></td>');
-                  if(isset($lang['day2'][$i])) echo('<td><a href="'.$lang['day2'][$i]["link_url"].'">'.$lang['day2'][$i]["name"].'</a></td>');
+                  if(isset($data['day2'][$i])) echo('<td><a href="'.$data['day2'][$i]["link_url"].'">'.$data['day2'][$i]["name"].'</a></td>');
                   else echo('<td></td>');
                   echo('</tr>');
                 } ?>

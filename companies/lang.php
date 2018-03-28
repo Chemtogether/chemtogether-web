@@ -25,37 +25,6 @@ $lang['content'] = array(
 
 
 
-$i = 0;
-
-// $lang['day1'][$i++] = array(
-//   "link_url" => '/companies/dow/',
-//   "logo_url" => $awss3.'/logo/dow',
-//   "name" => "HOFFMANN EITLE",
-//   "name_short" => "dow",
-//   "package" => 'gold',
-// );
-
-$lang['day1'] = null;
-
-
-
-
-
-
-$i = 0;
-
-$lang['day2'][$i++] = array(
-  "link_url" => '/companies/dow/',
-  "logo_url" => $awss3.'/logo/dow',
-  "name" => "DOW",
-  "name_short" => "dow",
-  "package" => 'gold',
-);
-
-
-
-
-
 
 
 $lang['detail']['packages']['overview'] = array('Firmenliste','Overview');

@@ -13,6 +13,7 @@ include('php/language_cookie.php');
 include('includes/language.php');
 
 // include all translations from local file
+include('../data.php');
 include('../lang.php');
 
 
@@ -32,7 +33,7 @@ $active_nav = 'companies';
 
 $template['company_name'] = 'Chemtogether';
 $template['company_name_short'] = 'chemtogether';
-$template['logo_url'] = $awss3.'/logo/chemtogether';
+$template['logo_url'] = set_source($awss3.'/logo/chemtogether','png', FALSE);
 $template['package'] = 'base';
 $template['day'] = 2;
 

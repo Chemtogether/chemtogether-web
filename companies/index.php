@@ -12,6 +12,7 @@ include('php/language_cookie.php');
 include('includes/language.php');
 
 // include all translations from local file
+include('./data.php');
 include('./lang.php');
 
 
@@ -73,24 +74,24 @@ $active_nav = 'companies';
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
-        <?php if(sizeof($lang['day1'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
+        <?php if(sizeof($data['day1'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
         <table class="overview">
-          <?php for ($i=0; $i < sizeof($lang['day1']); $i++) { ?>
-          <tr class='clickable-tr' data-url='<?php echo($lang['day1'][$i]['link_url']); ?>'>
-            <td><img <?php set_source($lang['day1'][$i]['logo_url'],'png'); ?>></img></td>
-            <td><?php echo($lang['day1'][$i]['name']); ?></td>
+          <?php for ($i=0; $i < sizeof($data['day1']); $i++) { ?>
+          <tr class='clickable-tr' data-url='<?php echo($data['day1'][$i]['link_url']); ?>'>
+            <td><img <?php echo($data['day1'][$i]['logo_url']); ?>></img></td>
+            <td><?php echo($data['day1'][$i]['name']); ?></td>
             <td>
               <?php
-                if($lang['day1'][$i]['package']!='base') {
+                if($data['day1'][$i]['package']!='base') {
                   echo('<div class="');
-                  if($lang['day1'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
-                  else if($lang['day1'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
-                  else if($lang['day1'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
+                  if($data['day1'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
+                  else if($data['day1'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
+                  else if($data['day1'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
                   echo('</div>');
                 }
               ?>
             </td>
-            <td><a href='<?php echo($lang['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
+            <td><a href='<?php echo($data['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
           </tr>
         <?php } ?>
         </table>
@@ -118,23 +119,23 @@ $active_nav = 'companies';
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <table class="overview">
-          <?php if(sizeof($lang['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
-          <?php for ($i=0; $i < sizeof($lang['day2']); $i++) { ?>
-          <tr class='clickable-tr' data-url='<?php echo($lang['day2'][$i]['link_url']); ?>'>
-            <td><img <?php set_source($lang['day2'][$i]['logo_url'],'png'); ?>></img></td>
-            <td><?php echo($lang['day2'][$i]['name']); ?></td>
+          <?php if(sizeof($data['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
+          <?php for ($i=0; $i < sizeof($data['day2']); $i++) { ?>
+          <tr class='clickable-tr' data-url='<?php echo($data['day2'][$i]['link_url']); ?>'>
+            <td><img <?php echo($data['day2'][$i]['logo_url']); ?>></img></td>
+            <td><?php echo($data['day2'][$i]['name']); ?></td>
             <td>
               <?php
-                if($lang['day2'][$i]['package']!='base') {
+                if($data['day2'][$i]['package']!='base') {
                   echo('<div class="');
-                  if($lang['day2'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
-                  else if($lang['day2'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
-                  else if($lang['day2'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
+                  if($data['day2'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
+                  else if($data['day2'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
+                  else if($data['day2'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
                   echo('</div>');
                 }
               ?>
             </td>
-            <td><a href='<?php echo($lang['day2'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
+            <td><a href='<?php echo($data['day2'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
           </tr>
         <?php } ?>
         </table>
