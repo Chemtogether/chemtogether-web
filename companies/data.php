@@ -18,6 +18,14 @@ $data['day1'][$i++] = array(
   "package" => 'base',
 );
 
+$data['day1'][$i++] = array(
+  "link_url" => '/companies/idorsia/',
+  "logo_url" => set_source($awss3.'/companies/idorsia/logo','png', FALSE),
+  "name" => "Idorsia",
+  "name_short" => "idorsia",
+  "package" => 'base',
+);
+
 
 
 
