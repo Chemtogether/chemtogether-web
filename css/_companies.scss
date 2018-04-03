@@ -16,11 +16,14 @@
 
       td {
         vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: left;
       }
 
-      td:nth-child(1) {
+      .table-logo {
         width: 25%;
-        padding-right: 10px;
+        padding-right: 20px;
         line-height: 0px;
 
         img {
@@ -30,17 +33,11 @@
         }
       }
 
-      td:nth-child(2) {
+      .table-name {
         width: 50%;
       }
 
-      td:nth-child(3) {
-        display: none;
-        width: 0%;
-        text-align: center;
-      }
-
-      td:nth-child(4) {
+      .table-more {
         width: 15%;
         text-align: center;
 
@@ -77,6 +74,12 @@
         }
       }
 
+    }
+
+    .table-package {
+      display: none;
+      width: 0%;
+      text-align: center;
     }
 
   }
@@ -125,20 +128,22 @@
 
       tr {
 
-        td:nth-child(3) {
-          width: 7.5%;
-          display: table-cell;
+        .table-logo {
+          width: 30%;
         }
 
-        td:nth-child(4) {
-          width: 22.5%;
+        .table-name {
+          width: 40%;
+        }
+
+        .table-more {
+          width: 20%;
 
           a {
             span:nth-child(1) {
-              position: absolute;
-              display: inline;
+              display: inline-block;
               opacity: 0;
-              transform: translate3d(-100px, 0, 0);
+              transform: translate3d(-100px, 0px, 0px);
               transition: $arrow-transition-2;
             }
             span:nth-child(2) {
@@ -146,10 +151,9 @@
               text-decoration: none;
             }
             span:nth-child(3) {
-              position: absolute;
-              display: inline;
+              display: inline-block;
               opacity: 1;
-              transform: translate3d(10px, 0, 0);
+              transform: translate3d(0px, 0px, 0px);
               transition: $arrow-transition-1;
             }
             text-decoration: none;
@@ -168,20 +172,18 @@
       }
 
       tr:hover {
-        td:nth-child(4) {
+        .table-more {
           a {
             span:nth-child(1) {
-              position: absolute;
-              display: inline;
+              display: inline-block;
               opacity: 1;
-              transform: translate3d(-20px, 0, 0);
+              transform: translate3d(0px, 0px, 0px);
               transition: $arrow-transition-1;
             }
             span:nth-child(3) {
-              position: absolute;
-              display: inline;
+              display: inline-block;
               opacity: 0;
-              transform: translate3d(200px, 0, 0);
+              transform: translate3d(200px, 0px, 0px);
               transition: $arrow-transition-2;
             }
             text-decoration: none;
@@ -189,8 +191,12 @@
         }
 
       }
-    }
 
+      .table-package {
+        width: 10%;
+        display: table-cell;
+      }
+    }
 
 
   }
@@ -296,7 +302,7 @@
           text-decoration: none;
         }
         span:nth-child(1) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -312,7 +318,7 @@
           text-decoration: underline;
         }
         span:nth-child(1) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -333,7 +339,7 @@
           text-decoration: none;
         }
         span:nth-child(3) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -349,7 +355,7 @@
           text-decoration: underline;
         }
         span:nth-child(3) {
-          display: inline;
+          display: inline-block;
           text-decoration: none;
         }
         text-decoration: none;
@@ -365,8 +371,7 @@
       tr td:nth-child(1) {
         a {
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(100px, 0, 0);
             transition: $arrow-transition-2;
@@ -376,10 +381,9 @@
             text-decoration: none;
           }
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(-20px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           text-decoration: none;
@@ -390,15 +394,13 @@
             text-decoration: underline;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(10px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(-200px, 0, 0);
             transition: $arrow-transition-2;
@@ -411,8 +413,7 @@
       tr td:nth-child(3) {
         a {
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(-100px, 0, 0);
             transition: $arrow-transition-2;
@@ -422,25 +423,22 @@
             text-decoration: none;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(10px, 0, 0);
+            transform: translate3d(0, 0, 0);
             transition: $arrow-transition-1;
           }
           text-decoration: none;
         }
         a:hover {
           span:nth-child(1) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 1;
-            transform: translate3d(-20px, 0, 0);
+            transform: translate3d(0px, 0, 0);
             transition: $arrow-transition-1;
           }
           span:nth-child(3) {
-            position: absolute;
-            display: inline;
+            display: inline-block;
             opacity: 0;
             transform: translate3d(200px, 0, 0);
             transition: $arrow-transition-2;
@@ -456,6 +454,7 @@
 
     }
   }
+
 
 
 

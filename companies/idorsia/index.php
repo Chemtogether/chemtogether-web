@@ -31,9 +31,9 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'Dottikon';
-$template['company_name_short'] = 'dottikon';
-$template['logo_url'] = set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE);
+$template['company_name'] = 'Idorsia';
+$template['company_name_short'] = 'idorsia';
+$template['logo_url'] = set_source($awss3.'/companies/idorsia/logo','png', FALSE);
 $template['package'] = 'base';
 $template['day'] = 1;
 
@@ -41,11 +41,11 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Firmen: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('https://dottikon.com/','dottikon.com');
-// $template['facebook'] = array('', '');
-$template['linkedin'] = array('https://www.linkedin.com/company/dottikon-exclusive-synthesis-ag/','Dottikon Exclusive Synthesis AG');
+$template['homepage'] = array('https://idorsia.com/','idorsia.com');
+$template['facebook'] = array('https://www.facebook.com/idorsia/', 'Idorsia Pharmaceuticals Ltd.');
+$template['linkedin'] = array('https://www.linkedin.com/company/idorsia/','Idorsia Pharmaceuticals Ltd.');
 // $template['mail'] = array('','');
-$template['archive'] = '/archive/dottikon';
+$template['archive'] = '/archive/idorsia';
 
 $template['we_are'] = array(
   'In Kürze.',

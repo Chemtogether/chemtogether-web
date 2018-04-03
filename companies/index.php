@@ -78,9 +78,9 @@ $active_nav = 'companies';
         <table class="overview">
           <?php for ($i=0; $i < sizeof($data['day1']); $i++) { ?>
           <tr class='clickable-tr' data-url='<?php echo($data['day1'][$i]['link_url']); ?>'>
-            <td><img <?php echo($data['day1'][$i]['logo_url']); ?>></img></td>
-            <td><?php echo($data['day1'][$i]['name']); ?></td>
-            <td>
+            <td class="table-logo"><img <?php echo($data['day1'][$i]['logo_url']); ?>></img></td>
+            <td class="table-name"><?php echo($data['day1'][$i]['name']); ?></td>
+            <td class="table-package">
               <?php
                 if($data['day1'][$i]['package']!='base') {
                   echo('<div class="');
@@ -91,7 +91,7 @@ $active_nav = 'companies';
                 }
               ?>
             </td>
-            <td><a href='<?php echo($data['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
+            <td class="table-more"><a href='<?php echo($data['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
           </tr>
         <?php } ?>
         </table>
@@ -122,9 +122,9 @@ $active_nav = 'companies';
           <?php if(sizeof($data['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
           <?php for ($i=0; $i < sizeof($data['day2']); $i++) { ?>
           <tr class='clickable-tr' data-url='<?php echo($data['day2'][$i]['link_url']); ?>'>
-            <td><img <?php echo($data['day2'][$i]['logo_url']); ?>></img></td>
-            <td><?php echo($data['day2'][$i]['name']); ?></td>
-            <td>
+            <td class="table-logo"><img <?php echo($data['day2'][$i]['logo_url']); ?>></img></td>
+            <td class="table-name"><?php echo($data['day2'][$i]['name']); ?></td>
+            <td class="table-package">
               <?php
                 if($data['day2'][$i]['package']!='base') {
                   echo('<div class="');
@@ -135,7 +135,7 @@ $active_nav = 'companies';
                 }
               ?>
             </td>
-            <td><a href='<?php echo($data['day2'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
+            <td class="table-more"><a href='<?php echo($data['day2'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
           </tr>
         <?php } ?>
         </table>
