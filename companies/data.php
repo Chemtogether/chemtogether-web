@@ -11,6 +11,14 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
+  "link_url" => '/companies/gurit/',
+  "logo_url" => set_source($awss3.'/companies/gurit/logo_svg','svg', FALSE),
+  "name" => "Gurit",
+  "name_short" => "gurit",
+  "package" => 'silver',
+);
+
+$data['day1'][$i++] = array(
   "link_url" => '/companies/dottikon/',
   "logo_url" => set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE),
   "name" => "Dottikon",
