@@ -201,7 +201,7 @@
       }
 
       #date-place, #date-time {
-        font-size: 20px !important;
+        font-size: 35px !important;
       }
 
       .date-bar {
@@ -210,7 +210,7 @@
     }
 
 
-    @media only screen and (min-width: $bp-max + $sidenav-width_closed) {
+    @media only screen and (min-width: 1400px) {
 
       #date-day1, #date-day2, #date-month, #date-year {
         font-size: 100px !important;
@@ -293,7 +293,7 @@
   }
 
 
-  @media only screen and (min-width: $bp-max + $sidenav-width_closed) {
+  @media only screen and (min-width: 1500px) {
 
 
     #link-container {
