@@ -115,7 +115,10 @@ $active_nav = 'fair';
   <div class="spacer">
   </div>
 
-  <div class="spacer" id="schedule">
+  <div class="spacer">
+  </div>
+
+  <div class="anchor" id="schedule">
   </div>
 
   <div class="section">
@@ -206,7 +209,10 @@ $active_nav = 'fair';
   <div class="spacer">
   </div>
 
-  <div class="spacer" id="programme">
+  <div class="spacer">
+  </div>
+
+  <div class="anchor" id="programme">
   </div>
 
   <div class="section">

@@ -3,7 +3,7 @@
 $i = 0;
 
 $data['day1'][$i++] = array(
-  "link_url" => '/companies/carbogenamcis/',
+  "link_url" => '/companies/carbogenamcis/index.php#info',
   "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
   "name" => "Carbogen Amcis",
   "name_short" => "carbogenamcis",
@@ -11,7 +11,7 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-  "link_url" => '/companies/gurit/',
+  "link_url" => '/companies/gurit/index.php#info',
   "logo_url" => set_source($awss3.'/companies/gurit/logo_svg','svg', FALSE),
   "name" => "Gurit",
   "name_short" => "gurit",
@@ -19,7 +19,7 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-  "link_url" => '/companies/dottikon/',
+  "link_url" => '/companies/dottikon/index.php#info',
   "logo_url" => set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE),
   "name" => "Dottikon",
   "name_short" => "dottikon",
@@ -27,7 +27,7 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-  "link_url" => '/companies/idorsia/',
+  "link_url" => '/companies/idorsia/index.php#info',
   "logo_url" => set_source($awss3.'/companies/idorsia/logo','png', FALSE),
   "name" => "Idorsia",
   "name_short" => "idorsia",
@@ -47,7 +47,7 @@ $data['day1'][$i++] = array(
 $i = 0;
 
 $data['day2'][$i++] = array(
-  "link_url" => '/companies/dow/',
+  "link_url" => '/companies/dow/index.php#info',
   "logo_url" => set_source($awss3.'/companies/dow/logo_svg','svg', FALSE),
   "name" => "DOW",
   "name_short" => "dow",
@@ -55,7 +55,7 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
-  "link_url" => '/companies/avantama/',
+  "link_url" => '/companies/avantama/index.php#info',
   "logo_url" => set_source($awss3.'/companies/avantama/logo','png', FALSE),
   "name" => "Avantama",
   "name_short" => "avantama",

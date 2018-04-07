@@ -4,7 +4,7 @@
 $i = 0;
 
 $archive[$i++] = array(
-  "link_url" => '/archive/avantama/',
+  "link_url" => '/archive/avantama/index.php#info',
   "logo_url" => set_source($awss3_archive.'/avantama/logo','png',FALSE),
   "name" => "Avantama",
   "name_short" => "avantama",
@@ -14,7 +14,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/bachem/',
+  "link_url" => '/archive/bachem/index.php#info',
   "logo_url" => set_source($awss3_archive.'/bachem/logo_svg','svg',FALSE),
   "name" => "Bachem",
   "name_short" => "bachem",
@@ -24,7 +24,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/basf/',
+  "link_url" => '/archive/basf/index.php#info',
   "logo_url" => set_source($awss3_archive.'/basf/logo_svg','svg',FALSE),
   "name" => "BASF",
   "name_short" => "basf",
@@ -34,7 +34,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/carbogenamcis/',
+  "link_url" => '/archive/carbogenamcis/index.php#info',
   "logo_url" => set_source($awss3_archive.'/carbogenamcis/logo','png',FALSE),
   "name" => "Carbogen Amcis",
   "name_short" => "carbogenamcis",
@@ -44,7 +44,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/dottikon/',
+  "link_url" => '/archive/dottikon/index.php#info',
   "logo_url" => set_source($awss3_archive.'/dottikon/logo_svg','svg',FALSE),
   "name" => "Dottikon",
   "name_short" => "dottikon",
@@ -54,7 +54,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/dow/',
+  "link_url" => '/archive/dow/index.php#info',
   "logo_url" => set_source($awss3_archive.'/dow/logo_svg','svg',FALSE),
   "name" => "DOW Europe",
   "name_short" => "dow",
@@ -64,7 +64,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/ems/',
+  "link_url" => '/archive/ems/index.php#info',
   "logo_url" => set_source($awss3_archive.'/ems/logo_svg','svg',FALSE),
   "name" => "EMS Chemie",
   "name_short" => "ems",
@@ -74,7 +74,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/givaudan/',
+  "link_url" => '/archive/givaudan/index.php#info',
   "logo_url" => set_source($awss3_archive.'/givaudan/logo_svg','svg',FALSE),
   "name" => "Givaudan",
   "name_short" => "givaudan",
@@ -84,7 +84,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/hoffmanneitle/',
+  "link_url" => '/archive/hoffmanneitle/index.php#info',
   "logo_url" => set_source($awss3_archive.'/hoffmanneitle/logo_svg','svg',FALSE),
   "name" => "HOFFMANN EITLE",
   "name_short" => "hoffmanneitle",
@@ -94,7 +94,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/idorsia/',
+  "link_url" => '/archive/idorsia/index.php#info',
   "logo_url" => set_source($awss3_archive.'/idorsia/logo','png',FALSE),
   "name" => "Idorsia",
   "name_short" => "idorsia",
@@ -104,7 +104,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/ivoclarvivadent/',
+  "link_url" => '/archive/ivoclarvivadent/index.php#info',
   "logo_url" => set_source($awss3_archive.'/ivoclarvivadent/logo_svg','svg',FALSE),
   "name" => "Ivoclar Vivadent",
   "name_short" => "ivoclarvivadent",
@@ -114,7 +114,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/johnsonandjohnson/',
+  "link_url" => '/archive/johnsonandjohnson/index.php#info',
   "logo_url" => set_source($awss3_archive.'/johnsonandjohnson/logo_svg','svg',FALSE),
   "name" => "Johnson & Johnson",
   "name_short" => "johnsonandjohnson",
@@ -124,7 +124,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/lonza/',
+  "link_url" => '/archive/lonza/index.php#info',
   "logo_url" => set_source($awss3_archive.'/lonza/logo_svg','svg',FALSE),
   "name" => "Lonza",
   "name_short" => "lonza",
@@ -134,7 +134,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/metrohm/',
+  "link_url" => '/archive/metrohm/index.php#info',
   "logo_url" => set_source($awss3_archive.'/metrohm/logo_svg','svg',FALSE),
   "name" => "Metrohm",
   "name_short" => "metrohm",
@@ -144,7 +144,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/msd/',
+  "link_url" => '/archive/msd/index.php#info',
   "logo_url" => set_source($awss3_archive.'/msd/logo_svg','svg',FALSE),
   "name" => "Merck Sharp & Dohme",
   "name_short" => "msd",
@@ -154,7 +154,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/sika/',
+  "link_url" => '/archive/sika/index.php#info',
   "logo_url" => set_source($awss3_archive.'/sika/logo_svg','svg',FALSE),
   "name" => "Sika",
   "name_short" => "sika",
@@ -164,7 +164,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/antonpaar/',
+  "link_url" => '/archive/antonpaar/index.php#info',
   "logo_url" => set_source($awss3_archive.'/antonpaar/logo','png',FALSE),
   "name" => "Anton Paar",
   "name_short" => "antonpaar",
@@ -174,7 +174,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/blaser/',
+  "link_url" => '/archive/blaser/index.php#info',
   "logo_url" => set_source($awss3_archive.'/blaser/logo_svg','svg',FALSE),
   "name" => "Blaser Swisslube",
   "name_short" => "blaser",
@@ -184,7 +184,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/clariant/',
+  "link_url" => '/archive/clariant/index.php#info',
   "logo_url" => set_source($awss3_archive.'/clariant/logo_svg','svg',FALSE),
   "name" => "Clariant",
   "name_short" => "clariant",
@@ -194,7 +194,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/dsm/',
+  "link_url" => '/archive/dsm/index.php#info',
   "logo_url" => set_source($awss3_archive.'/dsm/logo_svg','svg',FALSE),
   "name" => "DSM",
   "name_short" => "dsm",
@@ -204,7 +204,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/kelly/',
+  "link_url" => '/archive/kelly/index.php#info',
   "logo_url" => set_source($awss3_archive.'/kelly/logo','png',FALSE),
   "name" => "Kelly Scientific",
   "name_short" => "kelly",
@@ -214,7 +214,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/kolb/',
+  "link_url" => '/archive/kolb/index.php#info',
   "logo_url" => set_source($awss3_archive.'/kolb/logo','png',FALSE),
   "name" => "KOLB",
   "name_short" => "kolb",
@@ -224,7 +224,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/novartis/',
+  "link_url" => '/archive/novartis/index.php#info',
   "logo_url" => set_source($awss3_archive.'/novartis/logo_svg','svg',FALSE),
   "name" => "Novartis",
   "name_short" => "novartis",
@@ -234,7 +234,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/roche/',
+  "link_url" => '/archive/roche/index.php#info',
   "logo_url" => set_source($awss3_archive.'/roche/logo_svg','svg',FALSE),
   "name" => "Roche",
   "name_short" => "roche",
@@ -244,7 +244,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/siegfried/',
+  "link_url" => '/archive/siegfried/index.php#info',
   "logo_url" => set_source($awss3_archive.'/siegfried/logo_svg','svg',FALSE),
   "name" => "Siegfried",
   "name_short" => "siegfried",
@@ -254,7 +254,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/merck/',
+  "link_url" => '/archive/merck/index.php#info',
   "logo_url" => set_source($awss3_archive.'/merck/logo_svg','svg',FALSE),
   "name" => "Merck",
   "name_short" => "merck",
@@ -264,7 +264,7 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/turbobeads/',
+  "link_url" => '/archive/turbobeads/index.php#info',
   "logo_url" => set_source($awss3_archive.'/turbobeads/logo','png',FALSE),
   "name" => "Turbobeads",
   "name_short" => "turbobeads",

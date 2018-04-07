@@ -19,6 +19,18 @@
   height: 25px;
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  top: calc(-#{$navbar-height} - 25px);
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  @media only screen and (min-width: $bp-medium) {
+    top: -25px;
+  }
+}
+
 
 .content {
   max-width: 960px;

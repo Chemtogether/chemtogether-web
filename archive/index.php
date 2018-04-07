@@ -103,6 +103,9 @@ $active_nav = 'archive';
     <div class="spacer">
     </div>
 
+    <div class="anchor" id="alphabetic">
+    </div>
+
     <div class="section">
       <span class="section-slashes">
         <span>/</span><span>/</span>
@@ -157,6 +160,9 @@ $active_nav = 'archive';
         </div>
 
         <div class="spacer">
+        </div>
+
+        <div class="anchor" id="<?php echo($year); ?>">
         </div>
 
         <div class="section">

@@ -59,7 +59,10 @@ $active_nav = 'aboutus';
     <div class="spacer">
     </div>
 
-    <div class="spacer" id="team">
+    <div class="spacer">
+    </div>
+
+    <div class="anchor" id="team">
     </div>
 
     <div class="section">
@@ -116,7 +119,10 @@ $active_nav = 'aboutus';
 
 
 
-    <div class="spacer" id="alumni">
+    <div class="spacer">
+    </div>
+
+    <div class="anchor" id="alumni">
     </div>
 
     <div class="section">
@@ -177,7 +183,10 @@ $active_nav = 'aboutus';
     <div class="spacer">
     </div>
 
-    <div class="spacer" id="organisation">
+    <div class="spacer">
+    </div>
+
+    <div class="anchor" id="organisation">
     </div>
 
     <div class="section">
@@ -321,7 +330,10 @@ $active_nav = 'aboutus';
     <div class="spacer">
     </div>
 
-    <div class="spacer" id="partners">
+    <div class="spacer">
+    </div>
+
+    <div class="anchor" id="partners">
     </div>
 
     <div class="section">
