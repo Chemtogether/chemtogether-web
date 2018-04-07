@@ -60,7 +60,7 @@ $active_nav = 'companies';
     <div class="spacer">
     </div>
 
-    <div class="spacer" id="day1">
+    <div class="spacer">
     </div>
 
     <div class="section">
@@ -104,7 +104,7 @@ $active_nav = 'companies';
     <div class="spacer">
     </div>
 
-    <div class="spacer" id="day2">
+    <div class="spacer">
     </div>
 
     <div class="section">
