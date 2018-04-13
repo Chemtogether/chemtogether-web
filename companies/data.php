@@ -34,6 +34,22 @@ $data['day1'][$i++] = array(
   "package" => 'base',
 );
 
+$data['day1'][$i++] = array(
+  "link_url" => '/companies/siegfried/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/siegfried/logo_svg','svg', FALSE),
+  "name" => "Siegfried",
+  "name_short" => "siegfried",
+  "package" => 'base',
+);
+
+$data['day1'][$i++] = array(
+  "link_url" => '/companies/sika/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/sika/logo_svg','svg', FALSE),
+  "name" => "Sika",
+  "name_short" => "sika",
+  "package" => 'base',
+);
+
 
 
 
@@ -52,6 +68,14 @@ $data['day2'][$i++] = array(
   "name" => "DOW",
   "name_short" => "dow",
   "package" => 'gold',
+);
+
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/metrohm/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
+  "name" => "Metrohm",
+  "name_short" => "metrohm",
+  "package" => 'silver',
 );
 
 $data['day2'][$i++] = array(
