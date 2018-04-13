@@ -103,7 +103,7 @@ $active_nav = 'archive';
     <div class="spacer">
     </div>
 
-    <div class="anchor" id="alphabetic">
+    <div class="anchor" id="alphabetic-header">
     </div>
 
     <div class="section">
