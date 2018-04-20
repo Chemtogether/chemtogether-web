@@ -50,6 +50,14 @@ $data['day1'][$i++] = array(
   "package" => 'base',
 );
 
+$data['day1'][$i++] = array(
+  "link_url" => '/companies/kolb/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/kolb/logo','png', FALSE),
+  "name" => "Kolb",
+  "name_short" => "kolb",
+  "package" => 'base',
+);
+
 
 
 
@@ -83,6 +91,22 @@ $data['day2'][$i++] = array(
   "logo_url" => set_source($awss3.'/companies/avantama/logo','png', FALSE),
   "name" => "Avantama",
   "name_short" => "avantama",
+  "package" => 'base',
+);
+
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/hoffmanneitle/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/hoffmanneitle/logo_svg','svg', FALSE),
+  "name" => "HOFFMANN EITLE",
+  "name_short" => "hoffmanneitle",
+  "package" => 'base',
+);
+
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/helveting/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/helveting/logo_svg','svg', FALSE),
+  "name" => "Helveting",
+  "name_short" => "helveting",
   "package" => 'base',
 );
 

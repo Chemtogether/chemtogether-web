@@ -39,9 +39,9 @@ $lang['general']['page_title'] = array('Chemtogether 2018 - Archiv: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('http://che.sika.com/','che.sika.com');
-$template['facebook'] = array('https://www.facebook.com/SikaSchweizAG/', 'Sika Schweiz AG');
-$template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
+$template['homepage'] = array('https://www.kolb.ch','kolb.ch');
+// $template['facebook'] = array('', '');
+// $template['linkedin'] = array('','');
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(

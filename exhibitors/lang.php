@@ -102,8 +102,8 @@ $lang['packages_table'][$i++] = array(
 
 $lang['packages_table'][$i++] = array(
   'perk'     => array('Standgrösse','size of booth'),
-  'base'     => array('6 m²','6 m²'),
-  'silver'   => array('6 m²','6 m²'),
+  'base'     => array('9 m²','9 m²'),
+  'silver'   => array('9 m²','9 m²'),
   'gold'     => array('12 m²','12 m²'),
   'platinum' => array('12 m²','12 m²'),
 );

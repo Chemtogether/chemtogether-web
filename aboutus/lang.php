@@ -91,7 +91,7 @@ $lang['team'][9] = array(
 
 $lang['team'][10] = array(
   'name' => 'Lukas Lätsch',
-  'task' => array('Werbung und Design','Promotion and Design'),
+  'task' => array('Consulting','Consulting'),
   'info' => array('Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years.','Coming from the Black Forest he came to Zurich to study Chemistry. In his spare time music takes a central place: He dances Latin and Standard and has been playing the guitar since 12 years. '),
   'mail_prefix' => 'lukas.laetsch',
   'linkedin' => ''
