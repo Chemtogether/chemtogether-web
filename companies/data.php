@@ -80,9 +80,17 @@ $data['day2'][$i++] = array(
 
 $data['day2'][$i++] = array(
   "link_url" => '/companies/metrohm/index.php#info',
-  "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
+  "logo_url" => set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE),
   "name" => "Metrohm",
   "name_short" => "metrohm",
+  "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/ivoclarvivadent/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/ivoclarvivadent/logo_svg','svg', FALSE),
+  "name" => "Ivoclar Vivadent",
+  "name_short" => "ivoclarvivadent",
   "package" => 'silver',
 );
 
