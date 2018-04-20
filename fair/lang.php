@@ -28,9 +28,18 @@ $lang['content']['schedule_text'] = array(
   'Für mehr Informationen zu einzelnen Programmpunkten, siehe unten. Der Zeitplan wird ergänzt, sobald weitere Events feststehen.',
   'For more information on individual events, please check below. The schedule is subject to change as more information becomes available.');
 
-$lang['content']['schedule_monday'] = array(
+$lang['content']['schedule_talk1'] = array(
+  'title' => array('Mittwoch, 1. November','Wednesday, 1st November'),
+  'event1' => array('ETH Career Center Talk: CV-Training','ETH Career Center Talk: CV-Training'),
+  'event2' => array('',''),
+  'event3' => array('',''),
+  'event4' => array('',''),
+  'event5' => array('','')
+);
+
+$lang['content']['schedule_talk2'] = array(
   'title' => array('Montag, 5. November','Monday, 5th November'),
-  'event1' => array('ETH Career Center Talk','ETH Career Center Talk'),
+  'event1' => array('ETH Career Center Talk: How To Career Fair','ETH Career Center Talk: How To Career Fair'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
@@ -61,6 +70,24 @@ $lang['content']['programme_text'] = array(
   'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here.');
 
 $lang['content']['programme_1'] = array(
+  'title' => array('ETH Career Center Talk: CV-Training','ETH Career Center Talk: CV-Training'),
+  'description' => array(
+    'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.<br>Raum wird noch veröffentlicht.',
+    'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.<br>Room will be published.'),
+  'time' => array('Mittwoch, 1. November 2018','Wednesday, 1st November 2018'),
+  'place' => array('HCI TBA','HCI TBA')
+);
+
+$lang['content']['programme_2'] = array(
+  'title' => array('ETH Career Center Talk: How To Career Fair','ETH Career Center Talk: How To Career Fair'),
+  'description' => array(
+    'Das Pre-Event am Montagabend stellt die wichtigsten Informationen für den erfolgreichen Besuch der Karrieremesse vor, von der richtigen Vorbereitung bis zum dem Verhalten während einem Gespräch mit Firmenvertretern. Dieses Event wird zusammen mit dem ETH Career Center angeboten und ist offen für jeden.<br>Raum wird noch veröffentlicht.',
+    'The pre-event on Monday evening will prepare you for the career fair by detailing the optimal preparation for, the appropriate conduct during and potential follow-ups after a conversation with a company representative. This talk is offered in cooperation with the ETH Career Center and is open to all.<br>Room will be published.'),
+  'time' => array('Montag, 5. November 2018','Monday, 5th November 2018'),
+  'place' => array('HCI TBA','HCI TBA')
+);
+
+$lang['content']['programme_3'] = array(
   'title' => array('Firmenpräsentationen','Company Presentations'),
   'description' => array(
     'Du möchtest ein Unternehmen so schnell wie möglich kennenlernen? Mehrere Firmen werden an beiden Tagen der Chemtogether je eine kurze Präsentation von nur zehn Minuten Länge halten. In diesen zehn Minuten berichten die Aussteller von ihrem Arbeitgeber und teilen ihre persönlichen Erfahrungen mit den Zuhörern.<br>Das ist die einmalige Möglichkeit, in kürzester Zeit etwas über verschiedene Firmen zu erfahren und ein idealer Gesprächsaufhänger für ein Gespräch am Stand der Firma. Es ist keine Anmeldung notwendig, also schau einfach vorbei!
@@ -70,16 +97,7 @@ $lang['content']['programme_1'] = array(
   'place' => array('HCI G2','HCI G2')
 );
 
-$lang['content']['programme_2'] = array(
-  'title' => array('ETH Career Center Talk','ETH Career Center Talk'),
-  'description' => array(
-    'Zusammen mit dem ETH Career Center wird es als Pre-Event erneut bereits am Montagabend eine Informationsveranstaltung im HCI geben, das euch auf die Messe und Bewerbungen im Allgemeinen vorbereitet.<br>Weitere Informationen folgen.',
-    'In cooperation with the ETH Career Center, a pre-event on monday evening will prepare you for the career fair and applications in general.<br>More information will be published.'),
-  'time' => array('TBA','TBA'),
-  'place' => array('HCI TBA','HCI TBA')
-);
-
-$lang['content']['programme_3'] = array(
+$lang['content']['programme_4'] = array(
   'title' => array('CV-Pics: Bewerbungsfotos','CV-Pics: Photo shoot'),
   'description' => array(
     'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von angemeldeten Besuchern aufgenommen.<br>Weitere Informationen und die Anmeldung folgen.',
