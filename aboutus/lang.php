@@ -38,7 +38,7 @@ $lang['team'][3] = array(
   'task' => array('Räume und Bewilligungen','Rooms and permits'),
   'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
   'mail_prefix' => 'markus.boecker',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/markus-boecker/'
 );
 
 $lang['team'][4] = array(
@@ -110,7 +110,7 @@ $lang['team'][12] = array(
   'task' => array('Werbung und Design','Promotion and Design'),
   'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
   'mail_prefix' => 'paul.schnacke',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/paul-schnacke'
 );
 
 $lang['team'][13] = array(
