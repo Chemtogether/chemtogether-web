@@ -4,8 +4,10 @@
   div {
     width: calc(100% - 30px);
     line-height: 0px;
-    margin: 15px;
-    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
     background: repeating-linear-gradient(-45deg, transparent 0%, transparent 70%,  $ct-blue 70%, $ct-blue 75%,  transparent 75%, transparent 100%),
     repeating-linear-gradient(-45deg, transparent 0%, transparent 85%, $ct-blue 85%, $ct-blue 95%, transparent 95%, transparent 100%),
     repeating-linear-gradient(-45deg, transparent 0%, transparent 25%, $ct-orange 25%, $ct-orange 30%, transparent 30%, transparent 100%),
