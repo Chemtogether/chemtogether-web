@@ -134,4 +134,12 @@ $data['day2'][$i++] = array(
   "package" => 'base',
 );
 
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/bachem/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/bachem/logo_svg','svg', FALSE),
+  "name" => "Bachem",
+  "name_short" => "bachem",
+  "package" => 'base',
+);
+
 ?>
