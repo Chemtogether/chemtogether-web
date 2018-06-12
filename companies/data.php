@@ -3,6 +3,14 @@
 $i = 0;
 
 $data['day1'][$i++] = array(
+  "link_url" => '/companies/basf/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/basf/logo_svg','svg', FALSE),
+  "name" => "BASF",
+  "name_short" => "basf",
+  "package" => 'gold',
+);
+
+$data['day1'][$i++] = array(
   "link_url" => '/companies/carbogenamcis/index.php#info',
   "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
   "name" => "Carbogen Amcis",
@@ -99,6 +107,14 @@ $data['day2'][$i++] = array(
   "logo_url" => set_source($awss3.'/companies/ivoclarvivadent/logo_svg','svg', FALSE),
   "name" => "Ivoclar Vivadent",
   "name_short" => "ivoclarvivadent",
+  "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
+  "link_url" => '/companies/msd/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/msd/logo_svg','svg', FALSE),
+  "name" => "Merck Sharp & Dohme",
+  "name_short" => "msd",
   "package" => 'silver',
 );
 
