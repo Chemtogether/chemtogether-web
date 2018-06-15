@@ -20,14 +20,14 @@ include('./lang.php');
 
 $active_nav = 'companies';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
+$fb = array(
+  "title"        => "Chemtogether 2018 - Companies",
+  "desc"         => "This year's Chemtogether will take place on the 6th and 7th November 2018! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "url"          => "https://www.chemtogether.ethz.ch/companies/",
+  "image_url"    => $awss3."/opengraph/companies_20180615.jpg",
+  "image_width"  => "1200",
+  "image_height" => "627"
+);
 
 ?>
 <?php include('includes/head.php');  ?>
