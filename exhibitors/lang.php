@@ -134,7 +134,7 @@ $lang['packages_table'][$i++] = array(
 
 $lang['packages_table'][$i++] = array(
   'perk'     => array('Präsentation','presentation'),
-  'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
+  'base'     => array('',''),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -228,7 +228,6 @@ $lang['packages_info']['base']['desc'] = array('Grundlage für die Teilnahme an 
 $i = 0;
 $lang['packages_info']['base']['perks'][$i++] = array('9m² Stand mit zwei Stehtischen','9m² booth with two bistro tables');
 $lang['packages_info']['base']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
-$lang['packages_info']['base']['perks'][$i++] = array('kurze Firmenpräsentation während der Messe','short presentation during the fair');
 $lang['packages_info']['base']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
 $lang['packages_info']['base']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
 
