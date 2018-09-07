@@ -1,6 +1,6 @@
 <?php
 
-$date = array('12. Juni 2018','12. Juni 2018');
+$date = array('12. Juni 2018','12th June 2018');
 $title = array('Chemtogether 2018 ist ausgebucht','Chemtogether 2018 is booked out');
 
 $text = array(
