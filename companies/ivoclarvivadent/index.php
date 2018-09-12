@@ -70,7 +70,7 @@ $i = 0;
 $template['interview'][$i++] = array(
   'name' => 'Dr. Sandro Sbicego',
   'img_url' => $awss3.'/companies/ivoclarvivadent/interviewee_1',
-  'position' => array('Leiter der Abteilung für Qualitätskontrolle und Analytische Services R&amp;D, Leiter Global Quality Control', 'Head of the Quality Control Department and Analytical Services R&amp;D, Head of Global Quality Control'),
+  'position'> array('Head of the Quality Control Department and Analytical Services R&D, Head of Global Quality Control', 'Head of the Quality Control Department and Analytical Services R&amp;D, Head of Global Quality Control'),
 
   'education' => array(
     2 => array(
@@ -99,11 +99,11 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2010',
-      'desc' => array('Leiter der Abteilung für Qualitätskontrolle und Analytische Services R&amp;D bei Ivoclar Vivadent' ,'Head of the Quality Control Department and Analytical Services R&amp;D at Ivoclar Vivadent')
+      'desc' => array('Head of the Quality Control Department and Analytical Services R&D bei Ivoclar Vivadent' ,'Head of the Quality Control Department and Analytical Services R&amp;D at Ivoclar Vivadent')
     ),
     0 => array(
       'date' => '2016',
-      'desc' => array('zusätzlich: Leiter Global Quality Control bei Ivoclar Vivadent' ,'in addition: Head of Global Quality Control at Ivoclar Vivadent')
+      'desc' => array('zusätzlich: Head of Global Quality Control bei Ivoclar Vivadent' ,'in addition: Head of Global Quality Control at Ivoclar Vivadent')
     ),
   ),
 
