@@ -71,15 +71,63 @@ $template['interview'][$i++] = array(
 
   'education' => array(
     0 => array(
-      'date' => 'TBD',
-      'desc' => array('TBD', 'TBD')
+      'date' => '1993-1999',
+      'desc' => array('Università degli Studi di Palermo: Chemie/Physikalische Chemie', 'Università degli Studi di Palermo: Chemistry/Physical Chemistry')
+    ),
+    1 => array(
+      'date' => '1997-1999',
+      'desc' => array('Leiden University: Chemie/Colloidal Science', 'Leiden University: Chemistry/Colloidal Science')
+    ),
+    2 => array(
+      'date' => '1999-2003',
+      'desc' => array('PhD in Materials Science an der ETH Zurich', 'PhD in Materials Science at ETH Zurich')
+    ),
+    3 => array(
+      'date' => '2008-2009',
+      'desc' => array('INSEAD MBA in Strategy, Leadership, Finance', 'INSEAD MBA in Strategy, Leadership, Finance')
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => 'TBD',
-      'desc' => array('TBD', 'TBD')
+      'date' => '2003-2004',
+      'desc' => array('Wissenschaftliche Mitarbeiterin bei EMPA', 'Research Scientist at EMPA')
+    ),
+    1 => array(
+      'date' => '2004-2006',
+      'desc' => array('Head of Advanced Materials Laboratory bei Ciba', 'Head of Advanced Materials Laboratory at Ciba')
+    ),
+    2 => array(
+      'date' => '2006-2008',
+      'desc' => array('Projektmanagerin bei Ciba', 'Project Manager at Ciba')
+    ),
+    3 => array(
+      'date' => '2008-2010',
+      'desc' => array('Group Manager-New Business Development & Innovation Management bei BASF', 'Group Manager-New Business Development & Innovation Management at BASF')
+    ),
+    4 => array(
+      'date' => '2010-2011',
+      'desc' => array('Independent Consultant bei GLG - Gerson Lehrman Group', 'Independent Consultant at GLG - Gerson Lehrman Group')
+    ),
+    5 => array(
+      'date' => '2011-2014',
+      'desc' => array('Senior Marketing Manager Food & Specialty Packaging, EMEA, bei DOW', 'Senior Marketing Manager Food & Specialty Packaging, EMEA, at DOW')
+    ),
+    6 => array(
+      'date' => '2014',
+      'desc' => array('Global Strategic Marketing Director Dow Construction Chemicals bei DOW', 'Global Strategic Marketing Director Dow Construction Chemicals at DOW')
+    ),
+    7 => array(
+      'date' => '2015',
+      'desc' => array('Global Marketing Director Dow Construction Chemicals bei DOW', 'Global Marketing Director Dow Construction Chemicals at DOW')
+    ),
+    8 => array(
+      'date' => '2016',
+      'desc' => array('Co-Chair Dow Women Innovation Network in EMEAI bei DOW', 'Co-Chair Dow Women Innovation Network in EMEAI at DOW')
+    ),
+    9 => array(
+      'date' => '2017',
+      'desc' => array('Global Strategic Marketing Director Dow Building & Construction bei DOW', 'Global Strategic Marketing Director Dow Building & Construction at DOW')
     ),
   ),
 
@@ -156,15 +204,27 @@ $template['interview'][$i++] = array(
 
   'education' => array(
     0 => array(
-      'date' => 'TBD',
-      'desc' => array('TBD', 'TBD')
+      'date' => '2000-2004',
+      'desc' => array('PhD in Colloidal Aggregation an der ETH Zurich', 'PhD in Colloidal Aggregation at ETH Zurich')
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => 'TBD',
-      'desc' => array('TBD', 'TBD')
+      'date' => '2008-2011',
+      'desc' => array('Wissenschaftler bei DOW', 'Scientist at DOW')
+    ),
+    1 => array(
+      'date' => '2004-2011',
+      'desc' => array('Research Specialist bei DOW', 'Research Specialist at DOW')
+    ),
+    2 => array(
+      'date' => '2011-2013',
+      'desc' => array('F&SP TS&D Group Leader bei DOW', 'F&SP TS&D Group Leader at DOW')
+    ),
+    3 => array(
+      'date' => '2013',
+      'desc' => array('Application Technology Leader Packaging - Pack Studio bei DOW', 'Application Technology Leader Packaging - Pack Studio at DOW')
     ),
   ),
 
