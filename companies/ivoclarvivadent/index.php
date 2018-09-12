@@ -70,7 +70,7 @@ $i = 0;
 $template['interview'][$i++] = array(
   'name' => 'Dr. Sandro Sbicego',
   'img_url' => $awss3.'/companies/ivoclarvivadent/interviewee_1',
-  'position'> array('Head of the Quality Control Department and Analytical Services R&D, Head of Global Quality Control', 'Head of the Quality Control Department and Analytical Services R&amp;D, Head of Global Quality Control'),
+  'position' => array('Head of the Quality Control Department and Analytical Services R&D, Head of Global Quality Control', 'Head of the Quality Control Department and Analytical Services R&amp;D, Head of Global Quality Control'),
 
   'education' => array(
     2 => array(
