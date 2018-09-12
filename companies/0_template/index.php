@@ -223,6 +223,106 @@ $template['interview'][$i++] = array(
 );
 
 
+$template['interview'][$i++] = array(
+  'name' => '',
+  'img_url' => $awss3.'/img/interviews//interviewee_1',
+  'position' => array('', ''),
+
+  'education' => array(
+    0 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+    1 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+    2 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+    1 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+    2 => array(
+      'date' => '',
+      'desc' => array('', '')
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    1 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    2 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    3 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    4 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    5 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    6 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    7 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    8 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+    9 => array(
+      'question' => array('',
+                          ''),
+      'answer' => array('',
+                        '')
+    ),
+  ),
+);
+
+
 include('../0_template/template.php');
 
 

@@ -187,7 +187,7 @@ $next_company = $company_list[$key_next];
         <div class="content flex-center">
           <div class="image-interviewee l-4 m-4 s-12">
             <div>
-              <img <?php set_source($template['interview'][$i]['img_url'], 'jpg'); ?>></img>
+              <img <?php set_source($template['interview'][$i]['img_url'], 'png'); ?>></img>
             </div>
           </div>
           <div class="text l-8 m-8 s-12">
