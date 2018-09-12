@@ -73,7 +73,7 @@ $template['interview'][$i++] = array(
   'position' => array('Leiter der Abteilung für Qualitätskontrolle und Analytische Services R&amp;D, Leiter Global Quality Control', 'Head of the Quality Control Department and Analytical Services R&amp;D, Head of Global Quality Control'),
 
   'education' => array(
-    0 => array(
+    2 => array(
       'date' => '1989-1994',
       'desc' => array('Universität Bern, Studium in Biochemie / Biologie', 'University of Bern, Studies in Biochemistry / Biology')
     ),
@@ -81,27 +81,27 @@ $template['interview'][$i++] = array(
       'date' => '1994-1998',
       'desc' => array('Universität Bern, Dissertation im Gebiet der Molekularen Biologie' ,'University Bern, Dissertation in the area of molecular biology')
     ),
-    2 => array(
+    0 => array(
       'date' => '2005-2007',
       'desc' => array('Universität Basel, Postdoktorat in Pharmazeutischer Medizin', 'University Basel, Postgraduate studies in Pharmaceutical Medicine')
     ),
   ),
 
   'career' => array(
-    0 => array(
+    3 => array(
       'date' => '1998-2002',
       'desc' => array('Wissenschaftlicher Mitarbeiter auf dem Gebiet der RNA Biochemie, Howard Hughes Medical Institute, University of California in Los
       Angeles', 'Research associate in the area of RNA biochemisty, Howard Hughes Medical Institute, University of California at Los Angeles')
     ),
-    1 => array(
+    2 => array(
       'date' => '2003-2009',
       'desc' => array('Wissenschaftlicher Mitarbeiter in Scientific Services, R&amp;D bei Ivoclar Vivadent' ,'Scientific staff in Scientific Services, R&amp;D at Ivoclar Vivadent')
     ),
-    2 => array(
+    1 => array(
       'date' => '2010',
       'desc' => array('Leiter der Abteilung für Qualitätskontrolle und Analytische Services R&amp;D bei Ivoclar Vivadent' ,'Head of the Quality Control Department and Analytical Services R&amp;D at Ivoclar Vivadent')
     ),
-    3 => array(
+    0 => array(
       'date' => '2016',
       'desc' => array('zusätzlich: Leiter Global Quality Control bei Ivoclar Vivadent' ,'in addition: Head of Global Quality Control at Ivoclar Vivadent')
     ),
