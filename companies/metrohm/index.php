@@ -66,7 +66,7 @@ $i = 0;
 $template['interview'][$i++] = array(
   'name' => 'Dr. Vincent Diederich',
   'img_url' => $awss3.'/companies/metrohm/interviewee_1',
-  'position' => array('Produktionsingenieur & Stv. Abteilungsleiter, Abteilung Trennsäulenproduktion', 'Production Engineer & Interim Department Head, Department Seperation Column Production'),
+  'position' => array('Produktionsingenieur & Stv. Abteilungsleiter, Abteilung Trennsäulenproduktion', 'Production Engineer & Interim Department Head, Department Separation Column Production'),
 
   'education' => array(
     0 => array(
@@ -90,7 +90,7 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2015',
-      'desc' => array('Produktionsingenieur & Stv. Abteilungsleiter, Abteilung Trennsäulenproduktion bei Metrohm', 'Production Engineer & Interim Department Head, Department Seperation Column Production at Metrohm')
+      'desc' => array('Produktionsingenieur & Stv. Abteilungsleiter, Abteilung Trennsäulenproduktion bei Metrohm', 'Production Engineer & Interim Department Head, Department Separation Column Production at Metrohm')
     ),
     2 => array(
       'date' => '2014-2015',
