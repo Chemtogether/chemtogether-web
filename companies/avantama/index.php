@@ -48,14 +48,14 @@ $template['linkedin'] = array('https://www.linkedin.com/company/avantama-ag/','A
 $template['archive'] = '/archive/avantama';
 
 $template['we_are'] = array(
-  'In Kürze.',
-  'Coming soon.');
+  'title' => 'We are',
+  'text' => 'Coming soon.');
 $template['we_offer'] = array(
-  'In Kürze.',
-  'Coming soon.');
+  'title' => 'We offer',
+  'text' => 'Coming soon.');
 $template['we_look'] = array(
-  'In Kürze.',
-  'Coming soon.');
+  'title' => 'We look for',
+  'text' => 'Coming soon.');
 
 
 
