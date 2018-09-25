@@ -29,7 +29,7 @@ $lang['content']['schedule_text'] = array(
   'For more information on individual events, please check below. The schedule is subject to change as more information becomes available.');
 
 $lang['content']['schedule_talk1'] = array(
-  'title' => array('Mittwoch, 1. November','Wednesday, 1st November'),
+  'title' => array('Donnerstag, 1. November','Thursday, 1st November'),
   'event1' => array('ETH Career Center Talk: CV-Training','ETH Career Center Talk: CV-Training'),
   'event2' => array('',''),
   'event3' => array('',''),
@@ -74,7 +74,7 @@ $lang['content']['programme_1'] = array(
   'description' => array(
     'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.<br>Raum wird noch veröffentlicht.',
     'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.<br>Room will be published.'),
-  'time' => array('Mittwoch, 1. November 2018','Wednesday, 1st November 2018'),
+  'time' => array('Donnerstag, 1. November 2018','Thursday, 1st November 2018'),
   'place' => array('HCI TBA','HCI TBA')
 );
 
