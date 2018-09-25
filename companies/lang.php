@@ -52,5 +52,6 @@ $lang['detail']['we_look'] = array('We are looking for','We are looking for');
 $lang['detail']['interviews']['section'] = array('Interview','Interview');
 $lang['detail']['interviews']['education'] = array('Ausbildung','Education');
 $lang['detail']['interviews']['career'] = array('Karriere','Career');
+$lang['detail']['interviews']['present'] = array('heute','present');
 $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 ?>

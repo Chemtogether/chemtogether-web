@@ -123,7 +123,7 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2016',
-      'desc' => array('Co-Chair Dow Women Innovation Network in EMEAI bei DOW', 'Co-Chair Dow Women Innovation Network in EMEAI at DOW')
+      'desc' => array('Chair Dow Women Innovation Network in EMEAI bei DOW', 'Chair Dow Women Innovation Network in EMEAI at DOW')
     ),
     0 => array(
       'date' => '2017',

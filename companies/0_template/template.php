@@ -197,20 +197,28 @@ $next_company = $company_list[$key_next];
               <br><br>
               <span><?php echo($lang['detail']['interviews']['education'][$eng]); ?></span>
               <table class="fa-table">
-                <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { ?>
+                <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { 
+                  $date = $template['interview'][$i]['education'][$j]['date']; 
+                  if(!preg_match('/-/', $date)) {
+                    $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
+                  } ?>
                   <tr>
                     <td><i class="fas fa-fw fa-chevron-right"></td>
-                      <td><?php echo($template['interview'][$i]['education'][$j]['desc'][$eng]); ?> (<?php echo($template['interview'][$i]['education'][$j]['date']); ?>)</td>
+                      <td><?php echo($template['interview'][$i]['education'][$j]['desc'][$eng]); ?> (<?php echo($date); ?>)</td>
                     </tr>
                   <?php } ?>
                 </table>
                 <br>
                 <span><?php echo($lang['detail']['interviews']['career'][$eng]); ?></span>
                 <table class="fa-table">
-                  <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) { ?>
+                  <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) {
+                    $date = $template['interview'][$i]['career'][$j]['date']; 
+                    if(!preg_match('/-/', $date)) {
+                      $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
+                    } ?>
                     <tr>
                       <td><i class="fas fa-fw fa-chevron-right"></td>
-                        <td><?php echo($template['interview'][$i]['career'][$j]['desc'][$eng]); ?> (<?php echo($template['interview'][$i]['career'][$j]['date']); ?>)</td>
+                        <td><?php echo($template['interview'][$i]['career'][$j]['desc'][$eng]); ?> (<?php echo($date); ?>)</td>
                       </tr>
                     <?php } ?>
                   </table>
