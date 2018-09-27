@@ -230,7 +230,7 @@ $template['interview'][$i++] = array(
 
 $template['interview'][$i++] = array(
   'name' => '',
-  'img_url' => $awss3.'/img/interviews//interviewee_1',
+  'img_url' => $awss3.'/companies//interviewee_1',
   'position' => array('', ''),
 
   'education' => array(
