@@ -83,7 +83,7 @@ $template['interview'][$i++] = array(
     ),
     0 => array(
       'date' => '2005-2007',
-      'desc' => array('Universität Basel, Postdoktorat in Pharmazeutischer Medizin', 'University Basel, Postgraduate studies in Pharmaceutical Medicine')
+      'desc' => array('Universität Basel, Nachdiplomstudium in Pharmazeutischer Medizin', 'University Basel, Postgraduate studies in Pharmaceutical Medicine')
     ),
   ),
 
@@ -137,8 +137,8 @@ $template['interview'][$i++] = array(
                         'When I applied for the job at Ivoclar Vivadent 15 years ago, I didn’t know the company. The position in the Scientific Service was appealing to me: Planning clinical studies, assessing biocompatibility, risk management – exciting and rich in variety.')
     ),
     4 => array(
-      'question' => array('Nach dem Doktorat machten Sie einen Postdoc an der Universität Basel gemacht. War das eine Voraussetzung für Ihre erste Stelle bei Ivoclar Vivadent?',
-                          'After your PhD, you went on to do a postdoc at the University of Basel. Was that a prerequisite for your first position at Ivoclar Vivadent?'),
+      'question' => array('Nach dem Doktorat machten Sie ein Nachdiplomstudium an der Universität Basel gemacht. War das eine Voraussetzung für Ihre erste Stelle bei Ivoclar Vivadent?',
+                          'After your PhD, you went on to do postgraduate studies at the University of Basel. Was that a prerequisite for your first position at Ivoclar Vivadent?'),
       'answer' => array('Kontinuierliche Weiterbildung endet natürlich nicht mit einem Job in der Industrie. Ivoclar hat mir ein berufsbegleitendes Nachdiplomstudium in Pharmazeutischer Medizin ermöglicht, in welchem ich das Wissen in meinem Fachgebiet vertiefen konnte.',
                         'Of course continuous education does not end with a job in industry. Ivoclar enabled me to enroll in and complete an extra-educational post-graduate studies course in pharmaceutical medicine in which I was able to deepen my knowledge in this specific field of expertise.')
     ),
