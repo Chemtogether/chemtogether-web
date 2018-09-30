@@ -25,8 +25,8 @@ $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exh
 
 $lang['content']['schedule_subsection'] = array('Programmplan','Schedule');
 $lang['content']['schedule_text'] = array(
-  'Für mehr Informationen zu einzelnen Programmpunkten, siehe unten. Der Zeitplan wird ergänzt, sobald weitere Events feststehen.',
-  'For more information on individual events, please check below. The schedule is subject to change as more information becomes available.');
+  'Für mehr Informationen zu einzelnen Programmpunkten, siehe unten.',
+  'For more information on individual events, please check below.');
 
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 1. November','Thursday, 1st November'),
@@ -39,7 +39,7 @@ $lang['content']['schedule_talk1'] = array(
 
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Montag, 5. November','Monday, 5th November'),
-  'event1' => array('ETH Career Center Talk: How To Career Fair','ETH Career Center Talk: How To Career Fair'),
+  'event1' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
@@ -74,16 +74,16 @@ $lang['content']['programme_1'] = array(
   'description' => array(
     'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.<br>Raum wird noch veröffentlicht.',
     'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.<br>Room will be published.'),
-  'time' => array('Donnerstag, 1. November 2018','Thursday, 1st November 2018'),
+  'time' => array('Donnerstag, 1. November 2018, 17:00 Uhr','Thursday, 1st November 2018, 5pm'),
   'place' => array('HCI TBA','HCI TBA')
 );
 
 $lang['content']['programme_2'] = array(
-  'title' => array('ETH Career Center Talk: How To Career Fair','ETH Career Center Talk: How To Career Fair'),
+  'title' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
   'description' => array(
-    'Das Pre-Event am Montagabend stellt die wichtigsten Informationen für den erfolgreichen Besuch der Karrieremesse vor, von der richtigen Vorbereitung bis zum dem Verhalten während einem Gespräch mit Firmenvertretern. Dieses Event wird zusammen mit dem ETH Career Center angeboten und ist offen für jeden.<br>Raum wird noch veröffentlicht.',
-    'The pre-event on Monday evening will prepare you for the career fair by detailing the optimal preparation for, the appropriate conduct during and potential follow-ups after a conversation with a company representative. This talk is offered in cooperation with the ETH Career Center and is open to all.<br>Room will be published.'),
-  'time' => array('Montag, 5. November 2018','Monday, 5th November 2018'),
+    'Nähere Informationen folgen.',
+    'More information will follow.'),
+  'time' => array('Montag, 5. November 2018, 17:00 Uhr','Monday, 5th November 2018, 5pm'),
   'place' => array('HCI TBA','HCI TBA')
 );
 
