@@ -49,13 +49,13 @@ $template['archive'] = '/archive/basf';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'We are the world’s leading chemical company, with the best teams developing intelligent solutions for our customers and creating chemistry for a sustainable future. BASF’s success as a company relies on the personal engagement of our employees. We encourage our staff to develop their strengths, and we recognize their achievements.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'text' => 'We offer excellent frame conditions  and development opportunities.  The start position as Lab Team Leader  offers the chance to develop  your individual career as expert in the worldwide R&D community, as specialist in technology, production, marketing and sales, innovation scouting, or as future manager in a global company.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'You are a chemist or a chemical engineer and you have successfully  completed your studies with  a PhD or a PostDoc. Your focus is on one of the following  specialist areas: Chemical engineering,  organic, inorganic, macromolecular,  technical, physical, theoretical, analytical  chemistry or biochemistry. You are  open to everything that’s new and enjoy  scientific and technical challenges,  which you approach with purpose and  solve with creative ideas.  You enjoy working in an interdisciplinary  team to achieve the best  results. You are fluent in English language.');
 
 
 

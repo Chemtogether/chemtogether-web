@@ -49,13 +49,13 @@ $template['archive'] = '/archive/bachem';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'Bachem is a listed technology-based company focused on peptide chemistry. The company provides a full range of services to the pharma and biotech industries. It specializes in the development of innovative, efficient manufacturing processes and the reliable production of peptide-based active pharmaceutical ingredients. A comprehensive catalog of biochemicals and exclusive custom syntheses for research labs complete the service portfolio. Headquartered in Switzerland with subsidiaries in Europe and the US, the group has a global reach with more experience and know-how than any other company in the industry. Towards its customers, Bachem shows total commitment to quality, innovation and partnership.<br>Bachem. Pioneering Partner for Peptides.');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'title' => 'What do we have to offer?',
+  'text' => 'We offer graduates with a diploma or doctoral degree the possibility to apply their knowledge, gain initial experience in a variety of areas and benefit from the know-how of our experienced employees within a highly collaborative environment with a respectful attitude.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'Who are we looking for?',
+  'text' => 'We are looking for young, committed and fully qualified graduates, holding a diploma or already in possession of a doctoral degree, who would like to join our company and establish in a professional environment, to secure our long-term success and maintain market leadership.');
 
 
 

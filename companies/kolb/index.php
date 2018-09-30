@@ -31,7 +31,7 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'Kolb';
+$template['company_name'] = 'KLK Kolb';
 $template['company_name_short'] = 'kolb';
 $template['logo_url'] = set_source($awss3.'/companies/kolb/logo','png', FALSE);
 $template['package'] = 'base';
@@ -49,13 +49,13 @@ $template['archive'] = '/archive/kolb';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'With approximately 480 employees, KLK Kolb is one of the leading alkoxylation companies in Europe and offers a wide range of surfactants, chemical specialities, paper process chemicals and customer- specific products for various industries. KLK Kolb is a member of the global KLK OLEO Group. We sell our products worldwide and currently have three manufacturing sites in the heart of Europe (Hedingen/CH, Moerdijk/NL and Delden/NL).');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'title' => 'We offer you',
+  'text' => 'We offer challenging, versatile jobs in a rapidly growing international company. KLK Kolb is a professional, well-established organization with an open working environment, giving an opportunity for creativity and the freedom to work independently. We help our employees to make use of their full potential, further develop their professional expertise and reach their personal career goals. Moreover, we offer attractive employment conditions.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'KLK Kolb is looking for employees who are highly motivated and have a proactive and independently- thinking mindset. Personalities who use their experience and creativity actively, in order to achieve the goal together. Safety, integrity, loyalty, team spirit and result-oriented performance are additional KLK Kolb values.');
 
 
 

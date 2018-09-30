@@ -31,7 +31,7 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'Helveting';
+$template['company_name'] = 'HELVETING';
 $template['company_name_short'] = 'helveting';
 $template['logo_url'] = set_source($awss3.'/companies/helveting/logo_svg','svg', FALSE);
 $template['package'] = 'base';
@@ -49,13 +49,13 @@ $template['linkedin'] = array('https://www.linkedin.com/company/helveting/','HEL
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'HELVETING is a Swiss engineering company and part of the ALTEN Group. ALTEN is employing more than 28’000 highly qualified engineers and scientists worldwide. As a flexible, dynamic and competent development service provider, we deliver expert knowledge and develop outstanding customized solutions for our clients. Our consultants are active in many different industries and advise our customers on process and technology related queries. Cross Engineering is our specialty. We create innovative solutions that push the boundaries of the traditional industries, applying an interdisciplinary way of thinking.');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'title' => 'We offer you',
+  'text' => 'As a member of our team, you will face challenging as well as stimulating assignments and projects. You will enhance your professional career supported by various educational opportunities.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'HELVETING would like to get in contact with young and ambitious individuals that are passionate about engineering, open minded and with an interdisciplinary approach. Team players that can work independently if needed. We welcome qualified “can-do types”, with a technical BSc or MSc level degree. ');
 
 
 

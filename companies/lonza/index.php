@@ -49,13 +49,13 @@ $template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'We are the leading supplier using science and technology to improve the quality of life; we work with passion, using advanced technologies, to transform life science into new possibilities for our customers; headquartered in Basel, Switzerland, we operate production, R&D, and business sites around the world, including Europe, North America, and Asia.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'text' => 'We offer an environment that fosters creativity and success, a company without burdensome bureaucracy, and the ability to be involved in many aspects of internal and external business; you will be rewarded for a job well done, have opportunities to develop your knowledge and skills, and you will be respected and valued.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.');
 
 
 

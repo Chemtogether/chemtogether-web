@@ -49,13 +49,13 @@ $template['archive'] = '/archive/ivoclarvivadent';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'Today’s vision. Tomorrow’s reality. We have a passion for developing innovative products that open up new opportunities for our customers in the dental industry.<br>Ivoclar Vivadent, headquartered in Schaan, Liechtenstein, is one of the world’s leading manufacturers of innovative material systems for high-quality dental applications. The company’s success is based on a comprehensive portfolio of products and systems, strong research and development capabilities and a clear commitment to training and further education. The company employs about 3,600 people at 29 locations worldwide.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'text' => 'Making people smile is what we aspire to at Ivoclar Vivadent each day, with our innovative products and our employee-oriented culture. Working at Ivoclar Vivadent, we share our strong values that promote a culture of mutual respect that you will discover at all our locations around the world. Our ongoing employee development, education and training is one of the cornerstones that underlines the long-term and people-focused orientation as a family owned company.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'Ivoclar Vivadent is an exciting, vibrant workplace where new ideas are encouraged and commitment is rewarded. We are looking for young, committed graduates who are passionate about innovation and share our vision to develop solutions for tomorrow’s dentistry.');
 
 
 
