@@ -85,7 +85,7 @@ $template['interview'][$i++] = array(
 
   'career' => array(
     0 => array(
-      'date' => '11/2018',
+      'date' => array('ab 11/2018', 'since 11/2018'),
       'desc' => array('Produktmanager Chromatographiesäulen bei Metrohm', 'Product Manager Chromatography Columns at Metrohm')
     ),
     1 => array(

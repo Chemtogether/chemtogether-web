@@ -199,7 +199,10 @@ $next_company = $company_list[$key_next];
               <table class="fa-table">
                 <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { 
                   $date = $template['interview'][$i]['education'][$j]['date']; 
-                  if(!preg_match('/-/', $date)) {
+                  if(is_array($date)) {
+                    $date = $date[$eng];
+                  }
+                  else if(!preg_match('/-/', $date)) {
                     $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
                   } ?>
                   <tr>
@@ -213,7 +216,10 @@ $next_company = $company_list[$key_next];
                 <table class="fa-table">
                   <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) {
                     $date = $template['interview'][$i]['career'][$j]['date']; 
-                    if(!preg_match('/-/', $date)) {
+                    if(is_array($date)) {
+                      $date = $date[$eng];
+                    }
+                    else if(!preg_match('/-/', $date)) {
                       $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
                     } ?>
                     <tr>
