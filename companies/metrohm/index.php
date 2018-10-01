@@ -21,15 +21,25 @@ include('../lang.php');
 
 $active_nav = 'companies';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
-
+if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
+  $fb = array(
+    "title"        => "Interview with Dr. Vincent Diederich from Metrohm - Chemtogether",
+    "desc"         => "Dr. Vincent Diederich is Production Engineer & Interim Department Head at the Department of Separation Column Production at Metrohm. Learn more about his career and work in his interview, and meet Metrohm at this year's Chemtogether!",
+    "url"          => "",
+    "image_url"    => $awss3."/opengraph/metrohm_20181001.jpg",
+    "image_width"  => "800",
+    "image_height" => "420"
+  );
+} else {
+  // $fb = array(
+  //   "title"        => "",
+  //   "desc"         => "",
+  //   "url"          => $awss3."/opengraph/",
+  //   "image_url"    => "",
+  //   "image_width"  => "",
+  //   "image_height" => ""
+  // );
+}
 
 $template['company_name'] = 'Metrohm';
 $template['company_name_short'] = 'metrohm';
