@@ -21,14 +21,34 @@ include('../lang.php');
 
 $active_nav = 'companies';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
+if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
+  $fb = array(
+    "title"        => "Interview with Dr. Margherita Fontana from DOW - Chemtogether",
+    "desc"         => "Dr. Margherita Fontana works as Global Strategic Marketing Director at DOW. Learn more about her career and work in her interview, and meet DOW at this year's Chemtogether!",
+    "url"          => "",
+    "image_url"    => $awss3."/opengraph/dow_0_20181002.jpg",
+    "image_width"  => "800",
+    "image_height" => "420"
+  );
+} else if(isset($_GET['fb']) && $_GET['fb'] == 'i-1') {
+  $fb = array(
+    "title"        => "Interview with Dr. Peter Sandkuehler from DOW - Chemtogether",
+    "desc"         => "Dr. Peter Sandkuehler works as Application Technology Leader Packaging at DOW. Learn more about his career and work in his interview, and meet DOW at this year's Chemtogether!",
+    "url"          => "",
+    "image_url"    => $awss3."/opengraph/dow_1_20181002.jpg",
+    "image_width"  => "800",
+    "image_height" => "420"
+  );
+} else {
+  // $fb = array(
+  //   "title"        => "",
+  //   "desc"         => "",
+  //   "url"          => $awss3."/opengraph/",
+  //   "image_url"    => "",
+  //   "image_width"  => "",
+  //   "image_height" => ""
+  // );
+}
 
 
 $template['company_name'] = 'DOW';

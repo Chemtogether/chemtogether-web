@@ -21,14 +21,25 @@ include('../lang.php');
 
 $active_nav = 'companies';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
+if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
+  $fb = array(
+    "title"        => "Interview with Dr. Emad El Sayed from Carbogen Amcis - Chemtogether",
+    "desc"         => "Dr. Emad El Sayed works as Manager PR&D at Carbogen Amcis. Learn more about his career and work in his interview, and meet Carbogen Amcis at this year's Chemtogether!",
+    "url"          => "",
+    "image_url"    => $awss3."/opengraph/carbogenamcis_20181002.jpg",
+    "image_width"  => "800",
+    "image_height" => "420"
+  );
+} else {
+  // $fb = array(
+  //   "title"        => "",
+  //   "desc"         => "",
+  //   "url"          => $awss3."/opengraph/",
+  //   "image_url"    => "",
+  //   "image_width"  => "",
+  //   "image_height" => ""
+  // );
+}
 
 
 $template['company_name'] = 'Carbogen Amcis';

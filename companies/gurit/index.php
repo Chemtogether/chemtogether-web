@@ -21,14 +21,25 @@ include('../lang.php');
 
 $active_nav = 'companies';
 
-// $fb = array(
-//   "title"        => "",
-//   "desc"         => "",
-//   "url"          => $awss3."/opengraph/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
-// );
+if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
+  $fb = array(
+    "title"        => "Interview with Suraj Rathore from Gurit - Chemtogether",
+    "desc"         => "Suraj Rathore takes part in the Gurit Entrepreneurial Program at Gurit. Learn more about his career and work in his interview, and meet Gurit at this year's Chemtogether!",
+    "url"          => "",
+    "image_url"    => $awss3."/opengraph/gurit_20181002.jpg",
+    "image_width"  => "800",
+    "image_height" => "420"
+  );
+} else {
+  // $fb = array(
+  //   "title"        => "",
+  //   "desc"         => "",
+  //   "url"          => $awss3."/opengraph/",
+  //   "image_url"    => "",
+  //   "image_width"  => "",
+  //   "image_height" => ""
+  // );
+}
 
 
 $template['company_name'] = 'Gurit';
