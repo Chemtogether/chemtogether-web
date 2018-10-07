@@ -49,13 +49,13 @@ $template['archive'] = '/archive/idorsia';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'Reaching out for more!<br><br>The purpose of Idorsia is to discover, develop and bring more, innovative medicines to patients. We have more ideas, we see more opportunities and we want to help more patients. In order to achieve this, we will develop Idorsia into one of Europe’s leading biopharmaceutical companies, with a strong scientific core.<br>Located near Basel – a biotech hub of Europe – Idorsia has over 700 employees specialized in the discovery and development of small molecules, to provide innovative therapeutic options.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'text' => 'A state-of-the-art workplace in an inspiring environment, a competitive compensation package and a good balance between work and private life.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'People who like doing more with less in a highly productive environment where people enjoy their work! If you like to show up with energy, intellect and creativity then you could be a good fit with Idorsia.<br>In drug discovery, we are regularly looking for trainees (e.g. BSc, MSc, and PhD students) to work with us for 6-12 months. To get insight into how you can contribute to one of our exciting drug discovery projects, please review our current openings at: <a href="https://careers.idorsia.com/">careers.idorsia.com</a>');
 
 
 

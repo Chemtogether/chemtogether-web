@@ -69,13 +69,60 @@ $template['archive'] = '/archive/dow';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'The Dow Chemical Company (Dow) combines science and technology knowledge to develop premier materials science solutions that are essential to human progress. Dow has one of the strongest and broadest toolkits in the industry, with robust technology, asset integration, scale and competitive capabilities that enable it to address complex global issues. Dow’s market-driven, industry-leading portfolio of advanced materials, industrial intermediates, and plastics businesses deliver a broad range of differentiated technology-based products and solutions for customers in high-growth markets such as packaging, infrastructure, and consumer care. Dow is a subsidiary of DowDuPont (NYSE: DWDP), a holding company comprised of Dow and DuPont with the intent to form three strong, independent, publicly traded companies in agriculture, materials science and specialty sectors.<br><br>
+  More information can be found at <a href="https://www.dow.com/">www.dow.com</a>.');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'title' => 'We offer you',
+  'text' => 'The Science to Your Success. A career with us is an invitation to explore, create and make valuable con­tributions to human progress. We have some of the world’s best scientists and innovators dedicated to solving world challenges through innovation. Find out how we do it at <a href="http://www.dowcampus.com/">www.dowcampus.com</a>.<br><br>In addition we offer: <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>The opportunity to carve out a unique and vibrant career</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Reward and recognition for strong performance</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Comprehensive benefits</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>An inclusive culture and diverse workforce that is empowered by authenticity, respect and equity for everyone</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Opportunity to participate in any of our 10 Employee Resource Groups as an enabler for personal growth and business success</td>
+  </tr>
+  </table>');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'We are looking for',
+  'text' => 'Innovators and team-players who want to utilize their skills and share our passion to make a difference. We look for people with an open and respectful mind who are flexible, mobile, and willing to grow their careers in an inclusive environment across the globe.<br><br>International opportunities in EMEAI include: <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Research & Development </td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Technical Service and Development</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Marketing & Sales </td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Supply Chain</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Environment, Health & Safety</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Sustainability</td>
+  </tr>
+  </table>');
 
 
 

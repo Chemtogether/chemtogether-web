@@ -49,13 +49,13 @@ $template['archive'] = '/archive/avantama';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Coming soon.');
+  'text' => 'We are a start-up company with a young and dynamic team that is committed to develop and produce materials for a bright and efficient future. Avantama is the worldwide leader in the development and production of specialty nanoparticles and coating materials for the electronics industry. Avantama’s high tech products enable the fabrication of specific optical and electronic coatings for industrial customers. Our product pipeline is filled with exciting products for the following product groups: LCD TV displays, OLED lighting devices, printed and flexible solar cells, amongst others..');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'text' => 'We offer you a start-up environment with exciting projects changing the world. You will be given a lot of responsibility and space for your own ideas. We offer several full-time positions in our research & development team. In addition, we offer up to 4 internships to students in their bachelor year or later.');
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'text' => 'We are looking for bright and innovative personalities with an excellent bachelor, masters or PhD degree preferably in materials science, chemistry, nanotechnology, physics or a similar field paired with a passion for materials and electronic devices..');
 
 
 

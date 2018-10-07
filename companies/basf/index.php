@@ -24,7 +24,7 @@ $active_nav = 'companies';
 if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   $fb = array(
     "title"        => "Interview with Dr. Michael Seet from BASF - Chemtogether",
-    "desc"         => "Dr. Michael Seet is Research Scientist at BASF. Learn more about his career and work in his interview, and meet BASF at this year's Chemtogether!",
+    "desc"         => "Dr. Michael Seet works as Research Scientist at BASF. Learn more about his career and work in his interview, and meet BASF at this year's Chemtogether!",
     "url"          => "",
     "image_url"    => $awss3."/opengraph/basf_0_20181002.jpg",
     "image_width"  => "800",

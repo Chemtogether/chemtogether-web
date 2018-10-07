@@ -48,14 +48,14 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dottikon-exclusi
 $template['archive'] = '/archive/dottikon';
 
 $template['we_are'] = array(
-  'title' => 'We are',
-  'text' => 'Coming soon.');
+  'title' => 'Who we are',
+  'text' => 'We are the Specialist for hazardous, safety-critical chemical reactions with a strong emphasis on technology-driven research and development and scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production. DOTTIKON employs over 600 employees, 16% of whom hold a Ph.D. in chemistry..');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Coming soon.');
+  'title' => 'We do we offer?',
+  'text' => 'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. As a demanding, dynamic and performance-driven company, we offer flat hierarchies, clear structures, competences, and responsibility in a constructive and open working environment.');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Coming soon.');
+  'title' => 'Who we\'re looking for',
+  'text' => 'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative, and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.');
 
 
 
