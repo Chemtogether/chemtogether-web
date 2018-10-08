@@ -112,8 +112,8 @@ $data['day2'][$i++] = array(
 
 $data['day2'][$i++] = array(
   "link_url" => '/companies/msd/index.php#info',
-  "logo_url" => set_source($awss3.'/companies/msd/logo_svg','svg', FALSE),
-  "name" => "Merck Sharp & Dohme",
+  "logo_url" => set_source($awss3.'/companies/msd/logo','png', FALSE),
+  "name" => "MSD",
   "name_short" => "msd",
   "package" => 'silver',
 );

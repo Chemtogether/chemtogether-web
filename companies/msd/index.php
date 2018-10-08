@@ -31,9 +31,9 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'Merck Sharp & Dohme';
+$template['company_name'] = 'MSD';
 $template['company_name_short'] = 'msd';
-$template['logo_url'] = set_source($awss3.'/companies/msd/logo_svg','svg', FALSE);
+$template['logo_url'] = set_source($awss3.'/companies/msd/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 2;
 
@@ -49,7 +49,7 @@ $template['archive'] = '/archive/msd';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'At MSD, we are inventing for life. As a leading global biopharmaceutical company, we have been engaged in life science research for more than a century, developing drugs and vaccines for the most challenging diseases worldwide. In Switzerland, we provide a wide range of healthcare solutions and are making available significant novel medicines, including treatments of cancer, hepatitis C, diabetes and antibiotic-resistant infections. Our recently re-integrated broad vaccines portfolio is well positioned to further prevent diseases and improve public health. <br>Switzerland serves as an international hub in the company’s global setting with four sites in and around the city of Lucerne. Our R&amp;D site in Werthenstein was involved in the development of about 45% of MSD’s products, serving patients in need. From here, around 270 scientists, engineers, technicians, process specialists and administrative personnel from around 14 nations test, develop and analyze new large molecule (i.e. biological), test and run stability studies on drug substances or drug products, provide experimental medicines for worldwide clinical trials and are contributing state-of- the-art packaging of clinical supplies.');
+  'text' => 'At MSD, we are inventing for life. As a leading global biopharmaceutical company, we have been engaged in life science research for more than a century, developing drugs and vaccines for the most challenging diseases worldwide. In Switzerland, we provide a wide range of healthcare solutions and are making available significant novel medicines, including treatments of cancer, diabetes and infectious diseases incl. antibiotic-resistant infections. Our recently re-integrated broad vaccines portfolio is well positioned to further prevent diseases and improve public health. <br>Switzerland serves as an international hub in the company’s global setting with four sites in and around the city of Lucerne. Our R&amp;D site in Werthenstein was involved in the development of about 45% of MSD’s products, serving patients in need. From here, around 270 scientists, engineers, technicians, process specialists and administrative personnel from around 14 nations test, develop and analyze new large molecule (i.e. biological), test and run stability studies on drug substances or drug products, provide experimental medicines for worldwide clinical trials and are contributing state-of- the-art packaging of clinical supplies.');
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => 'Inventing shapes our corporate culture. In joining MSD, you’ll be part of an organization that is inspired by innovation to achieve our ambitious goals and transform lives through spirited co-creation and applied curiosity. You will be embarking on a journey where you can drive your national or international career development aspirations. We are proud of our modern working environment and our positive culture of cooperation and support. We are an equal opportunities organization, proudly embracing diversity in all its forms. When are you inventing the future?');
