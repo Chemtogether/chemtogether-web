@@ -30,7 +30,7 @@ $active_nav = 'archive';
 // );
 
 
-$template['company_name'] = 'Merck Sharp & Dohme';
+$template['company_name'] = 'MSD';
 $template['company_name_short'] = 'msd';
 $template['logo_url'] = $awss3_archive.'/msd/logo';
 $template['package'] = 'base';
