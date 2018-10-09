@@ -68,7 +68,7 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dow-chemical/','
 $template['archive'] = '/archive/dow';
 
 $template['we_are'] = array(
-  'title' => 'We are',
+  'title' => 'Who we are',
   'text' => 'The Dow Chemical Company (Dow) combines science and technology knowledge to develop premier materials science solutions that are essential to human progress. Dow has one of the strongest and broadest toolkits in the industry, with robust technology, asset integration, scale and competitive capabilities that enable it to address complex global issues. Dow’s market-driven, industry-leading portfolio of advanced materials, industrial intermediates, and plastics businesses deliver a broad range of differentiated technology-based products and solutions for customers in high-growth markets such as packaging, infrastructure, and consumer care. Dow is a subsidiary of DowDuPont (NYSE: DWDP), a holding company comprised of Dow and DuPont with the intent to form three strong, independent, publicly traded companies in agriculture, materials science and specialty sectors.<br><br>
   More information can be found at <a href="https://www.dow.com/">www.dow.com</a>.');
 $template['we_offer'] = array(
