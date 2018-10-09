@@ -26,7 +26,7 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
     "title"        => "Interview with Dr. Marc David Grynbaum from MSD - Chemtogether",
     "desc"         => "Dr. Marc David Grynbaum works as Principal Scientist Regional SAS Hub at MSD. Learn more about his career and work in his interview, and meet MSD at this year's Chemtogether!",
     "url"          => "",
-    "image_url"    => $awss3."/opengraph/msd_0_20181008.jpg",
+    "image_url"    => $awss3."/opengraph/msd_20181008.jpg",
     "image_width"  => "800",
     "image_height" => "420"
   );
