@@ -173,7 +173,7 @@ $active_nav = 'fair';
         </tr>
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
-          <td>09:00</td>
+          <td>09:30</td>
           <td><?php echo($lang['content']['schedule_tuesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
@@ -201,7 +201,7 @@ $active_nav = 'fair';
         </tr>
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
-          <td>09:00</td>
+          <td>09:30</td>
           <td><?php echo($lang['content']['schedule_wednesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
