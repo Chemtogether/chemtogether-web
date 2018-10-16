@@ -86,7 +86,7 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2003-2008',
-      'desc' => array('Chemiestudium an der Phillips-Universität Magdeburg', 'Studies in Chemistry at Phillips-Universität Magdeburg')
+      'desc' => array('Chemiestudium an der Phillips-Universität Marburg', 'Studies in Chemistry at Phillips-Universität Marburg')
     ),
   ),
 
