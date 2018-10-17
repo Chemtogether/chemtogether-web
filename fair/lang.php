@@ -81,8 +81,8 @@ $lang['content']['programme_1'] = array(
 $lang['content']['programme_2'] = array(
   'title' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
   'description' => array(
-    'In diesem Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische und pharmazeutische Industrie in der Schweiz, sowie Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
-    'In this talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical and pharmaceutical industry in Switzerland today will be presented. In addition, insights into McKinsey&Company and their consulting business will be shared.<br>An apéro hosted by VECS is provided afterwards.'),
+    'In diesem interaktiven Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische und pharmazeutische Industrie in der Schweiz, sowie Antworten auf alle Fragen zu den jeweiligen Industriebereichen. Zusätzlich werden Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company und ein Ausblick auf die mögliche chemische Industrie von Morgen präsentiert.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
+    'In this interactive talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical and pharmaceutical industry in Switzerland of today will be presented and your questions regarding the respective industries will be answered. In addition, you will receive insights into McKinsey&Company, their consulting business and their expectations with regard to the potential chemical industry of tomorrow.<br>An apéro hosted by VECS is provided afterwards.'),
   'time' => array('Montag, 5. November 2018, 17:15 Uhr','Monday, 5th November 2018, 5.15pm'),
   'place' => array('HCI G3','HCI G3')
 );
@@ -92,7 +92,7 @@ $lang['content']['programme_3'] = array(
   'description' => array(
     'Im Anschluss an die Vorträge gibt es bei diesem von der Vereinigung ehemaliger Chemiestudierender an der ETH Zürich (VECS) gesponserten Apero die Möglichkeit zum Netzwerken mit Alumni und ehemaligen Studenten.',
     'After the talks, there will be an opportunity to network with alumni and former students at this apéro hosted by VECS, the Alumni Association of former Chemistry Students.'),
-  'time' => array('Montag, 5. November 2018, etwa 18.15 Uhr','Monday, 5th November 2018, around 6.15pm'),
+  'time' => array('Montag, 5. November 2018, 19.00 Uhr','Monday, 5th November 2018, 7pm'),
   'place' => array('HCI G0','HCI G0')
 );
 
