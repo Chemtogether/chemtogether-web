@@ -142,7 +142,7 @@ $active_nav = 'fair';
       <table class="schedule">
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
-          <td>17:00</td>
+          <td>17:15</td>
           <td><?php echo($lang['content']['schedule_talk1']['event1'][$eng]); ?></td>
         </tr>
       </table>
@@ -155,8 +155,13 @@ $active_nav = 'fair';
       <table class="schedule">
         <tr>
           <td><i class="far fa-fw fa-comment"></i></td>
-          <td>17:00</td>
+          <td>17:15</td>
           <td><?php echo($lang['content']['schedule_talk2']['event1'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-fw fa-utensils"></i></td>
+          <td>19:00</td>
+          <td><?php echo($lang['content']['schedule_talk2']['event2'][$eng]); ?></td>
         </tr>
       </table>
     </div>
@@ -321,16 +326,39 @@ $active_nav = 'fair';
       <br><br>
       <table class="fa-table">
         <tr>
-          <td><i class="fas fa-fw fa-exclamation"></i></td>
-          <td><?php echo($lang['content']['programme_4']['other'][$eng]); ?></td>
-        </tr>
-        <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td><?php echo($lang['content']['programme_4']['time'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-map"></i></td>
           <td><?php echo($lang['content']['programme_4']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="spacer">
+  </div>
+
+  <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_5']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_5']['description'][$eng]); ?>
+      <br><br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="fas fa-fw fa-exclamation"></i></td>
+          <td><?php echo($lang['content']['programme_5']['other'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_5']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_5']['place'][$eng]); ?></td>
         </tr>
       </table>
     </div>

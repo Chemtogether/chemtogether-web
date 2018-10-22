@@ -79,7 +79,7 @@ $template['we_look'] = array(
 
 
 
-$template['interview_print_until'] = 0;
+$template['interview_print_until'] = 1;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i = 0;
@@ -97,7 +97,7 @@ $template['interview'][$i++] = array(
       'desc' => array('M.Sc. Management and Engineering in Computer Aided Mechanical Engineering an der RWTH Aachen und Maastricht School of Managment', 'M.Sc. Management and Engineering in Computer Aided Mechanical Engineering at RWTH Aachen and Maastricht School of Managment')
     ),
     1 => array(
-      'date' => '2019-2013',
+      'date' => '2009-2013',
       'desc' => array('B.Tech. Mechanical Engineering an der Punjab Technical University', 'B.Tech. Mechanical Engineering at Punjab Technical University')
     ),
   ),

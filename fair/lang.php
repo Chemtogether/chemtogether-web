@@ -30,7 +30,7 @@ $lang['content']['schedule_text'] = array(
 
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 1. November','Thursday, 1st November'),
-  'event1' => array('ETH Career Center Talk: CV-Training','ETH Career Center Talk: CV-Training'),
+  'event1' => array('ETH Career Center CV-Training','ETH Career Center CV-Training'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
@@ -39,8 +39,8 @@ $lang['content']['schedule_talk1'] = array(
 
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Montag, 5. November','Monday, 5th November'),
-  'event1' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
-  'event2' => array('',''),
+  'event1' => array('Vortrag McKinsey&Company','Talk McKinsey&Company'),
+  'event2' => array('Apéro mit VECS','Apéro hosted by VECS'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
@@ -72,22 +72,31 @@ $lang['content']['programme_text'] = array(
 $lang['content']['programme_1'] = array(
   'title' => array('ETH Career Center Talk: CV-Training','ETH Career Center Talk: CV-Training'),
   'description' => array(
-    'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.<br>Raum wird noch veröffentlicht.',
-    'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.<br>Room will be published.'),
-  'time' => array('Donnerstag, 1. November 2018, 17:00 Uhr','Thursday, 1st November 2018, 5pm'),
-  'place' => array('HCI TBA','HCI TBA')
+    'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.',
+    'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.'),
+  'time' => array('Donnerstag, 1. November 2018, 17:15 Uhr','Thursday, 1st November 2018, 5.15pm'),
+  'place' => array('HCI G3','HCI G3')
 );
 
 $lang['content']['programme_2'] = array(
   'title' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
   'description' => array(
-    'Nähere Informationen folgen.',
-    'More information will follow.'),
-  'time' => array('Montag, 5. November 2018, 17:00 Uhr','Monday, 5th November 2018, 5pm'),
-  'place' => array('HCI TBA','HCI TBA')
+    'In diesem interaktiven Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische und pharmazeutische Industrie in der Schweiz, sowie Antworten auf alle Fragen zu den jeweiligen Industriebereichen. Zusätzlich werden Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company und ein Ausblick auf die mögliche chemische Industrie von Morgen präsentiert.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
+    'In this interactive talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical and pharmaceutical industry in Switzerland of today will be presented and your questions regarding the respective industries will be answered. In addition, you will receive insights into McKinsey&Company, their consulting business and their expectations with regard to the potential chemical industry of tomorrow.<br>An apéro hosted by VECS is provided afterwards.'),
+  'time' => array('Montag, 5. November 2018, 17:15 Uhr','Monday, 5th November 2018, 5.15pm'),
+  'place' => array('HCI G3','HCI G3')
 );
 
 $lang['content']['programme_3'] = array(
+  'title' => array('Apéro: Vorstellung der Vereinigung ehemaliger Chemiestudierender an der ETH Zürich (VECS)','Apéro: Short introduction of the Alumni Association (Vereinigung ehemaliger Chemiestudierender an der ETH Zürich)'),
+  'description' => array(
+    'Im Anschluss an die Vorträge gibt es bei diesem von der Vereinigung ehemaliger Chemiestudierender an der ETH Zürich (VECS) gesponserten Apero die Möglichkeit zum Netzwerken mit Alumni und ehemaligen Studenten.',
+    'After the talks, there will be an opportunity to network with alumni and former students at this apéro hosted by VECS, the Alumni Association of former Chemistry Students.'),
+  'time' => array('Montag, 5. November 2018, 19.00 Uhr','Monday, 5th November 2018, 7pm'),
+  'place' => array('HCI G0','HCI G0')
+);
+
+$lang['content']['programme_4'] = array(
   'title' => array('Firmenpräsentationen','Company Presentations'),
   'description' => array(
     'Du möchtest ein Unternehmen so schnell wie möglich kennenlernen? Mehrere Firmen werden an beiden Tagen der Chemtogether je eine kurze Präsentation von nur zehn Minuten Länge halten. In diesen zehn Minuten berichten die Aussteller von ihrem Arbeitgeber und teilen ihre persönlichen Erfahrungen mit den Zuhörern.<br>Das ist die einmalige Möglichkeit, in kürzester Zeit etwas über verschiedene Firmen zu erfahren und ein idealer Gesprächsaufhänger für ein Gespräch am Stand der Firma. Es ist keine Anmeldung notwendig, also schau einfach vorbei!
@@ -97,14 +106,14 @@ $lang['content']['programme_3'] = array(
   'place' => array('HCI G2','HCI G2')
 );
 
-$lang['content']['programme_4'] = array(
+$lang['content']['programme_5'] = array(
   'title' => array('CV-Pics: Bewerbungsfotos','CV-Pics: Photo shoot'),
   'description' => array(
-    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von angemeldeten Besuchern aufgenommen.<br>Weitere Informationen und die Anmeldung folgen.',
-    'Throughout both days of Chemtogeter, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>More information and the application form will be published.'),
+    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von Besuchern aufgenommen.<br>Bitte beachte, dass eine verbindliche Anmeldung für die Bewerbungsfotos unbedingt notwendig ist. Die Registrierung ist ab dem 23. Oktober hier möglich.',
+    'Throughout both days of Chemtogether, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>Registration for the photo shoot is mandatory. The registration will be available here beginning October 23rd.'),
   'other' => array('Anmeldung erforderlich','Registration necessary'),
   'time' => array('gemäss Termin','according to appointment'),
-  'place' => array('HCI TBA','HCI TBA')
+  'place' => array('HCI J341','HCI J341')
 );
 
 ?>
