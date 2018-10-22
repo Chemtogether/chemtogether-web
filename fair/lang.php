@@ -109,8 +109,9 @@ $lang['content']['programme_4'] = array(
 $lang['content']['programme_5'] = array(
   'title' => array('CV-Pics: Bewerbungsfotos','CV-Pics: Photo shoot'),
   'description' => array(
-    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von Besuchern aufgenommen.<br>Bitte beachte, dass eine verbindliche Anmeldung für die Bewerbungsfotos unbedingt notwendig ist. Die Registrierung ist ab dem 23. Oktober hier möglich.',
-    'Throughout both days of Chemtogether, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>Registration for the photo shoot is mandatory. The registration will be available here beginning October 23rd.'),
+    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von Besuchern aufgenommen.<br>Bitte beachte, dass eine verbindliche Anmeldung für die Bewerbungsfotos unbedingt notwendig ist.',
+    'Throughout both days of Chemtogether, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>Registration for the photo shoot is mandatory.'),
+  'button' => array("zur Anmeldung", "Register here"),
   'other' => array('Anmeldung erforderlich','Registration necessary'),
   'time' => array('gemäss Termin','according to appointment'),
   'place' => array('HCI J341','HCI J341')

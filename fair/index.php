@@ -346,7 +346,14 @@ $active_nav = 'fair';
         <?php echo($lang['content']['programme_5']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_5']['description'][$eng]); ?>
-      <br><br>
+      <br>
+      <br>
+      <div class="programme_button_div">
+        <a href="https://ethz.doodle.com/poll/tf8hfqcdppt76pti">
+          <span><?php echo($lang['content']['programme_5']['button'][$eng]); ?></span>
+        </a>
+      </div>
+      <br>
       <table class="fa-table">
         <tr>
           <td><i class="fas fa-fw fa-exclamation"></i></td>
