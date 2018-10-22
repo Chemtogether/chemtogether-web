@@ -156,36 +156,32 @@ $template['interview'][$i++] = array(
   ),
 
   'career' => array(
-    9 => array(
+    8 => array(
       'date' => '2003-2004',
       'desc' => array('Wissenschaftliche Mitarbeiterin bei EMPA', 'Research Scientist at EMPA')
     ),
-    8 => array(
+    7 => array(
       'date' => '2004-2006',
       'desc' => array('Head of Advanced Materials Laboratory bei Ciba', 'Head of Advanced Materials Laboratory at Ciba')
     ),
-    7 => array(
+    6 => array(
       'date' => '2006-2008',
       'desc' => array('Projektmanagerin bei Ciba', 'Project Manager at Ciba')
     ),
-    6 => array(
+    5 => array(
       'date' => '2008-2010',
       'desc' => array('Group Manager-New Business Development & Innovation Management bei BASF', 'Group Manager-New Business Development & Innovation Management at BASF')
     ),
-    5 => array(
+    4 => array(
       'date' => '2010-2011',
       'desc' => array('Independent Consultant bei GLG - Gerson Lehrman Group', 'Independent Consultant at GLG - Gerson Lehrman Group')
     ),
-    4 => array(
+    3 => array(
       'date' => '2011-2014',
       'desc' => array('Senior Marketing Manager Food & Specialty Packaging, EMEA, bei DOW', 'Senior Marketing Manager Food & Specialty Packaging, EMEA, at DOW')
     ),
-    3 => array(
-      'date' => '2014',
-      'desc' => array('Global Strategic Marketing Director Dow Construction Chemicals bei DOW', 'Global Strategic Marketing Director Dow Construction Chemicals at DOW')
-    ),
     2 => array(
-      'date' => '2015',
+      'date' => '2014-2017',
       'desc' => array('Global Marketing Director Dow Construction Chemicals bei DOW', 'Global Marketing Director Dow Construction Chemicals at DOW')
     ),
     1 => array(
