@@ -131,9 +131,9 @@ $next_company = $company_list[$key_next];
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <div class="subsection">
-          <?php echo($template['we_are']['title']); ?>
+          <?php echo(bilingual($template['we_are']['title'])); ?>
         </div>
-        <?php echo($template['we_are']['text']); ?>
+        <?php echo(bilingual($template['we_are']['text'])); ?>
       </div>
     </div>
 
@@ -143,9 +143,9 @@ $next_company = $company_list[$key_next];
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <div class="subsection">
-          <?php echo($template['we_offer']['title']); ?>
+          <?php echo(bilingual($template['we_offer']['title'])); ?>
         </div>
-        <?php echo($template['we_offer']['text']); ?>
+        <?php echo(bilingual($template['we_offer']['text'])); ?>
       </div>
     </div>
 
@@ -155,9 +155,9 @@ $next_company = $company_list[$key_next];
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <div class="subsection">
-          <?php echo($template['we_look']['title']); ?>
+          <?php echo(bilingual($template['we_look']['title'])); ?>
         </div>
-        <?php echo($template['we_look']['text']); ?>
+        <?php echo(bilingual($template['we_look']['text'])); ?>
       </div>
     </div>
 

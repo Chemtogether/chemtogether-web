@@ -47,4 +47,13 @@ function obfuscate_mail($prefix, $classes, $content = '', $suffix = 'chemtogethe
 }
 
 
+function bilingual($data) {
+	global $eng;
+	if(is_array($data)) {
+		return $data[$eng];
+	} else {
+		return $data;
+	}
+}
+
 ?>
