@@ -74,7 +74,7 @@ $lang['content']['programme_1'] = array(
   'description' => array(
     'Das ETH Career Center stellt in diesem interaktiven Talk die wichtigesten Details für einen erfolgreichen CV vor. Die Do\'s and Dont\'s einer guten Bewerbung sowie die Informationen, die unbedingt in einen CV gehören werden dabei besprochen.',
     'The ETH Career Center will hold an interactive talk to inform about the best practices for your CV. Get to know the Do\'s and Dont\'s of a successfull application and learn which details are expected or will make your CV stand out. This talk is open to all.'),
-  'time' => array('Donnerstag, 1. November 2018, 17:15 Uhr','Thursday, 1st November 2018, 5.15pm'),
+  'time' => array('Donnerstag, 1. November 2018, 17:15 Uhr','Thursday, 1st November 2018, 5:15pm'),
   'place' => array('HCI G3','HCI G3')
 );
 
@@ -83,7 +83,7 @@ $lang['content']['programme_2'] = array(
   'description' => array(
     'In diesem interaktiven Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische Industrie in der Schweiz, sowie Antworten auf alle Fragen zu den jeweiligen Industriebereichen. Zusätzlich werden Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company und ein Ausblick auf die mögliche chemische Industrie von Morgen präsentiert.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
     'In this interactive talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical industry in Switzerland of today will be presented and your questions regarding the respective industries will be answered. In addition, you will receive insights into McKinsey&Company, their consulting business and their expectations with regard to the potential chemical industry of tomorrow.<br>An apéro hosted by VECS is provided afterwards.'),
-  'time' => array('Montag, 5. November 2018, 17:15 Uhr','Monday, 5th November 2018, 5.15pm'),
+  'time' => array('Montag, 5. November 2018, 17:15 Uhr','Monday, 5th November 2018, 5:15pm'),
   'place' => array('HCI G3','HCI G3')
 );
 
@@ -92,8 +92,8 @@ $lang['content']['programme_3'] = array(
   'description' => array(
     'Im Anschluss an die Vorträge gibt es bei diesem von der Vereinigung ehemaliger Chemiestudierender an der ETH Zürich (VECS) gesponserten Apero die Möglichkeit zum Netzwerken mit Alumni und ehemaligen Studenten.',
     'After the talks, there will be an opportunity to network with alumni and former students at this apéro hosted by VECS, the Alumni Association of former Chemistry Students.'),
-  'time' => array('Montag, 5. November 2018, 19.00 Uhr','Monday, 5th November 2018, 7pm'),
-  'place' => array('HCI G0','HCI G0')
+  'time' => array('Montag, 5. November 2018, 18:30 Uhr','Monday, 5th November 2018, 6:30pm'),
+  'place' => array('HCI G-Stock','HCI G floor')
 );
 
 $lang['content']['programme_4'] = array(

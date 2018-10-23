@@ -160,7 +160,7 @@ $active_nav = 'fair';
         </tr>
         <tr>
           <td><i class="fas fa-fw fa-utensils"></i></td>
-          <td>19:00</td>
+          <td>18:30</td>
           <td><?php echo($lang['content']['schedule_talk2']['event2'][$eng]); ?></td>
         </tr>
       </table>
