@@ -27,6 +27,16 @@ a {
   }
 }
 
+.link-underlined {
+    text-decoration: underline;
+    color: inherit;
+
+    &:hover {
+      color: $ct-blue;
+      text-decoration-color: $ct-blue;
+    }
+}
+
 
 .s-d0 {display: none;}
 .s-d1 {display: block;}
