@@ -79,10 +79,10 @@ $lang['content']['programme_1'] = array(
 );
 
 $lang['content']['programme_2'] = array(
-  'title' => array('Vortrag McKinsey&Company: Überblick über die chemische und pharmazeutische Industrie','Talk McKinsey&Company: Overview of the chemical and pharmaceutical industry'),
+  'title' => array('Vortrag McKinsey&Company: Überblick über die chemische Industrie','Talk McKinsey&Company: Overview of the chemical industry'),
   'description' => array(
-    'In diesem interaktiven Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische und pharmazeutische Industrie in der Schweiz, sowie Antworten auf alle Fragen zu den jeweiligen Industriebereichen. Zusätzlich werden Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company und ein Ausblick auf die mögliche chemische Industrie von Morgen präsentiert.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
-    'In this interactive talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical and pharmaceutical industry in Switzerland of today will be presented and your questions regarding the respective industries will be answered. In addition, you will receive insights into McKinsey&Company, their consulting business and their expectations with regard to the potential chemical industry of tomorrow.<br>An apéro hosted by VECS is provided afterwards.'),
+    'In diesem interaktiven Vortrag eines erfahrenen Senior Consultants von McKinsey&Company gibt es einen Überblick über die heutige chemische Industrie in der Schweiz, sowie Antworten auf alle Fragen zu den jeweiligen Industriebereichen. Zusätzlich werden Einblicke in die Tätigkeiten des Consultings bei McKinsey&Company und ein Ausblick auf die mögliche chemische Industrie von Morgen präsentiert.<br>Im Anschluss findet ein Apéro organisiert mit der VECS statt.',
+    'In this interactive talk given by an experienced Senior Consultant of McKinsey&Company, an overview of the chemical industry in Switzerland of today will be presented and your questions regarding the respective industries will be answered. In addition, you will receive insights into McKinsey&Company, their consulting business and their expectations with regard to the potential chemical industry of tomorrow.<br>An apéro hosted by VECS is provided afterwards.'),
   'time' => array('Montag, 5. November 2018, 17:15 Uhr','Monday, 5th November 2018, 5.15pm'),
   'place' => array('HCI G3','HCI G3')
 );
