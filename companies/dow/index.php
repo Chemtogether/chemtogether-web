@@ -126,12 +126,12 @@ $template['we_look'] = array(
 
 
 
-$template['interview_print_until'] = 0;
+$template['interview_print_until'] = 1;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 
-$i = 0;
-$template['interview'][$i++] = array(
+// $i = 0;
+$template['interview'][1] = array(
   'name' => 'Dr. Margherita Fontana',
   'img_url' => $awss3.'/companies/dow/interviewee_1',
   'position' => array('Global Strategic Marketing Director', 'Global Strategic Marketing Director'),
@@ -260,7 +260,7 @@ $template['interview'][$i++] = array(
 
 
 
-$template['interview'][$i++] = array(
+$template['interview'][0] = array(
   'name' => 'Dr. Peter Sandkuehler',
   'img_url' => $awss3.'/companies/dow/interviewee_2',
   'position' => array('Application Technology Leader Packaging', 'Application Technology Leader Packaging'),
