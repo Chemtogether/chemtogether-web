@@ -182,14 +182,32 @@ $active_nav = 'fair';
           <td><?php echo($lang['content']['schedule_tuesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
+        <tr>
+          <td><i class="fas fa-fw fa-info"></i></td>
+          <td>10:30</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event3'][$eng]); ?></td>
+        </tr>
+        <tr>
+        <tr>
+          <td><i class="fas fa-fw fa-info"></i></td>
+          <td>11:30</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event4'][$eng]); ?></td>
+        </tr>
+        <tr>
+        <tr>
+          <td><i class="fas fa-fw fa-info"></i></td>
+          <td>13:30</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event5'][$eng]); ?></td>
+        </tr>
+        <tr>
           <td><i class="fas fa-fw fa-utensils"></i></td>
           <td>16:30</td>
-          <td><?php echo($lang['content']['schedule_tuesday']['event3'][$eng]); ?></td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event6'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>17:00</td>
-          <td><?php echo($lang['content']['schedule_tuesday']['event4'][$eng]); ?></td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event7'][$eng]); ?></td>
         </tr>
       </table>
     </div>
@@ -210,14 +228,20 @@ $active_nav = 'fair';
           <td><?php echo($lang['content']['schedule_wednesday']['event2'][$eng]); ?></td>
         </tr>
         <tr>
+          <td><i class="fas fa-fw fa-info"></i></td>
+          <td>13:30</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event3'][$eng]); ?></td>
+        </tr>
+        <tr>
+        <tr>
           <td><i class="fas fa-fw fa-utensils"></i></td>
           <td>16:30</td>
-          <td><?php echo($lang['content']['schedule_wednesday']['event3'][$eng]); ?></td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event4'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
           <td>17:00</td>
-          <td><?php echo($lang['content']['schedule_wednesday']['event4'][$eng]); ?></td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event5'][$eng]); ?></td>
         </tr>
       </table>
     </div>
