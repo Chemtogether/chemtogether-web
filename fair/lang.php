@@ -63,9 +63,10 @@ $lang['content']['schedule_wednesday'] = array(
   'event1' => array('Eröffnung der Messe','Start of the fair'),
   'event2' => array('Eröffnungsrede von Prof. Dr. G. Jeschke','Opening Talk by Prof. Dr. G. Jeschke'),
   'event3' => array('Kurzpräsentation Ivoclar Vivadent','Short presentation by Ivoclar Vivadent'),
-  'event4' => array('Apéro','Apéro'),
-  'event5' => array('Ende der Messe','End of the fair'),
-  'event6' => array('','')
+  'event4' => array('Kurzpräsentation MSD','Short presentation by MSD'),
+  'event5' => array('Apéro','Apéro'),
+  'event6' => array('Ende der Messe','End of the fair'),
+  'event7' => array('','')
 );
 
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
