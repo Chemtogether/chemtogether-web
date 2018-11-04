@@ -126,7 +126,7 @@ $template['we_look'] = array(
 
 
 
-$template['interview_print_until'] = 1;
+$template['interview_print_until'] = 2;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 
