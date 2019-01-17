@@ -55,13 +55,13 @@ $fb = array(
       </ul>
       <div id="home-top">
         <div class="date-container">
-          <span id="date-day1">6</span>
+          <span id="date-day1">5</span>
           <span class="date-bar"></span>
-          <span id="date-day2">7</span>
+          <span id="date-day2">6</span>
         </div>
         <div class="date-container">
           <span id="date-month">Nov.</span>
-          <span id="date-year">2018</span>
+          <span id="date-year">2019</span>
         </div>
         <div class="date-container">
           <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>
