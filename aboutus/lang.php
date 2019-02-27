@@ -84,7 +84,7 @@ $lang['team'][8] = array(
 $lang['team'][9] = array(
   'name' => 'Christian Schellhaas',
   'task' => array('Webmaster','Webmaster'),
-  'info' => array(''),
+  'info' => array('Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.','Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.'),
   'mail_prefix' => 'christian.schellhaas',
   'linkedin' => ''
 );
