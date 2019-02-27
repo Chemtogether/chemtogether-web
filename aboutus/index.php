@@ -84,7 +84,7 @@ $active_nav = 'aboutus';
       <div class="content flex-center">
         <div class="image-member l-4 m-6 s-12">
           <div>
-            <img <?php set_source($awss3.'/img/team/user_default','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2019/member_'.$member_id,'jpg'); ?>></img>
           </div>
         </div>
         <div class="text l-8 m-6 s-12">
