@@ -10,7 +10,7 @@ $lang['navigation']['topnav_title']= array('Das Archiv', 'The Archive');
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content'] = array(
   'intro_text' => array(
-    'Insgesamt '.sizeof($archive).' Unternehmen der chemischen und pharmazeutischen Industrie haben an der Chemtogether teilgenommen. Hier sind alle Informationen zu den Firmen der vergangenen Jahre in alphabetischer Reihenfolge und nach Jahr geordnet archiviert. Die Materialien zur Chemtogether 2018 werden hier schon bald veröffenlticht.',
+    'Insgesamt '.sizeof($archive).' Unternehmen der chemischen und pharmazeutischen Industrie haben an der Chemtogether teilgenommen. Hier sind alle Informationen zu den Firmen der vergangenen Jahre in alphabetischer Reihenfolge und nach Jahr geordnet archiviert. Die Materialien zur Chemtogether 2018 werden hier schon bald veröffentlicht.',
     'A total of '.sizeof($archive).' companies from the chemical and pharmaceutical industry participated in Chemtogether. Here you will find all information regarding the companies of previous years, in alphabetic and chronologic order. Material regarding Chemtogether 2018 will be published soon.'),
 
   'alphanumeric' => array('Alphabetische Auflistung','Alphabetic Order'),
