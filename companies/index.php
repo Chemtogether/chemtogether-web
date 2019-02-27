@@ -21,8 +21,8 @@ include('./lang.php');
 $active_nav = 'companies';
 
 $fb = array(
-  "title"        => "Chemtogether 2018 - Companies",
-  "desc"         => "This year's Chemtogether will take place on the 6th and 7th November 2018! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "title"        => "Chemtogether 2019 - Companies",
+  "desc"         => "This year's Chemtogether will take place on the 5th and 6th November 2019! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
   "url"          => "https://www.chemtogether.ethz.ch/companies/",
   "image_url"    => $awss3."/opengraph/companies_20180615.jpg",
   "image_width"  => "1200",
