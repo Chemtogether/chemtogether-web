@@ -19,7 +19,7 @@ $lang['content']['team_subsection'] = array('Das Team 2019','The Team of 2019');
 
 $lang['team'][1] = array(
   'name' => 'Konstantin Zouboulis',
-  'task' => array('Präsidium','Co-Head'),
+  'task' => array('Co-Präsident','Co-Head'),
   'info' => array('Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. ','Konstantin from Berlin is studying chemistry. Besides of his studies he is part of the student magazine’s Editorial team. Since childhood he is an avid sailor and regularly goes on sailing trips. On the mainland he likes to play tennis, going to the gym or reading news magazines. '),
   'mail_prefix' => 'konstantin.zouboulis',
   'linkedin' => 'https://www.linkedin.com/in/konstantinzouboulis/'
@@ -27,7 +27,7 @@ $lang['team'][1] = array(
 
 $lang['team'][2] = array(
   'name' => 'Andreas Gimpel',
-  'task' => array('Präsidium','Co-Head'),
+  'task' => array('Co-Präsident','Co-Head'),
   'info' => array('Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.','Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.'),
   'mail_prefix' => 'andreas.gimpel',
   'linkedin' => 'https://www.linkedin.com/in/andreas-gimpel/'
@@ -35,7 +35,7 @@ $lang['team'][2] = array(
 
 $lang['team'][3] = array(
   'name' => 'Markus Böcker',
-  'task' => array('Quästur','Finances'),
+  'task' => array('Quästur','Treasurer'),
   'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
   'mail_prefix' => 'markus.boecker',
   'linkedin' => 'https://www.linkedin.com/in/markus-boecker/'
@@ -43,7 +43,7 @@ $lang['team'][3] = array(
 
 $lang['team'][4] = array(
   'name' => 'Gloria Clausen',
-  'task' => array('Social Media und PR','Social Media and PR'),
+  'task' => array('Social Media Koordinator','Social Media Coordinator'),
   'info' => array(''),
   'mail_prefix' => 'gloria.clausen',
   'linkedin' => ''
@@ -51,7 +51,7 @@ $lang['team'][4] = array(
 
 $lang['team'][5] = array(
   'name' => 'Romain Dubey',
-  'task' => array(''),
+  'task' => array('Catering','Catering'),
   'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
   'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
@@ -67,7 +67,7 @@ $lang['team'][6] = array(
 
 $lang['team'][7] = array(
   'name' => 'Jérôme Käslin',
-  'task' => array('Werbung und Design','Promotion and Design'),
+  'task' => array('Druck und Design','Print and Design'),
   'info' => array(''),
   'mail_prefix' => 'jerome.käslin',
   'linkedin' => ''
@@ -75,7 +75,7 @@ $lang['team'][7] = array(
 
 $lang['team'][8] = array(
   'name' => 'Jonathan Saring',
-  'task' => array(''),
+  'task' => array('Infrastruktur','Infrastructure'),
   'info' => array(''),
   'mail_prefix' => 'jonathan.saring',
   'linkedin' => ''
@@ -91,7 +91,7 @@ $lang['team'][9] = array(
 
 $lang['team'][10] = array(
   'name' => 'Paul Schnacke',
-  'task' => array('Werbung und Design','Promotion and Design'),
+  'task' => array('Druck und Design','Print and Design'),
   'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
   'mail_prefix' => 'paul.schnacke',
   'linkedin' => 'https://www.linkedin.com/in/paul-schnacke'
@@ -107,7 +107,7 @@ $lang['team'][11] = array(
 
 $lang['team'][12] = array(
   'name' => 'Alessandro Streuli',
-  'task' => array('Social Media und PR','Social Media and PR'),
+  'task' => array('Social Media Koordinator','Social Media Coordinator'),
   'info' => array(''),
   'mail_prefix' => 'fabio.simbürger',
   'linkedin' => ''
@@ -152,6 +152,7 @@ $lang['content']['organisation_text'] = array('Chemtogether ist ein gemeinsames 
 
 $lang['content']['organisation']['vcs'] = array('Vereinigung der Chemiestudierenden','Association of the Chemistry Students');
 $lang['content']['organisation']['vac'] = array('Vereinigung der Assistenten der Chemischen Labore der ETH Zürich','Union of the Assistants at the Chemical Labs of ETH Zurich');
+$lang['content']['organisation']['apv'] = array('Akademischer Pharmaziestudierenden Verein','Akademischer Pharmaziestudierenden Verein');
 $lang['content']['organisation']['vseth'] = array('Verband der Studierenden an der ETH Zürich','Association of Students at ETH Zurich');
 $lang['content']['organisation']['aveth'] = array('Akademische Vereinigung des Mittelbaus der ETH Zürich','Academic Association of Scientific Staff at ETH Zurich ');
 $lang['content']['organisation']['chab'] = array('Departement Chemie und Angewandte Biowissenschaften','Department of Chemistry and Applied Biosciences');

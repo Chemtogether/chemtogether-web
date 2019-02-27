@@ -244,6 +244,20 @@ $active_nav = 'aboutus';
     <div class="spacer">
     </div>
 
+    <div class="content flex-center">
+      <div class="image-organisation l-4 m-6 s-12">
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['organisation']['apv'][$eng]); ?>
+        </div>
+        <a href="https://www.apv.ethz.ch/">www.apv.ethz.ch</a>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="spacer">
     </div>
 

@@ -15,7 +15,7 @@
         <p class="footer-text-4">VCS, Postfach 84<br>Wolfgang-Pauli-Str. 9<br>8093 Zürich<br></p>
         <br><br>
         <span class="footer-text-3"><?php echo($lang['footer']['organisation'][$eng]); ?><br></span>
-        <p class="footer-text-4"><?php echo($lang['footer']['organisation1'][$eng]); ?> <a href="http://vcs.ethz.ch">VCS</a> &amp; <a href="https://www.apv.ethz.ch/">APV</a> &amp; <a href="http://vac.ethz.ch">VAC</a><br><?php echo($lang['footer']['organisation2'][$eng]); ?> <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a></p>
+        <p class="footer-text-4"><?php echo($lang['footer']['organisation1'][$eng]); ?> <a href="http://vcs.ethz.ch">VCS</a> &amp; <a href="http://vac.ethz.ch">VAC</a> &amp; <a href="https://www.apv.ethz.ch/">APV</a><br><?php echo($lang['footer']['organisation2'][$eng]); ?> <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a></p>
       </span>
     </div>
 
