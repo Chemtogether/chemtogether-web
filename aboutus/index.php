@@ -74,16 +74,6 @@ $active_nav = 'aboutus';
       </span>
     </div>
 
-    <div class="content flex">
-      <div class="image-big l-12 m-12 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/team_full','jpg'); ?>></img>
-        </div>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
 
     <div class="spacer">
     </div>
@@ -94,7 +84,7 @@ $active_nav = 'aboutus';
       <div class="content flex-center">
         <div class="image-member l-4 m-6 s-12">
           <div>
-            <img <?php set_source($awss3.'/img/team/member_'.$member_id,'jpg'); ?>></img>
+            <img <?php set_source($awss3.'/img/team/user_default','jpg'); ?>></img>
           </div>
         </div>
         <div class="text l-8 m-6 s-12">
@@ -141,6 +131,13 @@ $active_nav = 'aboutus';
     </div>
 
     <div class="content flex">
+     <div class="text l-6 m-12 s-12">
+        <div class="subsection">
+          Chemtogether 2018
+        </div>
+        <?php echo($lang['content']['alumni_member_2018']); ?>
+      </div>
+
       <div class="text l-6 m-12 s-12">
         <div class="subsection">
           Chemtogether 2017
