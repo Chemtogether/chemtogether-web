@@ -15,20 +15,20 @@
         <p class="footer-text-4">VCS, Postfach 84<br>Wolfgang-Pauli-Str. 9<br>8093 Zürich<br></p>
         <br><br>
         <span class="footer-text-3"><?php echo($lang['footer']['organisation'][$eng]); ?><br></span>
-        <p class="footer-text-4"><?php echo($lang['footer']['organisation1'][$eng]); ?> <a href="http://vcs.ethz.ch">VCS</a> &amp; <a href="http://vac.ethz.ch">VAC</a><br><?php echo($lang['footer']['organisation2'][$eng]); ?> <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a></p>
+        <p class="footer-text-4"><?php echo($lang['footer']['organisation1'][$eng]); ?> <a href="http://vcs.ethz.ch">VCS</a> &amp; <a href="https://www.apv.ethz.ch/">APV</a> &amp; <a href="http://vac.ethz.ch">VAC</a><br><?php echo($lang['footer']['organisation2'][$eng]); ?> <a href="http://vseth.ethz.ch">VSETH</a> &amp; <a href="http://aveth.ethz.ch">AVETH</a></p>
       </span>
     </div>
 
 
     <div class="footer-right l-7 m-12 s-12">
       <div class="date-container">
-        <span id="date-day1">6</span>
+        <span id="date-day1">5</span>
         <span class="date-bar"></span>
-        <span id="date-day2">7</span>
+        <span id="date-day2">6</span>
       </div>
       <div class="date-container">
         <span id="date-month">Nov.</span>
-        <span id="date-year">2018</span>
+        <span id="date-year">2019</span>
       </div>
       <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
