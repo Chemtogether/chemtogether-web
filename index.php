@@ -6,8 +6,6 @@ include('php/general.php');
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
 include('php/language_cookie.php');
 
-
-
 // creates $lang array and provides translation text for common elements (navigation and footer)
 include('includes/language.php');
 
@@ -20,8 +18,8 @@ include('./lang.php');
 $active_nav = 'home';
 
 $fb = array(
-  "title"        => "Chemtogether 2018",
-  "desc"         => "This year's Chemtogether will take place on the 6th and 7th November 2018! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "title"        => "Chemtogether 2019",
+  "desc"         => "This year's Chemtogether will take place on the 5th and 6th November 2019! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
   "url"          => "https://www.chemtogether.ethz.ch/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
