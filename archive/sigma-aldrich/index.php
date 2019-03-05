@@ -30,8 +30,8 @@ $active_nav = 'archive';
 // );
 
 
-$template['company_name'] = 'Merck';
-$template['company_name_short'] = 'merck';
+$template['company_name'] = 'Sigma-Aldrich';
+$template['company_name_short'] = 'sigma-aldrich';
 $template['logo_url'] = $awss3_archive.'/merck/logo';
 $template['package'] = 'base';
 

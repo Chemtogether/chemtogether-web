@@ -10,7 +10,7 @@ $archive[$i++] = array(
   "name_short" => "avantama",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -20,7 +20,7 @@ $archive[$i++] = array(
   "name_short" => "bachem",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -30,7 +30,7 @@ $archive[$i++] = array(
   "name_short" => "basf",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'gold', 2014 => 'base'),
+  "attendences" => array(2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -40,7 +40,7 @@ $archive[$i++] = array(
   "name_short" => "carbogenamcis",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -50,7 +50,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -60,7 +60,7 @@ $archive[$i++] = array(
   "name_short" => "dow",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'gold', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2018 => 'gold', 2017 => 'gold', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -70,7 +70,7 @@ $archive[$i++] = array(
   "name_short" => "ems",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -84,13 +84,33 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
+  "link_url" => '/archive/gurit/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/gurit/logo_svg','svg',FALSE),
+  "name" => "Gurit",
+  "name_short" => "gurit",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2018 => 'silver'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/helveting/index.php#info',
+  "logo_url" => set_source($awss3.'/companies/helveting/logo_svg','svg', FALSE),
+  "name" => "HELVETING",
+  "name_short" => "helveting",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2018 => 'base'),
+);
+
+$archive[$i++] = array(
   "link_url" => '/archive/hoffmanneitle/index.php#info',
   "logo_url" => set_source($awss3_archive.'/hoffmanneitle/logo_svg','svg',FALSE),
   "name" => "HOFFMANN EITLE",
   "name_short" => "hoffmanneitle",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base', 2016 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -100,7 +120,7 @@ $archive[$i++] = array(
   "name_short" => "idorsia",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -110,7 +130,7 @@ $archive[$i++] = array(
   "name_short" => "ivoclarvivadent",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'silver'),
+  "attendences" => array(2018 => 'silver', 2017 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -130,7 +150,7 @@ $archive[$i++] = array(
   "name_short" => "lonza",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -140,7 +160,7 @@ $archive[$i++] = array(
   "name_short" => "metrohm",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -150,7 +170,7 @@ $archive[$i++] = array(
   "name_short" => "msd",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2018 => 'silver', 2017 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -160,7 +180,7 @@ $archive[$i++] = array(
   "name_short" => "sika",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2017 => 'base'),
+  "attendences" => array(2018 => 'base', 2017 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -220,7 +240,7 @@ $archive[$i++] = array(
   "name_short" => "kolb",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2015 => 'base', 2016 => 'base'),
+  "attendences" => array(2018 => 'base', 2015 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -250,14 +270,14 @@ $archive[$i++] = array(
   "name_short" => "siegfried",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2013 => 'gold', 2014 => 'base', 2015 => 'base'),
+  "attendences" => array(2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
-  "link_url" => '/archive/merck/index.php#info',
+  "link_url" => '/archive/sigma-aldrich/index.php#info',
   "logo_url" => set_source($awss3_archive.'/merck/logo_svg','svg',FALSE),
-  "name" => "Merck",
-  "name_short" => "merck",
+  "name" => "Sigma-Aldrich",
+  "name_short" => "sigma-aldrich",
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2013 => 'base'),

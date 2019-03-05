@@ -153,7 +153,7 @@ $active_nav = 'archive';
       <?php
       // FILL OUT ONLY HERE
       // EVERYTHING ELSE IS DONE AUTOMATICALLY
-      $years = array(2017, 2016, 2015, 2014, 2013);
+      $years = array(2018, 2017, 2016, 2015, 2014, 2013);
 
       foreach ($years as $year) { ?>
         <div class="spacer">
