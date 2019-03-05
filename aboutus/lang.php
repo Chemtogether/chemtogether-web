@@ -28,7 +28,7 @@ $lang['team'][1] = array(
 $lang['team'][2] = array(
   'name' => 'Andreas Gimpel',
   'task' => array('Co-Präsident','Co-Head'),
-  'info' => array('Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.','Apart from his studies in chemical engineering, Andreas is interested in applied computer science and enjoys working on programming-related projects at home or for the student organisation. Despite being from Germany, he is an avid skier since childhood and likes to mountaineer in the Alps as well.'),
+  'info' => array('Neben seinem Masterstudium als Chemieingenieur ist Andreas an angewandten IT-Projekten interessiert und arbeitet gerne an Programmierideen, sowohl zuhause als auch im Rahmen seiner Forschungsprojekte. Er ist erfahrener Skifahrer, geniesst Bergsteigen in den Alpen und begeistert sich für Landschafts- und Stadtfotographie.','Apart from his master studies in Chemical Engineering, Andreas is interested in applied computer science and is always working on programming-related projects both at home and in his research projects. He is an avid skier, likes to mountaineer in the Alps and pursues landscape and urban photography.'),
   'mail_prefix' => 'andreas.gimpel',
   'linkedin' => 'https://www.linkedin.com/in/andreas-gimpel/'
 );
@@ -44,7 +44,7 @@ $lang['team'][3] = array(
 $lang['team'][4] = array(
   'name' => 'Gloria Clausen',
   'task' => array('Social Media Koordinator','Social Media Coordinator'),
-  'info' => array(''),
+  'info' => array('Gloria studiert Interdisziplinäre Naturwissenschaften im Master mit einer Spezialisierung in Molekül Spektroskopie und Quanten Optik. Ihr hanseatischer Hintergrund zeichnet sich durch die Begeisterung für Wassersportarten wie Segeln und Rudern ab. Außerdem wandert sie gerne durch die schweizer Alpen.','Gloria pursues her master’s degree in Interdisciplinary Sciences with a particular focus on molecular spectroscopy and quantum optics. Her background from hanseatic Hamburg is also represented in the love for water sports such as sailing and rowing. Exploring the Swiss Alps with long hikes is another passion of hers.'),
   'mail_prefix' => 'gloria.clausen',
   'linkedin' => ''
 );
@@ -60,7 +60,7 @@ $lang['team'][5] = array(
 $lang['team'][6] = array(
   'name' => 'Ann-Christin Kerl',
   'task' => array('Begleitprogramm','Supporting Programme'),
-  'info' => array('Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.','Ann-Christin grew up near Göttingen and decided to pursue her long existing dream of becoming a Chemist in Zurich. She enjoys being active in several sports such as Swimming or Tennis. Traveling and experiencing different cultures also shape her interests strongly.'),
+  'info' => array('Ann-Christin ist der Nähe von Göttingen in Deutschland aufgewachsen, aber entschied sich dazu ihr Chemiestudium in Zürich zu absolvieren. Sie schwimmt und spielt gerne Tennis. Das Reisen und Entdecken anderer Kulturen begeistert sie sehr.','Ann-Christin grew up near Göttingen in Germany, but came to Zurich to start her University level education in Chemistry. She enjoys being active in several sports such as Swimming or Tennis. Travelling and experiencing different cultures also shape her interests strongly.'),
   'mail_prefix' => 'ann-christin.kerl',
   'linkedin' => 'https://www.linkedin.com/in/ann-christin-kerl-b7683815b'
 );
@@ -76,15 +76,15 @@ $lang['team'][7] = array(
 $lang['team'][8] = array(
   'name' => 'Jonathan Saring',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array(''),
+  'info' => array('Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
   'mail_prefix' => 'jonathan.saring',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/jonathan-saring-09a080181'
 );
 
 $lang['team'][9] = array(
   'name' => 'Christian Schellhaas',
   'task' => array('Webmaster','Webmaster'),
-  'info' => array('Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.','Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.'),
+  'info' => array('Christian studiert Interdisziplinäre Naturwissenschaften mit besonderem Interesse für Medizinische Chemie und Bioinformatik. Zuvor hat er ein Duales Studium in Betriebswirtschaftslehre beim Wissenschafts- und Technologieunternehmen Merck abgeschlossen. Er schätzt den Austausch von neuen Ideen sowie Kulturen sehr und freut sich schon auf seinen nächste Backpacking-Reise. Er surft und fährt leidenschaftlich Ski.','Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.'),
   'mail_prefix' => 'christian.schellhaas',
   'linkedin' => ''
 );
