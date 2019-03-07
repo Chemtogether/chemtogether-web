@@ -72,7 +72,7 @@ $active_nav = 'exhibitors';
           <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
-          <span>4.5/5</span>
+          <span>5.4/6</span>
           <div class="bar"></div>
           <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
@@ -113,7 +113,7 @@ $active_nav = 'exhibitors';
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/2017expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/2018expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
         </table>
       </div>
@@ -214,7 +214,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 1500.- total</span>
+            <span class="packages-desc">CHF 1500.- excl. 7.7% VAT</span>
           </div>
         </div>
       </div>
@@ -234,7 +234,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 2500.- total</span>
+            <span class="packages-desc">CHF 2500.- excl. 7.7% VAT</span>
           </div>
         </div>
       </div>
@@ -254,7 +254,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 4000.- total</span>
+            <span class="packages-desc">CHF 4000.- excl. 7.7% VAT</span>
           </div>
         </div>
       </div>
@@ -274,7 +274,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 5000.- total</span>
+            <span class="packages-desc">CHF 5000.- excl. 7.7% VAT</span>
           </div>
         </div>
       </div>
@@ -307,13 +307,15 @@ $active_nav = 'exhibitors';
       </div>
     </div>
 
-    <div class="content flex">
+    <?php
+    /* <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
           <img <?php set_source($awss3.'/img/companies_2017','png'); ?>></img>
         </div>
       </div>
-    </div>
+    </div> */
+    ?>
 
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
@@ -321,52 +323,70 @@ $active_nav = 'exhibitors';
         <br><br>
         <table class="feedback">
           <tr>
-            <td>4.5</td>
+            <td>5.7</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['1'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.8</td>
+            <td>5.9</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['2'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.6</td>
+            <td>5.2</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['3'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.5</td>
+            <td>5.2</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['4'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.6</td>
+            <td>5.1</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['5'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.3</td>
+            <td>5.2</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['6'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.3</td>
+            <td>5.1</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.5</td>
+            <td>5.1</td>
             <td>/</td>
-            <td>5</td>
+            <td>6</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td>5.4</td>
+            <td>/</td>
+            <td>6</td>
+            <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td>5.8</td>
+            <td>/</td>
+            <td>6</td>
+            <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td>5.5</td>
+            <td>/</td>
+            <td>6</td>
+            <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
           </tr>
         </table>
       </div>
