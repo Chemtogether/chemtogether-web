@@ -182,7 +182,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Social-Media Interview','Social-Media Interview'),
+  'perk'     => array('Social-Media Interviews','Social-Media Interviews'),
   'base'     => array('',''),
   'silver'   => array('1','1'),
   'gold'     => array('2','2'),
