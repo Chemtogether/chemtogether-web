@@ -24,14 +24,19 @@
     <span><?php echo($lang['navigation']['sidenav_news'][$eng]); ?></span>
   </a>
 
-  <a class="sidenav-link" id="<?php if($active_nav == 'fair') echo('active'); ?>" href="/fair/">
+  <a class="sidenav-link" id="<?php if($active_nav == 'visitors') echo('active'); ?>" href="/visitors/">
     <i class="fas fa-fw fa-info"></i>
-    <span><?php echo($lang['navigation']['sidenav_fair'][$eng]); ?></span>
+    <span><?php echo($lang['navigation']['sidenav_visitors'][$eng]); ?></span>
   </a>
 
-  <a class="sidenav-link" id="<?php if($active_nav == 'companies') echo('active'); ?>" href="/companies/">
+  <a class="sidenav-link" id="<?php if($active_nav == 'exhibitors') echo('active'); ?>" href="/exhibitors/">
+    <i class="far fa-fw fa-address-card"></i>
+    <span><?php echo($lang['navigation']['sidenav_exhibitors'][$eng]); ?></span>
+  </a>
+
+  <a class="sidenav-link" id="<?php if($active_nav == 'impressions') echo('active'); ?>" href="/impressions/">
     <i class="far fa-fw fa-building"></i>
-    <span><?php echo($lang['navigation']['sidenav_companies'][$eng]); ?></span>
+    <span><?php echo($lang['navigation']['sidenav_impressions'][$eng]); ?></span>
   </a>
 
   <a class="sidenav-link" id="<?php if($active_nav == 'aboutus') echo('active'); ?>" href="/aboutus/">
@@ -42,11 +47,6 @@
   <a class="sidenav-link" id="<?php if($active_nav == 'archive') echo('active'); ?>" href="/archive/">
     <i class="fas fa-fw fa-archive"></i>
     <span><?php echo($lang['navigation']['sidenav_archive'][$eng]); ?></span>
-  </a>
-
-  <a class="sidenav-link" id="<?php if($active_nav == 'exhibitors') echo('active'); ?>" href="/exhibitors/">
-    <i class="far fa-fw fa-address-card"></i>
-    <span><?php echo($lang['navigation']['sidenav_exhibitors'][$eng]); ?></span>
   </a>
 
 

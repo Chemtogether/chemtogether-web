@@ -7,11 +7,11 @@ $lang['navigation'] = array(
   'topnav_menu' => array('Menü', 'Menu'),
   'sidenav_home' => array('Home','Home'),
   'sidenav_news' => array('News','News'),
-  'sidenav_fair' => array('Messe','Fair'),
-  'sidenav_companies' => array('Firmen','Companies'),
+  'sidenav_visitors' => array('Für Besucher','For visitors'),
+  'sidenav_exhibitors' => array('Für Firmen','For companies'),
+  'sidenav_impressions' => array('Impressionen','Impressions'),
   'sidenav_aboutus' => array('Über Uns','About Us'),
   'sidenav_archive' => array('Archiv','Archive'),
-  'sidenav_exhibitors' => array('Aussteller','Exhibitors'),
 );
 
 
