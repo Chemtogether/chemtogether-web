@@ -52,7 +52,7 @@ $lang['team'][4] = array(
 $lang['team'][5] = array(
   'name' => 'Romain Dubey',
   'task' => array('Catering','Catering'),
-  'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
+  'info' => array('Romain kommt aus Fribourg und schreibt seine Doktorarbeit an der ETH und Empa. Er erfindet neue Batteriekonzepte und strebt eine effizientere Zusammenarbeit zwischen Industrie und Universität an. In seiner Freizeit macht er leidenschaftlich Judo und Lauftraining.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing innovative battery concepts, he strives for a better collaboration between academia and industry. In his free time, he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
   'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
 );
@@ -76,7 +76,7 @@ $lang['team'][7] = array(
 $lang['team'][8] = array(
   'name' => 'Jonathan Saring',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
+  'info' => array('Jonathan (Jonny), ursprünglich aus München, studiert zur Zeit Chemie in Zürich und ist Mitglied des Technischen-Hilfswerkes (THW). Falls er nicht gerade im Chemie-Gebäude lernt, findet man ihn oft im Fitnessstudio, beim Gitarre spielen oder beim „netflixen“ der neuesten Serien. ','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is a member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
   'mail_prefix' => 'jonathan.saring',
   'linkedin' => 'https://www.linkedin.com/in/jonathan-saring-09a080181'
 );
