@@ -92,7 +92,7 @@ $lang['team'][9] = array(
 $lang['team'][10] = array(
   'name' => 'Paul Schnacke',
   'task' => array('Druck und Design','Print and Design'),
-  'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
+  'info' => array('Paul kommt aus Köln und studiert Chemie. In seiner Freizeit kocht er gerne, schaut Filme und betreibt Sport.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in sports, cooking and watching movies.'),
   'mail_prefix' => 'paul.schnacke',
   'linkedin' => 'https://www.linkedin.com/in/paul-schnacke'
 );
