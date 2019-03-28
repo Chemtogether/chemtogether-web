@@ -36,7 +36,7 @@ $lang['team'][2] = array(
 $lang['team'][3] = array(
   'name' => 'Markus Böcker',
   'task' => array('Quästur','Treasurer'),
-  'info' => array('Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running or watching movies. He is currently heading Industrial Relations for the chemistry students association.'),
+  'info' => array('Nachdem Markus in Berlin als Sozialarbeiter gearbeitet hatte, entschied er sich für ein Chemiestudium nach Zürich zu kommen. Als Ausgleich nach Labor und Bibliothek schwimmt und joggt er viel und sieht Filme. Er ist der derzeitige Präsident der Vereinigung der Chemiestudierenden an der ETH Zürich.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running, swimming or watching movies. He is currently heading the chemistry students association.'),
   'mail_prefix' => 'markus.boecker',
   'linkedin' => 'https://www.linkedin.com/in/markus-boecker/'
 );
@@ -52,7 +52,7 @@ $lang['team'][4] = array(
 $lang['team'][5] = array(
   'name' => 'Romain Dubey',
   'task' => array('Catering','Catering'),
-  'info' => array('Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing crazy new battery concepts, he strives for a better collaboration between academia and industry. In his free time he loves doing judo and running.'),
+  'info' => array('Romain kommt aus Fribourg und schreibt seine Doktorarbeit an der ETH und Empa. Er erfindet neue Batteriekonzepte und strebt eine effizientere Zusammenarbeit zwischen Industrie und Universität an. In seiner Freizeit macht er leidenschaftlich Judo und Lauftraining.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing innovative battery concepts, he strives for a better collaboration between academia and industry. In his free time, he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
   'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
 );
@@ -68,15 +68,15 @@ $lang['team'][6] = array(
 $lang['team'][7] = array(
   'name' => 'Jérôme Käslin',
   'task' => array('Druck und Design','Print and Design'),
-  'info' => array(''),
+  'info' => array('Nachdem Jérôme seinen Master an der ETH als bester Chemie-Student 2018 abschloss, setzte er seine Ausbildung mit einer Dissertation in analytischer Chemie fort. Neben seiner Forschung begeistert er sich für Graphik, Design und Geschichte.','After Jérôme finished his Master at ETH as best chemistry student 2018, he continued his education with a PhD in analytical chemistry. Beside his research, he is enthusiastic about graphics, design and history.'),
   'mail_prefix' => 'jerome.käslin',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/jfk/'
 );
 
 $lang['team'][8] = array(
   'name' => 'Jonathan Saring',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
+  'info' => array('Jonathan (Jonny), ursprünglich aus München, studiert zur Zeit Chemie in Zürich und ist Mitglied des Technischen-Hilfswerkes (THW). Falls er nicht gerade im Chemie-Gebäude lernt, findet man ihn oft im Fitnessstudio, beim Gitarre spielen oder beim „netflixen“ der neuesten Serien. ','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is a member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
   'mail_prefix' => 'jonathan.saring',
   'linkedin' => 'https://www.linkedin.com/in/jonathan-saring-09a080181'
 );
@@ -92,7 +92,7 @@ $lang['team'][9] = array(
 $lang['team'][10] = array(
   'name' => 'Paul Schnacke',
   'task' => array('Druck und Design','Print and Design'),
-  'info' => array('Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in modern european history, cooking and watching movies.'),
+  'info' => array('Paul kommt aus Köln und studiert Chemie. In seiner Freizeit kocht er gerne, schaut Filme und betreibt Sport.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in sports, cooking and watching movies.'),
   'mail_prefix' => 'paul.schnacke',
   'linkedin' => 'https://www.linkedin.com/in/paul-schnacke'
 );
@@ -100,7 +100,7 @@ $lang['team'][10] = array(
 $lang['team'][11] = array(
   'name' => 'Fabio Simbürger',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array(''),
+  'info' => array('Fabio kommt aus der Ostschweiz und beginnt dieses Jahr den Master in Pharmazie mit einem besonderen Interesse für pharmazeutische Analytik und pharmakologische Forensik. Abseits des Studiums beschäftigt er sich gerne mit Sport, Lagerfeuer Gitarre und dem einen oder anderen Getränk mit Freunden.','Fabio grew up in Eastern Switzerland and is now starting the studies for his Master degree in Pharmacy with a particular interest for pharmaceutical analytics and pharmacological forensics. Apart from his studies he spends time with sports, campfire guitar and a drink or two with his friends.'),
   'mail_prefix' => 'fabio.simbürger',
   'linkedin' => ''
 );
@@ -108,7 +108,7 @@ $lang['team'][11] = array(
 $lang['team'][12] = array(
   'name' => 'Alessandro Streuli',
   'task' => array('Social Media Koordinator','Social Media Coordinator'),
-  'info' => array(''),
+  'info' => array('Alessandro studiert an der ETH mit dem Ziel eines Master in Pharmazeutischen Wissenschaften in den Schwerpunkten Galenik und medizinische Chemie. Alessandros Wurzeln liegen in der Nähe von Rapperswil was auch in seinem grössten Hobby repräsentiert ist, dem Eishockey. Neben dem Hockey verbringt er seine Zeit mit Tauchen und Kochen.','Alessandro studies for a Master’s degree in pharmaceutical sciences at ETH with the core area of galenics and medicinal chemistry. Alessandro has his roots near Rapperswil which also is represented in his biggest hobby, the ice hockey. Besides the hockey he spends his time with diving and cooking.'),
   'mail_prefix' => 'fabio.simbürger',
   'linkedin' => ''
 );
@@ -124,7 +124,7 @@ $lang['team'][13] = array(
 $lang['team'][14] = array(
   'name' => 'Patrik Willi',
   'task' => array('Firmenakquise','Company Acquisition'),
-  'info' => array('Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.','Patrik is studying for a Master’s degree in Chemistry. In his spare time, he plays acoustic guitar and enjoys sports like squash or running. To ensure that there are always enough chemistry freshmen, he also helps organizing the Swiss Chemistry Olympiad.'),
+  'info' => array('Patrik kommt aus Winterthur und verfolgt eine Master in physikmal-organischer Chemie an der ETH. Seinem Einsteig in die Chemie treu geblieben, ist er seit 5 Jahren bei der Schweizer Chemie-Olympiade aktiv, wo er seine Begeisterung für die Chemie weitergibt. In seiner Freizeit geniesst Patrik, Sport zu treiben oder klassische Gitarre zu spielen.','Coming from nearby Winterthur, Patrik studies for a Master’s degree in physical organic chemistry at ETH. Staying true to his entry point into Chemistry, he has been an active member of the Swiss Chemistry Olympiad for over 5 years, where he shares his passion for chemistry. In his spare time, Patrik enjoys doing sports or playing acoustic guitar.'),
   'mail_prefix' => 'patrik.willi',
   'linkedin' => ''
 );
