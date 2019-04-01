@@ -19,33 +19,28 @@
     <span><?php echo($lang['navigation']['sidenav_home'][$eng]); ?></span>
   </a>
 
-  <a class="sidenav-link" id="<?php if($active_nav == 'news') echo('active'); ?>" href="/news/">
-    <i class="far fa-fw fa-newspaper"></i>
-    <span><?php echo($lang['navigation']['sidenav_news'][$eng]); ?></span>
-  </a>
-
   <a class="sidenav-link" id="<?php if($active_nav == 'visitors') echo('active'); ?>" href="/visitors/">
-    <i class="fas fa-fw fa-info"></i>
+    <i class="fas fa-fw fa-user-graduate"></i>
     <span><?php echo($lang['navigation']['sidenav_visitors'][$eng]); ?></span>
   </a>
 
   <a class="sidenav-link" id="<?php if($active_nav == 'exhibitors') echo('active'); ?>" href="/exhibitors/">
-    <i class="far fa-fw fa-address-card"></i>
+    <i class="fas fa-fw fa-user-tie"></i>
     <span><?php echo($lang['navigation']['sidenav_exhibitors'][$eng]); ?></span>
   </a>
 
   <a class="sidenav-link" id="<?php if($active_nav == 'impressions') echo('active'); ?>" href="/impressions/">
-    <i class="far fa-fw fa-building"></i>
+    <i class="fas fa-fw fa-images"></i>
     <span><?php echo($lang['navigation']['sidenav_impressions'][$eng]); ?></span>
   </a>
 
-  <a class="sidenav-link" id="<?php if($active_nav == 'aboutus') echo('active'); ?>" href="/aboutus/">
+  <a class="sidenav-link" id="<?php if($active_nav == 'team') echo('active'); ?>" href="/team/">
     <i class="fas fa-fw fa-users"></i>
-    <span><?php echo($lang['navigation']['sidenav_aboutus'][$eng]); ?></span>
+    <span><?php echo($lang['navigation']['sidenav_team'][$eng]); ?></span>
   </a>
 
   <a class="sidenav-link" id="<?php if($active_nav == 'archive') echo('active'); ?>" href="/archive/">
-    <i class="fas fa-fw fa-archive"></i>
+    <i class="fas fa-fw fa-file-archive"></i>
     <span><?php echo($lang['navigation']['sidenav_archive'][$eng]); ?></span>
   </a>
 

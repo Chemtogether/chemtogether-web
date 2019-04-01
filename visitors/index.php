@@ -17,7 +17,7 @@ include('./lang.php');
 
 // GENERAL
 
-$active_nav = 'fair';
+$active_nav = 'visitors';
 
 // $fb = array(
 //   "title"        => "",

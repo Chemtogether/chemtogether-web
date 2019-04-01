@@ -17,7 +17,7 @@ include('./lang.php');
 
 // GENERAL
 
-$active_nav = 'aboutus';
+$active_nav = 'team';
 
 // $fb = array(
 //   "title"        => "",

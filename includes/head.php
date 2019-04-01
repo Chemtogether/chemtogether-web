@@ -61,7 +61,7 @@
 
   gtag('config', 'UA-2650931-4');
   </script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
 
 
 </head>

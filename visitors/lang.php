@@ -2,8 +2,8 @@
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
 $lang['general']['page_title'] = array('Chemtogether 2019 - Messe', 'Chemtogether 2019 - Fair');
-$lang['navigation']['title'] = array('Die Messe', 'The Fair');
-$lang['navigation']['topnav_title']= array('Die Messe', 'The Fair');
+$lang['navigation']['title'] = array('Für Besucher', 'For Visitors');
+$lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 
 
 
