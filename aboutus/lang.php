@@ -124,7 +124,7 @@ $lang['team'][13] = array(
 $lang['team'][14] = array(
   'name' => 'Patrik Willi',
   'task' => array('Firmenakquise','Company Acquisition'),
-  'info' => array('Patrik kommt aus Winterthur und verfolgt eine Master in physikmal-organischer Chemie an der ETH. Seinem Einsteig in die Chemie treu geblieben, ist er seit 5 Jahren bei der Schweizer Chemie-Olympiade aktiv, wo er seine Begeisterung für die Chemie weitergibt. In seiner Freizeit geniesst Patrik, Sport zu treiben oder klassische Gitarre zu spielen.','Coming from nearby Winterthur, Patrik studies for a Master’s degree in physical organic chemistry at ETH. Staying true to his entry point into Chemistry, he has been an active member of the Swiss Chemistry Olympiad for over 5 years, where he shares his passion for chemistry. In his spare time, Patrik enjoys doing sports or playing acoustic guitar.'),
+  'info' => array('Patrik kommt aus Winterthur und verfolgt einen Master in physikal-organischer Chemie an der ETH. Seinem Einsteig in die Chemie treu geblieben, ist er seit 5 Jahren bei der Schweizer Chemie-Olympiade aktiv, wo er seine Begeisterung für die Chemie weitergibt. In seiner Freizeit geniesst Patrik, Sport zu treiben oder klassische Gitarre zu spielen.','Coming from nearby Winterthur, Patrik studies for a Master’s degree in physical organic chemistry at ETH. Staying true to his entry point into Chemistry, he has been an active member of the Swiss Chemistry Olympiad for over 5 years, where he shares his passion for chemistry. In his spare time, Patrik enjoys doing sports or playing acoustic guitar.'),
   'mail_prefix' => 'patrik.willi',
   'linkedin' => ''
 );
