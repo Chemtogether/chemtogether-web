@@ -19,32 +19,32 @@ $lang['content']['intro_text'] = array(
   'In its seventh iteration, this year\'s Chemtogether will take place on the 5th and 6th November 2019 on the G-floor of the HCI building on the ETH Hönggerberg campus! Over two days, a total of eighteen companies from the chemical and pharmaceutical industry will be present and offer information on careers in their field. As a joint effort between the student associations, VCS and APV, and the association of PhD students, VAC, of the Department of Chemistry and Applied Biosciences D-CHAB at the ETH Zürich, we welcome all students, PhDs and external visitors to forge first links with potential employers at this year\'s Chemtogether!');
 
 $lang['content']['infobox1_text'] = array(
-  'Datum, Ort und Begleitprogramm',
-  'Dates, Place and Supporting Programme');
+  'Datum, Ort, Firmen und Begleitprogramm',
+  'Dates, Place, Companies and Supporting Programme');
 $lang['content']['infobox1_link'] = array(
-  'Erfahre mehr über die Messe',
-  'Learn more about the fair');
+  'Finde die wichtigsten Informationen zur Karrieremesse',
+  'Find the most important information about the career fair');
 
 $lang['content']['infobox2_text'] = array(
-  'Neuigkeiten',
-  'News');
+  'Impressionen',
+  'Impressions');
 $lang['content']['infobox2_link'] = array(
-  'Lies die neuesten Infos',
-  'Get the latest updates');
+  'Lerne die Chemtogether besser kennen',
+  'Learn more about Chemtogether');
 
 $lang['content']['infobox3_text'] = array(
-  'Über uns',
-  'About us');
+  'Organisation',
+  'Organisation');
 $lang['content']['infobox3_link'] = array(
-  'Das Team &amp; die Organisation',
-  'The Team &amp; Organization');
+  'Das Team &amp; unsere Alumni',
+  'The Team &amp; our alumni');
 
 $lang['content']['infobox4_text'] = array(
-  'Die teilnehmenden Firmen',
-  'The exhibiting companies');
+  'Für Firmen',
+  'For companies');
 $lang['content']['infobox4_link'] = array(
-  'Erfahre mehr über die Aussteller',
-  'Learn more about the exhibitors');
+  'Interessiert an einer Kooperation mit Chemtogether?',
+  'Interested in cooperating with Chemtogether?');
 
 
 

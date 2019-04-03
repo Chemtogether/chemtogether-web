@@ -13,6 +13,11 @@
   src: url("https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/fonts/Montserrat/Montserrat-Regular.ttf");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url("https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/fonts/Montserrat/Montserrat-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal; }
 * {
   margin: 0;
   padding: 0;
@@ -384,7 +389,7 @@ a {
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: calc(100vh - 494px);
+  min-height: calc(100vh - 575px);
   width: 100vw;
   z-index: 20;
   background-color: whitesmoke;
@@ -486,14 +491,22 @@ a {
   font-size: 16px;
   margin-bottom: 10px; }
 
+.subhead {
+  text-align: left;
+  font-family: montserrat;
+  font-size: 16px; }
+
 .fa-table tr td:nth-child(1) {
   width: 30px;
   padding-right: 5px;
   vertical-align: top; }
 
 @media only screen and (min-width: 600px) {
-  .text, .subsection {
+  .text, .subhead, .subsection {
     font-size: 20px; }
+
+  .subhead {
+    font-size: 25px; }
 
   #main {
     width: calc(100vw - 100px); }

@@ -6,10 +6,10 @@ $lang = array();
 $lang['navigation'] = array(
   'topnav_menu' => array('Menü', 'Menu'),
   'sidenav_home' => array('Home','Home'),
-  'sidenav_visitors' => array('Für Besucher','For visitors'),
-  'sidenav_exhibitors' => array('Für Firmen','For companies'),
+  'sidenav_visitors' => array('Für Besucher','For Visitors'),
+  'sidenav_exhibitors' => array('Für Firmen','For Companies'),
   'sidenav_impressions' => array('Impressionen','Impressions'),
-  'sidenav_team' => array('Unser Team','Our team'),
+  'sidenav_team' => array('Unser Team','Our Team'),
   'sidenav_archive' => array('Archiv','Archive'),
 );
 

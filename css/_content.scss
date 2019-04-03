@@ -1,7 +1,7 @@
 #main {
   position: relative;
   overflow-x: hidden;
-  min-height: calc(100vh - 494px);
+  min-height: calc(100vh - 575px);
   width: 100vw;
   z-index: 20;
   background-color: $bg-gray;
@@ -129,6 +129,12 @@
   margin-bottom: 10px;
 }
 
+.subhead {
+  text-align: left;
+  font-family: montserrat;
+  font-size: 16px;
+}
+
 .fa-table {
   tr td:nth-child(1) {
     width: 30px;
@@ -142,8 +148,12 @@
 
 @media only screen and (min-width: $bp-medium) {
 
-  .text, .subsection {
+  .text, .subhead, .subsection {
     font-size: 20px;
+  }
+
+  .subhead {
+    font-size: 25px;
   }
 
   #main {

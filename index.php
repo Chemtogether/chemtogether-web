@@ -69,7 +69,7 @@ $fb = array(
       <div id="home-bottom">
         <div id="link-container">
           <div id="link-visitors">
-            <a href="/fair/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkvisitors'][$eng]); ?></span></a>
+            <a href="/visitors/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkvisitors'][$eng]); ?></span></a>
           </div>
           <div id="link-companies">
             <a href="/exhibitors/"><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;<span><?php echo($lang['content']['slideshow_linkcompanies'][$eng]); ?></span></a>
@@ -103,7 +103,7 @@ $fb = array(
 
     <div class="content flex">
       <div class="infobox-container l-8 m-12 s-12">
-        <a href="/fair/" class="infobox" id="fair">
+        <a href="/visitors/" class="infobox" id="fair">
           <div class="infoboxtext blue">
             <?php echo($lang['content']['infobox1_text'][$eng]); ?><br>
             <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox1_link'][$eng]); ?></span>
@@ -112,7 +112,7 @@ $fb = array(
       </div>
 
       <div class="infobox-container l-4 m-12 s-12">
-        <a href="/news/" class="infobox" id="news">
+        <a href="/impressions/" class="infobox" id="news">
           <div class="infoboxtext orange" style="order:2">
             <?php echo($lang['content']['infobox2_text'][$eng]); ?><br>
             <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox2_link'][$eng]); ?></span>
@@ -123,7 +123,7 @@ $fb = array(
 
     <div class="content flex">
       <div class="infobox-container l-4 m-12 s-12">
-        <a href="/aboutus/" class="infobox" id="aboutus">
+        <a href="/team/" class="infobox" id="aboutus">
           <div class="infoboxtext orange">
             <?php echo($lang['content']['infobox3_text'][$eng]); ?><br>
             <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox3_link'][$eng]); ?></span>
@@ -132,7 +132,7 @@ $fb = array(
       </div>
 
       <div class="infobox-container l-8 m-12 s-12">
-        <a href="/companies/" class="infobox" id="companies">
+        <a href="/exhibitors/" class="infobox" id="companies">
           <div class="infoboxtext blue">
             <?php echo($lang['content']['infobox4_text'][$eng]); ?><br>
             <span><i class="fas fa-arrow-circle-right fa-fw"></i>&nbsp;</span><span><?php echo($lang['content']['infobox4_link'][$eng]); ?></span>
