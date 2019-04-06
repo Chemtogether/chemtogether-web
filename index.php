@@ -79,7 +79,7 @@ $fb = array(
     </div>
 
     <div class="spacer">
-    </div>
+    </div>    
 
     <div class="title">
       <span class="title-text">
