@@ -45,10 +45,16 @@ $template['homepage'] = array('https://www.agilent.com/','agilent.com');
 $template['facebook'] = array('https://www.facebook.com/Agilent.Tech/', 'Agilent Technologies');
 $template['linkedin'] = array('https://ch.linkedin.com/company/agilent-technologies','Agilent Technologies');
 
+$template['we_are'] = 0;
 
+$template['we_offer'] = 0;
+
+$template['we_look'] = 0;
+
+$template['interview_print_until'] = 0;
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
 include('../0_template/template.php');
-
 
 
 ?>

@@ -45,10 +45,16 @@ $template['homepage'] = array('https://www.mt.com/ch/de/home.html','mt.com');
 $template['facebook'] = array('https://www.facebook.com/mettlertoledo/', 'METTLER TOLEDO');
 $template['linkedin'] = array('https://ch.linkedin.com/company/mettlertoledo','Mettler-Toledo International, Inc');
 
+$template['we_are'] = 0;
 
+$template['we_offer'] = 0;
+
+$template['we_look'] = 0;
+
+$template['interview_print_until'] = 0;
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
 include('../0_template/template.php');
-
 
 
 ?>

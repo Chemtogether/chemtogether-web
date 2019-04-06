@@ -132,6 +132,30 @@ $fb = array(
     <div class="spacer">
     </div>
 
+    <div class="anchor" id="programme">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['programme_subsection'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['programme_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
     <div class="section">
         <span class="section-slashes">
           <span>/</span><span>/</span>
@@ -226,30 +250,6 @@ $fb = array(
 
     <div class="spacer">
     </div>  
-
-    <div class="anchor" id="programme">
-    </div>
-
-    <div class="section">
-      <span class="section-slashes">
-        <span>/</span><span>/</span>
-      </span>
-      <span class="section-text">
-        <?php echo($lang['content']['programme_subsection'][$eng]); ?>
-      </span>
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['programme_text'][$eng]); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
 
   </div>
 </div>
