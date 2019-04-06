@@ -853,7 +853,7 @@ a {
     font-size: 20px !important; } }
 @media only screen and (min-width: 1500px) {
   .home #link-container {
-    bottom: 50px; }
+    bottom: 25px; }
   .home #link-visitors, .home #link-companies, .home #link-visitors span, .home #link-companies span, .home #link-companies a, .home #link-visitors a {
     font-size: 50px !important; } }
 @keyframes imageAnimation {
