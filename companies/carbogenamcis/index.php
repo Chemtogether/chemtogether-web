@@ -23,8 +23,8 @@ $active_nav = 'companies';
 
 if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   $fb = array(
-    "title"        => "Interview with Dr. Emad El Sayed from Carbogen Amcis - Chemtogether",
-    "desc"         => "Dr. Emad El Sayed works as Manager PR&D at Carbogen Amcis. Learn more about his career and work in his interview, and meet Carbogen Amcis at this year's Chemtogether!",
+    "title"        => "Interview with Dr. Emad El Sayed from CARBOGEN AMCIS - Chemtogether",
+    "desc"         => "Dr. Emad El Sayed works as Manager PR&D at CARBOGEN AMCIS. Learn more about his career and work in his interview, and meet CARBOGEN AMCIS at this year's Chemtogether!",
     "url"          => "",
     "image_url"    => $awss3."/opengraph/carbogenamcis_20181010.jpg",
     "image_width"  => "800",
@@ -42,7 +42,7 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
 }
 
 
-$template['company_name'] = 'Carbogen Amcis';
+$template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
 $template['logo_url'] = set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE);
 $template['package'] = 'silver';
@@ -54,7 +54,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('http://www.carbogen-amcis.com/home.asp','carbogen-amcis.com');
 // $template['facebook'] = array('', '');
-$template['linkedin'] = array('https://www.linkedin.com/company/carbogen-amcis/','Carbogen Amcis');
+$template['linkedin'] = array('https://www.linkedin.com/company/carbogen-amcis/','CARBOGEN AMCIS');
 $template['mail'] = array('bewerbung','carbogen-amcis.com');
 $template['archive'] = '/archive/carbogenamcis';
 

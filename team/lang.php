@@ -116,7 +116,7 @@ $lang['team'][12] = array(
 $lang['team'][13] = array(
   'name' => 'Esther Tschanen-Hammann',
   'task' => array('Messebau','Booth Construction'),
-  'info' => array('After completing a Master’s degree in Chemistry at ETH, Esther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. ','After completing a Master’s degree in Chemistry at ETH, Esther is now working in organometallic Synthesis. In her free time, she enjoys bicycling very much and has as of last year traversed all the Swiss Alps passes with a bike. '),
+  'info' => array('Nachdem Esther ihren Master an der ETH Zürich abgeschlossen hat, arbeitet sie nun als Doktorandin im dritten Jahr in metall-organischer Synthese. In ihrer Freizeit geniesst Esther Velotouren und backt gerne.','After having completed her  Master’s degree in Chemistry at ETH, Esther is now pursuing a PhD in her third year in organometallic synthesis. In her free time, she enjoys bicycling and backing very much.'),
   'mail_prefix' => 'esther.tschanen',
   'linkedin' => ''
 );

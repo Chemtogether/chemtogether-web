@@ -115,6 +115,10 @@ $active_nav = 'exhibitors';
             <td><i class="fa-fw far fa-file-alt"></i></td>
             <td><a href="<?php echo($awss3); ?>/files/2018expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
+          <tr>
+            <td><i class="fa-fw far fa-file-alt"></i></td>
+            <td><a href="<?php echo($awss3); ?>/files/Terms_and_Conditions.pdf"><?php echo($lang['content']['documents_termsandconditions'][$eng]); ?></a></td>
+          </tr>
         </table>
       </div>
     </div>

@@ -33,6 +33,10 @@ $lang['content'] = array(
     'Messeführer (2018)',
     'Expo Guide (2018)'),
 
+  'documents_termsandconditions' => array(
+    'AGB',
+    'Terms and Conditions'),
+
   'packages_subsection' => array(
     'Ausstellerpakete',
     'Partnership Options'),

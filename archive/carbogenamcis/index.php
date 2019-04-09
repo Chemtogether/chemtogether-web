@@ -30,7 +30,7 @@ $active_nav = 'archive';
 // );
 
 
-$template['company_name'] = 'Carbogen Amcis';
+$template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
 $template['logo_url'] = $awss3_archive.'/carbogenamcis/logo';
 $template['package'] = 'base';
@@ -41,7 +41,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('http://www.carbogen-amcis.com/home.asp','carbogen-amcis.com');
 // $template['facebook'] = array('', '');
-$template['linkedin'] = array('https://www.linkedin.com/company/carbogen-amcis/','Carbogen Amcis');
+$template['linkedin'] = array('https://www.linkedin.com/company/carbogen-amcis/','CARBOGEN AMCIS');
 $template['mail'] = array('bewerbung','carbogen-amcis.com');
 
 $template['we_are'] = array(
@@ -169,15 +169,15 @@ $template['interview']['2018'][$i++] = array(
   'career' => array(
     0 => array(
       'date' => '2015',
-      'desc' => array('Manager PR&D bei Carbogen Amcis', 'Manager PR&D at Carbogen Amcis')
+      'desc' => array('Manager PR&D bei CARBOGEN AMCIS', 'Manager PR&D at CARBOGEN AMCIS')
     ),
     1 => array(
       'date' => '2007-2015',
-      'desc' => array('Senior Chemist bei Carbogen Amcis', 'Senior Chemist at Carbogen Amcis')
+      'desc' => array('Senior Chemist bei CARBOGEN AMCIS', 'Senior Chemist at CARBOGEN AMCIS')
     ),
     2 => array(
       'date' => '2001-2006',
-      'desc' => array('Project Chemist bei Carbogen Amcis', 'Project Chemist at Carbogen Amcis')
+      'desc' => array('Project Chemist bei CARBOGEN AMCIS', 'Project Chemist at CARBOGEN AMCIS')
     ),
   ),
 

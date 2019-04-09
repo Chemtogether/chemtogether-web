@@ -5,7 +5,7 @@ $i = 0;
 $data['day1'][$i++] = array(
   "link_url" => '/companies/carbogenamcis/index.php#info',
   "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
-  "name" => "Carbogen Amcis",
+  "name" => "CARBOGEN AMCIS",
   "name_short" => "carbogenamcis",
   "package" => 'silver',
 );
@@ -42,8 +42,24 @@ $data['day1'][$i++] = array(
    "package" => 'base',
 );
 
+// $lang['day2'] = null;
+
 $i = 0;  
 
-$data['day2'] = null;
+$data['day2'][$i++] = array(
+   "link_url" => '/companies/metrohm/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE),
+   "name" => "Metrohm",
+   "name_short" => "metrohm",
+   "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
+   "link_url" => '/companies/idorsia/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/idorsia/logo','png', FALSE),
+   "name" => "Idorsia",
+   "name_short" => "idorsia",
+   "package" => 'base',
+);
 
 ?>
