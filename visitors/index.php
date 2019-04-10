@@ -11,7 +11,7 @@ include('includes/language.php');
 
 // include all translations from local file
 include('./lang.php');
-include('./data.php');
+include('../companies/data.php');
 
 
 // GENERAL
