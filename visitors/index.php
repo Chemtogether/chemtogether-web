@@ -18,12 +18,12 @@ include('../companies/data.php');
 $active_nav = 'visitors';
 
 $fb = array(
-   "title"        => "Chemtogether 2019 - Visitors",
-//   "desc"         => "",
-   "url"          => "https://www.chemtogether.ethz.ch/visitors/",
-//   "image_url"    => "",
-//   "image_width"  => "",
-//   "image_height" => ""
+  "title"        => "Chemtogether 2019",
+  "desc"         => "This year's Chemtogether will take place on the 5th and 6th November 2019! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
+  "image_url"    => $awss3."/opengraph/home_20180315.jpg",
+  "image_width"  => "1200",
+  "image_height" => "627"
 );
 
 ?>
