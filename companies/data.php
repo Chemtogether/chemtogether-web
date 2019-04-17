@@ -55,6 +55,14 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
+   "link_url" => '/companies/ems/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/ems/logo_svg','svg', FALSE),
+   "name" => "EMS",
+   "name_short" => "ems",
+   "package" => 'base',
+);
+
+$data['day2'][$i++] = array(
    "link_url" => '/companies/hoffmanneitle/index.php#info',
    "logo_url" => set_source($awss3.'/companies/hoffmanneitle/logo_svg','svg', FALSE),
    "name" => "HOFFMANN EITLE",
