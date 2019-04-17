@@ -141,9 +141,9 @@ $lang['content']['alumni_member_2016'] = 'Philipp Antkowiak<br>Philippe Bechtold
 
 $lang['content']['alumni_member_2015'] = 'Philipp Antkowiak<br>Philippe Bechtold<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Jérôme Käslin<br>Lukas Lätsch<br>Mario Lenz<br>Jan-Grimo Sobez<br><br>';
 
-$lang['content']['alumni_member_2014'] = 'Stefan Allner<br>Moritz Benisch<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Mario Lenz<br>Jan-Grimo Sobez<br><br>';
+$lang['content']['alumni_member_2014'] = 'Steffen Allner<br>Moritz Benisch<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Frederik Eiler<br>Marco Hartmann<br>Mario Lenz<br>Jan-Grimo Sobez<br><br>';
 
-$lang['content']['alumni_member_2013'] = 'Stefan Allner<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Marco Hartmann<br>Jan-Grimo Sobez<br>Nino Wili<br><br>';
+$lang['content']['alumni_member_2013'] = 'Steffen Allner<br>Maximilian Doppelbauer<br>Daniel Dunkelmann<br>Marco Hartmann<br>Jan-Grimo Sobez<br>Nino Wili<br><br>';
 
 
 
