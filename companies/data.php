@@ -55,6 +55,14 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
+   "link_url" => '/companies/syngenta/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/syngenta/logo','png', FALSE),
+   "name" => "Syngenta",
+   "name_short" => "syngenta",
+   "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
    "link_url" => '/companies/ems/index.php#info',
    "logo_url" => set_source($awss3.'/companies/ems/logo_svg','svg', FALSE),
    "name" => "EMS",
