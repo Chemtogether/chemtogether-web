@@ -47,6 +47,14 @@ $data['day1'][$i++] = array(
 $i = 0;  
 
 $data['day2'][$i++] = array(
+   "link_url" => '/companies/dow/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/dow/logo_svg','svg', FALSE),
+   "name" => "Dow Europe",
+   "name_short" => "dow",
+   "package" => 'gold',
+);
+
+$data['day2'][$i++] = array(
    "link_url" => '/companies/metrohm/index.php#info',
    "logo_url" => set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE),
    "name" => "Metrohm",
