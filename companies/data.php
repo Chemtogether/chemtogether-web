@@ -25,6 +25,14 @@ $data['day1'][$i++] = array(
    "name_short" => "agilent",
    "package" => 'base',
 );
+
+$data['day1'][$i++] = array(
+   "link_url" => '/companies/dottikon/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE),
+   "name" => "Dottikon",
+   "name_short" => "dottikon",
+   "package" => 'base',
+);
  
 $data['day1'][$i++] = array(
    "link_url" => '/companies/mettlertoledo/index.php#info',
