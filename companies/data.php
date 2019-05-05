@@ -11,6 +11,14 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
+   "link_url" => '/companies/ivoclarvivadent/index.php#info',
+   "logo_url" => set_source($awss3.'/companies/ivoclarvivadent/logo_svg','svg', FALSE),
+   "name" => "Ivoclar Vivadent",
+   "name_short" => "ivoclarvivadent",
+   "package" => 'silver',
+ );
+
+$data['day1'][$i++] = array(
     "link_url" => '/companies/lonza/index.php#info',
     "logo_url" => set_source($awss3.'/companies/lonza/logo_svg','svg', FALSE),
     "name" => "Lonza",
