@@ -21,16 +21,6 @@ include('../lang.php');
 
 $active_nav = 'companies';
 
-if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
-  $fb = array(
-    "title"        => "Interview with Dr. Benjamin Wyler from Lonza - Chemtogether",
-    "desc"         => "Dr. Benjamin Wyler works as Project Leader and Process Development Chemist at Lonza. Learn more about his career and work in his interview, and meet Lonza at this year's Chemtogether!",
-    "url"          => "",
-    "image_url"    => $awss3."/opengraph/lonza_20181002.jpg",
-    "image_width"  => "800",
-    "image_height" => "420"
-  );
-} else {
   // $fb = array(
   //   "title"        => "",
   //   "desc"         => "",
@@ -39,7 +29,6 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   //   "image_width"  => "",
   //   "image_height" => ""
   // );
-}
 
 
 $template['company_name'] = 'Lonza';
