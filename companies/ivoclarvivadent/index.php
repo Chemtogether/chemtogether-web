@@ -10,16 +10,7 @@ include('../data.php');
 include('../lang.php');
 // GENERAL
 $active_nav = 'companies';
-if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
-  $fb = array(
-    "title"        => "Interview with Dr. Sandro Sbicego from Ivoclar Vivadent - Chemtogether",
-    "desc"         => "Dr. Sandro Sbicego works as Head of the Quality Control Department and Analytical Services R&D and Head of Global Quality Control at Ivoclar Vivadent. Learn more about his career and work in his interview, and meet Ivoclar Vivadent at this year's Chemtogether!",
-    "url"          => "",
-    "image_url"    => $awss3."/opengraph/ivoclarvivadent_20181002.jpg",
-    "image_width"  => "800",
-    "image_height" => "420"
-  );
-} else {
+
   // $fb = array(
   //   "title"        => "",
   //   "desc"         => "",
@@ -28,7 +19,7 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   //   "image_width"  => "",
   //   "image_height" => ""
   // );
-}
+
 $template['company_name'] = 'Ivoclar Vivadent';
 $template['company_name_short'] = 'ivoclarvivadent';
 $template['logo_url'] = set_source($awss3.'/companies/ivoclarvivadent/logo_svg','svg', FALSE);
