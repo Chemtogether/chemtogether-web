@@ -256,6 +256,9 @@ $active_nav = 'team';
 
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
+      <div>
+          <img <?php set_source($awss3.'/img/organisation/apv','png'); ?>></img>
+        </div>
       </div>
       <div class="text l-8 m-6 s-12">
         <div class="subsection">
