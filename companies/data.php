@@ -19,6 +19,14 @@ $data['day1'][$i++] = array(
  );
 
 $data['day1'][$i++] = array(
+  "link_url" => '/companies/johnsonandjohnson/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/johnsonandjohnson/logo_svg','svg', FALSE),
+  "name" => "Johnson & Johnson",
+  "name_short" => "johnsonandjohnson",
+  "package" => 'silver',
+);
+
+$data['day1'][$i++] = array(
     "link_url" => '/companies/lonza/index.php#info',
     "logo_url" => set_source($awss3.'/companies/lonza/logo_svg','svg', FALSE),
     "name" => "Lonza",
