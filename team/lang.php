@@ -46,7 +46,7 @@ $lang['team'][4] = array(
   'task' => array('Social Media Koordinator','Social Media Coordinator'),
   'info' => array('Gloria studiert Interdisziplinäre Naturwissenschaften im Master mit einer Spezialisierung in Molekül Spektroskopie und Quanten Optik. Ihr hanseatischer Hintergrund zeichnet sich durch die Begeisterung für Wassersportarten wie Segeln und Rudern ab. Außerdem wandert sie gerne durch die schweizer Alpen.','Gloria pursues her master’s degree in Interdisciplinary Sciences with a particular focus on molecular spectroscopy and quantum optics. Her background from hanseatic Hamburg is also represented in the love for water sports such as sailing and rowing. Exploring the Swiss Alps with long hikes is another passion of hers.'),
   'mail_prefix' => 'gloria.clausen',
-  'linkedin' => ''
+  'linkedin' => 'https://ch.linkedin.com/in/gloria-clausen-7bb34b16b'
 );
 
 $lang['team'][5] = array(
