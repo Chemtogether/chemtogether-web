@@ -79,6 +79,14 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
+   "link_url" => '/companies/dsm/index.php#info',
+   "logo_url" => set_source($awss3_archive.'/dsm/logo','png', FALSE),
+   "name" => "DSM",
+   "name_short" => "dsm",
+   "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
    "link_url" => '/companies/metrohm/index.php#info',
    "logo_url" => set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE),
    "name" => "Metrohm",
