@@ -177,7 +177,7 @@ $template['we_look'] = array(
 
   $template['interview']['2017'][$i++] = array(
     'name' => 'Dr. Baptiste Jaquet',
-    'img_url' => set_source($awss3.'/img/team/user_default', 'jpg', FALSE),
+    'img_url' => set_source($awss3.'/img/team/2018/user_default', 'jpg', FALSE),
     'position' => array('Reaction Flavourist Trainee', 'Reaction Flavourist Trainee'),
 
     'education' => array(
