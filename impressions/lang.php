@@ -7,6 +7,6 @@ $lang['navigation']['topnav_title']= array('Impressionen', 'Impressions');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content']['intro_text'] = array(
-    'Derzeit befindet sich diese Seite in Bearbeitung. Schon bald findest Du hier Impressionen der letzten Chemtogether Karrieremesse.',
-    'This Website is currently under construction. Here, you can find impressions of our last Chemtogether career fair soon.');
+    'Im letzten Jahr zählte die Chemtogether rund 500 Besucher an den zwei Messetagen im HCI Gebäude der ETH Hönggerberg. Hier findest Du Impressionen vom Messebereich und dem Begleitprogramm.',
+    'Last year Chemtogether counted 500 visitors during its two fair days in the HCI building at ETH Hönggerberg. Here you can find impressions of the exhibition area and the accompanying events.');
   

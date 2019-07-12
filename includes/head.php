@@ -50,6 +50,7 @@
 
   <!-- css includes -->
   <link rel="stylesheet" href="/css/all.css?v=20190309_0"/>
+  <link href="/css/lightbox.css" rel="stylesheet">
 
 
   <!-- js includes -->
