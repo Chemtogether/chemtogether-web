@@ -77,7 +77,7 @@ $template['we_look'] = array(
 
   $template['interview'][$i++] = array(
   'name' => 'Karina Hasler',
-  'img_url' => $awss3.'/companies//interviewee_2019_1',
+  'img_url' => $awss3.'/companies/metrohm/interviewee_2019_1',
   'position' => 'Systems Engineer',
 
   'education' => array(
