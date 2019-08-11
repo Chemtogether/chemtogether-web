@@ -61,7 +61,7 @@ if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_s
 $i=0;
 $template['interview'][$i++] = array(
   'name' => 'Nikolas Huwyler',
-  'img_url' => $awss3.'/companies/basf/interviewee_1',
+  'img_url' => $awss3.'/companies/basf/interviewee_2019_2',
   'position' => 'Laboratory Team Leader',
 
   'education' => array(

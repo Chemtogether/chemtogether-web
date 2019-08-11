@@ -220,7 +220,7 @@ $next_company = $company_list[$key_next];
                       $date = $date;
                     }
                     else if(!preg_match('/-/', $date)) {
-                      $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
+                      $date = $date.'-'.$lang['detail']['interviews']['present'];
                     } ?>
                     <tr>
                       <td><i class="fas fa-fw fa-chevron-right"></td>

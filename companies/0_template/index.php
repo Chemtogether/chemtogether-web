@@ -231,98 +231,78 @@ $template['interview'][$i++] = array(
 $template['interview'][$i++] = array(
   'name' => '',
   'img_url' => $awss3.'/companies//interviewee_1',
-  'position' => array('', ''),
+  'position' => '',
 
   'education' => array(
     0 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
     1 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
     2 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
   ),
 
   'career' => array(
     0 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
     1 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
     2 => array(
       'date' => '',
-      'desc' => array('', '')
+      'desc' => '',
     ),
   ),
 
   'interview' => array(
     0 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     1 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     2 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     3 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     4 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     5 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     6 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     7 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     8 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
     9 => array(
-      'question' => array('',
-                          ''),
-      'answer' => array('',
-                        '')
+      'question' => '',
+      'answer' => '',
     ),
   ),
 );
