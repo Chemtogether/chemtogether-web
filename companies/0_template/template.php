@@ -193,21 +193,21 @@ $next_company = $company_list[$key_next];
           <div class="text l-8 m-8 s-12">
             <div class="interview-info">
               <span><?php echo($template['interview'][$i]['name']); ?></span><br>
-              <span><?php echo($template['interview'][$i]['position'][$eng]); ?></span>
+              <span><?php echo($template['interview'][$i]['position']); ?></span>
               <br><br>
               <span><?php echo($lang['detail']['interviews']['education'][$eng]); ?></span>
               <table class="fa-table">
                 <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { 
                   $date = $template['interview'][$i]['education'][$j]['date']; 
                   if(is_array($date)) {
-                    $date = $date[$eng];
+                    $date = $date;
                   }
                   else if(!preg_match('/-/', $date)) {
-                    $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
+                    $date = $date.'-'.$lang['detail']['interviews']['present'];
                   } ?>
                   <tr>
                     <td><i class="fas fa-fw fa-chevron-right"></td>
-                      <td><?php echo($template['interview'][$i]['education'][$j]['desc'][$eng]); ?> (<?php echo($date); ?>)</td>
+                      <td><?php echo($template['interview'][$i]['education'][$j]['desc']); ?> (<?php echo($date); ?>)</td>
                     </tr>
                   <?php } ?>
                 </table>
@@ -217,14 +217,14 @@ $next_company = $company_list[$key_next];
                   <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) {
                     $date = $template['interview'][$i]['career'][$j]['date']; 
                     if(is_array($date)) {
-                      $date = $date[$eng];
+                      $date = $date;
                     }
                     else if(!preg_match('/-/', $date)) {
-                      $date = $date.'-'.$lang['detail']['interviews']['present'][$eng];
+                      $date = $date.'-'.$lang['detail']['interviews']['present'];
                     } ?>
                     <tr>
                       <td><i class="fas fa-fw fa-chevron-right"></td>
-                        <td><?php echo($template['interview'][$i]['career'][$j]['desc'][$eng]); ?> (<?php echo($date); ?>)</td>
+                        <td><?php echo($template['interview'][$i]['career'][$j]['desc']); ?> (<?php echo($date); ?>)</td>
                       </tr>
                     <?php } ?>
                   </table>
@@ -235,8 +235,8 @@ $next_company = $company_list[$key_next];
             <div class="content flex" id="interview-<?php echo($i); ?>">
               <?php for ($j=0; $j < sizeof($template['interview'][$i]['interview']); $j++) { ?>
                 <div class="text l-12 m-12 s-12">
-                  <div><?php echo($template['interview'][$i]['interview'][$j]['question'][$eng]); ?></div>
-                  <div><?php echo($template['interview'][$i]['interview'][$j]['answer'][$eng]); ?></div>
+                  <div><?php echo($template['interview'][$i]['interview'][$j]['question']); ?></div>
+                  <div><?php echo($template['interview'][$i]['interview'][$j]['answer']); ?></div>
                 </div>
               <?php } ?>
             </div>
