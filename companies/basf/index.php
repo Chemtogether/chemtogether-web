@@ -54,13 +54,100 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'You are an enthusiastic chemist or chemical engineer, and you have successfully completed your studies with a PhD or a PostDoc. Your focus is on one of the following specialist areas: Chemi­cal engineering, organic, inorganic, macromolecular, technical, physical, theoretical, analytical chemistry or biochemistry. You are open to every­thing that’s new and are looking for scientific and technical challenges. You enjoy working in an interdisciplinary and intercultural team.');
 
-$template['interview_print_until'] = 0;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
-
 $i=0;
+
 $template['interview'][$i++] = array(
-  'name' => 'Nikolas Huwyler',
+  'name' => 'Dr. Oliver Sala',
+  'img_url' => $awss3.'/companies/basf/interviewee_2019_1',
+  'position' => 'Research Scientist | Quantum Chemistry, BASF SE',
+
+  'education' => array(
+    0 => array(
+      'date' => '2012-2015',
+      'desc' => 'Doctor of Sciences at ETH Zurich, Group of Prof. Dr. A Togni',
+    ),
+    1 => array(
+      'date' => '2009-2012',
+      'desc' => 'BSc and MSc in Chemistry at ETH Zurich',
+    ),
+    2 => array(
+      'date' => '2006-2009',
+      'desc' => 'BSc in Chemistry at University of Applied Sciences Zurich (ZHAW)',
+    ),
+    3 => array(
+      'date' => '1994-1997',
+      'desc' => 'Apprenticeship - Chemical Laboratory Assistant, Givaudan AG',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2016',
+      'desc' => 'Research Scientist | Quantum Chemistry, BASF SE',
+    ),
+    1 => array(
+      'date' => '2015-2016',
+      'desc' => 'Research Associate, ETH Zurich',
+    ),
+    2 => array(
+      'date' => '2012-2015',
+      'desc' => 'Research Assistant, ETH Zurich',
+    ),
+    3 => array(
+      'date' => '2006-2011',
+      'desc' => 'Summer Intern, Givaudan AG',
+    ),
+    4 => array(
+      'date' => '2004-2006',
+      'desc' => 'Senior Technician, Givaudan AG',
+    ),
+    5 => array(
+      'date' => '2003-2004',
+      'desc' => 'Chef Technician (Cheflaborant), Givaudan AG',
+    ),
+    6 => array(
+      'date' => '1997-2003',
+      'desc' => 'Chemical Laboratory Assistant, Givaudan AG',
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'What is your daily work like as a research scientist in quantum chemistry at BASF and what are your responsibilities?',
+      'answer' => 'I am responsible for several projects, supporting the experimentalists with mechanistic or kinetic insight from quantum chemistry. Most importantly, though, the main goal is to help them save time by guiding their chemistry and predicting properties of potential product compounds or catalyst systems. In that way, experimental screening can be reduced to a minimum. In addition, I am leading a project, which comes along with a lot organizational tasks.',
+    ),
+    1 => array(
+      'question' => 'What made you choose BASF as an employer? Can you describe how the application process worked for you?',
+      'answer' => 'Since over twenty years BASF is committed to quantum chemical computations. This is unique in the chemical industry. Of course, the quantum chemistry group started with just a few people, but today about two hands full of quantum chemists are working at BASF. After sending my application dossier to BASF, everything went very fast. Two weeks later I was invited to Ludwigshafen for one day with accommodation at their own Hotel the night before. The application process was professionally organized. The individual interviews covered both, scientific discussions and social behaviour, hard and soft skills. I felt comfortable throughout the whole day, everyone being very friendly and genuinely interested in my person and my opinion.',
+    ),
+    2 => array(
+      'question' => 'During your PhD you worked on theoretical / computational chemistry. Can you apply your expertise in your current work? How did your studies prepare you for the challenges in the industry?',
+      'answer' => 'Right from the beginning my expertise could be applied to various projects and this still continues. Having been supervised by two professors – a theoretician and a chemist – during my PhD helped me a lot in being prepared for industry. In addition, the time at Givaudan very much contributed to my industrial background.',
+    ),
+    3 => array(
+      'question' => 'You gained experience in the field of quantum chemistry in academia as well as in the industry. Does the approach in this field differ from academia to industry?',
+      'answer' => 'Yes. In industry, time is a key factor. Nobody can or wants to wait several weeks or even months for results. Therefore, the computational protocols must be accelerated, and the strategy of investigation must be pragmatic. It depends, however, as a patent attorney would say. My work can be divided into three areas: fundamental research, divisional research and method development. Speed is crucial when working for the divisions. Mostly, strict time management is inevitable to meet their milestone requirements.',
+    ),
+    4 => array(
+      'question' => 'Is it customary at BASF to remain in the same field of activity or are there opportunities to move to another area if desired?',
+      'answer' => 'Both pathways are possible. Depending on personal preferences, one chooses one or the other path of career. The size of BASF opens up a plethora of fields to dive into and give your career another direction.',
+    ),
+    5 => array(
+      'question' => 'How important is harmony between work and outside life for you? Does BASF offer a good work-life balance for its employees?',
+      'answer' => 'Very important. Work-life balance ensures a clear mind, and this is required if I want to be creative and innovative during my daily work. BASF provides many possibilities for recreation and sports activities. For example, BASF has its own fitness centre including sauna. ',
+    ),
+    6 => array(
+      'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or internships?',
+      'answer' => 'I strongly recommend building a network during your undergrad and PhD studies. Go abroad for one semester, setup research collaborations, or do an internship in industry. Consider that it is you who chooses the company you want to work for.',
+    ),
+  ),
+);
+
+
+$template['interview'][$i++] = array(
+  'name' => 'Dr. Nikolas Huwyler',
   'img_url' => $awss3.'/companies/basf/interviewee_2019_2',
   'position' => 'Laboratory Team Leader',
 
@@ -86,7 +173,7 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2016-2017',
-      'desc' => 'Postdoctoral Researcher at MPI for Coal Research',
+      'desc' => 'Postdoctoral Researcher at MPI for Coal Research, Group of Prof. Fürstner',
     ),
   ),
 
@@ -193,96 +280,6 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
-
-
-
-
-
-
-
-
-// $template['interview'][$i++] = array(
-//   'name' => '',
-//   'img_url' => $awss3.'/companies//interviewee_1',
-//   'position' => '',
-
-//   'education' => array(
-//     0 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//     1 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//     2 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//   ),
-
-//   'career' => array(
-//     0 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//     1 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//     2 => array(
-//       'date' => '',
-//       'desc' => '',
-//     ),
-//   ),
-
-//   'interview' => array(
-//     0 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     1 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     2 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     3 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     4 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     5 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     6 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     7 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     8 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//     9 => array(
-//       'question' => '',
-//       'answer' => '',
-//     ),
-//   ),
-// );
-
-
-
 
 include('../0_template/template.php');
 
