@@ -94,8 +94,87 @@ $template['we_look'] = array(
 
   
 $template['interview_print_until'] = 0;
-if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
+$i=0;
+
+$template['interview'][$i++] = array(
+  'name' => 'Dr. Barbara Bonavoglia',
+  'img_url' => $awss3.'/companies//interviewee_1',
+  'position' => '',
+
+  'education' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+    1 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+    2 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+    1 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+    2 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'What are your responsibilities as a scientist within the packaging & specialty plastics business and as application technology leader for hygiene and medical at DOW?',
+      'answer' => 'In my role as a Scientist within the Packaging & Specialty Plastics business I have the opportunity to lead our student programm called the Industrial Innovation Campus. 
+      Within this responsibility:
+          (1) I work together my colleagues to define ideas of projects that are suitable for master students coming to DOW in Horgen for a 9 month internship,
+          (2) I prioritize the projects according to our strategy and business needs, 
+          (3) I visit universities to present the program and interview candidates 
+          (4) and finally I welcome those who participate in the program at our site in Horgen and supervise that the projects run smooth while the students are here.  
+      As the application technology leader for one of our business segments, my main responsibility is to define the multigenerational plan of research projects that DOW needs in order to fulfil the immediate business needs as well as deliver innovation in the long term. To perform this task successfully, I work closely with customers and brand owners to understand the needs and trends, with DOW marketing to set the long term strategy and with our people managers to properly resources the projects.',
+    ),
+    1 => array(
+      'question' => 'You graduated in chemistry. Does DOW also employ graduates with a different field of study?',
+      'answer' => 'I did my master in chemical engineering in Milan at the Politecnico and then did my PhD at ETH in the department once called Chemistry and Bio-engineering. 
+      Within the R&D department, DOW employs people from various backgrounds. I would say that we hire people from all the STEM fields.',
+    ),
+    2 => array(
+      'question' => 'During your PhD you focused on phase behaviour of polymer-supercritical CO2 -systems. How can you apply your expertise from academia in your daily work at DOW?',
+      'answer' => 'What the PhD taught me is the ability to run complex projects within a specific timeframe and connect with people outside of my immediate work environment to make sure to successfully reach the desired milestones. This experience was extremely useful throughout my career at DOW.',
+    ),
+    3 => array(
+      'question' => 'You were already promoted multiple times at DOW. How do you imagine your future career opportunities to look like?',
+      'answer' => 'DOW gives great opportunities to people who are eager to learn and develop throughout the years. I love the technical career path and would like to grow further by having the opportunity to lead larger technical projects.',
+    ),
+    4 => array(
+      'question' => 'How does your daily work life look like at DOW? Do you normally work at the same location or do you get to travel for work?',
+      'answer' => 'My work foresees a certain amount of travelling to visit customers and value chain members as well as universities and institutes. Only by keeping the right contacts with the outside world, I’m able to define the next generation projects and activities that will deliver value to the company in the medium to long term. 
+      When I’m in the office, I’m very often in contact with our IP department and R&D department to protect the developed innovation and define next steps in projects.
+      There is therefore no “standard” day of work. Every day is different, which makes my job very interesting :)',
+    ),
+    5 => array(
+      'question' => 'You have been with DOW for almost 14 years. In your opinion, what does DOW offer employees so that you have remained loyal to the company for so long?',
+      'answer' => 'DOW gives great opportunities to develop according to the skillset that each one brings. One can start in one role or one business and be given opportunity to move into completely different roles or businesses if the right skillset and interest is there. I have several colleagues who moved from technical into commercial roles and then back into managerial roles or stayed in the commercial function. 
+      If instead people show the skillset and interest to grow into a deeper technical career, DOW offers the possibility to grow within the R&D function to become fellow and experts in certain areas. 
+      The company also has a great diversity and inclusion culture. You feel respected in the company irrespective of background and ideas!',
+    ),
+    6 => array(
+      'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or internships?',
+      'answer' => 'Be yourself, be open, ask challenging questions, show why you are different from the others through your special work and study experiences or because of special interests and hobbies. Send a picture of yourself with the CV. I like to see the face of who is applying, and a picture sometimes says more than 1000 words. Send a motivation letter with the information’s why have you chosen that position and why are you a perfect match of the position you applied to. Prepare yourself for the interview for example look at the company’s website, inform you about what they do and where they set the emphasis.',
+    ),
+  ),
+);
 
 include('../0_template/template.php');
 
