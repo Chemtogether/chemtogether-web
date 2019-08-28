@@ -61,7 +61,7 @@ $i=0;
 $template['interview'][$i++] = array(
   'name' => 'Dr. Oliver Sala',
   'img_url' => $awss3.'/companies/basf/interviewee_2019_1',
-  'position' => 'Research Scientist | Quantum Chemistry, BASF SE',
+  'position' => 'Research Scientist | Quantum Chemistry',
 
   'education' => array(
     0 => array(
