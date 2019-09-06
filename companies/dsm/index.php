@@ -53,19 +53,31 @@ $i=0;
 $template['interview'][$i++] = array(
   'name' => 'Elias Timmerer',
   'img_url' => $awss3.'/companies/dsm/interviewee_2019_1',
-  'position' => '',
+  'position' => 'Process Control Engineer',
 
   'education' => array(
     0 => array(
-      'date' => '',
-      'desc' => '',
+      'date' => '2016-2018',
+      'desc' => 'Master of Science - MS, Chemical and Bioengineering at ETH Zurich',
+    ),
+    1 => array(
+      'date' => '2017-2017',
+      'desc' => 'Master of Science - MS, Chemical Engineering at TU Delft',
+    ),
+    2 => array(
+      'date' => '2013-2017',
+      'desc' => 'Bachelor of Science - BS, Chemical and Bioengineering at ETH Zurich',
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => '',
-      'desc' => '',
+      'date' => '2018',
+      'desc' => 'Process Control Engineer at DSM',
+    ),
+    1 => array(
+      'date' => '2017-2017',
+      'desc' => 'Research Assistant at FML - Functional Materials Laboratory',
     ),
   ),
 
