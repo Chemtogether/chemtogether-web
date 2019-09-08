@@ -52,7 +52,9 @@ $(".clickable-tr").click(function() {
   window.location = $(this).data("url");
 });
 
-
+window.addEventListener("DOMContentLoaded", function(){
+  document.getElementsByTagName("body")[0].style.display = "block";
+});
 
 
 
