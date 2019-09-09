@@ -155,7 +155,7 @@ $template['we_look'] = array(
         'desc' => 'PhD in Chemistry with Prof. Dr. R. Gleiter at Universität Heidelberg',
       ),
       1 => array(
-        'date' => '1988-1995',
+        'date' => '1989-1995',
         'desc' => 'Diploma in Chemistry at Universität Heidelberg',
       ),
     ),
