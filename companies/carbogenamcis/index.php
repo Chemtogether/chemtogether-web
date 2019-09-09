@@ -60,7 +60,7 @@ $template['archive'] = '/archive/carbogenamcis';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'CARBOGEN AMCIS was founded in 2006 as a result of the merger between “AMCIS” and “CarboGen.” AMCIS was founded in 1982 as a joint venture with an American pharmaceutical company and CarboGen in 1990 at the University of Zurich.<br> We are a leading service provider in the area of organic chemistry, product and process development to commercial production of Active Pharmaceutical Ingredients (APIs) for the pharmaceutical and bio-pharmaceutical industry. Our core markets are in North America, Europe and Asia. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz) as well as facilities in France, United Kingdom and Shanghai. Our focus is to help customers create a better world.');
+  'text' => 'CARBOGEN AMCIS was founded in 2006 as a result of the merger between “AMCIS” and “CarboGen.” AMCIS was founded in 1982 as a joint venture with an American pharmaceutical company and CarboGen in 1990 at the University of Zurich.<br> We are a leading service provider in the area of organic chemistry, product and process development to commercial production of Active Pharmaceutical Ingredients (APIs) for the pharmaceutical and bio-pharmaceutical industry. Our core markets are in North America, Europe and Asia. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz) as well as facilities in France, United Kingdom and China. Our focus is to help customers create a better world.');
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => '<table class="fa-table">
@@ -190,12 +190,12 @@ $template['we_look'] = array(
     'interview' => array(
       0 => array(
         'question' => 'What are your current responsibilities in the area of business development at
-        CARBOGEN-AMCIS AG?',
+        CARBOGEN AMCIS AG?',
         'answer' => 'My responsibility is to ensure the company grows to its full potential on the market where
         my focus is currently set on Switzerland.',
       ),
       1 => array(
-        'question' => 'You started working at CARBOGEN-AMCIS AG in 1998. Into which fields did you gain
+        'question' => 'You started working at CARBOGEN AMCIS AG in 1998. Into which fields did you gain
         insight and were you able to follow your career aspirations throughout that time?',
         'answer' => 'Back then, my main field of action back was organic syntheses for clients around the globe. I
         became the team leader of a small team to serve pharma project tasks including doing
@@ -222,20 +222,20 @@ $template['we_look'] = array(
       4 => array(
         'question' => 'After finishing your degree in Chemistry at the Ruprecht-Karls-Universität Heidelberg,
         you obtained a PhD and worked as postdoctoral researcher at BASF before joining
-        CARBOGEN-AMCIS AG. Is it still necessary nowadays to finish a PhD or Postdoc before
+        CARBOGEN AMCIS AG. Is it still necessary nowadays to finish a PhD or Postdoc before
         joining the company?',
         'answer' => 'Not at all. What is important is your academic background, your personality and your
         willingness to add upon your current knowledge.',
       ),
       5 => array(
-        'question' => 'You have been with CARBOGEN-AMCIS AG for more than 20 years. In your opinion,
+        'question' => 'You have been with CARBOGEN AMCIS AG for more than 20 years. In your opinion,
         what does the company offer employees so that you have remained loyal to the
         company for so long? Are you able to find a good balance between work and your
         outside life?',
         'answer' => 'The company offers an interesting field to establish new crafts and talents and offers a very
         good working environment. The team spirits are excellent, and I still feel like I am working
         with the best people there are out there!
-        Yes, CARBOGEN-AMCIS AG offers a good work-life balance to me. If I need some inspiration,
+        Yes, CARBOGEN AMCIS AG offers a good work-life balance to me. If I need some inspiration,
         I grab my fishing gear and sit at one of the beautiful lakes to receive new impressions.',
       ),
       6 => array(
