@@ -62,7 +62,7 @@ $template['interview'][$i++] = array(
     ),
     1 => array(
       'date' => '2017-2017',
-      'desc' => 'Master of Science - MS, Chemical Engineering at TU Delft',
+      'desc' => 'Master of Science - MS, Exchange in Chemical Engineering at TU Delft',
     ),
     2 => array(
       'date' => '2013-2017',
@@ -74,10 +74,6 @@ $template['interview'][$i++] = array(
     0 => array(
       'date' => '2018',
       'desc' => 'Process Control Engineer at DSM',
-    ),
-    1 => array(
-      'date' => '2017-2017',
-      'desc' => 'Research Assistant at FML - Functional Materials Laboratory',
     ),
   ),
 
