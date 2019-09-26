@@ -70,8 +70,8 @@ $template['we_look'] = array(
   </table>');
 
 
-  $template['interview_print_until'] = 0;
-  if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+  $template['interview_print_until'] = 1;
+  //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
   $i=0;
 
