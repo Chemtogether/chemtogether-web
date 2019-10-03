@@ -57,8 +57,8 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.');
 
-$template['interview_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+$template['interview_print_until'] = 1;
+//if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;
 

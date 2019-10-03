@@ -150,7 +150,46 @@ $fb = array(
       </div>
     </div>
 
-    <div class="spacer">
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_1']['description'][$eng]); ?>
+      <br><br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_2']['description'][$eng]); ?>
+      <br><br>
+      <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_5'][$eng]); ?>
+      <br><br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_2']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
     </div>
 
     <div class="spacer">

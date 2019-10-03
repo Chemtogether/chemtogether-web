@@ -70,7 +70,34 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 // PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 $lang['content']['programme_text'] = array(
-  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest du die entsprechenden Details, sobald diese feststehen.',
-  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here as soon as they are certain.');
+  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest du die entsprechenden Details.',
+  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here.');
 
-?>
+$lang['content']['programme_1'] = array(
+  'title' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
+  'description' => array(
+    'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
+    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real word job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.',
+    'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
+    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real word job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
+  'time' => array('Donnerstag, 31. Oktober 2019, 18:00 Uhr','Thursday, 31 October 2019, 18:00pm'),
+  'place' => array('Veröffentlichung folgt','will be published soon')
+ );
+
+$lang['content']['programme_2'] = array(
+   'title' => array('Panel: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
+   'description' => array(
+     'Recent years have seen major evolutions in the field of Chemistry in both academic and industrial contexts. What is the outlook for Chemists in the context of the Fourth Industrial Revolution and the changing nature of work? How are these changes impacting the skills and knowledge the chemists of tomorrow need to be equipped with today?
+     This panel discussion will look at the latest trends globally and locally and consider what is to come, with a view to advising aspiring Chemists on their own careers. Guests:',
+     'Recent years have seen major evolutions in the field of Chemistry in both academic and industrial contexts. What is the outlook for Chemists in the context of the Fourth Industrial Revolution and the changing nature of work? How are these changes impacting the skills and knowledge the chemists of tomorrow need to be equipped with today?
+     This panel discussion will look at the latest trends globally and locally and consider what is to come, with a view to advising aspiring Chemists on their own careers. Guests:'),
+   'guest_1' => array('Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow','Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow'),
+   'guest_2' => array('Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich','Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich'),
+   'guest_3' => array('Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis in Small Molecules Technical Development at Roche','Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis Small Molecules Technical Development at Roche'),
+   'guest_4' => array('Dr. Michela Puddu - CEO at Haelixa','Dr. Michela Puddu - CEO at Haelixa'),
+   'guest_5' => array('Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich','Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich'),
+   'time' => array('Montag, 4. November 2019, 18:00 Uhr','Thursday, 4 November 2019, 18:00pm'),
+   'place' => array('HCI G3','HCI G3')
+ );
+
+ ?>
