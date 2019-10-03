@@ -145,7 +145,7 @@ $template['we_look'] = array(
 
   $i=0;
   $template['interview'][$i++] = array(
-    'name' => 'Volker Wolfart',
+    'name' => 'Dr. Volker Wolfart',
     'img_url' => $awss3.'/companies/carbogenamcis/interviewee_2019_1',
     'position' => 'Business Development',
   
