@@ -81,7 +81,6 @@ $lang['content']['programme_1'] = array(
     'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
     Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real word job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
   'time' => array('Donnerstag, 31. Oktober 2019, 18:00 Uhr','Thursday, 31 October 2019, 18:00pm'),
-  'place' => array('Veröffentlichung folgt','will be published soon')
  );
 
 $lang['content']['programme_2'] = array(
@@ -97,7 +96,18 @@ $lang['content']['programme_2'] = array(
    'guest_4' => array('Dr. Michela Puddu - CEO at Haelixa','Dr. Michela Puddu - CEO at Haelixa'),
    'guest_5' => array('Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich','Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich'),
    'time' => array('Montag, 4. November 2019, 18:00 Uhr','Thursday, 4 November 2019, 18:00pm'),
-   'place' => array('HCI G3','HCI G3')
+   'place' => array('HCI G 3','HCI G 3')
  );
+
+ $lang['content']['programme_3'] = array(
+  'title' => array('CV-Pics: Bewerbungsfotos','CV-Pics: Photo shoot'),
+  'description' => array(
+    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von Besuchern aufgenommen.<br>Bitte beachte, dass eine verbindliche Anmeldung für die Bewerbungsfotos unbedingt notwendig ist.',
+    'Throughout both days of Chemtogether, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>Registration for the photo shoot is mandatory.'),
+  'button' => array("zur Anmeldung", "Register here"),
+  'other' => array('Anmeldung erforderlich','Registration necessary'),
+  'time' => array('gemäss Termin','according to appointment'),
+  'place' => array('HCI J 341','HCI J 341')
+);
 
  ?>
