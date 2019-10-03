@@ -62,10 +62,14 @@ if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_s
   
     'education' => array(
       0 => array(
+        'date' => '2012-2015',
+        'desc' => ' PhD in Science, Department of Chemistry and Applied Biosciences, ETH Zurich (CH), «Synthetic DNA Fossils», Diss. Nr. 23033 (2015)',
+      ),
+      1 => array(
         'date' => '2010-2012',
         'desc' => ' Master in Chemistry, ETH Zurich (CH), Focus: Process design and optimization of DNA functionalized nanoparticles',
       ),
-      1 => array(
+      2 => array(
         'date' => '2007-2010',
         'desc' => 'Bachelor in Chemistry, Ruprecht-Karls-University Heidelberg (DE), Focus: Synthesis of organic compounds and catalysis',
       ),
@@ -84,7 +88,7 @@ if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_s
       ),
       1 => array(
         'date' => '2012-2016',
-        'desc' => 'After her Master studies she worked as a PhD Researcher for the Institute for Chemical and Bioengineering at ETH. During this time, she as well gained wide range of work experience. At Go Beyond Early Stage Investing she had the opportunity to develop a tool for evaluating the investment potential of start-ups. She as well worked at the ETH on project basis as a consultant for technology companies in the decision of marketing and innovation.',
+        'desc' => 'After her Master studies she worked as a PhD Researcher for the Institute for Chemical and Bioengineering at ETH, which resulted in 16 peer-reviewed scientific publications (5 as first author). During this time, she as well gained wide range of work experience. At Go Beyond Early Stage Investing she had the opportunity to develop a tool for evaluating the investment potential of start-ups. She as well worked at the ETH on project basis as a consultant for technology companies in the decision of marketing and innovation.',
       ),
     ),
   
