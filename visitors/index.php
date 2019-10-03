@@ -192,6 +192,38 @@ $fb = array(
     </div>
     </div>
 
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_3']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_3']['description'][$eng]); ?>
+      <br>
+      <br>
+      <div class="programme_button_div">
+        <a href="https://ethz.doodle.com/poll/8f48iequk27b6pkv">
+          <span><?php echo($lang['content']['programme_3']['button'][$eng]); ?></span>
+        </a>
+      </div>
+      <br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="fas fa-fw fa-exclamation"></i></td>
+          <td><?php echo($lang['content']['programme_3']['other'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_3']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_3']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
     <div class="spacer">
     </div>
 
