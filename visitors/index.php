@@ -176,8 +176,7 @@ $fb = array(
       <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_5'][$eng]); ?>
+      <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?>
       <br><br>
       <table class="fa-table">
         <tr>
