@@ -46,8 +46,8 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'DSM is looking for potential talents with an open-minded thinking, high competences in problem solution and sustainable working methods. PhDs, University or apprentice graduates in Life Sciences or Chemistry will develop new processes, optimize chemical routes and ensure highest quality of DSM products.');
     
-$template['interview_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+$template['interview_print_until'] = 1;
+//if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;
 $template['interview'][$i++] = array(
