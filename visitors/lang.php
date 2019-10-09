@@ -76,22 +76,20 @@ $lang['content']['programme_text'] = array(
 $lang['content']['programme_1'] = array(
   'title' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
   'description' => array(
+    'Du bist nervös bei Vorstellungsgesprächen? Welche Stelle zu deinem CV passt, weisst auch Du noch nicht so genau? Dann komm zu unserem Pre-Event mit dem ETH Career Center und lerne, welcher CV zu einer echten Stellenbeschreibung passt! Sei dabei bei einem LIVE INTERVIEW. Ein Student vom D-CHAB wird an diesem Abend vor Publikum von den Experten des Career Centers interviewed. Wie bei einem echten Vorstellungsgespräch. Danach gibt es eine Diskussion über das Gespräch und es werden konkrete Tipps & Tricks für Interviewsituationen herausgearbeitet.',
     'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
-    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real word job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.',
-    'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
-    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real word job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
+    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real world job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
   'time' => array('Donnerstag, 31. Oktober 2019, 18:00 Uhr','Thursday, 31 October 2019, 18:00pm'),
  );
 
 $lang['content']['programme_2'] = array(
    'title' => array('Panel: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
    'description' => array(
-     'Recent years have seen major evolutions in the field of Chemistry in both academic and industrial contexts. What is the outlook for Chemists in the context of the Fourth Industrial Revolution and the changing nature of work? How are these changes impacting the skills and knowledge the chemists of tomorrow need to be equipped with today?
-     This panel discussion will look at the latest trends globally and locally and consider what is to come, with a view to advising aspiring Chemists on their own careers. Guests:',
+     'Seit den letzten Jahren sind viele grundlegend neue Trends in der Chemie zu beobachten. Nicht nur in einem akademischen Umfeld, sondern auch in der Industrie. Wie sieht die Zukunft für Chemiker im Bezug auf die die vierte industrielle Revolution aus? Wie wird sich der Arbeitsplatz verändern und was sind die Fähigkeiten, die der Chemiker von morgen schon heute lernen sollte? In dieser Diskussion werden globale und lokale Trends analyiert und geschaut, was uns in den nächsten Jahren noch erwarten wird, um den zukünftigen Chemikern als Inspiration für ihre Karriere zu dienen. Gäste:',
      'Recent years have seen major evolutions in the field of Chemistry in both academic and industrial contexts. What is the outlook for Chemists in the context of the Fourth Industrial Revolution and the changing nature of work? How are these changes impacting the skills and knowledge the chemists of tomorrow need to be equipped with today?
      This panel discussion will look at the latest trends globally and locally and consider what is to come, with a view to advising aspiring Chemists on their own careers. Guests:'),
    'guest_1' => array('Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow','Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow'),
-   'guest_2' => array('Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich','Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich'),
+   'guest_2' => array('Prof. Dr. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich','Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich'),
    'guest_3' => array('Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis in Small Molecules Technical Development at Roche','Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis Small Molecules Technical Development at Roche'),
    'guest_4' => array('Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich','Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich'),
    'time' => array('Montag, 4. November 2019, 18:00 Uhr','Thursday, 4 November 2019, 18:00pm'),
