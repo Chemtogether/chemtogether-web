@@ -92,7 +92,7 @@ $lang['content']['programme_2'] = array(
    'guest_2' => array('Prof. Dr. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich','Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich'),
    'guest_3' => array('Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis in Small Molecules Technical Development at Roche','Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis Small Molecules Technical Development at Roche'),
    'guest_4' => array('Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich','Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich'),
-   'time' => array('Montag, 4. November 2019, 18:00 Uhr','Thursday, 4 November 2019, 18:00pm'),
+   'time' => array('Montag, 4. November 2019, 18:00 Uhr','Monday, 4 November 2019, 18:00pm'),
    'place' => array('HCI G 3','HCI G 3')
  );
 
