@@ -43,8 +43,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'Ivoclar Vivadent is an exciting, vibrant workplace where new ideas are encouraged and commitment is rewarded. We are looking for young, committed graduates who are passionate about innovation and share our vision to develop solutions for tomorrow’s dentistry.');
 
-$template['interview_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+$template['interview_print_until'] = 1;
 
 $i=0;
 
