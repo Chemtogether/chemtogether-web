@@ -202,7 +202,7 @@ $template['interview'][$i++] = array(
   'education' => array(
     0 => array(
       'date' => '2012-2015',
-      'desc' => 'Doctor of Sciences at ETH Zurich, Group of Prof. Dr. A Togni',
+      'desc' => 'Doctor of Sciences at ETH Zurich, Group of Prof. Dr. A Togni and PD Dr. HP Lüthi',
     ),
     1 => array(
       'date' => '2009-2012',
@@ -237,11 +237,11 @@ $template['interview'][$i++] = array(
     ),
     4 => array(
       'date' => '2004-2006',
-      'desc' => 'Senior Technician, Givaudan AG',
+      'desc' => 'Senior Laboratory Assistant, Givaudan AG',
     ),
     5 => array(
       'date' => '2003-2004',
-      'desc' => 'Chef Technician (Cheflaborant), Givaudan AG',
+      'desc' => 'Chef Laboratory Assistant (Cheflaborant), Givaudan AG',
     ),
     6 => array(
       'date' => '1997-2003',
