@@ -53,13 +53,83 @@ $template['we_look'] = array(
   'text' => 'We are regularly looking for talents with a strong educational background in Life Sciences, recently having gained a relevant university degree or with first industry experience, pursuing a career in the pharmaceutical industry. Your experience can be applied in a variety of functions within our local and regional organizations in Switzerland, e.g. in R&amp;D and manufacturing, quality, regulatory affairs or external manufacturing management. Besides, MSD offers an apprenticeship program with a focus on biology or chemistry.');
 $template['interview_print_until'] = 1;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
-$i = 0;
 
 $template['interview_print_until'] = 0;
-  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+
+$i=0;
+
+$template['interview'][$i++] = array(
+  'name' => 'Dr. Stephanie Moessner',
+  'img_url' => $awss3.'/companies/msd/interviewee_2019_1',
+  'position' => 'Director Pharmaceutical Sciences WAG',
+
+  'education' => array(
+    0 => array(
+      'date' => '1996-1998',
+      'desc' => 'Postdoctoral Researcher (Humboldt Fellowship), NIST National Institute of Standards and Technology, Gaithersburg, Maryland, US',
+    ),
+    1 => array(
+      'date' => '1991-1995',
+      'desc' => 'PhD scientist in analytical and environmental chemistry, toxicology, University of Ulm, Germany, Department of Analytical and Environmental Chemistry',
+    ),
+    2 => array(
+      'date' => '1985-1991',
+      'desc' => 'Diploma, Chemistry (inorganic, organic, physical and analytical chemistry), University of Ulm, Germany',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2018',
+      'desc' => 'Director PharmSci WAG, Werthenstein BioPharma GmbH, MSD Switzerland',
+    ),
+    1 => array(
+      'date' => '2010-2018',
+      'desc' => 'Director ACDS (Analytical Chemistry in Development and Supply), Werthenstein BioPharma GmbH, MSD Switzerland',
+    ),
+    2 => array(
+      'date' => '2004-2010',
+      'desc' => 'Associate Director GMP/Comparator Labs, Werthenstein BioPharma GmbH, MSD Switzerland',
+    ),
+    3 => array(
+      'date' => '1999-2004',
+      'desc' => 'AManager Stability Lab, Werthenstein Chemie AG',
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'What is your daily work like as director at MSD and what are your responsibilities?',
+      'answer' => 'I am head of the Pharmaceutical Sciences department at MSD in Switzerland. My teams are developing analytical methods for innovative drug products, e.g. on polymeric basis. My daily work is mainly leading people, project coordination and making strategic decisions.',
+    ),
+    1 => array(
+      'question' => 'You worked in the academia and the industry. How does the work differ in the fields and what could they learn from each other?',
+      'answer' => 'While academia is primarily focused on basic scientific research, the pharmaceutical industry is applying these results into products for the benefit of the patient. Synergies between academia and industry are key for the success of both. MSD has recognized this important network and has established their research facilities close to top universities.',
+    ),
+    2 => array(
+      'question' => 'You graduated in chemistry and completed your PhD as well in the fields of chemistries. How much do you still come in contact with concrete chemistry in your function as director?',
+      'answer' => 'In my current position as people manager, the direct contact with scientific problems is less in focus than earlier in my career. Other competencies like developing and motivating people get more important.',
+    ),
+    3 => array(
+      'question' => 'How much have your studies prepared you for your role as director at MSD?',
+      'answer' => 'During my PhD thesis in addition to working on scientific questions I have learned how to manage success and failure. I learned to be curious, resilient, flexible and adapt to challenging situations. This has tremendously prepared me for my current role.',
+    ),
+    4 => array(
+      'question' => 'How important is harmony between work and outside life for you? Does MSD offer a good work-life balance for its employees?',
+      'answer' => 'A good work-life balance is and was very important during my career. I have two children, worked part-time for many years, enjoy flexible working hours and can work from home. MSD has been recognized as Top Employer since many years.',
+    ),
+    5 => array(
+      'question' => 'You were already promoted multiple times. How do you imagine your future career path to look like?',
+      'answer' => 'This is a good question! To be honest, I never had a clear career path laid out for me. I always relied on my openness, flexibility and good network to develop into potential new roles.',
+    ),
+    6 => array(
+      'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or internships?',
+      'answer' => 'I would suggest him or her to be open-minded, choose broadly and be aware that the industry is changing fast and not always in a predictable way. A good network, challenging mentors and supportive sponsors are crucial in your career. Attending as many university events as possible to establish relationships with potential employers in the region is very helpful. Explore different areas in internships to get an understanding, what it is like to work in such a role. There are so many opportunities nowadays, so keep on exploring.',
+    ),
+  ),
+);
 
 include('../0_template/template.php');
-
-
 
 ?>
