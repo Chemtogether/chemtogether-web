@@ -94,7 +94,7 @@ $template['interview'][$i++] = array(
     ),
     3 => array(
       'date' => '1999-2004',
-      'desc' => 'AManager Stability Lab, Werthenstein Chemie AG',
+      'desc' => 'Manager Stability Lab, Werthenstein Chemie AG',
     ),
   ),
 
