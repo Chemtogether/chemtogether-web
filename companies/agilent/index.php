@@ -45,11 +45,17 @@ $template['homepage'] = array('https://www.agilent.com/','agilent.com');
 $template['facebook'] = array('https://www.facebook.com/Agilent.Tech/', 'Agilent Technologies');
 $template['linkedin'] = array('https://ch.linkedin.com/company/agilent-technologies','Agilent Technologies');
 
-$template['we_are'] = 0;
+$template['we_are'] = array(
+  'title' => 'We are',
+  'text' => 'Agilent inspires and supports discoveries that advance the quality of life. We provide life science, diagnostic and applied market laboratories worldwide with instruments, services, consumables, applications and expertise. With more than 15,000 employees, Agilent enables customers to gain the answers and insights they seek –– so they can do what they do best: improve the world around us. For more information about Agilent, see: www.agilent.com.');
 
-$template['we_offer'] = 0;
+$template['we_offer'] = array(
+  'title' => 'We offer',
+  'text' => 'Agilent regularly offers career opportunities in Switzerland in the following functions: Sales (e.g. Account Management [internal, external], Product Specialist, Marketing Program Management), Service (Field Service Engineer, Application Engineer), and Lab Informatics Product Development (e.g. LIMS, ELN, as well as the laboratory software automation suite SLIMS [Genohm]). By joining Agilent you become part of a dedicated, passionate, and international team on a mission to inspire discoveries for a better world.');
 
-$template['we_look'] = 0;
+$template['we_look'] = array(
+  'title' => 'We are looking for',
+  'text' => 'Agilent employees come from a variety of backgrounds, including Science, Technology, Engineering, and Business. In general, you should have a genuine interest in Research and Technology, particularly in Biotechnology and Life Sciences, be able to adapt well in a dynamic working environment and have an eager to learn attitude. For current opportunities in Switzerland, Europe, and globally: www.agilent.com/go/careers.');
 
 $template['interview_print_until'] = 0;
   if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

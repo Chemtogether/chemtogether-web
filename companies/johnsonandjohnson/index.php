@@ -45,11 +45,20 @@ $template['homepage'] = array('http://www.jnj.ch/','jnj.ch');
 $template['facebook'] = array('https://facebook.com/jnj/', 'Johnson & Johnson');
 $template['linkedin'] = array('https://www.linkedin.com/company/johnson-&-johnson/','Johnson & Johnson');
 
-$template['we_are'] = 0;
+$template['we_are'] = array(
+  'title' => 'We are',
+  'text' => 'At Johnson & Johnson, we believe good health is the foundation of vibrant lives, thriving communities and forward progress. That’s why for more than 130 years, we have aimed to keep people well at every age and every stage of life. Today, as the world’s largest and most broadly based healthcare company, we are committed to using our reach and size for good. We strive to improve access and affordability, create healthier communities, and put a healthy mind, body and environment within reach of everyone, everywhere. 
+  Every day, our more than 130,000 employees across the world are blending heart, science and ingenuity to profoundly change the trajectory of health for humanity.');
 
-$template['we_offer'] = 0;
+$template['we_offer'] = array(
+  'title' => 'We offer',
+  'text' => 'Bachelor’s, Master’s, MBA, and PhD students can find outstanding opportunities to apply their academic skills through internship, co-op, or full-time roles within our Swiss companies. Our Leadership Development Programs (LDPs) offer accelerated development across a range of functional disciplines for high-potential students, notably: 
+    The Global Operations Leadership Development (GOLD) Program combines challenging work rotations with classroom and online training over a two and a half-year period. The goal is to develop the next generation of leaders for Supply Chain, Operations, Engineering and Quality roles. 
+    The Financial Leadership Development Program (FLDP) is a two year program designed to successfully develop future business leaders throughout the Johnson & Johnson Finance organization.');
 
-$template['we_look'] = 0;
+$template['we_look'] = array(
+  'title' => 'We are looking for',
+  'text' => 'Whether you are an undergraduate, master’s or MBA student, when you apply for the overall Leadership program in your area of interest, you will become eligible for one of the many slots available in that field. And when you join our team, you will not just be working on major assignments—you’ll also have the support you need in order to succeed. All of our programs include training and mentorship as a core part of the experience.');
 
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
