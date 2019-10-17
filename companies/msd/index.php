@@ -101,7 +101,7 @@ $template['interview'][$i++] = array(
   'interview' => array(
     0 => array(
       'question' => 'What is your daily work like as Director of Chemistry at MSD and what are your responsibilities?',
-      'answer' => 'I am head of the Pharmaceutical Sciences department at MSD in Switzerland at the development site an Schachen close to Lucerne. My teams are developing analytical methods for innovative drug products, e.g. on polymeric basis. My daily work is mainly leading people, project coordination and making strategic decisions.',
+      'answer' => 'I am head of the Pharmaceutical Sciences department at MSD in Switzerland at the development site in Schachen close to Lucerne. My teams are developing analytical methods for innovative drug products, e.g. on polymeric basis. My daily work is mainly leading people, project coordination and making strategic decisions.',
     ),
     1 => array(
       'question' => 'You worked in the academia and the industry. How does the work differ in the fields and what could they learn from each other?',
