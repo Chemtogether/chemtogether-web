@@ -42,16 +42,17 @@ $template['we_look'] = array(
   'text' => 'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.');
 
 
-//$template['interview_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+//$template['successstory_print_until'] = 0;
+if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['successstory_print_until'] = 1;
 
 $i=0;
 
-$template['interview'][$i++] = array(
+$template['successstory'][$i++] = array(
   'name' => 'Carl Philipp Rosenau',
   'img_url' => $awss3.'/companies/sika/interviewee_2019_1',
+  'introduction' => 'Carl Philipp Rosenau performed his doctoral studies in the Togni group at the department chemistry and applied biosciences (D-CHAB) at ETH Zurich, where he worked on organometallic chemistry. After completing his doctorate, he switched to a new field and is now working as project manager in the R&D department in the “body-in-white bulk” team of Sika Technology AG in Zurich. He develops one-component body-in-white adhesives for automotive companies within Europe and manages the projects from idea to roll-out at the customer.',
 
-  'interview' => array(
+  'successstory' => array(
     0 => array(
       'question' => 'You switched from academia to industry almost a year ago. What were your first steps in search for employment?',
       'answer' => 'The first step was building a network of people outside my research field – this takes time. This is important as they help you finding out about the variety of different companies and job descriptions one is not aware of while being in the academic world. Also, with personal contacts, information on job vacancies are spread faster and easier.
