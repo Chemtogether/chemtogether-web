@@ -18,8 +18,9 @@ $lang['detail']['successstory']['section'] = array('Chemtogether Erfolgsgeschich
 $lang['detail']['successstory']['introduction'] = array('Vorstellung','Introduction');
 $lang['detail']['successstory']['read_more'] = array('Lies weiter','Read more');
 
+$template['name'] = 'erfolgsgeschichte';
 $template['successstory_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['successstory_print_until'] = 1;
+if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['erfolgsgeschichte'])) $template['successstory_print_until'] = 1;
 
 $i=0;
 
