@@ -32,7 +32,9 @@ $fb = array(
 
 
 <!-- START CONTENT -->
-<div id="main" class="container">
+<div class="companies-detail" id="main">
+
+  <div class="container">
 
     <div class="spacer">
     </div>
@@ -52,6 +54,20 @@ $fb = array(
       </div>
     </div>
 
+    <div class="spacer">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['gallery_subsection'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="spacer">
+    </div>
 
     <div class="content flex">
       <div class="text l-4 m-6 s-12">
@@ -92,7 +108,68 @@ $fb = array(
       </div>
     </div>
 
+    <?php if($template['successstory_print_until'] > 0) { ?>
+      <div class="spacer">
+      </div>
 
+      <div class="spacer">
+      </div>
+
+      <div class="section">
+        <span class="section-slashes">
+          <span>/</span><span>/</span>
+        </span>
+        <span class="section-text">
+          <?php echo($lang['detail']['successstory']['section'][$eng]); ?>
+        </span>
+      </div>
+
+      <?php for ($i=0; ($i < sizeof($template['successstory'])) && ($i < $template['successstory_print_until']); $i++) { ?>
+        <div class="spacer">
+        </div>
+
+        <div class="anchor" id="i-<?php echo($i); ?>">
+        </div>
+
+        <div class="content flex-center">
+          <div class="image-interviewee l-4 m-4 s-12">
+            <div>
+              <img <?php set_source($template['successstory'][$i]['img_url'], 'png'); ?>></img>
+            </div>
+          </div>
+          
+        <div class="text l-8 m-8 s-12">
+          <div class="interview-info">
+            <span><?php echo($template['successstory'][$i]['name']); ?></span><br>
+              <div><?php echo($template['successstory'][$i]['introduction']); ?></div>
+            </div>
+          </div>
+        </div>
+
+            <div class="content flex" id="interview-<?php echo($i); ?>">
+              <?php for ($j=0; $j < sizeof($template['successstory'][$i]['successstory']); $j++) { ?>
+                <div class="text l-12 m-12 s-12">
+                  <div><?php echo($template['successstory'][$i]['successstory'][$j]['question']); ?></div>
+                  <div><?php echo($template['successstory'][$i]['successstory'][$j]['answer']); ?></div>
+                </div>
+              <?php } ?>
+            </div>
+
+            <div class="content flex">
+              <div class="text l-12 m-12 s-12">
+                <div class="interview-separator spoiler-button" data-targetid="interview-<?php echo($i); ?>">
+                  <span><i class="rotate fas fa-chevron-down"></i></span>
+                  <span><?php echo($lang['detail']['successstory']['read_more'][$eng]); ?></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="spacer">
+            </div>
+          <?php } ?>
+
+        <?php } ?>
+  </div>
 </div>
 
 <!-- END CONTENT  -->
