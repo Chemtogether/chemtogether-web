@@ -55,8 +55,4 @@ $lang['detail']['interviews']['career'] = array('Karriere','Career');
 $lang['detail']['interviews']['present'] = 'present';
 $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
-$lang['detail']['successstory']['section'] = array('Chemtogether Success Story','Chemtogether Erfolgsgeschichte');
-$lang['detail']['successstory']['introduction'] = array('Vorstellung','Introduction');
-$lang['detail']['successstory']['read_more'] = array('Lies weiter','Read more');
-
 ?>
