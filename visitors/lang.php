@@ -15,8 +15,8 @@ $lang['content']['intro_text'] = array(
   'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
 
 $lang['content']['main_text'] = array(
-  'Chemtogether 2019 wird am 5. und 6. November 2019 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
-  'Chemtogether 2019 will take place on 5th and 6th November 2019 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, nine different companies will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
+  'Chemtogether 2019 wird am 5. und 6. November 2019 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
+  'Chemtogether 2019 will take place on 5th and 6th November 2019 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
 $lang['content']['links_guide'] = array('Messeführer (2018)','Expo Guide (2018)');
@@ -26,8 +26,41 @@ $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exh
 // SCHEDULE
 $lang['content']['schedule_subsection'] = array('Programmplan','Schedule');
 $lang['content']['schedule_text'] = array(
-  'Hier finden Sie mehr Informationen zu den einzelnen Programmpunkten, sobald diese feststehen.',
-  'For more information on individual events, please check below. Data will be added as soon as the events are certain.');
+  'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
+  'For more information on individual events, please check at the end of this webpage.');
+$lang['content']['schedule_talk1'] = array(
+  'title' => array('Donnerstag, 31. Oktober','Thursday, 31st October'),
+  'event1' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
+  'event2' => array('',''),
+  'event3' => array('',''),
+  'event4' => array('',''),
+  'event5' => array('','')
+);
+$lang['content']['schedule_talk2'] = array(
+  'title' => array('Montag, 4. November','Monday, 4th November'),
+  'event1' => array('Paneldiskussion: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
+  'event2' => array('',''),
+  'event3' => array('',''),
+  'event4' => array('',''),
+  'event5' => array('','')
+);
+$lang['content']['schedule_tuesday'] = array(
+  'title' => array('Dienstag, 5. November','Tuesday, 5th November'),
+  'event1' => array('Eröffnung der Messe','Start of the fair'),
+  'event2' => array('Eröffnungsrede Messetag 1','Opening Talk fair day 1'),
+  'event3' => array('Apéro','Apéro'),
+  'event4' => array('Ende der Messe','End of the fair'),
+  'event5' => array('','')
+);
+$lang['content']['schedule_wednesday'] = array(
+  'title' => array('Mittwoch, 6. November','Wednesday, 6th November'),
+  'event1' => array('Eröffnung der Messe','Start of the fair'),
+  'event2' => array('Eröffnungsrede Messetag 2','Opening Talk fair day 2'),
+  'event3' => array('Apéro','Apéro'),
+  'event4' => array('Ende der Messe','End of the fair'),
+  'event5' => array('','')
+);
+
 
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
@@ -105,6 +138,15 @@ $lang['content']['programme_2'] = array(
   'other' => array('Anmeldung erforderlich','Registration necessary'),
   'time' => array('gemäss Termin','according to appointment'),
   'place' => array('HCI J 341','HCI J 341')
+);
+
+$lang['content']['programme_4'] = array(
+  'title' => array('CV-Check','CV-Check'),
+  'description' => array(
+    'Lass deinen persönlichen Lebenslauf checken. Die Experten von Consult & Pepper geben Dir individuelles Feedback.',
+    'Get your personal CV checked. The experts from Consult & Pepper will give you individual feedback.'),
+  'time' => array('An beiden Messetagen','Both fair days'),
+  'place' => array('HCI J 174 (Dienstag) und HCI H 174 (Mittwoch)','HCI J 174 (Tuesday) und HCI H 174 (Wednesday)')
 );
 
  ?>

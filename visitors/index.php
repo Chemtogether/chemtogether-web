@@ -102,129 +102,120 @@ $fb = array(
       </div>
     </div>
 
-    <div class="spacer">
+  <div class="spacer">
+  </div>
+
+  <div class="spacer">
+  </div>
+
+  <div class="anchor" id="schedule">
+  </div>
+
+  <div class="section">
+    <span class="section-slashes">
+      <span>/</span><span>/</span>
+    </span>
+    <span class="section-text">
+      <?php echo($lang['content']['schedule_subsection'][$eng]); ?>
+    </span>
+  </div>
+
+  <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <?php echo($lang['content']['schedule_text'][$eng]); ?>
     </div>
 
-    <div class="spacer">
-    </div>
-
-    <div class="anchor" id="schedule">
-    </div>
-
-    <div class="section">
-      <span class="section-slashes">
-        <span>/</span><span>/</span>
-      </span>
-      <span class="section-text">
-        <?php echo($lang['content']['schedule_subsection'][$eng]); ?>
-      </span>
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['schedule_text'][$eng]); ?>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="anchor" id="programme">
-    </div>
-
-    <div class="section">
-      <span class="section-slashes">
-        <span>/</span><span>/</span>
-      </span>
-      <span class="section-text">
-        <?php echo($lang['content']['programme_subsection'][$eng]); ?>
-      </span>
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['programme_text'][$eng]); ?>
-      </div>
-    </div>
-
-    <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
+        <?php echo($lang['content']['schedule_talk1']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1']['description'][$eng]); ?>
-      <br><br>
-      <table class="fa-table">
+      <table class="schedule">
         <tr>
-          <td><i class="far fa-fw fa-clock"></i></td>
-          <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
+          <td><i class="far fa-fw fa-comment"></i></td>
+          <td>18:00</td>
+          <td><?php echo($lang['content']['schedule_talk1']['event1'][$eng]); ?></td>
         </tr>
       </table>
     </div>
-    </div>
 
-    <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
+        <?php echo($lang['content']['schedule_talk2']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_2']['description'][$eng]); ?>
-      <br><br>
-      <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?>
-      <br><br>
-      <table class="fa-table">
+      <table class="schedule">
         <tr>
-          <td><i class="far fa-fw fa-clock"></i></td>
-          <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
-        </tr>
-        <tr>
-          <td><i class="far fa-fw fa-map"></i></td>
-          <td><?php echo($lang['content']['programme_2']['place'][$eng]); ?></td>
+          <td><i class="far fa-fw fa-comment"></i></td>
+          <td>18:00</td>
+          <td><?php echo($lang['content']['schedule_talk2']['event1'][$eng]); ?></td>
         </tr>
       </table>
     </div>
-    </div>
 
-
-    <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        <?php echo($lang['content']['programme_3']['title'][$eng]); ?>
+        <?php echo($lang['content']['schedule_tuesday']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_3']['description'][$eng]); ?>
-      <br>
-      <br>
-      <div class="programme_button_div">
-        <a href="https://ethz.doodle.com/poll/8f48iequk27b6pkv">
-          <span><?php echo($lang['content']['programme_3']['button'][$eng]); ?></span>
-        </a>
-      </div>
-      <br>
-      <table class="fa-table">
+      <table class="schedule">
         <tr>
-          <td><i class="fas fa-fw fa-exclamation"></i></td>
-          <td><?php echo($lang['content']['programme_3']['other'][$eng]); ?></td>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td>09:00</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event1'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-comment"></i></td>
+          <td>09:30</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event2'][$eng]); ?></td>
+        </tr>
+        <tr>
+        <tr>
+          <td><i class="fas fa-fw fa-utensils"></i></td>
+          <td>16:30</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event3'][$eng]); ?></td>
         </tr>
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
-          <td><?php echo($lang['content']['programme_3']['time'][$eng]); ?></td>
-        </tr>
-        <tr>
-          <td><i class="far fa-fw fa-map"></i></td>
-          <td><?php echo($lang['content']['programme_3']['place'][$eng]); ?></td>
+          <td>17:00</td>
+          <td><?php echo($lang['content']['schedule_tuesday']['event4'][$eng]); ?></td>
         </tr>
       </table>
     </div>
+
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['schedule_wednesday']['title'][$eng]); ?>
+      </div>
+      <table class="schedule">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td>09:00</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event1'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-comment"></i></td>
+          <td>09:30</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event2'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-fw fa-utensils"></i></td>
+          <td>16:30</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event3'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td>17:00</td>
+          <td><?php echo($lang['content']['schedule_wednesday']['event4'][$eng]); ?></td>
+        </tr>
+      </table>
     </div>
 
-    <div class="spacer">
-    </div>
+  </div>
+
+  <div class="spacer">
+  </div>
+
+  <div class="spacer">
+  </div>
+
 
     <div class="section">
         <span class="section-slashes">
@@ -320,6 +311,120 @@ $fb = array(
 
     <div class="spacer">
     </div>  
+
+    <div class="anchor" id="programme">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['programme_subsection'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['programme_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_1']['description'][$eng]); ?>
+      <br><br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_2']['description'][$eng]); ?>
+      <br><br>
+      <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?>
+      <br><br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_2']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_3']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_3']['description'][$eng]); ?>
+      <br>
+      <br>
+      <div class="programme_button_div">
+        <a href="https://ethz.doodle.com/poll/8f48iequk27b6pkv">
+          <span><?php echo($lang['content']['programme_3']['button'][$eng]); ?></span>
+        </a>
+      </div>
+      <br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="fas fa-fw fa-exclamation"></i></td>
+          <td><?php echo($lang['content']['programme_3']['other'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_3']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_3']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_4']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_4']['description'][$eng]); ?>
+      <br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_4']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_4']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+    <div class="spacer">
+    </div>
 
   </div>
 </div>
