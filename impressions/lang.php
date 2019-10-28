@@ -19,8 +19,8 @@ $lang['detail']['successstory']['introduction'] = array('Vorstellung','Introduct
 $lang['detail']['successstory']['read_more'] = array('Lies weiter','Read more');
 
 $template['name'] = 'erfolgsgeschichte';
-$template['successstory_print_until'] = 1;
-//if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['name'])) $template['successstory_print_until'] = 1;
+$template['successstory_print_until'] = 0;
+if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['name'])) $template['successstory_print_until'] = 1;
 
 $i=0;
 
