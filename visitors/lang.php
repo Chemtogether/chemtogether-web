@@ -113,6 +113,7 @@ $lang['content']['programme_1'] = array(
     'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
     Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real world job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
   'time' => array('Donnerstag, 31. Oktober 2019, 18:00 Uhr','Thursday, 31 October 2019, 18:00pm'),
+  'place' => array('HIL E 4','HIL E 4')
  );
 
 $lang['content']['programme_2'] = array(
