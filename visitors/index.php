@@ -342,6 +342,10 @@ $fb = array(
           <td><i class="far fa-fw fa-clock"></i></td>
           <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
         </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_1']['place'][$eng]); ?></td>
+        </tr>
       </table>
     </div>
     </div>
