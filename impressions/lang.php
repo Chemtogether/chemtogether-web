@@ -19,21 +19,21 @@ $lang['detail']['successstory']['introduction'] = array('Vorstellung','Introduct
 $lang['detail']['successstory']['read_more'] = array('Lies weiter','Read more');
 
 $template['name'] = 'erfolgsgeschichte';
-$template['successstory_print_until'] = 0;
-if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['name'])) $template['successstory_print_until'] = 1;
+$template['successstory_print_until'] = 1;
+//if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['name'])) $template['successstory_print_until'] = 1;
 
 $i=0;
 
 $template['successstory'][$i++] = array(
-  'name' => 'Carl Philipp Rosenau',
+  'name' => 'Dr. Carl Philipp Rosenau',
   'img_url' => $awss3.'/companies/sika/interviewee_2019_1',
-  'introduction' => 'Carl Philipp Rosenau performed his doctoral studies in the Togni group at the department chemistry and applied biosciences (D-CHAB) at ETH Zurich, where he worked on organometallic chemistry. After completing his doctorate, he switched to a new field and is now working as project manager in the R&D department in the “body-in-white bulk” team of Sika Technology AG in Zurich. He develops one-component body-in-white adhesives for automotive companies within Europe and manages the projects from idea to roll-out at the customer.',
+  'introduction' => 'Dr. Carl Philipp Rosenau performed his doctoral studies in the Togni group at the department chemistry and applied biosciences (D-CHAB) at ETH Zurich, where he worked on organometallic chemistry. After completing his doctorate, he switched to a new field and is now working as project manager in the R&D department in the “body-in-white bulk” team of Sika Technology AG in Zurich. He develops one-component body-in-white adhesives for automotive companies within Europe and manages the projects from idea to roll-out at the customer.',
 
   'successstory' => array(
     0 => array(
       'question' => 'You switched from academia to industry almost a year ago. What were your first steps in search for employment?',
       'answer' => 'The first step was building a network of people outside my research field – this takes time. This is important as they help you finding out about the variety of different companies and job descriptions one is not aware of while being in the academic world. Also, with personal contacts, information on job vacancies are spread faster and easier.
-      Attending career fairs such as Chemtogether, the career night and other events offered by the career center of ETH was an essential step of building a network.
+      Attending career fairs such as Chemtogether, the career night and other events offered by the career center of ETH were essential steps of building a network.
       For example, I only got to know Sika at a career event and intensified the contact at Chemtogether.',
     ),
     1 => array(
@@ -46,7 +46,7 @@ $template['successstory'][$i++] = array(
     ),
     3 => array(
       'question' => 'Can you give advice on how early one should start their job search?',
-      'answer' => 'I would recommend to start at least one year ahead of your desired starting date. In my experience, many people are too busy doing research or writing their thesis and only start the job search after they have graduated. As the job search involves a lot of preparation and most importantly self-consciousness to find out one’s own skills set and desires - this process takes some time. It’s a learning curve, of course (laughs).
+      'answer' => 'I would recommend to start at least one year ahead of your desired starting date. In my experience, many people are too busy doing research or writing their thesis and only start the job search after they have graduated. As the job search involves a lot of preparation and most importantly self-consciousness to find out about one’s own skills set and desires - this process takes some time. It’s a learning curve, of course (laughs).
       Moreover, nowadays you need to write a lot of applications before getting hired - despite having an advanced science degree from ETH Zurich.',
     ),
     4 => array(
@@ -56,11 +56,11 @@ $template['successstory'][$i++] = array(
     5 => array(
       'question' => 'How did you prepare for the Chemtogether fair?',
       'answer' => 'First, I wanted to go into the fair open minded and get my own impressions of the various companies and thereby neglecting any prejudices I may have. 
-      Preparation is also key here. I would recommend to look up the different companies beforehand, where they are located, what their main business is – you can even have a look into the news section about their latest inventions. It is very important to approach the companies with prepared questions, such as what typical entry jobs are, how the application process works, if there are current job vacancies etc.? Not just: so what does your company do? Showing you’re prepared and asking specific questions already gives the company a good impression of yourself.
+      Preparation is also key here. I would recommend to look up the different companies beforehand, where they are located, what their main business is – you can even have a look into the news section to check out their latest inventions. It is very important to approach the companies with prepared questions, such as what typical entry jobs are, how the application process works, if there are current job vacancies etc.? Not just: so what does your company do? Showing you’re prepared and asking specific questions already gives the company a good impression of yourself.
       On the other hand, the company has the same obligation. Their presentation must convince potential future employees to apply for a job. In my opinion, Sika did an excellent job in that regard and really convinced me to work with them.',
     ),
     6 => array(
-      'question' => 'So, you already met HR representatives at the fair?',
+      'question' => 'You already met HR representatives at the fair?',
       'answer' => 'Yes, indeed most companies bring their HR representatives along. Sika, for instance, brought their HR representatives and since I already knew them from a prior career event at ETH, so it was quite easy to restart the conversation. I directly passed on my C.V. and heard about an upcoming open position that was interesting for me.',
     ),
     7 => array(
