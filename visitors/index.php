@@ -95,7 +95,7 @@ $fb = array(
         </a>
       </div>
       <div class="text l-6 m-12 s-12 fair-introlinks">
-        <a href="<?php echo($awss3."/files/Chemtogether_2018_Brochure.pdf"); ?>">
+        <a href="<?php echo($awss3."/files/2019expoguide.pdf"); ?>">
           <i class="far fa-fw fa-file-alt"></i>&nbsp;
           <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
         </a>
