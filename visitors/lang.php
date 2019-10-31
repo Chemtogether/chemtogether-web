@@ -63,7 +63,7 @@ $lang['content']['schedule_wednesday'] = array(
   'event3' => array('Kurzpräsentation Syngenta','Short presentation by Syngenta'),
   'event4' => array('Kurzpräsentation MSD','Short presentation by MSD'),
   'event5' => array('Kurzpräsentation DSM','Short presentation by DSM'),
-  'event6' => array('Kurzpräsentation Sika','Short presentation by Sika'),
+  'event6' => array('Kurzpräsentation Swiss Young Chemists’ Association','Short presentation by Swiss Young Chemists’ Association'),
   'event7' => array('Apéro','Apéro'),
   'event8' => array('Ende der Messe','End of the fair')
 );
