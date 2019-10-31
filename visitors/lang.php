@@ -47,18 +47,25 @@ $lang['content']['schedule_talk2'] = array(
 $lang['content']['schedule_tuesday'] = array(
   'title' => array('Dienstag, 5. November','Tuesday, 5th November'),
   'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede Messetag 1','Opening Talk fair day 1'),
-  'event3' => array('Apéro','Apéro'),
-  'event4' => array('Ende der Messe','End of the fair'),
-  'event5' => array('','')
+  'event2' => array('Eröffnungsrede','Opening Talk'),
+  'event3' => array('Kurzpräsentation CARBOGEN AMCIS','Short presentation by CARBOGEN AMCIS'),
+  'event4' => array('Kurzpräsentation BASF','Short presentation by BASF'),
+  'event5' => array('Kurzpräsentation Johnson & Johnson','Short presentation by Johnson & Johnson'),
+  'event6' => array('Kurzpräsentation Ivoclar Vivadent','Short presentation by Ivoclar Vivadent'),
+  'event7' => array('Kurzpräsentation Lonza','Short presentation by Lonza'),
+  'event8' => array('Apéro','Apéro'),
+  'event9' => array('Ende der Messe','End of the fair')
 );
 $lang['content']['schedule_wednesday'] = array(
   'title' => array('Mittwoch, 6. November','Wednesday, 6th November'),
   'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede Messetag 2','Opening Talk fair day 2'),
-  'event3' => array('Apéro','Apéro'),
-  'event4' => array('Ende der Messe','End of the fair'),
-  'event5' => array('','')
+  'event2' => array('Eröffnungsrede','Opening Talk'),
+  'event3' => array('Kurzpräsentation Syngenta','Short presentation by Syngenta'),
+  'event4' => array('Kurzpräsentation MSD','Short presentation by MSD'),
+  'event5' => array('Kurzpräsentation DSM','Short presentation by DSM'),
+  'event6' => array('Kurzpräsentation Sika','Short presentation by Sika'),
+  'event7' => array('Apéro','Apéro'),
+  'event8' => array('Ende der Messe','End of the fair')
 );
 
 
