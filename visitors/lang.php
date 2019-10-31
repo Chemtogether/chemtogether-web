@@ -31,7 +31,7 @@ $lang['content']['schedule_text'] = array(
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 31. Oktober','Thursday, 31st October'),
   'event1' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
-  'event2' => array('',''),
+  'event2' => array('Apéro','Apéro'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
@@ -39,7 +39,7 @@ $lang['content']['schedule_talk1'] = array(
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Montag, 4. November','Monday, 4th November'),
   'event1' => array('Paneldiskussion: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
-  'event2' => array('',''),
+  'event2' => array('Apéro','Apéro'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
@@ -138,7 +138,7 @@ $lang['content']['programme_2'] = array(
   'button' => array("zur Anmeldung", "Register here"),
   'other' => array('Anmeldung erforderlich','Registration necessary'),
   'time' => array('gemäss Termin','according to appointment'),
-  'place' => array('HCI J 341','HCI J 341')
+  'place' => array('HCI J 143','HCI J 143')
 );
 
 $lang['content']['programme_4'] = array(

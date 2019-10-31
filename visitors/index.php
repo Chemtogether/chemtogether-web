@@ -135,6 +135,11 @@ $fb = array(
           <td>18:00</td>
           <td><?php echo($lang['content']['schedule_talk1']['event1'][$eng]); ?></td>
         </tr>
+        <tr>
+          <td><i class="fas fa-fw fa-utensils"></i></td>
+          <td></td>
+          <td><?php echo($lang['content']['schedule_talk1']['event2'][$eng]); ?></td>
+        </tr>
       </table>
     </div>
 
@@ -147,6 +152,11 @@ $fb = array(
           <td><i class="far fa-fw fa-comment"></i></td>
           <td>18:00</td>
           <td><?php echo($lang['content']['schedule_talk2']['event1'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-fw fa-utensils"></i></td>
+          <td></td>
+          <td><?php echo($lang['content']['schedule_talk2']['event2'][$eng]); ?></td>
         </tr>
       </table>
     </div>
