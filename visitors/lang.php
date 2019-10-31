@@ -31,7 +31,7 @@ $lang['content']['schedule_text'] = array(
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 31. Oktober','Thursday, 31st October'),
   'event1' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
-  'event2' => array('',''),
+  'event2' => array('Apéro','Apéro'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
@@ -39,7 +39,7 @@ $lang['content']['schedule_talk1'] = array(
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Montag, 4. November','Monday, 4th November'),
   'event1' => array('Paneldiskussion: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
-  'event2' => array('',''),
+  'event2' => array('Apéro','Apéro'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
@@ -47,18 +47,25 @@ $lang['content']['schedule_talk2'] = array(
 $lang['content']['schedule_tuesday'] = array(
   'title' => array('Dienstag, 5. November','Tuesday, 5th November'),
   'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede Messetag 1','Opening Talk fair day 1'),
-  'event3' => array('Apéro','Apéro'),
-  'event4' => array('Ende der Messe','End of the fair'),
-  'event5' => array('','')
+  'event2' => array('Eröffnungsrede','Opening Talk'),
+  'event3' => array('Kurzpräsentation CARBOGEN AMCIS','Short presentation by CARBOGEN AMCIS'),
+  'event4' => array('Kurzpräsentation BASF','Short presentation by BASF'),
+  'event5' => array('Kurzpräsentation Johnson & Johnson','Short presentation by Johnson & Johnson'),
+  'event6' => array('Kurzpräsentation Ivoclar Vivadent','Short presentation by Ivoclar Vivadent'),
+  'event7' => array('Kurzpräsentation Lonza','Short presentation by Lonza'),
+  'event8' => array('Apéro','Apéro'),
+  'event9' => array('Ende der Messe','End of the fair')
 );
 $lang['content']['schedule_wednesday'] = array(
   'title' => array('Mittwoch, 6. November','Wednesday, 6th November'),
   'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede Messetag 2','Opening Talk fair day 2'),
-  'event3' => array('Apéro','Apéro'),
-  'event4' => array('Ende der Messe','End of the fair'),
-  'event5' => array('','')
+  'event2' => array('Eröffnungsrede','Opening Talk'),
+  'event3' => array('Kurzpräsentation Syngenta','Short presentation by Syngenta'),
+  'event4' => array('Kurzpräsentation MSD','Short presentation by MSD'),
+  'event5' => array('Kurzpräsentation DSM','Short presentation by DSM'),
+  'event6' => array('Kurzpräsentation Sika','Short presentation by Sika'),
+  'event7' => array('Apéro','Apéro'),
+  'event8' => array('Ende der Messe','End of the fair')
 );
 
 
@@ -138,7 +145,7 @@ $lang['content']['programme_2'] = array(
   'button' => array("zur Anmeldung", "Register here"),
   'other' => array('Anmeldung erforderlich','Registration necessary'),
   'time' => array('gemäss Termin','according to appointment'),
-  'place' => array('HCI J 341','HCI J 341')
+  'place' => array('HCI J 143','HCI J 143')
 );
 
 $lang['content']['programme_4'] = array(
