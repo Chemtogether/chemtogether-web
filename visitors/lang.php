@@ -26,47 +26,8 @@ $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exh
 // SCHEDULE
 $lang['content']['schedule_subsection'] = array('Programmplan','Schedule');
 $lang['content']['schedule_text'] = array(
-  'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
-  'For more information on individual events, please check at the end of this webpage.');
-$lang['content']['schedule_talk1'] = array(
-  'title' => array('Donnerstag, 31. Oktober','Thursday, 31st October'),
-  'event1' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
-  'event2' => array('Apéro','Apéro'),
-  'event3' => array('',''),
-  'event4' => array('',''),
-  'event5' => array('','')
-);
-$lang['content']['schedule_talk2'] = array(
-  'title' => array('Montag, 2. November','Monday, 2nd November'),
-  'event1' => array('Paneldiskussion: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
-  'event2' => array('Apéro','Apéro'),
-  'event3' => array('',''),
-  'event4' => array('',''),
-  'event5' => array('','')
-);
-$lang['content']['schedule_tuesday'] = array(
-  'title' => array('Dienstag, 3. November','Tuesday, 3rd November'),
-  'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede','Opening Talk'),
-  'event3' => array('Kurzpräsentation CARBOGEN AMCIS','Short presentation by CARBOGEN AMCIS'),
-  'event4' => array('Kurzpräsentation BASF','Short presentation by BASF'),
-  'event5' => array('Kurzpräsentation Johnson & Johnson','Short presentation by Johnson & Johnson'),
-  'event6' => array('Kurzpräsentation Ivoclar Vivadent','Short presentation by Ivoclar Vivadent'),
-  'event7' => array('Kurzpräsentation Lonza','Short presentation by Lonza'),
-  'event8' => array('Apéro','Apéro'),
-  'event9' => array('Ende der Messe','End of the fair')
-);
-$lang['content']['schedule_wednesday'] = array(
-  'title' => array('Mittwoch, 4. November','Wednesday, 5th November'),
-  'event1' => array('Eröffnung der Messe','Start of the fair'),
-  'event2' => array('Eröffnungsrede','Opening Talk'),
-  'event3' => array('Kurzpräsentation Syngenta','Short presentation by Syngenta'),
-  'event4' => array('Kurzpräsentation MSD','Short presentation by MSD'),
-  'event5' => array('Kurzpräsentation DSM','Short presentation by DSM'),
-  'event6' => array('Kurzpräsentation Swiss Young Chemists’ Association','Short presentation by Swiss Young Chemists’ Association'),
-  'event7' => array('Apéro','Apéro'),
-  'event8' => array('Ende der Messe','End of the fair')
-);
+  'Hier findest Du mehr Informationen zu den einzelnen Programmpunkten, sobald diese feststehen.',
+  'For more information on individual events, please check below. Data will be added as soon as the events are certain.');
 
 
 // COMPANIES  
@@ -110,51 +71,7 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 // PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 $lang['content']['programme_text'] = array(
-  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest du die entsprechenden Details.',
-  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here.');
-
-$lang['content']['programme_1'] = array(
-  'title' => array('Pre-Event: Interviewtraining','Pre-Event: Interviewtraining'),
-  'description' => array(
-    'Du bist nervös bei Vorstellungsgesprächen? Welche Stelle zu deinem CV passt, weisst auch Du noch nicht so genau? Dann komm zu unserem Pre-Event mit dem ETH Career Center und lerne, welcher CV zu einer echten Stellenbeschreibung passt! Sei dabei bei einem LIVE INTERVIEW. Ein Student vom D-CHAB wird an diesem Abend vor Publikum von den Experten des Career Centers interviewed. Wie bei einem echten Vorstellungsgespräch. Danach gibt es eine Diskussion über das Gespräch und es werden konkrete Tipps & Tricks für Interviewsituationen herausgearbeitet.',
-    'Job interviews make you nervous? You don’t know what job is a great fit for your CV?
-    Then join us for the Pre-Event with the ETH Career Center and learn which CV matches a real world job description. Be there for a LIVE INTERVIEW! A current D-CHAB student will be interviewed during the event by one of the Career Center experts. The interview is followed by a discussion about the performance and tips & tricks for job interviews.'),
-  'time' => array('Donnerstag, 31. Oktober 2019, 18:00 Uhr','Thursday, 31 October 2019, 18:00pm'),
-  'place' => array('HIL E 4','HIL E 4')
- );
-
-$lang['content']['programme_2'] = array(
-   'title' => array('Panel: The Future of Chemistry in a Digital World','Panel: The Future of Chemistry in a Digital World'),
-   'description' => array(
-     'Seit einigen Jahren sind viele grundlegend neue Trends in der Chemie zu beobachten. Nicht nur in einem akademischen Umfeld, sondern auch in der Industrie. Wie sieht die Zukunft für Chemiker im Bezug auf die die vierte industrielle Revolution aus? Wie wird sich der Arbeitsplatz verändern und was sind die Fähigkeiten, die der Chemiker von morgen schon heute lernen sollte? In dieser Diskussion werden globale und lokale Trends analyiert und geschaut, was uns in den nächsten Jahren noch erwarten wird, um den zukünftigen Chemikern als Inspiration für ihre Karriere zu dienen. Gäste:',
-     'Recent years have seen major evolutions in the field of Chemistry in both academic and industrial contexts. What is the outlook for Chemists in the context of the Fourth Industrial Revolution and the changing nature of work? How are these changes impacting the skills and knowledge the chemists of tomorrow need to be equipped with today?
-     This panel discussion will look at the latest trends globally and locally and consider what is to come, with a view to advising aspiring Chemists on their own careers. Guests:'),
-   'guest_1' => array('Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow','Dr. Margherita Fontana - Commercial Director Dow Construction Chemicals at Dow'),
-   'guest_2' => array('Prof. Dr. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich','Prof. Jonathan Hall - Professor for Pharmaceutical Chemistry at ETH Zurich'),
-   'guest_3' => array('Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis in Small Molecules Technical Development at Roche','Dr. Stefan Hildbrand - Head of Process Chemistry & Catalysis Small Molecules Technical Development at Roche'),
-   'guest_4' => array('Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich','Moderation by Viktoria Ivarsson - International Relations Officer at ETH Zurich'),
-   'time' => array('Montag, 4. November 2019, 18:00 Uhr','Monday, 4 November 2019, 18:00pm'),
-   'place' => array('HCI G 3','HCI G 3')
- );
-
- $lang['content']['programme_3'] = array(
-  'title' => array('CV-Pics: Bewerbungsfotos','CV-Pics: Photo shoot'),
-  'description' => array(
-    'Zusammen mit einem Fotografen von CV-Pics werden an beiden Tagen der Chemtogether professionelle Bewerbungsfotos von Besuchern aufgenommen.<br>Bitte beachte, dass eine verbindliche Anmeldung für die Bewerbungsfotos unbedingt notwendig ist.',
-    'Throughout both days of Chemtogether, a photographer of CV-Pics will be taking professional application photos of registered visitors.<br>Registration for the photo shoot is mandatory.'),
-  'button' => array("zur Anmeldung", "Register here"),
-  'other' => array('Anmeldung erforderlich','Registration necessary'),
-  'time' => array('gemäss Termin','according to appointment'),
-  'place' => array('HCI J 143','HCI J 143')
-);
-
-$lang['content']['programme_4'] = array(
-  'title' => array('CV-Check','CV-Check'),
-  'description' => array(
-    'Lass deinen persönlichen Lebenslauf checken. Die Experten von Consult & Pepper geben Dir individuelles Feedback.',
-    'Get your personal CV checked. The experts from Consult & Pepper will give you individual feedback.'),
-  'time' => array('An beiden Messetagen','Both fair days'),
-  'place' => array('HCI J 174 (Dienstag) und HCI H 174 (Mittwoch)','HCI J 174 (Tuesday) und HCI H 174 (Wednesday)')
-);
+  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest Du die entsprechenden Details, sobald diese feststehen.',
+  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here as soon as they are certain.');
 
  ?>
