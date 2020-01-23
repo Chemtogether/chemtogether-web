@@ -4,6 +4,26 @@
 $i = 0;
 
 $archive[$i++] = array(
+  "link_url" => '/archive/agilent/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/agilent/logo','png',FALSE),
+  "name" => "Agilent Technologies",
+  "name_short" => "agilent",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2019 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/antonpaar/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/antonpaar/logo','png',FALSE),
+  "name" => "Anton Paar",
+  "name_short" => "antonpaar",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'gold'),
+);
+
+$archive[$i++] = array(
   "link_url" => '/archive/avantama/index.php#info',
   "logo_url" => set_source($awss3_archive.'/avantama/logo','png',FALSE),
   "name" => "Avantama",
@@ -29,8 +49,18 @@ $archive[$i++] = array(
   "name" => "BASF",
   "name_short" => "basf",
   "info" => 1,
+  "interviews" => 3,
+  "attendences" => array(2019 => 'gold', 2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/blaser/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/blaser/logo_svg','svg',FALSE),
+  "name" => "Blaser Swisslube",
+  "name_short" => "blaser",
+  "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
+  "attendences" => array(2015 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -39,8 +69,18 @@ $archive[$i++] = array(
   "name" => "CARBOGEN AMCIS",
   "name_short" => "carbogenamcis",
   "info" => 1,
-  "interviews" => 1,
-  "attendences" => array(2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "interviews" => 3,
+  "attendences" => array(2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/clariant/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/clariant/logo_svg','svg',FALSE),
+  "name" => "Clariant",
+  "name_short" => "clariant",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2013 => 'silver', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -50,7 +90,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -59,8 +99,18 @@ $archive[$i++] = array(
   "name" => "DOW Europe",
   "name_short" => "dow",
   "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2018 => 'gold', 2017 => 'gold', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+  "interviews" => 3,
+  "attendences" => array(2019 => 'gold', 2018 => 'gold', 2017 => 'gold', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/dsm/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/dsm/logo_svg','svg',FALSE),
+  "name" => "DSM",
+  "name_short" => "dsm",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2019 => 'silver', 2015 => 'gold'),
 );
 
 $archive[$i++] = array(
@@ -70,7 +120,7 @@ $archive[$i++] = array(
   "name_short" => "ems",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -79,7 +129,7 @@ $archive[$i++] = array(
   "name" => "Givaudan",
   "name_short" => "givaudan",
   "info" => 1,
-  "interviews" => 1,
+  "interviews" => 2,
   "attendences" => array(2017 => 'gold'),
 );
 
@@ -99,7 +149,7 @@ $archive[$i++] = array(
   "name" => "HELVETING",
   "name_short" => "helveting",
   "info" => 1,
-  "interviews" => 1,
+  "interviews" => 0,
   "attendences" => array(2018 => 'base'),
 );
 
@@ -110,7 +160,7 @@ $archive[$i++] = array(
   "name_short" => "hoffmanneitle",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base'),
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -120,7 +170,7 @@ $archive[$i++] = array(
   "name_short" => "idorsia",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -129,8 +179,8 @@ $archive[$i++] = array(
   "name" => "Ivoclar Vivadent",
   "name_short" => "ivoclarvivadent",
   "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2018 => 'silver', 2017 => 'silver'),
+  "interviews" => 2,
+  "attendences" => array(2019 => 'silver', 2018 => 'silver', 2017 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -139,88 +189,8 @@ $archive[$i++] = array(
   "name" => "Johnson & Johnson",
   "name_short" => "johnsonandjohnson",
   "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2017 => 'silver', 2016 => 'base', 2015 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/lonza/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/lonza/logo_svg','svg',FALSE),
-  "name" => "Lonza",
-  "name_short" => "lonza",
-  "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/metrohm/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/metrohm/logo_svg','svg',FALSE),
-  "name" => "Metrohm",
-  "name_short" => "metrohm",
-  "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/msd/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/msd/logo_svg','svg',FALSE),
-  "name" => "Merck Sharp & Dohme",
-  "name_short" => "msd",
-  "info" => 1,
-  "interviews" => 1,
-  "attendences" => array(2018 => 'silver', 2017 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/sika/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/sika/logo_svg','svg',FALSE),
-  "name" => "Sika",
-  "name_short" => "sika",
-  "info" => 1,
-  "interviews" => 1,
-  "attendences" => array(2018 => 'base', 2017 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/antonpaar/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/antonpaar/logo','png',FALSE),
-  "name" => "Anton Paar",
-  "name_short" => "antonpaar",
-  "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2013 => 'gold'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/blaser/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/blaser/logo_svg','svg',FALSE),
-  "name" => "Blaser Swisslube",
-  "name_short" => "blaser",
-  "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2015 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/clariant/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/clariant/logo_svg','svg',FALSE),
-  "name" => "Clariant",
-  "name_short" => "clariant",
-  "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2013 => 'silver', 2014 => 'base'),
-);
-
-$archive[$i++] = array(
-  "link_url" => '/archive/dsm/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/dsm/logo_svg','svg',FALSE),
-  "name" => "DSM",
-  "name_short" => "dsm",
-  "info" => 1,
-  "interviews" => 0,
-  "attendences" => array(2015 => 'gold'),
+  "attendences" => array(2019 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -241,6 +211,46 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2018 => 'base', 2015 => 'base', 2016 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/lonza/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/lonza/logo_svg','svg',FALSE),
+  "name" => "Lonza",
+  "name_short" => "lonza",
+  "info" => 1,
+  "interviews" => 2,
+  "attendences" => array(2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/msd/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/msd/logo_svg','svg',FALSE),
+  "name" => "Merck Sharp & Dohme",
+  "name_short" => "msd",
+  "info" => 1,
+  "interviews" => 3,
+  "attendences" => array(2019 => 'silver', 2018 => 'silver', 2017 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/metrohm/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/metrohm/logo_svg','svg',FALSE),
+  "name" => "Metrohm",
+  "name_short" => "metrohm",
+  "info" => 1,
+  "interviews" => 4,
+  "attendences" => array(2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/mettlertoledo/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/mettlertoledo/logo','png',FALSE),
+  "name" => "Mettler Toledo",
+  "name_short" => "mettlertoledo",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2019 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -270,17 +280,37 @@ $archive[$i++] = array(
   "name_short" => "siegfried",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
   "link_url" => '/archive/sigma-aldrich/index.php#info',
-  "logo_url" => set_source($awss3_archive.'/merck/logo_svg','svg',FALSE),
+  "logo_url" => set_source($awss3_archive.'/merck/logo_old','png', FALSE),
   "name" => "Sigma-Aldrich",
   "name_short" => "sigma-aldrich",
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2013 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/sika/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/sika/logo_svg','svg',FALSE),
+  "name" => "Sika",
+  "name_short" => "sika",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2019 => 'base', 2018 => 'base', 2017 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/syngenta/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/syngenta/logo','png', FALSE),
+  "name" => "Syngenta",
+  "name_short" => "syngenta",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2019 => 'silver'),
 );
 
 $archive[$i++] = array(

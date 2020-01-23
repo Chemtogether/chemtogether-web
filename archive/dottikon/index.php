@@ -59,7 +59,7 @@ $template['we_look'] = array(
   $i=0;
   $template['interview']['2017'][$i++] = array(
     'name' => 'Dr. Ulrich Neuenschwander',
-    'img_url' => set_source($awss3_archive.'/dottikon/interview-2017-1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/dottikon/interviewee_2017_1', 'png', FALSE),
     'position' => array('Leiter Methodenvalidierung', 'Head of Method Validation'),
 
     'education' => array(

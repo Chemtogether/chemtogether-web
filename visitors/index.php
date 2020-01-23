@@ -18,8 +18,8 @@ include('../companies/data.php');
 $active_nav = 'visitors';
 
 $fb = array(
-  "title"        => "Chemtogether 2019",
-  "desc"         => "This year's Chemtogether will take place on the 5th and 6th November 2019! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "title"        => "Chemtogether 2020",
+  "desc"         => "This year's Chemtogether will take place on the 3rd and 4th November 2020! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
   "url"          => "https://www.chemtogether.ethz.ch/visitors/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
@@ -62,13 +62,13 @@ $fb = array(
       <div class="patterned">
         <div id="fair-image">
           <div class="date-container">
-            <span id="date-day1">5</span>
+            <span id="date-day1">3</span>
             <span class="date-bar"></span>
-            <span id="date-day2">6</span>
+            <span id="date-day2">4</span>
           </div>
           <div class="date-container">
             <span id="date-month">Nov.</span>
-            <span id="date-year">2019</span>
+            <span id="date-year">2020</span>
           </div>
           <div class="date-container">
             <span id="date-place">HCI G-<?php echo($lang['content']['image_floor'][$eng]); ?></span>

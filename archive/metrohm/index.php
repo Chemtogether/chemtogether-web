@@ -81,22 +81,194 @@ state-of- the-art work places.</br>
 We are growing fast, but our business model is sustainable; jobs at Metrohm do not depend on the
 whims of investors.');
 $template['we_look'] = array(
-  'We are looking for young talents eager to start their career as a</br></br>
-  -chemist / chemical engineer,</br>
-  -software engineer,</br>
-  -electronics engineer, or</br>
-  -design engineer',
-  'We are looking for young talents eager to start their career as a</br></br>
-  -chemist / chemical engineer,</br>
-  -software engineer,</br>
-  -electronics engineer, or</br>
-  -design engineer');
+  'We are looking for young talents eager to start their career as a<table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>chemist / chemical engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>software engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>electronics engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>design engineer</td>
+  </tr>
+  </table>',
+  'We are looking for young talents eager to start their career as a<table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>chemist / chemical engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>software engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>electronics engineer</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>design engineer</td>
+  </tr>
+  </table>');
+
+  $i=0;
+  $template['interview'][2019][$i++] = array(
+  'name' => 'Karina Hasler',
+  'img_url' => set_source($awss3_archive.'/metrohm/interviewee_2019_1', 'png', FALSE),
+  'position' => array('Systems Engineer','Systems Engineer'),
+
+  'education' => array(
+    0 => array(
+      'date' => '2014-2015',
+      'desc' => array('“Master of Science ETH in Chemistry”, ETH Zurich, Switzerland','“Master of Science ETH in Chemistry”, ETH Zurich, Switzerland'),
+    ),
+    1 => array(
+      'date' => '2009-2014',
+      'desc' => array('“Bachelor of Science ETH in Chemistry“, ETH Zurich, Switzerland','“Bachelor of Science ETH in Chemistry“, ETH Zurich, Switzerland'),
+    ),
+    2 => array(
+      'date' => '2005-2009',
+      'desc' => array('Maturität, Secondary school in Nuolen','Maturität, Secondary school in Nuolen'),
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2019',
+      'desc' => array('Teamleader at Systems Engineering, Metrohm AG','Teamleader at Systems Engineering, Metrohm AG'),
+    ),
+    1 => array(
+      'date' => '2017',
+      'desc' => array('Core Team Member at Systems Engineering, Metrohm AG','Core Team Member at Systems Engineering, Metrohm AG'),
+    ),
+    2 => array(
+      'date' => '2015',
+      'desc' => array('Systems Engineer at Systems
+Engineering, Metrohm AG, Herisau, Switzerland','Systems Engineer at Systems
+Engineering, Metrohm AG, Herisau, Switzerland'),
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => array('What are your responsibilities as team leader at Metrohm?','What are your responsibilities as team leader at Metrohm?'),
+      'answer' => array('The main task of a team leader is to improve the personal skills of the employees so
+that they can reach their future career opportunities. The team leader also serves as
+the primary point of contact to discuss personal issues or problems with their
+colleagues.','The main task of a team leader is to improve the personal skills of the employees so
+that they can reach their future career opportunities. The team leader also serves as
+the primary point of contact to discuss personal issues or problems with their
+colleagues.'),
+    ),
+    1 => array(
+      'question' => array('You started your work at Metrohm directly after graduating with a Master’s degree
+from ETH Zürich. How did the application process work for you? Did you have to
+compete with other candidates that did a PhD?','You started your work at Metrohm directly after graduating with a Master’s degree
+from ETH Zürich. How did the application process work for you? Did you have to
+compete with other candidates that did a PhD?'),
+      'answer' => array('There did not appear to be any competition between PhD and Master’s degree during
+the application process, but there were other challenges. I only applied for jobs in
+analytics where a PhD is not necessary, nor will it be considered for salary. Many
+applications have been rejected due to lack of practical experience for positions
+requiring a Master’s degree, and for being overqualified for lab technician positions.','There did not appear to be any competition between PhD and Master’s degree during
+the application process, but there were other challenges. I only applied for jobs in
+analytics where a PhD is not necessary, nor will it be considered for salary. Many
+applications have been rejected due to lack of practical experience for positions
+requiring a Master’s degree, and for being overqualified for lab technician positions.'),
+    ),
+    2 => array(
+      'question' => array('How does your daily work life look like at Metrohm? Do you normally work at the
+same location or do you get to travel for work?','How does your daily work life look like at Metrohm? Do you normally work at the
+same location or do you get to travel for work?'),
+      'answer' => array('My daily work life constantly changes on a daily basis. Through the interdisciplinary
+workspace, no day looks like another. As a core team member, I serve assist with
+project leadership to coordinate different tests of many projects and connect the
+different disciplines. My responsibilities as a team leader give me a different
+perspective that is independent of routine technical work which allows me the
+opportunity to lead a team completely—including the coordination and support of
+five colleagues with their technical and personal challenges. So, how can one day be
+like the other one?
+My work mostly takes place in Herisau, so there is not much need to travel on a
+regular basis.','My daily work life constantly changes on a daily basis. Through the interdisciplinary
+workspace, no day looks like another. As a core team member, I serve assist with
+project leadership to coordinate different tests of many projects and connect the
+different disciplines. My responsibilities as a team leader give me a different
+perspective that is independent of routine technical work which allows me the
+opportunity to lead a team completely—including the coordination and support of
+five colleagues with their technical and personal challenges. So, how can one day be
+like the other one?
+My work mostly takes place in Herisau, so there is not much need to travel on a
+regular basis.'),
+    ),
+    3 => array(
+      'question' => array('You graduated in chemistry. Does Metrohm also employ graduates with a different
+background?','You graduated in chemistry. Does Metrohm also employ graduates with a different
+background?'),
+      'answer' => array('Yes, Metrohm employs people with diverse backgrounds and is an interdisciplinary
+workplace. For example, I have colleagues with degrees in electronics and various
+engineering specialties. There also can be found some interdisciplinary backgrounds
+in the department of Systems Engineering, where the laboratory tests are done.','Yes, Metrohm employs people with diverse backgrounds and is an interdisciplinary
+workplace. For example, I have colleagues with degrees in electronics and various
+engineering specialties. There also can be found some interdisciplinary backgrounds
+in the department of Systems Engineering, where the laboratory tests are done.'),
+    ),
+    4 => array(
+      'question' => array('How important is harmony between work and outside life for you? Does Metrohm
+offer a good work-life balance for its employees?','How important is harmony between work and outside life for you? Does Metrohm
+offer a good work-life balance for its employees?'),
+      'answer' => array('The Work-Life-Balance is very important for me and for all my team members.
+Metrohm offers many possibilities for a good work-life balance and offers amenities
+such as an exercise room as well as a relaxing room. In addition, there are events held
+like the companies run of St.Gallen as well as ‘Bike to work’.','The Work-Life-Balance is very important for me and for all my team members.
+Metrohm offers many possibilities for a good work-life balance and offers amenities
+such as an exercise room as well as a relaxing room. In addition, there are events held
+like the companies run of St.Gallen as well as ‘Bike to work’.'),
+    ),
+    5 => array(
+      'question' => array('You were already promoted twice during your employment at Metrohm. How do you
+imagine your future career opportunities to look like?','You were already promoted twice during your employment at Metrohm. How do you
+imagine your future career opportunities to look like?'),
+      'answer' => array('Metrohm gave me the chance to work as a core team member as my first promotion
+after 1.5 years, and also recently promoted me to the team leader. These two
+
+promotions happened fairly quickly in my 3.5 year tenure. The next step in the
+company Metrohm could be to manage a project as a project leader or to be the head
+of a department. Let’s see what the future brings.','Metrohm gave me the chance to work as a core team member as my first promotion
+after 1.5 years, and also recently promoted me to the team leader. These two
+
+promotions happened fairly quickly in my 3.5 year tenure. The next step in the
+company Metrohm could be to manage a project as a project leader or to be the head
+of a department. Let’s see what the future brings.'),
+    ),
+    6 => array(
+      'question' => array('Which suggestions do you have for a recent ETH graduate applying for jobs or
+internships?','Which suggestions do you have for a recent ETH graduate applying for jobs or
+internships?'),
+      'answer' => array('It will be a very difficult time to find a job after graduating from ETH. If there is a
+chance to attend an internship between the Bachelor and the Master studies, take it
+to obtain practice work experience. There will be a time where companies do not
+reply or you will be frustrated because they always give you the same answer.
+Nevertheless, be sure you will find a company that will give you a chance.','It will be a very difficult time to find a job after graduating from ETH. If there is a
+chance to attend an internship between the Bachelor and the Master studies, take it
+to obtain practice work experience. There will be a time where companies do not
+reply or you will be frustrated because they always give you the same answer.
+Nevertheless, be sure you will find a company that will give you a chance.'),
+    ),
+  ),
+);
 
 
   $i = 0;
   $template['interview'][2018][$i++] = array(
     'name' => 'Dr. Vincent Diederich',
-    'img_url' => set_source($awss3.'/companies/metrohm/interviewee_1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/metrohm/interviewee_2018_1', 'png', FALSE),
     'position' => array('Produktionsingenieur & Stv. Abteilungsleiter, Abteilung Trennsäulenproduktion', 'Production Engineer & Interim Department Head, Department Separation Column Production'),
   
     'education' => array(
@@ -116,8 +288,8 @@ $template['we_look'] = array(
   
     'career' => array(
       0 => array(
-        'date' => array('ab 11/2018', 'since 11/2018'),
-        'desc' => array('Produktmanager Chromatographiesäulen bei Metrohm', 'Product Manager Chromatography Columns at Metrohm')
+        'date' => '2018',
+        'desc' => array('Produktmanager Chromatographiesäulen bei Metrohm','Product Manager Chromatography Columns at Metrohm')
       ),
       1 => array(
         'date' => '2015',
@@ -201,7 +373,7 @@ $template['we_look'] = array(
   $i=0;
   $template['interview']['2017'][$i++] = array(
     'name' => 'Dr. Sabrina Gschwind',
-    'img_url' => set_source($awss3_archive.'/metrohm/interview-2017-1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/metrohm/interviewee_2017_1', 'png', FALSE),
     'position' => array('Junior Product Manager', 'Junior Product Manager'),
 
     'education' => array(
@@ -312,7 +484,7 @@ $template['we_look'] = array(
 
   $template['interview']['2017'][$i++] = array(
     'name' => 'Iris Kalkman',
-    'img_url' => set_source($awss3_archive.'/metrohm/interview-2017-2', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/metrohm/interviewee_2017_2', 'png', FALSE),
     'position' => array('Produktionsspezialistin &amp Berufsbildnerin', 'Product Specialist &amp Trainer'),
 
     'education' => array(
