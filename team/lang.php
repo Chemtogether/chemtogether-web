@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2019 - Team', 'Chemtogether 2019 - Team');
+$lang['general']['page_title'] = array('Chemtogether 2020 - Team', 'Chemtogether 2020 - Team');
 $lang['navigation']['title'] = array('Unser Team', 'Our Team');
 $lang['navigation']['topnav_title']= array('Unser Team', 'Our Team');
 
@@ -14,124 +14,124 @@ $lang['content']['intro_text'] = array(
   'The team of Chemtogether consists of students and PhDs of the department for Chemistry and Applied Biosciences of ETH Zurich, organizing the career fair voluntarily. Chemtogether is supported by the student associations, VCS and APV, and the association of PhD students, VAC, as well the corresponding umbrella organisations VSETH and AVETH.'
 );
 
-$lang['content']['team_subsection'] = array('Das Team 2019','The Team of 2019');
+$lang['content']['team_subsection'] = array('Das Team 2020','The Team of 2020');
 
 
 $lang['team'][1] = array(
-  'name' => 'Konstantin Zouboulis',
-  'task' => array('Co-Präsident','Co-Head'),
-  'info' => array('Konstantin aus Berlin studiert im Master Chemie mit den Schwerpunkten Analytische Chemie und Physikalische Chemie. Neben seinem Studium engagiert er sich gerne in Projekten, die den Austausch zwischen Studierenden und der Industrie stärken. Seit seiner Kindheit ist er ein begeisterter Segler. Auf dem Festland spielt er gerne Tennis oder fährt Ski in den wunderschönen Schweizer Alpen.','Konstantin from Berlin studies Chemistry at the Master level with special emphasis on Analytical and Physical Chemistry.  Besides of his studies he is engaged in several projects which facilitate students to get in touch with the industry. Since childhood he is an avid sailor. On the mainland he enjoys playing tennis or going skiing in the wonderful mountains of Switzerland.'),
-  'mail_prefix' => 'konstantin.zouboulis',
-  'linkedin' => 'https://www.linkedin.com/in/konstantinzouboulis/'
-);
-
-$lang['team'][2] = array(
-  'name' => 'Andreas Gimpel',
-  'task' => array('Co-Präsident','Co-Head'),
-  'info' => array('Neben seinem Masterstudium als Chemieingenieur ist Andreas an angewandten IT-Projekten interessiert und arbeitet gerne an Programmierideen, sowohl zuhause als auch im Rahmen seiner Forschungsprojekte. Er ist erfahrener Skifahrer, geniesst Bergsteigen in den Alpen und begeistert sich für Landschafts- und Stadtfotographie.','Apart from his master studies in Chemical Engineering, Andreas is interested in applied computer science and is always working on programming-related projects both at home and in his research projects. He is an avid skier, likes to mountaineer in the Alps and pursues landscape and urban photography.'),
-  'mail_prefix' => 'andreas.gimpel',
-  'linkedin' => 'https://www.linkedin.com/in/andreas-gimpel/'
-);
-
-$lang['team'][3] = array(
-  'name' => 'Markus Böcker',
-  'task' => array('Quästur','Treasurer'),
-  'info' => array('Nachdem Markus in Berlin als Sozialarbeiter gearbeitet hatte, entschied er sich für ein Chemiestudium nach Zürich zu kommen. Als Ausgleich nach Labor und Bibliothek schwimmt und joggt er viel und sieht Filme. Er ist der derzeitige Präsident der Vereinigung der Chemiestudierenden an der ETH Zürich.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running, swimming or watching movies. He is currently heading the chemistry students association.'),
-  'mail_prefix' => 'markus.boecker',
-  'linkedin' => 'https://www.linkedin.com/in/markus-boecker/'
-);
-
-$lang['team'][4] = array(
-  'name' => 'Gloria Clausen',
-  'task' => array('Social Media Koordinator','Social Media Coordinator'),
-  'info' => array('Gloria studiert Interdisziplinäre Naturwissenschaften im Master mit einer Spezialisierung in Molekül Spektroskopie und Quanten Optik. Ihr hanseatischer Hintergrund zeichnet sich durch die Begeisterung für Wassersportarten wie Segeln und Rudern ab. Außerdem wandert sie gerne durch die schweizer Alpen.','Gloria pursues her master’s degree in Interdisciplinary Sciences with a particular focus on molecular spectroscopy and quantum optics. Her background from hanseatic Hamburg is also represented in the love for water sports such as sailing and rowing. Exploring the Swiss Alps with long hikes is another passion of hers.'),
-  'mail_prefix' => 'gloria.clausen',
-  'linkedin' => 'https://ch.linkedin.com/in/gloria-clausen-7bb34b16b'
-);
-
-$lang['team'][5] = array(
   'name' => 'Romain Dubey',
-  'task' => array('Catering','Catering'),
+  'task' => array('Präsident','President'),
   'info' => array('Romain kommt aus Fribourg und schreibt seine Doktorarbeit an der ETH und Empa. Er erfindet neue Batteriekonzepte und strebt eine effizientere Zusammenarbeit zwischen Industrie und Universität an. In seiner Freizeit macht er leidenschaftlich Judo und Lauftraining.','Romain comes from Fribourg and pursues a PhD at ETH and Empa. When he is not testing innovative battery concepts, he strives for a better collaboration between academia and industry. In his free time, he loves doing judo and running.'),
   'mail_prefix' => 'romain.dubey',
   'linkedin' => 'https://www.linkedin.com/in/romain-dubey/'
 );
 
+$lang['team'][2] = array(
+  'name' => 'Mara Bless',
+  'task' => array('Begleitprogramm','Supporting Program'),
+  'info' => array('',''),
+  'mail_prefix' => 'mara.bless',
+  'linkedin' => ''
+);
+
+$lang['team'][3] = array(
+  'name' => 'Markus Böcker',
+  'task' => array('Quästur','Treasurer'),
+  'info' => array('Nachdem Markus in Berlin als Sozialarbeiter gearbeitet hatte, entschied er sich für ein Chemiestudium nach Zürich zu kommen. Als Ausgleich nach Labor und Bibliothek schwimmt und joggt er viel und sieht Filme.','Having done social work in Berlin, he came to Zürich to study chemistry. After leaving the lab or the library Markus likes to unwind while running, swimming or watching movies.'),
+  'mail_prefix' => 'markus.boecker',
+  'linkedin' => 'https://www.linkedin.com/in/markus-boecker/'
+);
+
+$lang['team'][4] = array(
+  'name' => 'Vittoria Bolongaro',
+  'task' => array('Layout','Layout'),
+  'info' => array('Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.','Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.'),
+  'mail_prefix' => 'vittoria.bolongaro',
+  'linkedin' => ''
+);
+
+$lang['team'][5] = array(
+  'name' => 'Christopher Buck',
+  'task' => array('Social Media Koordinator','Social Media Coordinator'),
+  'info' => array('',''),
+  'mail_prefix' => 'christopher.buck',
+  'linkedin' => ''
+);
+
 $lang['team'][6] = array(
-  'name' => 'Ann-Christin Kerl',
-  'task' => array('Begleitprogramm','Supporting Programme'),
-  'info' => array('Ann-Christin ist der Nähe von Göttingen in Deutschland aufgewachsen, aber entschied sich dazu ihr Chemiestudium in Zürich zu absolvieren. Sie schwimmt und spielt gerne Tennis. Das Reisen und Entdecken anderer Kulturen begeistert sie sehr.','Ann-Christin grew up near Göttingen in Germany, but came to Zurich to start her University level education in Chemistry. She enjoys being active in several sports such as Swimming or Tennis. Travelling and experiencing different cultures also shape her interests strongly.'),
-  'mail_prefix' => 'ann-christin.kerl',
-  'linkedin' => 'https://www.linkedin.com/in/ann-christin-kerl-b7683815b'
+  'name' => 'Noemi Cerboni',
+  'task' => array('Layout','Layout'),
+  'info' => array('Noemi ist in einem kleinen Dorf in der italienischen Schweiz aufgewachsen und studiert derzeit Chemie im Master mit besonderem Interesse an Materialwissenschaften und Radiochemie. Neben ihrer Leidenschaft für Chemie traniert für die nächste Vorführung rhythmischer Gymnastik und gibt Skiunterricht. Sie verpasst auch keine Studentenparty an der ETH. Und wenn sie nicht gerade ein Glas Bier geniesst oder ein Konzert ihrer Lieblingsbands besucht, liest sie vielleicht einen Thriller.','Noemi grew up in a little village in the italian-speaking region of Switzerland and is studying for a master´s degree in chemistry with a particular interest in materials science and radiochemistry. Besides her passion for chemistry, she´s a rhythmic gymnast and a ski instructor. She´s also not going to miss any student party that´s happening at ETH. And when she is not enjoying a glass of beer or visiting a concert of her favourite bands, she might be reading a thriller.'),
+  'mail_prefix' => 'naomi.cerboni',
+  'linkedin' => ''
 );
 
 $lang['team'][7] = array(
-  'name' => 'Jérôme Käslin',
-  'task' => array('Druck und Design','Print and Design'),
-  'info' => array('Nachdem Jérôme seinen Master an der ETH als bester Chemie-Student 2018 abschloss, setzte er seine Ausbildung mit einer Dissertation in analytischer Chemie fort. Neben seiner Forschung begeistert er sich für Graphik, Design und Geschichte.','After Jérôme finished his Master at ETH as best chemistry student 2018, he continued his education with a PhD in analytical chemistry. Beside his research, he is enthusiastic about graphics, design and history.'),
-  'mail_prefix' => 'jerome.käslin',
-  'linkedin' => 'https://www.linkedin.com/in/jfk/'
+  'name' => 'Dragana Ristanovic',
+  'task' => array('Messebau','Fair construction'),
+  'info' => array('',''),
+  'mail_prefix' => 'dragana.ristanovic',
+  'linkedin' => ''
 );
 
 $lang['team'][8] = array(
-  'name' => 'Jonathan Saring',
+  'name' => 'Jonas Römer',
   'task' => array('Infrastruktur','Infrastructure'),
+  'info' => array('',''),
+  'mail_prefix' => 'jonas.römer',
+  'linkedin' => ''
+);
+
+$lang['team'][9] = array(
+  'name' => 'Jonathan Saring',
+  'task' => array('Akquiseleitung','Company Acquisition'),
   'info' => array('Jonathan (Jonny), ursprünglich aus München, studiert zur Zeit Chemie in Zürich und ist Mitglied des Technischen-Hilfswerkes (THW). Falls er nicht gerade im Chemie-Gebäude lernt, findet man ihn oft im Fitnessstudio, beim Gitarre spielen oder beim „netflixen“ der neuesten Serien. ','Jonathan (Jonny), originally from Munich, currently studies Chemistry in Zürich and is a member of the German agency for civil protection. If not in the chemistry building studying, he is often found in the gym, playing acoustic guitar or getting up to date with the latest Netflix series.'),
   'mail_prefix' => 'jonathan.saring',
   'linkedin' => 'https://www.linkedin.com/in/jonathan-saring-09a080181'
 );
 
-$lang['team'][9] = array(
+$lang['team'][10] = array(
   'name' => 'Christian Schellhaas',
   'task' => array('Webmaster','Webmaster'),
-  'info' => array('Christian studiert Interdisziplinäre Naturwissenschaften mit besonderem Interesse für Medizinische Chemie und Bioinformatik. Zuvor hat er ein Duales Studium in Betriebswirtschaftslehre beim Wissenschafts- und Technologieunternehmen Merck abgeschlossen. Er schätzt den Austausch von neuen Ideen sowie Kulturen sehr und freut sich schon auf seine nächste Backpackingreise. Er surft und fährt leidenschaftlich Ski.','Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.'),
+  'info' => array('Christian studiert Interdisziplinäre Naturwissenschaften mit besonderem Interesse für Medizinische Chemie und Bioinformatik. Zuvor hat er ein Duales Studium in Betriebswirtschaftslehre beim Wissenschafts- und Technologieunternehmen Merck abgeschlossen. Er surft und fährt leidenschaftlich Ski.','Christian studies Interdisciplinary Sciences, B.Sc., with particular interest in Medicinal Chemistry and Bioinformatics. He holds a B.A. in Business from a prior dual study program, which included numerous professional placements in the science and technology company Merck. Having worked or studied on three different continents, Christian values cultural exchange as well as sharing new ideas. He skis and surfs passionately.'),
   'mail_prefix' => 'christian.schellhaas',
-  'linkedin' => ''
-);
-
-$lang['team'][10] = array(
-  'name' => 'Paul Schnacke',
-  'task' => array('Druck und Design','Print and Design'),
-  'info' => array('Paul kommt aus Köln und studiert Chemie. In seiner Freizeit kocht er gerne, schaut Filme und betreibt Sport.','Coming from Cologne, Paul studies chemistry and uses his spare time mainly for his interest in sports, cooking and watching movies.'),
-  'mail_prefix' => 'paul.schnacke',
-  'linkedin' => 'https://www.linkedin.com/in/paul-schnacke'
+  'linkedin' => 'https://ch.linkedin.com/in/christian-schellhaas-ba4ba3194'
 );
 
 $lang['team'][11] = array(
-  'name' => 'Fabio Simbürger',
-  'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Fabio kommt aus der Ostschweiz und beginnt dieses Jahr den Master in Pharmazie mit einem besonderen Interesse für pharmazeutische Analytik und pharmakologische Forensik. Abseits des Studiums beschäftigt er sich gerne mit Sport, Lagerfeuer Gitarre und dem einen oder anderen Getränk mit Freunden.','Fabio grew up in Eastern Switzerland and is now starting the studies for his Master degree in Pharmacy with a particular interest for pharmaceutical analytics and pharmacological forensics. Apart from his studies he spends time with sports, campfire guitar and a drink or two with his friends.'),
-  'mail_prefix' => 'fabio.simbürger',
-  'linkedin' => ''
-);
-
-$lang['team'][12] = array(
   'name' => 'Alessandro Streuli',
   'task' => array('Social Media Koordinator','Social Media Coordinator'),
   'info' => array('Alessandro studiert an der ETH mit dem Ziel eines Master in Pharmazeutischen Wissenschaften in den Schwerpunkten Galenik und medizinische Chemie. Alessandros Wurzeln liegen in der Nähe von Rapperswil was auch in seinem grössten Hobby repräsentiert ist, dem Eishockey. Neben dem Hockey verbringt er seine Zeit mit Tauchen und Kochen.','Alessandro studies for a Master’s degree in pharmaceutical sciences at ETH with the core area of galenics and medicinal chemistry. Alessandro has his roots near Rapperswil which also is represented in his biggest hobby, the ice hockey. Besides the hockey he spends his time with diving and cooking.'),
-  'mail_prefix' => 'fabio.simbürger',
+  'mail_prefix' => 'alessandro.streuli',
+  'linkedin' => 'https://ch.linkedin.com/in/alessandro-streuli-815b35148'
+);
+
+$lang['team'][12] = array(
+  'name' => 'Laura Völker',
+  'task' => array('Catering','Catering'),
+  'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.'),
+  'mail_prefix' => 'laura.voelker',
   'linkedin' => ''
 );
 
 $lang['team'][13] = array(
-  'name' => 'Esther Tschanen-Hammann',
-  'task' => array('Messebau','Booth Construction'),
-  'info' => array('Nachdem Esther ihren Master an der ETH Zürich abgeschlossen hat, arbeitet sie nun als Doktorandin im dritten Jahr in metall-organischer Synthese. In ihrer Freizeit geniesst Esther Velotouren und backt gerne.','After having completed her  Master’s degree in Chemistry at ETH, Esther is now pursuing a PhD in her third year in organometallic synthesis. In her free time, she enjoys bicycling and backing very much.'),
-  'mail_prefix' => 'esther.tschanen',
-  'linkedin' => ''
+  'name' => 'Jan Vukovich',
+  'task' => array('Akquiseleitung','Company Acquisition'),
+  'info' => array('Jan, ursprünglich aus Wien, entschied sich für ein Studium in Zürich und ist nun im dritten Jahr der Chemieingenieurswissenschaften. Neben seinem Studium engagiert er sich an interessanten Projekten und Events. Zudem spielt er gerne Tennis und ist ein begeisterter Skifahrer.','As an Austrian skiing enthusiast, Jan enjoys pursuing his studies in chemical engineering in close proximity to the Alps. Besides of his studies he is engaged in interesting projects and events. In warmer days, he is also enjoys playing football as well as tennis.'),
+  'mail_prefix' => 'jan.vukovich',
+  'linkedin' => 'https://www.linkedin.com/in/jan-vukovich-48456319b/'
 );
 
-$lang['team'][14] = array(
-  'name' => 'Patrik Willi',
-  'task' => array('Firmenakquise','Company Acquisition'),
-  'info' => array('Patrik kommt aus Winterthur und verfolgt einen Master in physikal-organischer Chemie an der ETH. Seinem Einsteig in die Chemie treu geblieben, ist er seit 5 Jahren bei der Schweizer Chemie-Olympiade aktiv, wo er seine Begeisterung für die Chemie weitergibt. In seiner Freizeit geniesst Patrik, Sport zu treiben oder klassische Gitarre zu spielen.','Coming from nearby Winterthur, Patrik studies for a Master’s degree in physical organic chemistry at ETH. Staying true to his entry point into Chemistry, he has been an active member of the Swiss Chemistry Olympiad for over 5 years, where he shares his passion for chemistry. In his spare time, Patrik enjoys doing sports or playing acoustic guitar.'),
-  'mail_prefix' => 'patrik.willi',
-  'linkedin' => ''
-);
+
+$lang['content']['akquise-team_subsection'] = array('Das Akquise-Team 2020','The Company Acquisition Team of 2020');
+$lang['content']['akquise-team'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
+$lang['content']['akquise-team_2020'] = 'Anne Abels<br>Markus Böcker<br>Christopher Buck<br>Jordan De Jesus Silva<br>Romain Dubey<br>Jonathan Saring<br>Christian Schellhaas<br>Alessandro Streuli<br>Philipp Schubert<br>Laura Völker<br>Jan Vukovich<br><br>';
+
 
 
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
+
+$lang['content']['alumni_member_2019'] = 'Markus Böcker<br>Gloria Clausen<br>Romain Dubey<br>Andreas Gimpel<br>Ann-Christin Kerl<br>Jérôme Käslin<br>Jonathan Saring<br>Christian Schellhaas<br>Paul Schnacke<br>Alessandro Streuli<br>Esther Tschanen-Hammann<br>Patrik Willi<br>Konstantin Zouboulis<br><br>';
 
 $lang['content']['alumni_member_2018'] = 'Markus Böcker<br>Andreas Bumberger<br>Romain Dubey<br>Andreas Gimpel<br>David Hahn<br>Clemens Isert<br>Ann-Christin Kerl<br>Lukas Lätsch<br>Josephine Scheiter<br>Paul Schnacke<br>Cyril Schroeder<br>Esther Tschanen-Hammann<br>Patrik Willi<br>Konstantin Zouboulis<br><br>';
 

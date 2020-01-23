@@ -74,14 +74,6 @@ $active_nav = 'team';
       </span>
     </div>
 
-    <div class="content flex">
-      <div class="image-big l-12 m-12 s-12">
-        <div>
-          <img <?php set_source($awss3.'/img/team/2019/team_full','jpg'); ?>></img>
-        </div>
-      </div>
-    </div>
-
     <div class="spacer">
     </div>
 
@@ -94,7 +86,7 @@ $active_nav = 'team';
       <div class="content flex-center">
         <div class="image-member l-4 m-6 s-12">
           <div>
-          <img <?php set_source($awss3.'/img/team/2019/member_'.$member_id,'jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2020/member_'.$member_id,'jpg'); ?>></img>
           </div>
         </div>
         <div class="text l-8 m-6 s-12">
@@ -117,7 +109,26 @@ $active_nav = 'team';
       </div>
     <?php } ?>
 
+    <div class="spacer">
+      </div>
 
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['akquise-team_subsection'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-6 m-12 s-12">
+        <?php echo($lang['content']['akquise-team_2020']); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
 
     <div class="spacer">
     </div>
@@ -141,6 +152,13 @@ $active_nav = 'team';
     </div>
 
     <div class="content flex">
+    <div class="text l-6 m-12 s-12">
+        <div class="subsection">
+          Chemtogether 2019
+        </div>
+        <?php echo($lang['content']['alumni_member_2019']); ?>
+      </div>
+
      <div class="text l-6 m-12 s-12">
         <div class="subsection">
           Chemtogether 2018

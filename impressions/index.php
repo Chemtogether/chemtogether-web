@@ -17,7 +17,7 @@ include('./lang.php');
 $active_nav = 'impressions';
 
 $fb = array(
-   "title"        => "Chemtogether 2019 - Impressions",
+   "title"        => "Chemtogether 2020 - Impressions",
 // "desc"         => "",
    "url"          => "https://www.chemtogether.ethz.ch/impressions/",
 // "image_url"    => "",

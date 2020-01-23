@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2018 - Aussteller', 'Chemtogether 2018 - Exhibitors');
+$lang['general']['page_title'] = array('Chemtogether 2020 - Aussteller', 'Chemtogether 2020 - Exhibitors');
 $lang['navigation']['title'] = array('Für Firmen', 'For Companies');
 $lang['navigation']['topnav_title']= array('Für Firmen', 'For Companies');
 
@@ -30,8 +30,8 @@ $lang['content'] = array(
     'Brochure for companies (2019)'),
 
   'documents_guide' => array(
-    'Messeführer (2018)',
-    'Expo Guide (2018)'),
+    'Messeführer (2019)',
+    'Expo Guide (2019)'),
 
   'documents_termsandconditions' => array(
     'AGB',
