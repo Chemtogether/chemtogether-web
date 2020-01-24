@@ -45,103 +45,200 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dow-chemical/','
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'DowDuPont Materials Science, a business
-division of DowDuPont (NYSE:
-DWDP), combines science and technology
-knowledge to develop premier
-materials science solutions that are
-essential to human progress. The
-division has one of the strongest and
-broadest toolkits in the industry, with
-robust technology, asset integration,
-scale and competitive capabilities that
-enable it to address complex global
-issues.<br>
-DowDuPont Materials Science’s market-driven,
-industry-leading portfolio of
-advanced materials, industrial intermediates,
-and plastics businesses deliver
-a broad range of differentiated technologybased
-products and solutions
-for customers in high-growth markets
-such as packaging, infrastructure, and
-consumer care. DowDuPont intends to
-separate the Materials Science Division
-into an independent, publicly traded
-company.',
-  'DowDuPont Materials Science, a business
-division of DowDuPont (NYSE:
-DWDP), combines science and technology
-knowledge to develop premier
-materials science solutions that are
-essential to human progress. The
-division has one of the strongest and
-broadest toolkits in the industry, with
-robust technology, asset integration,
-scale and competitive capabilities that
-enable it to address complex global
-issues.<br>
-DowDuPont Materials Science’s market-driven,
-industry-leading portfolio of
-advanced materials, industrial intermediates,
-and plastics businesses deliver
-a broad range of differentiated technologybased
-products and solutions
-for customers in high-growth markets
-such as packaging, infrastructure, and
-consumer care. DowDuPont intends to
-separate the Materials Science Division
-into an independent, publicly traded
-company.');
+  'The Dow Chemical Company (Dow) combines science and technology knowledge to develop premier materials science solutions that are essential to human progress. Dow has one of the strongest and broadest toolkits in the industry, with robust technology, asset integration, scale and competitive capabilities that enable it to address complex global issues. Dow’s market-driven, industry-leading portfolio of advanced materials, industrial intermediates, and plastics businesses deliver a broad range of differentiated technology-based products and solutions for customers in high-growth markets such as packaging, infrastructure, and consumer care. Dow is a subsidiary of DowDuPont (NYSE: DWDP), a holding company comprised of Dow and DuPont with the intent to form three strong, independent, publicly traded companies in agriculture, materials science and specialty sectors.<br><br>
+  More information can be found at <a href="https://www.dow.com/">www.dow.com</a>.',
+    'The Dow Chemical Company (Dow) combines science and technology knowledge to develop premier materials science solutions that are essential to human progress. Dow has one of the strongest and broadest toolkits in the industry, with robust technology, asset integration, scale and competitive capabilities that enable it to address complex global issues. Dow’s market-driven, industry-leading portfolio of advanced materials, industrial intermediates, and plastics businesses deliver a broad range of differentiated technology-based products and solutions for customers in high-growth markets such as packaging, infrastructure, and consumer care. Dow is a subsidiary of DowDuPont (NYSE: DWDP), a holding company comprised of Dow and DuPont with the intent to form three strong, independent, publicly traded companies in agriculture, materials science and specialty sectors.<br><br>
+    More information can be found at <a href="https://www.dow.com/">www.dow.com</a>.');
 $template['we_offer'] = array(
-  'The Science To Your Success. A career
-with us is an invitation to explore, create
-and make valuable contributions to
-human progress. We have some of the
-world’s best scientists and innovators
-dedicated to solving world challenges
-through innovation.
-<br><br>Find out how we do it: <a href="https://campusemeai.dow.com">campusemeai.dow.com</a><br><br>
-International opportunities in EMEAI include:<br>
-Research & Development<br>
-Marketing & Sales<br>
-Supply Chain<br>
-Environment, Health & Safety<br>
-Sutainability',
-  'The Science To Your Success. A career
-with us is an invitation to explore, create
-and make valuable contributions to
-human progress. We have some of the
-world’s best scientists and innovators
-dedicated to solving world challenges
-through innovation.
-<br><br>Find out how we do it: <a href="https://campusemeai.dow.com">campusemeai.dow.com</a><br><br>
-International opportunities in EMEAI include:<br>
-Research & Development<br>
-Marketing & Sales<br>
-Supply Chain<br>
-Environment, Health & Safety<br>
-Sutainability');
+  'The Science to Your Success. A career with us is an invitation to explore, create and make valuable con­tributions to human progress. We have some of the world’s best scientists and innovators dedicated to solving world challenges through innovation. Find out how we do it at <a href="http://www.dowcampus.com/">www.dowcampus.com</a>.<br><br>In addition we offer: <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>The opportunity to carve out a unique and vibrant career</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Reward and recognition for strong performance</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Comprehensive benefits</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>An inclusive culture and diverse workforce that is empowered by authenticity, respect and equity for everyone</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Opportunity to participate in any of our 10 Employee Resource Groups as an enabler for personal growth and business success</td>
+  </tr>
+  </table>',
+  'The Science to Your Success. A career with us is an invitation to explore, create and make valuable con­tributions to human progress. We have some of the world’s best scientists and innovators dedicated to solving world challenges through innovation. Find out how we do it at <a href="http://www.dowcampus.com/">www.dowcampus.com</a>.<br><br>In addition we offer: <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>The opportunity to carve out a unique and vibrant career</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Reward and recognition for strong performance</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Comprehensive benefits</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>An inclusive culture and diverse workforce that is empowered by authenticity, respect and equity for everyone</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Opportunity to participate in any of our 10 Employee Resource Groups as an enabler for personal growth and business success</td>
+  </tr>
+  </table>');
 $template['we_look'] = array(
-  'Innovators and team-players who want
-to utilize their skills and share our
-passion to make a difference. We look
-for people with an open and respectful
-mind who are flexible, mobile, and willing
-to grow across the globe.',
-  'Innovators and team-players who want
-to utilize their skills and share our
-passion to make a difference. We look
-for people with an open and respectful
-mind who are flexible, mobile, and willing
-to grow across the globe.');
+  'Innovators and team-players who want to utilize their skills and share our passion to make a difference. We look for people with an open and respectful mind who are flexible, mobile, and willing to grow their careers in an inclusive environment across the globe.<br><br>International opportunities in EMEAI include: <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Research & Development </td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Technical Service and Development</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Marketing & Sales </td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Supply Chain</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Environment, Health & Safety</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Sustainability</td>
+  </tr>
+  </table>',
+'Innovators and team-players who want to utilize their skills and share our passion to make a difference. We look for people with an open and respectful mind who are flexible, mobile, and willing to grow their careers in an inclusive environment across the globe.<br><br>International opportunities in EMEAI include: <table class="fa-table">
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Research & Development </td>
+</tr>
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Technical Service and Development</td>
+</tr>
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Marketing & Sales </td>
+</tr>
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Supply Chain</td>
+</tr>
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Environment, Health & Safety</td>
+</tr>
+<tr>
+<td><i class="fas fa-fw fa-chevron-right"></td>
+<td>Sustainability</td>
+</tr>
+</table>');
 
+$i=0;
 
+$template['interview']['2019'][$i++] = array(
+  'name' => 'Dr. Barbara Bonavoglia',
+  'img_url' => set_source($awss3_archive.'/dow/interviewee_2019_1', 'png', FALSE),
+  'position' => array('Scientist within Packaging & Specialty Plastics business','Scientist within Packaging & Specialty Plastics business'),
+
+  'education' => array(
+    0 => array(
+      'date' => '2001-2005',
+      'desc' => array('Doctor of Sciences at ETH Zurich','Doctor of Sciences at ETH Zurich'),
+    ),
+    1 => array(
+      'date' => '1995-2001',
+      'desc' => array('Master in Chemical Engineering, Politecnico di Milano','Master in Chemical Engineering, Politecnico di Milano'),
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2016',
+      'desc' => array('Scientist within Packaging & Specialty Plastics business, DOW','Scientist within Packaging & Specialty Plastics business, DOW'),
+    ),
+    1 => array(
+      'date' => '2008',
+      'desc' => array('Application Technology Leader Hygiene and Medical, DOW','Application Technology Leader Hygiene and Medical, DOW'),
+    ),
+    2 => array(
+      'date' => '2005-2008',
+      'desc' => array('Development Engineer in the Customer Technical Support Center, DOW','Development Engineer in the Customer Technical Support Center, DOW'),
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => array('What are your responsibilities as a scientist within the packaging & specialty plastics business and as application technology leader for hygiene and medical at DOW?','What are your responsibilities as a scientist within the packaging & specialty plastics business and as application technology leader for hygiene and medical at DOW?'),
+      'answer' => array('In my role as a Scientist within the Packaging & Specialty Plastics business I have the opportunity to lead our student programm called the Industrial Innovation Campus. 
+      Within this responsibility:
+          (1) I work together with my colleagues to define ideas of projects that are suitable for master students coming to DOW in Horgen for a 9 month internship,
+          (2) I prioritize the projects according to our strategy and business needs, 
+          (3) I visit universities to present the program and interview candidates 
+          (4) and finally, I welcome those who participate in the program at our site in Horgen and supervise that the projects run smoothly while the students are here.  
+          As the application technology leader for one of our business segments, my main responsibility is to define the multigenerational plan of research projects that DOW needs in order to fulfil the immediate business needs as well as deliver innovation in the long term. To perform this task successfully, I work closely with customers and brand owners to understand the needs and trends, with DOW marketing to set the long-term strategy and with our people managers to properly resources the projects.','In my role as a Scientist within the Packaging & Specialty Plastics business I have the opportunity to lead our student programm called the Industrial Innovation Campus. 
+          Within this responsibility:
+              (1) I work together with my colleagues to define ideas of projects that are suitable for master students coming to DOW in Horgen for a 9 month internship,
+              (2) I prioritize the projects according to our strategy and business needs, 
+              (3) I visit universities to present the program and interview candidates 
+              (4) and finally, I welcome those who participate in the program at our site in Horgen and supervise that the projects run smoothly while the students are here.  
+              As the application technology leader for one of our business segments, my main responsibility is to define the multigenerational plan of research projects that DOW needs in order to fulfil the immediate business needs as well as deliver innovation in the long term. To perform this task successfully, I work closely with customers and brand owners to understand the needs and trends, with DOW marketing to set the long-term strategy and with our people managers to properly resources the projects.'),
+    ),
+    1 => array(
+      'question' => array('You graduated in chemistry. Does DOW also employ graduates with a different field of study?','You graduated in chemistry. Does DOW also employ graduates with a different field of study?'),
+      'answer' => array('I did my master in chemical engineering in Milan at the Politecnico and then did my PhD at ETH in the department once called Chemistry and Bio-engineering. 
+      Within the R&D department, DOW employs people from various backgrounds. I would say that we hire people from all the STEM fields.','I did my master in chemical engineering in Milan at the Politecnico and then did my PhD at ETH in the department once called Chemistry and Bio-engineering. 
+      Within the R&D department, DOW employs people from various backgrounds. I would say that we hire people from all the STEM fields.'),
+    ),
+    2 => array(
+      'question' => array('During your PhD you focused on phase behaviour of polymer-supercritical CO2 -systems. How can you apply your expertise from academia in your daily work at DOW?','During your PhD you focused on phase behaviour of polymer-supercritical CO2 -systems. How can you apply your expertise from academia in your daily work at DOW?'),
+      'answer' => array('What the PhD taught me is the ability to run complex projects within a specific timeframe and connect with people outside of my immediate work environment to make sure to successfully reach the desired milestones. This experience was extremely useful throughout my career at DOW.','What the PhD taught me is the ability to run complex projects within a specific timeframe and connect with people outside of my immediate work environment to make sure to successfully reach the desired milestones. This experience was extremely useful throughout my career at DOW.'),
+    ),
+    3 => array(
+      'question' => array('You were already promoted multiple times at DOW. How do you imagine your future career opportunities to look like?','You were already promoted multiple times at DOW. How do you imagine your future career opportunities to look like?'),
+      'answer' => array('DOW gives great opportunities to people who are eager to learn and develop throughout the years. I love the technical career path and would like to grow further by having the opportunity to lead larger technical projects.','DOW gives great opportunities to people who are eager to learn and develop throughout the years. I love the technical career path and would like to grow further by having the opportunity to lead larger technical projects.'),
+    ),
+    4 => array(
+      'question' => array('How does your daily work life look like at DOW? Do you normally work at the same location or do you get to travel for work?','How does your daily work life look like at DOW? Do you normally work at the same location or do you get to travel for work?'),
+      'answer' => array('My work foresees a certain amount of travelling to visit customers and value chain members as well as universities and institutes. Only by keeping the right contacts with the outside world, I’m able to define the next generation projects and activities that will deliver value to the company in the medium to long term. 
+      When I’m in the office, I’m very often in contact with our IP department and R&D department to protect the developed innovation and define next steps in projects.
+      There is therefore no “standard” day of work. Every day is different, which makes my job very interesting.','My work foresees a certain amount of travelling to visit customers and value chain members as well as universities and institutes. Only by keeping the right contacts with the outside world, I’m able to define the next generation projects and activities that will deliver value to the company in the medium to long term. 
+      When I’m in the office, I’m very often in contact with our IP department and R&D department to protect the developed innovation and define next steps in projects.
+      There is therefore no “standard” day of work. Every day is different, which makes my job very interesting.'),
+    ),
+    5 => array(
+      'question' => array('You have been with DOW for almost 14 years. In your opinion, what does DOW offer employees so that you have remained loyal to the company for so long?','You have been with DOW for almost 14 years. In your opinion, what does DOW offer employees so that you have remained loyal to the company for so long?'),
+      'answer' => array('DOW gives great opportunities to develop according to the skillset that each one brings. One can start in one role or one business and be given opportunity to move into completely different roles or businesses if the right skillset and interest is there. I have several colleagues who moved from technical into commercial roles and then back into managerial roles or stayed in the commercial function. 
+      If instead people show the skill set and interest to grow into a deeper technical career, DOW offers the possibility to grow within the R&D function to become fellow and experts in certain areas. 
+      The company also has a great diversity and inclusion culture. You feel respected in the company irrespective of background and ideas!','DOW gives great opportunities to develop according to the skillset that each one brings. One can start in one role or one business and be given opportunity to move into completely different roles or businesses if the right skillset and interest is there. I have several colleagues who moved from technical into commercial roles and then back into managerial roles or stayed in the commercial function. 
+      If instead people show the skill set and interest to grow into a deeper technical career, DOW offers the possibility to grow within the R&D function to become fellow and experts in certain areas. 
+      The company also has a great diversity and inclusion culture. You feel respected in the company irrespective of background and ideas!')
+    ),
+    6 => array(
+      'question' => array('Which suggestions do you have for a recent ETH graduate applying for jobs or internships?','Which suggestions do you have for a recent ETH graduate applying for jobs or internships?'),
+      'answer' => array('Be yourself, be open, ask challenging questions, show why you are different from the others through your special work and study experiences or because of special interests and hobbies. Send a picture of yourself with the CV. I like to see the face of who is applying, and a picture sometimes says more than 1000 words. Send a motivation letter with the informations why have you chosen that position and why are you a perfect match of the position you applied to. Prepare yourself for the interview for example look at the company’s website, inform you about what they do and where they set the emphasis.','Be yourself, be open, ask challenging questions, show why you are different from the others through your special work and study experiences or because of special interests and hobbies. Send a picture of yourself with the CV. I like to see the face of who is applying, and a picture sometimes says more than 1000 words. Send a motivation letter with the informations why have you chosen that position and why are you a perfect match of the position you applied to. Prepare yourself for the interview for example look at the company’s website, inform you about what they do and where they set the emphasis.'),
+    ),
+  ),
+);
 
 $i = 0;
 $template['interview']['2018'][$i++] = array(
   'name' => 'Dr. Margherita Fontana',
-  'img_url' => set_source($awss3.'/companies/dow/interviewee_1', 'png', FALSE),
+  'img_url' => set_source($awss3_archive.'/dow/interviewee_2018_1', 'png', FALSE),
   'position' => array('Global Strategic Marketing Director', 'Global Strategic Marketing Director'),
 
   'education' => array(
@@ -270,7 +367,7 @@ $template['interview']['2018'][$i++] = array(
 
 $template['interview']['2018'][$i++] = array(
   'name' => 'Dr. Peter Sandkuehler',
-  'img_url' => set_source($awss3.'/companies/dow/interviewee_2', 'png', FALSE),
+  'img_url' => set_source($awss3_archive.'/dow/interviewee_2018_2', 'png', FALSE),
   'position' => array('Application Technology Leader Packaging', 'Application Technology Leader Packaging'),
 
   'education' => array(

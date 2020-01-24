@@ -45,14 +45,60 @@ $template['linkedin'] = array('https://www.linkedin.com/company/hoffmann-eitle/'
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'HOFFMANN EITLE is a law firm specialised in IP. With six offices in Munich, London, Milan, Madrid, Düsseldorf and Hamburg, the firm is one of the largest in Europe. Our headquarters are in Munich, which is the centre of patent law in Europe. Each year, we file more than 4,000 new patent applications for our clients, and are involved in more patent opposition cases than any other law firm. The firm’s client base is very international, and includes many well-known corporations from Japan, the US and Europe. We have employees from many different countries, including Germany, the UK, France, Switzerland, Italy, Belgium, Denmark, Bulgaria, Japan, China and the US.',
-  'HOFFMANN EITLE is a law firm specialised in IP. With six offices in Munich, London, Milan, Madrid, Düsseldorf and Hamburg, the firm is one of the largest in Europe. Our headquarters are in Munich, which is the centre of patent law in Europe. Each year, we file more than 4,000 new patent applications for our clients, and are involved in more patent opposition cases than any other law firm. The firm’s client base is very international, and includes many well-known corporations from Japan, the US and Europe. We have employees from many different countries, including Germany, the UK, France, Switzerland, Italy, Belgium, Denmark, Bulgaria, Japan, China and the US.');
+  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.<br> 
+  More than 40 IP professionals work in our offices in the extended fields of chemistry and biochemistry, making it one of the strongest and most experienced private practice groups in this area. Our areas of competence take in pharmaceuticals, polymers, detergents & cosmetics, printing technologies, electrochemistry, semiconductors, plant protection, building materials, textiles, foodstuff and paper chemistry.<br>   
+  Our client base is international on a global level, and our employees come from over 30 countries around the world, making HOFFMANN EITLE a culturally diverse workplace.
+  ',
+  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.<br> 
+  More than 40 IP professionals work in our offices in the extended fields of chemistry and biochemistry, making it one of the strongest and most experienced private practice groups in this area. Our areas of competence take in pharmaceuticals, polymers, detergents & cosmetics, printing technologies, electrochemistry, semiconductors, plant protection, building materials, textiles, foodstuff and paper chemistry.<br>   
+  Our client base is international on a global level, and our employees come from over 30 countries around the world, making HOFFMANN EITLE a culturally diverse workplace.
+  ');
 $template['we_offer'] = array(
-  'We offer our trainees a competitive salary together with top-quality training, and good long-term career perspectives. Our training model has proven to be very effective, and our pass rates for the Qualifying Exams are well above average. We also offer internships throughout the year, to allow potential applicants to get a feel of how it is to work as a Patent Attorney. Our interns work together with a supervisor on various cases, and also have opportunities to attend oral proceedings.',
-  'We offer our trainees a competitive salary together with top-quality training, and good long-term career perspectives. Our training model has proven to be very effective, and our pass rates for the Qualifying Exams are well above average. We also offer internships throughout the year, to allow potential applicants to get a feel of how it is to work as a Patent Attorney. Our interns work together with a supervisor on various cases, and also have opportunities to attend oral proceedings.');
+  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives and a dynamic and rewarding work environment.<br> 
+  We also offer internships to allow potential applicants to get a feel of how it is to work as a patent attorney.
+  ',
+  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives and a dynamic and rewarding work environment.<br> 
+  We also offer internships to allow potential applicants to get a feel of how it is to work as a patent attorney.
+  ');
 $template['we_look'] = array(
-  'Absolute prerequisites for the job include a technical qualification at a university level and excellent English skills (written and spoken). Our trainees must be confident, have first-rate technical comprehension, and the ability to analyze complex facts and present these in precise technical terms.',
-  'Absolute prerequisites for the job include a technical qualification at a university level and excellent English skills (written and spoken). Our trainees must be confident, have first-rate technical comprehension, and the ability to analyze complex facts and present these in precise technical terms.');
+  'Individuals with
+  <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>a technical qualification at university level</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>excellent English skills (written and spoken)</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>first-rate technical comprehension</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>ability to analyze complex facts and present these in precise technical terms</td>
+  </tr></table>
+  ',
+  'Individuals with
+  <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>a technical qualification at university level</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>excellent English skills (written and spoken)</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>first-rate technical comprehension</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>ability to analyze complex facts and present these in precise technical terms</td>
+  </tr></table>
+  ');
 
 
 

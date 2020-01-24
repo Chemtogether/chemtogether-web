@@ -58,7 +58,7 @@ $template['we_look'] = array(
   $i=0;
   $template['interview']['2017'][$i++] = array(
     'name' => 'Dr. Sara Fornera',
-    'img_url' => set_source($awss3_archive.'/sika/interview-2017-1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/sika/interviewee_2017_1', 'png', FALSE),
     'position' => array('Wissenschaftlerin (F&ampE)', 'Scientist (R&ampD)'),
 
     'education' => array(

@@ -54,13 +54,76 @@ $template['we_look'] = array(
   'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.',
   'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.');
 
+  $i=0;
 
+  $template['interview'][2019][$i++] = array(
+      'name' => 'Dr. Gunnar Zoch',
+      'img_url' => set_source($awss3_archive.'/lonza/interviewee_2019_1', 'png', FALSE),
+      'position' => array('Senior Project Leader QC','Senior Project Leader QC'),
+    
+      'education' => array(
+        0 => array(
+          'date' => '2014-2017',
+          'desc' => array('Doctor of Sciences in Immunology, Department of Clinical Research at the Inselspital Bern','Doctor of Sciences in Immunology, Department of Clinical Research at the Inselspital Bern'),
+        ),
+        1 => array(
+          'date' => '2015-2016',
+          'desc' => array('Bachelor Minor in Business Administration, University Bern','Bachelor Minor in Business Administration, University Bern'),
+        ),
+        2 => array(
+          'date' => '2008-2014',
+          'desc' => array('BSc and MSc in Biochemistry and Molecular Biology, Christian-Albrechts University in Kiel','BSc and MSc in Biochemistry and Molecular Biology, Christian-Albrechts University in Kiel'),
+        ),
+      ),
+    
+      'career' => array(
+        0 => array(
+          'date' => '2018',
+          'desc' => array('Senior Project Leader QC, Lonza AG','Senior Project Leader QC, Lonza AG'),
+        ),
+        1 => array(
+          'date' => '2017-2018',
+          'desc' => array('Scientist QA, CSL Behring','Scientist QA, CSL Behring')
+        ),
+      ),
+    
+      'interview' => array(
+        0 => array(
+          'question' => array('What are your responsibilities as senior project leader in the quality control at Lonza?','What are your responsibilities as senior project leader in the quality control at Lonza?'),
+          'answer' => array('I am the representative of the QC to customers, internal and external, and the project representative to the QC. This involves all aspects of the quality control from raw materials, production support, batch release to validations. I act as an organizer and planner, a mediator or a subject matter expert.','I am the representative of the QC to customers, internal and external, and the project representative to the QC. This involves all aspects of the quality control from raw materials, production support, batch release to validations. I act as an organizer and planner, a mediator or a subject matter expert.'),
+        ),
+        1 => array(
+          'question' => array('You worked in the academia and in an hospital during your studies and now in the industry. Can you describe how the work differs between academia, hospitals and the industry?','You worked in the academia and in an hospital during your studies and now in the industry. Can you describe how the work differs between academia, hospitals and the industry?'),
+          'answer' => array('In the academic environment, I found that one could plan further ahead with greater precision. It depended more on one’s own scheduling and organizing. The clinic brought in more dependencies on other people and their ability to keep to schedules/deadlines. This is further increased in the industry. The same goes for the level of detail in your documentation.','In the academic environment, I found that one could plan further ahead with greater precision. It depended more on one’s own scheduling and organizing. The clinic brought in more dependencies on other people and their ability to keep to schedules/deadlines. This is further increased in the industry. The same goes for the level of detail in your documentation.'),
+        ),
+        2 => array(
+          'question' => array('How have your studies prepared you for the role as senior project leader?','How have your studies prepared you for the role as senior project leader?'),
+          'answer' => array('The single biggest impact had the self-organisation I achieved while doing my PhD. Also multitasking and networking inside your own organisation makes your work easier.','The single biggest impact had the self-organisation I achieved while doing my PhD. Also multitasking and networking inside your own organisation makes your work easier.'),
+        ),
+        3 => array(
+          'question' => array('During your PhD and your studies, you focused on immunology, biochemistry and molecular biology. How can you apply your expertise in biochemistry and immunology in your daily work at Lonza?','During your PhD and your studies, you focused on immunology, biochemistry and molecular biology. How can you apply your expertise in biochemistry and immunology in your daily work at Lonza?'),
+          'answer' => array('As I work with antibody-drug-conjugates, my biochemistry and immunology background allows me to understand the why’s and what’s of our products and the methods we use to analyse them. Also, it facilitates the impact assessment of any deviations and determining the root causes.','As I work with antibody-drug-conjugates, my biochemistry and immunology background allows me to understand the why’s and what’s of our products and the methods we use to analyse them. Also, it facilitates the impact assessment of any deviations and determining the root causes.'),
+        ),
+        4 => array(
+          'question' => array('How important is harmony between work and outside life for you? Does Lonza offer a good work-life balance for its employees?','How important is harmony between work and outside life for you? Does Lonza offer a good work-life balance for its employees?'),
+          'answer' => array('Life-work balance may be hollow phrase for some, but it is very important to me and it is also one aspect I like about Lonza. I enjoy flexible hours, the ability to work from home and easy overtime compensation. Lonza also offers several sport groups, training for the Matterhorn marathon for example, and even vacation homes.','Life-work balance may be hollow phrase for some, but it is very important to me and it is also one aspect I like about Lonza. I enjoy flexible hours, the ability to work from home and easy overtime compensation. Lonza also offers several sport groups, training for the Matterhorn marathon for example, and even vacation homes.'),
+        ),
+        5 => array(
+          'question' => array('During your PhD you completed a Bachelor Minor in Business Administration. In which aspects did this further education added missing points to your spectrum that you missed after your Masters in Biochemistry and Molecular Biology?','During your PhD you completed a Bachelor Minor in Business Administration. In which aspects did this further education added missing points to your spectrum that you missed after your Masters in Biochemistry and Molecular Biology?'),
+          'answer' => array('Getting to know the basics of business administration helped me in my professional and personal life. Having a grasp on accounting or understanding different philosophies of management lets you understand the decision made by a company or situations you find yourself in. Especially learning about the types of leadership a person display helped on weighing my options and deciding what kind of leader I want to be myself.','Getting to know the basics of business administration helped me in my professional and personal life. Having a grasp on accounting or understanding different philosophies of management lets you understand the decision made by a company or situations you find yourself in. Especially learning about the types of leadership a person display helped on weighing my options and deciding what kind of leader I want to be myself.'),
+        ),
+        6 => array(
+          'question' => array('Which suggestions do you have for a recent ETH graduate applying for jobs or internships?','Which suggestions do you have for a recent ETH graduate applying for jobs or internships?'),
+          'answer' => array('For jobs, do not pass over temporary jobs that, for example, last less than 6 months. These positions offer you a great chance to actually see and feel what is like in that position. This will help you for the next application as you know better what you are looking for, in a boss, in the position and in the size of the company. Give your CV and motivation letter to multiple persons to check and comment on.','For jobs, do not pass over temporary jobs that, for example, last less than 6 months. These positions offer you a great chance to actually see and feel what is like in that position. This will help you for the next application as you know better what you are looking for, in a boss, in the position and in the size of the company. Give your CV and motivation letter to multiple persons to check and comment on.'),
+        ),
+      ),
+  );
 
   $i = 0;
 
   $template['interview'][2018][$i++] = array(
     'name' => 'Dr. Benjamin Wyler ',
-    'img_url' => set_source($awss3.'/companies/lonza/interviewee_1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/lonza/interviewee_2018_1', 'png', FALSE),
     'position' => array('Project Leader, Process Development Chemist', 'Project Leader, Process Development Chemist'),
   
     'education' => array(

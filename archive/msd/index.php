@@ -55,12 +55,83 @@ $template['we_look'] = array(
   'We are regularly looking for talents with a strong educational background in Life Sciences, recently having gained a relevant university degree or with first industry experience, pursuing a career in the pharmaceutical industry. Your experience can be applied in a variety of functions within our local and regional organizations in Switzerland, e.g. in R&amp;D and manufacturing, quality, regulatory affairs or external manufacturing management. Besides, MSD offers an apprenticeship program with a focus on biology or chemistry.');
 
 
+  $i=0;
 
+  $template['interview'][2019][$i++] = array(
+    'name' => 'Dr. Stephanie Moessner',
+    'img_url' => set_source($awss3_archive.'/msd/interviewee_2019_1', 'png', FALSE),
+    'position' => array('Director Pharmaceutical Sciences WAG','Director Pharmaceutical Sciences WAG'),
+  
+    'education' => array(
+      0 => array(
+        'date' => '1996-1998',
+        'desc' => array('Postdoctoral Researcher (Humboldt Fellowship), NIST National Institute of Standards and Technology, Gaithersburg, Maryland, US','Postdoctoral Researcher (Humboldt Fellowship), NIST National Institute of Standards and Technology, Gaithersburg, Maryland, US'),
+      ),
+      1 => array(
+        'date' => '1991-1995',
+        'desc' => array('PhD scientist in analytical and environmental chemistry, toxicology, University of Ulm, Germany, Department of Analytical and Environmental Chemistry','PhD scientist in analytical and environmental chemistry, toxicology, University of Ulm, Germany, Department of Analytical and Environmental Chemistry'),
+      ),
+      2 => array(
+        'date' => '1985-1991',
+        'desc' => array('Diploma, Chemistry (inorganic, organic, physical and analytical chemistry), University of Ulm, Germany','Diploma, Chemistry (inorganic, organic, physical and analytical chemistry), University of Ulm, Germany'),
+      ),
+    ),
+  
+    'career' => array(
+      0 => array(
+        'date' => '2018',
+        'desc' => array('Director PharmSci WAG, Werthenstein BioPharma GmbH, MSD Switzerland','Director PharmSci WAG, Werthenstein BioPharma GmbH, MSD Switzerland'),
+      ),
+      1 => array(
+        'date' => '2010-2018',
+        'desc' => array('Director ACDS (Analytical Chemistry in Development and Supply), Werthenstein BioPharma GmbH, MSD Switzerland','Director ACDS (Analytical Chemistry in Development and Supply), Werthenstein BioPharma GmbH, MSD Switzerland'),
+      ),
+      2 => array(
+        'date' => '2004-2010',
+        'desc' => array('Associate Director GMP/Comparator Labs, Werthenstein BioPharma GmbH, MSD Switzerland','Associate Director GMP/Comparator Labs, Werthenstein BioPharma GmbH, MSD Switzerland'),
+      ),
+      3 => array(
+        'date' => '1999-2004',
+        'desc' => array('Manager Stability Lab, Werthenstein Chemie AG','Manager Stability Lab, Werthenstein Chemie AG'),
+      ),
+    ),
+  
+    'interview' => array(
+      0 => array(
+        'question' => array('What is your daily work like as Director of Chemistry at MSD and what are your responsibilities?','What is your daily work like as Director of Chemistry at MSD and what are your responsibilities?'),
+        'answer' => array('I am head of the Pharmaceutical Sciences department at MSD in Switzerland at the development site in Schachen close to Lucerne. My teams are developing analytical methods for innovative drug products, e.g. on polymeric basis. My daily work is mainly leading people, project coordination and making strategic decisions.','I am head of the Pharmaceutical Sciences department at MSD in Switzerland at the development site in Schachen close to Lucerne. My teams are developing analytical methods for innovative drug products, e.g. on polymeric basis. My daily work is mainly leading people, project coordination and making strategic decisions.'),
+      ),
+      1 => array(
+        'question' => array('You worked in the academia and the industry. How does the work differ in the fields and what could they learn from each other?','You worked in the academia and the industry. How does the work differ in the fields and what could they learn from each other?'),
+        'answer' => array('While academia is primarily focused on basic scientific research, the pharmaceutical industry is applying these results into products for the benefit of the patient. Synergies between academia and industry are key for the success of both. MSD has recognized this important network and has established their research facilities close to top universities.','While academia is primarily focused on basic scientific research, the pharmaceutical industry is applying these results into products for the benefit of the patient. Synergies between academia and industry are key for the success of both. MSD has recognized this important network and has established their research facilities close to top universities.'),
+      ),
+      2 => array(
+        'question' => array('You graduated in chemistry and completed your PhD as well in the fields of chemistries. How much do you still come in contact with concrete chemistry in your function as director?','You graduated in chemistry and completed your PhD as well in the fields of chemistries. How much do you still come in contact with concrete chemistry in your function as director?'),
+        'answer' => array('In my current position as people manager, the direct contact with scientific problems is less in focus than earlier in my career. Other competencies like developing and motivating people get more important.','In my current position as people manager, the direct contact with scientific problems is less in focus than earlier in my career. Other competencies like developing and motivating people get more important.'),
+      ),
+      3 => array(
+        'question' => array('How much have your studies prepared you for your role as Director of Chemistry at MSD?','How much have your studies prepared you for your role as Director of Chemistry at MSD?'),
+        'answer' => array('During my PhD thesis in addition to working on scientific questions I have learned how to manage success and failure. I learned to be curious, resilient, flexible and adapt to challenging situations. This has tremendously prepared me for my current role.','During my PhD thesis in addition to working on scientific questions I have learned how to manage success and failure. I learned to be curious, resilient, flexible and adapt to challenging situations. This has tremendously prepared me for my current role.'),
+      ),
+      4 => array(
+        'question' => array('How important is harmony between work and outside life for you? Does MSD offer a good work-life balance for its employees?','How important is harmony between work and outside life for you? Does MSD offer a good work-life balance for its employees?'),
+        'answer' => array('A good work-life balance is and was very important during my career. I have two children, worked part-time for many years, enjoy flexible working hours and can work from home. MSD has been recognized as Top Employer since many years.','A good work-life balance is and was very important during my career. I have two children, worked part-time for many years, enjoy flexible working hours and can work from home. MSD has been recognized as Top Employer since many years.'),
+      ),
+      5 => array(
+        'question' => array('You were already promoted multiple times. How do you imagine your future career path to look like?','You were already promoted multiple times. How do you imagine your future career path to look like?'),
+        'answer' => array('This is a good question! To be honest, I never had a clear career path laid out for me. I always relied on my openness, flexibility and good network to develop into potential new roles.','This is a good question! To be honest, I never had a clear career path laid out for me. I always relied on my openness, flexibility and good network to develop into potential new roles.'),
+      ),
+      6 => array(
+        'question' => array('Which suggestions do you have for a recent ETH graduate applying for jobs or internships?','Which suggestions do you have for a recent ETH graduate applying for jobs or internships?'),
+        'answer' => array('I would suggest him or her to be open-minded, choose broadly and be aware that the industry is changing fast and not always in a predictable way. A good network, challenging mentors and supportive sponsors are crucial in your career. Attending as many university events as possible to establish relationships with potential employers in the region is very helpful. Explore different areas in internships to get an understanding, what it is like to work in such a role. There are so many opportunities nowadays, so keep on exploring.','I would suggest him or her to be open-minded, choose broadly and be aware that the industry is changing fast and not always in a predictable way. A good network, challenging mentors and supportive sponsors are crucial in your career. Attending as many university events as possible to establish relationships with potential employers in the region is very helpful. Explore different areas in internships to get an understanding, what it is like to work in such a role. There are so many opportunities nowadays, so keep on exploring.'),
+      ),
+    ),
+  );
 
   $i=0;
   $template['interview'][2018][$i++] = array(
     'name' => 'Dr. Marc David Grynbaum',
-    'img_url' => set_source($awss3.'/companies/msd/interviewee_1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/msd/interviewee_2018_1', 'png', FALSE),
     'position' => array('Principal Scientist Regional SAS Hub', 'Principal Scientist Regional SAS Hub'),
   
     'education' => array(
@@ -216,7 +287,7 @@ $template['we_look'] = array(
   $i=0;
   $template['interview']['2017'][$i++] = array(
     'name' => 'Dr. Sabina Compassi',
-    'img_url' => set_source($awss3_archive.'/msd/interview-2017-1', 'png', FALSE),
+    'img_url' => set_source($awss3_archive.'/msd/interviewee_2017_1', 'png', FALSE),
     'position' => array('Associate Director Global Improvement', 'Associate Director Global Improvement'),
 
     'education' => array(

@@ -77,7 +77,7 @@ $template['we_look'] = array(
 $i = 0;
 $template['interview']['2018'][$i++] = array(
   'name' => 'Suraj Rathore',
-  'img_url' => set_source($awss3_archive.'/gurit/interview-2018-1', 'png', FALSE),
+  'img_url' => set_source($awss3_archive.'/gurit/interviewee_2018_1', 'png', FALSE),
   'position' => array('Trainee im Gurit Entrepreneurial Program', 'Trainee of the Gurit Entrepreneurial Program'),
 
   'education' => array(
