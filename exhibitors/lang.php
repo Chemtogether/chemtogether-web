@@ -96,7 +96,7 @@ $lang['content'] = array(
   ),
 
   'feedback_intro' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether 2018 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.73 von 5 Punkten bewertet, unser bestes Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'Alle ausstellenden Unternehmen der Chemtogether 2019 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.73 von 5 Punkten bewertet, unser bestes Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
     'All exhibitors of Chemtogether 2019 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.73 out of 5, our best result yet. Naturally, we would like to further improve the fair in its sixth iteration and have thus began implementing some of the suggestions we received.'),
 
   'feedback_text' => array(
