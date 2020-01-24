@@ -53,8 +53,8 @@ $lang['content'] = array(
     'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2019.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
-    'Rückblick auf 2018',
-    '2018 in Review'),
+    'Rückblick auf 2019',
+    '2019 in Review'),
 
   'feedback_entries' => array(
     '1' => array(
