@@ -18,7 +18,7 @@ $lang['content'] = array(
     'Chemtogether is the place to go because the chemistry and pharmacy department of the ETH is among the very best of the world. Since Chemtogether is organized by a students association, it provides excellent value for money. The informal atmosphere at Chemtogether creates the ideal framework to establish personal contact with our students. Register here to become a part of Chemtogether:'),
 
   'links_registration' => array('Zur Registrierung','Register here'),
-  'registration_button' => array('Zur Registrierung','Register here'),
+  'button_registration' => array('Zur Registrierung','Register here'),
 
   'contact_text' => array(
     'Bitte zögern Sie nicht, uns zu kontaktieren:',
@@ -61,14 +61,14 @@ $lang['content'] = array(
       'Organisation und Kommunikation vor der Messe',
       'Organisation and communication prior to the fair'),
     '2' => array(
-      'Betreuung während der Messe',
-      'Support during the fair'),
+      'Soziale Medien',
+      'Social Media'),
     '3' => array(
-      'Frequentierung der Stände durch die Studierenden',
-      'Amount of students at the booths'),
+      'Organisation und Kommunikation während der Messe',
+      'Organisation and communication during the fair'),
     '4' => array(
-      'Qualität der Gespräche mit Studierenden',
-      'Quality of discussion with students'),
+      'Betreeung während der Messe',
+      'Support during the fair'),
     '5' => array(
       'Verpflegung',
       'Catering'),
@@ -76,29 +76,32 @@ $lang['content'] = array(
       'Standposition',
       'Position of booth'),
     '7' => array(
-      'Preis-Leistung',
-      'Price-performance ratio'),
-    '8' => array(
       'Flash-Präsentationen',
       'Flash-presentations'),
+    '8' => array(
+      'Frequentierung der Stände durch die Studierenden',
+      'Amount of students at the booths'),
     '9' => array(
-      'Social-Media Interviews',
-      'Social-Media Interviews'),
+      'Qualität der Gespräche mit Studierenden',
+      'Quality of discussion with students'),  
     '10' => array(
-      'Professionalität',
-      'Professionalism'),  
+      'Zielgruppe',
+      'Target Audience'),
     '11' => array(
-      'Gesamteindruck',
-      'Overall satisfaction')
+      'Preis-Leistung',
+      'Price-performance ratio'),
+    '12' => array(
+      'Proffessionalität',
+      'Professionalism')
   ),
 
   'feedback_intro' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether 2018 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 5.4 von 6 Punkten bewertet, unser bestes Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
-    'All exhibitors of Chemtogether 2018 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 5.4 out of 6, our best result yet. Naturally, we would like to further improve the fair in its sixth iteration and have thus began implementing some of the suggestions we received.'),
+    'Alle ausstellenden Unternehmen der Chemtogether 2018 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.73 von 5 Punkten bewertet, unser bestes Resultat bisher. Natürlich möchten wir uns mit der sechsten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'All exhibitors of Chemtogether 2019 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.73 out of 5, our best result yet. Naturally, we would like to further improve the fair in its sixth iteration and have thus began implementing some of the suggestions we received.'),
 
   'feedback_text' => array(
-    'Das vollständige Ergebnis der Feedbackauswertung 2018 lautet:',
-    'The complete feedback of 2018 is as follows:')
+    'Das vollständige Ergebnis der Feedbackauswertung 2019 lautet:',
+    'The complete feedback of 2019 is as follows:')
 );
 
 

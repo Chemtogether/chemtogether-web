@@ -72,7 +72,7 @@ $active_nav = 'exhibitors';
           <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
-          <span>5.4/6</span>
+          <span>4.73/5</span>
           <div class="bar"></div>
           <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
@@ -89,12 +89,16 @@ $active_nav = 'exhibitors';
     </div>
 
     <div class="content flex">
-      <div class="text l-6 m-12 s-12 fair-introlinks">
+    <div class="text l-12 m-12 s-12">
+    <br>
+      <br>
+      <div class="programme_button_div">
         <a href="https://registration.chemtogether.ethz.ch/">
-          <i class="fas fa-file-signature"></i>&nbsp;
-          <span><?php echo($lang['content']['links_registration'][$eng]); ?></span>
+          <span><i class="fas fa-file-signature"></i>&nbsp;<?php echo($lang['content']['button_registration'][$eng]); ?></span>
         </a>
       </div>
+      <br>
+    </div>
     </div>
 
     <div class="content flex">
@@ -323,7 +327,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2018','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2019','png'); ?>></img>
         </div>
       </div>
     </div>
@@ -334,70 +338,76 @@ $active_nav = 'exhibitors';
         <br><br>
         <table class="feedback">
           <tr>
-            <td>5.7</td>
+            <td>4.75</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['1'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.9</td>
+            <td>4.42</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['2'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.2</td>
+            <td>4.81</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['3'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.2</td>
+            <td>4.97</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['4'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.1</td>
+            <td>4.66</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['5'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.2</td>
+            <td>4.47</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['6'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.1</td>
+            <td>4.64</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.1</td>
+            <td>4.48</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.4</td>
+            <td>4.39</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.8</td>
+            <td>4.35</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>5.5</td>
+            <td>4.41</td>
             <td>/</td>
-            <td>6</td>
+            <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
+          </tr>
+          <tr>
+            <td>4.87</td>
+            <td>/</td>
+            <td>5</td>
+            <td><?php echo($lang['content']['feedback_entries']['12'][$eng]); ?></td>
           </tr>
         </table>
       </div>
