@@ -14,8 +14,11 @@ $lang['content'] = array(
     'At Chemtogether you can meet talented future employees by direct personal interaction with students and PhDs alike. The format of the fair is such that presentation chances are equal for all companies, big and small. Here, you can win over students for your business area at the very beginning of their career. Pull in young talent by fascinating them with your research and business, opening a window to future opportunities.'),
 
   'intro_text2' => array(
-    'Chemtogether ist besonders, weil die Departemente der Chemie und Pharmazie der ETH zu den besten der Welt gehören. Chemtogether wird von einem Fachverein organisiert und ist daher preiswert. Die informelle Atmosphäre der Messe bietet eine ideale Umgebung, um mit unseren Studenten Kontakt aufzunehmen.',
-    'Chemtogether is the place to go because the chemistry and pharmacy department of the ETH is among the very best of the world. Since Chemtogether is organized by a students association, it provides excellent value for money. The informal atmosphere at Chemtogether creates the ideal framework to establish personal contact with our students.'),
+    'Chemtogether ist besonders, weil die Departemente der Chemie und Pharmazie der ETH zu den besten der Welt gehören. Chemtogether wird von einem Fachverein organisiert und ist daher preiswert. Die informelle Atmosphäre der Messe bietet eine ideale Umgebung, um mit unseren Studenten Kontakt aufzunehmen. Registrieren Sie sich hier, um als Aussteller Teil der Chemtogether zu werden:',
+    'Chemtogether is the place to go because the chemistry and pharmacy department of the ETH is among the very best of the world. Since Chemtogether is organized by a students association, it provides excellent value for money. The informal atmosphere at Chemtogether creates the ideal framework to establish personal contact with our students. Register here to become a part of Chemtogether:'),
+
+  'links_registration' => array('Zur Registrierung','Register here'),
+  'registration_button' => array('Zur Registrierung','Register here'),
 
   'contact_text' => array(
     'Bitte zögern Sie nicht, uns zu kontaktieren:',

@@ -89,6 +89,15 @@ $active_nav = 'exhibitors';
     </div>
 
     <div class="content flex">
+      <div class="text l-6 m-12 s-12 fair-introlinks">
+        <a href="https://registration.chemtogether.ethz.ch/">
+          <i class="fas fa-file-signature"></i>&nbsp;
+          <span><?php echo($lang['content']['links_registration'][$eng]); ?></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['contact_text'][$eng]); ?><br style="line-height:40px;" />
         <table class="fa-table">
