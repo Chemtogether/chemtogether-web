@@ -231,7 +231,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 1500.- excl. 7.7% VAT</span>
+            <td><?php echo($lang['packages_info']['base']['price'][$eng]); ?></td>
           </div>
         </div>
       </div>
@@ -251,7 +251,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 2500.- excl. 7.7% VAT</span>
+            <td><?php echo($lang['packages_info']['silver']['price'][$eng]); ?></td>
           </div>
         </div>
       </div>
@@ -271,7 +271,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 4000.- excl. 7.7% VAT</span>
+            <td><?php echo($lang['packages_info']['gold']['price'][$eng]); ?></td>
           </div>
         </div>
       </div>
@@ -291,7 +291,7 @@ $active_nav = 'exhibitors';
               <?php } ?>
             </table>
             <br>
-            <span class="packages-desc">CHF 5000.- excl. 7.7% VAT</span>
+            <td><?php echo($lang['packages_info']['platinum']['price'][$eng]); ?></td>
           </div>
         </div>
       </div>

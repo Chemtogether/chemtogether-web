@@ -216,14 +216,6 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Auditoriumspräsentation','Presentation in Auditorium'),
-  'base'     => array('',''),
-  'silver'   => array('',''),
-  'gold'     => array('',''),
-  'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
-);
-
-$lang['packages_table'][$i++] = array(
   'perk'     => array('Karriere-Event','Career Event'),
   'base'     => array('',''),
   'silver'   => array('',''),
@@ -240,11 +232,11 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Preis (CHF) exkl. 7.7% MWST','price (CHF) excl. 7.7% VAT'),
+  'perk'     => array('Preis (CHF) exkl. 7.7% MWST <br> (*) je nach Karriere-Event','price (CHF) excl. 7.7% VAT <br> (*) depending on career event'),
   'base'     => array('1500.-','1500.-'),
   'silver'   => array('2500.-','2500.-'),
   'gold'     => array('4000.-','4000.-'),
-  'platinum' => array('5000.-','5000.-'),
+  'platinum' => array('5500.-*','5500.-*'),
 );
 
 
@@ -257,6 +249,7 @@ $lang['packages_info']['base']['perks'][$i++] = array('Catering, WLAN und Strom'
 $lang['packages_info']['base']['perks'][$i++] = array('9 m² Stand mit zwei Stehtischen und -stühlen','9 m² booth with two bistro tables and chairs');
 $lang['packages_info']['base']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
 $lang['packages_info']['base']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['base']['price'] = array('CHF 1500.- exkl. 7.7% MWST','CHF 1500.- excl. 7.7% VAT');
 
 
 $lang['packages_info']['silver']['name'] = array('Silberpaket','Silver package');
@@ -271,6 +264,7 @@ $lang['packages_info']['silver']['perks'][$i++] = array('Bewerbung der Teilnahme
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung im Messeführer','one-page advertisement in the expo guide');
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisement in the student magazine');
 $lang['packages_info']['silver']['perks'][$i++] = array('Veröffentlichung eines Mitarbeierinterviews vor der Messe','publishing of an interview with a company member prior to the fair');
+$lang['packages_info']['silver']['price'] = array('CHF 2500.- exkl. 7.7% MWST','CHF 2500.- excl. 7.7% VAT');
 
 
 $lang['packages_info']['gold']['name'] = array('Goldpaket','Gold package');
@@ -286,6 +280,7 @@ $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf Doppelseite, 
 $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
 $lang['packages_info']['gold']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeier-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
 $lang['packages_info']['gold']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
+$lang['packages_info']['gold']['price'] = array('CHF 4000.- exkl. 7.7% MWST','CHF 4000.- excl. 7.7% VAT');
 
 
 $lang['packages_info']['platinum']['name'] = array('Platinpaket','Platinum package');
@@ -301,8 +296,8 @@ $lang['packages_info']['platinum']['perks'][$i++] = array('Werbung auf Doppelsei
 $lang['packages_info']['platinum']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
 $lang['packages_info']['platinum']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeier-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
 $lang['packages_info']['platinum']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
-$lang['packages_info']['platinum']['perks'][$i++] = array('Präsentation im Auditorium','presentation in the auditorium');
 $lang['packages_info']['platinum']['perks'][$i++] = array('Veranstaltung eines exklusiven Karrerie-Events nach Wunsch','organisation of a career event as requested');
+$lang['packages_info']['platinum']['price'] = array('Min. CHF 5500.- exkl. 7.7% MWST je nach Karriere-Event','Min. CHF 5500.- excl. 7.7% VAT depending on career event');
 
 
 ?>
