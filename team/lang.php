@@ -60,7 +60,7 @@ $lang['team'][5] = array(
 $lang['team'][6] = array(
   'name' => 'Noemi Cerboni',
   'task' => array('Layout','Layout'),
-  'info' => array('Noemi ist in einem kleinen Dorf in der italienischen Schweiz aufgewachsen und studiert derzeit Chemie im Master mit besonderem Interesse an Materialwissenschaften und Radiochemie. Neben ihrer Leidenschaft für Chemie traniert für die nächste Vorführung rhythmischer Gymnastik und gibt Skiunterricht. Sie verpasst auch keine Studentenparty an der ETH. Und wenn sie nicht gerade ein Glas Bier geniesst oder ein Konzert ihrer Lieblingsbands besucht, liest sie vielleicht einen Thriller.','Noemi grew up in a little village in the italian-speaking region of Switzerland and is studying for a master´s degree in chemistry with a particular interest in materials science and radiochemistry. Besides her passion for chemistry, she´s a rhythmic gymnast and a ski instructor. She´s also not going to miss any student party that´s happening at ETH. And when she is not enjoying a glass of beer or visiting a concert of her favourite bands, she might be reading a thriller.'),
+  'info' => array('Noemi ist in einem kleinen Dorf in der italienischen Schweiz aufgewachsen und studiert derzeit Chemie im Master mit besonderem Interesse an Materialwissenschaften und Radiochemie. Neben ihrer Leidenschaft für Chemie trainiert sie für die nächste Vorführung in rhythmischer Gymnastik und gibt Skiunterricht. Sie verpasst auch keine Studentenparty an der ETH. Und wenn sie nicht gerade ein Glas Bier geniesst oder ein Konzert ihrer Lieblingsbands besucht, liest sie vielleicht einen Thriller.','Noemi grew up in a little village in the italian-speaking region of Switzerland and is studying for a master´s degree in chemistry with a particular interest in materials science and radiochemistry. Besides her passion for chemistry, she´s a rhythmic gymnast and a ski instructor. She´s also not going to miss any student party that´s happening at ETH. And when she is not enjoying a glass of beer or visiting a concert of her favourite bands, she might be reading a thriller.'),
   'mail_prefix' => 'naomi.cerboni',
   'linkedin' => ''
 );
@@ -100,7 +100,7 @@ $lang['team'][10] = array(
 $lang['team'][11] = array(
   'name' => 'Alessandro Streuli',
   'task' => array('Social Media Koordinator','Social Media Coordinator'),
-  'info' => array('Alessandro studiert an der ETH mit dem Ziel eines Master in Pharmazeutischen Wissenschaften in den Schwerpunkten Galenik und medizinische Chemie. Alessandros Wurzeln liegen in der Nähe von Rapperswil was auch in seinem grössten Hobby repräsentiert ist, dem Eishockey. Neben dem Hockey verbringt er seine Zeit mit Tauchen und Kochen.','Alessandro studies for a Master’s degree in pharmaceutical sciences at ETH with the core area of galenics and medicinal chemistry. Alessandro has his roots near Rapperswil which also is represented in his biggest hobby, the ice hockey. Besides the hockey he spends his time with diving and cooking.'),
+  'info' => array('Alessandro studiert an der ETH mit dem Ziel eines Master in Pharmazeutischen Wissenschaften in den Schwerpunkten Galenik und medizinische Chemie. Alessandros Wurzeln liegen in der Nähe von Rapperswil, was auch in seinem grössten Hobby repräsentiert ist, dem Eishockey. Neben dem Hockey verbringt er seine Zeit mit Tauchen und Kochen.','Alessandro studies for a Master’s degree in pharmaceutical sciences at ETH with the core area of galenics and medicinal chemistry. Alessandro has his roots near Rapperswil which also is represented in his biggest hobby, the ice hockey. Besides the hockey he spends his time with diving and cooking.'),
   'mail_prefix' => 'alessandro.streuli',
   'linkedin' => 'https://ch.linkedin.com/in/alessandro-streuli-815b35148'
 );
@@ -108,7 +108,7 @@ $lang['team'][11] = array(
 $lang['team'][12] = array(
   'name' => 'Laura Völker',
   'task' => array('Catering','Catering'),
-  'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.'),
+  'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendungen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.'),
   'mail_prefix' => 'laura.voelker',
   'linkedin' => ''
 );
