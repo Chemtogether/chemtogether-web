@@ -29,8 +29,8 @@ $lang['content'] = array(
     'Additional information:'),
 
   'documents_broschure' => array(
-    'Broschüre für Firmen (2019)',
-    'Brochure for companies (2019)'),
+    'Broschüre für Firmen (2020)',
+    'Brochure for companies (2020)'),
 
   'documents_guide' => array(
     'Messeführer (2019)',
