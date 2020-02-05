@@ -44,17 +44,17 @@ $lang['team'][3] = array(
 $lang['team'][4] = array(
   'name' => 'Vittoria Bolongaro',
   'task' => array('Layout','Layout'),
-  'info' => array('Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.','Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.'),
+  'info' => array('Vittoria kommt aus Italien und ist am Lago Maggiore aufgewachsen. Sie studiert Chemieingenieurswissenschaften im Bachelor. Neben der Zeit an der ETH interessiert sie sich für Literatur und probiert leidenschaftlich neue Rezepte in der Küche aus. Sie treibt gerne Sport wie Volleyball und Body Combat und möchte diesen Sommer mit Segeln anfangen.','Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.'),
   'mail_prefix' => 'vittoria.bolongaro',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/vittoria-bolongaro'
 );
 
 $lang['team'][5] = array(
   'name' => 'Christopher Buck',
-  'task' => array('Social Media Koordinator','Social Media Coordinator'),
-  'info' => array('',''),
+  'task' => array('Social Media Koordinator / Marketing','Social Media Coordinator / Marketing'),
+  'info' => array('Nach einem Chemiepraktikum während seines Zwischenjahres in Basel entschied sich Christopher für das Studium Chemieingenieurwissenschaften an der ETH. Ausserhalb des Studienalltags verbringt er viel Zeit in den Bergen,  entweder privat oder als Leiter für Skitouren und Bergsteigen für die Jugendorganisation beim Schweizer Alpenclub.','After a chemistry internship during his gap year in Basel, Christopher decided to study chemical engineering at the ETH. Apart from his studies he spends a lot of time in the Swiss Alps either privately or as a ski touring and mountaineering guide for the youth organisation of the Swiss Alpine Club.'),
   'mail_prefix' => 'christopher.buck',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/christopher-buck-b6832114b'
 );
 
 $lang['team'][6] = array(
@@ -68,15 +68,15 @@ $lang['team'][6] = array(
 $lang['team'][7] = array(
   'name' => 'Dragana Ristanovic',
   'task' => array('Messebau','Fair construction'),
-  'info' => array('',''),
+  'info' => array('Dragana ist gerade im dritten Jahr ihres Doktorats im Labor für reaktionsfähige biomedizinische Systeme an der ETH Zürich. Sie ist eine leidenschaftliche Chemieingenieurin und führt chemische Synthesen fast genauso gerne durch, wie sie auch Simulationen ausführt oder andere kleine Tools in MATLAB programmiert, die ihr bei der Arbeit im Lab von Hilfe sein können. Um dem Stress vom Doktorat entgegenzuwirken engagiert sie sich gerne für Unihockey, sei es als Trainerin einer Juniorinnen-C Mannschaft oder selbst als Spielerin in der 2.Liga KF von swissunihockey.','Dragana just started her third year of PhD in the Responsive Biomedical Systems Laboratory at ETH Zürich. She is an enthusiastic chemical engineer, who enjoys performing chemical synthesis almost as much as carrying out simulations or programming little tools in MATLAB that facilitate her work in the lab. To combat the stressful PhD life she is passionate about floorball, be it as the coach of her girls’ junior team or as a field player in the second Swiss national league.'),
   'mail_prefix' => 'dragana.ristanovic',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/dragana-ristanovic-7376ab132/'
 );
 
 $lang['team'][8] = array(
   'name' => 'Jonas Römer',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('',''),
+  'info' => array('Jonas studies interdisciplinary natural sciences with a focus on medical and biological chemistry. In his spare time he likes to do voluntary work for several student associations. During winter, he works as a ski instructor, which underlines his love for winter sports.','Jonas studiert interdisziplinäre Naturwissenschaften mit einem Fokus auf medizinische und biologische Chemie. In seiner Freizeit macht er gerne Freiwilligenarbeit für mehrere Studentenorganisationen. Im Winter arbeitet er als Skilehrer, was seine Liebe für den Wintersport bekräftigt.'),
   'mail_prefix' => 'jonas.römer',
   'linkedin' => ''
 );
@@ -108,7 +108,7 @@ $lang['team'][11] = array(
 $lang['team'][12] = array(
   'name' => 'Laura Völker',
   'task' => array('Catering','Catering'),
-  'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendungen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendugen. In ihrer Freizeit spielt sie Klavier und geht laufen.'),
+  'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendungen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura comes from the proximity of Ludwigshafen, has already completed her Bachelor`s degree at ETH and is currently pursuing her Master. She has a special interest in nuclear magnetic resonance (NMR) and its applications. In her freetime, she enjoys playing the piano and running.'),
   'mail_prefix' => 'laura.voelker',
   'linkedin' => ''
 );
@@ -122,8 +122,7 @@ $lang['team'][13] = array(
 );
 
 
-$lang['content']['akquise-team_subsection'] = array('Das Akquise-Team 2020','The Company Acquisition Team of 2020');
-$lang['content']['akquise-team'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
+$lang['content']['akquise-team_subsection'] = array('Akquise-Kommission 2020','Associated Board Members 2020');
 $lang['content']['akquise-team_2020'] = 'Anne Abels<br>Markus Böcker<br>Christopher Buck<br>Jordan De Jesus Silva<br>Romain Dubey<br>Jonathan Saring<br>Christian Schellhaas<br>Alessandro Streuli<br>Philipp Schubert<br>Laura Völker<br>Jan Vukovich<br><br>';
 
 
