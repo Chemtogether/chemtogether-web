@@ -28,7 +28,7 @@ $lang['team'][1] = array(
 $lang['team'][2] = array(
   'name' => 'Mara Bless',
   'task' => array('Begleitprogramm','Supporting Program'),
-  'info' => array('',''),
+  'info' => array('Mara studiert Interdisziplinäre Naturwissenschaften mit einem Fokus auf anorganischer Biochemie und Bioinformatik. Neben dem Studium rudert sie fast täglich auf dem Zürichsee und kann somit einen guten physischen Ausgleich zum psychisch anstrengenden Alltag der ETH finden. In ihrer freien Zeit besucht sie ausserdem sehr gerne andere Länder um deren Kultur und Kulinarik besser kennenzulernen.','Mara studies Interdisciplinary Sciences with a focus on anorganic-biochemistry and bioinformatics. Alongside her studies she can be found rowing almost daily on the lake of Zurich, which gives her a good physical balance to mentally challenging work at ETH. In her free time she also likes to visit foreign countries including getting to know the various different cultures and culinary styles.'),
   'mail_prefix' => 'mara.bless',
   'linkedin' => ''
 );
@@ -44,7 +44,7 @@ $lang['team'][3] = array(
 $lang['team'][4] = array(
   'name' => 'Vittoria Bolongaro',
   'task' => array('Layout','Layout'),
-  'info' => array('Vittoria kommt aus Italien und ist am Lago Maggiore aufgewachsen. Sie studiert Chemieingenieurswissenschaften im Bachelor. Neben der Zeit an der ETH interessiert sie sich für Literatur und probiert leidenschaftlich neue Rezepte in der Küche aus. Sie treibt gerne Sport wie Volleyball und Body Combat und möchte diesen Sommer mit Segeln anfangen.','Vittoria comes from Italy, Lago Maggiore, and is currently pursuing her bachelor’s degree in Chemical Engineering. Apart from spending time in the library, she is an avid book reader and enjoys cooking new recipes and playing sports, such as volleyball.'),
+  'info' => array('Vittoria kommt aus Italien und ist am Lago Maggiore aufgewachsen. Sie studiert Chemieingenieurswissenschaften im Bachelor. Neben der Zeit an der ETH interessiert sie sich für Literatur und probiert leidenschaftlich neue Rezepte in der Küche aus. Sie treibt gerne Sport wie Volleyball und Body Combat und möchte diesen Sommer mit Segeln anfangen.','Vittoria comes from Italy and grew up on Lago Maggiore. She is pursuing her Bachelor’s degree in Chemical Engineering. Besides her time at ETH, she is interested in literature and passionately tries out new recipes in the kitchen. She also enjoys sports like volleyball and Body Combat and would like to start sailing this summer.'),
   'mail_prefix' => 'vittoria.bolongaro',
   'linkedin' => 'https://www.linkedin.com/in/vittoria-bolongaro'
 );
@@ -123,9 +123,35 @@ $lang['team'][13] = array(
 
 
 $lang['content']['akquise-team_subsection'] = array('Akquise-Kommission 2020','Associated Board Members 2020');
-$lang['content']['akquise-team_2020'] = 'Anne Abels<br>Markus Böcker<br>Christopher Buck<br>Jordan De Jesus Silva<br>Romain Dubey<br>Jonathan Saring<br>Christian Schellhaas<br>Alessandro Streuli<br>Philipp Schubert<br>Laura Völker<br>Jan Vukovich<br><br>';
 
+$lang['content']['akquise-team_text'] = array(
+  'Die Mitglieder der Akquise-Kommission ergänzen das Team dabei, neue Firmen für die Chemtogether zu gewinnen.',
+  'Associated board members complement the team in aqcuiring new companies for Chemtogether.'
+);
 
+$lang['akquise-team'][1] = array(
+  'name' => 'Anne Abels',
+  'task' => array('',''),
+  'info' => array('',''),
+  'mail_prefix' => 'anne.abels',
+  'linkedin' => ''
+);
+
+$lang['akquise-team'][2] = array(
+  'name' => 'Jordan De Jesus Silva',
+  'task' => array('',''),
+  'info' => array('',''),
+  'mail_prefix' => 'jordan.dejesussilva',
+  'linkedin' => ''
+);
+
+$lang['akquise-team'][3] = array(
+  'name' => 'Philipp Schubert',
+  'task' => array('',''),
+  'info' => array('',''),
+  'mail_prefix' => 'anne.abels',
+  'linkedin' => ''
+);
 
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
