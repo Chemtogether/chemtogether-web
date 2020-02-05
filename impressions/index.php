@@ -168,6 +168,24 @@ $fb = array(
       <div class="text l-4 m-6 s-12">
         <a href=<?php echo("$awss3/img/impressions/reduced_size/12.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/12.jpg") ?> style="width:100%"></a>
       </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/13.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/13.jpg") ?> style="width:100%"></a>
+      </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/14.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/14.jpg") ?> style="width:100%"></a>
+      </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/15.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/15.jpg") ?> style="width:100%"></a>
+      </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/16.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/16.jpg") ?> style="width:100%"></a>
+      </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/17.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/17.jpg") ?> style="width:100%"></a>
+      </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/18.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/18.jpg") ?> style="width:100%"></a>
+      </div>
     </div>
   </div>
 </div>
