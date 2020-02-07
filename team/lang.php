@@ -76,8 +76,8 @@ $lang['team'][7] = array(
 $lang['team'][8] = array(
   'name' => 'Jonas Römer',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Jonas studies interdisciplinary natural sciences with a focus on medical and biological chemistry. In his spare time he likes to do voluntary work for several student associations. During winter, he works as a ski instructor, which underlines his love for winter sports.','Jonas studiert interdisziplinäre Naturwissenschaften mit einem Fokus auf medizinische und biologische Chemie. In seiner Freizeit macht er gerne Freiwilligenarbeit für mehrere Studentenorganisationen. Im Winter arbeitet er als Skilehrer, was seine Liebe für den Wintersport bekräftigt.'),
-  'mail_prefix' => 'jonas.römer',
+  'info' => array('Jonas studiert interdisziplinäre Naturwissenschaften mit einem Fokus auf medizinische und biologische Chemie. In seiner Freizeit macht er gerne Freiwilligenarbeit für mehrere Studentenorganisationen. Im Winter arbeitet er als Skilehrer, was seine Liebe für den Wintersport bekräftigt.','Jonas studies interdisciplinary natural sciences with a focus on medical and biological chemistry. In his spare time he likes to do voluntary work for several student associations. During winter, he works as a ski instructor, which underlines his love for winter sports.'),
+  'mail_prefix' => 'jonas.roemer',
   'linkedin' => ''
 );
 
