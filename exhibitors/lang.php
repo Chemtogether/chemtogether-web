@@ -216,7 +216,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Karriere-Event','Career Event'),
+  'perk'     => array('Individuelles Karriere-Event','Customized Career Event'),
   'base'     => array('',''),
   'silver'   => array('',''),
   'gold'     => array('',''),

@@ -148,8 +148,6 @@ $active_nav = 'team';
           <div class="subsection">
             <?php echo($lang['akquise-team'][$member_id]['name']); ?>
           </div>
-          <span><?php echo($lang['akquise-team'][$member_id]['task'][$eng]); ?></span>
-          <br><br>
           <?php echo($lang['akquise-team'][$member_id]['info'][$eng]); ?>
           <br><br>
           <?php obfuscate_mail($lang['akquise-team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
