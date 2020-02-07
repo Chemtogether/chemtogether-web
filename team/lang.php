@@ -131,7 +131,6 @@ $lang['content']['akquise-team_text'] = array(
 
 $lang['akquise-team'][1] = array(
   'name' => 'Anne Abels',
-  'task' => array('',''),
   'info' => array('',''),
   'mail_prefix' => 'anne.abels',
   'linkedin' => ''
@@ -139,15 +138,13 @@ $lang['akquise-team'][1] = array(
 
 $lang['akquise-team'][2] = array(
   'name' => 'Jordan De Jesus Silva',
-  'task' => array('',''),
-  'info' => array('',''),
+  'info' => array('Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.','Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.'),
   'mail_prefix' => 'jordan.dejesussilva',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/jordansilva94/'
 );
 
 $lang['akquise-team'][3] = array(
   'name' => 'Philipp Schubert',
-  'task' => array('',''),
   'info' => array('',''),
   'mail_prefix' => 'anne.abels',
   'linkedin' => ''
