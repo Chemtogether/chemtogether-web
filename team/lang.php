@@ -138,7 +138,7 @@ $lang['akquise-team'][1] = array(
 
 $lang['akquise-team'][2] = array(
   'name' => 'Jordan De Jesus Silva',
-  'info' => array('Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.','Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.'),
+  'info' => array('Jordan kommt aus Luxemburg und hat gerade sein zweites Doktoratsjahr im Laboratorium für Anorganische Chemie an der ETH Zürich begonnen. Als Data Science und Hochdurchsatz-Technologie Enthusiast, strebt er das Vorantreiben rationaler Katalysatorentwcklung für industriell relevante Prozesse an. Neben der Forschung ist er ein passionierter Fußballspieler und Reisender.','Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.'),
   'mail_prefix' => 'jordan.dejesussilva',
   'linkedin' => 'https://www.linkedin.com/in/jordansilva94/'
 );
