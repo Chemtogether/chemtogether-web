@@ -236,7 +236,7 @@ $lang['packages_table'][$i++] = array(
   'base'     => array('1500.-','1500.-'),
   'silver'   => array('2500.-','2500.-'),
   'gold'     => array('4000.-','4000.-'),
-  'platinum' => array('5500.-*','5500.-*'),
+  'platinum' => array('ab 5500.-*','from 5500.-*'),
 );
 
 
@@ -297,7 +297,7 @@ $lang['packages_info']['platinum']['perks'][$i++] = array('Werbung auf erster od
 $lang['packages_info']['platinum']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeier-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
 $lang['packages_info']['platinum']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
 $lang['packages_info']['platinum']['perks'][$i++] = array('Veranstaltung eines exklusiven Karrerie-Events nach Wunsch','organisation of a career event as requested');
-$lang['packages_info']['platinum']['price'] = array('Min. CHF 5500.- exkl. 7.7% MWST je nach Karriere-Event','Min. CHF 5500.- excl. 7.7% VAT depending on career event');
+$lang['packages_info']['platinum']['price'] = array('ab CHF 5500.- exkl. 7.7% MWST je nach Karriere-Event','from CHF 5500.- excl. 7.7% VAT depending on career event');
 
 
 ?>
