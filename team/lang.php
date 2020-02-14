@@ -131,9 +131,9 @@ $lang['content']['akquise-team_text'] = array(
 
 $lang['akquise-team'][1] = array(
   'name' => 'Anne Abels',
-  'info' => array('',''),
+  'info' => array('After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.','After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.'),
   'mail_prefix' => 'anne.abels',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/anne-sofie-abels/'
 );
 
 $lang['akquise-team'][2] = array(
@@ -145,7 +145,7 @@ $lang['akquise-team'][2] = array(
 
 $lang['akquise-team'][3] = array(
   'name' => 'Philipp Schubert',
-  'info' => array('',''),
+  'info' => array('Philipp studiert Pharmazeutische Wissenschaften mit besonders grossem Interesse an Pharmakokinetik und Immunologie. Er ist in diversen Studentenvereinigungen im Bereich Finanzen engagiert. In seiner Freizeit joggt er gerne oder geht anderem Ausdauersport nach.','Philipp studies pharmaceutical sciences with a particular interest in pharmacokinetics and immunology. He is involved in various student associations in the field of finance. In his free time, he enjoys jogging or other endurance sports.'),
   'mail_prefix' => 'anne.abels',
   'linkedin' => ''
 );
