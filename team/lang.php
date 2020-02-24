@@ -131,7 +131,7 @@ $lang['content']['akquise-team_text'] = array(
 
 $lang['akquise-team'][1] = array(
   'name' => 'Anne Abels',
-  'info' => array('After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.','After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.'),
+  'info' => array('Nachdem Anne ihr Studium in Amsterdam abgeschlossen hatte, kam sie nach Zürich, um in der Abteilung Anorganische Chemie zu promovieren, wo sie an der Entwicklung neuer homogener Katalysatoren arbeitet. Sie ist eine kompetitive Feldhockeyspielerin und verbringt in ihrer Freizeit gerne Zeit in den Schweizer Alpen.','After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.'),
   'mail_prefix' => 'anne.abels',
   'linkedin' => 'https://www.linkedin.com/in/anne-sofie-abels/'
 );
