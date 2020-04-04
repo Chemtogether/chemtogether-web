@@ -61,7 +61,7 @@ $lang['team'][6] = array(
   'name' => 'Noemi Cerboni',
   'task' => array('Layout','Layout'),
   'info' => array('Noemi ist in einem kleinen Dorf in der italienischen Schweiz aufgewachsen und studiert derzeit Chemie im Master mit besonderem Interesse an Materialwissenschaften und Radiochemie. Neben ihrer Leidenschaft für Chemie trainiert sie für die nächste Vorführung in rhythmischer Gymnastik und gibt Skiunterricht. Sie verpasst auch keine Studentenparty an der ETH. Und wenn sie nicht gerade ein Glas Bier geniesst oder ein Konzert ihrer Lieblingsbands besucht, liest sie vielleicht einen Thriller.','Noemi grew up in a little village in the italian-speaking region of Switzerland and is studying for a master´s degree in chemistry with a particular interest in materials science and radiochemistry. Besides her passion for chemistry, she´s a rhythmic gymnast and a ski instructor. She´s also not going to miss any student party that´s happening at ETH. And when she is not enjoying a glass of beer or visiting a concert of her favourite bands, she might be reading a thriller.'),
-  'mail_prefix' => 'naomi.cerboni',
+  'mail_prefix' => 'noemi.cerboni',
   'linkedin' => ''
 );
 
