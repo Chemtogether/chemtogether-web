@@ -74,12 +74,19 @@ $active_nav = 'team';
       </span>
     </div>
 
-    <div class="spacer">
+    <div class="content flex">
+      <div class="image-big l-12 m-12 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/team/2020/team_full','jpg'); ?>></img>
+        </div>
+      </div>
     </div>
 
     <div class="spacer">
     </div>
 
+    <div class="spacer">
+    </div>
 
     <?php for ($member_id=1; $member_id <= sizeof($lang['team']); $member_id++) { ?>
 
