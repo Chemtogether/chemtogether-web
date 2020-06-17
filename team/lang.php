@@ -30,7 +30,7 @@ $lang['team'][2] = array(
   'task' => array('Begleitprogramm','Supporting Program'),
   'info' => array('Mara studiert Interdisziplinäre Naturwissenschaften mit einem Fokus auf anorganischer Biochemie und Bioinformatik. Neben dem Studium rudert sie fast täglich auf dem Zürichsee und kann somit einen guten physischen Ausgleich zum psychisch anstrengenden Alltag der ETH finden. In ihrer freien Zeit besucht sie ausserdem sehr gerne andere Länder um deren Kultur und Kulinarik besser kennenzulernen.','Mara studies Interdisciplinary Sciences with a focus on anorganic-biochemistry and bioinformatics. Alongside her studies she can be found rowing almost daily on the lake of Zurich, which gives her a good physical balance to mentally challenging work at ETH. In her free time she also likes to visit foreign countries including getting to know the various different cultures and culinary styles.'),
   'mail_prefix' => 'mara.bless',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/mara-bless-a937371a9'
 );
 
 $lang['team'][3] = array(
@@ -78,7 +78,7 @@ $lang['team'][8] = array(
   'task' => array('Infrastruktur','Infrastructure'),
   'info' => array('Jonas studiert interdisziplinäre Naturwissenschaften mit einem Fokus auf medizinische und biologische Chemie. In seiner Freizeit macht er gerne Freiwilligenarbeit für mehrere Studentenorganisationen. Im Winter arbeitet er als Skilehrer, was seine Liebe für den Wintersport bekräftigt.','Jonas studies interdisciplinary natural sciences with a focus on medical and biological chemistry. In his spare time he likes to do voluntary work for several student associations. During winter, he works as a ski instructor, which underlines his love for winter sports.'),
   'mail_prefix' => 'jonas.roemer',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/jonas-roemer/'
 );
 
 $lang['team'][9] = array(
@@ -110,7 +110,7 @@ $lang['team'][12] = array(
   'task' => array('Catering','Catering'),
   'info' => array('Laura aus der Nähe von Ludwigshafen hat bereits ihren Bachelor an der ETH absolviert und studiert nun im Master Chemie. Ihr besonderes Interesse gilt dabei der Kernspinresonanz (NMR) und deren Anwendungen. In ihrer Freizeit spielt sie Klavier und geht laufen.','Laura comes from the proximity of Ludwigshafen, has already completed her Bachelor`s degree at ETH and is currently pursuing her Master. She has a special interest in nuclear magnetic resonance (NMR) and its applications. In her freetime, she enjoys playing the piano and running.'),
   'mail_prefix' => 'laura.voelker',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/laura-alicia-völker-6255b21a1/'
 );
 
 $lang['team'][13] = array(
