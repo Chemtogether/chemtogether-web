@@ -53,17 +53,10 @@ $fb = array(
       </ul>
       <div id="home-top">
         <div class="date-container">
-          <span id="date-day1">3</span>
-          <span class="date-bar"></span>
-          <span id="date-day2">4</span>
         </div>
         <div class="date-container">
-          <span id="date-month">Nov.</span>
-          <span id="date-year">2020</span>
         </div>
         <div class="date-container">
-          <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>
-          <span id="date-time">9.00 - 17.00</span>
         </div>
       </div>
       <div id="home-bottom">

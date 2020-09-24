@@ -33,8 +33,8 @@ $lang['content']['schedule_text'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2020 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2020. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
 
   $lang['content']['day1'] = array('Dienstag, 3. November','Tuesday, 3rd November');
   $lang['content']['day2'] = array('Mittwoch, 4. November', 'Wednesday, 4th November');
