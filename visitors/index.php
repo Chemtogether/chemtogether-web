@@ -55,38 +55,6 @@ $fb = array(
       </div>
     </div>
 
-    <div class="spacer">
-    </div>
-
-    <div class="image">
-      <div class="patterned">
-        <div id="fair-image">
-          <div class="date-container">
-            <span id="date-day1">3</span>
-            <span class="date-bar"></span>
-            <span id="date-day2">4</span>
-          </div>
-          <div class="date-container">
-            <span id="date-month">Nov.</span>
-            <span id="date-year">2020</span>
-          </div>
-          <div class="date-container">
-            <span id="date-place">HCI G-<?php echo($lang['content']['image_floor'][$eng]); ?></span>
-            <span id="date-time">9.00 - 17.00</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['main_text'][$eng]); ?>
-      </div>
-    </div>
-
     <div class="content flex">
       <div class="text l-6 m-12 s-12 fair-introlinks">
         <a href="https://www.ethz.ch/de/campus/erreichen/hoenggerberg.html">
@@ -101,9 +69,6 @@ $fb = array(
         </a>
       </div>
     </div>
-
-  <div class="spacer">
-  </div>
 
   <div class="spacer">
   </div>
@@ -153,83 +118,6 @@ $fb = array(
 
     <div class="spacer">
     </div>
-
-    <div class="content flex">
-      <div class="text subhead l-12 m-12 s-12">
-        <?php echo($lang['content']['day1'][$eng]); ?>
-      </div>
-    </div>
-
-    <div class="companies">
-        <div class="content flex">
-          <div class="text l-12 m-12 s-12">
-            <?php if(sizeof($data['day1'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
-            <table class="overview">
-              <?php for ($i=0; $i < sizeof($data['day1']); $i++) { ?>
-              <tr class='clickable-tr' data-url='<?php echo($data['day1'][$i]['link_url']); ?>'>
-                <td class="table-logo"><img <?php echo($data['day1'][$i]['logo_url']); ?>></img></td>
-                <td class="table-name"><?php echo($data['day1'][$i]['name']); ?></td>
-                <td class="table-package">
-                  <?php
-                    if($data['day1'][$i]['package']!='base') {
-                      echo('<div class="');
-                      if($data['day1'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
-                      else if($data['day1'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
-                      else if($data['day1'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
-                      echo('</div>');
-                    }
-                  ?>
-                </td>
-                <td class="table-more"><a href='<?php echo($data['day1'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
-              </tr>
-            <?php } ?>
-            </table>
-          </div>
-        </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="content flex">
-      <div class="text subhead l-12 m-12 s-12">
-        <?php echo($lang['content']['day2'][$eng]); ?>
-      </div>
-    </div>
-
-    <div class="companies">
-        <div class="content flex">
-          <div class="text l-12 m-12 s-12">
-            <table class="overview">
-              <?php if(sizeof($data['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
-              <?php for ($i=0; $i < sizeof($data['day2']); $i++) { ?>
-              <tr class='clickable-tr' data-url='<?php echo($data['day2'][$i]['link_url']); ?>'>
-                <td class="table-logo"><img <?php echo($data['day2'][$i]['logo_url']); ?>></img></td>
-                <td class="table-name"><?php echo($data['day2'][$i]['name']); ?></td>
-                <td class="table-package">
-                  <?php
-                    if($data['day2'][$i]['package']!='base') {
-                      echo('<div class="');
-                      if($data['day2'][$i]['package']=='silver') echo('table-package-silver"><span>Ag</span>');
-                      else if($data['day2'][$i]['package']=='gold') echo('table-package-gold"><span>Au</span>');
-                      else if($data['day2'][$i]['package']=='platinum') echo('table-package-platinum"><span>Pt</span>');
-                      echo('</div>');
-                    }
-                  ?>
-                  </td>
-                <td class="table-more"><a href='<?php echo($data['day2'][$i]['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span>more</span> <span><i class="fas fa-chevron-right"></i></span></a></td>
-              </tr>
-            <?php } ?>
-            </table>
-          </div>
-        </div>
-    </div>
-    
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
-    </div>  
 
     <div class="anchor" id="programme">
     </div>

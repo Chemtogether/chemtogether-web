@@ -45,8 +45,8 @@ $lang['content'] = array(
     'Partnership Options'),
 
   'packages_text' => array(
-    'Für Ihre Teilnahme an der Chemtogether 2019 bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
-    'We offer several different packages for your participation in this year\'s Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
+    'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
+    'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
     'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2019.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
