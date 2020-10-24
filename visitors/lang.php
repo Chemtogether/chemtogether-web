@@ -30,7 +30,7 @@ $lang['content']['schedule_text'] = array(
   'For more information on individual events, please check at the end of this webpage.');
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Montag, 2. November','Monday, 2nd November'),
-  'event1' => array('Paneldiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'event1' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
