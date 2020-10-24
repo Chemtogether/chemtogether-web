@@ -77,13 +77,9 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
 // PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
-$lang['content']['programme_text'] = array(
-  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest du die entsprechenden Details.',
-  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here.');
-
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Paneldiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'title' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
   'description' => array(
     '',
     ''),
@@ -92,7 +88,7 @@ $lang['content']['programme_1'] = array(
   'guest_3' => array('Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering','Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering'),
   'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
   'guest_5' => array('Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer','Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer'),
-  'button' => array("Zum Panel", "To the panel"),
+  'button' => array("Zur Diskussion", "To the panel"),
   'time' => array('Montag, 2. November 2020, 17:15 Uhr','Monday, 2 November 2020, 17:15 pm'),
   'place' => array('Online','Online')
 );

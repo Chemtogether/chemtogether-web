@@ -1,8 +1,8 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2020 - Paneldiskussion', 'Chemtogether 2020 - Panel');
-$lang['navigation']['title'] = array('Paneldiskussion', 'Panel');
+$lang['general']['page_title'] = array('Chemtogether 2020 - Podiumsdiskussion', 'Chemtogether 2020 - Panel');
+$lang['navigation']['title'] = array('Podiumsdiskussion', 'Panel');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 
@@ -12,7 +12,7 @@ $lang['content']['intro_text'] = array(
   "Welcome to this year's panel discussion.");
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Paneldiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'title' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
   'description' => array(
     '',
     ''),
