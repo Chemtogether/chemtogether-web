@@ -26,15 +26,22 @@ $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exh
 // SCHEDULE
 $lang['content']['schedule_subsection'] = array('Programmplan','Schedule');
 $lang['content']['schedule_text'] = array(
-  'Hier findest Du mehr Informationen zu den einzelnen Programmpunkten, sobald diese feststehen.',
-  'For more information on individual events, please check below. Data will be added as soon as the events are certain.');
-
+  'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
+  'For more information on individual events, please check at the end of this webpage.');
+$lang['content']['schedule_talk1'] = array(
+  'title' => array('Montag, 2. November','Monday, 2nd November'),
+  'event1' => array('Paneldiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'event2' => array('',''),
+  'event3' => array('',''),
+  'event4' => array('',''),
+  'event5' => array('','')
+);
 
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen voraussichtlich 2021 wieder an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will prospectively be present during the two days of Chemtogether 2021. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
 
   $lang['content']['day1'] = array('Dienstag, 3. November','Tuesday, 3rd November');
   $lang['content']['day2'] = array('Mittwoch, 4. November', 'Wednesday, 4th November');
@@ -71,7 +78,22 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 // PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 $lang['content']['programme_text'] = array(
-  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest Du die entsprechenden Details, sobald diese feststehen.',
-  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here as soon as they are certain.');
+  'Vor und während der diesjährigen Chemtogether finden verschiedene weitere Events neben der Karrieremesse statt. Hier findest du die entsprechenden Details.',
+  'Prior to and during this year\'s Chemtogether, several side events will take place in addition to the career fair. Find all the details here.');
 
+
+$lang['content']['programme_1'] = array(
+  'title' => array('Paneldiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'description' => array(
+    '',
+    ''),
+  'guest_1' => array('Paule Anderegg: Federeal Department UVEK - Specialist in Industry and Services','Paule Anderegg: Federeal Department UVEK - Specialist in Industry and Services'),
+  'guest_2' => array('Dr. Samantha Anderson: DePoly - CEO','Dr. Samantha Anderson: DePoly - CEO'),
+  'guest_3' => array('Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering','Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering'),
+  'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
+  'guest_5' => array('Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer','Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer'),
+  'button' => array("Zum Panel", "To the panel"),
+  'time' => array('Montag, 2. November 2020, 17:15 Uhr','Monday, 2 November 2020, 17:15 pm'),
+  'place' => array('Online','Online')
+);
  ?>

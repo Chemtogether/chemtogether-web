@@ -20,7 +20,7 @@ $active_nav = 'visitors';
 $fb = array(
   "title"        => "Chemtogether 2020",
   "desc"         => "This year's Chemtogether is cancelled. Again in 2021, over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
-  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
+  "url"          => "https://www.chemtogether.ethz.ch/panel/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -54,100 +54,6 @@ $fb = array(
         <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
     </div>
-
-    <div class="content flex">
-      <div class="text l-6 m-12 s-12 fair-introlinks">
-        <a href="https://www.ethz.ch/de/campus/erreichen/hoenggerberg.html">
-          <i class="far fa-fw fa-map"></i>&nbsp;
-          <span><?php echo($lang['content']['links_directions'][$eng]); ?></span>
-        </a>
-      </div>
-      <div class="text l-6 m-12 s-12 fair-introlinks">
-        <a href="<?php echo($awss3."/files/2019expoguide.pdf"); ?>">
-          <i class="far fa-fw fa-file-alt"></i>&nbsp;
-          <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
-        </a>
-      </div>
-    </div>
-
-  <div class="spacer">
-  </div>
-
-  <div class="anchor" id="schedule">
-  </div>
-
-  <div class="section">
-    <span class="section-slashes">
-      <span>/</span><span>/</span>
-    </span>
-    <span class="section-text">
-      <?php echo($lang['content']['schedule_subsection'][$eng]); ?>
-    </span>
-  </div>
-
-  <div class="content flex">
-    <div class="text l-12 m-12 s-12">
-      <?php echo($lang['content']['schedule_text'][$eng]); ?>
-    </div>
-
-  <div class="text l-12 m-12 s-12">
-    <div class="subsection">
-      <?php echo($lang['content']['schedule_talk1']['title'][$eng]); ?>
-    </div>
-    <table class="schedule">
-      <tr>
-        <td><i class="far fa-fw fa-comment"></i></td>
-        <td>17:15</td>
-        <td><?php echo($lang['content']['schedule_talk1']['event1'][$eng]); ?></td>
-      </tr>
-    </table>
-  </div>
-
-  </div>
-
-  <div class="spacer">
-  </div>
-
-  <div class="spacer">
-  </div>
-
-
-    <div class="section">
-        <span class="section-slashes">
-          <span>/</span><span>/</span>
-        </span>
-        <span class="section-text">
-          <?php echo($lang['content']['companies_subsection'][$eng]); ?>
-        </span>
-    </div>
-
-    <div class="content flex">
-        <div class="text l-12 m-12 s-12">
-          <?php echo($lang['content']['companies_text'][$eng]); ?>
-        </div>
-    </div>
-
-    <div class="spacer">
-    </div>
-
-    <div class="anchor" id="programme">
-    </div>
-
-    <div class="section">
-      <span class="section-slashes">
-        <span>/</span><span>/</span>
-      </span>
-      <span class="section-text">
-        <?php echo($lang['content']['programme_subsection'][$eng]); ?>
-      </span>
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['programme_text'][$eng]); ?>
-      </div>
-    </div>
-
 
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
