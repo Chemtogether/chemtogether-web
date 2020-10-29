@@ -67,8 +67,14 @@ $fb = array(
       <?php echo($lang['content']['programme_1']['guest_5'][$eng]); ?>
       <br><br>
       <div class="programme_button_div">
-        <a href="https://www.chemtogether.ethz.ch/panel/">
-          <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
+        <a href="https://ethz.zoom.us/j/95494096173">
+          <span><?php echo($lang['content']['programme_1']['button_1'][$eng]); ?></span>
+        </a>
+      </div>
+      <br>
+      <div class="programme_button_div">
+        <a href="https://ethz.zoom.us/j/98442575856">
+          <span><?php echo($lang['content']['programme_1']['button_2'][$eng]); ?></span>
         </a>
       </div>
       <br>
@@ -83,6 +89,17 @@ $fb = array(
         </tr>
       </table>
     </div>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12m-12 s-12">
+        <?php echo($lang['content']['main_text_1'][$eng]); ?> <br>
+        <?php echo($lang['content']['main_text_2'][$eng]); ?> <br>
+        <?php echo($lang['content']['main_text_3'][$eng]); ?> <br>
+        <?php echo($lang['content']['main_text_4'][$eng]); ?> <br>
+        <?php echo($lang['content']['main_text_5'][$eng]); ?> <br>
+        <?php echo($lang['content']['main_text_6'][$eng]); ?>
+      </div>
     </div>
 
     <div class="spacer">
