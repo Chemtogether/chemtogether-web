@@ -52,7 +52,7 @@ $lang['content']['main_text_5'] = array(
   "Below, you will find a brief description of the webinar format.");
 $lang['content']['main_text_6'] = array(
   'Über den obigen Link werden Sie zu einer Website weitergeleitet, von der aus Sie entweder Zoom öffnen oder direkt über ihren Web-Browser am Webinar teilnehmen können.
-  Sie werden aufgefordert, eine E-Mail-Adresse und einen Namen anzugeben. Als Teilnehmer sehen Sie die gesamte Diskussionsrunde.
+  Sie werden aufgefordert, eine E-Mail-Adresse und einen Namen anzugeben. Als Teilnehmer sehen Sie alle Gäste der Diskussionsrunde.
   Sie werden stummgeschaltet und es wird kein Bild von Ihnen angezeigt. Wenn Sie eine Frage stellen möchten, können Sie diese über die Option
   F&amp;A (oder Q&amp;A) eingeben. Die Mitglieder des Chemtogether-Teams werden die spannendesten und häufigsten Fragen auswählen. Diese werden im Anschluss in der Diskussionsrunde beantwortet. Viel Spaß bei der Diskussion!',
   "Using the link above, you will be redirected to a website from which you can either open zoom or
