@@ -8,8 +8,8 @@ $lang['navigation']['title'] = array('Podiumsdiskussion', 'Panel');
 
 $lang['content']['image_floor'] = array('Stock','floor');
 $lang['content']['intro_text'] = array(
-  'Herzlich willkommen zu unserer diesjährigen Podiumsdiskussion.',
-  "Welcome to this year's panel discussion.");
+  'Herzlich willkommen zu unserer diesjährigen Podiumsdiskussion mit anschließendem virtuellen Apéro (zweiter Weblink).',
+  "Welcome to this year's panel discussion followed by a virtual apéro (second weblink).");
 
 $lang['content']['programme_1'] = array(
   'title' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
@@ -22,7 +22,7 @@ $lang['content']['programme_1'] = array(
   'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
   'guest_5' => array('Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer','Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer'),
   'button_1' => array("Zur Zoom-Diskussion", "To the Zoom discussion"),
-  'button_2' => array("Zum virtuellen VECS Apéro (nach Diskussion)", "To the VECS Apéro (after discussion)"),
+  'button_2' => array("Zum virtuellen VECS Apéro", "To the VECS Apéro"),
   'time' => array('Montag, 2. November 2020, 17:15 Uhr','Monday, 2 November 2020, 17:15 pm'),
   'place' => array('Online','Online')
 );
@@ -40,7 +40,7 @@ $lang['content']['main_text_2'] = array(
   they express are their own and do not represent an official statement of the company
   or organism they belong to.");
 $lang['content']['main_text_3'] = array(
-  '2. Aufnahmen sind strengstens untersagt..',
+  '2. Aufnahmen sind strengstens untersagt.',
   "2. Recordings are strictly prohibited.");
 $lang['content']['main_text_4'] = array(
   '3. Belästigungen jeglicher Art werden nicht akzeptiert. Teilnehmer, die sich daran nicht halten, werden
