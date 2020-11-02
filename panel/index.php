@@ -63,7 +63,6 @@ $fb = array(
       <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_5'][$eng]); ?>
       <br><br>
       <div class="programme_button_div">
