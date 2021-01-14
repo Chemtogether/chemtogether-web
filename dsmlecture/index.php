@@ -20,7 +20,7 @@ $active_nav = 'visitors';
 $fb = array(
   "title"        => "Chemtogether 2020",
   "desc"         => "This year's Chemtogether is cancelled. Again in 2021, over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
-  "url"          => "https://www.chemtogether.ethz.ch/panel/",
+  "url"          => "https://www.chemtogether.ethz.ch/dsmlecture/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -62,18 +62,11 @@ $fb = array(
       </div>
       <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_5'][$eng]); ?>
+      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?>
       <br><br>
       <div class="programme_button_div">
         <a href="https://ethz.zoom.us/j/95494096173">
-          <span><?php echo($lang['content']['programme_1']['button_1'][$eng]); ?></span>
-        </a>
-      </div>
-      <br>
-      <div class="programme_button_div">
-        <a href="https://ethz.zoom.us/j/98442575856">
-          <span><?php echo($lang['content']['programme_1']['button_2'][$eng]); ?></span>
+          <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
         </a>
       </div>
       <br>

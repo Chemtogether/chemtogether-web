@@ -1,29 +1,26 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2020 - Podiumsdiskussion', 'Chemtogether 2020 - Panel');
-$lang['navigation']['title'] = array('Podiumsdiskussion', 'Panel');
+$lang['general']['page_title'] = array('Chemtogether 2021 - DSM Unternehmenspräsentation', 'Chemtogether 2021 - DSM company presentation');
+$lang['navigation']['title'] = array('DSM Unternehmenspräsentation', 'DSM company presentation');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 
 $lang['content']['image_floor'] = array('Stock','floor');
 $lang['content']['intro_text'] = array(
-  'Herzlich willkommen zu unserer diesjährigen Podiumsdiskussion mit anschließendem virtuellen Apéro (zweiter Weblink).',
-  "Welcome to this year's panel discussion followed by a virtual apéro (second weblink).");
+  'Schliesst Du bald dein Studium in Chemie oder Chemieingenieurwesen ab? Triff Mitarbeiter von DSM, lerne mehr über ihren Karriereweg und entdecke neue Berufseinstiegsmöglichkeiten.',
+  'About to finish your PhD or Masters in Chemical engineering or Chemistry? Meet employees from DSM, learn about their career paths and discover job opportunities.');
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'title' => array('',''),
   'description' => array(
     '',
     ''),
-  'guest_1' => array('Paule Anderegg: Federeal Department UVEK - Specialist in Industry and Services','Paule Anderegg: Federeal Department UVEK - Specialist in Industry and Services'),
-  'guest_2' => array('Dr. Samantha Anderson: DePoly - CEO','Dr. Samantha Anderson: DePoly - CEO'),
-  'guest_3' => array('Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering','Prof. Dr. Gonzalo Guillén Gosálbes: ETH Zürich - Professor in Chemical Systems Engineering'),
-  'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
-  'guest_5' => array('Moderation von Viktoria Ivarsson: ETH Zürich - International Relations Officer','Moderation by Viktoria Ivarsson: ETH Zürich - International Relations Officer'),
-  'button_1' => array("Zur Zoom-Diskussion", "To the Zoom discussion"),
-  'button_2' => array("Zum virtuellen VECS Apéro", "To the VECS Apéro"),
-  'time' => array('Montag, 2. November 2020, 17:15 Uhr','Monday, 2 November 2020, 17:15 pm'),
+  'guest_1' => array('Radhika van der Helm: Reliability Expert DM Sisseln (CH)','Radhika van der Helm: Reliability Expert DM Sisseln (CH)'),
+  'guest_2' => array('Nicole Ulmer: Chemical engineer DSM Lalden (CH)','Nicole Ulmer: Chemical engineer DSM Lalden (CH)'),
+  'guest_3' => array('Matthias Klein: Head of plant engineering DSM Grenzach (D)','Matthias Klein: Head of plant engineering DSM Grenzach (D)'),  'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
+  'button' => array("Zum Event", "To the event"),
+  'time' => array('Montag, 18. Januar 2021, 17:00 Uhr','Monday, 18 January 2021, 17:00 h'),
   'place' => array('Online','Online')
 );
 
