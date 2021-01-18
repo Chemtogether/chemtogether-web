@@ -65,9 +65,14 @@ $fb = array(
       <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?>
       <br><br>
       <div class="programme_button_div">
-        <a href="https://ethz.zoom.us/j/95494096173">
-          <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
+        <a href="https://ethz.zoom.us/j/96008466884">
+          <span><?php echo($lang['content']['programme_1']['button_1'][$eng]); ?></span>
         </a>
+      </div>
+      <br>
+      <div class="programme_button_div">
+        <a href="https://ethz.zoom.us/j/92707458077">
+          <span><?php echo($lang['content']['programme_1']['button_2'][$eng]); ?></span>
       </div>
       <br>
       <table class="fa-table">

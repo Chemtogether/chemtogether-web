@@ -19,9 +19,10 @@ $lang['content']['programme_1'] = array(
   'guest_1' => array('Radhika van der Helm: Reliability Expert DM Sisseln (CH)','Radhika van der Helm: Reliability Expert DM Sisseln (CH)'),
   'guest_2' => array('Nicole Ulmer: Chemical engineer DSM Lalden (CH)','Nicole Ulmer: Chemical engineer DSM Lalden (CH)'),
   'guest_3' => array('Matthias Klein: Head of plant engineering DSM Grenzach (D)','Matthias Klein: Head of plant engineering DSM Grenzach (D)'),  'guest_4' => array('Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager','Dr. Volker Herdtweck: Roche - HR Campus Marketing Manager'),
-  'button' => array("Zum Event", "To the event"),
+  'button_1' => array("Zum Event", "To the event"),
+  'button_2' => array("Zum virtuellen Apéro", "To the Apéro"),
   'time' => array('Montag, 18. Januar 2021, 17:00 Uhr','Monday, 18 January 2021, 17:00 h'),
-  'place' => array('Online','Online')
+  'place' => array('Online, Zoom-ID Event: 960 0846 6884, Zoom-ID Apéro: 927 0745 8077','Online, Zoom-ID Event: 960 0846 6884, Zoom-ID Apéro: 927 0745 8077',)
 );
 
 $lang['content']['main_text_1'] = array(
