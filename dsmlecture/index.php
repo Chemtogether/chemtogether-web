@@ -73,6 +73,7 @@ $fb = array(
       <div class="programme_button_div">
         <a href="https://ethz.zoom.us/j/92707458077">
           <span><?php echo($lang['content']['programme_1']['button_2'][$eng]); ?></span>
+        </a>
       </div>
       <br>
       <table class="fa-table">
