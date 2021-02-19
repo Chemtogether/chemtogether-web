@@ -153,7 +153,7 @@ $lang['akquise-team'][3] = array(
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
 
-$lang['content']['alumni_member_2020'] = 'Anne Abels<br>Mara Bless<br>Markus Böcker<br>Vittoria Bolongaro<br>Christopher Buck<br>Noemi Cerboni<br>Romain Dubey<br>Dragana Ristanovic<br>Jonas Römer<br>Jonathan Saring<br>Christian Schellhaas<br>Philipp Schubert<br>Jordan De Jesus Silva<br>Alessandro Streuli<br>Laura Völker<br>Jan Vukovich<br><br>';
+$lang['content']['alumni_member_2020'] = 'Anne Abels<br>Mara Bless<br>Markus Böcker<br>Vittoria Bolongaro<br>Christopher Buck<br>Noemi Cerboni<br>Jordan De Jesus Silva<br>Romain Dubey<br>Dragana Ristanovic<br>Jonas Römer<br>Jonathan Saring<br>Christian Schellhaas<br>Philipp Schubert<br>Alessandro Streuli<br>Laura Völker<br>Jan Vukovich<br><br>';
 
 $lang['content']['alumni_member_2019'] = 'Markus Böcker<br>Gloria Clausen<br>Romain Dubey<br>Andreas Gimpel<br>Ann-Christin Kerl<br>Jérôme Käslin<br>Jonathan Saring<br>Christian Schellhaas<br>Paul Schnacke<br>Fabio Simbürger<br>Alessandro Streuli<br>Esther Tschanen-Hammann<br>Patrik Willi<br>Konstantin Zouboulis<br><br>';
 
