@@ -193,6 +193,13 @@ $active_nav = 'team';
     <div class="content flex">
     <div class="text l-6 m-12 s-12">
         <div class="subsection">
+          Chemtogether 2020
+        </div>
+        <?php echo($lang['content']['alumni_member_2020']); ?>
+      </div>
+
+    <div class="text l-6 m-12 s-12">
+        <div class="subsection">
           Chemtogether 2019
         </div>
         <?php echo($lang['content']['alumni_member_2019']); ?>
