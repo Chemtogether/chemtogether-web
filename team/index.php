@@ -117,15 +117,6 @@ $active_nav = 'team';
     <?php } ?>
 
     <div class="spacer">
-      </div>
-
-    <div class="anchor" id="akquise-team">
-    </div>
-    
-    <div class="spacer">
-    </div>
-
-    <div class="spacer">
     </div>
 
     <div class="anchor" id="alumni">

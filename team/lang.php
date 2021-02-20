@@ -121,35 +121,6 @@ $lang['team'][13] = array(
   'linkedin' => 'https://www.linkedin.com/in/dominikzuercher/'
 );
 
-
-$lang['content']['akquise-team_subsection'] = array('Akquise-Kommission 2020','Associated Board Members 2020');
-
-$lang['content']['akquise-team_text'] = array(
-  'Die Mitglieder der Akquise-Kommission ergänzen das Team dabei, neue Firmen für die Chemtogether zu gewinnen.',
-  'Associated board members complement the team in aqcuiring new companies for Chemtogether.'
-);
-
-$lang['akquise-team'][1] = array(
-  'name' => 'Anne Abels',
-  'info' => array('Nachdem Anne ihr Studium in Amsterdam abgeschlossen hatte, kam sie nach Zürich, um in der Abteilung Anorganische Chemie zu promovieren, wo sie an der Entwicklung neuer homogener Katalysatoren arbeitet. Sie ist eine kompetitive Feldhockeyspielerin und verbringt in ihrer Freizeit gerne Zeit in den Schweizer Alpen.','After Anne finished her studies in Amsterdam, she came to Zürich to start her PhD in the Inorganic Chemistry Department, where she works on the development of new homogeneous catalysts. She is a competitive field hockey player and in her free times she loves to spend time in the Swiss Alps.'),
-  'mail_prefix' => 'anne.abels',
-  'linkedin' => 'https://www.linkedin.com/in/anne-sofie-abels/'
-);
-
-$lang['akquise-team'][2] = array(
-  'name' => 'Jordan De Jesus Silva',
-  'info' => array('Jordan kommt aus Luxemburg und hat gerade sein zweites Doktoratsjahr im Laboratorium für Anorganische Chemie an der ETH Zürich begonnen. Als Data Science und Hochdurchsatz-Technologie Enthusiast, strebt er das Vorantreiben rationaler Katalysatorentwcklung für industriell relevante Prozesse an. Neben der Forschung ist er ein passionierter Fußballspieler und Reisender.','Jordan comes from Luxembourg and just started his second year of PhD in the Inorganic Chemistry Department at ETH Zürich. As an enthusiast in data science and high-throughput technologies, he strives to promote rational catalyst development for industrially relevant processes. Besides research, he is a passionate football player and traveler.'),
-  'mail_prefix' => 'jordan.dejesussilva',
-  'linkedin' => 'https://www.linkedin.com/in/jordansilva94/'
-);
-
-$lang['akquise-team'][3] = array(
-  'name' => 'Philipp Schubert',
-  'info' => array('Philipp studiert Pharmazeutische Wissenschaften mit besonders grossem Interesse an Pharmakokinetik und Immunologie. Er ist in diversen Studentenvereinigungen im Bereich Finanzen engagiert. In seiner Freizeit joggt er gerne oder geht anderem Ausdauersport nach.','Philipp studies pharmaceutical sciences with a particular interest in pharmacokinetics and immunology. He is involved in various student associations in the field of finance. In his free time, he enjoys jogging or other endurance sports.'),
-  'mail_prefix' => 'anne.abels',
-  'linkedin' => ''
-);
-
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
 
