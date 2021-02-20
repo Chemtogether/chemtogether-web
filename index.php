@@ -19,7 +19,7 @@ $active_nav = 'home';
 
 $fb = array(
   "title"        => "Chemtogether 2021",
-  "desc"         => "This year's Chemtogether is cancelled. Again in 2021, over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",
+  "desc"         => "This year's Chemtogether will take place on the 2nd and 3rd November 2021! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.", 
   "url"          => "https://www.chemtogether.ethz.ch/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",

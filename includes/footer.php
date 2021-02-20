@@ -21,7 +21,6 @@
 
 
     <div class="footer-right l-7 m-12 s-12">
-
       <span id="contact-container">
         <?php obfuscate_mail('info', '', '<i class="fas fa-envelope-square"></i>'); ?>
         <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
