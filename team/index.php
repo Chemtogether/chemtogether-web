@@ -77,7 +77,7 @@ $active_nav = 'team';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/team/2020/team_full','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2021/team_full','jpg'); ?>></img>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@ $active_nav = 'team';
       <div class="content flex-center">
         <div class="image-member l-4 m-6 s-12">
           <div>
-          <img <?php set_source($awss3.'/img/team/2020/member_'.$member_id,'jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2021/member_'.$member_id,'jpg'); ?>></img>
           </div>
         </div>
         <div class="text l-8 m-6 s-12">
@@ -122,55 +122,11 @@ $active_nav = 'team';
     <div class="anchor" id="akquise-team">
     </div>
     
-    <div class="section">
-      <span class="section-slashes">
-        <span>/</span><span>/</span>
-      </span>
-      <span class="section-text">
-        <?php echo($lang['content']['akquise-team_subsection'][$eng]); ?>
-      </span>
-    </div>
-
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
-        <?php echo($lang['content']['akquise-team_text'][$eng]); ?>
-      </div>
-    </div>
-
     <div class="spacer">
     </div>
 
     <div class="spacer">
     </div>
-
-    <?php for ($member_id=1; $member_id <= sizeof($lang['akquise-team']); $member_id++) { ?>
-
-      <div class="content flex-center">
-        <div class="image-member l-4 m-6 s-12">
-          <div>
-          <img <?php set_source($awss3.'/img/team/2020/associated/member_'.$member_id,'jpg'); ?>></img>
-          </div>
-        </div>
-        <div class="text l-8 m-6 s-12">
-          <div class="subsection">
-            <?php echo($lang['akquise-team'][$member_id]['name']); ?>
-          </div>
-          <?php echo($lang['akquise-team'][$member_id]['info'][$eng]); ?>
-          <br><br>
-          <?php obfuscate_mail($lang['akquise-team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
-          <?php if ($lang['akquise-team'][$member_id]['linkedin'] != '') echo('<a href="'.$lang['akquise-team'][$member_id]['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
-        </div>
-      </div>
-
-      <div class="spacer">
-      </div>
-
-      <div class="spacer">
-      </div>
-    <?php } ?>
-
-    <div class="spacer">
-      </div>
 
     <div class="anchor" id="alumni">
     </div>
