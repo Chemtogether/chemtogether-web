@@ -21,6 +21,19 @@
 
 
     <div class="footer-right l-7 m-12 s-12">
+      <div class="date-container">
+        <span id="date-day1">2</span>
+        <span class="date-bar"></span>
+        <span id="date-day2">3</span>
+      </div>
+      <div class="date-container">
+        <span id="date-month">Nov.</span>
+        <span id="date-year">2020</span>
+      </div>
+      <div class="date-container">
+        <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
+        <span id="date-time">9.00 - 17.00</span>
+      </div>
       <span id="contact-container">
         <?php obfuscate_mail('info', '', '<i class="fas fa-envelope-square"></i>'); ?>
         <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
