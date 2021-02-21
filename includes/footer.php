@@ -28,7 +28,7 @@
       </div>
       <div class="date-container">
         <span id="date-month">Nov.</span>
-        <span id="date-year">2020</span>
+        <span id="date-year">2021</span>
       </div>
       <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
