@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2020 - Aussteller', 'Chemtogether 2020 - Exhibitors');
+$lang['general']['page_title'] = array('Chemtogether 2021 - Aussteller', 'Chemtogether 2021 - Exhibitors');
 $lang['navigation']['title'] = array('Für Firmen', 'For Companies');
 $lang['navigation']['topnav_title']= array('Für Firmen', 'For Companies');
 
