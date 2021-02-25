@@ -68,7 +68,7 @@ $lang['team'][6] = array(
 $lang['team'][7] = array(
   'name' => 'Alexandra Krestnikova',
   'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Nach ihrem Abi in Deutschland entschied sich Alex für ein Studium in Zürich und ist nun im zweiten Bachelor-Jahr der Chemieingenieurswissenschaften. Neben dem Studium engagiert sie sich in verschiedensten studentischen Organisationen und in ihrer Freizeit malt und zeichnet sie gern Bilder oder entdeckt welche in Museen.','After graduating High School in Germany, Alex decided to begin her studies in Zurich and is now in the second year of her bachelors in chemical engineering. Besides studying she enjoys volunteering in different student associations[a] and in her free time she does drawings and paintings or explores such in new museums.'),
+  'info' => array('Nach ihrem Abi in Deutschland entschied sich Alex für ein Studium in Zürich und ist nun im zweiten Bachelor-Jahr der Chemieingenieurswissenschaften. Neben dem Studium engagiert sie sich in verschiedensten studentischen Organisationen und in ihrer Freizeit malt und zeichnet sie gern Bilder oder entdeckt welche in Museen.','After graduating High School in Germany, Alex decided to begin her studies in Zurich and is now in the second year of her bachelors in chemical engineering. Besides studying she enjoys volunteering in different student associations and in her free time she does drawings and paintings or explores such in new museums.'),
   'mail_prefix' => 'alexandra.krestnikova',
   'linkedin' => 'linkedin.com/in/alexandra-krestnikova-34bb811ba'
 );
