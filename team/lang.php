@@ -62,7 +62,7 @@ $lang['team'][6] = array(
   'task' => array('Layout','Layout'),
   'info' => array('Tejas (den meisten als TJ bekannt), ist in Zürich aufgewachsen und studiert Chemieingenieurwissenschaften an der ETH. Als Ausgleich zum Studium spielt er am liebsten Violine und verbringt viel Zeit damit, neue Musik für seine Playlists zu finden. Ebenfalls ist er ein begeisterter Schach- und Cricketfan.','Tejas (known to most as TJ) grew up in Zurich and studies Chemical Engineering at ETH Zurich. In his leisure time he loves to play the violin and invests much time in finding new music for his playlists. He is also an avid chess and cricket fan.'),
   'mail_prefix' => 'tejas.deshpande',
-  'linkedin' => 'linkedin.com/in/tejas-deshpande-13626b17a'
+  'linkedin' => 'https://www.linkedin.com/in/tejas-deshpande-13626b17a'
 );
 
 $lang['team'][7] = array(
@@ -70,7 +70,7 @@ $lang['team'][7] = array(
   'task' => array('Infrastruktur','Infrastructure'),
   'info' => array('Nach ihrem Abi in Deutschland entschied sich Alex für ein Studium in Zürich und ist nun im zweiten Bachelor-Jahr der Chemieingenieurswissenschaften. Neben dem Studium engagiert sie sich in verschiedensten studentischen Organisationen und in ihrer Freizeit malt und zeichnet sie gern Bilder oder entdeckt welche in Museen.','After graduating High School in Germany, Alex decided to begin her studies in Zurich and is now in the second year of her bachelors in chemical engineering. Besides studying she enjoys volunteering in different student associations and in her free time she does drawings and paintings or explores such in new museums.'),
   'mail_prefix' => 'alexandra.krestnikova',
-  'linkedin' => 'linkedin.com/in/alexandra-krestnikova-34bb811ba'
+  'linkedin' => 'https://www.linkedin.com/in/alexandra-krestnikova-34bb811ba'
 );
 
 $lang['team'][8] = array(
@@ -110,7 +110,7 @@ $lang['team'][12] = array(
   'task' => array('Webmaster','Webmaster'),
   'info' => array('Julius, ursprünglich aus Hamburg, absolvierte zunächst einen Chemie Bachelor an der ETH und studiert jetzt Biotechnologie im Master. Er interessiert sich besonders für Medizinische Chemie, Proteindesign und Data Mining. In seiner Freizeit trifft man ihn oft beim Joggen über den Käferberg und im Sommer überquert er gerne mit dem Rennvelo den ein oder anderen Alpenpass.','Julius from Hamburg completed a Chemistry Bachelor at ETH. Now he is pursuing his Biotechnology Master studies, where his interests lie at the intersection of Medicinal Chemistry, Protein Design and Data Mining. In his free time he can be found jogging around the Käferberg. In summer he likes to cross alpine passes with his bike.'),
   'mail_prefix' => 'julius.wenckstern',
-  'linkedin' => 'www.linkedin.com/in/juliuswenckstern'
+  'linkedin' => 'https://www.linkedin.com/in/juliuswenckstern'
 );
 
 $lang['team'][13] = array(
