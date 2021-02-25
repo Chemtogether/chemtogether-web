@@ -29,8 +29,8 @@ $lang['content'] = array(
     'Additional information:'),
 
   'documents_broschure' => array(
-    'Broschüre für Firmen (2020)',
-    'Brochure for companies (2020)'),
+    'Broschüre für Firmen (2021)',
+    'Brochure for companies (2021)'),
 
   'documents_guide' => array(
     'Messeführer (2019)',
@@ -49,8 +49,8 @@ $lang['content'] = array(
     'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2019.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
-    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2019.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2021.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2021.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
     'Rückblick auf 2019',

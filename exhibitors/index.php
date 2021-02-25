@@ -122,7 +122,7 @@ $active_nav = 'exhibitors';
         <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/brochure_2020.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/brochure_2021.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
