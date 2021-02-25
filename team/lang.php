@@ -58,10 +58,10 @@ $lang['team'][5] = array(
 );
 
 $lang['team'][6] = array(
-  'name' => 'Tejas Despandes',
+  'name' => 'Tejas Deshpande',
   'task' => array('Layout','Layout'),
   'info' => array('Tejas (den meisten als TJ bekannt), ist in Zürich aufgewachsen und studiert Chemieingenieurwissenschaften an der ETH. Als Ausgleich zum Studium spielt er am liebsten Violine und verbringt viel Zeit damit, neue Musik für seine Playlists zu finden. Ebenfalls ist er ein begeisterter Schach- und Cricketfan.','Tejas (known to most as TJ) grew up in Zurich and studies Chemical Engineering at ETH Zurich. In his leisure time he loves to play the violin and invests much time in finding new music for his playlists. He is also an avid chess and cricket fan.'),
-  'mail_prefix' => 'tejas.despandes',
+  'mail_prefix' => 'tejas.deshpande',
   'linkedin' => 'linkedin.com/in/tejas-deshpande-13626b17a'
 );
 
