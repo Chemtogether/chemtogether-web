@@ -53,9 +53,9 @@ $fb = array(
       </ul>
       <div id="home-top">
         <div class="date-container">
-          <span id="date-day1">2</span>
+          <span id="date-day1">2.</span>
           <span class="date-bar"></span>
-          <span id="date-day2">3</span>
+          <span id="date-day2">3.</span>
         </div>
         <div class="date-container">
           <span id="date-month">Nov.</span>
