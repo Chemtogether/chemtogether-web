@@ -44,6 +44,16 @@ $lang['content'] = array(
     'Ausstellerpakete',
     'Partnership Options'),
 
+  'Corona-Info' => array(
+    'Coronavirus',
+    'Coronavirus'
+  ),  
+
+  'Corona-Text' => array(
+    'Aufgrund der andauernden COVID-19 Pandemie ist nach wie vor unklar, ob eine physische Durchführung der Messe im November möglich sein wird.  Daher arbeiten wir momentan an der Planung einer virtuellen Messe. Sollte sich die Lage im Spätsommer nicht deutlich verbessert haben, wird eine Absage der physischen Karrieremesse rechtzeitig kommuniziert. Für Sie werden  in diesem Fall keine Kosten entstehen und Sie können sich zu alternativen Konditionen für die virtuelle Alternative anmelden.',
+    'Due to the ongoing COVID-19 pandemic it remains uncertain whether a career fair with physical presence will be possible in November. We are therefore currently working on an alternative virtual format of the fair. Should the situation not have improved by the end of the summer, a cancellation will be communicated in due time and your company will not incur any costs. We will offer a sign-up to the virtual alternative at new conditions.'
+  ),
+
   'packages_text' => array(
     'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
     'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),

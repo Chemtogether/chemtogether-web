@@ -147,6 +147,24 @@ $active_nav = 'exhibitors';
         <span>/</span><span>/</span>
       </span>
       <span class="section-text">
+        <?php echo($lang['content']['Corona-Info'][$eng]); ?>
+      </span>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['Corona-Text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
         <?php echo($lang['content']['packages_subsection'][$eng]); ?>
       </span>
     </div>
