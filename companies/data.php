@@ -31,6 +31,22 @@ $data['day1'][$i++] = array(
     "package" => 'silver',
  );
 
+ $data['day1'][$i++] = array(
+    "link_url" => '/companies/hoffmanneitle/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/hoffmanneitle/logo','png', FALSE),
+    "name" => "Hoffmann Eitle",
+    "name_short" => "hoffmanneitle",
+    "package" => 'base',
+ );
+ 
+ $data['day1'][$i++] = array(
+    "link_url" => '/companies/idorsia/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/idorsia/logo','png', FALSE),
+    "name" => "Idorsia",
+    "name_short" => "idorsia",
+    "package" => 'base',
+ );
+
 // $lang['day2'] = null;
 $i = 0; 
 
