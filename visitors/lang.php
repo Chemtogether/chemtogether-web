@@ -47,8 +47,8 @@ $lang['content']['companies_text'] = array(
   $lang['content']['day2'] = array('Mittwoch, 3. November', 'Wednesday, 3rd November');
 
   $lang['content']['no-companies-notice'] = array(
-    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.facebook.com/chemtogether/">Facebook</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
-    'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.facebook.com/chemtogether/">Facebook</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'
+    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
+    'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'
   );
 
 // COMPANY SUBSITE

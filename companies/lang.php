@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2020 - Firmen', 'Chemtogether 2020 - Companies');
+$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen', 'Chemtogether 2021 - Companies');
 $lang['navigation']['title'] = array('Die Firmen', 'The Companies');
 $lang['navigation']['topnav_title']= array('Die Firmen', 'The Companies');
 
@@ -10,12 +10,12 @@ $lang['navigation']['topnav_title']= array('Die Firmen', 'The Companies');
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content'] = array(
   'intro_text' => array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2020 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2020. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.'),
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2021 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2021. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.'),
 
   'coming_soon' => array(
-    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.facebook.com/chemtogether/">Facebook</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
-    'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.facebook.com/chemtogether/">Facebook</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'),
+    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
+    'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'),
 
   'day1' => array('Dienstag, 3. November','Tuesday, 3rd November'),
   'day2' => array('Mittwoch, 4. November', 'Wednesday, 4th November'),
