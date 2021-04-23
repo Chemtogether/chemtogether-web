@@ -154,7 +154,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Firmenprofil','company profile'),
+  'perk'     => array('Firmenprofil','Company profile'),
   'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -178,7 +178,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Promotion','promotion'),
+  'perk'     => array('Promotion','Promotion'),
   'base'     => array('',''),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
