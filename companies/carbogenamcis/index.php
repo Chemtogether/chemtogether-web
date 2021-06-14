@@ -46,7 +46,7 @@ $template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
 $template['logo_url'] = set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 1;
+$template['day'] = 2;
 
 $lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
