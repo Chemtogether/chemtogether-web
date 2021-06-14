@@ -48,7 +48,7 @@ $template['logo_url'] = set_source($awss3.'/companies/carbogenamcis/logo','png',
 $template['package'] = 'silver';
 $template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2019 - Firmen: '.$template['company_name'], 'Chemtogether 2018 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -60,85 +60,14 @@ $template['archive'] = '/archive/carbogenamcis';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'CARBOGEN AMCIS was founded in 2006 as a result of the merger between “AMCIS” and “CarboGen.” AMCIS was founded in 1982 as a joint venture with an American pharmaceutical company and CarboGen in 1990 at the University of Zurich.<br> We are a leading service provider in the area of organic chemistry, product and process development to commercial production of Active Pharmaceutical Ingredients (APIs) for the pharmaceutical and bio-pharmaceutical industry. Our core markets are in North America, Europe and Asia. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz) as well as facilities in France, United Kingdom and China. Our focus is to help customers create a better world.');
+  'text' => 'CARBOGEN AMCIS is a leading service provider in the area of product and process development, including the commercial production of active ingredients for the pharmaceutical and biopharmaceutical industries. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz), as well as locations in Riom (FR), Manchester (UK), Shanghai (CN) and Veenendaal (NL).');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => '<table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Varied Work &amp High Responsibility</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Career Development opportunities</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Flexible Working Hours</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Supportive &amp Diverse Workplace</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Private Travel Insurance</td>
-  </tr>
-  </table><br>Would you like to be a part of CARBOGEN AMCIS and have a direct impact on our business growth? Then visit our <a href="http://www.carbogen-amcis.com/careers.asp">career homepage</a> or submit an expression of interest via <a href="mailto:bewerbung@carbogen-amcis.com">bewerbung@carbogen-amcis.com</a>.');
+  'text' => 'We are committed to providing an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our staff and encourage our staff’s professional career. Our organization also allows a
+  cross-departmental development within the company.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => '...individuals with an educational and
-  professional background in:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Research & Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Control & Assurance</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Analytical Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Systems</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Production</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Regulatory Affairs</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Post-Doc</td>
-  </tr>
-  </table><br>
-  We expect:  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>University Degree in Chemistry or
-  Pharmaceutical Chemistry</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Ability to Work in a Team Environment</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Good Communication & Organizational
-  Skills</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Solid Knowledge of German & English</td>
-  </tr>
-  </table>');
+  'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.');
   
   $template['interview_print_until'] = 1;
   //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

@@ -34,7 +34,7 @@ $template['company_name_short'] = 'basf';
 $template['logo_url'] = set_source($awss3.'/companies/basf/logo_svg','svg', FALSE);
 $template['package'] = 'gold';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2019 - Firmen: '.$template['company_name'], 'Chemtogether 2019 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.basf.com','basf.com');
@@ -46,13 +46,28 @@ $template['archive'] = '/archive/basf';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'We are the world’s leading chemical company, with the best teams developing intelligent solutions for our customers and creating chemistry for a sustainable future. BASF’s success as a company relies on the personal engagement of our employees. We encourage our staff to develop their strengths, and we recognize their achievements.');
+  'text' => 'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 117,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We offer excellent frame conditions and development opportunities. The start position as Lab Team Leader offers the chance to develop your individual career as an expert in the worldwide R&D community, as a specialist in technology, production, marketing and sales, innovation scouting, or as a future manager in a global company.');
+  'text' => 'BASF offers a variety of entry and career opportunities at various sites for natural scientists, engineers and digital talents:
+    <table class="fa-table">
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Direct entry: With a direct entry you will be assigned challenging tasks from day one.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Trainee programs: Our TOP START, START IN and Inside trainee programs offer ambitious university graduates an exciting career start in various fields.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Internship and thesis</td>
+    </tr>
+  </tr></table>');
+  
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'You are an enthusiastic chemist or chemical engineer, and you have successfully completed your studies with a PhD or a PostDoc. Your focus is on one of the following specialist areas: Chemi­cal engineering, organic, inorganic, macromolecular, technical, physical, theoretical, analytical chemistry or biochemistry. You are open to every­thing that’s new and are looking for scientific and technical challenges. You enjoy working in an interdisciplinary and intercultural team.');
+  'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
 
 $template['interview_print_until'] = 2;
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;

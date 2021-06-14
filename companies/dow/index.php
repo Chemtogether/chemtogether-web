@@ -22,7 +22,7 @@ $active_nav = 'companies';
   //   "image_height" => ""
   // );
   
-$template['company_name'] = 'Dow Europe';
+$template['company_name'] = 'Dow';
 $template['company_name_short'] = 'dow';
 $template['logo_url'] = set_source($awss3.'/companies/dow/logo_svg','svg', FALSE);
 $template['package'] = 'gold';
@@ -37,60 +37,13 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dow-chemical/','
 $template['archive'] = '/archive/dow';
 $template['we_are'] = array(
   'title' => 'Who we are',
-  'text' => 'The Dow Chemical Company (Dow) combines science and technology knowledge to develop premier materials science solutions that are essential to human progress. Dow has one of the strongest and broadest toolkits in the industry, with robust technology, asset integration, scale and competitive capabilities that enable it to address complex global issues. Dow’s market-driven, industry-leading portfolio of advanced materials, industrial intermediates, and plastics businesses deliver a broad range of differentiated technology-based products and solutions for customers in high-growth markets such as packaging, infrastructure, and consumer care. Dow is a subsidiary of DowDuPont (NYSE: DWDP), a holding company comprised of Dow and DuPont with the intent to form three strong, independent, publicly traded companies in agriculture, materials science and specialty sectors.<br><br>
-  More information can be found at <a href="https://www.dow.com/">www.dow.com</a>.');
+  'text' => 'Dow combines one of the broadest technology sets in the industry with asset integration, focused innovation and global scale to achieve profitable growth and become the most innovative, customer centric, inclusive and sustainable materials science company.');
 $template['we_offer'] = array(
   'title' => 'We offer you',
-  'text' => 'The Science to Your Success. A career with us is an invitation to explore, create and make valuable con­tributions to human progress. We have some of the world’s best scientists and innovators dedicated to solving world challenges through innovation. Find out how we do it at <a href="http://www.dowcampus.com/">www.dowcampus.com</a>.<br><br>In addition we offer: <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>The opportunity to carve out a unique and vibrant career</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Reward and recognition for strong performance</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Comprehensive benefits</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>An inclusive culture and diverse workforce that is empowered by authenticity, respect and equity for everyone</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Opportunity to participate in any of our 10 Employee Resource Groups as an enabler for personal growth and business success</td>
-  </tr>
-  </table>');
+  'text' => 'Imagine being part of an inclusive workplace where your diverse ideas are combined with your colleagues’ to deliver innovations directly to customers. Our people are driven by curiosity and continuously interested in how science can enhance people’s lives. You can expect us to create multiple career paths in R&D, Technical Service & Development, Manufacturing & Engineering and Supply Chain.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'Innovators and team-players who want to utilize their skills and share our passion to make a difference. We look for people with an open and respectful mind who are flexible, mobile, and willing to grow their careers in an inclusive environment across the globe.<br><br>International opportunities in EMEAI include: <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Research & Development </td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Technical Service and Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Marketing & Sales </td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Supply Chain</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Environment, Health & Safety</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Sustainability</td>
-  </tr>
-  </table>');
+  'text' => 'Are you a talented student/fresh graduate with a background in chemistry or chemical/material/polymer engineering? Can you bring your passion, expertise and experience to help us shape the future? We are seeking collaborative talents who can work in teams, listen to diverse perspectives and embrace innovation to turn challenges into opportunities. Visit careers.dow.com and join the conversation!');
 
   
 $template['interview_print_until'] = 1;
