@@ -206,7 +206,7 @@ $fb = array(
     </div>  
 
 
-    <div class="anchor" id="programme">
+    <!-- <div class="anchor" id="programme">
     </div>
 
     <div class="section">
@@ -245,7 +245,7 @@ $fb = array(
         </tr>
       </table>
     </div>
-    </div>
+    </div> -->
 
     <div class="spacer">
     </div>

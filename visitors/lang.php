@@ -29,8 +29,8 @@ $lang['content']['schedule_text'] = array(
   'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
   'For more information on individual events, please check at the end of this webpage.');
 $lang['content']['schedule_talk1'] = array(
-  'title' => array('Montag, 2. November','Monday, 2nd November'),
-  'event1' => array('Podiumsdiskussion: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet','Panel: ARE WE DOING ENOUGH? The Responsibility of Chemists in Protecting Our Planet'),
+  'title' => array('Montag, 1. November','Monday, 1st November'),
+  'event1' => array('Podiumsdiskussion: Bekanntgabe des Themas folgt bald.','Panel: Topic to be announced soon.'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
