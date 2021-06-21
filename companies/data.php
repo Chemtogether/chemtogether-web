@@ -78,7 +78,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/carbogenamcis/index.php#info',
     "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
-    "name" => "CARBONGEN AMCIS",
+    "name" => "CARBOGEN AMCIS",
     "name_short" => "carbogenamcis",
     "package" => 'silver',
 );
