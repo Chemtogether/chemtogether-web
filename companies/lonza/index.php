@@ -51,10 +51,10 @@ $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'Lonza is an integrated solutions provider that creates value along the Healthcare Continuum®. We focus on creating a healthy environment, promoting a healthier lifestyle and preventing illness through consumers\' preventive healthcare, as well as improving patient healthcare by supporting our customers to deliver innovative medicines that help treat or even cure severe diseases.
   ');
-$template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, i
-');
+// $template['we_offer'] = array(
+//   'title' => 'We offer',
+//   'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, i
+// ');
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'For our site in Visp we are looking for skilled workers from all areas of Life Science. You can expect the best of both worlds: A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
