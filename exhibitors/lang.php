@@ -50,8 +50,8 @@ $lang['content'] = array(
   ),  
 
   'Corona-Text' => array(
-    'Aufgrund der andauernden COVID-19 Pandemie ist nach wie vor unklar, ob eine physische Durchführung der Messe im November möglich sein wird.  Daher arbeiten wir momentan an der Planung einer virtuellen Messe. Sollte sich die Lage im Spätsommer nicht deutlich verbessert haben, wird eine Absage der physischen Karrieremesse rechtzeitig kommuniziert. Für Sie werden  in diesem Fall keine Kosten entstehen und Sie können sich zu alternativen Konditionen für die virtuelle Alternative anmelden.',
-    'Due to the ongoing COVID-19 pandemic it remains uncertain whether a career fair with physical presence will be possible in November. We are therefore currently working on an alternative virtual format of the fair. Should the situation not have improved by the end of the summer, a cancellation will be communicated in due time and your company will not incur any costs. We will offer a sign-up to the virtual alternative at new conditions.'
+    'We are pleased to announce that, due to the current improvements of the pandemic situation, the Chemtogether Career Fair 2021 will be held in presence. However, to ensure the health of our company representatives and visitors, we have decided to grant access to the fair only to vaccinated, recovered, or tested people. We hope you will understand this measure and support us in our efforts to ensure the safest possible experience. We are looking forward to welcoming you all to this year’s Chemtogether!',
+    'Wir freuen uns bekanntzugeben, dass die Chemtogether 2021 aufgrund der verbesserten pandemischen Lage in Präsenz stattfinden wird. Um allerdings die Sicherheit aller Messeteilnehmer gewährleisten zu können, wurde entschieden, dass nur geimpften, genesenen oder getesteten Personen Zugang zur Messe gewährt wird. Wir bitten für diese Schutzmassnahme um Verständnis und freuen uns bereits, Sie auf der Chemtogether 2021 willkommen zu heissen!'
   ),
 
   'packages_text' => array(
