@@ -29,7 +29,7 @@ $lang['content']['schedule_text'] = array(
   'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
   'For more information on individual events, please check at the end of this webpage.');
 $lang['content']['schedule_talk1'] = array(
-  'title' => array('Donnerstag, 28. September','Thursday, 28th September'),
+  'title' => array('Donnerstag, 28. Oktober','Thursday, 28th October'),
   'event1' => array('Podiumsdiskussion: Bekanntgabe des Themas folgt bald.','Panel Discussion: Topic to be announced soon.'),
   'event2' => array('',''),
   'event3' => array('',''),
