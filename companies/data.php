@@ -102,7 +102,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/dow/index.php#info',
     "logo_url" => set_source($awss3.'/companies/dow/logo_svg','svg', FALSE),
-    "name" => "Dow Europe",
+    "name" => "Dow",
     "name_short" => "dow",
     "package" => 'base',
 );

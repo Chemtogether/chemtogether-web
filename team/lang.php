@@ -148,6 +148,7 @@ $lang['content']['organisation_text'] = array('Chemtogether ist ein gemeinsames 
 $lang['content']['organisation']['vcs'] = array('Vereinigung der Chemiestudierenden','Association of the Chemistry Students');
 $lang['content']['organisation']['vac'] = array('Vereinigung der Assistenten der Chemischen Labore der ETH Zürich','Union of the Assistants at the Chemical Labs of ETH Zurich');
 $lang['content']['organisation']['apv'] = array('Akademischer Pharmaziestudierenden Verein','Akademischer Pharmaziestudierenden Verein');
+$lang['content']['organisation']['vecs'] = array('Vereinigung ehemaliger Chemiestudierender der ETH Zürich', 'Chemistry Alumni Association');
 $lang['content']['organisation']['vseth'] = array('Verband der Studierenden an der ETH Zürich','Association of Students at ETH Zurich');
 $lang['content']['organisation']['aveth'] = array('Akademische Vereinigung des Mittelbaus der ETH Zürich','Academic Association of Scientific Staff at ETH Zurich ');
 $lang['content']['organisation']['chab'] = array('Departement Chemie und Angewandte Biowissenschaften','Department of Chemistry and Applied Biosciences');

@@ -36,6 +36,9 @@ $lang['content']['schedule_talk1'] = array(
   'event4' => array('',''),
   'event5' => array('','')
 );
+$lang['content']['collaboration'] = array(
+  'Die Podiumsdiskussion wird in Zusammenarbeit mit der Vereinigung ehemaliger Chemiestudierender der ETH Zürich (VECS) durchgeführt.',
+  'The panel discussion is organized in collaboration with the Chemistry Alumni Association (VECS).');
 
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
