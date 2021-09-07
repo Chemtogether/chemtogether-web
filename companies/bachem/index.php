@@ -11,7 +11,7 @@ include('../lang.php');
 // GENERAL
 $active_nav = 'companies';
 
-$template['company_name'] = 'AVANTAMA';
+$template['company_name'] = 'BACHEM';
 $template['company_name_short'] = 'BACHEM';
 $template['logo_url'] = set_source($awss3.'/companies/bachem/logo','png', FALSE);
 $template['package'] = 'silver';

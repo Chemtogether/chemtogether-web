@@ -128,14 +128,14 @@ $next_company = $company_list[$key_next];
     <div class="spacer">
     </div>
 
-    <div class="content flex">
-      <div class="text l-12 m-12 s-12">
+  <!--   <div class="content flex">
+       <div class="text l-12 m-12 s-12">
         <div class="subsection">
-          <?php echo(bilingual($template['we_are']['title'])); ?>
+        <?php echo(bilingual($template['we_are']['title'])); ?>
         </div>
         <?php echo(bilingual($template['we_are']['text'])); ?>
       </div>
-    </div>
+    </div> 
 
     <div class="spacer">
     </div>
@@ -159,10 +159,32 @@ $next_company = $company_list[$key_next];
         </div>
         <?php echo(bilingual($template['we_look']['text'])); ?>
       </div>
+    </div>  -->
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
     </div>
 
-    <?php if($template['interview_print_until'] > 0) { ?>
-      <div class="spacer">
+    <?php if($template['interview_print_until'] = 0) { // >0 originally, temporally changed to =?> 
+       <div class="spacer">
       </div>
 
       <div class="spacer">

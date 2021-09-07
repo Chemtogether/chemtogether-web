@@ -69,7 +69,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
 
-$template['interview_print_until'] = 2;
+$template['interview_print_until'] = 0; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 $i=0;
@@ -294,7 +294,7 @@ $template['interview'][$i++] = array(
       'answer' => 'I strongly recommend building a network during your undergrad and PhD studies. Go abroad for one semester, setup research collaborations, or do an internship in industry. Consider that it is you who chooses the company you want to work for.',
     ),
   ),
-);
+); 
 
 include('../0_template/template.php');
 
