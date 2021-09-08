@@ -31,7 +31,7 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
 }
 $template['company_name'] = 'BASF';
 $template['company_name_short'] = 'basf';
-$template['logo_url'] = set_source($awss3.'/companies/basf/logo_svg','svg', FALSE);
+$template['logo_url'] = set_source($awss3.'/companies/basf/logo','png', FALSE);
 $template['package'] = 'gold';
 $template['day'] = 1;
 $lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);

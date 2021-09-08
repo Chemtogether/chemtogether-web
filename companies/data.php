@@ -9,7 +9,7 @@ $data['day2'] = array();
 
 $data['day1'][$i++] = array(
     "link_url" => '/companies/basf/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/basf/logo_svg','svg', FALSE),
+    "logo_url" => set_source($awss3.'/companies/basf/logo','png', FALSE),
     "name" => "BASF",
     "name_short" => "basf",
     "package" => 'gold',
