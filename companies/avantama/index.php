@@ -36,7 +36,7 @@ $template['we_offer'] = array(
   
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for curious candidates with a solid educational background.');
+  'text' => 'We are looking for curious candidates with a natural desire to solve materials/chemistry problems in the lab or who love to optimize chemical production processes.');
 
 
 

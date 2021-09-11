@@ -29,47 +29,31 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   //   "image_height" => ""
   // );
 }
-$template['company_name'] = 'BASF';
-$template['company_name_short'] = 'basf';
-$template['logo_url'] = set_source($awss3.'/companies/basf/logo','png', FALSE);
+$template['company_name'] = 'Valsynthese';
+$template['company_name_short'] = 'valsynthese';
+$template['logo_url'] = set_source($awss3.'/companies/valsynthese/logo','png', FALSE);
 $template['package'] = 'gold';
-$template['day'] = 1;
+$template['day'] = 2;
 $lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
-$template['homepage'] = array('https://www.basf.com','basf.com');
-$template['facebook'] = array('https://facebook.com/basf/', 'BASF');
-$template['linkedin'] = array('https://www.linkedin.com/company/basf/','BASF');
-$template['mail'] = array('jobs','basf.com');
-
+//$template['homepage'] = array('https://www.basf.com','basf.com');
+//$template['facebook'] = array('https://facebook.com/basf/', 'BASF');
+//$template['linkedin'] = array('https://www.linkedin.com/company/basf/','BASF');
 
 // $template['mail'] = array('','');
-$template['archive'] = '/archive/basf';
+//$template['archive'] = '/archive/basf';
 
 $template['we_are'] = array(
-  'title' => 'We are',
-  'text' => 'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 110,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.');
+  'title' => '',
+  'text' => '');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'BASF offers a variety of entry and career opportunities at various sites for natural scientists, engineers and digital talents:
-    <table class="fa-table">
-    <tr>
-    <td><i class="fas fa-fw fa-chevron-right"></td>
-    <td>Direct entry: With a direct entry you will be assigned challenging tasks from day one.</td>
-    </tr>
-    <tr>
-    <td><i class="fas fa-fw fa-chevron-right"></td>
-    <td>Trainee programs: Our TOP START, START IN and Inside trainee programs offer ambitious university graduates an exciting career start in various fields.</td>
-    </tr>
-    <tr>
-    <td><i class="fas fa-fw fa-chevron-right"></td>
-    <td>Internship and thesis</td>
-    </tr>
-  </tr></table>');
+  'title' => '',
+  'text' => '');
   
 $template['we_look'] = array(
-  'title' => 'We are looking for',
-  'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
+  'title' => '',
+  'text' => '');
 
 $template['interview_print_until'] = 0; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;

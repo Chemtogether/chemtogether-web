@@ -31,35 +31,32 @@ $active_nav = 'companies';
   // );
 
 
-$template['company_name'] = 'Lonza';
-$template['company_name_short'] = 'lonza';
-$template['logo_url'] = set_source($awss3.'/companies/lonza/logo','png', FALSE);
+$template['company_name'] = 'Chemgineering';
+$template['company_name_short'] = 'chemgineering';
+$template['logo_url'] = set_source($awss3.'/companies/chemgineering/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2019 - Firmen: '.$template['company_name'], 'Chemtogether 2019 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('http://www.lonza.com/','lonza.com');
-$template['facebook'] = array('https://www.facebook.com/LonzaGroupAG/', 'Lonza Group');
-$template['linkedin'] = array('https://www.linkedin.com/company/lonza/','Lonza');
+//$template['homepage'] = array('http://www.lonza.com/','lonza.com');
+//$template['facebook'] = array('https://www.facebook.com/LonzaGroupAG/', 'Lonza Group');
+//$template['linkedin'] = array('https://www.linkedin.com/company/lonza/','Lonza');
 // $template['mail'] = array('','');
-$template['archive'] = '/archive/lonza';
+//$template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
-  'title' => 'We are',
-  'text' => 'Lonza is an integrated solutions provider that creates value along the Healthcare Continuum®. We focus on creating a healthy environment, promoting a healthier lifestyle and preventing illness through consumers\' preventive healthcare, as well as improving patient healthcare by supporting our customers to deliver innovative medicines that help treat or even cure severe diseases.
-  ');
+  'title' => '',
+  'text' => '  ');
 
 $template['we_offer'] = array(
    'title' => '',
-   'text' => '');
-
+   'text' => '  ');
 $template['we_look'] = array(
-  'title' => 'We are looking for',
-  'text' => 'For our site in Visp we are looking for skilled workers from all areas of Life Science. You can expect the best of both worlds: A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
-  ');
+  'title' => '',
+  'text' => '');
 
 $template['interview_print_until'] = 1;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

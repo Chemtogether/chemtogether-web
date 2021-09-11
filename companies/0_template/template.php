@@ -128,7 +128,7 @@ $next_company = $company_list[$key_next];
     <div class="spacer">
     </div>
 
-  <!--   <div class="content flex">
+     <div class="content flex">
        <div class="text l-12 m-12 s-12">
         <div class="subsection">
         <?php echo(bilingual($template['we_are']['title'])); ?>
@@ -159,7 +159,7 @@ $next_company = $company_list[$key_next];
         </div>
         <?php echo(bilingual($template['we_look']['text'])); ?>
       </div>
-    </div>  -->
+    </div> 
     <div class="spacer">
     </div>
     <div class="spacer">
@@ -320,7 +320,7 @@ $next_company = $company_list[$key_next];
                     <?php echo($lang['detail']['day'][2][$eng]); ?>
                   </td>
                 </tr>
-                <?php for ($i=0; $i < max(sizeof($lang['day1']), sizeof($lang['day2'])); $i++) {
+                <?php for ($i=0; $i < max(sizeof($data['day1']), sizeof($data['day2'])); $i++) {
                   echo('<tr>');
                   if(isset($data['day1'][$i])) echo('<td><a href="'.$data['day1'][$i]["link_url"].'">'.$data['day1'][$i]["name"].'</a></td>');
                   else echo('<td></td>');

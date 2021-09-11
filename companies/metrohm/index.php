@@ -29,9 +29,9 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   //   "image_height" => ""
   // );
 }
-$template['company_name'] = 'Metrohm';
+$template['company_name'] = 'Metrohm AG';
 $template['company_name_short'] = 'metrohm';
-$template['logo_url'] = set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE);
+$template['logo_url'] = set_source($awss3.'/companies/metrohm/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 2;
 $lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);

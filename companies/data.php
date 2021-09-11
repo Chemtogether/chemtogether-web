@@ -24,6 +24,14 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
+    "link_url" => '/companies/chemgineering/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/chemgineering/logo','png', FALSE),
+    "name" => "Chemgineering",
+    "name_short" => "chemgineering",
+    "package" => 'silver',
+);
+
+$data['day1'][$i++] = array(
     "link_url" => '/companies/lonza/index.php#info',
     "logo_url" => set_source($awss3.'/companies/lonza/logo_svg','svg', FALSE),
     "name" => "Lonza",
@@ -40,6 +48,22 @@ $data['day1'][$i++] = array(
  );
 
 $data['day1'][$i++] = array(
+    "link_url" => '/companies/biogen/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/biogen/logo','png', FALSE),
+    "name" => "Biogen",
+    "name_short" => "biogen",
+    "package" => 'base',
+ );
+
+$data['day1'][$i++] = array(
+    "link_url" => '/companies/galenicare/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/galenicare/logo','png', FALSE),
+    "name" => "GALENICA AG",
+    "name_short" => "galenicare",
+    "package" => 'base',
+ );
+
+$data['day1'][$i++] = array(
     "link_url" => '/companies/hoffmanneitle/index.php#info',
     "logo_url" => set_source($awss3.'/companies/hoffmanneitle/logo','png', FALSE),
     "name" => "Hoffmann Eitle",
@@ -47,14 +71,6 @@ $data['day1'][$i++] = array(
     "package" => 'base',
  );
 
-$data['day1'][$i++] = array(
-    "link_url" => '/companies/biogen/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/biogen/logo','png', FALSE),
-    "name" => "Biogen",
-    "name_short" => "biogen",
-    "package" => 'base',
- );
- 
 $data['day1'][$i++] = array(
     "link_url" => '/companies/idorsia/index.php#info',
     "logo_url" => set_source($awss3.'/companies/idorsia/logo','png', FALSE),
@@ -65,6 +81,14 @@ $data['day1'][$i++] = array(
 
 $lang['day2'] = null;
 $i = 0; 
+
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/valsynthese/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/valsynthese/logo','png', FALSE),
+    "name" => "Valsynthese",
+    "name_short" => "valsynthese",
+    "package" => 'gold',
+);
 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/bachem/index.php#info',
@@ -81,21 +105,21 @@ $data['day2'][$i++] = array(
     "name" => "CARBOGEN AMCIS",
     "name_short" => "carbogenamcis",
     "package" => 'silver',
-);
+); 
 
-$data['day2'][$i++] = array(
-    "link_url" => '/companies/metrohm/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/metrohm/logo_svg','svg', FALSE),
-    "name" => "Metrohm",
-    "name_short" => "metrohm",
-    "package" => 'silver',
-);
- 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/dottikon/index.php#info',
     "logo_url" => set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE),
     "name" => "Dottikon",
     "name_short" => "dottikon",
+    "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/metrohm/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
+    "name" => "Metrohm AG",
+    "name_short" => "metrohm",
     "package" => 'silver',
 );
 
@@ -126,7 +150,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/siegfried/index.php#info',
     "logo_url" => set_source($awss3.'/companies/siegfried/logo_svg','svg', FALSE),
-    "name" => "Siegfried",
+    "name" => "Siegfried Holding AG",
     "name_short" => "siegfried",
     "package" => 'base',
 );
