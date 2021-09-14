@@ -48,15 +48,15 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 //$template['archive'] = '/archive/hoffmanneitle';
 
 $template['we_are'] = array(
-  'title' => '',
-  'text' => '');
-$template['we_offer'] = array(
-  'title' => '',
-  'text' => '
-  ');
+  'title' => 'Who we are',
+  'text' => 'We are the largest pharmacy Group in Switzerland. With more than 350 pharmacies all over Switzerland, we can offer you different opportunities at all levels of your career.');
+
+  $template['we_offer'] = array(
+  'title' => 'We offer you',
+  'text' => 'We can offer you apprenticeships during your Master studies in Pharmacy. Graduates are more than welcome to start as young Pharmacists. In addition, we offer a large selection of trainings from the begging of your career.');
 $template['we_look'] = array(
-  'title' => '',
-  'text' => '');
+  'title' => 'We are looking for',
+  'text' => 'We are looking for motivated pharmacists.');
 
 
 
