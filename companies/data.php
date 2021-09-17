@@ -141,8 +141,8 @@ $data['day2'][$i++] = array(
 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/sika/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/sika/logo_svg','svg', FALSE),
-    "name" => "Sika",
+    "logo_url" => set_source($awss3.'/companies/sika/logo','png', FALSE),
+    "name" => "Sika Technology AG",
     "name_short" => "sika",
     "package" => 'base',
 );
