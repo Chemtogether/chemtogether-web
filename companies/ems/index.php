@@ -31,7 +31,7 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'EMS';
+$template['company_name'] = 'EMS-Chemie AG';
 $template['company_name_short'] = 'ems';
 $template['logo_url'] = set_source($awss3.'/companies/ems/logo_svg','svg', FALSE);
 $template['package'] = 'base';

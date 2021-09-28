@@ -134,7 +134,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/ems/index.php#info',
     "logo_url" => set_source($awss3.'/companies/ems/logo_svg','svg', FALSE),
-    "name" => "EMS",
+    "name" => "EMS-Chemie AG",
     "name_short" => "ems",
     "package" => 'base',
 );
