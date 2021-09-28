@@ -48,15 +48,38 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 //$template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
-  'title' => '',
-  'text' => '  ');
+  'title' => 'Who we are',
+  'text' => 'a global consulting and planning company focusing on the GxP-regulated environment. From consulting to concept studies to turnkey solutions, we offer the full range of services in the areas of pharmaceuticals, biotechnology, fine chemicals, medical technology, cosmetics, diagnostics and food.');
 
 $template['we_offer'] = array(
-   'title' => '',
-   'text' => '  ');
+   'title' => 'We offer you',
+   'text' => '
+   <table class="fa-table">
+   <tr>
+   <td><i class="fas fa-fw fa-chevron-right"></td>
+   <td>A high degree of flexibility with regard to organizing working hours so that work and domestic life can be optimally balanced</td>
+   </tr>
+   <tr>
+   <td><i class="fas fa-fw fa-chevron-right"></td>
+   <td>The possibility to work on a mobile basis</td>
+   </tr>
+   <tr>
+   <td><i class="fas fa-fw fa-chevron-right"></td>
+   <td>An open communication climate</td>
+   </tr>
+   <tr>
+   <td><i class="fas fa-fw fa-chevron-right"></td>
+   <td>International Teams</td>
+   </tr>
+   <tr>
+   <td><i class="fas fa-fw fa-chevron-right"></td>
+   <td>Attractive social benefits</td>
+   </tr></table>
+   Find out more: https://www.chemgineering.com/en/careers/employee-stories');
+
 $template['we_look'] = array(
-  'title' => '',
-  'text' => '');
+  'title' => 'We are looking for',
+  'text' => 'Are you on the verge of getting your science degree, and might you have already gained your first experiences in life sciences so that you now really want to get going? Career starters have found exactly the right place here! Depending on company area, you can start as a project engineer or a junior consultant within the Chemgineering Group, and in this way get right into the middle of a project.');
 
 $template['interview_print_until'] = 1;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

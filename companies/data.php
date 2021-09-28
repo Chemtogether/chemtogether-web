@@ -85,7 +85,7 @@ $i = 0;
 $data['day2'][$i++] = array(
     "link_url" => '/companies/valsynthese/index.php#info',
     "logo_url" => set_source($awss3.'/companies/valsynthese/logo','png', FALSE),
-    "name" => "Valsynthese",
+    "name" => "VALSYNTHESE SA",
     "name_short" => "valsynthese",
     "package" => 'gold',
 );
@@ -109,8 +109,8 @@ $data['day2'][$i++] = array(
 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/dottikon/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/dottikon/logo_svg','svg', FALSE),
-    "name" => "Dottikon",
+    "logo_url" => set_source($awss3.'/companies/dottikon/logo','png', FALSE),
+    "name" => "DOTTIKON ES",
     "name_short" => "dottikon",
     "package" => 'silver',
 );

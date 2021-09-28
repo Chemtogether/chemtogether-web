@@ -53,8 +53,8 @@ $template['we_are'] = array(
   ');
 
 $template['we_offer'] = array(
-   'title' => '',
-   'text' => '');
+   'title' => 'We offer',
+   'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, including Europe, North America and Asia.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',

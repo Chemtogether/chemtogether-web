@@ -29,7 +29,7 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
   //   "image_height" => ""
   // );
 }
-$template['company_name'] = 'Valsynthese';
+$template['company_name'] = 'VALSYNTHESE SA';
 $template['company_name_short'] = 'valsynthese';
 $template['logo_url'] = set_source($awss3.'/companies/valsynthese/logo','png', FALSE);
 $template['package'] = 'gold';
@@ -45,15 +45,31 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 //$template['archive'] = '/archive/basf';
 
 $template['we_are'] = array(
-  'title' => '',
-  'text' => '');
+  'title' => 'We are',
+  'text' => 'a privately owned and well-etablished Swiss CDMO for API intermediates and API drug substances, located in Brig, in the hearts of the Alps, part of the SSE Group. Specialized in hazardous chemistry, Valsynthese is serving multiple industries such as agrochemical, fragrances & flavours and medical devices.');
 $template['we_offer'] = array(
-  'title' => '',
-  'text' => '');
+  'title' => 'We offer',
+  'text' => '<table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Dynamic working environment in a human scale company</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Diversified and attractive job description</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Perspectives linked to a lively and growing company</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>First-rate social benefits</td>
+  </tr></table>');
   
 $template['we_look'] = array(
-  'title' => '',
-  'text' => '');
+  'title' => 'We look for',
+  'text' => 'Flexible and motivated people to reinforce our team and support our developpement.');
 
 $template['interview_print_until'] = 0; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
