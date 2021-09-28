@@ -147,13 +147,7 @@ $data['day2'][$i++] = array(
     "package" => 'base',
 );
 
-$data['day2'][$i++] = array(
-    "link_url" => '/companies/siegfried/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/siegfried/logo_svg','svg', FALSE),
-    "name" => "Siegfried Holding AG",
-    "name_short" => "siegfried",
-    "package" => 'base',
-);
+
 
 
 $i = 0; 
