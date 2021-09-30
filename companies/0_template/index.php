@@ -53,14 +53,14 @@ $template['text_titles'] = array(
   'we_look' => array('',''),
 );
 $template['we_are'] = array(
-  'title' => 'We are',
-  'text' => 'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
+  'title' => '',
+  'text' => '');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
+  'title' => '',
+  'text' => '');
 $template['we_look'] = array(
-  'title' => 'We look for',
-  'text' => 'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
+  'title' => '',
+  'text' => '');
 
 
 

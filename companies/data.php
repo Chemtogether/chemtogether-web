@@ -26,7 +26,7 @@ $data['day1'][$i++] = array(
 $data['day1'][$i++] = array(
     "link_url" => '/companies/chemgineering/index.php#info',
     "logo_url" => set_source($awss3.'/companies/chemgineering/logo','png', FALSE),
-    "name" => "Chemgineering",
+    "name" => "<br> Chemgineering <br> <br> ",
     "name_short" => "chemgineering",
     "package" => 'silver',
 );
@@ -50,7 +50,7 @@ $data['day1'][$i++] = array(
 $data['day1'][$i++] = array(
     "link_url" => '/companies/biogen/index.php#info',
     "logo_url" => set_source($awss3.'/companies/biogen/logo','png', FALSE),
-    "name" => "Biogen",
+    "name" => "<br>  Biogen  <br> <br> ",
     "name_short" => "biogen",
     "package" => 'base',
  );
@@ -58,7 +58,7 @@ $data['day1'][$i++] = array(
 $data['day1'][$i++] = array(
     "link_url" => '/companies/galenicare/index.php#info',
     "logo_url" => set_source($awss3.'/companies/galenicare/logo','png', FALSE),
-    "name" => "GALENICA AG",
+    "name" => "<br>  GALENICA AG  <br> <br> ",
     "name_short" => "galenicare",
     "package" => 'base',
  );
@@ -85,7 +85,7 @@ $i = 0;
 $data['day2'][$i++] = array(
     "link_url" => '/companies/valsynthese/index.php#info',
     "logo_url" => set_source($awss3.'/companies/valsynthese/logo','png', FALSE),
-    "name" => "VALSYNTHESE SA",
+    "name" => "<br> VALSYNTHESE SA<br> <br> ",
     "name_short" => "valsynthese",
     "package" => 'gold',
 );
@@ -93,7 +93,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/bachem/index.php#info',
     "logo_url" => set_source($awss3.'/companies/bachem/logo','png', FALSE),
-    "name" => "BACHEM",
+    "name" => "<br> BACHEM  <br> <br> ",
     "name_short" => "bachem",
     "package" => 'silver',
 );
@@ -110,7 +110,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/dottikon/index.php#info',
     "logo_url" => set_source($awss3.'/companies/dottikon/logo','png', FALSE),
-    "name" => "DOTTIKON ES",
+    "name" => "<br>  DOTTIKON ES <br>  <br> ",
     "name_short" => "dottikon",
     "package" => 'silver',
 );
@@ -118,7 +118,7 @@ $data['day2'][$i++] = array(
 $data['day2'][$i++] = array(
     "link_url" => '/companies/metrohm/index.php#info',
     "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
-    "name" => "Metrohm AG",
+    "name" => "<br> Metrohm AG  <br> <br> ",
     "name_short" => "metrohm",
     "package" => 'silver',
 );
@@ -136,6 +136,14 @@ $data['day2'][$i++] = array(
     "logo_url" => set_source($awss3.'/companies/ems/logo_svg','svg', FALSE),
     "name" => "EMS-Chemie AG",
     "name_short" => "ems",
+    "package" => 'base',
+);
+
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/mettlertoledo/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/mettlertoledo/logo','png', FALSE),
+    "name" => "Mettler Toledo",
+    "name_short" => "mettlertoledo",
     "package" => 'base',
 );
 
