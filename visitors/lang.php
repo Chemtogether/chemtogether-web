@@ -30,7 +30,7 @@ $lang['content']['schedule_text'] = array(
   'For more information on individual events, please check at the end of this webpage.');
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 28. Oktober','Thursday, 28th October'),
-  'event1' => array('Podiumsdiskussion: Bekanntgabe des Themas folgt bald.','Panel Discussion: Topic to be announced soon.'),
+  'event1' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood','Panel Discussion:<br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),

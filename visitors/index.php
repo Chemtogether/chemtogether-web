@@ -96,7 +96,7 @@ $fb = array(
     <table class="schedule">
       <tr>
         <td><i class="far fa-fw fa-comment"></i></td>
-        <td>17:15</td>
+        <td>17:00 - 20:00</td>
         <td><?php echo($lang['content']['schedule_talk1']['event1'][$eng]); ?></td>
       </tr>
     </table>
