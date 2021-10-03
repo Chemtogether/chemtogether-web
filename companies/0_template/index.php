@@ -68,6 +68,75 @@ $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 2;
 
 $i = 0;
+
+$template['interview'][$i++] = array(
+  'name' => '',
+  'img_url' => $awss3.'/companies/metrohm/interviewee_2019_1',
+  'position' => '',
+
+  'education' => array(
+    0 => array(
+      'date' => '2014-2015',
+      'desc' => '“Master of Science ETH in Chemistry”, ETH Zurich, Switzerland',
+    ),
+    1 => array(
+      'date' => '2009-2014',
+      'desc' => '“Bachelor of Science ETH in Chemistry“, ETH Zurich, Switzerland',
+    ),
+    2 => array(
+      'date' => '2005-2009',
+      'desc' => 'Maturität, Secondary school in Nuolen',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2019',
+      'desc' => 'Teamleader at Systems Engineering, Metrohm AG',
+    ),
+    1 => array(
+      'date' => '2017',
+      'desc' => 'Core Team Member at Systems Engineering, Metrohm AG',
+    ),
+    2 => array(
+      'date' => '2015',
+      'desc' => 'Systems Engineer at Systems
+Engineering, Metrohm AG, Herisau, Switzerland',
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'Was ist ihre derzeitige Tätigkeit bei Avantama?',
+      'answer' => '',
+    ),
+    1 => array(
+      'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+      'answer' => '',
+    ),
+    2 => array(
+      'question' => 'Wie sieht Ihr klassischer Arbeitstag bei Avantama aus?',
+      'answer' => '',
+    ),
+    3 => array(
+      'question' => 'Wie kam es ,dass sie nun für  Avantama arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+      'answer' => '',
+    ),
+    4 => array(
+      'question' => 'Wie lief ihr Bewerbungsprozess bei Avantama?',
+      'answer' => '’.',
+    ),
+    5 => array(
+      'question' => 'Was glauben Sie unterscheidet Avantama von anderen Chemiefirmen? Was sind die drei grössten Vorteile von Avantama?',
+      'answer' => '',
+    ),
+    6 => array(
+      'question' => 'Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?',
+      'answer' => '',
+    ),
+  ),
+);
+
 $template['interview'][$i++] = array(
   'name' => 'Patrik Willi',
   'img_url' => $awss3.'/img/team/member_1',

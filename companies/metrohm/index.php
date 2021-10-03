@@ -70,10 +70,79 @@ $template['we_look'] = array(
   </table>');
 
 
-  $template['interview_print_until'] = 1;
-  //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+  $template['interview_print_until'] = 0;
+  // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
   $i=0;
+
+  $template['interview'][$i++] = array(
+    'name' => '',
+    'img_url' => $awss3.'/companies/metrohm/interviewee_2019_1',
+    'position' => '',
+  
+    'education' => array(
+      0 => array(
+        'date' => '2014-2015',
+        'desc' => '“Master of Science ETH in Chemistry”, ETH Zurich, Switzerland',
+      ),
+      1 => array(
+        'date' => '2009-2014',
+        'desc' => '“Bachelor of Science ETH in Chemistry“, ETH Zurich, Switzerland',
+      ),
+      2 => array(
+        'date' => '2005-2009',
+        'desc' => 'Maturität, Secondary school in Nuolen',
+      ),
+    ),
+  
+    'career' => array(
+      0 => array(
+        'date' => '2019',
+        'desc' => 'Teamleader at Systems Engineering, Metrohm AG',
+      ),
+      1 => array(
+        'date' => '2017',
+        'desc' => 'Core Team Member at Systems Engineering, Metrohm AG',
+      ),
+      2 => array(
+        'date' => '2015',
+        'desc' => 'Systems Engineer at Systems
+  Engineering, Metrohm AG, Herisau, Switzerland',
+      ),
+    ),
+  
+    'interview' => array(
+      0 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+      1 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+      2 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+      3 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+      4 => array(
+        'question' => '',
+        'answer' => '’.',
+      ),
+      5 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+      6 => array(
+        'question' => '',
+        'answer' => '',
+      ),
+    ),
+  );
+
 
   $template['interview'][$i++] = array(
   'name' => 'Karina Hasler',

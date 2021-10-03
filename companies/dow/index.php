@@ -46,7 +46,7 @@ $template['we_look'] = array(
   'text' => 'Are you a talented student/fresh graduate with a background in chemistry or chemical/material/polymer engineering? Can you bring your passion, expertise and experience to help us shape the future? We are seeking collaborative talents who can work in teams, listen to diverse perspectives and embrace innovation to turn challenges into opportunities. Visit careers.dow.com and join the conversation!');
 
   
-$template['interview_print_until'] = 1;
+$template['interview_print_until'] = 0;
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;

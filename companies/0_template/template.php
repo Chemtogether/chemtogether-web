@@ -37,10 +37,12 @@ $next_company = $company_list[$key_next];
           <tr>
             <td>
               <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
-            </td>
-            <td class="spoiler-button" data-targetid="subnavigation-overview-top">
+             </td>
+     <!--     <td class="spoiler-button" data-targetid="subnavigation-overview-top">
               <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
               <span><i class="rotate fas fa-chevron-down"></i></span>
+            </td> -->
+            <td>
             </td>
             <td>
               <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
@@ -48,7 +50,7 @@ $next_company = $company_list[$key_next];
           </tr>
         </table>
         <br>
-        <div class="subnavigation-overview" id="subnavigation-overview-top">
+        <!-- <div class="subnavigation-overview" id="subnavigation-overview-top">
           <table>
             <tr>
               <td>
@@ -76,7 +78,8 @@ $next_company = $company_list[$key_next];
             } ?>
           </table>
           <br>
-          <br>
+          <br> -->
+
         </div>
       </div>
     </div>
@@ -183,7 +186,7 @@ $next_company = $company_list[$key_next];
     <div class="spacer">
     </div>
 
-    <?php if($template['interview_print_until'] = 0) { // >0 originally, temporally changed to =?> 
+    <?php if($template['interview_print_until'] >0) { // >0 originally, temporally changed to =?> 
        <div class="spacer">
       </div>
 
@@ -291,10 +294,10 @@ $next_company = $company_list[$key_next];
                 <td>
                   <a href='<?php echo($prev_company['link_url']); ?>'><span><i class="fas fa-chevron-left"></i></span> <span><?php echo($prev_company['name']); ?></span> <span><i class="fas fa-chevron-left"></i></span></a>
                 </td>
-                <td class="spoiler-button" data-targetid="subnavigation-overview-bottom">
+                <!-- <td class="spoiler-button" data-targetid="subnavigation-overview-bottom">
                   <span><?php echo($lang['detail']['packages']['overview'][$eng]); ?></span>
-                  <i class="rotate fas fa-chevron-down"></i>
-                </td>
+                  <i class="rotate fas fa-chevron-down"></i> -->
+                  <td></td>
                 <td>
                   <a href='<?php echo($next_company['link_url']); ?>'><span><i class="fas fa-chevron-right"></i></span> <span><?php echo($next_company['name']); ?></span> <span><i class="fas fa-chevron-right"></i></span></a>
                 </td>
