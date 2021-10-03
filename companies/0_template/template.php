@@ -165,10 +165,6 @@ $next_company = $company_list[$key_next];
     </div> 
     <div class="spacer">
     </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
   
 
     <?php if($template['interview_print_until'] >0) { // >0 originally, temporally changed to =?> 
