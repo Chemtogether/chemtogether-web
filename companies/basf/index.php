@@ -71,10 +71,97 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
 
-$template['interview_print_until'] = 0; 
+$template['interview_print_until'] = 1; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 $i=0;
+
+$template['interview'][$i++] = array(
+  'name' => 'Nicolle Langer',
+  'img_url' => $awss3.'/companies/basf/interviewee_2021_1',
+  'position' => 'Head of Packaging & Labelling – Agricultural Solutions Europe',
+
+  'education' => array(
+    0 => array(
+      'date' => 'UCLA',
+      'desc' => 'Post Doc with Fraser Stoddart',
+    ),
+    1 => array(
+      'date' => 'D-CHAB',
+      'desc' => 'Ph.D. with Francois Diederich',
+    ),
+    2 => array(
+      'date' => 'Netherlands and ETH Zürich',
+      'desc' => 'Chemistry Studies',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2005-present',
+      'desc' => 'BASF',
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'Was ist ihre derzeitige Tätigkeit bei BASF?',
+      'answer' => 'I am group leader for packaging, labelling and artwork for agrochemical solutions in Europe.',
+    ),
+    1 => array(
+      'question' => 'An welchem Standort von BASF arbeiten Sie?',
+      'answer' => 'My office is in Limburgerhof, Germany, but since 03/2020 I have worked mainly remotely in home office.',
+    ),
+    2 => array(
+      'question' => 'Wie sieht Ihr klassischer Arbeitstag bei BASF aus?',
+      'answer' => 'Until 9 am, reading and answering emails. Afterwards, there are numerous alignments on technical and organizational topics.',
+    ),
+    3 => array(
+      'question' => 'Wie kam es, dass sie nun für BASF arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+      'answer' => 'BASF is a known company to most chemists. After my post-doc, I applied with several companies in and around Switzerland.  BASF was offering me the most interesting position.',
+    ),
+    4 => array(
+      'question' => 'Wie lief ihr Bewerbungsprozess bei BASF?',
+      'answer' => 'I sent my application by (paper!)mail from the USA to Germany. On recruitment day, I held a scientific presentation and afterwards had several interviews. I received the offer to work for BASF on the same day.',
+    ),
+    5 => array(
+      'question' => 'Was glauben Sie unterscheidet BASF von anderen Chemiefirmen?',
+      'answer' => 'Due to the size of the company and the numerous different business areas, there are good possibilities to develop oneself in almost any direction.  This was the main reason for me to choose for BASF 16 years ago.',
+    ),
+    6 => array(
+      'question' => 'Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?',
+      'answer' => 'I studied and did my PhD in chemistry. My first job at BASF was rather close to my Ph.D. topic, but my current job is hardly related to chemistry. A scientific education is a good basis for personal development, no matter in what direction one finally moves.',
+    ),
+    7 => array(
+      'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+      'answer' => 'Be open-minded, talk to people and read as much as possible job descriptions. Most likely, you will find out, what first direction you would like to take. Don´t worry too much about further steps.  
+      ',
+    ),
+    8 => array(
+      'question' => 'Welche Erfahrungen haben Sie mit Karrieremessen gemacht?',
+      'answer' => 'Very little.
+      ',
+    ),
+    9 => array(
+      'question' => 'Wie lange arbeiten Sie schon für BASF und inwiefern hat sich Ihre Position bei BASF in dieser Zeit verändert?',
+      'answer' => 'I have worked at BASF for 16 years, now being in my fourth position. I started, as almost every chemist, as lab team leader in research. Afterwards, I held positions in procurement and technology before taking over my current position. With every job change, I used my past experience and learned a lot of new things.',
+    ),
+    10 => array(
+      'question' => 'Wie sehen Ihre Zukunftspläne bei BASF aus?',
+      'answer' => 'To stay interested and keep learning, no matter in what direction and/or position.'),
+    11 => array(
+      'question' => 'Gibt es eine Möglichkeit, innerhalb der Teilbereiche zu wechseln, z.B. von R&D in die Produktion oder ins Marketing?',
+      'answer' => 'Absolutely yes: my career is the perfect example!'),
+    12 => array(
+      'question' => 'Als wie wichtig erachten Sie die Work-Life Balance? Sind Sie zufrieden mit Ihrer Work-Life Balance bei BASF?',
+      'answer' => 'Work-life-balance is fundamental to me to stay energized. I am happy with my work-life balance: we have flexible working hours and it is fully accepted that the family (father and mother) needs time to take care of their kids.'),
+    13 => array(
+      'question' => 'Was schätzen Sie am meisten an der Firmenkultur von BASF?',
+      'answer' => 'The strong network. For almost every question, you will find somebody who can help.'),
+  )
+);
+
+
 
 $template['interview'][$i++] = array(
   'name' => 'Dr. Nikolas Huwyler',

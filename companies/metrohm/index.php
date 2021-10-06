@@ -70,75 +70,74 @@ $template['we_look'] = array(
   </table>');
 
 
-  $template['interview_print_until'] = 0;
+  $template['interview_print_until'] = 1;
   // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
   $i=0;
 
   $template['interview'][$i++] = array(
-    'name' => '',
-    'img_url' => $awss3.'/companies/metrohm/interviewee_2019_1',
-    'position' => '',
+    'name' => 'Tobias Favero',
+    'img_url' => $awss3.'/companies/metrohm/interviewee_2021_1',
+    'position' => 'Systems Engineer',
   
     'education' => array(
       0 => array(
-        'date' => '2014-2015',
-        'desc' => '“Master of Science ETH in Chemistry”, ETH Zurich, Switzerland',
+        'date' => '2011-2017',
+        'desc' => 'BSc und MSc in Interdisziplinären Naturwissenschaften, ETH Zürich',
       ),
       1 => array(
-        'date' => '2009-2014',
-        'desc' => '“Bachelor of Science ETH in Chemistry“, ETH Zurich, Switzerland',
+        'date' => '2005-2008',
+        'desc' => 'BSc in Informationstechnologie, ZHAW Winterthur ',
       ),
       2 => array(
-        'date' => '2005-2009',
-        'desc' => 'Maturität, Secondary school in Nuolen',
+        'date' => '1997-2000',
+        'desc' => 'Lehre als Chemielaborant, Coca-Cola Amatil AG ',
       ),
     ),
   
     'career' => array(
       0 => array(
-        'date' => '2019',
-        'desc' => 'Teamleader at Systems Engineering, Metrohm AG',
+        'date' => '2018-present',
+        'desc' => 'Systems Engineer, Metrohm',
       ),
       1 => array(
-        'date' => '2017',
-        'desc' => 'Core Team Member at Systems Engineering, Metrohm AG',
+        'date' => '2009-2011',
+        'desc' => 'Softwareentwickler, NovaLink',
       ),
       2 => array(
-        'date' => '2015',
-        'desc' => 'Systems Engineer at Systems
-  Engineering, Metrohm AG, Herisau, Switzerland',
+        'date' => '2000-2003',
+        'desc' => 'Chemielaborant, Coca-Cola Beverages AG ',
       ),
     ),
   
     'interview' => array(
       0 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Was ist ihre derzeitige Tätigkeit bei Metrohm?',
+        'answer' => 'Ich habe als Kernteammitglied die Fachverantwortung für ein Team in der Abteilung Systems Engineering. Mein Team begleitet verschiedene Projekte mit Experimenten im Labor, diese Aufgaben beinhalten aber nicht nur "klassische" Laborarbeit sondern ist sehr interdisziplinär, da in der Geräteentwicklung verschiedene Disziplinen sehr eng zusammen arbeiten und es unumgänglich ist fachlich über den Tellerrand zu schauen. In der Rolle als Kernteammitglied bin ich neben der Ressourcen- und Arbeitsplanung auch für die Qualität der Ergebnisse unseres Teams verantwortlich.',
       ),
       1 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+        'answer' => 'Ich habe als Kernteammitglied die Fachverantwortung für ein Team in der Abteilung Systems Engineering. Mein Team begleitet verschiedene Projekte mit Experimenten im Labor, diese Aufgaben beinhalten aber nicht nur "klassische" Laborarbeit sondern ist sehr interdisziplinär, da in der Geräteentwicklung verschiedene Disziplinen sehr eng zusammen arbeiten und es unumgänglich ist fachlich über den Tellerrand zu schauen. In der Rolle als Kernteammitglied bin ich neben der Ressourcen- und Arbeitsplanung auch für die Qualität der Ergebnisse unseres Teams verantwortlich.',
       ),
       2 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Wie sieht Ihr klassischer Arbeitstag bei Metrohm aus?',
+        'answer' => 'Ein "normaler" Arbeitstag besteht aus 2-3 Meetings bei denen es meistens um die teamübergreifende Koordination der verschiedenen Projekte geht. Die restliche Zeit verbringe ich vor allem mit bilateralen fachlichen Gesprächen innerhalb meines Teams, dabei beurteilen wir zusammen aktuelle Daten, diskutieren Problemstellungen oder besprechen die Dokumentation der Ergebnisse.',
       ),
       3 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Wie kam es, dass sie nun für Metrohm arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+        'answer' => 'Ich habe mich nach meinem Studium an der ETH nach einer Stelle umgesehen bei der meine Doppelqualifikation (Chemie/IT) ein Mehrwert sein kann. Da in Analysegeräten und Sensoren diese beiden Disziplinen oft eng verzahnt sind, habe ich mich vor allem bei Firmen beworben die Laborgeräte entwickeln, so bin ich auf die Metrohm gestossen.',
       ),
       4 => array(
-        'question' => '',
-        'answer' => '’.',
+        'question' => 'Wie lief ihr Bewerbungsprozess bei Metrohm?',
+        'answer' => 'Ich habe mich auf eine Stelle als Teilprojektleiter beworben, bei der ich aber im ersten Anlauf abgelehnt worden bin. Da die Metrohm meinen Lebenslauf spannend fand wurde mir im Anschluss angeboten mein Dossier vorerst zu behalten um bei passenden Stellen auf mich zurück zu kommen. Dies ist kurze Zeit später auch passiert, ich wurde eingeladen mich für eine andere Stelle vorzustellen und habe diese im Anschluss erhalten.',
       ),
       5 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Was glauben Sie unterscheidet Metrohm von anderen Chemiefirmen? Was sind die drei grössten Vorteile von Metrohm?',
+        'answer' => 'Ein grosser Vorteil ist, dass der grösste Teil der Entwickler:innen vor Ort in Herisau stationiert ist, dies fördert und erleichtert die disziplinenübergreifende Zusammenarbeit enorm. Eine Kultur der offenen Türen unterstützt die Zusammenarbeit zusätzlich, sodass viele Fragen im persönlichen Gespräch gelöst werden können. Ein weiterer grosser Vorteil ist die stetige Weiterbildung der Mitarbeiter:innen, dies wird von der Firma Metrohm aktiv gefördert.',
       ),
       6 => array(
-        'question' => '',
-        'answer' => '',
+        'question' => 'Was haben sie studiert und war die Tatsache, dass Sie einen ETH Abschluss hatten, ein Vorteil für den Einstieg in die Berufswelt?',
+        'answer' => 'Ich habe Interdisziplinäre Naturwissenschaften studiert. Dies ist aber nicht meine Erstausbildung da ich bereits eine Lehre als Chemielaborant und ein Studium in Informatik (ZHAW Winterthur) abgeschlossen habe und sowohl im Labor als auch als Softwareentwickler schon einige Jahre Berufserfahrung mitbrachte. Meine aktuelle Stelle ist jedoch die erste nach dem ETH Abschluss, insofern war es schon ein Einstieg in eine neue berufliche Perspektive. Bei den Bewerbungen hat mir der ETH Abschluss vor allem durch seine Reputation geholfen, als Absolvent habe ich viel Vorschussvertrauen hinsichtlich meiner Fähigkeiten erhalten komplexe Probleme zu lösen und mich selbständig in neue Fragestellungen einzuarbeiten.',
       ),
     ),
   );
