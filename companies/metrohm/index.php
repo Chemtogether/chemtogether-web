@@ -117,7 +117,7 @@ $template['we_look'] = array(
       ),
       1 => array(
         'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
-        'answer' => 'Ich habe als Kernteammitglied die Fachverantwortung für ein Team in der Abteilung Systems Engineering. Mein Team begleitet verschiedene Projekte mit Experimenten im Labor, diese Aufgaben beinhalten aber nicht nur "klassische" Laborarbeit sondern ist sehr interdisziplinär, da in der Geräteentwicklung verschiedene Disziplinen sehr eng zusammen arbeiten und es unumgänglich ist fachlich über den Tellerrand zu schauen. In der Rolle als Kernteammitglied bin ich neben der Ressourcen- und Arbeitsplanung auch für die Qualität der Ergebnisse unseres Teams verantwortlich.',
+        'answer' => 'Sei offen für Stellen die auf den ersten Blick nicht genau deinem Fächerpacket aus dem Studium entsprechen, den perfekten Match wird es sowieso nie geben, und vielfach sind die Aufgaben und Verantwortungsbereiche nachträglich für entsprechend geeignete Kandidat:innen ausbaubar. Ausserdem erfordern viele Stellen auch sehr generelle Fähigkeiten wie eine schnelle Auffassungsgabe, erfassen und beurteilen von Daten, oder manchmal auch schlicht Durchhaltewillen. Diese Softskills hast du schon viel geübt und unter Beweis gestellt während deinem Studium an der ETH, vergiss nicht das in deinen Bewerbungen herauszustreichen.',
       ),
       2 => array(
         'question' => 'Wie sieht Ihr klassischer Arbeitstag bei Metrohm aus?',
