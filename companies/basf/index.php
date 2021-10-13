@@ -71,7 +71,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
 
-$template['interview_print_until'] = 1; 
+$template['interview_print_until'] = 0; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 $i=0;
@@ -83,16 +83,16 @@ $template['interview'][$i++] = array(
 
   'education' => array(
     0 => array(
-      'date' => 'UCLA',
-      'desc' => 'Post Doc with Fraser Stoddart',
+      'date' => '2004-2005',
+      'desc' => 'Postdoc with Fraser Stoddart, UCLA',
     ),
     1 => array(
-      'date' => 'D-CHAB',
-      'desc' => 'Ph.D. with Francois Diederich',
+      'date' => '2000-2004',
+      'desc' => 'Ph.D. with Francois Diederich, D-CHAB, ETH Zurich',
     ),
     2 => array(
-      'date' => 'Netherlands and ETH Zürich',
-      'desc' => 'Chemistry Studies',
+      'date' => '1995-2000',
+      'desc' => 'Chemistry Studies, Netherlands and ETH Zürich',
     ),
   ),
 
@@ -135,11 +135,6 @@ $template['interview'][$i++] = array(
     7 => array(
       'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
       'answer' => 'Be open-minded, talk to people and read as much as possible job descriptions. Most likely, you will find out, what first direction you would like to take. Don´t worry too much about further steps.  
-      ',
-    ),
-    8 => array(
-      'question' => 'Welche Erfahrungen haben Sie mit Karrieremessen gemacht?',
-      'answer' => 'Very little.
       ',
     ),
     9 => array(
