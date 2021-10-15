@@ -30,7 +30,7 @@ $lang['content']['schedule_text'] = array(
   'For more information on individual events, please check at the end of this webpage.');
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 28. Oktober','Thursday, 28th October'),
-  'event1' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood','Panel Discussion:<br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
+  'event1' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood', 'Panel Discussion: <br>  Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),
@@ -78,19 +78,18 @@ $lang['detail']['interviews']['career'] = array('Karriere','Career');
 $lang['detail']['interviews']['present'] = array('heute','present');
 $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
-// PROGRAMME
-// $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
+//PROGRAMME
+$lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 
-// $lang['content']['programme_1'] = array(
-//   'title' => array('DSM Unternehmenspräsentation','DSM company presentation'),
-//   'description' => array(
-//     'Schliesst Du bald dein Studium in Chemie oder Chemieingenieurwesen ab? Triff Mitarbeiter von DSM, lerne mehr über ihren Karriereweg und entdecke neue Berufseinstiegsmöglichkeiten.',
-//     'About to finish your PhD or Masters in Chemical engineering or Chemistry? Meet employees from DSM, learn about their career paths and discover job opportunities.'),
-//   'guest_1' => array('Radhika van der Helm: Reliability Expert DM Sisseln (CH)','Radhika van der Helm: Reliability Expert DM Sisseln (CH)'),
-//   'guest_2' => array('Nicole Ulmer: Chemical engineer DSM Lalden (CH)','Nicole Ulmer: Chemical engineer DSM Lalden (CH)'),
-//   'guest_3' => array('Matthias Klein: Head of plant engineering DSM Grenzach (D)','Matthias Klein: Head of plant engineering DSM Grenzach (D)'),
-//   'button' => array("Zum Event", "To the event"),
-//   'time' => array('Montag, 18. Januar 2021, 17:00 Uhr','Monday, 18 January 2021, 17:00 h'),
-//   'place' => array('Online','Online')
-// );
+$lang['content']['programme_1'] = array(
+  'title' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood','Panel Discussion:<br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
+  'guest_1' => array('Dr. Florian Kehl, JPL Subcontractor & Consultant','Dr. Florian Kehl, JPL Subcontractor & Consultant'),
+  'guest_2' => array('Dr. Martin Schreiber, UBS Asset Management','Dr. Martin Schreiber, UBS Asset Management'),
+  'guest_3' => array('Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications','Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications'),
+  'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer')
+
+  //'button' => array("Zum Event", "To the event"),
+  //'time' => array('Montag, 18. Januar 2021, 17:00 Uhr','Monday, 18 January 2021, 17:00 h'),
+  //'place' => array('Online','Online')
+);
  ?>

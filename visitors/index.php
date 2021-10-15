@@ -213,7 +213,7 @@ $fb = array(
     </div>  
 
 
-    <!-- <div class="anchor" id="programme">
+    <div class="anchor" id="programme">
     </div>
 
     <div class="section">
@@ -224,23 +224,23 @@ $fb = array(
         <?php echo($lang['content']['programme_subsection'][$eng]); ?>
       </span>
     </div>
-
+ 
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br> <br>
       <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?>
+      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?>
       <br><br>
-      <div class="programme_button_div">
+      <!-- <div class="programme_button_div">
         <a href="https://www.chemtogether.ethz.ch/dsmlecture/">
           <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
         </a>
-      </div>
-      <br>
+      </div> -->
+      <!-- <br>
       <table class="fa-table">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
@@ -250,9 +250,9 @@ $fb = array(
           <td><i class="far fa-fw fa-map"></i></td>
           <td><?php echo($lang['content']['programme_1']['place'][$eng]); ?></td>
         </tr>
-      </table>
+      </table> -->
     </div>
-    </div> -->
+    </div> 
 
     <div class="spacer">
     </div>
