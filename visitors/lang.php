@@ -86,10 +86,10 @@ $lang['content']['programme_1'] = array(
   'guest_1' => array('Dr. Florian Kehl, JPL Subcontractor & Consultant','Dr. Florian Kehl, JPL Subcontractor & Consultant'),
   'guest_2' => array('Dr. Martin Schreiber, UBS Asset Management','Dr. Martin Schreiber, UBS Asset Management'),
   'guest_3' => array('Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications','Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications'),
-  'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer')
+  'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
 
   //'button' => array("Zum Event", "To the event"),
-  //'time' => array('Montag, 18. Januar 2021, 17:00 Uhr','Monday, 18 January 2021, 17:00 h'),
-  //'place' => array('Online','Online')
+  'time' => array('Donnerstag, 28. Oktober 2021, 17:00-20:00 Uhr','Thursday, 28. October 2021, 17:00-20:00 h'),
+  'place' => array('HCI G7','HCI G7')
 );
  ?>
