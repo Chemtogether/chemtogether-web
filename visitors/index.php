@@ -251,8 +251,72 @@ $fb = array(
         </tr>
       </table>
     </div>
-    </div> 
+    </div>
+    <!-- <div class="section">
+      <span class="section-slashes">
+        <span>/</span><span>/</span>
+      </span>
+      <span class="section-text">
+        <?php echo($lang['content']['speaker'][$eng]); ?>
+      </span>
+    </div> -->
+    
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_1']['cv_header'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_1']['cv_guest_1'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_1']['cv_guest_2'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_1']['cv_guest_3'][$eng]); ?> <br><br>
+      <br>
 
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+    </div>
     <div class="spacer">
     </div>
     <div class="spacer">
