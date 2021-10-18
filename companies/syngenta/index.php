@@ -61,9 +61,9 @@ $template['interview_print_until'] = 1;
  // if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
   $template['interview'][$i++] = array(
-    'name' => '',
+    'name' => 'Dr. Camille Le Chapelain',
     'img_url' => $awss3.'/companies/syngenta/interviewee_2021_1',
-    'position' => '',
+    'position' => 'Team Leader in Disease Control Chemistry',
   
     'education' => array(
       0 => array(
