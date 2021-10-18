@@ -77,7 +77,7 @@ $template['interview_print_until'] = 1;
 $i=0;
 
 $template['interview'][$i++] = array(
-  'name' => 'Nicolle Langer',
+  'name' => 'Dr. Nicolle Langer',
   'img_url' => $awss3.'/companies/basf/interviewee_2021_1',
   'position' => 'Head of Packaging & Labelling – Agricultural Solutions Europe',
 

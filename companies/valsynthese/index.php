@@ -77,7 +77,7 @@ $template['interview_print_until'] = 1;
 $i=0;
 
 $template['interview'][$i++] = array(
-  'name' => 'Erika Lüthi',
+  'name' => 'Dr. Erika Lüthi',
   'img_url' => $awss3.'/companies/valsynthese/interviewee_2021_1',
   'position' => 'Chemikerin in Forschung & Entwicklung, Projektmanagerin',
 
