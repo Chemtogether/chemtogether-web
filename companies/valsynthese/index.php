@@ -165,7 +165,7 @@ $template['interview'][$i++] = array(
       Prozesssicherheit. Aber es gibt gute Weiterbildungen dafür für die Privatindustrie.',
     ),
     7 => array(
-      'question' => 'Welchen Rat würden Sie einem „Frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt 
+      'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt 
       ?',
       'answer' => 'Eine  Chemikerstelle  (F&E  oder  QC)  in  der  Privatindustrie  ist  eine  gute  Möglichkeit,  weiterhin 
       Forschungsarbeit zu machen, wer sich dafür interessiert - nicht im Sinn von Grundlagenforschung 
