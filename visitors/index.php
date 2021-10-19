@@ -230,9 +230,9 @@ $fb = array(
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
+      <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
       <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br>
       <!-- <div class="programme_button_div">
         <a href="https://www.chemtogether.ethz.ch/dsmlecture/">
