@@ -26,11 +26,19 @@ $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exh
 // SCHEDULE
 $lang['content']['schedule_subsection'] = array('Programmplan','Schedule');
 $lang['content']['schedule_text'] = array(
-  'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite.',
-  'For more information on individual events, please check at the end of this webpage.');
+  'Für mehr Informationen zu einzelnen Programmpunkten, siehe am Ende der Seite. Um zu den einzelnen Flash-Präsentatione zu gelangen, klicke einfach auf die entsprechende Präsentation.',
+  'For more information on individual events, please check at the end of this webpage. To see a specific Flash presentation, just click on it.');
 $lang['content']['schedule_talk1'] = array(
   'title' => array('Donnerstag, 28. Oktober','Thursday, 28th October'),
   'event1' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood', 'Panel Discussion: <br>  Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
+  'event2' => array('',''),
+  'event3' => array('',''),
+  'event4' => array('',''),
+  'event5' => array('','')
+);
+$lang['content']['schedule_talk2'] = array(
+  'title' => array('Flash-Präsentationen','Flash Presentations'),
+  'event1' => array('<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash-Präsentation </a>', '<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash presentation </a>'),
   'event2' => array('',''),
   'event3' => array('',''),
   'event4' => array('',''),

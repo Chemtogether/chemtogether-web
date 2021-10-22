@@ -106,9 +106,19 @@ $fb = array(
   <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <?php echo($lang['content']['collaboration'][$eng]); ?>
+  </div>
+  <div class="text l-12 m-12 s-12">
+    <div class="subsection">
+      <?php echo($lang['content']['schedule_talk2']['title'][$eng]); ?>
     </div>
-
-
+    <table class="schedule">
+      <tr>
+        <td><i class="fa fa-play-circle"></i></td>
+        <td></td>
+        <td><?php echo($lang['content']['schedule_talk2']['event1'][$eng]); ?></td>
+      </tr>
+    </table>
+  </div>
   </div>
 
   <div class="spacer">
