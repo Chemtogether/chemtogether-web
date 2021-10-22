@@ -76,10 +76,10 @@ $template['interview'][$i++] = array(
       'date' => '2019-present',
       'desc' => 'Group Leader R&D, Bachem AG Bubendorf',
     ),
-    1 => array(
-      'date' => '2019',
-      'desc' => 'Project Chemist R&D, Bachem AG Bubendor',
-    ),
+    // 1 => array(
+    //   'date' => '2019',
+    //   'desc' => 'Project Chemist R&D, Bachem AG Bubendor',
+    // ),
   ),
 
   'interview' => array(
