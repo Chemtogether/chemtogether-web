@@ -39,7 +39,7 @@ $lang['content']['schedule_talk1'] = array(
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Flash-Präsentationen','Flash Presentations'),
   'event1' => array('<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash-Präsentation </a>', '<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash presentation </a>'),
-  'event2' => array('',''),
+  'event2' => array('<a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/companies/bachem/flashpresentation.mp4">BACHEM Flash-Präsentation </a>','<a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/companies/bachem/flashpresentation.mp4">BACHEM Flash presentation </a>'),
   'event3' => array('',''),
   'event4' => array('',''),
   'event5' => array('','')
