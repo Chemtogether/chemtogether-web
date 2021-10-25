@@ -69,7 +69,7 @@ $template['interview'][$i++] = array(
   'career' => array(
     0 => array(
       'date' => '2016-present',
-      'desc' => 'Senor Process Chemist R&D Routefinding, DOTTIKON EXCLUSIVE SYNTHESIS',
+      'desc' => 'Senior Process Chemist R&D Routefinding, DOTTIKON EXCLUSIVE SYNTHESIS',
     ),
   ),
 
