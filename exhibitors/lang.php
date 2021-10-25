@@ -33,8 +33,8 @@ $lang['content'] = array(
     'Brochure for companies (2021)'),
 
   'documents_guide' => array(
-    'Messeführer (2019)',
-    'Expo Guide (2019)'),
+    'Messeführer (2021)',
+    'Expo Guide (2021)'),
 
   'documents_termsandconditions' => array(
     'AGB',
