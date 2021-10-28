@@ -38,9 +38,9 @@ $lang['content']['schedule_talk1'] = array(
 );
 $lang['content']['schedule_talk2'] = array(
   'title' => array('Flash-Präsentationen','Flash Presentations'),
-  'event1' => array('<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash-Präsentation </a>', '<a href="https://www.youtube.com/watch?v=agJnV9EE7rI">BASF Flash presentation </a>'),
-  'event2' => array('<a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/companies/bachem/flashpresentation.mp4">BACHEM Flash-Präsentation </a>','<a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/companies/bachem/flashpresentation.mp4">BACHEM Flash presentation </a>'),
-  'event3' => array('',''),
+  'event1' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-basf">BASF Flash-Präsentation </a>', '<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-basf">BASF Flash presentation </a>'),
+  'event2' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">BACHEM Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">BACHEM Flash presentation </a>'),
+  'event3' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Dottikon Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Dottikon Flash presentation </a>'),
   'event4' => array('',''),
   'event5' => array('','')
 );
