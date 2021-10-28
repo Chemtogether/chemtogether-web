@@ -122,6 +122,11 @@ $fb = array(
         <td></td>
         <td><?php echo($lang['content']['schedule_talk2']['event2'][$eng]); ?></td>
       </tr>
+      <tr>
+        <td><i class="fa fa-play-circle"></i></td>
+        <td></td>
+        <td><?php echo($lang['content']['schedule_talk2']['event3'][$eng]); ?></td>
+      </tr>
     </table>
   </div>
   </div>
