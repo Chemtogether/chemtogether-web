@@ -49,12 +49,12 @@
 
 
   <!-- css includes -->
-  <link rel="stylesheet" href="/css/all.css?v=20190309_0"/>
+  <link rel="stylesheet" href="/css/all.css?v=20211028_0"/>
   <link href="/css/lightbox.css" rel="stylesheet">
 
 
   <!-- js includes -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2650931-4"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2650931-442"></script>
   <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

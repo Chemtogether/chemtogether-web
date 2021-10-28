@@ -57,6 +57,8 @@ $template['we_look'] = array(
   'title' => 'We look for',
   'text' => 'On the entry-level, we predominantly are looking for Masters/PhD in chemistry, pharmaceutical science, life science, food technology or biochemistry. In Chemical Process Development in particular we are focusing on PhD candidates in organic chemistry specializing in synthesis, preferably with several semesters abroad.');
 
+  
+$template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
   if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 

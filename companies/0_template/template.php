@@ -2,6 +2,7 @@
 <?php include('includes/nav.php');  ?>
 
 <?php
+$active_nav = 'companies';
 
 if($template['day'] == 1) $company_list = $data["day1"];
 else $company_list = $data["day2"];
@@ -165,7 +166,19 @@ $next_company = $company_list[$key_next];
     </div> 
     <div class="spacer">
     </div>
-  
+
+     <?php if($template['button_print_until'] >0) { // >0 originally, temporally changed to =?> 
+      <div class="content flex">
+        <div class="text l-12 m-12 s-12">
+          <div class="programme_button_div">
+            <span><?php echo($template['button_info'][$eng]); ?></span>
+            </a>
+          </div>
+          <br>
+        </div>
+      </div> 
+    <?php } ?>
+
 
     <?php if($template['interview_print_until'] >0) { // >0 originally, temporally changed to =?> 
        <div class="spacer">
@@ -208,9 +221,10 @@ $next_company = $company_list[$key_next];
                   if(is_array($date)) {
                     $date = $date;
                   }
-                  else if(!preg_match('/-/', $date)) {
-                    $date = $date.'-'.$lang['detail']['interviews']['present'];
-                  } ?>
+                  // else if(!preg_match('/-/', $date)) {
+                  //   $date = $date.'-'.$lang['detail']['interviews']['present'];
+                  // } 
+                  ?>
                   <tr>
                     <td><i class="fas fa-fw fa-chevron-right"></td>
                       <td><?php echo($template['interview'][$i]['education'][$j]['desc']); ?> (<?php echo($date); ?>)</td>
@@ -225,9 +239,10 @@ $next_company = $company_list[$key_next];
                     if(is_array($date)) {
                       $date = $date;
                     }
-                    else if(!preg_match('/-/', $date)) {
-                      $date = $date.'-'.$lang['detail']['interviews']['present'];
-                    } ?>
+                    // else if(!preg_match('/-/', $date)) {
+                    //   $date = $date.'-'.$lang['detail']['interviews']['present'];
+                    // }
+                     ?>
                     <tr>
                       <td><i class="fas fa-fw fa-chevron-right"></td>
                         <td><?php echo($template['interview'][$i]['career'][$j]['desc']); ?> (<?php echo($date); ?>)</td>
@@ -325,5 +340,5 @@ $next_company = $company_list[$key_next];
     </div>
     <!-- END CONTENT  -->
 
-    <?php include('includes/footer.php');  ?>
-    <?php include('includes/foot.php');  ?>
+<?php include('includes/footer.php');  ?>
+<?php include('includes/foot.php');  ?>

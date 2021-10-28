@@ -41,7 +41,7 @@ $template['we_look'] = array(
   'title' => 'We look for',
   'text' => 'At Sika we value courage for innovation, strength to persist, and pleasure in working together. You have the ability to perform combined with a high degree of social skills, an entrepreneurial spirit, respect for different opinions and working in diverse teams to achieve our strategic goals.
   Is it your ambition to perform, excel and be proud of your results? Then Sika is the place for you!');
-
+  $template['button_print_until'] = 0;
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 

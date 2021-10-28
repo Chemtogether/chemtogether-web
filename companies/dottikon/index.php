@@ -41,6 +41,12 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative, and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.');
+
+  $template['button_print_until'] = 1;
+  $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation');
+  
+
+
 $template['interview_print_until'] = 1;
 //if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 

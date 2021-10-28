@@ -71,6 +71,7 @@ $template['we_look'] = array(
   'title' => 'We look for',
   'text' => 'Flexible and motivated people to reinforce our team and support our developpement.');
 
+  $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 1; 
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 

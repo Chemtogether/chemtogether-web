@@ -58,7 +58,7 @@ $template['we_look'] = array(
   'text' => 'We are searching for committed and qualified employees to strengthen our leading technological position and to produce products fulfilling the highest quality requirements. We expect a strong innovative drive and the will to achieve the extraordinary from our employees. We promote and demand a high degree of identification with the company and its goals to ensure future success of our strategies.');
 
 
-
+$template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 

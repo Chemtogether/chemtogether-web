@@ -202,7 +202,38 @@
   }
 
 
+  .programme_button_div {
 
+    a {
+      text-decoration: none;
+      :hover {
+        text-decoration: none;
+      }
+    }
+
+      text-align: center;
+
+      span {
+        border-radius: 10px;
+        padding: 5px;
+        background-color: $ct-blue;
+        color: $text-white;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: $button-boxshadow;
+        border: 2px solid $ct-blue;
+        transition: linear 0.2s;
+      }
+
+      :hover {
+        span {
+          text-decoration: none;
+          background-color: $bg-gray;
+          color: $ct-blue;
+        }
+      }
+
+  }
 
 
 
@@ -362,7 +393,38 @@
       }
     }
 
+  .programme_button_div {
 
+    a {
+      text-decoration: none;
+      :hover {
+        text-decoration: none;
+      }
+    }
+
+      text-align: center;
+
+      span {
+        border-radius: 10px;
+        padding: 5px;
+        background-color: $ct-blue;
+        color: $text-white;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: $button-boxshadow;
+        border: 2px solid $ct-blue;
+        transition: linear 0.2s;
+      }
+
+      :hover {
+        span {
+          text-decoration: none;
+          background-color: $bg-gray;
+          color: $ct-blue;
+        }
+      }
+
+  }
 
 
 
@@ -523,6 +585,38 @@
     }
   }
 
+  .programme_button_div {
+
+    a {
+      text-decoration: none;
+      :hover {
+        text-decoration: none;
+      }
+    }
+
+      text-align: center;
+
+      span {
+        border-radius: 10px;
+        padding: 5px;
+        background-color: $ct-blue;
+        color: $text-white;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: $button-boxshadow;
+        border: 2px solid $ct-blue;
+        transition: linear 0.2s;
+      }
+
+      :hover {
+        span {
+          text-decoration: none;
+          background-color: $bg-gray;
+          color: $ct-blue;
+        }
+      }
+
+  }
 
 
   .interview-info {

@@ -58,7 +58,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for motivated pharmacists.');
 
-
+$template['button_print_until'] = 0; 
 
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

@@ -41,7 +41,9 @@ $template['we_look'] = array(
   'text' => 'We are looking for young, committed and fully qualified graduates, holdinga diploma or already in possession of a doctoral degree, who would like to join our company and establish in a professional environment, to secure our long-term success and maintain market leadership.');
 
 
-
+$template['button_print_until'] = 1;
+$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">Watch our Flash presentation');
+  
 
 
 $template['interview_print_until'] = 1;

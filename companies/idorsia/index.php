@@ -41,6 +41,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'People who like doing more with less in a highly productive environment where people enjoy their work! If you like to show up with energy, intellect and creativity then you could be a good fit with Idorsia.<br>In drug discovery, we are regularly looking for trainees (e.g. BSc, MSc, and PhD students) to work with us for 6-12 months. To get insight into how you can contribute to one of our exciting drug discovery projects, please review our current openings at: <a href="https://careers.idorsia.com/">careers.idorsia.com</a>');
 $template['interview_print_until'] = 0;
+$template['button_print_until'] = 0; 
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 include('../0_template/template.php');
 ?>

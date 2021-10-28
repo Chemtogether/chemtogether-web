@@ -53,6 +53,7 @@ $lang['detail']['interviews']['section'] = array('Interview','Interview');
 $lang['detail']['interviews']['education'] = array('Ausbildung','Education');
 $lang['detail']['interviews']['career'] = array('Karriere','Career');
 $lang['detail']['interviews']['present'] = 'present';
+$lang['detail']['interviews']['no_date'] = '';
 $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
 ?>

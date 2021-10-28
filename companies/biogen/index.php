@@ -70,6 +70,9 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'students, interns and recent graduates with life-science and engineering background such as (bio)chemical engineers / process engineers / pharmacists / analytical chemists or similar.');
+
+$template['button_print_until'] = 0;
+
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 

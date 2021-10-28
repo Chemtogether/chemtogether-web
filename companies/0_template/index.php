@@ -47,6 +47,8 @@ $template['linkedin'] = array('https://www.linkedin.com/company/chemtogether/','
 $template['mail'] = array('info','chemtogether.ethz.ch');
 $template['archive'] = '/archive/chemtogether';
 
+
+
 $template['text_titles'] = array(
   'we_are' => array('',''),
   'we_offer' => array('',''),
@@ -124,7 +126,7 @@ Engineering, Metrohm AG, Herisau, Switzerland',
     ),
     4 => array(
       'question' => 'Wie lief ihr Bewerbungsprozess bei Avantama?',
-      'answer' => '’.',
+      'answer' => '',
     ),
     5 => array(
       'question' => 'Was glauben Sie unterscheidet Avantama von anderen Chemiefirmen? Was sind die drei grössten Vorteile von Avantama?',

@@ -59,7 +59,7 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'Whether you are an undergraduate, master’s or MBA student, when you apply for the overall Leadership program in your area of interest, you will become eligible for one of the many slots available in that field. And when you join our team, you will not just be working on major assignments—you’ll also have the support you need in order to succeed. All of our programs include training and mentorship as a core part of the experience.');
-
+$template['button_print_until'] = 0; 
 $template['interview_print_until'] = 1;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 

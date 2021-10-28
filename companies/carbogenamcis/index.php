@@ -69,6 +69,7 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.');
   
+  $template['button_print_until'] = 0; 
   $template['interview_print_until'] = 1;
   //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 

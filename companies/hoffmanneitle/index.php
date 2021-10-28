@@ -76,7 +76,7 @@ $template['we_look'] = array(
   </tr></table>
   ');
 
-
+$template['button_print_until'] = 0; 
 
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

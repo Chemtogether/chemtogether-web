@@ -40,7 +40,7 @@ $template['we_look'] = array(
 
 
 
-
+$template['button_print_until'] = 0;
 
 $template['interview_print_until'] = 1;
 ##if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
