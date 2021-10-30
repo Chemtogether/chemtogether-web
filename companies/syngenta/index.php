@@ -57,7 +57,10 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We’re keen to recruit the best graduates from a variety of disciplines. Agronomy, biology, chemistry or engineering – at Syngenta CP, students and graduates in a wide range of disciplines will find an opportunity to launch their career.');
 
-  $template['button_print_until'] = 0; 
+$template['button_print_until'] = 1; 
+$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation');
+
+
 $template['interview_print_until'] = 1;
  // if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
