@@ -17,8 +17,8 @@ $lang['content'] = array(
     'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
     'No company has completely confirmed its attendence yet! We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'),
 
-  'day1' => array('Dienstag, 3. November','Tuesday, 3rd November'),
-  'day2' => array('Mittwoch, 4. November', 'Wednesday, 4th November'),
+  'day1' => array('Dienstag, 2. November','Tuesday, 2nd November'),
+  'day2' => array('Mittwoch, 3. November', 'Wednesday, 3rd November'),
   'no-companies-notice' => array('Kein Unternehmen hat seine Teilnahme vollständig bestätigt.','No company has fully confirmed its attendence yet.'),
 );
 
@@ -37,11 +37,11 @@ $lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partne
 
 $lang['detail']['archive'] = array('Archiv','Archive');
 
-$lang['detail']['day'][1] = array('Dienstag, 3. November','Tuesday, 3rd November');
-$lang['detail']['day'][2] = array('Mittwoch, 4. November','Wednesday, 4th November');
+$lang['detail']['day'][1] = array('Dienstag, 2. November','Tuesday, 2nd November');
+$lang['detail']['day'][2] = array('Mittwoch, 3. November','Wednesday, 3rd November');
 
-$lang['detail']['day_short'][1] = array('3. November','3rd November');
-$lang['detail']['day_short'][2] = array('4. November','4th November');
+$lang['detail']['day_short'][1] = array('2. November','2nd November');
+$lang['detail']['day_short'][2] = array('3. November','3rd November');
 
 
 $lang['detail']['we_are'] = array('We are','We are');
