@@ -81,7 +81,8 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'Are you on the verge of getting your science degree, and might you have already gained your first experiences in life sciences so that you now really want to get going? Career starters have found exactly the right place here! Depending on company area, you can start as a project engineer or a junior consultant within the Chemgineering Group, and in this way get right into the middle of a project.');
 
-$template['button_print_until'] = 0; 
+$template['button_print_until'] = 1; 
+$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation');
 
 $template['interview_print_until'] =1;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

@@ -40,7 +40,8 @@ $template['we_look'] = array(
 
 
 
-$template['button_print_until'] = 0;
+$template['button_print_until'] = 1;
+$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Watch our Flash presentation');
 
 $template['interview_print_until'] = 1;
 ##if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

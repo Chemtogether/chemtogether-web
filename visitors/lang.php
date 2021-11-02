@@ -42,7 +42,8 @@ $lang['content']['schedule_talk2'] = array(
   'event2' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">BACHEM Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">BACHEM Flash presentation </a>'),
   'event3' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Dottikon Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Dottikon Flash presentation </a>'),
   'event4' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Syngenta Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Syngenta Flash presentation </a>'),
-  'event5' => array('','')
+  'event5' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Chemgineering Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Chemgineering Flash presentation </a>'),
+  'event6' => array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Avantama Flash-Präsentation </a>','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Avantama Flash presentation </a>'),
 );
 $lang['content']['collaboration'] = array(
   'Die Podiumsdiskussion wird in Zusammenarbeit mit der Vereinigung ehemaliger Chemiestudierender der ETH Zürich (VECS) durchgeführt.',
