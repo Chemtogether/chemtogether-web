@@ -56,6 +56,12 @@ $active_nav = 'team';
       </div>
     </div>
 
+    <div class="content flex">
+      <div class="text l-12 m-12 s-12">
+        <?php echo($lang['content']['new_team_text'][$eng]); ?>
+      </div>
+    </div>
+
     <div class="spacer">
     </div>
 

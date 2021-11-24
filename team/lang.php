@@ -16,6 +16,12 @@ $lang['content']['intro_text'] = array(
 
 $lang['content']['team_subsection'] = array('Das Team 2021','The Team of 2021');
 
+$lang['content']['new_team_subsection'] = array('Werde Mitglied im Chemtogether Team 2022','Join the Chemtogether Team of 2022');
+$lang['content']['new_team_text'] = array(
+  'Wir suchen aktuell Verstärkung für das Organisationsteam der Chemtogether 2022. Wenn du die Chemtogether 2022 mitgestalten möchtest, melde dich gerne bei Dominik oder Gabriela. Weitere Information findest du <a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/call_for_ok_applicants_2022.pdf"> unter diesem Link</a>.',
+  'We are currently looking for motivated students to complete our team for 2022. If you are interested in organizing and carrying out the career fair, please do not hesitate to contact Dominik or Gabriela! You can find further information  <a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/call_for_ok_applicants_2022.pdf"> via this link</a>.'
+);
+
 
 $lang['team'][1] = array(
   'name' => 'Vittoria Bolongaro',
