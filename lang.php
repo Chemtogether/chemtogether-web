@@ -1,8 +1,8 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2021', 'Chemtogether 2021');
-$lang['navigation']['title'] = array('Chemtogether 2021', 'Chemtogether 2021');
+$lang['general']['page_title'] = array('Chemtogether 2022', 'Chemtogether 2022');
+$lang['navigation']['title'] = array('Chemtogether 2022', 'Chemtogether 2022');
 $lang['navigation']['topnav_title']= array('Home', 'Home');
 
 

@@ -59,7 +59,7 @@ $fb = array(
         </div>
         <div class="date-container">
           <span id="date-month">Nov.</span>
-          <span id="date-year">2021</span>
+          <span id="date-year">2022</span>
         </div>
         <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>
