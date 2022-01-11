@@ -186,6 +186,9 @@ $fb = array(
       <div class="text l-4 m-6 s-12">
         <a href=<?php echo("$awss3/img/impressions/reduced_size/18.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/18.jpg") ?> style="width:100%"></a>
       </div>
+      <div class="text l-4 m-6 s-12">
+        <a href=<?php echo("$awss3/img/impressions/reduced_size/19.jpg") ?> data-lightbox="impressions" ><img src=<?php echo("$awss3/img/impressions/reduced_size/18.jpg") ?> style="width:100%"></a>
+      </div>
     </div>
   </div>
 </div>
