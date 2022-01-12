@@ -42,11 +42,27 @@ $template['homepage'] = array('https://www.biogen.com','biogen.com');
 
 
 $template['we_are'] = array(
-  'title' => 'We are',
-  'text' => 'At Biogen, our mission is clear: we are pioneers in neuroscience. Since our founding in 1978 as one of the world’s first global biotechnology companies, Biogen has led innovative scientific research with the goal over the last decade to defeat devastating neurological diseases.');
+ 'At Biogen, our mission is clear: we are pioneers in neuroscience. Since our founding in 1978 as one of the world’s first global biotechnology companies, Biogen has led innovative scientific research with the goal over the last decade to defeat devastating neurological diseases.',
+ 'At Biogen, our mission is clear: we are pioneers in neuroscience. Since our founding in 1978 as one of the world’s first global biotechnology companies, Biogen has led innovative scientific research with the goal over the last decade to defeat devastating neurological diseases.');
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => ' <table class="fa-table">
+  ' <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td> Bachelor/Master thesis</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td> Industrial internship</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td> Trainee program</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td> Direct entry</td>
+  </tr></table>',
+  ' <table class="fa-table">
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
   <td> Bachelor/Master thesis</td>
@@ -65,8 +81,8 @@ $template['we_offer'] = array(
   </tr></table>');
 
 $template['we_look'] = array(
-  'title' => 'We are looking for',
-  'text' => 'students, interns and recent graduates with life-science and engineering background such as (bio)chemical engineers / process engineers / pharmacists / analytical chemists or similar.');
+'students, interns and recent graduates with life-science and engineering background such as (bio)chemical engineers / process engineers / pharmacists / analytical chemists or similar.',
+'students, interns and recent graduates with life-science and engineering background such as (bio)chemical engineers / process engineers / pharmacists / analytical chemists or similar.');
 
 
 include('../0_template/template.php');
