@@ -32,7 +32,7 @@ $active_nav = 'archive';
 
 $template['company_name'] = 'Dottikon';
 $template['company_name_short'] = 'dottikon';
-$template['logo_url'] = $awss3_archive.'/dottikon/logo';
+$template['logo_url'] = set_source($awss3_archive.'/dottikon/logo','png', FALSE);;
 $template['package'] = 'base';
 
 $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['company_name'], 'Chemtogether - Archive:'.$template['company_name']);
@@ -45,15 +45,120 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dottikon-exclusi
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research &amp; Development and Scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production. DOTTIKON employs over 550 employees, 14% of whom hold a Ph.D. in chemistry.',
-  'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research &amp; Development and Scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production. DOTTIKON employs over 550 employees, 14% of whom hold a Ph.D. in chemistry.');
+  'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research & Development and Scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production.',
+  'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research & Development and Scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production.');
 $template['we_offer'] = array(
-  'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. As a demanding, dynamic and performance-driven company, we offer flat hierarchies, clear structures, competences and responsibilities in a constructive and open working environment.',
-  'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. As a demanding, dynamic and performance-driven company, we offer flat hierarchies, clear structures, competences and responsibilities in a constructive and open working environment.');
+  'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. As a demanding, dynamic and performance-driven company, we offer flat hierarchies, clear structures, competences, and responsibility in a constructive and open working environment.',
+  'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. As a demanding, dynamic and performance-driven company, we offer flat hierarchies, clear structures, competences, and responsibility in a constructive and open working environment.');
 $template['we_look'] = array(
-  'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.',
-  'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.');
+  'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative, and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.',
+  'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative, and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.');
 
+  $i=0;
+
+  $template['interview']['interview'][$i++] = array(
+    'name' => 'Dr. Tobias Brütsch',
+    'img_url' =>set_source($awss3_archive.'/dottikon/interviewee_2021_1','png', FALSE),
+    'position' => array('Senior Process Chemist R&D','Senior Process Chemist R&D'),
+  
+    'education' => array(
+      0 => array(
+        'date' => '2012-2016',
+        'desc' => array('Ph.D. thesis on "Total Synthesis of Mandelalide A and Synthesis of (-)-Zampanolide Analogs for 
+        Structure-Activity Relationship Studies", ETH Zurich (Switzerland), Advisor: Prof. K. H. Altmann',
+        'Ph.D. thesis on "Total Synthesis of Mandelalide A and Synthesis of (-)-Zampanolide Analogs for 
+        Structure-Activity Relationship Studies", ETH Zurich (Switzerland), Advisor: Prof. K. H. Altmann'),
+      ),
+      1 => array(
+        'date' => '2010-2012',
+        'desc' => array('Master Studies in Chemistry, University of Zurich (Switzerland)','Master Studies in Chemistry, University of Zurich (Switzerland)'),
+      ),
+      2 => array(
+        'date' => '2006-2009',
+        'desc' => array('Bachelor Studies in Chemistry, ZHAW Wadenswil (Switzerland)','Bachelor Studies in Chemistry, ZHAW Wadenswil (Switzerland)'),
+      ),
+    ),
+  
+    'career' => array(
+      0 => array(
+        'date' => '2016-present',
+        'desc' => array('Senior Process Chemist R&D Routefinding, DOTTIKON EXCLUSIVE SYNTHESIS','Senior Process Chemist R&D Routefinding, DOTTIKON EXCLUSIVE SYNTHESIS'),
+      ),
+    ),
+  
+    'interview' => array(
+      0 => array(
+        'question' => array('Was ist ihre derzeitige Tätigkeit bei DOTTIKON ES?','Was ist ihre derzeitige Tätigkeit bei DOTTIKON ES?'),
+        'answer' => array('Ich bin bei DOTTIKON ES als Senior Process-Chemist in der Forschung und Entwicklung im Bereich Routefinding 
+        und Prozessforschung tätig. Dabei beschäftigen wir uns mit der Entwicklung neuer Syntheserouten für pharmazeutische Wirkstoffe 
+        oder deren Intermediate. Durch ein optimales Prozessdesign stellen wir die Skalierbarkeit, Sicherheit, Wirtschaftlichkeit 
+        und Nachhaltigkeit der neuen Route sicher.',
+        'Ich bin bei DOTTIKON ES als Senior Process-Chemist in der Forschung und Entwicklung im Bereich Routefinding 
+        und Prozessforschung tätig. Dabei beschäftigen wir uns mit der Entwicklung neuer Syntheserouten für pharmazeutische Wirkstoffe 
+        oder deren Intermediate. Durch ein optimales Prozessdesign stellen wir die Skalierbarkeit, Sicherheit, Wirtschaftlichkeit 
+        und Nachhaltigkeit der neuen Route sicher.'),
+      ),
+      1 => array(
+        'question' => array('Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+        'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?'),
+        'answer' => array('Ohren und Augen auf! Die meisten Absolventen machen sich vermutlich schon vor dem Abschluss Gedanken darüber, 
+        in welcher Richtung sie sich bewegen wollen. Hat man eine Firma mit einem interessanten Jobinserat im Fokus, 
+        sollte man sich so schnell wie möglich bewerben. ',
+        'Ohren und Augen auf! Die meisten Absolventen machen sich vermutlich schon vor dem Abschluss Gedanken darüber, 
+        in welcher Richtung sie sich bewegen wollen. Hat man eine Firma mit einem interessanten Jobinserat im Fokus, 
+        sollte man sich so schnell wie möglich bewerben. '),
+      ),
+      2 => array(
+        'question' => array('Wie sieht Ihr klassischer Arbeitstag bei DOTTIKON ES aus?',
+        'Wie sieht Ihr klassischer Arbeitstag bei DOTTIKON ES aus?'),
+        'answer' => array('Den klassischen Arbeitstag gibt es nicht, da wir sehr vielseitige Projekte für unterschiedliche Kunden 
+        bearbeiten und jedes Projekt ganz spezifische Herausforderungen mit sich bringt. Auf der Suche nach neuen Routen und während 
+        dem Prozessdesign, arbeiten wir meistens im kleinen Team im Labor. Dabei ist mein Arbeitstag geprägt durch Literaturrecherchen 
+        und das Planen, Ausführen und Auswerten von Laborexperimenten. Bei weiter fortgeschrittenen Projekten, wie zum Beispiel bei der 
+        Vorbereitung einer Produktionskampagne, stehen eher die technischen, organisatorischen und regulatorischen Fragestellungen im Zentrum.',
+        'Den klassischen Arbeitstag gibt es nicht, da wir sehr vielseitige Projekte für unterschiedliche Kunden 
+        bearbeiten und jedes Projekt ganz spezifische Herausforderungen mit sich bringt. Auf der Suche nach neuen Routen und während 
+        dem Prozessdesign, arbeiten wir meistens im kleinen Team im Labor. Dabei ist mein Arbeitstag geprägt durch Literaturrecherchen 
+        und das Planen, Ausführen und Auswerten von Laborexperimenten. Bei weiter fortgeschrittenen Projekten, wie zum Beispiel bei der 
+        Vorbereitung einer Produktionskampagne, stehen eher die technischen, organisatorischen und regulatorischen Fragestellungen im Zentrum.'),
+      ),
+      3 => array(
+        'question' => array('Wie kam es, dass sie nun für DOTTIKON ES arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+        'Wie kam es, dass sie nun für DOTTIKON ES arbeiten? Wie sind sie auf die Firma aufmerksam geworden?'),
+        'answer' => array('Gegen Ende meines Doktorats an der ETH war ich auf der Suche nach einer Stelle in der chemischen Forschung 
+        und Entwicklung in der Nähe von Zürich. DOTTIKON ES war mir schon vorher als potenzieller Arbeitsgeber mit einer starken Forschung 
+        und Entwicklung bekannt.',
+        'Gegen Ende meines Doktorats an der ETH war ich auf der Suche nach einer Stelle in der chemischen Forschung 
+        und Entwicklung in der Nähe von Zürich. DOTTIKON ES war mir schon vorher als potenzieller Arbeitsgeber mit einer starken Forschung 
+        und Entwicklung bekannt.'),
+      ),
+      4 => array(
+        'question' => array('Wie lief ihr Bewerbungsprozess bei DOTTIKON ES?','Wie lief ihr Bewerbungsprozess bei DOTTIKON ES?'),
+        'answer' => array('Der Bewerbungsprozess würde ich als intensiv und effizient beschreiben. 
+        Ich erhielt nach jedem der zwei Gespräche eine schnelle Antwort und wurde klar über das weitere Vorgehen informiert.',
+        'Der Bewerbungsprozess würde ich als intensiv und effizient beschreiben. 
+        Ich erhielt nach jedem der zwei Gespräche eine schnelle Antwort und wurde klar über das weitere Vorgehen informiert.'),
+      ),
+      5 => array(
+        'question' => array('Was glauben Sie unterscheidet DOTTIKON ES von anderen Chemiefirmen? 
+        Was sind die drei grössten Vorteile von DOTTIKON ES?',
+        'Was glauben Sie unterscheidet DOTTIKON ES von anderen Chemiefirmen? 
+        Was sind die drei grössten Vorteile von DOTTIKON ES?'),
+        'answer' => array('Als inhabergeführte Firma verfolgt DOTTIKON ES eine sehr langfristige Strategie, die konsequent auf die Bedürfnisse der Kunden und des Marktes ausgerichtet ist.
+        Die Firma hat bewusst nur einen Standort und baut diesen weiterhin mit neuen Produktionsanlagen aus. Das schafft eine natürliche Nähe zwischen den Abteilungen und minimiert Reibungsverluste im Berufsalltag.
+        Die Forschung und Entwicklung hat bei DOTTIKON ES einen sehr hohen Stellenwert. Damit ist DOTTIKON ES in der Lage auch für chemisch komplexe Moleküle und anspruchsvolle Transformationen innovative und robuste Prozesse zu entwickeln und diese rasch in die Produktionsanlagen einzuführen.',
+       'Als inhabergeführte Firma verfolgt DOTTIKON ES eine sehr langfristige Strategie, die konsequent auf die Bedürfnisse der Kunden und des Marktes ausgerichtet ist.
+      Die Firma hat bewusst nur einen Standort und baut diesen weiterhin mit neuen Produktionsanlagen aus. Das schafft eine natürliche Nähe zwischen den Abteilungen und minimiert Reibungsverluste im Berufsalltag.
+      Die Forschung und Entwicklung hat bei DOTTIKON ES einen sehr hohen Stellenwert. Damit ist DOTTIKON ES in der Lage auch für chemisch komplexe Moleküle und anspruchsvolle Transformationen innovative und robuste Prozesse zu entwickeln und diese rasch in die Produktionsanlagen einzuführen.')),
+      6 => array(
+        'question' => array('Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?',
+        'Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?'),
+        'answer' => array('Nach meinem Masterabschluss in Chemie an der Uni Zürich habe ich an der ETH bei Prof. Altmann promoviert. Dort durfte ich mich mit der Totalsynthese von Naturstoffen befassen. In meiner jetzigen Position bin ich dankbar, auf das chemische Grundwissen aus dem Studium und die Erfahrungen mit komplexen organischen Synthesen aus meiner Doktorarbeit zurückgreifen zu können. Die Herausforderungen im beruflichen Alltag brauchen aber auch spezifisches Fachwissen, Teamfähigkeit, Problemlösungskompetenz und viel Erfahrung.',
+        'Nach meinem Masterabschluss in Chemie an der Uni Zürich habe ich an der ETH bei Prof. Altmann promoviert. Dort durfte ich mich mit der Totalsynthese von Naturstoffen befassen. In meiner jetzigen Position bin ich dankbar, auf das chemische Grundwissen aus dem Studium und die Erfahrungen mit komplexen organischen Synthesen aus meiner Doktorarbeit zurückgreifen zu können. Die Herausforderungen im beruflichen Alltag brauchen aber auch spezifisches Fachwissen, Teamfähigkeit, Problemlösungskompetenz und viel Erfahrung.'),
+      ),
+    ),
+  );
+  
 
 
   $i=0;

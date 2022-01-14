@@ -32,7 +32,7 @@ $active_nav = 'archive';
 
 $template['company_name'] = 'Metrohm';
 $template['company_name_short'] = 'metrohm';
-$template['logo_url'] = $awss3_archive.'/metrohm/logo';
+$template['logo_url'] = set_source($awss3_archive.'/metrohm/logo','png', FALSE);
 $template['package'] = 'base';
 
 $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['company_name'], 'Chemtogether - Archive:'.$template['company_name']);
@@ -45,41 +45,11 @@ $template['linkedin'] = array('https://www.linkedin.com/company/metrohm-/','Metr
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'Metrohm is a high-tech company headquartered in Herisau, Switzerland, with 42 subsidiaries all
-around the globe. Our high-precision instruments for chemical analysis are among the best in the
-world. We are growing faster than the market and outperform our competitors; in our main
-business, titration, we are the global number one.</br>
-Of our more than 2200 employees, 460 are working at our International Headquarters in Herisau,
-and every third person there works in R&amp;D.</br>
-We are independent: Metrohm is owned by the charitable Metrohm foundation; profits are
-reinvested in the company and used to support philanthropic projects.',
-  'Metrohm is a high-tech company headquartered in Herisau, Switzerland, with 42 subsidiaries all
-around the globe. Our high-precision instruments for chemical analysis are among the best in the
-world. We are growing faster than the market and outperform our competitors; in our main
-business, titration, we are the global number one.</br>
-Of our more than 2200 employees, 460 are working at our International Headquarters in Herisau,
-and every third person there works in R&amp;D.</br>
-We are independent: Metrohm is owned by the charitable Metrohm foundation; profits are
-reinvested in the company and used to support philanthropic projects.');
+  'Metrohm is a high-tech company with 60 subsidiaries all around the globe. Our high-precision instruments for chemical analysis are among the best in the world. We are growing faster than the market and outperform our competitors; in our main business, titration, we are the global number one. We are independent: Metrohm is owned by the charitable Metrohm foundation.',
+  'Metrohm is a high-tech company with 60 subsidiaries all around the globe. Our high-precision instruments for chemical analysis are among the best in the world. We are growing faster than the market and outperform our competitors; in our main business, titration, we are the global number one. We are independent: Metrohm is owned by the charitable Metrohm foundation.');
 $template['we_offer'] = array(
-  'We offer you challenging, highly rewarding opportunities at the interface between chemistry,
-electronics, software engineering, and our global customers. Young talents with a «can-do» attitude
-get the chance to take on responsibility quickly.</br>
-People, who come to work for us enjoy a stimulating working environment. We are easy-going, we
-have various different backgrounds – and we are passionate to develop the best analytical
-instruments in the world. Our campus-like headquarters in Herisau were built in 2011 and offer
-state-of- the-art work places.</br>
-We are growing fast, but our business model is sustainable; jobs at Metrohm do not depend on the
-whims of investors.',
-  'We offer you challenging, highly rewarding opportunities at the interface between chemistry,
-electronics, software engineering, and our global customers. Young talents with a «can-do» attitude
-get the chance to take on responsibility quickly.</br>
-People, who come to work for us enjoy a stimulating working environment. We are easy-going, we
-have various different backgrounds – and we are passionate to develop the best analytical
-instruments in the world. Our campus-like headquarters in Herisau were built in 2011 and offer
-state-of- the-art work places.</br>
-We are growing fast, but our business model is sustainable; jobs at Metrohm do not depend on the
-whims of investors.');
+  'You challenging, highly rewarding opportunities at the interface between chemistry, electronics, software and mechanical engineering, and our global customers. Young talents with a «cando» attitude get the chance to take on responsibility quickly. People, who come to work for us enjoy a stimulating working environment.',
+  'You challenging, highly rewarding opportunities at the interface between chemistry, electronics, software and mechanical engineering, and our global customers. Young talents with a «cando» attitude get the chance to take on responsibility quickly. People, who come to work for us enjoy a stimulating working environment.');
 $template['we_look'] = array(
   'We are looking for young talents eager to start their career as a<table class="fa-table">
   <tr>
@@ -117,6 +87,148 @@ $template['we_look'] = array(
   <td>design engineer</td>
   </tr>
   </table>');
+
+  $i=0;
+
+  $template['interview']['2021'][$i++] = array(
+    'name' => 'Tobias Favero',
+    'img_url' => set_source($awss3_archive.'/metrohm/interviewee_2021_1','png', FALSE),
+    'position' => array('Systems Engineer','Systems Engineer'),
+  
+    'education' => array(
+      0 => array(
+        'date' => '2011-2017',
+        'desc' => array('BSc und MSc in Interdisziplinären Naturwissenschaften, ETH Zürich','BSc und MSc in Interdisziplinären Naturwissenschaften, ETH Zürich'),
+      ),
+      1 => array(
+        'date' => '2005-2008',
+        'desc' => array('BSc in Informationstechnologie, ZHAW Winterthur ','BSc in Informationstechnologie, ZHAW Winterthur '),
+      ),
+      2 => array(
+        'date' => '1997-2000',
+        'desc' => array('Lehre als Chemielaborant, Coca-Cola Amatil AG ','Lehre als Chemielaborant, Coca-Cola Amatil AG '),
+      ),
+    ),
+  
+    'career' => array(
+      0 => array(
+        'date' => '2018-present',
+        'desc' => array('Systems Engineer, Metrohm','Systems Engineer, Metrohm'),
+      ),
+      1 => array(
+        'date' => '2009-2011',
+        'desc' => array('Softwareentwickler, NovaLink','Softwareentwickler, NovaLink'),
+      ),
+      2 => array(
+        'date' => '2000-2003',
+        'desc' => array('Chemielaborant, Coca-Cola Beverages AG ','Chemielaborant, Coca-Cola Beverages AG '),
+      ),
+    ),
+  
+    'interview' => array(
+      0 => array(
+        'question' => array('Was ist ihre derzeitige Tätigkeit bei Metrohm?','Was ist ihre derzeitige Tätigkeit bei Metrohm?'),
+        'answer' => array('Ich habe als Kernteammitglied die Fachverantwortung für ein Team in der Abteilung Systems Engineering. 
+        Mein Team begleitet verschiedene Projekte mit Experimenten im Labor, 
+        diese Aufgaben beinhalten aber nicht nur "klassische" Laborarbeit sondern ist sehr interdisziplinär, 
+        da in der Geräteentwicklung verschiedene Disziplinen sehr eng zusammen arbeiten und es unumgänglich ist 
+        fachlich über den Tellerrand zu schauen. In der Rolle als Kernteammitglied bin ich neben der
+         Ressourcen- und Arbeitsplanung auch für die Qualität der Ergebnisse unseres Teams verantwortlich.',
+         'Ich habe als Kernteammitglied die Fachverantwortung für ein Team in der Abteilung Systems Engineering. 
+        Mein Team begleitet verschiedene Projekte mit Experimenten im Labor, 
+        diese Aufgaben beinhalten aber nicht nur "klassische" Laborarbeit sondern ist sehr interdisziplinär, 
+        da in der Geräteentwicklung verschiedene Disziplinen sehr eng zusammen arbeiten und es unumgänglich ist 
+        fachlich über den Tellerrand zu schauen. In der Rolle als Kernteammitglied bin ich neben der
+         Ressourcen- und Arbeitsplanung auch für die Qualität der Ergebnisse unseres Teams verantwortlich.'),
+      ),
+      1 => array(
+        'question' => array('Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+        'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?'),
+        'answer' => array('Sei offen für Stellen die auf den ersten Blick nicht genau deinem Fächerpacket aus dem Studium entsprechen, 
+        den perfekten Match wird es sowieso nie geben, und vielfach sind die Aufgaben und Verantwortungsbereiche nachträglich für 
+        entsprechend geeignete Kandidat:innen ausbaubar. Ausserdem erfordern viele Stellen auch sehr generelle Fähigkeiten wie eine 
+        schnelle Auffassungsgabe, erfassen und beurteilen von Daten, oder manchmal auch schlicht Durchhaltewillen.
+         Diese Softskills hast du schon viel geübt und unter Beweis gestellt während deinem Studium an der ETH, 
+         vergiss nicht das in deinen Bewerbungen herauszustreichen.',
+         'Sei offen für Stellen die auf den ersten Blick nicht genau deinem Fächerpacket aus dem Studium entsprechen, 
+        den perfekten Match wird es sowieso nie geben, und vielfach sind die Aufgaben und Verantwortungsbereiche nachträglich für 
+        entsprechend geeignete Kandidat:innen ausbaubar. Ausserdem erfordern viele Stellen auch sehr generelle Fähigkeiten wie eine 
+        schnelle Auffassungsgabe, erfassen und beurteilen von Daten, oder manchmal auch schlicht Durchhaltewillen.
+         Diese Softskills hast du schon viel geübt und unter Beweis gestellt während deinem Studium an der ETH, 
+         vergiss nicht das in deinen Bewerbungen herauszustreichen.'),
+      ),
+      2 => array(
+        'question' => array('Wie sieht Ihr klassischer Arbeitstag bei Metrohm aus?',
+        'Wie sieht Ihr klassischer Arbeitstag bei Metrohm aus?'),
+        'answer' => array('Ein "normaler" Arbeitstag besteht aus 2-3 Meetings bei denen es meistens um die teamübergreifende
+         Koordination der verschiedenen Projekte geht. Die restliche Zeit verbringe ich vor allem mit bilateralen fachlichen 
+         Gesprächen innerhalb meines Teams, dabei beurteilen wir zusammen aktuelle Daten, diskutieren Problemstellungen oder 
+         besprechen die Dokumentation der Ergebnisse.',
+         'Ein "normaler" Arbeitstag besteht aus 2-3 Meetings bei denen es meistens um die teamübergreifende
+         Koordination der verschiedenen Projekte geht. Die restliche Zeit verbringe ich vor allem mit bilateralen fachlichen 
+         Gesprächen innerhalb meines Teams, dabei beurteilen wir zusammen aktuelle Daten, diskutieren Problemstellungen oder 
+         besprechen die Dokumentation der Ergebnisse.'),
+      ),
+      3 => array(
+        'question' => array('Wie kam es, dass sie nun für Metrohm arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+        'Wie kam es, dass sie nun für Metrohm arbeiten? Wie sind sie auf die Firma aufmerksam geworden?'),
+        'answer' => array('Ich habe mich nach meinem Studium an der ETH nach einer Stelle umgesehen bei der meine Doppelqualifikation 
+        (Chemie/IT) ein Mehrwert sein kann. Da in Analysegeräten und Sensoren diese beiden Disziplinen oft eng verzahnt sind, 
+        habe ich mich vor allem bei Firmen beworben die Laborgeräte entwickeln, so bin ich auf die Metrohm gestossen.',
+        'Ich habe mich nach meinem Studium an der ETH nach einer Stelle umgesehen bei der meine Doppelqualifikation 
+        (Chemie/IT) ein Mehrwert sein kann. Da in Analysegeräten und Sensoren diese beiden Disziplinen oft eng verzahnt sind, 
+        habe ich mich vor allem bei Firmen beworben die Laborgeräte entwickeln, so bin ich auf die Metrohm gestossen.'),
+      ),
+      4 => array(
+        'question' => array('Wie lief ihr Bewerbungsprozess bei Metrohm?','Wie lief ihr Bewerbungsprozess bei Metrohm?'),
+        'answer' => array('Ich habe mich auf eine Stelle als Teilprojektleiter beworben, bei der ich aber im ersten Anlauf 
+        abgelehnt worden bin. Da die Metrohm meinen Lebenslauf spannend fand wurde mir im Anschluss angeboten mein Dossier vorerst 
+        zu behalten um bei passenden Stellen auf mich zurück zu kommen. Dies ist kurze Zeit später auch passiert, ich wurde eingeladen 
+        mich für eine andere Stelle vorzustellen und habe diese im Anschluss erhalten.',
+        'Ich habe mich auf eine Stelle als Teilprojektleiter beworben, bei der ich aber im ersten Anlauf 
+        abgelehnt worden bin. Da die Metrohm meinen Lebenslauf spannend fand wurde mir im Anschluss angeboten mein Dossier vorerst 
+        zu behalten um bei passenden Stellen auf mich zurück zu kommen. Dies ist kurze Zeit später auch passiert, ich wurde eingeladen 
+        mich für eine andere Stelle vorzustellen und habe diese im Anschluss erhalten.'),
+      ),
+      5 => array(
+        'question' => array('Was glauben Sie unterscheidet Metrohm von anderen Chemiefirmen? 
+        Was sind die drei grössten Vorteile von Metrohm?',
+        'Was glauben Sie unterscheidet Metrohm von anderen Chemiefirmen? 
+        Was sind die drei grössten Vorteile von Metrohm?'),
+        'answer' => array('Ein grosser Vorteil ist, dass der grösste Teil der Entwickler:innen vor Ort in Herisau stationiert ist, 
+        dies fördert und erleichtert die disziplinenübergreifende Zusammenarbeit enorm.
+         Eine Kultur der offenen Türen unterstützt die Zusammenarbeit zusätzlich,
+          sodass viele Fragen im persönlichen Gespräch gelöst werden können. Ein weiterer grosser Vorteil 
+          ist die stetige Weiterbildung der Mitarbeiter:innen, dies wird von der Firma Metrohm aktiv gefördert.',
+          'Ein grosser Vorteil ist, dass der grösste Teil der Entwickler:innen vor Ort in Herisau stationiert ist, 
+        dies fördert und erleichtert die disziplinenübergreifende Zusammenarbeit enorm.
+         Eine Kultur der offenen Türen unterstützt die Zusammenarbeit zusätzlich,
+          sodass viele Fragen im persönlichen Gespräch gelöst werden können. Ein weiterer grosser Vorteil 
+          ist die stetige Weiterbildung der Mitarbeiter:innen, dies wird von der Firma Metrohm aktiv gefördert.'),
+      ),
+      6 => array(
+        'question' => array('Was haben sie studiert und war die Tatsache, 
+        dass Sie einen ETH Abschluss hatten, ein Vorteil für den Einstieg in die Berufswelt?',
+        'Was haben sie studiert und war die Tatsache, 
+        dass Sie einen ETH Abschluss hatten, ein Vorteil für den Einstieg in die Berufswelt?'),
+        'answer' => array('Ich habe Interdisziplinäre Naturwissenschaften studiert. 
+        Dies ist aber nicht meine Erstausbildung da ich bereits eine Lehre als Chemielaborant und ein Studium in Informatik 
+        (ZHAW Winterthur) abgeschlossen habe und sowohl im Labor als auch als Softwareentwickler
+         schon einige Jahre Berufserfahrung mitbrachte. Meine aktuelle Stelle ist jedoch die erste nach dem ETH Abschluss, 
+         insofern war es schon ein Einstieg in eine neue berufliche Perspektive. Bei den Bewerbungen hat mir der ETH Abschluss 
+         vor allem durch seine Reputation geholfen, als Absolvent habe ich viel Vorschussvertrauen hinsichtlich meiner Fähigkeiten 
+         erhalten komplexe Probleme zu lösen und mich selbständig in neue Fragestellungen einzuarbeiten.',
+         'Ich habe Interdisziplinäre Naturwissenschaften studiert. 
+        Dies ist aber nicht meine Erstausbildung da ich bereits eine Lehre als Chemielaborant und ein Studium in Informatik 
+        (ZHAW Winterthur) abgeschlossen habe und sowohl im Labor als auch als Softwareentwickler
+         schon einige Jahre Berufserfahrung mitbrachte. Meine aktuelle Stelle ist jedoch die erste nach dem ETH Abschluss, 
+         insofern war es schon ein Einstieg in eine neue berufliche Perspektive. Bei den Bewerbungen hat mir der ETH Abschluss 
+         vor allem durch seine Reputation geholfen, als Absolvent habe ich viel Vorschussvertrauen hinsichtlich meiner Fähigkeiten 
+         erhalten komplexe Probleme zu lösen und mich selbständig in neue Fragestellungen einzuarbeiten.'),
+      ),
+    ),
+  );
+
 
   $i=0;
   $template['interview'][2019][$i++] = array(

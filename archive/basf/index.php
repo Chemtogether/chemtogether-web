@@ -32,7 +32,7 @@ $active_nav = 'archive';
 
 $template['company_name'] = 'BASF';
 $template['company_name_short'] = 'basf';
-$template['logo_url'] = $awss3_archive.'/basf/logo';
+$template['logo_url'] = set_source($awss3_archive.'/basf/logo','png', FALSE);
 $template['package'] = 'base';
 
 $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['company_name'], 'Chemtogether - Archive:'.$template['company_name']);
@@ -45,14 +45,125 @@ $template['linkedin'] = array('https://www.linkedin.com/company/basf/','BASF');
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'We are the world’s leading chemical company, with the best teams developing intelligent solutions for our customers and creating chemistry for a sustainable future. BASF’s success as a company relies on the personal engagement of our employees. We encourage our staff to develop their strengths, and we recognize their achievements.',
-  'We are the world’s leading chemical company, with the best teams developing intelligent solutions for our customers and creating chemistry for a sustainable future. BASF’s success as a company relies on the personal engagement of our employees. We encourage our staff to develop their strengths, and we recognize their achievements.');
+  'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 110,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.',
+  'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 110,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.');
 $template['we_offer'] = array(
-  'We offer excellent frame conditions and development opportunities. The start position as Lab Team Leader offers the chance to develop your individual career as an expert in the worldwide R&D community, as a specialist in technology, production, marketing and sales, innovation scouting, or as a future manager in a global company.',
-  'We offer excellent frame conditions and development opportunities. The start position as Lab Team Leader offers the chance to develop your individual career as an expert in the worldwide R&D community, as a specialist in technology, production, marketing and sales, innovation scouting, or as a future manager in a global company.');
+  'BASF offers a variety of entry and career opportunities at various sites for natural scientists, engineers and digital talents:
+    <table class="fa-table">
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Direct entry: With a direct entry you will be assigned challenging tasks from day one.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Trainee programs: Our TOP START, START IN and Inside trainee programs offer ambitious university graduates an exciting career start in various fields.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Internship and thesis</td>
+    </tr>
+  </tr></table>',
+  'BASF offers a variety of entry and career opportunities at various sites for natural scientists, engineers and digital talents:
+    <table class="fa-table">
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Direct entry: With a direct entry you will be assigned challenging tasks from day one.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Trainee programs: Our TOP START, START IN and Inside trainee programs offer ambitious university graduates an exciting career start in various fields.</td>
+    </tr>
+    <tr>
+    <td><i class="fas fa-fw fa-chevron-right"></td>
+    <td>Internship and thesis</td>
+    </tr>
+  </tr></table>');
 $template['we_look'] = array(
-  'You are an enthusiastic chemist or chemical engineer, and you have successfully completed your studies with a PhD or a PostDoc. Your focus is on one of the following specialist areas: Chemi­cal engineering, organic, inorganic, macromolecular, technical, physical, theoretical, analytical chemistry or biochemistry. You are open to every­thing that’s new and are looking for scientific and technical challenges. You enjoy working in an interdisciplinary and intercultural team.',
-  'You are an enthusiastic chemist or chemical engineer, and you have successfully completed your studies with a PhD or a PostDoc. Your focus is on one of the following specialist areas: Chemi­cal engineering, organic, inorganic, macromolecular, technical, physical, theoretical, analytical chemistry or biochemistry. You are open to every­thing that’s new and are looking for scientific and technical challenges. You enjoy working in an interdisciplinary and intercultural team.');
+  'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.', 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.' );
+
+  $i=0;
+
+  $template['interview']['2021'][$i++] = array(
+    'name' => 'Dr. Nicolle Langer',
+    'img_url' => set_source($awss3_archive.'/basf/interviewee_2021_1','png', FALSE),
+    'position' => array('Head of Packaging & Labelling – Agricultural Solutions Europe','Head of Packaging & Labelling – Agricultural Solutions Europe'),
+  
+    'education' => array(
+      0 => array(
+        'date' => '2004-2005',
+        'desc' => array('Postdoc with Fraser Stoddart, UCLA','Postdoc with Fraser Stoddart, UCLA' ),
+      ),
+      1 => array(
+        'date' => '2000-2004',
+        'desc' => array('Ph.D. with Francois Diederich, D-CHAB, ETH Zurich','Ph.D. with Francois Diederich, D-CHAB, ETH Zurich'),
+      ),
+      2 => array(
+        'date' => '1995-2000',
+        'desc' => array('Chemistry Studies, Netherlands and ETH Zurich','Chemistry Studies, Netherlands and ETH Zurich'),
+      ),
+    ),
+  
+    'career' => array(
+      0 => array(
+        'date' => '2005-present',
+        'desc' => array('BASF', 'BASF'),
+      ),
+    ),
+  
+    'interview' => array(
+      0 => array(
+        'question' => array('What’s your current job description at BASF?','What’s your current job description at BASF?'),
+        'answer' => array('I am group leader for packaging, labelling and artwork for agrochemical solutions in Europe.', 'I am group leader for packaging, labelling and artwork for agrochemical solutions in Europe.'),
+      ),
+      1 => array(
+        'question' => array('At which BASF site are you currently working?', 'At which BASF site are you currently working?'),
+        'answer' => array('My office is in Limburgerhof, Germany, but since 03/2020 I have worked mainly remotely in home office.','My office is in Limburgerhof, Germany, but since 03/2020 I have worked mainly remotely in home office.'),
+      ),
+      2 => array(
+        'question' => array('What is a typical working day at BASF like?','What is a typical working day at BASF like?'),
+        'answer' => array('Until 9 am, reading and answering emails. Afterwards, there are numerous alignments on technical and organizational topics.','Until 9 am, reading and answering emails. Afterwards, there are numerous alignments on technical and organizational topics.'),
+      ),
+      3 => array(
+        'question' => array('How did it come, that you are now working at BASF? What made you aware of BASF?','How did it come, that you are now working at BASF? What made you aware of BASF?'),
+        'answer' => array('BASF is a known company to most chemists. After my post-doc, I applied with several companies in and around Switzerland.  BASF was offering me the most interesting position.','BASF is a known company to most chemists. After my post-doc, I applied with several companies in and around Switzerland.  BASF was offering me the most interesting position.'),
+      ),
+      4 => array(
+        'question' => array('How did the application process at BASF work?','How did the application process at BASF work?'),
+        'answer' => array('I sent my application by (paper!)mail from the USA to Germany. On recruitment day, I held a scientific presentation and afterwards had several interviews. I received the offer to work for BASF on the same day.','I sent my application by (paper!)mail from the USA to Germany. On recruitment day, I held a scientific presentation and afterwards had several interviews. I received the offer to work for BASF on the same day.'),
+      ),
+      5 => array(
+        'question' => array('How is BASF different from other companies in the chemical industry?','How is BASF different from other companies in the chemical industry?'),
+        'answer' => array('Due to the size of the company and the numerous different business areas, there are good possibilities to develop oneself in almost any direction.  This was the main reason for me to choose for BASF 16 years ago.','Due to the size of the company and the numerous different business areas, there are good possibilities to develop oneself in almost any direction.  This was the main reason for me to choose for BASF 16 years ago.'),
+      ),
+      6 => array(
+        'question' => array('What did you study, and do you think it prepared you well for your current role?','What did you study, and do you think it prepared you well for your current role?'),
+        'answer' => array('I studied and did my PhD in chemistry. My first job at BASF was rather close to my Ph.D. topic, but my current job is hardly related to chemistry. A scientific education is a good basis for personal development, no matter in what direction one finally moves.','I studied and did my PhD in chemistry. My first job at BASF was rather close to my Ph.D. topic, but my current job is hardly related to chemistry. A scientific education is a good basis for personal development, no matter in what direction one finally moves.'),
+      ),
+      7 => array(
+        'question' => array('What advice would you give to a recent ETH graduate, that is currently looking for a job?','What advice would you give to a recent ETH graduate, that is currently looking for a job?'),
+        'answer' => array('Be open-minded, talk to people and read as much as possible job descriptions. Most likely, you will find out, what first direction you would like to take. Don´t worry too much about further steps.  
+        ','Be open-minded, talk to people and read as much as possible job descriptions. Most likely, you will find out, what first direction you would like to take. Don´t worry too much about further steps.  
+        '),
+      ),
+      8 => array(
+        'question' => array('Since when do you work for BASF and how did your position change during this time?','Since when do you work for BASF and how did your position change during this time?'),
+        'answer' => array('I have worked at BASF for 16 years, now being in my fourth position. I started, as almost every chemist, as lab team leader in research. Afterwards, I held positions in procurement and technology before taking over my current position. With every job change, I used my past experience and learned a lot of new things.','I have worked at BASF for 16 years, now being in my fourth position. I started, as almost every chemist, as lab team leader in research. Afterwards, I held positions in procurement and technology before taking over my current position. With every job change, I used my past experience and learned a lot of new things.'),
+      ),
+      9 => array(
+        'question' => array('What are your plans at BASF?','What are your plans at BASF?'),
+        'answer' => array('To stay interested and keep learning, no matter in what direction and/or position.','To stay interested and keep learning, no matter in what direction and/or position.')),
+      10 => array(
+        'question' => array('Is it possible to change between the divisions of BASF? Would it be for example possible to switch from R&D to production or marketing?','Is it possible to change between the divisions of BASF? Would it be for example possible to switch from R&D to production or marketing?'),
+        'answer' => array('Absolutely yes: my career is the perfect example!','Absolutely yes: my career is the perfect example!')),
+      11 => array(
+        'question' => array('How important is the work-life balance at BASF? Are you satisfied with the work-life balance at BASF?','How important is the work-life balance at BASF? Are you satisfied with the work-life balance at BASF?'),
+        'answer' => array('Work-life-balance is fundamental to me to stay energized. I am happy with my work-life balance: we have flexible working hours and it is fully accepted that the family (father and mother) needs time to take care of their kids.','Work-life-balance is fundamental to me to stay energized. I am happy with my work-life balance: we have flexible working hours and it is fully accepted that the family (father and mother) needs time to take care of their kids.')),
+      12 => array(
+        'question' => array('What do you like most about the corporate culture at BASF?','What do you like most about the corporate culture at BASF?'),
+        'answer' => array('The strong network. For almost every question, you will find somebody who can help.','The strong network. For almost every question, you will find somebody who can help.')),
+    )
+  );
+  
 
 
   $i=0;

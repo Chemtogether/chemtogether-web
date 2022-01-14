@@ -32,7 +32,7 @@ $active_nav = 'archive';
 
 $template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
-$template['logo_url'] = $awss3_archive.'/carbogenamcis/logo';
+$template['logo_url'] = set_source($awss3_archive.'/carbogenamcis/logo','png', FALSE);
 $template['package'] = 'base';
 
 $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['company_name'], 'Chemtogether - Archive:'.$template['company_name']);
@@ -45,158 +45,174 @@ $template['linkedin'] = array('https://www.linkedin.com/company/carbogen-amcis/'
 $template['mail'] = array('bewerbung','carbogen-amcis.com');
 
 $template['we_are'] = array(
-  'CARBOGEN AMCIS was founded in 2006 as a result of the merger between “AMCIS” and “CarboGen.” AMCIS was founded in 1982 as a joint venture with an American pharmaceutical company and CarboGen in 1990 at the University of Zurich.<br> We are a leading service provider in the area of organic chemistry, product and process development to commercial production of Active Pharmaceutical Ingredients (APIs) for the pharmaceutical and bio-pharmaceutical industry. Our core markets are in North America, Europe and Asia. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz) as well as facilities in France, United Kingdom and China. Our focus is to help customers create a better world.',
-  'CARBOGEN AMCIS was founded in 2006 as a result of the merger between “AMCIS” and “CarboGen.” AMCIS was founded in 1982 as a joint venture with an American pharmaceutical company and CarboGen in 1990 at the University of Zurich.<br> We are a leading service provider in the area of organic chemistry, product and process development to commercial production of Active Pharmaceutical Ingredients (APIs) for the pharmaceutical and bio-pharmaceutical industry. Our core markets are in North America, Europe and Asia. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz) as well as facilities in France, United Kingdom and China. Our focus is to help customers create a better world.');
+  'CARBOGEN AMCIS is a leading service provider in the area of product and process development, including the commercial production of active ingredients for the pharmaceutical and biopharmaceutical industries. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz), as well as locations in Riom (FR), Manchester (UK), Shanghai (CN) and Veenendaal (NL).',
+  'CARBOGEN AMCIS is a leading service provider in the area of product and process development, including the commercial production of active ingredients for the pharmaceutical and biopharmaceutical industries. We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz), as well as locations in Riom (FR), Manchester (UK), Shanghai (CN) and Veenendaal (NL).');
 $template['we_offer'] = array(
-  '<table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Varied Work &amp High Responsibility</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Career Development opportunities</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Flexible Working Hours</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Supportive &amp Diverse Workplace</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Private Travel Insurance</td>
-  </tr>
-  </table><br>Would you like to be a part of CARBOGEN AMCIS and have a direct impact on our business growth? Then visit our <a href="http://www.carbogen-amcis.com/careers.asp">career homepage</a> or submit an expression of interest via <a href="mailto:bewerbung@carbogen-amcis.com">bewerbung@carbogen-amcis.com</a>.',
-  '<table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Varied Work &amp High Responsibility</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Career Development opportunities</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Flexible Working Hours</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Supportive &amp Diverse Workplace</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Private Travel Insurance</td>
-  </tr>
-  </table><br>Would you like to be a part of CARBOGEN AMCIS and have a direct impact on our business growth? Then visit our <a href="http://www.carbogen-amcis.com/careers.asp">career homepage</a> or submit an expression of interest via <a href="mailto:bewerbung@carbogen-amcis.com">bewerbung@carbogen-amcis.com</a>.');
+  'We are committed to providing an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our staff and encourage our staff’s professional career. Our organization also allows a
+  cross-departmental development within the company.',
+  'We are committed to providing an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our staff and encourage our staff’s professional career. Our organization also allows a
+  cross-departmental development within the company.');
 $template['we_look'] = array(
-  '...individuals with an educational and
-  professional background in:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Research & Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Control & Assurance</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Analytical Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Systems</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Production</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Regulatory Affairs</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Post-Doc</td>
-  </tr>
-  </table><br>
-  We expect:  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>University Degree in Chemistry or
-  Pharmaceutical Chemistry</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Ability to Work in a Team Environment</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Good Communication & Organizational
-  Skills</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Solid Knowledge of German & English</td>
-  </tr>
-  </table>',
-  '...individuals with an educational and
-  professional background in:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Research & Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Control & Assurance</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Analytical Development</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Quality Systems</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Chemical Production</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Regulatory Affairs</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Post-Doc</td>
-  </tr>
-  </table><br>
-  We expect:  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>University Degree in Chemistry or
-  Pharmaceutical Chemistry</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Ability to Work in a Team Environment</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Good Communication & Organizational
-  Skills</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Solid Knowledge of German & English</td>
-  </tr>
-  </table>');
+  'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.',
+  'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.');
+
+$i=0;
+
+$template['interview']['2021'][$i++] = array(
+  'name' => 'Dr. Volker Wolfart',
+  'img_url' => set_source($awss3_archive.'/carbogenamcis/interviewee_2021_1','png', FALSE),
+  'position' => array('Senior Scientific Advisor','Senior Scientific Advisor'),
+
+  'education' => array(
+    0 => array(
+      'date' => '1995-1997',
+      'desc' => array('PhD in Chemistry with Prof. Dr. R. Gleiter at Universität Heidelberg','PhD in Chemistry with Prof. Dr. R. Gleiter at Universität Heidelberg'),
+    ),
+    1 => array(
+      'date' => '1989-1995',
+      'desc' => array('Diploma in Chemistry at Universität Heidelberg','Diploma in Chemistry at Universität Heidelberg'),
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '2014',
+      'desc' => array('Business Development at CARBOGEN AMCIS AG','Business Development at CARBOGEN AMCIS AG'),
+    ),
+    1 => array(
+      'date' => '2011-2014',
+      'desc' => array('Senior Scientific Advisor at CARBOGEN AMCIS AG','Senior Scientific Advisor at CARBOGEN AMCIS AG'),
+    ),
+    2 => array(
+      'date' => '2008-2011',
+      'desc' => array('Head of Process Research & Development at CAROGEN AMCIS AG','Head of Process Research & Development at CAROGEN AMCIS AG'),
+    ),
+    3 => array(
+      'date' => '2000-2011',
+      'desc' => array('Group Manager API Synthesis at CARBOGEN AMCIS AG','Group Manager API Synthesis at CARBOGEN AMCIS AG'),
+    ),
+    4 => array(
+      'date' => '1998-2000',
+      'desc' => array('Project team leader API Synthesis at CARBOGEN AMCIS AG','Project team leader API Synthesis at CARBOGEN AMCIS AG'),
+    ),
+    5 => array(
+      'date' => '1980-1983',
+      'desc' => array('Chemical laboratory assistant at BASF','Chemical laboratory assistant at BASF'),
+    ),
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => array('Was ist ihre derzeitige Tätigkeit bei CARBOGEN AMCIS?','Was ist ihre derzeitige Tätigkeit bei CARBOGEN AMCIS?'),
+      'answer' => array('Meine derzeitige Jobbezeichnung ist «Senior Scientific Advisor», 
+      d.h. eine Instanz für wissenschaftliche Fragen. Dazu bin ich der Koordinator für zwei der vier Schweizer Niederlassungen 
+      und im Hauptgeschäft für die Wachstumsprojekte (Business Development) der Firma verantwortlich.',
+      'Meine derzeitige Jobbezeichnung ist «Senior Scientific Advisor», 
+      d.h. eine Instanz für wissenschaftliche Fragen. Dazu bin ich der Koordinator für zwei der vier Schweizer Niederlassungen 
+      und im Hauptgeschäft für die Wachstumsprojekte (Business Development) der Firma verantwortlich.'),
+    ),
+    1 => array(
+      'question' => array('Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
+      'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?'),
+      'answer' => array('Auf jeden Fall mit uns in Kontakt treten und sich persönlich erkundigen, wie die momentane Situation aussieht. 
+      Wir sind stetig am Wachsen und suchen frische und begeisterungsfähige Persönlichkeiten. 
+       …und natürlich zu uns auf die Chemtogether 2021 kommen.',
+       'Auf jeden Fall mit uns in Kontakt treten und sich persönlich erkundigen, wie die momentane Situation aussieht. 
+      Wir sind stetig am Wachsen und suchen frische und begeisterungsfähige Persönlichkeiten. 
+       …und natürlich zu uns auf die Chemtogether 2021 kommen.'),
+    ),
+    2 => array(
+      'question' => array('Wie sieht Ihr klassischer Arbeitstag bei CARBOGEN AMCIS aus?','Wie sieht Ihr klassischer Arbeitstag bei CARBOGEN AMCIS aus?'),
+      'answer' => array('Den klassischen Tag gibt es nicht; es ist sehr abwechslungsreich bei CARBOGEN AMCIS zu arbeiten. 
+      Einmal der Umgang mit den Kunden, Behörden, Dienstleistern und natürlich Arbeitskollegen/-innen aus den verschiedenen Abteilungen. 
+      Chemie spielt bei mir nur noch eine untergeordnete Rolle, aber sie ist dennoch bei manchen Entscheidungen sehr wichtig.',
+      'Den klassischen Tag gibt es nicht; es ist sehr abwechslungsreich bei CARBOGEN AMCIS zu arbeiten. 
+      Einmal der Umgang mit den Kunden, Behörden, Dienstleistern und natürlich Arbeitskollegen/-innen aus den verschiedenen Abteilungen. 
+      Chemie spielt bei mir nur noch eine untergeordnete Rolle, aber sie ist dennoch bei manchen Entscheidungen sehr wichtig.'),
+    ),
+    3 => array(
+      'question' => array('Wie kam es, dass sie nun für CARBOGEN AMCIS arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
+      'Wie kam es, dass sie nun für CARBOGEN AMCIS arbeiten? Wie sind sie auf die Firma aufmerksam geworden?'),
+      'answer' => array('Ich war gerade im Post Doc mit der BASF in Ludwigshafen und mein Doktorvater fand eine Anzeige in der Basler Zeitung,
+       die CARBOGEN AMCIS geschaltet hatte. 
+       Der Schwerpunkt Organische Chemie und die Fragestellungen im Bereich organische Synthese haben mich gereizt und mich zur Bewerbung 
+       motiviert.',
+       'Ich war gerade im Post Doc mit der BASF in Ludwigshafen und mein Doktorvater fand eine Anzeige in der Basler Zeitung,
+       die CARBOGEN AMCIS geschaltet hatte. 
+       Der Schwerpunkt Organische Chemie und die Fragestellungen im Bereich organische Synthese haben mich gereizt und mich zur Bewerbung 
+       motiviert.'),
+    ),
+    4 => array(
+      'question' => array('Wie lief ihr Bewerbungsprozess bei CARBOGEN AMCIS?','Wie lief ihr Bewerbungsprozess bei CARBOGEN AMCIS?'),
+      'answer' => array('Ich wurde 1998 per Email eingeladen und durfte mich dann vor Ort persönlich vorstellen.
+       Dabei hatte ich Kontakt mit dem Abteilungsleiter für die chemische Entwicklung, 
+       diversen künftigen Kollegen und dem damaligen Human Resources. Ausserdem konnte ich meine Expertise und Doktorarbeit 
+       im Kreise der Fachabteilung per Vortrag präsentieren. Daran hat sich bis heute wenig geändert.',
+       'Ich wurde 1998 per Email eingeladen und durfte mich dann vor Ort persönlich vorstellen.
+       Dabei hatte ich Kontakt mit dem Abteilungsleiter für die chemische Entwicklung, 
+       diversen künftigen Kollegen und dem damaligen Human Resources. Ausserdem konnte ich meine Expertise und Doktorarbeit 
+       im Kreise der Fachabteilung per Vortrag präsentieren. Daran hat sich bis heute wenig geändert.'),
+    ),
+    5 => array(
+      'question' => array('Was glauben Sie unterscheidet CARBOGEN AMCIS von anderen Chemiefirmen? 
+      Was sind die drei grössten Vorteile von CARBOGEN AMCIS?',
+      'Was glauben Sie unterscheidet CARBOGEN AMCIS von anderen Chemiefirmen? 
+      Was sind die drei grössten Vorteile von CARBOGEN AMCIS?'),
+      'answer' => array('Uns unterscheidet, dass wir einen sehr starken Kundenfokus haben. Das macht es, je nach Herkunft und Background des Kunden, sehr spannend. Das Ziel ist ganz klar, den Kunden optimal zu bedienen. Ausserdem sind wir eine der wenigen weltweiten Spezialisten für hochaktive Arzneistoffe. Durch unsere internationale Vernetzung mit der Corporate Struktur (i.e. unsere weltweiten Standorte), haben wir einige schnelle Alternativen im Vergleich zu anderen Firmen der Branche. Die drei grössten Vorteile:
+
+      <table class="fa-table">
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>Ausgezeichnetes Arbeitsklima</td>
+      </tr>
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>Abwechslungsreiches Arbeitsfeld und Entwicklungsmöglichkeiten</td>
+      </tr>
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>High Class wissenschaftliches Arbeiten und Know-How </td>
+      </tr></table>',
+      'Uns unterscheidet, dass wir einen sehr starken Kundenfokus haben. Das macht es, je nach Herkunft und Background des Kunden, sehr spannend. Das Ziel ist ganz klar, den Kunden optimal zu bedienen. Ausserdem sind wir eine der wenigen weltweiten Spezialisten für hochaktive Arzneistoffe. Durch unsere internationale Vernetzung mit der Corporate Struktur (i.e. unsere weltweiten Standorte), haben wir einige schnelle Alternativen im Vergleich zu anderen Firmen der Branche. Die drei grössten Vorteile:
+
+      <table class="fa-table">
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>Ausgezeichnetes Arbeitsklima</td>
+      </tr>
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>Abwechslungsreiches Arbeitsfeld und Entwicklungsmöglichkeiten</td>
+      </tr>
+      <tr>
+      <td><i class="fas fa-fw fa-chevron-right"></td>
+      <td>High Class wissenschaftliches Arbeiten und Know-How </td>
+      </tr></table>')
+    ),
+    6 => array(
+      'question' => array('Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?',
+      'Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?'),
+      'answer' => array('Das Studium rüstet gut für die Arbeit in der organischen Synthese aus. 
+      Ich habe in Heidelberg studiert/promoviert. Dort wird die Organische Synthese gepflegt und hat lange Tradition.
+       Zusätzlich braucht es aber später im Beruf Verständnis für GMP, Ökonomie, Prozesssicherheit und Personalführung, 
+       die i.d.R. im Studium nicht vermittelt werden. Dazu geben wir natürlich künftigen Kollegen*innen Möglichkeiten zur Weiterbildung. 
+       Was jedoch zählt, sind die «Soft Skills», wie der Umgang mit Kollegen und Menschen generell. 
+       Da kann man schon punkten, wenn man/frau dies auch im Studium schon geleistet hat; Bsp. durch Assistenztätigkeit,
+        Tutorbetrieb oder andere nebenamtliche Tätigkeiten.',
+        'Das Studium rüstet gut für die Arbeit in der organischen Synthese aus. 
+      Ich habe in Heidelberg studiert/promoviert. Dort wird die Organische Synthese gepflegt und hat lange Tradition.
+       Zusätzlich braucht es aber später im Beruf Verständnis für GMP, Ökonomie, Prozesssicherheit und Personalführung, 
+       die i.d.R. im Studium nicht vermittelt werden. Dazu geben wir natürlich künftigen Kollegen*innen Möglichkeiten zur Weiterbildung. 
+       Was jedoch zählt, sind die «Soft Skills», wie der Umgang mit Kollegen und Menschen generell. 
+       Da kann man schon punkten, wenn man/frau dies auch im Studium schon geleistet hat; Bsp. durch Assistenztätigkeit,
+        Tutorbetrieb oder andere nebenamtliche Tätigkeiten.'),
+    ),
+  ),
+);
+
+
+
+
 
 
 $i=0;

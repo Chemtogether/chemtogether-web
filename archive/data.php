@@ -29,7 +29,7 @@ $archive[$i++] = array(
   "name" => "Avantama",
   "name_short" => "avantama",
   "info" => 1,
-  "interviews" => 1,
+  "interviews" => 2,
   "attendences" => array(2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
@@ -39,7 +39,7 @@ $archive[$i++] = array(
   "name" => "Bachem",
   "name_short" => "bachem",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
@@ -49,7 +49,7 @@ $archive[$i++] = array(
   "name" => "BASF",
   "name_short" => "basf",
   "info" => 1,
-  "interviews" => 3,
+  "interviews" => 4,
   "attendences" => array(2021 => 'gold', 2019 => 'gold', 2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
 );
 
@@ -80,9 +80,20 @@ $archive[$i++] = array(
   "name" => "CARBOGEN AMCIS",
   "name_short" => "carbogenamcis",
   "info" => 1,
-  "interviews" => 3,
+  "interviews" => 4,
   "attendences" => array(2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
+
+$archive[$i++] = array(
+  "link_url" => '/archive/chemgineering/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/chemgineering/logo','png',FALSE),
+  "name" => "Chemgineering",
+  "name_short" => "chemgineering",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2021 => 'silver'),
+);
+
 
 $archive[$i++] = array(
   "link_url" => '/archive/clariant/index.php#info',
@@ -100,7 +111,7 @@ $archive[$i++] = array(
   "name" => "Dottikon",
   "name_short" => "dottikon",
   "info" => 1,
-  "interviews" => 1,
+  "interviews" => 2,
   "attendences" => array(2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
@@ -133,6 +144,17 @@ $archive[$i++] = array(
   "interviews" => 0,
   "attendences" => array(2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
+
+$archive[$i++] = array(
+  "link_url" => '/archive/galenicare/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/galenicare/logo','png',FALSE),
+  "name" => "GALENICA AG",
+  "name_short" => "galenicare",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2021 => 'base'),
+);
+
 
 $archive[$i++] = array(
   "link_url" => '/archive/givaudan/index.php#info',
@@ -250,7 +272,7 @@ $archive[$i++] = array(
   "name" => "Metrohm",
   "name_short" => "metrohm",
   "info" => 1,
-  "interviews" => 4,
+  "interviews" => 5,
   "attendences" => array(2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
@@ -320,7 +342,7 @@ $archive[$i++] = array(
   "name" => "Syngenta",
   "name_short" => "syngenta",
   "info" => 1,
-  "interviews" => 0,
+  "interviews" => 1,
   "attendences" => array(2021 => 'silver', 2019 => 'silver'),
 );
 
@@ -332,6 +354,16 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2014 => 'base', 2016 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/valsynthese/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/valsynthese/logo','png',FALSE),
+  "name" => "VALSYNTHESE SA",
+  "name_short" => "valsynthese",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2021 => 'gold'),
 );
 
 

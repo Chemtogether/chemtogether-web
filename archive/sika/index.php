@@ -42,17 +42,20 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 $template['homepage'] = array('http://che.sika.com/','che.sika.com');
 $template['facebook'] = array('https://www.facebook.com/SikaSchweizAG/', 'Sika Schweiz AG');
 $template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
+
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  "a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing and protecting in the building sector and automotive industry. Sika has a worldwide presence in 98 countries with over 190 factories and over 17’000 employees. Our aim is to foster a culture of performance and respect - across hierarchies, departments, and countries. Trust is vital to Sika. It's the basis of our relationships with customers and employees. If you trust Sika we can open up a whole world of interesting opportunities for you too.",
-  "a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing and protecting in the building sector and automotive industry. Sika has a worldwide presence in 98 countries with over 190 factories and over 17’000 employees. Our aim is to foster a culture of performance and respect - across hierarchies, departments, and countries. Trust is vital to Sika. It's the basis of our relationships with customers and employees. If you trust Sika we can open up a whole world of interesting opportunities for you too.");
+  'Sika is a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing, and protecting in the building sector and motor vehicle industry. Sika has subsidiaries in 100 countries around the world and manufactures in over 300 factories. At this time we employ 25,000 people worldwide.',
+  'Sika is a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing, and protecting in the building sector and motor vehicle industry. Sika has subsidiaries in 100 countries around the world and manufactures in over 300 factories. At this time we employ 25,000 people worldwide.');
 $template['we_offer'] = array(
-  'innovative and challenging internships and traineeships focusing on specialty chemicals in the field of research and development. You will work independently and learn first-hand about the many aspects of chemistry and material sciences found in the various fields of Sika Technology.',
-  'innovative and challenging internships and traineeships focusing on specialty chemicals in the field of research and development. You will work independently and learn first-hand about the many aspects of chemistry and material sciences found in the various fields of Sika Technology.');
+  'Creativity, innovation, customer-centricity, research and sustainability are dynamic components of Sika’s long-term success and future growth. We offer candidates the possibility to work on large-scale projects around the globe, that result in effective and original products for customers. We give you the opportunity to develop, for instance via collaborating with R&D teams in different countries.',
+  'Creativity, innovation, customer-centricity, research and sustainability are dynamic components of Sika’s long-term success and future growth. We offer candidates the possibility to work on large-scale projects around the globe, that result in effective and original products for customers. We give you the opportunity to develop, for instance via collaborating with R&D teams in different countries.');
 $template['we_look'] = array(
-  'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.',
-  'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.');
+  'At Sika we value courage for innovation, strength to persist, and pleasure in working together. You have the ability to perform combined with a high degree of social skills, an entrepreneurial spirit, respect for different opinions and working in diverse teams to achieve our strategic goals.
+  Is it your ambition to perform, excel and be proud of your results? Then Sika is the place for you!',
+  'At Sika we value courage for innovation, strength to persist, and pleasure in working together. You have the ability to perform combined with a high degree of social skills, an entrepreneurial spirit, respect for different opinions and working in diverse teams to achieve our strategic goals.
+  Is it your ambition to perform, excel and be proud of your results? Then Sika is the place for you!');
 
 
   $i=0;

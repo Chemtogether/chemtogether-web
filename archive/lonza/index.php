@@ -32,7 +32,7 @@ $active_nav = 'archive';
 
 $template['company_name'] = 'Lonza';
 $template['company_name_short'] = 'lonza';
-$template['logo_url'] = $awss3_archive.'/lonza/logo';
+$template['logo_url'] = set_source($awss3_archive.'/lonza/logo','png', FALSE);
 $template['package'] = 'base';
 
 $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['company_name'], 'Chemtogether - Archive:'.$template['company_name']);
@@ -45,14 +45,16 @@ $template['linkedin'] = array('https://www.linkedin.com/company/lonza/','Lonza')
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'We are the leading supplier using science and technology to improve the quality of life; we work with passion, using advanced technologies, to transform life science into new possibilities for our customers; headquartered in Basel, Switzerland, we operate production, R&D, and business sites around the world, including Europe, North America, and Asia.',
-  'We are the leading supplier using science and technology to improve the quality of life; we work with passion, using advanced technologies, to transform life science into new possibilities for our customers; headquartered in Basel, Switzerland, we operate production, R&D, and business sites around the world, including Europe, North America, and Asia.');
+  'Lonza is an integrated solutions provider that creates value along the Healthcare Continuum®. We focus on creating a healthy environment, promoting a healthier lifestyle and preventing illness through consumers\' preventive healthcare, as well as improving patient healthcare by supporting our customers to deliver innovative medicines that help treat or even cure severe diseases.',
+  'Lonza is an integrated solutions provider that creates value along the Healthcare Continuum®. We focus on creating a healthy environment, promoting a healthier lifestyle and preventing illness through consumers\' preventive healthcare, as well as improving patient healthcare by supporting our customers to deliver innovative medicines that help treat or even cure severe diseases.');
 $template['we_offer'] = array(
-  'We offer an environment that fosters creativity and success, a company without burdensome bureaucracy, and the ability to be involved in many aspects of internal and external business; you will be rewarded for a job well done, have opportunities to develop your knowledge and skills, and you will be respected and valued.',
-  'We offer an environment that fosters creativity and success, a company without burdensome bureaucracy, and the ability to be involved in many aspects of internal and external business; you will be rewarded for a job well done, have opportunities to develop your knowledge and skills, and you will be respected and valued.');
+  'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, including Europe, North America and Asia.',
+  'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, including Europe, North America and Asia.');
 $template['we_look'] = array(
-  'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.',
-  'At Lonza, we are looking for and invest in great people; whether you are looking for an internship, an apprenticeship, or a full-time position, Lonza can help you broaden your horizons with practical experience at a global life sciences organization.');
+  'For our site in Visp we are looking for skilled workers from all areas of Life Science. You can expect the best of both worlds: A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.',
+  'For our site in Visp we are looking for skilled workers from all areas of Life Science. You can expect the best of both worlds: A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
+  ');
+
 
   $i=0;
 

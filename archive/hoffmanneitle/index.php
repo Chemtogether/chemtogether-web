@@ -45,27 +45,19 @@ $template['linkedin'] = array('https://www.linkedin.com/company/hoffmann-eitle/'
 // $template['mail'] = array('','');
 
 $template['we_are'] = array(
-  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.<br> 
-  More than 40 IP professionals work in our offices in the extended fields of chemistry and biochemistry, making it one of the strongest and most experienced private practice groups in this area. Our areas of competence take in pharmaceuticals, polymers, detergents & cosmetics, printing technologies, electrochemistry, semiconductors, plant protection, building materials, textiles, foodstuff and paper chemistry.<br>   
-  Our client base is international on a global level, and our employees come from over 30 countries around the world, making HOFFMANN EITLE a culturally diverse workplace.
-  ',
-  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.<br> 
-  More than 40 IP professionals work in our offices in the extended fields of chemistry and biochemistry, making it one of the strongest and most experienced private practice groups in this area. Our areas of competence take in pharmaceuticals, polymers, detergents & cosmetics, printing technologies, electrochemistry, semiconductors, plant protection, building materials, textiles, foodstuff and paper chemistry.<br>   
-  Our client base is international on a global level, and our employees come from over 30 countries around the world, making HOFFMANN EITLE a culturally diverse workplace.
-  ');
+  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.',
+  'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.');
 $template['we_offer'] = array(
-  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives and a dynamic and rewarding work environment.<br> 
-  We also offer internships to allow potential applicants to get a feel of how it is to work as a patent attorney.
+  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives, and a dynamic and rewarding work environment.
   ',
-  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives and a dynamic and rewarding work environment.<br> 
-  We also offer internships to allow potential applicants to get a feel of how it is to work as a patent attorney.
+  'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives, and a dynamic and rewarding work environment.
   ');
 $template['we_look'] = array(
   'Individuals with
   <table class="fa-table">
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>a technical qualification at university level</td>
+  <td>a technical qualification at university level (M.Sc. or Ph.D.)</td>
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
@@ -84,7 +76,7 @@ $template['we_look'] = array(
   <table class="fa-table">
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>a technical qualification at university level</td>
+  <td>a technical qualification at university level (M.Sc. or Ph.D.)</td>
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
