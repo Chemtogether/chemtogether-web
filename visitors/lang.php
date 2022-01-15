@@ -52,11 +52,14 @@ $lang['content']['collaboration'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen voraussichtlich 2021 wieder an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will prospectively be present during the two days of Chemtogether 2021. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen voraussichtlich 2022 wieder an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will prospectively be present during the two days of Chemtogether 2022. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
 
-  $lang['content']['day1'] = array('Dienstag, 2. November','Tuesday, 2nd November');
-  $lang['content']['day2'] = array('Mittwoch, 3. November', 'Wednesday, 3rd November');
+  // $lang['content']['day1'] = array('Dienstag, 2. November','Tuesday, 2nd November');
+  // $lang['content']['day2'] = array('Mittwoch, 3. November', 'Wednesday, 3rd November');
+
+  $lang['content']['day1'] = array('Tag 1','Day 1');
+  $lang['content']['day2'] = array('Tag 2', 'Day 2');
 
   $lang['content']['no-companies-notice'] = array(
     'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
