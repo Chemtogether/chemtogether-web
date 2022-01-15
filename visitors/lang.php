@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2021 - Für Besucher', 'Chemtogether 2021 - For Visitors');
+$lang['general']['page_title'] = array('Chemtogether 2022 - Für Besucher', 'Chemtogether 2022 - For Visitors');
 $lang['navigation']['title'] = array('Für Besucher', 'For Visitors');
 $lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 
@@ -15,8 +15,8 @@ $lang['content']['intro_text'] = array(
   'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
 
 $lang['content']['main_text'] = array(
-  'Chemtogether 2021 wird am 2. und 3. November 2021 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
-  'Chemtogether 2021 will take place on 2nd and 3rd November 2021 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
+  'Chemtogether 2022 wird im November 2022 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
+  'Chemtogether 2022 will take place in November 2022 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
 $lang['content']['links_guide'] = array('Messeführer (2021)','Expo Guide (2021)');
@@ -89,6 +89,14 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
 //PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
+
+$lang['content']['programme_preview'] = array(
+  'title' => array('Podiumsdiskussion: <br> Die ideale Einstimmung auf Dein Chemtogether-Erlebnis','Panel Discussion:<br> The Perfect Start for your Chemtogether-Experience'),
+  'main_text' => array('Wie bereits in den Vorjahren wird in der Woche vor der eigentlichen Messe eine Podiumsdiskussion mit Teilnehmern aus Akademie und Industrie stattfinden. Das genaue Datum und die Teilnehmerliste werden hier sowie auf unseren sozialen Kanälen publiziert.',
+  'In the week before the fair a panel discussion with participants from academia and industry will take place. The exact date and participants will be announced here as well as on our social media channels.'),
+
+);
+
 
 $lang['content']['programme_1'] = array(
   'title' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood','Panel Discussion:<br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
