@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2021 - Team', 'Chemtogether 2021 - Team');
+$lang['general']['page_title'] = array('Chemtogether 2022 - Team', 'Chemtogether 2022 - Team');
 $lang['navigation']['title'] = array('Unser Team', 'Our Team');
 $lang['navigation']['topnav_title']= array('Unser Team', 'Our Team');
 
@@ -18,8 +18,8 @@ $lang['content']['team_subsection'] = array('Das Team 2021','The Team of 2021');
 
 $lang['content']['new_team_subsection'] = array('Werde Mitglied im Chemtogether Team 2022','Join the Chemtogether Team of 2022');
 $lang['content']['new_team_text'] = array(
-  'Wir suchen aktuell Verstärkung für das Organisationsteam der Chemtogether 2022. Wenn du die Chemtogether 2022 mitgestalten möchtest, melde dich gerne bei Dominik oder Gabriela. Weitere Information findest du <a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/call_for_ok_applications_2022.pdf"> unter diesem Link</a>.',
-  'We are currently looking for motivated students to complete our team for 2022. If you are interested in organizing and carrying out the career fair, please do not hesitate to contact Dominik or Gabriela! You can find further information  <a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/call_for_ok_applications_2022.pdf"> via this link</a>.'
+  'Auch für die Organisation der Chemtogether 2022 steht bereits ein motiviertes Team in den Startlöchern! Fotos und Vorstellungstexte der neuen Mitglieder werden in Kürze hier verfügbar sein.',
+  'A new team is ready for Chemtogether 2022! Pictures and additional information on our new members will be published here soon.'
 );
 
 
@@ -129,6 +129,9 @@ $lang['team'][13] = array(
 
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
+
+$lang['content']['alumni_member_2021'] = 'Mara Bless<br>Vittoria Bolongaro<br>Christopher Buck<br>Noemi Cerboni<br>Tejas Deshpande<br>Alexandra Krestnikova<br>Gabriela Libort<br>Anne Lüscher<br>Jonathan Saring<br>Jan Vukovich<br>Laura Völker<br>Julius Wenckstern<br>Dominik Zürcher<br><br>';
+
 
 $lang['content']['alumni_member_2020'] = 'Anne Abels<br>Mara Bless<br>Markus Böcker<br>Vittoria Bolongaro<br>Christopher Buck<br>Noemi Cerboni<br>Jordan De Jesus Silva<br>Romain Dubey<br>Dragana Ristanovic<br>Jonas Römer<br>Jonathan Saring<br>Christian Schellhaas<br>Philipp Schubert<br>Alessandro Streuli<br>Laura Völker<br>Jan Vukovich<br><br>';
 
