@@ -50,8 +50,8 @@ $lang['content'] = array(
   ),  
 
   'Corona-Text' => array(
-    'Wir freuen uns bekanntzugeben, dass die Chemtogether 2021 aufgrund der verbesserten pandemischen Lage in Präsenz stattfinden wird. Um allerdings die Sicherheit aller Messeteilnehmer gewährleisten zu können, wurde entschieden, dass nur geimpften, genesenen oder getesteten Personen Zugang zur Messe gewährt wird. Wir bitten für diese Schutzmassnahme um Verständnis und freuen uns bereits, Sie auf der Chemtogether 2021 willkommen zu heissen!',
-    'We are pleased to announce that, due to the current improvements of the pandemic situation, the Chemtogether Career Fair 2021 will be held in presence. However, to ensure the health of our company representatives and visitors, we have decided to grant access to the fair only to vaccinated, recovered, or tested people. We hope you will understand this measure and support us in our efforts to ensure the safest possible experience. We are looking forward to welcoming you all to this year’s Chemtogether!'
+    'Wir planen eine Durchführung der Chemtogether 2022 in Präsenz. Da die Gesundheit unserer Besucher für uns an erster Stelle steht, behalten wir uns vor im Einklang mit den Richtlinien des Bundesamts für Gesundheit entsprechende Schutzmassnahmen zu ergreifen.',
+    'We are currently planning to hold the Chemtogether 2022 in person. Since the health of our visitoris has topmost priority for us, we will take additional measures according to the guidelines of the federal office of public healtth. '
   ),
 
   'packages_text' => array(
