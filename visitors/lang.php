@@ -58,8 +58,8 @@ $lang['content']['companies_text'] = array(
   // $lang['content']['day1'] = array('Dienstag, 2. November','Tuesday, 2nd November');
   // $lang['content']['day2'] = array('Mittwoch, 3. November', 'Wednesday, 3rd November');
 
-  $lang['content']['day1'] = array('Tag 1','Day 1');
-  $lang['content']['day2'] = array('Tag 2', 'Day 2');
+  $lang['content']['day1'] = array('Dienstag, 8. November','Tuesday, 8th of November');
+  $lang['content']['day2'] = array('Mittwoch, 9. November', 'Wednesday, 9th of November');
 
   $lang['content']['no-companies-notice'] = array(
     'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',

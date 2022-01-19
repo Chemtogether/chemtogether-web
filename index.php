@@ -52,11 +52,11 @@ $fb = array(
         <li><span></span></li>
       </ul>
       <div id="home-top">
-         <!-- <div class="date-container">
-          <span id="date-day1">2.</span>
+          <div class="date-container">
+          <span id="date-day1">8.</span>
           <span class="date-bar"></span>
-          <span id="date-day2">3.</span>
-         </div> -->
+          <span id="date-day2">9.</span>
+         </div> 
         <div class="date-container">
           <span id="date-month">Nov.</span>
           <span id="date-year">2022</span>
