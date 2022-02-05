@@ -63,7 +63,7 @@ $fb = array(
         </div>
         <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>
-        <span id="date-time">9.00 - 17.00</span>
+        <span id="date-time">9.30 - 17.00</span>
         </div>
       </div>
       <div id="home-bottom">

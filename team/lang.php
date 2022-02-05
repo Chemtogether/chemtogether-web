@@ -25,7 +25,7 @@ $lang['content']['new_team_text'] = array(
 
 $lang['team'][1] = array(
   'name' => 'Gabriela Libort',
-  'task' => array('Co-Präsidentin','Co-Präsident'),
+  'task' => array('Co-Präsidentin','Co-President'),
   'info' => array('Gabriela, ursprünglich aus Polen, hat ihren Bachelor in Chemieingenieurwissenschaften an der ETH gemacht und studiert nun Verfahrenstechnik im Master. Als Ausgleich zum Studienalltag trainiert sie Karate oder plant gerade ihre nächsten Ferien. Sie lässt sich weder ein gutes Buch, noch ein gutes Konzert entgehen und  geniesst es mit Freunden verschiedene Cafés in Zürich zu entdecken.'
   ,'Gabriela, born in Poland, finished her Chemical Engineering Bachelor at ETH and is now pursuring her Masters in Process Engineering. Apart from her studies, she’s been training karate from a young age and likes to plan out her next vacation trip. She enjoys reading a good book and going to concerts as well as finding new cafés in Zürich with her friends.'),
   'mail_prefix' => 'gabriela.libort',
@@ -34,7 +34,7 @@ $lang['team'][1] = array(
 
 $lang['team'][2] = array(
   'name' => 'Dominik Zürcher',
-  'task' => array('Co-Präsidentin','Co-President'),
+  'task' => array('Co-Präsident','Co-President'),
   'info' => array('Dominik ist in Zürich aufgewachsen und hat nach seiner Ausbildung bei einer Versicherung an der ETH Chemieingenieurwesen studiert. Seit September 2020 fertigt er hier zusammen mit einem Partner aus der biopharmazeutischen Industrie seine Doktorarbeit an. Er kocht leidenschaftlich gerne und mag es, Dinner-Parties zu organisieren.','Dominik grew up in Zurich and studied chemical engineering after a traineeship in the insurance industry. From September 2020, he pursues his PhD degree in biochemical engineering together with a biopharmaceutical company at ETH. Besides research, he is very passionate about food and wine and loves to organize dinner parties.'), 
   'mail_prefix' => 'dominik.zuercher',
   'linkedin' => 'https://www.linkedin.com/in/dominikzuercher/'

@@ -32,7 +32,7 @@
       </div>
       <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
-        <span id="date-time">9.00 - 17.00</span>
+        <span id="date-time">9.30 - 17.00</span>
       </div>
       <span id="contact-container">
         <?php obfuscate_mail('info', '', '<i class="fas fa-envelope-square"></i>'); ?>

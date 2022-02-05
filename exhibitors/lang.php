@@ -51,7 +51,7 @@ $lang['content'] = array(
 
   'Corona-Text' => array(
     'Wir planen eine Durchführung der Chemtogether 2022 in Präsenz. Da die Gesundheit unserer Besucher für uns an erster Stelle steht, behalten wir uns vor im Einklang mit den Richtlinien des Bundesamts für Gesundheit entsprechende Schutzmassnahmen zu ergreifen.',
-    'We are currently planning to hold the Chemtogether 2022 in person. Since the health of our visitors has topmost priority for us, we will take additional measures according to the guidelines of the federal office of public healtth. '
+    'We are currently planning to hold the Chemtogether 2022 in person. Since the health of our visitors has topmost priority for us, we will take additional measures according to the guidelines of the federal office of public health. '
   ),
 
   'packages_text' => array(
