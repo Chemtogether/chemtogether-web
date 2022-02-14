@@ -72,7 +72,7 @@ $active_nav = 'exhibitors';
           <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
-          <span>4.73/5</span>
+          <span>4.08/5</span>
           <div class="bar"></div>
           <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
@@ -122,7 +122,7 @@ $active_nav = 'exhibitors';
         <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/brochure_2021.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/brochure_2022.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
@@ -345,7 +345,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2019','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2021','png'); ?>></img>
         </div>
       </div>
     </div>
@@ -356,13 +356,13 @@ $active_nav = 'exhibitors';
         <br><br>
         <table class="feedback">
           <tr>
-            <td>4.75</td>
+            <td>3.76</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['1'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.42</td>
+            <td>4.22</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['2'][$eng]); ?></td>
@@ -374,58 +374,63 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['3'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.97</td>
+            <td>4.52</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['4'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.66</td>
+            <td>4.31</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['5'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.47</td>
+            <td>4.63</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['6'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.64</td>
+            <td>4.44</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.48</td>
+            <td>4.74</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.39</td>
+            <td>4.51</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.35</td>
+            <td>4.66</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.41</td>
+            <td>4.5</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.87</td>
+            <td>4.04</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['12'][$eng]); ?></td>
+          </tr>
+          <td>4.72</td>
+            <td>/</td>
+            <td>5</td>
+            <td><?php echo($lang['content']['feedback_entries']['13'][$eng]); ?></td>
           </tr>
         </table>
       </div>

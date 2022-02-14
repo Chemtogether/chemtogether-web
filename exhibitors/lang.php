@@ -29,8 +29,8 @@ $lang['content'] = array(
     'Additional information:'),
 
   'documents_broschure' => array(
-    'Broschüre für Firmen (2021)',
-    'Brochure for companies (2021)'),
+    'Broschüre für Firmen (2022)',
+    'Brochure for companies (2022)'),
 
   'documents_guide' => array(
     'Messeführer (2021)',
@@ -59,59 +59,62 @@ $lang['content'] = array(
     'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2021.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
-    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2021.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2022.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2022.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
-    'Rückblick auf 2019',
-    '2019 in Review'),
+    'Rückblick auf 2021',
+    '2021 in Review'),
 
   'feedback_entries' => array(
     '1' => array(
-      'Organisation und Kommunikation vor der Messe',
-      'Organisation and communication prior to the fair'),
+      'Registration',
+      'Registration'),
     '2' => array(
-      'Soziale Medien',
-      'Social Media'),
+      'Broschüre und Infomaterial',
+      'Brochure and Info-Material'),
     '3' => array(
-      'Organisation und Kommunikation während der Messe',
-      'Organisation and communication during the fair'),
+      'Kommunikation während der Messe',
+      'Communication during the fair'),
     '4' => array(
-      'Betreeung während der Messe',
-      'Support during the fair'),
+      'Angestellten Interview',
+      'Employee Interview'),
     '5' => array(
-      'Verpflegung',
-      'Catering'),
+      'Ankunft und Parksituation',
+      'Arrival and parking'),
     '6' => array(
       'Standposition',
       'Position of booth'),
     '7' => array(
-      'Flash-Präsentationen',
-      'Flash-presentations'),
+      'Kommunikation und Unterstützung während der Messe',
+      'Communication and support during the fair'),
     '8' => array(
       'Frequentierung der Stände durch die Studierenden',
       'Amount of students at the booths'),
     '9' => array(
-      'Qualität der Gespräche mit Studierenden',
-      'Quality of discussion with students'),  
+      'Messebesucher',
+      'Visitors'),  
     '10' => array(
-      'Zielgruppe',
-      'Target Audience'),
+      'Verpflegung',
+      'Catering'),
     '11' => array(
-      'Preis-Leistung',
-      'Price-performance ratio'),
+      'Covid-Konezept',
+      'Covid-Concept'),
     '12' => array(
+      'Job-Wall',
+      'Job-Wall'),
+    '13' => array(
       'Professionalität',
       'Professionalism')
   ),
 
   'feedback_intro' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether 2019 waren mit ihrer Teilnahme zufrieden. Ausgehend von zwanzig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.73 von 5 Punkten bewertet, unser bestes Resultat bisher. Natürlich möchten wir uns mit der neunten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
-    'All exhibitors of Chemtogether 2019 were satisfied with their attendence. Based on twenty feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.73 out of 5, our best result yet. Naturally, we would like to further improve the fair in its ninth iteration and have thus begun implementing some of the suggestions we received.'),
+    'Alle ausstellenden Unternehmen der Chemtogether 2021 waren mit ihrer Teilnahme zufrieden. Ausgehend von neununddreissig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.08 von 5 Punkten bewertet. Natürlich möchten wir uns mit der zehnten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'All exhibitors of Chemtogether 2021 were satisfied with their attendence. Based on thirty-nine feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.08 out of 5. Naturally, we would like to further improve the fair in its tenth iteration and have thus begun implementing some of the suggestions we received.'),
 
   'feedback_text' => array(
-    'Das vollständige Ergebnis der Feedbackauswertung 2019 lautet:',
-    'The complete feedback of 2019 is as follows:')
+    'Das vollständige Ergebnis der Feedbackauswertung 2021 lautet:',
+    'The complete feedback of 2021 is as follows:')
 );
 
 
@@ -178,8 +181,8 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Promotion','Promotion'),
-  'base'     => array('',''),
+  'perk'     => array('Social Media Werbung','Social Media Promotion'),
+  'base'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'silver'   => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'gold'     => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
   'platinum' => array('<i class="fas fa-check"></i>','<i class="fas fa-check"></i>'),
@@ -194,7 +197,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Werbung in Zeitschrift','Ads in Magazine'),
+  'perk'     => array('Werbung in Studenten-Zeitschrift','Ads in Student Magazine'),
   'base'     => array('',''),
   'silver'   => array('1','1'),
   'gold'     => array('2','2'),
@@ -202,7 +205,7 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Social-Media Interviews','Social-Media Interviews'),
+  'perk'     => array('Angestellten Interview','Employee Interview'),
   'base'     => array('',''),
   'silver'   => array('1','1'),
   'gold'     => array('2','2'),
@@ -259,6 +262,7 @@ $lang['packages_info']['base']['perks'][$i++] = array('Catering, WLAN und Strom'
 $lang['packages_info']['base']['perks'][$i++] = array('9 m² Stand mit zwei Stehtischen und -stühlen','9 m² booth with two bistro tables and chairs');
 $lang['packages_info']['base']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
 $lang['packages_info']['base']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
+$lang['packages_info']['base']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
 $lang['packages_info']['base']['price'] = array('CHF 1500.- exkl. 7.7% MWST','CHF 1500.- excl. 7.7% VAT');
 
 
