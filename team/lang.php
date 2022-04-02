@@ -73,7 +73,7 @@ $lang['team'][5] = array(
   'info' => array('Vivian kommt aus Winterthur und studiert im zweiten Jahr Bsc. Pharmazeutische Wissenschaften an der ETH Zürich. Sie treibt gerne Sport
   und hat diesen Winter ausserdem ihre Liebe zum Langlaufen entdeckt. Wenn sie nicht gerade selbst dort arbeitet,
   trifft man sie mit ihren Freunden/-innen in ihrer Lieblingsbar eine Runde Tichu spielend an.',
-  'Vivian is from Winterthur and studies Pharmaceutical sciences at ETH Zurich in the second year of her bachelors.
+  'Vivian is from Winterthur and studies Pharmaceutical sciences at ETH Zurich in the second year of her bachelor\'s.
   She likes to do sports and has also discovered her love for cross-country skiing this winter. When she is not working there herself,
   you can meet her with her friends in her favorite bar playing a game of Tichu '),
   'mail_prefix' => 'vivian.kempf',
@@ -104,7 +104,7 @@ $lang['team'][7] = array(
 $lang['team'][8] = array(
   'name' => 'Anne Lüscher',
   'task' => array('Akquiseleitung','Company Acquisition'),
-  'info' => array('Nach ihrem Studium der Interdisziplinären Naturwissenschaften arbeitete Anne zwei Jahre lang in der Pharmabranche, bevor sie für ihr Doktorat an die ETH zurückkehrte. Neben den Wissenschaften schlägt ihr Herz für die klassische Musik, das Rucksackreisen und ihre diversen transdisziplinären Projekte. Zudem ist sie kulturbegeistert, lernt gerne Sprachen und verschlingt Bücher, Podcasts und Serien am Laufmeter. Wenn sie mal Entspannung braucht, findet sie in der Natur, beim Fagottspiel oder auf ihrer Yogamatte zur inneren Balance zurück.','After finishing her Master’s in Interdisciplinary Sciences, Anne gained two years of experience in the pharmaceutical industry before returning to ETH to pursue her doctoral studies. Science aside, her heart beats for classical music, backpacking trips and the various transdisciplinary projects she is involved in. She is also a culture vulture, enjoys learning new languages and always burns for the latest books, podcasts and tv shows. When she needs some quiet time, she regains her inner balance by walking in nature, playing the bassoon or doing yoga.'),
+  'info' => array('Nach ihrem Studium der Interdisziplinären Naturwissenschaften arbeitete Anne zwei Jahre lang in der Pharmabranche, bevor sie für ihr Doktorat an die ETH zurückkehrte. Neben den Wissenschaften schlägt ihr Herz für die klassische Musik, das Rucksackreisen und ihre diversen transdisziplinären Projekte. Zudem ist sie kulturbegeistert, lernt gerne Sprachen und verschlingt Bücher, Podcasts und Serien am Laufmeter. Wenn sie mal Entspannung braucht, findet sie in der Natur, beim Fagottspiel oder auf ihrer Yogamatte zur inneren Balance zurück.','After finishing her master’s in Interdisciplinary Sciences, Anne gained two years of experience in the pharmaceutical industry before returning to ETH to pursue her doctoral studies. Science aside, her heart beats for classical music, backpacking trips and the various transdisciplinary projects she is involved in. She is also a culture vulture, enjoys learning new languages and always burns for the latest books, podcasts and tv shows. When she needs some quiet time, she regains her inner balance by walking in nature, playing the bassoon or doing yoga.'),
   'mail_prefix' => 'anne.luescher',
   'linkedin' => 'https://www.linkedin.com/in/anne-l%C3%BCscher/'
 );
