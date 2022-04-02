@@ -27,7 +27,7 @@ $lang['team'][1] = array(
   'name' => 'Gabriela Libort',
   'task' => array('Co-Präsidentin','Co-President'),
   'info' => array('Gabriela, ursprünglich aus Polen, hat ihren Bachelor in Chemieingenieurwissenschaften an der ETH gemacht und studiert nun Verfahrenstechnik im Master. Als Ausgleich zum Studienalltag trainiert sie Karate oder plant gerade ihre nächsten Ferien. Sie lässt sich weder ein gutes Buch, noch ein gutes Konzert entgehen und  geniesst es mit Freunden verschiedene Cafés in Zürich zu entdecken.'
-  ,'Gabriela, born in Poland, finished her Chemical Engineering Bachelor at ETH and is now pursuring her Masters in Process Engineering. Apart from her studies, she’s been training karate from a young age and likes to plan out her next vacation trip. She enjoys reading a good book and going to concerts as well as finding new cafés in Zürich with her friends.'),
+  ,'Gabriela, born in Poland, finished her Chemical Engineering bachelor\'s at ETH and is now pursuing her masters\' in Process Engineering. Apart from her studies, she’s been training karate from a young age and likes to plan out her next vacation trip. She enjoys reading a good book and going to concerts as well as finding new cafés in Zürich with her friends.'),
   'mail_prefix' => 'gabriela.libort',
   'linkedin' => 'https://www.linkedin.com/in/gabriela-libort-151a8119a'
 );
@@ -35,7 +35,7 @@ $lang['team'][1] = array(
 $lang['team'][2] = array(
   'name' => 'Dominik Zürcher',
   'task' => array('Co-Präsident','Co-President'),
-  'info' => array('Dominik ist in Zürich aufgewachsen und hat nach seiner Ausbildung bei einer Versicherung an der ETH Chemieingenieurwesen studiert. Seit September 2020 fertigt er hier zusammen mit einem Partner aus der biopharmazeutischen Industrie seine Doktorarbeit an. Er kocht leidenschaftlich gerne und mag es, Dinner-Parties zu organisieren.','Dominik grew up in Zurich and studied chemical engineering after a traineeship in the insurance industry. From September 2020, he pursues his PhD degree in biochemical engineering together with a biopharmaceutical company at ETH. Besides research, he is very passionate about food and wine and loves to organize dinner parties.'), 
+  'info' => array('Dominik ist in Zürich aufgewachsen und hat nach seiner Ausbildung bei einer Versicherung an der ETH Chemieingenieurwesen studiert. Seit September 2020 fertigt er hier zusammen mit einem Partner aus der biopharmazeutischen Industrie seine Doktorarbeit an. Er kocht leidenschaftlich gerne und mag es, Dinner-Parties zu organisieren.','Dominik grew up in Zurich and studied chemical engineering after a traineeship in the insurance industry. Since September 2020, he pursues his PhD degree in biochemical engineering together with a biopharmaceutical company at ETH. Besides research, he is very passionate about food and wine and loves to organize dinner parties.'), 
   'mail_prefix' => 'dominik.zuercher',
   'linkedin' => 'https://www.linkedin.com/in/dominikzuercher/'
 );
@@ -95,7 +95,7 @@ $lang['team'][7] = array(
   schönen Bodensee an die ETH zu wechseln. Derzeit befindet sie sich im 3. Jahr Bachelor und studiert Pharmazeutische Wissenschaften, um Menschen die Angst
   vor mRNA zu nehmen. Seit der Pandemie hat sie das Lesen wieder für sich entdeckt und geht ebenso gerne joggen oder rast schwarze Pisten hinunter.  ',
   'Johanna grew up in Lörrach, a small city at the border to Basel, and decided to change to ETH after one year of Biology at the beautiful lake of Constance. 
-  At the moment she is studying Pharmaceutical Sciences in the third year of bachelor\'s to spread the important message of mRNA.
+  At the moment she is studying Pharmaceutical Sciences in the third year of her bachelor\'s to spread the important message of mRNA.
   Throughout the pandemic she rediscovered her joy for reading and also loves to run or to race down black slopes on skis.'),
   'mail_prefix' => 'johanna.lueckel',
   'linkedin' => 'https://www.linkedin.com/johanna-lückel-1a7772192'
@@ -116,7 +116,7 @@ $lang['team'][9] = array(
   Aktuell ist sie im zweiten Jahr von ihrem Biochemie - Chemische Biologie BSc. Wenn sie nicht gerade lernt,
   findet man sie hauptsächlich im Gym, beim Schwimmen, Joggen oder auf der Yogamatte.
   Aussderdem kocht sie gerne vegan und beschäftigt sich mit verschiedenen Lebensmitteln sowie deren Auswirkungen auf Mensch und Umwelt.',
-  'Thea came to ETH from Frankfurt to study and ski. She is currently in the second year of her Biochemistry - Chemical Biology BSc. When she\'s not studying, you\'ll mainly find her at the gym, swimming, jogging or on the yoga mat. 
+  'Thea came to ETH from Frankfurt to study and ski. She is currently in the second year of her Biochemistry - Chemical Biology B.Sc.. When she\'s not studying, you\'ll mainly find her at the gym, swimming, jogging or on the yoga mat. 
   She also enjoys vegan cooking and studying different foods and their impact on people and the environment. '),
   'mail_prefix' => 'thea.ortner',
   'linkedin' => 'https://www.linkedin.com/company/chemtogether/'
@@ -128,7 +128,7 @@ $lang['team'][10] = array(
   'info' => array('Laura kommt  aus Deutschland,  hat an der ETH allerdings bereits ihren Chemie BSc und MSc mit einem besonderen Fokus auf Kernmagnetresonanz (NMR) Spektroskopie absolviert.
    Sie promoviert gegenwärtig am Laboratorium für Festkörperphysik, um Chiralitäts-induzierte Spin-Selektivität mit Stickstoff Vakanz Zentren in Diamant zu erforschen.
    In ihrer Freizeit spielt sie Klavier, geht Laufen und züchtet - dank enormer technischer Unterstützung eines vollautomatisierten Gartens - mittlerweile erfolgreich Basilikum.',
-   'Laura from Germany hold a Bachelor\'s and a Master\'s degree in Chemistry from ETH Zurich. Following her sincere interest in nuclear magnetic resonance (NMR) spectroscopy she is now pursuring her  PhD studies in the Laboratory for Solid State Physics where she studies chiral induced spin-selectivity using nitrogen-vacancy centers in diamond.
+   'Laura from Germany holds a bachelor\'s and a master\'s degree in Chemistry from ETH Zurich. Following her sincere interest in nuclear magnetic resonance (NMR) spectroscopy she is now pursuing her  PhD studies in the Laboratory for Solid State Physics where she studies chiral induced spin-selectivity using nitrogen-vacancy centers in diamond.
     In her free time she enjoys playing the piano, running and growing - thanks to the enormous technical support of her fully automated garden - quite successfully basil.'),
   'mail_prefix' => 'laura.voelker',
   'linkedin' => 'https://www.linkedin.com/in/laura-alicia-völker-6255b21a1/'
