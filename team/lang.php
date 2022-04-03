@@ -134,6 +134,16 @@ $lang['team'][10] = array(
   'linkedin' => 'https://www.linkedin.com/in/laura-alicia-völker-6255b21a1/'
 );
 
+
+$lang['team'][11] = array(
+  'name' => 'Thomas Schaer',
+  'task' => array('Merchandise','Merchandise'),
+  'info' => array('Thomas, geboren und aufgewachsen in der Ostschweiz, befindet sich derzeit im letzten Jahr seines Masters in Chemie und Bioingenieurwissenschaften. Nach dem Abschluss seines Bachelors an der ETH verbrachte er ein Jahr als Praktikant in einer Halbleiterproduktionsstätte, wo er für die Prozesssimulation zuständig war. In seiner Freizeit programmiert er gerne verschiedenste Applikationen für sich und andere. Wenn er offline ist, kocht er gerne leckere Gerichte und verbrennt die Kalorien dieser Gerichte wieder mit einem abendlichen Lauf entlang der Limmat.',
+   'Thomas, born and raised in eastern Switzerland, is currently in the last year of his master\'s degree in Chemical and Bioingeniiering. Following the completion of his bachelor\'s at ETH, he spent a year as an engineering intern in a semiconductor fabrication plant doing process simulation. In his leisure time he likes coding various applications for himself and others. When he is offline, he likes cooking delicious meals, and losing the calories of those meals with an evening run along the Limmat.'),
+  'mail_prefix' => 'contact',
+  'linkedin' => 'https://www.linkedin.com/in/thomas-s-b7404920b/'
+);
+
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
