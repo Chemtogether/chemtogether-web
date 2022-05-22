@@ -5,10 +5,7 @@ $lang['general']['page_title'] = array('Chemtogether 2022 - Für Besucher', 'Che
 $lang['navigation']['title'] = array('Für Besucher', 'For Visitors');
 $lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 
-
-
 // CONTENT TRANSLATIONS FOR THIS PAGE
-
 $lang['content']['image_floor'] = array('Stock','floor');
 $lang['content']['intro_text'] = array(
   'Chemtogether ist eine Karrieremesse an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.',
@@ -52,19 +49,29 @@ $lang['content']['collaboration'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen voraussichtlich 2022 wieder an den zwei Tagen der Chemtogether teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen. Die Firmen werden veröffentlicht, sobald ihre Teilnahme feststeht.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will prospectively be present during the two days of Chemtogether 2022. Get to know what the individual companies offer, who they are looking for and when they attend the fair. The companies will be published as soon as their participation is certain.');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2022 wieder an den zwei Tagen der Chemtogether teil. Genauere Informationen zu unseren Partnern werden zeitnah hier veröffentlicht. ',
+    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2022. More detailed information on our partner companies will be published here soon.');
 
-  // $lang['content']['day1'] = array('Dienstag, 2. November','Tuesday, 2nd November');
-  // $lang['content']['day2'] = array('Mittwoch, 3. November', 'Wednesday, 3rd November');
+$lang['content']['day1'] = array('Dienstag, 8. November','Tuesday, 8th of November');
+$lang['content']['day2'] = array('Mittwoch, 9. November', 'Wednesday, 9th of November');
 
-  $lang['content']['day1'] = array('Dienstag, 8. November','Tuesday, 8th of November');
-  $lang['content']['day2'] = array('Mittwoch, 9. November', 'Wednesday, 9th of November');
 
-  $lang['content']['no-companies-notice'] = array(
+
+$lang['content']['no-companies-notice'] = array(
     'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
     'No company has completely confirmed its attendance yet! We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'
   );
+
+$lang['content']['preliminary-one'] = array(
+    'Wir freuen uns auf folgende Partnerfirmen: BASF, Avantama AG, CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Sika Technology AG. ',
+    'We are looking forward to welcome the following partner companies: BASF, Avantama AG,  CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Sika Technology AG. '
+); 
+
+$lang['content']['preliminary-two'] = array(
+  'Wir freuen uns auf folgende Partnerfirmen: Lonza AG, Bachem AG, BÜCHI Labortechnik AG, Chemgineering Switzerland AG, DOTTIKON EXCLUSIVE SYNTHESIS A, Evonik Industries AG, Metrohm AG, Senn Chemicals AG, Sensirion AG.',
+  'We are looking forward to welcome the following partner companies: Lonza AG, Bachem AG, BÜCHI Labortechnik AG, Chemgineering Switzerland AG, DOTTIKON EXCLUSIVE SYNTHESIS A, Evonik Industries AG, Metrohm AG, Senn Chemicals AG, Sensirion AG.'
+); 
+
 
 // COMPANY SUBSITE
 $lang['detail']['packages']['base'] = array('Basispartner','Base Partner');

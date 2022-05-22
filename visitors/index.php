@@ -179,7 +179,7 @@ $fb = array(
     <div class="companies">
         <div class="content flex">
           <div class="text l-12 m-12 s-12">
-            <?php if(sizeof($data['day1'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
+            <?php if(sizeof($data['day1'])==0) echo($lang['content']['preliminary-one'][$eng]); ?>
             <table class="overview">
               <?php for ($i=0; $i < sizeof($data['day1']); $i++) { ?>
               <tr class='clickable-tr' data-url='<?php echo($data['day1'][$i]['link_url']); ?>'>
@@ -217,7 +217,7 @@ $fb = array(
         <div class="content flex">
           <div class="text l-12 m-12 s-12">
             <table class="overview">
-              <?php if(sizeof($data['day2'])==0) echo($lang['content']['no-companies-notice'][$eng]); ?>
+              <?php if(sizeof($data['day2'])==0) echo($lang['content']['preliminary-two'][$eng]); ?>
               <?php for ($i=0; $i < sizeof($data['day2']); $i++) { ?>
               <tr class='clickable-tr' data-url='<?php echo($data['day2'][$i]['link_url']); ?>'>
                 <td class="table-logo"><img <?php echo($data['day2'][$i]['logo_url']); ?>></img></td>
