@@ -9,7 +9,7 @@
         <!-- <span class="footer-text-1">Chemtogether<br></span> -->
         <span class="footer-text-2"><?php echo($lang['footer']['subtitle1'][$eng]); ?><br><?php echo($lang['footer']['subtitle2'][$eng]); ?><br><br><br></span>
         <span class="footer-text-3"><?php echo($lang['footer']['contact'][$eng]); ?><br></span>
-        <p class="footer-text-4"><?php obfuscate_mail('info', '', ''); ?><br></p>
+        <p class="footer-text-4"><?php obfuscate_mail('contact', '', ''); ?><br></p>
         <br><br>
         <span class="footer-text-3"><?php echo($lang['footer']['address'][$eng]); ?><br></span>
         <p class="footer-text-4">VCS, Postfach 84<br>Wolfgang-Pauli-Str. 9<br>8093 Zürich<br></p>
