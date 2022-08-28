@@ -63,8 +63,8 @@ $lang['content']['no-companies-notice'] = array(
   );
 
 $lang['content']['preliminary-one'] = array(
-    'Wir freuen uns auf folgende Partnerfirmen: BASF, Avantama AG, CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Sika Technology AG. ',
-    'We are looking forward to welcome the following partner companies: BASF, Avantama AG,  CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Sika Technology AG. '
+    'Wir freuen uns auf folgende Partnerfirmen: BASF, Avantama AG, CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Novartis, Sika Technology AG. ',
+    'We are looking forward to welcome the following partner companies: BASF, Avantama AG,  CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Novartis, Sika Technology AG. '
 ); 
 
 $lang['content']['preliminary-two'] = array(
