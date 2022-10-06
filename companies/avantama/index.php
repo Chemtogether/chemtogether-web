@@ -11,16 +11,16 @@ include('../lang.php');
 // GENERAL
 $active_nav = 'companies';
 
-$template['company_name'] = 'AVANTAMA';
+$template['company_name'] = 'Avantama AG';
 $template['company_name_short'] = 'avantama';
 $template['logo_url'] = set_source($awss3.'/companies/avantama/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('http://avantama.com/','avantama.com');
-$template['facebook'] = array('https://www.facebook.com/goavantama/', 'Avantama');
+//$template['facebook'] = array('https://www.facebook.com/goavantama/', 'Avantama');
 $template['linkedin'] = array('https://www.linkedin.com/company/avantama-ag/','Avantama AG');
 
 
@@ -29,18 +29,18 @@ $template['archive'] = '/archive/avantama';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'We are an ETH startup company developing materials for a bright and efficient future.');
+  'text' => 'We are a global leader in high-tech materials for electronics. Our material innovations are used in millions of electronic devices such as printed solar cells. 
+  Our next generations of products will make displays 35% more colorul, 40% brighter and more energy-efficient than ever before.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We offer exciting positions for high-end markets such as LCD displays, OLED displays, flexible solar cells etc.');
-  
+  'text' => 'We offer internships and full-time positions in a start-up environment with a fun group of colleagues.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for curious candidates with a natural desire to solve materials/chemistry problems in the lab or who love to optimize chemical production processes.');
+  'text' => 'We are looking for bright students mainly with a background in chemistry, chemical engineering or materials science. Fresh graduates are welcome.');
 
 
 
-$template['button_print_until'] = 1;
+$template['button_print_until'] = 0;
 $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-avantama">Watch our Flash presentation');
 
 $template['interview_print_until'] = 1;
@@ -48,60 +48,87 @@ $template['interview_print_until'] = 1;
 
 
 $template['interview'][$i++] = array(
-  'name' => 'Eric Rüttimann',
-  'img_url' => $awss3.'/companies/avantama/interviewee_2021_1',
-  'position' => 'Materials Chemist',
+  'name' => 'Florian Grieder',
+  'img_url' => $awss3.'/companies/avantama/interviewee_2022_1',
+  'position' => 'Process Engineer',
 
   'education' => array(
     0 => array(
-      'date' => '2018-2020',
-      'desc' => '“Master of Science in Chemistry”, ETH Zurich, Switzerland',
-    ),
-    1 => array(
-      'date' => '2015-2018',
-      'desc' => '“Bachelor of Science in Molecular Sciences and Biochemistry“, University of Bern, Switzerland',
-    ),
-    2 => array(
-      'date' => '2013-2014',
-      'desc' => 'Passerellen-Course, ISME St. Gallen',
+      'date' => '',
+      'desc' => '',
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => '2021',
-      'desc' => 'Materials Chemist at AVANTAMA',
+      'date' => '',
+      'desc' => '',
     ),
   ),
   
   'interview' => array(
     0 => array(
-      'question' => 'Was ist ihre derzeitige Tätigkeit bei Avantama?',
-      'answer' => 'Ich bin seit Februar 2021 zu 80 % angestellt als Materials Chemist in der R&D Abteilung von Avantama. Dabei befassen wir uns mehrheitlich mit der Herstellung, Modifikation und Optimierung von Quanten Dots, kurz QDs. Avantama ist spezialisiert auf Perovskit Quanten Dots und im R&D Team versuchen wir die Eigenschaften der QDs für kundenspezifische Anwendungen umzusetzen. Das Feld dabei ist sehr breit gefächert: Von Displayanwendungen, Krebstherapie über Produktmarkierungen bis hin zu Röntgenanalysen hatte ich in kurzer Zeit schon viel Einblick. Aus Vertraulichkeitsgründen kann ich hier nicht alles genau ausführen. Zusätzlich bin ich intern zuständig für die Analytik via X-Ray Fluorescence (XRF).',
+      'question' => 'What is your current task at Avantama AG?',
+      'answer' => 'Since January 2021 I am employed 100% as a Process Engineer in the production
+      team of Avantama. Together with my coworkers, we are responsible for the upscaling
+      of the R&D production process of our quantum dot materials. On one hand, this
+      means handling up to 30kg barrels of chemicals, processing this amount in sized up
+      chemical reactors and assuring the quality of each process step to the final product.
+      On the other hand, we are further optimizing and investigating the chemical
+      processes to improve the reliability of the final product as well as increasing the yield
+      of every step both with experiments on a large and on a small scale. Being a small
+      company leads to additional responsibilities regarding procurement of chemicals as
+      well maintenance of chemical reactors. Furthermore, I am one of the company
+      paramedics.',
     ),
     1 => array(
-      'question' => 'Welchen Rat würden Sie einem „frischen“ ETH Absolventen geben, der sich auf Jobsuche begibt?',
-      'answer' => 'Nur weil ETH auf dem Papier steht, ist dies noch keine Garantie für einen erfolgreichen Übertritt ins Berufsleben in der Industrie. Der Konkurrenzkampf im Arbeitsmarkt ist sicherlich gegeben. Daneben sollte man entscheiden, ob man sich direkt bei einem grösseren, etablierten Chemiekonzern oder bei einem kleineren, überschaubaren Unternehmen oder Start-up bewirbt. Bei einem Start-up kann man sicherlich alle Phasen eines Unternehmens miterleben und diverse Entscheidungsprozesse auch aktiv mitgestalten. Bei einem Konzern hingegen ist wahrscheinlich die eigentliche Tätigkeit als Chemiker im Vordergrund. Auf jeden Fall sind bei der Jobsuche Geduld und Zuversicht sicher nicht fehl am Platz.',
+      'question' => 'How would you describe the working atmosphere at Avantama AG?',
+      'answer' => 'Working at Avantama is great. Being a small company, you quickly know everyone
+      and with the open and helpful atmosphere that we have, it is easy to chat or discuss
+      challenges with anyone up to the CEO. With our hands on mentality, every idea is
+      welcome and quickly tested. With a one/two-day event in the summer and winter,
+      Christmas dinner, many many Friday beers and other spontaneous group events,
+      Avantama provides a very familial work environment.',
     ),
     2 => array(
-      'question' => 'Wie sieht Ihr klassischer Arbeitstag bei Avantama aus?',
-      'answer' => 'In der Regel komme ich kurz nach 7 ins Büro und erledige administrative Tätigkeiten, die bei mir als R&D Chemiker nicht allzu viel Zeit in Anspruch nehmen. Oft bespreche ich mich kurz mit meinem Teamleader Marek über den Status meiner Projekte. Den Rest des Arbeitstages verbringe ich mehrheitlich im Labor. Als Chemiker ist das Labor mein zweites zuhause und manchmal muss ich mich zusammenreissen, überhaupt wieder rauszukommen. Über den Mittag gehe ich meistens Trainieren. (fürs Training schaffe ich es immer raus) Als Leistungssportler darf das Training nicht zu kurz kommen, deshalb mache ich eine längere Mittagspause. Je nachdem finden sich auch andere Mitarbeiter von Avantama für ein Lauftraining oder eine Session im Gym ein, was immer ein lustiger Nebeneffekt ist. Zwischendurch machen wir auch unterhaltsame Pausen, die wir gerne mit Pingpong oder Tischfussball füllen. Irgendjemand sorgt dabei immer für Ausgelassenheit. Abends gegen halb 6 ist mein Arbeitstag in der Regel beendet und ich absolviere dann zu Hause noch auf ein zweites Training. ',
+      'question' => 'How does a typical day at the company look like? What excites you the most in
+      your current job?',
+      'answer' => 'My day at the company starts relatively early at 7 o\'clock when I check my mails and
+      do the boring administrative things as well as analyzing gathered data. Between 8
+      and 9 mostly everyone has arrived and the whole office gathers for a coffee break
+      with some chatting and sometimes a birthday cake or holiday sweets. Then the more
+      practical part starts with preparing chemicals and running our production line
+      involving analyzing samples with x-ray powder diffraction, UV/Vis spectroscopy and
+      many analytical tools. Due to confidentiality, I can\'t tell you more about specific tasks.
+      This work further extends into the afternoon and is only interrupted by another coffee
+      or ice cream break in the afternoon. Between 4 and 5 it\'s home time.
+      What excites me most about my job is to see how relatively simple chemicals can be
+      transformed into our fascinating final quantum dot material, involving intense color
+      changes, exactly what I imagined chemistry would be like as a child. ',
     ),
     3 => array(
-      'question' => 'Wie kam es, dass sie nun für Avantama arbeiten? Wie sind sie auf die Firma aufmerksam geworden?',
-      'answer' => 'Für mich als Leistungssportler war klar, dass ich eine finanzielle Unabhängig anstrebte um meine Karriere als Läufer weiterzuführen. Daneben entschied ich mich bewusst gegen ein Doktorat, da ich mich nicht über Jahre an die Stimmungsschwankungen eines Professors der ETH binden wollte. Schlussendlich war es Zufall. Ein Trainingspartner von mir hat mit Samuel Halim, dem CEO von Avantama, die Sekundarschule besucht. Er hat mich dann auf Avantama aufmerksam gemacht und als ich die Homepage aufsuchte und von den Quantum Dots erfuhr, wusste ich sogleich, dass dies mein Treffer war. Ich hatte bereits während meiner Master Thesis an Nanopartikeln geforscht und kannte die QDs von Professor Kovalenkos Vorlesungen. Ich sah erstmals die Möglichkeit, an etwas zu arbeiten, das mich auch intrinsisch interessierte.',
+      'question' => 'How did your application process look like prior to starting at this company?',
+      'answer' => 'I finished my master thesis right after the corona lockdown in summer 2020 and
+      realized that fewer companies are hiring compared to before the corona crisis. I then
+      started applying for internships, including one at Avantama. Samuel Halim, CEO of
+      Avantama and the person responsible for recruitment replied to my application and
+      asked if instead of an internship I would be interested in a full-time position. The first
+      part of the application process was an online interview with the CEO and CTO about
+      my CV and some scientific questions to test my knowledge and logical thinking. The
+      second part was conducted on site involving lab work and typical calculations thatwould be done in the lab. I got to know the whole company and was introduced to the
+      team I would be working with. Soon after I got the mail that would like to employ me.',
     ),
     4 => array(
-      'question' => 'Wie lief ihr Bewerbungsprozess bei Avantama?',
-      'answer' => 'Ich habe mich blind bei Samuel Halim beworben und durfte ungefähr nach zwei Wochen für die erste Bewerbungsrunde bei Samuel und Norman (CTO) erscheinen. Beide waren mir von Beginn weg sympathisch. Wir hatten ein unterhaltsames Gespräch, das sich hauptsächlich um Sport drehte. Weitere zwei Wochen später wurde ich für die zweite Bewerbungsrunde eingeladen, wobei die Arbeitsweise im Labor und das Verständnis der Materie im Vordergrund war. Dabei lernte ich die meisten anderen Mitarbeiter und meinen Abteilungsleiter Marek Oszajca kennen. Kurz darauf erhielt ich den Anstellungsvertrag.',
-    ),
-    5 => array(
-      'question' => 'Was glauben Sie unterscheidet Avantama von anderen Chemiefirmen? Was sind die drei grössten Vorteile von Avantama?',
-      'answer' => 'Avantama ist ganz klar nicht vergleichbar mit den traditionellen Chemiefirmen, wie beispielsweise Roche, Novartis oder Sika. Als ETH Start-up mit derzeit 25 Mitarbeitenden sind wir sehr überschaubar. Avantama hat im Vergleich zu grossen Firmen eine sehr flache Hierarchie, wobei anzumerken ist, dass ein typischer Karriereweg mit Ein- und späterem Aufstieg aufgrund dieser Strukturierung eher schwierig ist. Dafür ist Avantama ein extrem innovatives Unternehmen. Beispielsweise die Perovskit Quanten Dots haben spätestens seit Professor Kovalenkos Beiträgen um das Jahr 2015 Bekanntheit erlangt. Wir bieten diese mittlerweile kommerziell an und arbeiten intensiv mit verschiedenen Kunden, um den Markt mit unserer Technologie zu erreichen. Für mich zählt dabei besonders, dass mir viele Freiheiten gegeben werden, um die internen Ziele zu erreichen. Man soll dabei durchaus kreativ sein und «out of the box» denken. Die meisten Mitarbeiter sind in meinem Alter, haben kürzlich das Studium abgeschlossen und haben bei Avantama die erste Stelle. Wir stehen daher alle an einem ähnlichen Punkt im Leben, was uns sehr verbindet. Das Wichtigste ist für mich allerdings die Atmosphäre und Dynamik im Team und in der Firma generell. Bei Avantama haben wir eine super Stimmung, die mich motiviert meinen Beitrag zu leisten. Bei uns hat vom zurückhaltenden Nerd über den verrückten Wissenschaftler bis zum ehrgeizigen Sportler jeder seinen Platz. Es ist ein grosser Gewinn, wenn jeder nicht nur seine Fähigkeiten, sondern auch seine Persönlichkeit einbringen kann. Bei uns ist es Normalität, wenn wegen guten Ergebnissen durch das Labor gebrüllt wird, Mitarbeiter zu guter Musik tanzen oder ein gewisser Chemiker (nicht ich) mehrmals die Woche einen Truthahn imitiert. ',
-    ),
-    6 => array(
-      'question' => 'Was haben sie studiert und haben Sie sich durch das Studium gut auf Ihre jetzige Tätigkeit vorbereitet gefühlt?',
-      'answer' => 'Ursprünglich habe ich eine Lehre als Hochbauzeichner absolviert und die Matura dann nachgeholt. Den Bachelor habe ich in Biochemie an der Universität Bern abgeschlossen und bin danach für den Master in Chemie an die ETH Zürich gewechselt. Seit ich bei Avantama angefangen habe, bin ich wirklich erstaunt, dass doch viele Elemente aus dem Studium für meine tägliche Arbeit durchaus relevant sind. Besonders die Vorlesungen von Professor Kovalenko haben mir hierfür einiges an Vorwissen eingebracht. Die Grundkenntnisse aus dem Studium erleichtern den Alltag sicherlich, besonders da im R&D viele neue, kreative Ideen ausprobiert werden. Ganz klar kann ich sagen, dass sich das Studium hierfür sehr gelohnt hat.',
+      'question' => 'What did you study and how did it prepare you for the work you are doing
+      now?',
+      'answer' => 'I did my bachelor and master\'s degree in material science at ETH. On a scientific
+      level I felt prepared well and most knowledge regarding the chemical processes and
+      the physics of the quantum dots was taught as part of the curriculum. On a more
+      practical level there was more of a challenge with working on big and heavy chemical
+      reactors. All the work in the lab is more on the gram and milliliter scale and suddenly
+      adding three orders of magnitude changes the way of handling as well as the
+      necessary safety precautions. Otherwise as a more interdisciplinary study, material
+      science helped a lot to bridge chemical problems with engineering solutions.',
     ),
   ),
 );

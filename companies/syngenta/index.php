@@ -7,8 +7,6 @@ include('php/general.php');
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
 include('php/language_cookie.php');
 
-
-
 // creates $lang array and provides translation text for common elements (navigation and footer)
 include('includes/language.php');
 
@@ -35,102 +33,120 @@ $template['company_name'] = 'Syngenta';
 $template['company_name_short'] = 'syngenta';
 $template['logo_url'] = set_source($awss3.'/companies/syngenta/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 2;
+$template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
 $template['homepage'] = array('https://www.syngenta.ch','syngenta.ch');
-$template['facebook'] = array('https://www.facebook.com/Syngenta/', 'Syngenta');
+//$template['facebook'] = array('https://www.facebook.com/Syngenta/', 'Syngenta');
 $template['linkedin'] = array('https://ch.linkedin.com/company/syngenta','Syngenta');
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Syngenta Crop Protection (CP) is one of the four business units of Syngenta Group, a global leader in agricultural technology and innovation with 49000 employees in more than 100 countries. Headquartered in Basel, Switzerland, Syngenta CP has an industry-leading R&D pipeline, strong research capabilities and a broad product portfolio of herbicides, insecticides, fungicides, and seed treatments.');
+  'text' => 'Syngenta Crop Protection (CP) is one of the four business units of Syngenta Group, 
+  a global leader in agricultural technology and innovation with 49000 employees in more than 100 countries. 
+  Headquartered in Basel, Switzerland, Syngenta CP has an industry-leading R&D pipeline, strong research capabilities 
+  and a broad product portfolio of herbicides, insecticides, fungicides, and seed treatments.');
 
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'A diverse workforce and an inclusive workplace environment are enablers of our ambition to be the most collaborative and trusted team in agriculture. Our employees reflect the diversity of our customers, the markets where we operate and the communities which we serve.');
+  'text' => 'At our company both students and graduates can apply their knowledge, gain initial experience, learn and grow
+  in a variety of areas and benefit from the know-how and experience of our employees. We offer internships at all levels
+  during your academic education (undergraduate, graduate, postgraduate and postdoctoral level) lastring from 3 to 12 months.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We’re keen to recruit the best graduates from a variety of disciplines. Agronomy, biology, chemistry or engineering – at Syngenta CP, students and graduates in a wide range of disciplines will find an opportunity to launch their career.');
+  'text' => 'We are looking for enthusiastic and talented individual who want to launch their career in science,
+  chemistry, biology and engineering in order to meet the present and future challenges of a dynamic
+  and demanding market environment.');
 
-$template['button_print_until'] = 1; 
-$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation');
+$template['button_print_until'] = 0; 
+ //$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation');
 
 
 $template['interview_print_until'] = 1;
  // if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
   $template['interview'][$i++] = array(
-    'name' => 'Dr. Camille Le Chapelain',
-    'img_url' => $awss3.'/companies/syngenta/interviewee_2021_1',
-    'position' => 'Team Leader in Disease Control Chemistry',
+    'name' => 'Amandine Kolleth',
+    'img_url' => $awss3.'/companies/syngenta/interviewee_2022_1',
+    'position' => 'Crop Protect
+    Research Chemist (Principal Scientist)',
   
     'education' => array(
       0 => array(
-        'date' => '2011-2015',
-        'desc' => 'PhD ETHZ in the group of Prof. Carreira',
-      ),
-      1 => array(
-        'date' => '2009-2010',
-        'desc' => 'MSc ETHZ, master thesis in the group of Prof. Diederich',
-      ),
-      2 => array(
-        'date' => '2006-2010',
-        'desc' => 'Ecole Polytechnique (France)',
+        'date' => '',
+        'desc' => '',
       ),
     ),
-
     'career' => array(
       0 => array(
-        'date' => '2020-present',
-        'desc' => 'Syngenta, chemistry lead in lead generation (disease control)',
-      ),
-      1 => array(
-        'date' => '2018-2020',
-        'desc' => 'Syngenta, team leader in lead optimization (insect control)',
-      ),
-      2 => array(
-        'date' => '2017-2018',
-        'desc' => 'Syngenta, team leader in process chemistry research',
-      ),
-      2 => array(
-        'date' => '2015-2017',
-        'desc' => 'Technische Universität München, postdoctoral fellow at the Chair of Biochemistry with Prof. Groll',
+        'date' => '',
+        'desc' => '',
       ),
     ),
 
     'interview' => array(
       0 => array(
-        'question' => 'What are your current responsibilities at Syngenta?',
-        'answer' => 'I am currently lead chemist in disease control lead generation. As part of a discovery team which consists of scientists from different disciplines (chemistry, biology, biochemistry, computational chemistry, product safety…), we are responsible to find new mode of actions and active chemical classes to progress in the pipeline. Therefore, I define the discovery strategy in disease control together with the other team members, design new active ingredients, analyze the structure-to-activity relationship in different projects. Being the lead chemist, I oversee all chemistry activities and resources. I am also a lab head and prepare research programs for my team and help my coworkers troubleshoot synthetic issues. There are also many networks and initiatives on specific topics in our department. For instance, I am particularly interested in integrating biocatalysis in our discovery activities. As such, I am currently engaged in a couple of collaborations with academics and CROs.',
+        'question' => 'What does your current role as a Crop Protect
+        Research Chemist (Principal Scientist) at Syngenta entail?',
+        'answer' => 'In Stein we cover 3 indications for crop protect research: Disease control, Insect control and
+        Plant health-Soil health (Weed control is based at Jealott\'s-Hill, our site in UK). I am currently
+        working in Insect control in lead exploration projects, these are early stage projects that have
+        just left the discovery phase. In this role, I am responsible of the chemistry of one project,
+        which starts with the design of the molecules we want to make, then elaboration of the
+        synthetic routes, bring support to the synthesis chemists in their daily work by
+        troubleshooting, advices etc, and finally, analyse the data once the molecule are tested to
+        restart a new wave of design and synthesis. In addition to this role, I am also project leader
+        which consists in having a cross functional understanding of the priorities of the project
+        (Biology, Toxicology, Bioscience etc…) to build a science plan and coordinate the activities to
+        ensure a good delivery of the project.',
       ),
       1 => array(
-        'question' => 'What advice would you give to a freshly graduating ETH student who is about to embark on their job hunt?',
-        'answer' => 'Employers want to get to know you and understand how you work as a researcher. It is always interesting to see candidates explain how they tackled issues, took some risks, and sometimes failed ! A lot can be learnt from failed attempts, it is an important part of research and of your growth as a researcher. I would thus advise students to show not only the successful results, but also insist on the steps they have taken to get there. In general, it is important to be genuine and not just try to impress. Taking some time to reflect on the successes and difficulties one has faced before an interview is important. Another advice would be to be curious about the company and the field you apply to. I was not familiar with agrochemistry when I applied at Syngenta and read a couple of opinion article from the scientific literature about the challenges in this field before the interview. Come with an open mind, ready for discussion with fellow scientists. Finally, do not hesitate to contact your network of former colleagues, they can provide you with some insights and tips.',
+        'question' => 'What made you want to do your postdoc at Syngenta? Was is related to your PhD
+        topic?',
+        'answer' => 'Since the beginning of my PhD I always knew I wanted to work in industry. I wanted to see
+        the direct applicability of my work and be part of a team where everybody contributes to the
+        same goal. To be completely honest I didn\'t know if I wanted to make my postdoc inacademia or in industry, the most important thing for me at that time was to keep growing my
+        knowledge in chemistry, learn new things and enrich my CV with publications as we know
+        that Organic chemistry in a highly competitive field. During the last year of my PhD, I have
+        been selected to join the Syngenta PhD workshop in Stein (organized every second year)
+        and I really enjoyed working on real case exercises and seeing the challenges that Syngenta
+        tackles. I have been lucky that, in the end of these 2 days, my future boss Dr Alain De
+        Mesmaeker proposed me a postdoc fellowship, of course I accepted and never left the
+        company since then. Obviously my role evolved a lot but this is also what I like at Syngenta,
+        the perspective of evolution are infinite. My postdoc was not related to my PhD topic, I
+        worked (2.5 years) on the synthesis of 4 membered rings in using keteniminium
+        intermediates while a spent most of my PhD on the total synthesis of a natural product.',
       ),
       2 => array(
-        'question' => 'How does your typical working day look like at Syngenta?',
-        'answer' => 'I usually have a chat with my team and check the new biological results. As part of a multidisciplinary team, I have some chemistry-centered and also cross-functional discussions on projects. I also spend some time reading the literature, especially the pharma drug discovery literature. I really appreciate not having a routine and being trusted with a lot of freedom in the way I organize my day.',
+        'question' => 'How does a typical day at the company look like? What excites you the most in your
+        job?',
+        'answer' => 'This is what I like in my job, there is not a typical day, it’s always different. Of course the
+        design of new molecules is a big part of my time, it is not only about finding the most
+        biologically active molecule but really optimize on the full spectrum even for an early phase
+        project (physchem, biology, species selectivity, toxicology, soil endpoints, …). Data analysis
+        becomes also more and more important as we generate more data than in the past since
+        biological activity was almost the only driver in the beginning of a project. I like being part of
+        a team and see everybody dedicated to the same goal.',
       ),
       3 => array(
-        'question' => 'How did you end up working for Syngenta? What got you interested in considering working for Syngenta?',
-        'answer' => 'After two years of postdoc, I felt I was ready to take the next step and get a job in industry. I looked for positions in Switzerland for personal reasons. At that time, there was a job opening at Syngenta that fitted the type of position I was looking for. I knew several former colleagues working there, so I had some ideas which job Syngenta may offer in research chemistry. I was curious about agrochemistry, the challenges the field was facing in terms of public perception, climate change and increased need of sustainability. These difficulties are good drivers for research and innovation.',
+        'question' => 'How would you describe the working atmosphere at Syngenta?',
+        'answer' => 'It is highly collaborative. We are always part of a team, we can challenge our ideas,
+        reformulate our hypotheses and mix our creativity for the best of the project. We have all
+        different background, experience, expertise and this is what makes our strength.',
       ),
       4 => array(
-        'question' => 'How was your application process at Syngenta?',
-        'answer' => 'I saw an ad for a team leader position in research on Jobs.ch. I went on Syngenta’s website and filled the application, consisting of a CV, a cover letter and a short research summary. I was then contacted for a phone interview. After a short introduction with a team leader, there was a technical discussion based on the summary I had provided. Once this first screen done, I was invited for a full day interview on site. The night before, another candidate and I went to dinner with one of the team leaders. The next day consisted of a presentation of my PhD and postdoc work, 3 technical interviews, an interview with a HR representative and a soft skills interview. At the end, I had a tour of the chemistry labs and the site. It was quite intense, but I had a good feeling and enjoyed the day, which is really important!',
-      ),
-      5 => array(
-        'question' => 'What differentiates Syngenta from other Chemical companies in your opinion? What are the main advantages of working for Syngenta, in your opinion',
-        'answer' => 'I do not have much experience of other companies, so it is tough to compare. Agrochemical research is not as known and advertised as pharmaceutical research, despite the importance and need for in-house innovation. As research scientists, we have a chance to shape a more environment-friendly agriculture and provide new solutions to satisfy both farmers and consumers. What we do can impact farmers all around the world, which is highly motivating. Syngenta chemistry department is quite large, so you have possibilities to evolve in different directions: research, management, project management portfolio…, which I think is an advantage. We have several sites in Switzerland (headquarter, research, development, and production), so there are many opportunities. I feel also privileged to work in a multi-cultural environment surrounded by smart colleagues ! ',
-      ),
-      6 => array(
-        'question' => 'What did you study, and was the fact, that you were a graduate from ETH an advantage?',
-        'answer' => 'I first studied in France at the Ecole polytechnique with a broad scientific training, before starting to specialize in chemistry. Organic chemistry was always the topic I preferred, together with medicinal/biological chemistry. When I moved to ETHZ for my MSc, I continued in this direction. After a PhD in organic chemistry, I changed quite dramatically by doing a postdoc in structural biochemistry, a field I had no experience in. Going outside my comfort zone was difficult and refreshing at the same time, and it brought me a different perspective on research and chemistry in general. Being an ETH graduate provides you with a good education, visibility and usually a good network. Events like Chemtogether help graduates get in contact with companies and understand the offers they may have.',
+        'question' => 'Which advice would you give to ETH graduates who are looking for a job outside
+        academia?',
+        'answer' => 'I would of course advice to have a strong scientific background but beside that develop as
+        early as possible additional skills. Soft skill for instance (leadership skills, argumentation
+        skills, good oral communication) are extremely important as I said before, we never work
+        alone, and build and favor a team cohesion is essential. On top of everything, be curious:
+        research in general can only progress if we ask questions and be open to not find an
+        obvious and quick answer.',
       ),
     ),
   );

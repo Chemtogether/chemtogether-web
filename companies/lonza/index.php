@@ -34,101 +34,164 @@ $active_nav = 'companies';
 $template['company_name'] = 'Lonza';
 $template['company_name_short'] = 'lonza';
 $template['logo_url'] = set_source($awss3.'/companies/lonza/logo','png', FALSE);
-$template['package'] = 'silver';
-$template['day'] = 1;
+$template['package'] = 'gold';
+$template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2019 - Firmen: '.$template['company_name'], 'Chemtogether 2019 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
 $template['homepage'] = array('http://www.lonza.com/','lonza.com');
-$template['facebook'] = array('https://www.facebook.com/LonzaGroupAG/', 'Lonza Group');
 $template['linkedin'] = array('https://www.linkedin.com/company/lonza/','Lonza');
-// $template['mail'] = array('','');
 $template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Lonza is an integrated solutions provider that creates value along the Healthcare Continuum®. We focus on creating a healthy environment, promoting a healthier lifestyle and preventing illness through consumers\' preventive healthcare, as well as improving patient healthcare by supporting our customers to deliver innovative medicines that help treat or even cure severe diseases.
+  'text' => 'Lonza is a preferred global partner to the pharmaceutical, biotech and nutrition markets. We work to enable a
+  healthier world by supporting our customers to deliver new and innovative medicines that help treat a wide range of 
+  diseases. We achieve this by combining technological insight with world-class manufacturing, scientific expertise and 
+  process excellence.
   ');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world, including Europe, North America and Asia.');
+   'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, 
+   and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge 
+   by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. 
+   With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'For our site in Visp we are looking for skilled workers from all areas of Life Science. You can expect the best of both worlds: A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
+  'text' => 'For our sites in Visp, Basel, Stein & Monteggio we are looking for 
+  skilled  and ambitious workers from all areas of Life Science. You can expect the best of both worlds: 
+  A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
   ');
 $template['button_print_until'] = 0; 
-$template['interview_print_until'] = 0;
+$template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;
 
 $template['interview'][$i++] = array(
-    'name' => 'Dr. Gunnar Zoch',
-    'img_url' => $awss3.'/companies/lonza/interviewee_2019_1',
-    'position' => 'Senior Project Leader QC',
+    'name' => 'Ala\'a ',
+    'img_url' => $awss3.'/companies/lonza/interviewee_2022_1',
+    'position' => 'QA Ops Team Leader, QA mRNA',
   
     'education' => array(
       0 => array(
-        'date' => '2014-2017',
-        'desc' => 'Doctor of Sciences in Immunology, Department of Clinical Research at the Inselspital Bern',
-      ),
-      1 => array(
-        'date' => '2015-2016',
-        'desc' => 'Bachelor Minor in Business Administration, University Bern',
-      ),
-      2 => array(
-        'date' => '2008-2014',
-        'desc' => 'BSc and MSc in Biochemistry and Molecular Biology, Christian-Albrechts University in Kiel',
+        'date' => '',
+        'desc' => '',
       ),
     ),
   
     'career' => array(
       0 => array(
-        'date' => '2018',
-        'desc' => 'Senior Project Leader QC, Lonza AG',
+        'date' => '',
+        'desc' => '',
       ),
-      1 => array(
-        'date' => '2017-2018',
-        'desc' => 'Scientist QA, CSL Behring',
-      ),
+
     ),
   
     'interview' => array(
       0 => array(
-        'question' => 'What are your responsibilities as senior project leader in the quality control at Lonza?',
-        'answer' => 'I am the representative of the QC to customers, internal and external, and the project representative to the QC. This involves all aspects of the quality control from raw materials, production support, batch release to validations. I act as an organizer and planner, a mediator or a subject matter expert.',
-      ),
-      1 => array(
-        'question' => 'You worked in the academia and in an hospital during your studies and now in the industry. Can you describe how the work differs between academia, hospitals and the industry?',
-        'answer' => 'In the academic environment, I found that one could plan further ahead with greater precision. It depended more on one’s own scheduling and organizing. The clinic brought in more dependencies on other people and their ability to keep to schedules/deadlines. This is further increased in the industry. The same goes for the level of detail in your documentation.',
-      ),
-      2 => array(
-        'question' => 'How have your studies prepared you for the role as senior project leader?',
-        'answer' => 'The single biggest impact had the self-organisation I achieved while doing my PhD. Also multitasking and networking inside your own organisation makes your work easier.',
-      ),
-      3 => array(
-        'question' => 'During your PhD and your studies, you focused on immunology, biochemistry and molecular biology. How can you apply your expertise in biochemistry and immunology in your daily work at Lonza?',
-        'answer' => 'As I work with antibody-drug-conjugates, my biochemistry and immunology background allows me to understand the why’s and what’s of our products and the methods we use to analyse them. Also, it facilitates the impact assessment of any deviations and determining the root causes.',
-      ),
-      4 => array(
-        'question' => 'How important is harmony between work and outside life for you? Does Lonza offer a good work-life balance for its employees?',
-        'answer' => 'Life-work balance may be hollow phrase for some, but it is very important to me and it is also one aspect I like about Lonza. I enjoy flexible hours, the ability to work from home and easy overtime compensation. Lonza also offers several sport groups, training for the Matterhorn marathon for example, and even vacation homes.',
-      ),
-      5 => array(
-        'question' => 'During your PhD you completed a Bachelor Minor in Business Administration. In which aspects did this further education added missing points to your spectrum that you missed after your Masters in Biochemistry and Molecular Biology?',
-        'answer' => 'Getting to know the basics of business administration helped me in my professional and personal life. Having a grasp on accounting or understanding different philosophies of management lets you understand the decision made by a company or situations you find yourself in. Especially learning about the types of leadership a person display helped on weighing my options and deciding what kind of leader I want to be myself.',
-      ),
-      6 => array(
-        'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or internships?',
-        'answer' => 'For jobs, do not pass over temporary jobs that, for example, last less than 6 months. These positions offer you a great chance to actually see and feel what is like in that position. This will help you for the next application as you know better what you are looking for, in a boss, in the position and in the size of the company. Give your CV and motivation letter to multiple persons to check and comment on.',
+        'question' => 'Can you share your career story at Lonza with us?',
+        'answer' => 'My first contact with Lonza was reading about it in the news, and I was impressed
+        with its growth and how it covers a diverse range of therapies - from smallmolecules, to cell and gene and biologics. I joined Lonza in July 2019 as a Quality
+        Assurance Manager, and in 2022 I was promoted to be a member of the QA mRNA
+        leadership team.
+        My team and I play a crucial role in supporting the safe and consistent production of
+        mRNA, adhering to specific standards and striving to continuously improve results
+        and eliminate errors - which ensures the safety of the patient. My work involves
+        finding innovative solutions to challenges and making sure my team is engaged,
+        curious and takes the initiative to find the best possible solutions. I feel like I am in
+        the right organization to learn, grow and make an impact.
+        I love working with such a dedicated and reliable team, and seeing my team
+        members prosper and grow is the biggest motivation for me, and keeps me moving
+        forward. Working with employees from over 58 countries is something pretty special
+        about working at Lonza Visp, and something that one does not encounter that often.
+        I am also an ambassador for Valais4You, where I support my colleagues in
+        integrating not only at Lonza, but the Valais region as well. It is exciting to see the
+        site growing and more customers choosing to partner with us.',
       ),
     ),
 );
 
+
+$template['interview'][$i++] = array(
+  'name' => 'Edwin',
+  'img_url' => $awss3.'/companies/lonza/interviewee_2022_2',
+  'position' => 'Lead Scientist in Phys-Chem Analytics & Quality Control Group',
+
+  'education' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+
+  ),
+
+  'interview' => array(
+    0 => array(
+      'question' => 'I chose Lonza because…',
+      'answer' => 'Lonza is incredibly agile, always evolving to serve the needs of the industry by
+      developing new technologies and solutions. With Lonza growing so quickly, I felt
+      there were lots of opportunities and potential to grow with the company.',
+    ),
+    1 => array(
+      'question' => 'Since I started at Lonza, my career has progressed…',
+      'answer' => 'Beyond my expectations since 2011, when I started as a trainee with Lonza\'s
+      Analytical Services Department in Slough (UK) under the Singapore Economic
+      Development Board\'s STRAT program. It was a rigorous 1-year training program
+      across various analytical groups like process analytics, characterization and method
+      development & validation. By month ten, I was trained to perform around 15 Lonza
+      platform bioanalytical assays and was offered a role as Analytical Technologist by
+      Lonza, Singapore Development Services. In 2014, I was promoted to the Scientistposition. In 2017, I joined the recently established drug product services business
+      unit as Senior Scientist in Phys-Chem Analytics & Quality Control Group. It\'s been
+      an amazing few years.',
+    ),
+    2 => array(
+      'question' => 'It\'s special to work at Lonza because…',
+      'answer' => 'It offers the whole spectrum of services from drug substance development all the
+      way to drug product manufacturing. We\'re unlike any other contract development
+      and manufacturing organization (CDMO) - we don\'t just act like a service provider
+      but we actively solve our customer\'s challenges.',
+    ),
+    3 => array(
+      'question' => 'My work is meaningful because…',
+      'answer' => 'We have lots of experience and expertise, allowing to act as consultants and help
+      customers get their drugs to market faster. I learn something new every day and
+      being in a multinational company enables me to work closely with colleagues from
+      various sites.',
+    ),
+    4 => array(
+      'question' => 'What makes me feel good at the end of the working day is…',
+      'answer' => 'Knowing that what we do in the lab helps to ensure the quality, identity, strength, and
+      purity of drug products that impact the lives of patients. Being able to deliver
+      analytical data to customers on time also makes a big difference. And I enjoy helping
+      to onboard new colleagues so they can hit the ground running and get their first jobs
+      right, first time.',
+    ),
+    5 => array(
+      'question' => 'The most exciting thing about working at Lonza is…',
+      'answer' => 'The dynamic, fast-paced and challenging nature of the company and the work we
+      do.',
+    ),
+    6 => array(
+      'question' => 'What I most appreciate about my team is…',
+      'answer' => 'Their wonderful personalities. I also get incredibly strong support and recognition
+      from my managers. The teamwork is second to none, everyone collaborates and
+      helps one another towards a common goal.',
+    ),
+
+  ),
+);
 include('../0_template/template.php');
 
 ?>

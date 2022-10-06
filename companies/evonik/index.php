@@ -18,31 +18,33 @@ $active_nav = 'companies';
 //   "image_width"  => "",
 //   "image_height" => ""
 // );
-$template['company_name'] = 'Sika Services AG';
-$template['company_name_short'] = 'sika';
-$template['logo_url'] = set_source($awss3.'/companies/sika/logo','png', FALSE);
+$template['company_name'] = 'Evonik Industries AG ';
+$template['company_name_short'] = 'evonik';
+$template['logo_url'] = set_source($awss3.'/companies/evonik/logo','png', FALSE);
 $template['package'] = 'base';
-$template['day'] = 1;
+$template['day'] = 2;
 $lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
-$template['homepage'] = array('http://che.sika.com/','che.sika.com');
-//$template['facebook'] = array('https://www.facebook.com/SikaSchweizAG/', 'Sika Schweiz AG');
-$template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
-// $template['mail'] = array('','');
-$template['archive'] = '/archive/sika';
+$template['homepage'] = array('https://corporate.evonik.com/','evonik.com');
+$template['linkedin'] = array('https://www.linkedin.com/company/evonik/','Evonik');
+
+$template['archive'] = '/archive/evonik';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing, and protecting in the building sector and motor vehicle industry. Sika has subsidiaries in 100 countries around the world and manufactures in over 300 factories. At this time we employ 27,000 people worldwide.');
+  'text' => 'Evonik is one of the world leaders in specialty chemicals. The company is activa in more
+  than 100 countries and generated sales of 15 billion euros and an operating profit of 2.38 billion euros in 2021. 
+  Evonik goes far beyond chemistry to create innovative, profitable and sustainable solutions.
+  More than 33000 employees work together for a common purpose: We want to improve life, today and tomorrow.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'innovating and challenging internships and traineeships focusing on specialty chemicals in the field
-  of research and development. You will work independently and learn first-hand about the many aspects
-  of chemistry and material sciences found in the various fields of Sika Technology.');
+  'text' => 'From trainee programs to zeolite research, at Evonik you will discover a world of opportunities for every
+  stage of your career.');
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'open-minded and proactive people with an international focus, who are interested in new technologies
-  and exciting challenges.');
+  'text' => 'Apply your studies to the real world and kick-start cour career with Evonik. Internships,
+  trainee programs, theses, final projects, networking, dual courses of study, grants, scholarships and 
+  opportunities to launch careers. With Evonik, the only limit to your potential is your ambition and imagination.');
   $template['button_print_until'] = 0;
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

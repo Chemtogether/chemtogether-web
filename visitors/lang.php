@@ -49,8 +49,8 @@ $lang['content']['collaboration'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2022 wieder an den zwei Tagen der Chemtogether teil. Genauere Informationen zu unseren Partnern werden zeitnah hier veröffentlicht. ',
-    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2022. More detailed information on our partner companies will be published here soon.');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2022 wieder an den zwei Tagen der Chemtogether teil.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2022. ');
 
 $lang['content']['day1'] = array('Dienstag, 8. November','Tuesday, 8th of November');
 $lang['content']['day2'] = array('Mittwoch, 9. November', 'Wednesday, 9th of November');

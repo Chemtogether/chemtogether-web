@@ -8,47 +8,36 @@ include('includes/language.php');
 // include all translations from local file
 include('../data.php');
 include('../lang.php');
+
 // GENERAL
 $active_nav = 'companies';
-if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
-  $fb = array(
-    "title"        => "Interview with Dr. Michael Seet from BASF - Chemtogether",
-    "desc"         => "Dr. Michael Seet works as Research Scientist at BASF. Learn more about his career and work in his interview, and meet BASF at this year's Chemtogether!",
-    "url"          => "",
-    "image_url"    => $awss3."/opengraph/basf_0_20181002.jpg",
-    "image_width"  => "800",
-    "image_height" => "420"
-  );
-} else {
-  // $fb = array(
-  //   "title"        => "",
-  //   "desc"         => "",
-  //   "url"          => $awss3."/opengraph/",
-  //   "image_url"    => "",
-  //   "image_width"  => "",
-  //   "image_height" => ""
-  // );
-}
+
+// $fb = array(
+//   "title"        => "",
+//   "desc"         => "",
+//   "url"          => $awss3."/opengraph/",
+//   "image_url"    => "",
+//   "image_width"  => "",
+//   "image_height" => ""
+// );
+
 $template['company_name'] = 'BASF';
 $template['company_name_short'] = 'basf';
 $template['logo_url'] = set_source($awss3.'/companies/basf/logo','png', FALSE);
 $template['package'] = 'gold';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.basf.com','basf.com');
-$template['facebook'] = array('https://facebook.com/basf/', 'BASF');
+//$template['facebook'] = array('https://facebook.com/basf/', 'BASF');
 $template['linkedin'] = array('https://www.linkedin.com/company/basf/','BASF');
 $template['mail'] = array('jobs','basf.com');
-
-
-// $template['mail'] = array('','');
 $template['archive'] = '/archive/basf';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 110,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.');
+  'text' => 'At BASF, we create chemistry for a sustainable future. We combine economic success with environmental protection and social responsibility. The approximately 111,000 employees in the BASF Group work on contributing to the success of our customers in nearly all sectors and almost every country in the world. Further information at www.basf.com.');
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => 'BASF offers a variety of entry and career opportunities at various sites for natural scientists, engineers and digital talents:
@@ -71,318 +60,148 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'BASF relies on committed people with different experiences and perspectives. In addition to specialist knowledge and practical skills, the company values personal skills: A high degree of team spirit, good communication skills and intercultural skills are just as important as a sense of responsibility, entrepreneurial spirit and innovative spirit.');
 
-$template['button_print_until'] = 1;
+// 2021: flash presentation  
+$template['button_print_until'] = 0;
 $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-basf">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-basf">Watch our Flash presentation');
 
-$template['interview_print_until'] = 1; 
-// if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
+$template['interview_print_until'] = 2; 
 
 $i=0;
 
 $template['interview'][$i++] = array(
-  'name' => 'Dr. Nicolle Langer',
-  'img_url' => $awss3.'/companies/basf/interviewee_2021_1',
-  'position' => 'Head of Packaging & Labelling – Agricultural Solutions Europe',
+  'name' => 'Dr. Alice Glättli',
+  'img_url' => $awss3.'/companies/basf/interviewee_2022_1',
+  'position' => 'VP Strategy & Innovation for Performance Chemicals',
 
   'education' => array(
     0 => array(
-      'date' => '2004-2005',
-      'desc' => 'Postdoc with Fraser Stoddart, UCLA',
-    ),
-    1 => array(
-      'date' => '2000-2004',
-      'desc' => 'Ph.D. with Francois Diederich, D-CHAB, ETH Zurich',
-    ),
-    2 => array(
-      'date' => '1995-2000',
-      'desc' => 'Chemistry Studies, Netherlands and ETH Zurich',
+      'date' => '',
+      'desc' => '',
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => '2005-present',
-      'desc' => 'BASF',
+      'date' => '',
+      'desc' => '',
     ),
   ),
 
+
   'interview' => array(
     0 => array(
-      'question' => 'What’s your current job description at BASF?',
-      'answer' => 'I am group leader for packaging, labelling and artwork for agrochemical solutions in Europe.',
+      'question' => 'What brought you to BASF after your studies and PhD at ETH?',
+      'answer' => 'Towards the conclusion of my PhD in the area of computational and physical chemistry in the group of Prof. Wilfred van Gunsteren, I was exploring different career options such as strategy consulting, scientific publishing, research in academia or industry. In the end, I found the offer from BASF most compelling, as I
+      got the opportunity to start as a lab leader in central research with the perspective to develop into roles beyond R&D after a few years.',
     ),
     1 => array(
-      'question' => 'At which BASF site are you currently working?',
-      'answer' => 'My office is in Limburgerhof, Germany, but since 03/2020 I have worked mainly remotely in home office.',
+      'question' => 'You have been in this company for many years now, which aspects have changed in the company and also in your task repertoire?',
+      'answer' => 'Over the past 17 years, many different aspects in the company have evolved and changed. BASF strengthened its presence in Asia and has expanded and adapted its business 
+      and technology portfolio in line with our company purpose of creating chemistry for a sustainable future. As an energy- and resource-intensive company
+      we are now facing what is probably the biggest transformation in our over 150-year history: The transformation to a carbon-neutral and circular economy. This requires not 
+      only the continued development of high-performance products with clear sustainability benefits for our customers, but also new concepts and approaches in
+      the way we produce and what raw materials we use. Also, with regard to my own task repertoire, many aspects changed over the years. I started at
+      BASF as a lab leader in central research for crop protection and then moved to different positions & responsibilities ranging from product management,
+      marketing to new business development, sustainability and strategy. In each position and new responsibility, I benefitted from my past experiences and at the same time learned a lot of new things as well as expanded my skillset and network. I also had the chance
+      to work for some time in our North American headquarter in New Jersey.',
     ),
     2 => array(
-      'question' => 'What is a typical working day at BASF like?',
-      'answer' => 'Until 9 am, reading and answering emails. Afterwards, there are numerous alignments on technical and organizational topics.',
+      'question' => 'Why would you recommend ETH graduates to start their industry experience at BASF?',
+      'answer' => 'BASF is a very large international chemical company, present in about 90 different
+      countries serving numerous industries with innovative products & offerings. So, there
+      are a lot of
+      exciting development opportunities in almost any direction within the company. What
+      I personally find very appealing is that fact that you can start your career in research
+      and after a few years you can decide to either pursue the expert-track and deepen
+      your knowledge and expertise in a specific field or develop into different roles outside
+      of research. ',
     ),
     3 => array(
-      'question' => 'How did it come, that you are now working at BASF? What made you aware of BASF?',
-      'answer' => 'BASF is a known company to most chemists. After my post-doc, I applied with several companies in and around Switzerland.  BASF was offering me the most interesting position.',
+      'question' => 'What makes working at BASF so unique?',
+      'answer' => 'This is on the one hand the strong and collaborative network – no matter the
+      question you will always find someone who can and is happy to help, and on the
+      other hand the diverse development opportunities – my career path is just one
+      example of many illustrating the possibilities to develop within and beyond R&D at
+      BASF.',
     ),
     4 => array(
-      'question' => 'How did the application process at BASF work?',
-      'answer' => 'I sent my application by (paper!)mail from the USA to Germany. On recruitment day, I held a scientific presentation and afterwards had several interviews. I received the offer to work for BASF on the same day.',
+      'question' => 'Which advice would you give ETH students who are willing to step out into
+      the world of industry?',
+      'answer' => 'Take some time to explore what you would like to do, be curious and talk to different
+      people to find out more about opportunities in industry. Make use of events such as
+      Chemtogether or Polymesse to get to know company representatives. And of course,
+      internships are a very good way to gain some first-hand experience and to a good
+      starting-point to build a network in industry.',
     ),
-    5 => array(
-      'question' => 'How is BASF different from other companies in the chemical industry?',
-      'answer' => 'Due to the size of the company and the numerous different business areas, there are good possibilities to develop oneself in almost any direction.  This was the main reason for me to choose for BASF 16 years ago.',
-    ),
-    6 => array(
-      'question' => 'What did you study, and do you think it prepared you well for your current role?',
-      'answer' => 'I studied and did my PhD in chemistry. My first job at BASF was rather close to my Ph.D. topic, but my current job is hardly related to chemistry. A scientific education is a good basis for personal development, no matter in what direction one finally moves.',
-    ),
-    7 => array(
-      'question' => 'What advice would you give to a recent ETH graduate, that is currently looking for a job?',
-      'answer' => 'Be open-minded, talk to people and read as much as possible job descriptions. Most likely, you will find out, what first direction you would like to take. Don´t worry too much about further steps.  
-      ',
-    ),
-    8 => array(
-      'question' => 'Since when do you work for BASF and how did your position change during this time?',
-      'answer' => 'I have worked at BASF for 16 years, now being in my fourth position. I started, as almost every chemist, as lab team leader in research. Afterwards, I held positions in procurement and technology before taking over my current position. With every job change, I used my past experience and learned a lot of new things.',
-    ),
-    9 => array(
-      'question' => 'What are your plans at BASF?',
-      'answer' => 'To stay interested and keep learning, no matter in what direction and/or position.'),
-    10 => array(
-      'question' => 'Is it possible to change between the divisions of BASF? Would it be for example possible to switch from R&D to production or marketing?',
-      'answer' => 'Absolutely yes: my career is the perfect example!'),
-    11 => array(
-      'question' => 'How important is the work-life balance at BASF? Are you satisfied with the work-life balance at BASF?',
-      'answer' => 'Work-life-balance is fundamental to me to stay energized. I am happy with my work-life balance: we have flexible working hours and it is fully accepted that the family (father and mother) needs time to take care of their kids.'),
-    12 => array(
-      'question' => 'What do you like most about the corporate culture at BASF?',
-      'answer' => 'The strong network. For almost every question, you will find somebody who can help.'),
   )
 );
 
 
-
 $template['interview'][$i++] = array(
-  'name' => 'Dr. Nikolas Huwyler',
-  'img_url' => $awss3.'/companies/basf/interviewee_2019_2',
-  'position' => 'Laboratory Team Leader',
+  'name' => 'Oliver Enger',
+  'img_url' => $awss3.'/companies/basf/interviewee_2022_2',
+  'position' => ' ',
 
   'education' => array(
     0 => array(
-      'date' => '2009-2015',
-      'desc' => 'Doctor of Sciences at ETH Zurich, Group of Prof. Carreira',
-    ),
-    1 => array(
-      'date' => '2008-2009',
-      'desc' => 'Research Internship at MIT, Group of Prof. Jamison',
-    ),
-    2 => array(
-      'date' => '2004-2009',
-      'desc' => 'BSc and MSc in Chemistry at ETH Zurich',
+      'date' => '',
+      'desc' => '',
     ),
   ),
 
   'career' => array(
     0 => array(
-      'date' => '2017',
-      'desc' => 'Laboratory Team Leader at BASF in Crop Protection Discovery',
-    ),
-    1 => array(
-      'date' => '2016-2017',
-      'desc' => 'Postdoctoral Researcher at MPI for Coal Research, Group of Prof. Fürstner',
+      'date' => '',
+      'desc' => '',
     ),
   ),
 
+
   'interview' => array(
     0 => array(
-      'question' => 'What are your responsibilities as laboratory team leader at BASF?',
-      'answer' => 'As a research scientist in crop protection my main responsibility is the discovery of
-      new molecules that possess high activities against target pests, while at the same
-      time being safe for humans and impacting the environment as little as possible. In my
-      daily work, this includes managing research projects, collaborating closely with
-      experts from other disciplines – ranging e.g. from biology or agronomy to patents
-      and marketing, leading technicians in the laboratory, communicating and
-      documenting results, monitoring competitors, and, most importantly, coming up with
-      new ideas for our pipe-line. In addition, I am also involved in a couple of interesting
-      activities outside of research, such as helping to organize the 136 th International BASF
-      Summer Course.',
+      'question' => 'Looking back at your studies at ETH; what made studying at this university unique for
+      you? At which stage during your studies could you develop your interests in more
+      depth?',
+      'answer' => 'Studying at the ETH is unique in so many ways. It was a whole new world for a young
+      science nerd.
+      A mix of academic excellence (dedication, brilliant teacher, top-notch
+      infrastructure,..), personal development (coming in contact with diverse culture, ways of
+      doing science, languages, etc…), and an exciting student life.',
     ),
     1 => array(
-      'question' => 'What made you choose BASF as an employer? Can you describe how the application
-      process worked for you?',
-      'answer' => 'In principle, quite simply because BASF offered me exactly the kind of position I was
-      looking for at the time I was looking for it. Another important factor was, that I
-      actually knew someone in the group I was applying to, and this person was always
-      very positive about the position and BASF in general. For me, this positive picture was
-      then further substantiated during my own interview, and ultimately convinced me to
-      accept the offer – which to this day I have never regretted.<br>
-      The application process itself was relatively similar to other larger chemistry or
-      pharma companies. After filing an application on the company website, suitable
-      candidates are asked to pass through an online assessment test, as well as a
-      telephone interview. If successful, your dossier is forwarded to the hiring group
-      leader, which selects a couple of candidates for on-site interviews. These interview
-      days are usually comprised of a scientific talk by the candidate, several individual
-      meetings with group leaders and executives, as well as a coffee-corner meeting with
-      your potential future colleagues.',
+      'question' => 'Tell us a bit about your time after your studies prior to working at BASF.',
+      'answer' => 'My goal was to stick to what I most liked during my time at the ETH : great science and
+      strong diversity. I thus decided to travel to the USA and start postdoctoral studies.
+      Interestingly, the competence I acquired at the ETH that I mostly put to use during my
+      stay in California was my interpersonal skills…',
     ),
     2 => array(
-      'question' => 'During your PhD and your Postdoc, you focused on total synthesis. How can you
-      apply your expertise in organic and organometallic chemistry in your daily work at
-      BASF?',
-      'answer' => 'I would say that I profit quite a lot from my background in total synthesis since, at
-      least from a chemistry perspective, my current position is mostly about how to
-      efficiently make a wide variety of relatively complex molecules in a short time. In this
-      regard, it is a real advantage to have experience in devising synthetic strategies and
-      being familiar with many different types of reactions.',
+      'question' => 'What makes working at BASF so unique?',
+      'answer' => 'Currently, the multi-disciplinary approach to solving chemistry challenges is very unique
+      and fascinating – think about the energy challenge we have and designing full
+      value-chain using heat-recovery systems (heat pumps), new chemistries that optimizes
+      efficiency, molecular to system design through modelling etc….',
     ),
     3 => array(
-      'question' => 'You gained a lot of experience in academia during your studies and research. How did
-      you perceive the recent transition into industry? Does the approach to chemistry
-      differ from university?',
-      'answer' => 'At least in my experience, and as far as discovery groups are concerned, the
-      chemistry itself and the way how chemistry problems are solved is not so much
-      different from academia. The most significant changes are probably that you have to
-      trouble-shoot reactions without ever having seen them yourself - by working with the
-      information the technicians are giving you and by asking the right questions - and
-      that one develops a certain preference for the more robust and scalable methods in
-      organic chemistry.',
+      'question' => 'Which capabilities and strengths would you consider to be important in your job and
+      which main challenges arise on a frequent basis?',
+      'answer' => 'As already mentioned, next to a very solid scientific background, interpersonal skills are
+      very important in science and industry. Implementing projects and developing long-term
+      visions are never a “lonely cowboy” task, but rely on building teams with very diverse
+      cultural and scientific backgrounds. So, getting everyone aligned and avoid (or solving)
+      issues is very challenging and requires a good dose of listening and pragmatism.',
     ),
     4 => array(
-      'question' => 'How important is harmony between work and outside life for you? Does BASF offer a
-      good work-life balance for its employees?',
-      'answer' => 'I would regard myself as a relatively active and committed person, inside and outside
-      of work, and so I do not mind going an extra mile, or two, if my job requires it. On the
-      other hand, I also have a lot of interests outside of work, such as for example rock
-      climbing or cooking, which I would not want to give up either. In this respect, I
-      personally was always very happy with how things worked out at BASF. Of course, it
-      sometimes can get very busy at work but then again there are also times when
-      everything is much more relaxed. Another quite positive aspect for me is that at
-      BASF, PhD-degree holders are generally employed under an individual employment
-      contract and therefore fully autonomous regarding time management. In fact, there
-      is per se also no obligation for attendance in your office, if your responsibilities at a
-      given day do not require it. This means, in most positions and with a bit of self-
-      organization, the system offers a lot of flexibility, such as for example doing home
-      office on certain days or distributing your working hours a bit more according to
-      personal needs.',
+      'question' => 'Which advice would you give ETH students who are willing to step out into the world
+      of industry?',
+      'answer' => 'Test the water through internships and never shy away from speaking openly with
+      young (or older - like me) researchers in the industry - by sharing your
+      personal goals, visions, expectations and questions, you will get a better
+      understanding of the path you are going to engage on.',
     ),
-    5 => array(
-      'question' => 'What are possible career paths and promotion prospects at BASF?',
-      'answer' => 'Chemists traditionally start their careers as lab team leaders in one of the research
-      departments and stay in their first position for approximately three to five years. The
-      reasoning behind this is, that in these positions at least a part of your responsibilities
-      corresponds to something you already have experience in from your PhD, allowing
-      you to focus more on all the things which are new. Afterwards, there are two distinct
-      career paths one can pursue: In the expert-track, people stay in research with the
-      goal of further deepening their knowledge and keeping a high level of expertise in
-      their groups, while In the generalist-track the aim is on further broadening your set
-      of skills and move on to other jobs, many of which are not available as entry-level
-      positions because they require a good share of additional professional experience.',
-    ),
-    6 => array(
-      'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or
-      internships?',
-      'answer' => 'I would always recommend to first invest some time in finding out a bit more about
-      yourself, what you would like to do next, and, as consequence, which options there
-      actually are. ETH and affiliated organizations offer a lot of events to inform yourself,
-      such as for example Chemtogether, and it is definitively worthwhile to make use of
-      some of these opportunities. The best sources of information, however, are usually
-      people in your personal network that already are in one of the positions or
-      companies that interest you. Once you know in which direction you would like to go,
-      it is time to find the right job openings. Here again, besides searching yourself, I
-      would let people in your network know that you are currently looking for a job. A
-      very useful manual of how to approach the entire application process in a bit more
-      thorough and structured way is the «Application Guide» from the ETH Career Center,
-      which is available online.',
-    ),
-  ),
+  )
 );
-
-$template['interview'][$i++] = array(
-  'name' => 'Dr. Oliver Sala',
-  'img_url' => $awss3.'/companies/basf/interviewee_2019_1',
-  'position' => 'Research Scientist | Quantum Chemistry',
-
-  'education' => array(
-    0 => array(
-      'date' => '2012-2015',
-      'desc' => 'Doctor of Sciences at ETH Zurich, Group of Prof. Dr. A Togni and PD Dr. HP Lüthi',
-    ),
-    1 => array(
-      'date' => '2009-2012',
-      'desc' => 'BSc and MSc in Chemistry at ETH Zurich',
-    ),
-    2 => array(
-      'date' => '2006-2009',
-      'desc' => 'BSc in Chemistry at University of Applied Sciences Zurich (ZHAW)',
-    ),
-    3 => array(
-      'date' => '1994-1997',
-      'desc' => 'Apprenticeship - Chemical Laboratory Assistant, Givaudan AG',
-    ),
-  ),
-
-  'career' => array(
-    0 => array(
-      'date' => '2016',
-      'desc' => 'Research Scientist | Quantum Chemistry, BASF SE',
-    ),
-    1 => array(
-      'date' => '2015-2016',
-      'desc' => 'Research Associate, ETH Zurich',
-    ),
-    2 => array(
-      'date' => '2012-2015',
-      'desc' => 'Research Assistant, ETH Zurich',
-    ),
-    3 => array(
-      'date' => '2006-2011',
-      'desc' => 'Summer Intern, Givaudan AG',
-    ),
-    4 => array(
-      'date' => '2004-2006',
-      'desc' => 'Senior Laboratory Assistant, Givaudan AG',
-    ),
-    5 => array(
-      'date' => '2003-2004',
-      'desc' => 'Chef Laboratory Assistant (Cheflaborant), Givaudan AG',
-    ),
-    6 => array(
-      'date' => '1997-2003',
-      'desc' => 'Chemical Laboratory Assistant, Givaudan AG',
-    ),
-  ),
-
-  'interview' => array(
-    0 => array(
-      'question' => 'What is your daily work like as a research scientist in quantum chemistry at BASF and what are your responsibilities?',
-      'answer' => 'I am responsible for several projects, supporting the experimentalists with mechanistic or kinetic insight from quantum chemistry. Most importantly, though, the main goal is to help them save time by guiding their chemistry and predicting properties of potential product compounds or catalyst systems. In that way, experimental screening can be reduced to a minimum. In addition, I am leading a project, which comes along with a lot organizational tasks.',
-    ),
-    1 => array(
-      'question' => 'What made you choose BASF as an employer? Can you describe how the application process worked for you?',
-      'answer' => 'Since over twenty years BASF is committed to quantum chemical computations. This is unique in the chemical industry. Of course, the quantum chemistry group started with just a few people, but today about two hands full of quantum chemists are working at BASF. After sending my application dossier to BASF, everything went very fast. Two weeks later I was invited to Ludwigshafen for one day with accommodation at their own Hotel the night before. The application process was professionally organized. The individual interviews covered both, scientific discussions and social behaviour, hard and soft skills. I felt comfortable throughout the whole day, everyone being very friendly and genuinely interested in my person and my opinion.',
-    ),
-    2 => array(
-      'question' => 'During your PhD you worked on theoretical / computational chemistry. Can you apply your expertise in your current work? How did your studies prepare you for the challenges in the industry?',
-      'answer' => 'Right from the beginning my expertise could be applied to various projects and this still continues. Having been supervised by two professors – a theoretician and a chemist – during my PhD helped me a lot in being prepared for industry. In addition, the time at Givaudan very much contributed to my industrial background.',
-    ),
-    3 => array(
-      'question' => 'You gained experience in the field of quantum chemistry in academia as well as in the industry. Does the approach in this field differ from academia to industry?',
-      'answer' => 'Yes. In industry, time is a key factor. Nobody can or wants to wait several weeks or even months for results. Therefore, the computational protocols must be accelerated, and the strategy of investigation must be pragmatic. It depends, however, as a patent attorney would say. My work can be divided into three areas: fundamental research, divisional research and method development. Speed is crucial when working for the divisions. Mostly, strict time management is inevitable to meet their milestone requirements.',
-    ),
-    4 => array(
-      'question' => 'Is it customary at BASF to remain in the same field of activity or are there opportunities to move to another area if desired?',
-      'answer' => 'Both pathways are possible. Depending on personal preferences, one chooses one or the other path of career. The size of BASF opens up a plethora of fields to dive into and give your career another direction.',
-    ),
-    5 => array(
-      'question' => 'How important is harmony between work and outside life for you? Does BASF offer a good work-life balance for its employees?',
-      'answer' => 'Very important. Work-life balance ensures a clear mind, and this is required if I want to be creative and innovative during my daily work. BASF provides many possibilities for recreation and sports activities. For example, BASF has its own fitness centre including sauna. ',
-    ),
-    6 => array(
-      'question' => 'Which suggestions do you have for a recent ETH graduate applying for jobs or internships?',
-      'answer' => 'I strongly recommend building a network during your undergrad and PhD studies. Go abroad for one semester, setup research collaborations, or do an internship in industry. Consider that it is you who chooses the company you want to work for.',
-    ),
-  ),
-); 
 
 include('../0_template/template.php');
 
