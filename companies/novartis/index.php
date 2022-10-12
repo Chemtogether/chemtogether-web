@@ -33,15 +33,15 @@ $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'We are Novartis and we are reimagining medicine to improve and extend people\'s lives. 
   Our medicines address most major disease areas, from cancer to heart disease to rare genetic disorders.
-  We use innovative science and technology to divcover and develop breakthrough treatments and 
+  We use innovative science and technology to discover and develop breakthrough treatments and 
   find new ways to deliver them to as many people as posible.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Internshifts at every stage of academic training for:
+  'text' => 'Internships at every stage of academic training for:
     <table class="fa-table">
     <tr>
     <td><i class="fas fa-fw fa-chevron-right"></td>
-    <td>a Bachelor and Master students </td>
+    <td> Bachelor and Master students </td>
     </tr>
     <tr>
     <td><i class="fas fa-fw fa-chevron-right"></td>
@@ -53,7 +53,7 @@ $template['we_offer'] = array(
     </tr></table>
     Current vacancies are regularly advertised on our careers portal: www.novartis.com/careers.  
     We offer a diverse and inclusive employee culture, competitive compensation packages,
-    flexible working and stte-of-the-art campus.');
+    flexible working and state-of-the-art campus.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for curious, engaged and responsible talents who want to make a difference and improve

@@ -29,10 +29,10 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 $template['homepage'] = array('https://corporate.evonik.com/','evonik.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/evonik/','Evonik');
 
-$template['archive'] = '/archive/evonik';
+//$template['archive'] = '/archive/evonik';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Evonik is one of the world leaders in specialty chemicals. The company is activa in more
+  'text' => 'Evonik is one of the world leaders in specialty chemicals. The company is active in more
   than 100 countries and generated sales of 15 billion euros and an operating profit of 2.38 billion euros in 2021. 
   Evonik goes far beyond chemistry to create innovative, profitable and sustainable solutions.
   More than 33000 employees work together for a common purpose: We want to improve life, today and tomorrow.');
@@ -42,9 +42,9 @@ $template['we_offer'] = array(
   stage of your career.');
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'Apply your studies to the real world and kick-start cour career with Evonik. Internships,
+  'text' => 'Apply your studies to the real world and kick-start your career with Evonik. Internships,
   trainee programs, theses, final projects, networking, dual courses of study, grants, scholarships and 
-  opportunities to launch careers. With Evonik, the only limit to your potential is your ambition and imagination.');
+  opportunities that launch careers. With Evonik, the only limit to your potential is your ambition and imagination.');
   $template['button_print_until'] = 0;
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

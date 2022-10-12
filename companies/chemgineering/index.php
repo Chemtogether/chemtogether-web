@@ -76,6 +76,8 @@ $template['we_offer'] = array(
    <tr>
    <td><i class="fas fa-fw fa-chevron-right"></td>
    <td>Maintaining an open communication climate and flat hierachies</td>
+   </tr>
+   <tr>
    <td><i class="fas fa-fw fa-chevron-right"></td>
    <td>Attractive social benefits</td>
    </tr>
@@ -147,11 +149,12 @@ $template['interview'][$i++] = array(
     2 => array(
       'question' => 'How did your internship at Roche shape your interests and curiosity and what did you
       learn during this time?',
-      'answer' => ' Working in a project environment means that my tasks and also the processes, clients and
-      people I interact with change from time to time and I can always learn something new – the
-      most important thing for me. We are around 100 employees in the office in Münchenstein –
-      so you know each other, either from working together or from a BBQ lunch, hiking trip or ski
-      day with colleagues.',
+      'answer' => 'During my internship I developed a modelling tool for solid drug manufacturing (granulation,
+      milling, tableting and coating). It was interesting to see drug manufacturing processes from
+      close, to identify which properties are crucial and to come up with a tool that can be used for
+      prediction or to find optimal process parameters. The insights into a large pharma
+      corporation are useful for me still today and have encouraged me to pursue a career in
+      industry.',
     ),
     3 => array(
       'question' => 'What are the main challenges that arise in your work?',

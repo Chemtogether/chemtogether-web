@@ -21,15 +21,15 @@ $lang['navigation']['title'] = array($template['company_name'], $template['compa
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://medbase.ch/','medbase.ch');
 //$template['facebook'] = array('');
-//$template['linkedin'] = array('https://www.linkedin.com/company/avantama-ag/','Avantama AG');
+$template['linkedin'] = array('https://www.linkedin.com/company/medbasegruppe/','Medbase Gruppe');
 //$template['mail'] = array('jobs','avantama.com');
-$template['archive'] = '/archive/medbase';
+//$template['archive'] = '/archive/medbase';
 
 $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'One team, 3200 colleagues, 62 medical centers, 50 pharmacies and 36 dental centers. Medical, 
   pharmaceutical and therapeutic specialists work hand in hand to provide integrated care from prevention to rehabilitation.
-  Become part of our success story*');
+  Become part of our success story.');
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => 'Join us while you are still studying pharmacy, for example for your internship, your residency or a student job.

@@ -97,10 +97,10 @@ $template['interview_print_until'] = 1;
         Lastly, I provide support in proposal writing and project evaluation, as well as to Business
         Develop-ment/Marketing team initiatives.
         Previously, as ADC Senior Chemist I was leading the development and (non-GMP/GMP)
-        manufac-turing operations for the production of Pre-clinical and clinical bioconjugate drug
+        manufacturing operations for the production of Pre-clinical and clinical bioconjugate drug
         substances like ADC, synthetic vaccines or anticoagulants.
         I was also responsible for the compliance of the cleanroom laboratories, equipment as well
-        as per-sonnel with the current GMP regulations and internal SOPs.',
+        as personnel with the current GMP regulations and internal SOPs.',
       ),
       1 => array(
         'question' => 'How does a typical day at CARBOGEN AMCIS look like?',
@@ -113,7 +113,7 @@ $template['interview_print_until'] = 1;
       2 => array(
         'question' => 'What makes working at CARBOGEN AMCIS so unique?',
         'answer' => 'As member of the CARBOGEN AMCIS Bioconjugation department I have the opportunity of
-        interact-ing closely with other various multidisciplinary team and the possibility of “hands-on
+        interacting closely with other various multidisciplinary team and the possibility of “hands-on
         working” on very different edge-of-technology biotechnological projects.',
       ),
       3 => array(
@@ -143,7 +143,7 @@ $template['interview_print_until'] = 1;
         'answer' => 'DECL technology is certainly a fascinating and fertile turf of the broader
         “Needle-in-the-Haystack” drug discovery field. Soon, DECL-innovators will have to compete
         (or make a better use) with AI and machine learning to beat the current fierce competition.
-        Today, tools like oligo-compatible re-actions, enzymatic encoding and next generation
+        Today, tools like oligo-compatible reactions, enzymatic encoding and next generation
         sequencing for building and decoding any DNA encoded chemical libraries are readily
         available in the public domains and are steadily increasing. Today, the main challenge
         seems to be the same as in the LEGO game: you can get all sophisticated bricks that you

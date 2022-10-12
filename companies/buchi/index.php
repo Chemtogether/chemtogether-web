@@ -21,11 +21,10 @@ $lang['navigation']['title'] = array($template['company_name'], $template['compa
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.buchi.com/','buchi.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/büchi-labortechnik-ag/','BÜCHI Labortechnik');
-
-$template['archive'] = '/archive/buchi';
+//$template['archive'] = '/archive/buchi';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'For mor ethan 80 years, BÜCHI has been one of the world\'s leading providers of laboratory technology solutions
+  'text' => 'For more than 80 years, BÜCHI has been one of the world\'s leading providers of laboratory technology solutions
   for research and development, quality assurance and production.
   The company is headquartered in eastern Switzerland and has R&D facilities, production sites and sales & service
   offices spread all over the globe.');
@@ -50,7 +49,7 @@ $template['interview_print_until'] = 1;
 
 $template['interview'][$i++] = array(
   'name' => 'Lothar Opilik',
-  'img_url' => $awss3.'/companies/büchi/interviewee_2022_1',
+  'img_url' => $awss3.'/companies/buchi/interviewee_2022_1',
   'position' => 'Product Manager for Laboratory Evaporation',
 
   'education' => array(
@@ -69,13 +68,11 @@ $template['interview'][$i++] = array(
   'interview' => array(
     0 => array(
       'question' => 'What is your current task at BÜCHI Labortechnik?',
-      'answer' => 'I work as a Project Chemist in the MSAT (Manufacturing Science & Technology)
-      Department and my task is to implement new production technologies and improve
-      the existing ones. This mainly includes lab testing, definition of the user
-      requirements, planning, discussions with the equipment suppliers, authoring and
-      review of GMP-relevant documentation, and finally equipment commissioning. In
-      other words, I make sure that our production teams have everything they need to
-      focus on their job.',
+      'answer' => 'I am in the product management team for laboratory evaporation, and I am currently involved in three different development projects.
+      All of them are in very different stages of the development process. My main responsibility in the project teams is to 
+      represent the "first customer" perspective on the new product. Moreover, I coordinate on-site testing activities 
+      as well as prototype demonstrations for pilot customers. For the development project that is still in an early stage,
+      I evaluate new technologies, e.g. with external partners in academia.',
     ),
     1 => array(
       'question' => 'Which advice would you give to ETH graduates who are looking for a job

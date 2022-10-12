@@ -214,8 +214,8 @@ $next_company = $company_list[$key_next];
               <span><?php echo($template['interview'][$i]['name']); ?></span><br>
               <span><?php echo($template['interview'][$i]['position']); ?></span>
               <br><br>
-              <span><?php echo($lang['detail']['interviews']['education'][$eng]); ?></span>
-              <table class="fa-table">
+              <!-- <span><?php echo($lang['detail']['interviews']['education'][$eng]); ?></span> -->
+              <!-- <table class="fa-table">
                 <?php for ($j=0; $j < sizeof($template['interview'][$i]['education']); $j++) { 
                   $date = $template['interview'][$i]['education'][$j]['date']; 
                   if(is_array($date)) {
@@ -231,8 +231,8 @@ $next_company = $company_list[$key_next];
                     </tr>
                   <?php } ?>
                 </table>
-                <br>
-                <span><?php echo($lang['detail']['interviews']['career'][$eng]); ?></span>
+                <br> -->
+                <!-- <span><?php echo($lang['detail']['interviews']['career'][$eng]); ?></span>
                 <table class="fa-table">
                   <?php for ($j=0; $j < sizeof($template['interview'][$i]['career']); $j++) {
                     $date = $template['interview'][$i]['career'][$j]['date']; 
@@ -248,7 +248,7 @@ $next_company = $company_list[$key_next];
                         <td><?php echo($template['interview'][$i]['career'][$j]['desc']); ?> (<?php echo($date); ?>)</td>
                       </tr>
                     <?php } ?>
-                  </table>
+                  </table> -->
                 </div>
               </div>
             </div>

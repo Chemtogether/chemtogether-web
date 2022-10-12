@@ -30,12 +30,12 @@ $lang['navigation']['title'] = array($template['company_name'], $template['compa
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.sensirion.com','sensirion.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/sensirion/','Sensirion');
-$template['archive'] = '/archive/sensirion';
+//$template['archive'] = '/archive/sensirion';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Sensirion is an internatinoally active high-tech company with headquarters in Switzerland
+  'text' => 'Sensirion is an internationally active high-tech company with headquarters in Switzerland
   and subsidiaries in Asia, North America and Europe. For two decades, the ETH spin-off has
-  been developing and producing workd-leading sensors and sensor solutions for a wide range
+  been developing and producing world-leading sensors and sensor solutions for a wide range
   of applications in the medical technology, automotive and consumer goods sectors.');
 $template['we_offer'] = array(
   'title' => 'We offer',
@@ -45,7 +45,7 @@ $template['we_offer'] = array(
   For better quaility of life, health, efficiency and safety - for a smarter future around the globe.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for young, passionate people who want to write their own success story - in the largest star-up
+  'text' => 'We are looking for young, passionate people who want to write their own success story - in the largest start-up
   in Switzerland.');
 
   $template['button_print_until'] = 0; 
