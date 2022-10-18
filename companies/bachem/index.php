@@ -30,7 +30,7 @@ $template['we_are'] = array(
   commercial application to pharmaceutical and biotechnology companies worldwide and offers a comprehensive range of services.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We recognize that the knowledge and expertise of our employees are key to our success. We help our peoople succeed and
+  'text' => 'We recognize that the knowledge and expertise of our employees are key to our success. We help our people succeed and
   develop, and we empower them to create their own careers at Bachem. The employee benefits and development programs
   encompass a wide array of offerings, which can be explored on our careers platform.');
 $template['we_look'] = array(

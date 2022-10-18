@@ -62,7 +62,7 @@ $fb = array(
         </a>
       </div>
       <div class="text l-6 m-12 s-12 fair-introlinks">
-        <a href="<?php echo($awss3."/files/2021expoguide.pdf"); ?>">
+        <a href="<?php echo($awss3."/files/2022expoguide.pdf"); ?>">
           <i class="far fa-fw fa-file-alt"></i>&nbsp;
           <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
         </a>
@@ -261,7 +261,7 @@ $fb = array(
     </div>
 
    <!-- This is new -->
-    
+<!--     
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
@@ -269,15 +269,16 @@ $fb = array(
       </div>
       <?php echo($lang['content']['programme_preview']['main_text'][$eng]); ?>
     </div>
-    </div>
+    </div> -->
 
      <!-- This is new -->
 
-    <!-- <div class="content flex">
+    <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
-      </div> -->
+      </div>
+      <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br>
       <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
@@ -287,7 +288,7 @@ $fb = array(
           <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
         </a>
       </div> -->
-      <!-- <br>
+      <br>
       <table class="fa-table">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
@@ -299,7 +300,29 @@ $fb = array(
         </tr>
       </table>
     </div>
-    </div> -->
+    </div>
+    
+    <div class="spacer">
+    </div>
+    <div class="content flex">
+      <div class="text subhead l-12 m-12 s-12">
+        <?php echo($lang['content']['speaker'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_1']['cv_header'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_1']['cv_guest_1'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_1']['cv_guest_2'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_1']['cv_guest_3'][$eng]); ?> <br><br>
+      <br>
+      </div>
+    </div>
+    
+
     <!-- <div class="section">
       <span class="section-slashes">
         <span>/</span><span>/</span>
@@ -307,9 +330,9 @@ $fb = array(
       <span class="section-text">
         <?php echo($lang['content']['speaker'][$eng]); ?>
       </span>
-    </div> -->
+    </div>
     
-    <!-- <div class="content flex">
+    <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['cv_header'][$eng]); ?>

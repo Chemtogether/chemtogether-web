@@ -16,7 +16,7 @@ $lang['content']['main_text'] = array(
   'Chemtogether 2022 will take place in November 2022 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
-$lang['content']['links_guide'] = array('Messeführer (2021)','Expo Guide (2021)');
+$lang['content']['links_guide'] = array('Messeführer (2022)','Expo Guide (2022)');
 $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exhibitors');
 
 // SUBSECTIONS
@@ -109,20 +109,88 @@ $lang['content']['programme_preview'] = array(
 
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Podiumsdiskussion: <br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood','Panel Discussion:<br> Beyond the Bench - Chemistry Careers outside Academia and the Fumehood'),
-  'guest_1' => array('<b>Dr. Florian Kehl</b>, ','Dr. Florian Kehl, '),
-  'guest_2' => array('Dr. Martin Schreiber, UBS Asset Management','Dr. Martin Schreiber, UBS Asset Management'),
-  'guest_3' => array('Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications','Dr. Ulrich Steiner, Comet Group - Vice President Investor Relations & Communications'),
+  'title' => array('Podiumsdiskussion: <br> CO2 Neutrality: How far away are we from Energy and Production
+  without Fossil Based Carbon? ','Panel Discussion:<br> CO2 Neutrality: How far away are we from Energy and Production
+  without Fossil Based Carbon? '),
+  'description' => array('We will shed light on the pressing issue of moving away from fossil
+  based carbon from an academic and industrial perspective. Our panelists are Dr. Cornelius Gropp (Development Chemist at Climeworks),
+  Prof. Dr. Jovana V. Milic (group leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg),
+  and Dr. Marco Ranocchiari (Group Leader at Paul Scherrer Institute). The discussion will be moderated by Viktoria Ivarsson (International
+  Relations Oficer at ETH Zurich). The podium session will be followed by an apéro riche.',
+  'We will shed light on the pressing issue of moving away from fossil
+  based carbon from an academic and industrial perspective. Our panelists are Dr. Cornelius Gropp (Development Chemist at Climeworks),
+  Prof. Dr. Jovana V. Milic (Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg),
+  and Dr. Marco Ranocchiari (Group Leader at Paul Scherrer Institute). The discussion will be moderated by Viktoria Ivarsson (International
+  Relations Oficer at ETH Zurich). The podium session will be followed by an apéro riche.'),
+  'guest_1' => array('Dr. Cornelius Gropp, Climeworks','Dr. Cornelius Gropp, Climeworks'),
+  'guest_2' => array('Dr. Jovana V. Milic, University of Fribourg','Dr. Jovana V. Milic, University of Fribourg'),
+  'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
   'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Donnerstag, 28. Oktober 2021, 17:00-20:00 Uhr','Thursday, 28. October 2021, 17:00-20:00 h'),
+  'time' => array('Donnerstag, 3. Oktober 2022, 17:15-18:45 Uhr','Thursday, 3. October 2022, 17:15-18:45 h'),
   'place' => array('HCI G7','HCI G7'),
   'cv_header' => array('Erfahre mehr über unsere Diskussionsteilnehmer.', 'Learn more about our panelists.'),
-  'cv_guest_1' => array('<b>Dr. Florian Kehl</b></br>Senior Scientist an der Universität Zürich (Space Hub), Dozent an der Hochschule Luzern (Space Biology Group), Subcontractor/Consultant für NASA JPL (Jet Propulsion Laboratory) </br></br>Nach einem abgeschlossenen Bachelor und Masterstudium in Nanowissenschaften mit Schwerpunkt Physik an der Universität Basel, schloss sich Florian Kehl dem Centre Suisse d’Electronique et de Microtechnique (CSEM) in Landquart an, um optische Biosensor-Systeme zu entwickeln. Im Anschluss zog es ihn als Gastforscher nach Kalifornien an die Universität Berkeley, bevor er dann im Labor für Biosensoren und Bioelektronik an der ETH Zürich promovierte. Nach der Promotion erhielt Florian Kehl ein NASA Postdoctoral Program (NPP) fellowship und arbeitete von 2016 bis 2019 als PostDoc in der NASA Jet Propulsion Laboratory (JPL) Chemical Analysis and Life Detection Group bevor er dort 2019 eine Festanstellung erhielt. 2021 ist er in die Schweiz zurückgekehrt und arbeitet jetzt als Senior Scientist am Spacehub der Universität Zürich, als Dozent an der Hochschule Luzern und ist zudem weiterhin als Partner und Subunternehmer mit NASA’s Jet Propulsion Laboratory affiliiert. Florian Kehl arbeitet ebenfalls weiter mit der ETH  an mehreren Projekten und ist so auch Berater der Akademische Raumfahrt Initiative Schweiz (ARIS).', '<b>Dr. Florian Kehl</b></br> Senior Scientist at University of Zurich (Space Hub), Lecturer at the Lucerne University of Applied Science (Space Biology Group), Subcontractor/Consultant for NASA JPL (Jet Propulsion Laboratory) </br></br>After receiving his BSc and MSc in nanosciences, major in physics, from the University of Basel Switzerland, Florian Kehl first joined the Swiss Center for Electronics and Microtechnology CSEM Landquart to develop optical biosensor systems. Subsequently, he moved to the University of California, Berkeley, USA, as a Visiting Researcher before returning to Switzerland for his PhD Studies at ETH Zürich in the Laboratory of Biosensors and Bioelectronics. Florian Kehl was awarded a NASA Postdoctoral Program (NPP) fellowship and was a postdoc with the NASA Jet Propulsion Laboratory (JPL) Chemical Analysis and Life Detection Group in Pasadena, California, between 2016 and 2019 before he was hired permanently at JPL in 2019. In 2021 he returned to Switzerland and is now working as a Senior Scientist at the University of Zurich’s Space Hub, as a Lecturer at the Lucerne University of Applied Sciences Space Biology Group, and continues to work for NASA’s Jet Propulsion Laboratory as a JPL affiliate and subcontractor. He is also still working together with ETH on several projects and as an advisor for the ETH ARIS rocketry team.'),
-  'cv_guest_2' => array('<b>Dr. Martin Schreiber</b></br> UBS Asset Management</br></br>Nach abgeschlossenem Masterstudium und Promotion in der organischen Chemie, gründete Martin Schreiber 1996 eine Chemieproduktions- und Dienstleistungsfirma im Technopark Zürich. Nach Verkauf der Firma 1998 schloss er sich Accenture an, um als Berater für Unternehmen der Finanzindustrie zu arbeiten.  Im Jahr 2000 trat er dem Investment Management der Credit Suisse bei als Equity Analyst für Pharma-, Biochemie- und Chemieaktien. Danach zog es ihn als Partner zur NZB New Zurich Bank, wo er weiterhin als Equity Analyst Pharma- und Chemieaktien bewertete. Nach einem Sabbatical wurde Martin Schreiber 2008 Mitglied des Senior Managements der Zürcher Kantonalbank.  Er arbeitete dort als Team Leader im Bereich Equity Research und war verantwortlich für den Gesundheits-, Rohstoff- und Öl- & Gassektor. Seit 2006 arbeitet er im UBS Asset Management als Executive Director und Senior Portfolio Manager für Swiss Equities. Desweiteren ist er verantwortlich für die Strategie des Swiss Opportunity Fonds.', '<b>Dr. Martin Schreiber</b></br> UBS Asset Management</br></br> After MSc graduation and completion of doctoral thesis in organic chemistry at ETH Zurich, he founded a chemical production and services company in 1996 at Technopark Zurich. In 1998 he sold the particular enterprise and joined Accenture, working as consultant for the financial industry. Martin started in investment management in 2000 at Credit Suisse as equity analyst for pharmaceuticals, biochemicals and chemicals stocks. He then moved to NZB New Zurich Bank, where he was a Partner and covered pharmaceuticals and chemicals stocks as equity analyst. After taking a sabbatical time, Martin joined Zurich Cantonal Bank in 2008 as member of Senior Management and Team Leader in Equity Research and was responsible for the health care, basic materials and oil & gas sectors. Since 2016, he works for UBS Asset Management as Executive Director and Senior Portfolio Manager for Swiss Equities and is responsible for the Swiss Opportunity fund strategy.'),
-  'cv_guest_3' => array('<b>Dr. Ulrich Steiner</b></br> Comet Group - Vice President Investor Relations & Communications</br></br>Nach seinem Chemiestudium an der ETH Zürich promovierte Ulrich Steiner am Institut für Polymere der ETH Zürich. Im Anschluss trat er eine Stelle als Projektmanager in der Abteilung “Thermische Prozesse” bei Buhler Ltd. im Bereich Forschung und Entwicklung an. Später kehrte er an die ETH Zürich zurück als Abteilungsleiter und Senior Technology Transfer Officer im Stab des Vizepräsidenten für Forschung und Industriebeziehungen. Daraufhin arbeitete er als sell-side/buy-side Equity Analyst bei der Bank Leu Ltd. 2008 begann er eine Stelle als Head of Group Communications and Investor Relations der Clariant International Ltd. 2015 zog es ihn als Vizepräsident für Corporate Communications, Investor Relations & CSR zu Schmolz + Bickenbach AG. Seit 2020 ist er Vizepräsident für Investor Relations & Communications bei der Comet Group in Flamatt, Schweiz.', '<b>Dr. Ulrich Steiner</b></br> Comet Group - Vice President Investor Relations & Communications</br></br>After his studies of chemistry at ETH Zürich, Ulrich Steiner continued his PhD studies at ETH Zürich in the institute for polymers. He then joined Buhler Ltd. as a Project Manager in research and development for the Division “Thermal Processes”. Afterwards he returned to ETH Zurich to work as a co-head and Senior Technology Transfer Officer for the office of the Vice President Research and Industrial Relations. Subsequently, Ulrich Steiner worked as a sell-side/buy-side equity analyst at Bank Leu Ltd. In 2008, Ulrich Steiner joined Clariant International Ltd. as a Head of Group Communications and Investor Relations. In 2015 he moved on to Schmolz + Bickenbach AG as a Vice President Corporate Communications, Investor Relations & CSR. Since 2020 he is the Vice President Investor Relations & Communications of the Comet Group, based in Flamatt, Switzerland.')
-
+  'cv_guest_1' => array('<b>Dr. Cornelius Gropp</b></br>Development Chemist at Climeworks
+   </br></br> After receiving his BSc in chemistry from the University of Heidelberg and the Ecole Polytechnique, Cornelius Gropp
+   joined the group of Prof. Baran at the Scripps Research Institute in La Jolla for a research stay. Subsequently, he moved 
+   to Zürich to join the graduate program, MSc and PhD with Prof. Diederich, at ETH Zurich specializing in synthetic organic and
+   physical organic chemistry. In 2018, Cornelius Gropp was awarded a SNSF and Leopoldina Fellowship to join the materials
+   research group of Prof. Yaghi at UC Berkeley working on porous and crystalline materials for water, hydrogen and 
+   carbon capture. In 2021, he returned to Switzerland and is now working as a Scientist at Climeworks developing
+   materials for capturing CO2 from the air.',
+  '<b>Dr. Cornelius Gropp</b></br> Development Chemist at Climeworks
+   </br></br>  After receiving his BSc in chemistry from the University of Heidelberg and the Ecole Polytechnique, Cornelius Gropp
+   joined the group of Prof. Baran at the Scripps Research Institute in La Jolla for a research stay. Subsequently, he moved 
+   to Zürich to join the graduate program, MSc and PhD with Prof. Diederich, at ETH Zurich specializing in synthetic organic and
+   physical organic chemistry. In 2018, Cornelius Gropp was awarded a SNSF and Leopoldina Fellowship to join the materials
+   research group of Prof. Yaghi at UC Berkeley working on porous and crystalline materials for water, hydrogen and 
+   carbon capture. In 2021, he returned to Switzerland and is now working as a Scientist at Climeworks developing
+   materials for capturing CO2 from the air.'),
+   'cv_guest_2' => array('<b>Dr. Jovana V. Milic</b></br> Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg
+   </br></br> Jovana V. Milic has obtained her PhD in the Department of Chemistry and Applied Biosciences
+   (D-CHAB) of ETH Zürich in 2017 with Prof. Francois Diederich. She then worked as a postdoctoral researcher 
+   and scientist in the Laboratory of Photonics and Interfaces of Prof. Michael Grätzel at EPFL, until taking
+   on a Group Leader position at the Adolphe Merkle Institute in Fribourg as Swiss National Science Foundation PRIMA
+   Fellow in September 2020, where she presently leads the Smart Energy Materials group. Her research is centered around
+   the development of (supra)molecular materials for renewable energy conversion that can respond to external stimuli and 
+   adapt to their operating conditions, with a particular focus on photovoltaics. This involves a multidisciplinary
+   approach at the interface of chemistry, physics, material science, and engineering towards sustainable development. 
+   In addition to research and international collaborations, she is invested in science outreach, policy and diplomacy
+   as Science Advice Working Group Co-Lead at the Global Young Academy, as well as through activities of the Swiss
+   Young Academy, European Young Chemists Network, and International Younger Chemists Network, connecting and supporting
+   young scientists globally. ',
+  '<b>Dr. Jovana V. Milic</b></br> Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg
+   </br></br> Jovana V. Milic has obtained her PhD in the Department of Chemistry and Applied Biosciences
+   (D-CHAB) of ETH Zürich in 2017 with Prof. Francois Diederich. She then worked as a postdoctoral researcher 
+   and scientist in the Laboratory of Photonics and Interfaces of Prof. Michael Grätzel at EPFL, until taking
+   on a Group Leader position at the Adolphe Merkle Institute in Fribourg as Swiss National Science Foundation PRIMA
+   Fellow in September 2020, where she presently leads the Smart Energy Materials group. Her research is centered around
+   the development of (supra)molecular materials for renewable energy conversion that can respond to external stimuli and 
+   adapt to their operating conditions, with a particular focus on photovoltaics. This involves a multidisciplinary
+   approach at the interface of chemistry, physics, material science, and engineering towards sustainable development. 
+   In addition to research and international collaborations, she is invested in science outreach, policy and diplomacy
+   as Science Advice Working Group Co-Lead at the Global Young Academy, as well as through activities of the Swiss
+   Young Academy, European Young Chemists Network, and International Younger Chemists Network, connecting and supporting
+   young scientists globally.  '),
+   'cv_guest_3' => array('<b>Dr. Marco Ranocchiari</b></br>Group Leader at Paul Scherrer Institute, Lecturer at ETH Zurich, Co-founder and Scientific Advisor of the PSI Spin-Off novoMOF
+   </br></br>  After receiving his BSc and MSc in chemistry from the University of Milano Italy, Marco Ranocchiari did
+   his PhD studies at ETH Zurich in the Laboratory of Inorganic Chemistry. He then moved to Paul Scherrer Institute (PSI)
+   Switzerland first as a postdoc and then as a scientist in the Synchrotron Radiation and Nanotechnology department and 
+   then as a group leader in the Energy and Environment division focusing his research on the synthesis and catalytic 
+   application of metal-organic frameworks. In 2022, Marco Ranocchiari became the leader of the Energy System Integration (ESI) at PSI,
+   a platform that wants to accelerate the Net Zero transition by bridging novel technologies with industrialization and
+   commercialization. He is a lecturer of Industrial Chemistry at ETH Zurich, co-writer of a chemistry book for Italian high schools,
+   and co-founder of and scientific advisor of the PSI spin-off novoMOF',
+  '<b>Dr. Marco Ranocchiari</b></br> Group Leader at Paul Scherrer Institute, Lecturer at ETH Zurich, Co-founder and Scientific Advisor of the PSI Spin-Off novoMOF
+   </br></br>  After receiving his BSc and MSc in chemistry from the University of Milano Italy, Marco Ranocchiari did
+   his PhD studies at ETH Zurich in the Laboratory of Inorganic Chemistry. He then moved to Paul Scherrer Institute (PSI)
+   Switzerland first as a postdoc and then as a scientist in the Synchrotron Radiation and Nanotechnology department and 
+   then as a group leader in the Energy and Environment division focusing his research on the synthesis and catalytic 
+   application of metal-organic frameworks. In 2022, Marco Ranocchiari became the leader of the Energy System Integration (ESI) at PSI,
+   a platform that wants to accelerate the Net Zero transition by bridging novel technologies with industrialization and
+   commercialization. He is a lecturer of Industrial Chemistry at ETH Zurich, co-writer of a chemistry book for Italian high schools,
+   and co-founder of and scientific advisor of the PSI spin-off novoMOF. ')
 );
 
 //Speaker
