@@ -128,8 +128,8 @@ $lang['content']['programme_1'] = array(
   'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Donnerstag, 3. Oktober 2022, 17:15-18:45 Uhr','Thursday, 3. October 2022, 17:15-18:45 h'),
-  'place' => array('HCI G7','HCI G7'),
+  'time' => array('Donnerstag, 3. November 2022, 17:15-18:45 Uhr','Thursday, 3rd November 2022, 17:15-18:45 h'),
+  'place' => array('HCI G3','HCI G3'),
   'cv_header' => array('Erfahre mehr über unsere Diskussionsteilnehmer.', 'Learn more about our panelists.'),
   'cv_guest_1' => array('<b>Dr. Cornelius Gropp</b></br>Development Chemist at Climeworks
    </br></br> After receiving his BSc in chemistry from the University of Heidelberg and the Ecole Polytechnique, Cornelius Gropp
