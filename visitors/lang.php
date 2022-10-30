@@ -196,4 +196,9 @@ $lang['content']['programme_1'] = array(
 //Speaker
 $lang['content']['speaker'] = array('Unsere Diskussionsteilnehmer','Our Panelists');
 
+//How to Careerfair
+$lang['content']['howto_subsection'] = array('Wegweiser Karrieremesse','How-To Career Fair');
+$lang['content']['howto_text'] = array('Bist Du noch unsicher, wie Du Dich am Besten auf eine Karrieremesse vorbereitest? Wir haben 6 relevante Tips für Dich zusammengestellt, die Dir dabei helfen können:','Have you ever figured you could need some helpful tips on creating your perfect pitch at a job fair? Here you go, 6 relevant tips on how to navigate your next approaching career fair:');
+$lang['content']['links_howto'] = array('Wegweiser Karrieremesse','How-To Career Fair');
+
  ?>

@@ -72,6 +72,36 @@ $fb = array(
   <div class="spacer">
   </div>
 
+  <div class="section">
+        <span class="section-slashes">
+          <span>/</span><span>/</span>
+        </span>
+        <span class="section-text">
+          <?php echo($lang['content']['howto_subsection'][$eng]); ?>
+        </span>
+    </div>
+  
+    <div class="spacer">
+    </div>
+
+    <div class="content flex">
+      <div class="text l-12m-12 s-12">
+        <?php echo($lang['content']['howto_text'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="content flex">
+      <div class="text l-6 m-12 s-12 fair-introlinks">
+        <a href="<?php echo($awss3."/files/howtocareerfair.pdf"); ?>">
+          <i class="far fa-fw fa-file-alt"></i>&nbsp;
+          <span><?php echo($lang['content']['links_howto'][$eng]); ?></span>
+        </a>
+      </div>
+    </div>
+
+  <div class="spacer">
+  </div>
+
   <div class="anchor" id="schedule">
   </div>
 
