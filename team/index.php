@@ -306,6 +306,26 @@ $active_nav = 'team';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
       <div>
+          <img <?php set_source($awss3.'/img/organisation/wins','png'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['organisation']['wins'][$eng]); ?>
+        </div>
+        <a href="https://wins.ethz.ch/">www.wins.ethz.ch</a>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
+      <div class="image-organisation l-4 m-6 s-12">
+      <div>
           <img <?php set_source($awss3.'/img/organisation/vecs','png'); ?>></img>
         </div>
       </div>
@@ -461,6 +481,26 @@ $active_nav = 'team';
           <?php echo($lang['content']['partners']['cvpics'][$eng]); ?>
         </div>
         <a href="https://www.cvpics.ch/">www.cvpics.ch</a>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="spacer">
+    </div>
+
+    <div class="content flex-center">
+      <div class="image-organisation l-4 m-6 s-12">
+        <div>
+          <img <?php set_source($awss3.'/img/partners/twing','png'); ?>></img>
+        </div>
+      </div>
+      <div class="text l-8 m-6 s-12">
+        <div class="subsection">
+          <?php echo($lang['content']['partners']['twing'][$eng]); ?>
+        </div>
+        <a href="https://www.twing.ch/">www.twing.ch</a>
       </div>
     </div>
 

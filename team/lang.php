@@ -175,6 +175,7 @@ $lang['content']['organisation_text'] = array('Chemtogether ist ein gemeinsames 
 $lang['content']['organisation']['vcs'] = array('Vereinigung der Chemiestudierenden','Association of the Chemistry Students');
 $lang['content']['organisation']['vac'] = array('Vereinigung der Assistenten der Chemischen Labore der ETH Zürich','Union of the Assistants at the Chemical Labs of ETH Zurich');
 $lang['content']['organisation']['apv'] = array('Akademischer Pharmaziestudierenden Verein','Akademischer Pharmaziestudierenden Verein');
+$lang['content']['organisation']['wins'] = array('The Society for Women in Natural Sciences','The Society for Women in Natural Sciences');
 $lang['content']['organisation']['vecs'] = array('Vereinigung ehemaliger Chemiestudierender der ETH Zürich', 'Chemistry Alumni Association');
 $lang['content']['organisation']['vseth'] = array('Verband der Studierenden an der ETH Zürich','Association of Students at ETH Zurich');
 $lang['content']['organisation']['aveth'] = array('Akademische Vereinigung des Mittelbaus der ETH Zürich','Academic Association of Scientific Staff at ETH Zurich ');
@@ -187,6 +188,6 @@ $lang['content']['partners_text'] = array('Chemtogether kooperiert mit den folge
 
 $lang['content']['partners']['careercenter'] = array('ETH Career Center','ETH Career Center');
 $lang['content']['partners']['cvpics'] = array('CV Pics','CV Pics');
-
+$lang['content']['partners']['twing'] = array('twing','twing');
 
 ?>
