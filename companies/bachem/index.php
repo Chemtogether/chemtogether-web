@@ -19,7 +19,7 @@ $template['day'] = 2;
 $lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
-$template['homepage'] = array('http://www.bachem.com/','bachem.com');
+$template['homepage'] = array('https://www.bachem.com/','bachem.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/bachem/','Bachem');
 
 $template['archive'] = '/archive/bachem';

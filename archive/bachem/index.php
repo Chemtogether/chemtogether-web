@@ -39,7 +39,7 @@ $lang['general']['page_title'] = array('Chemtogether - Archiv: '.$template['comp
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('http://www.bachem.com/','bachem.com');
+$template['homepage'] = array('https://www.bachem.com/','bachem.com');
 $template['facebook'] = array('https://www.facebook.com/BachemGroup/', 'Bachem Group');
 $template['linkedin'] = array('https://www.linkedin.com/company/bachem/','Bachem');
 // $template['mail'] = array('','');
