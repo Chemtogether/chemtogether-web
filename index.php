@@ -33,7 +33,7 @@ $fb = array(
 
 <!-- START CONTENT -->
 <div id="main" class="home">
-<!-- hello-->
+<!-- hello world-->
   <div class="container">
 
     <div id="slideshow-container">
