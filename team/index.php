@@ -1,15 +1,15 @@
 <?php
 
 // provides small functions
-include('php/general.php');
+include('../php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
-include('php/language_cookie.php');
+include('../php/language_cookie.php');
 
 
 
 // creates $lang array and provides translation text for common elements (navigation and footer)
-include('includes/language.php');
+include('../includes/language.php');
 
 // include all translations from local file
 include('./lang.php');
@@ -29,8 +29,8 @@ $active_nav = 'team';
 // );
 
 ?>
-<?php include('includes/head.php');  ?>
-<?php include('includes/nav.php');  ?>
+<?php include('../includes/head.php');  ?>
+<?php include('../includes/nav.php');  ?>
 
 
 <!-- START CONTENT -->
@@ -56,18 +56,18 @@ $active_nav = 'team';
       </div>
     </div>
 
-    <!-- <div class="content flex">
+     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['new_team_text'][$eng]); ?>
       </div>
-    </div> -->
+    </div> 
+<!--
 
     <div class="spacer">
     </div>
 
     <div class="spacer">
     </div>
-
     <div class="anchor" id="team">
     </div>
 
@@ -79,7 +79,7 @@ $active_nav = 'team';
         <?php echo($lang['content']['team_subsection'][$eng]); ?>
       </span>
     </div>
-
+  
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
@@ -121,7 +121,7 @@ $active_nav = 'team';
       <div class="spacer">
       </div>
     <?php } ?>
-
+    -->
     <div class="spacer">
     </div>
 
@@ -143,9 +143,14 @@ $active_nav = 'team';
       </div>
     </div>
 
-
-
     <div class="content flex">
+    <div class="text l-6 m-12 s-12">
+        <div class="subsection">
+          Chemtogether 2022
+        </div>
+        <?php echo($lang['content']['alumni_member_2022']); ?>
+      </div>
+
     <div class="text l-6 m-12 s-12">
         <div class="subsection">
           Chemtogether 2021
@@ -519,5 +524,5 @@ $active_nav = 'team';
 </div>
 <!-- END CONTENT  -->
 
-<?php include('includes/footer.php');  ?>
-<?php include('includes/foot.php');  ?>
+<?php include('../includes/footer.php');  ?>
+<?php include('../includes/foot.php');  ?>
