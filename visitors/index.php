@@ -1,13 +1,13 @@
 <?php
 
 // provides small functions
-include('php/general.php');
+include('../php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
-include('php/language_cookie.php');
+include('../php/language_cookie.php');
 
 // creates $lang array and provides translation text for common elements (navigation and footer)
-include('includes/language.php');
+include('../includes/language.php');
 
 // include all translations from local file
 include('./lang.php');
@@ -18,8 +18,8 @@ include('../companies/data.php');
 $active_nav = 'visitors';
 
 $fb = array(
-  "title"        => "Chemtogether 2021",
-  "desc"         => "This year's Chemtogether will take place on the 2nd and 3rd November 2021! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
+  "title"        => "Chemtogether 2023",
+  "desc"         => "This year's Chemtogether will take place on the 7th and 8th November 2023! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.",  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -27,8 +27,8 @@ $fb = array(
 
 ?>
 
-<?php include('includes/head.php');  ?>
-<?php include('includes/nav.php');  ?>
+<?php include('../includes/head.php');  ?>
+<?php include('../includes/nav.php');  ?>
 
 
 <!-- START CONTENT -->
@@ -179,10 +179,6 @@ $fb = array(
   <div class="spacer">
   </div>
 
-  <div class="spacer">
-  </div>
-
-
     <div class="section">
         <span class="section-slashes">
           <span>/</span><span>/</span>
@@ -194,10 +190,10 @@ $fb = array(
 
     <div class="content flex">
         <div class="text l-12 m-12 s-12">
-          <?php echo($lang['content']['companies_text'][$eng]); ?>
+          <?php echo($lang['content']['no-companies-notice'][$eng]); ?>
         </div>
     </div>
-
+<!--
     <div class="spacer">
     </div>
     <div class="content flex">
@@ -270,7 +266,7 @@ $fb = array(
           </div>
         </div>
     </div>
-
+                  -->
     <div class="spacer">
     </div>
 
@@ -291,7 +287,7 @@ $fb = array(
     </div>
 
    <!-- This is new -->
-<!--     
+
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
@@ -299,26 +295,34 @@ $fb = array(
       </div>
       <?php echo($lang['content']['programme_preview']['main_text'][$eng]); ?>
     </div>
-    </div> -->
+    </div> 
 
+    <div class="spacer">
+    </div>  
+    
+    <div class="spacer">
+    </div>  
+    
      <!-- This is new -->
-
+    <!--
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br>
-      <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
+      <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br> -->
+      <!--<?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br> -->
+      <!--<?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
       <!-- <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br> -->
       <!-- <div class="programme_button_div">
         <a href="https://www.chemtogether.ethz.ch/dsmlecture/">
           <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
         </a>
-      </div> -->
+      </div> 
+    -->
       <br>
+    <!--
       <table class="fa-table">
         <tr>
           <td><i class="far fa-fw fa-clock"></i></td>
@@ -351,7 +355,7 @@ $fb = array(
       <br>
       </div>
     </div>
-    
+    -->
 
     <!-- <div class="section">
       <span class="section-slashes">
@@ -429,5 +433,5 @@ $fb = array(
 
 <!-- END CONTENT  -->
 
-<?php include('includes/footer.php');  ?>
-<?php include('includes/foot.php');  ?>
+<?php include('../includes/footer.php');  ?>
+<?php include('../includes/foot.php');  ?>

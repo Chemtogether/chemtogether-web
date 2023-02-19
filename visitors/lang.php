@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2022 - Für Besucher', 'Chemtogether 2022 - For Visitors');
+$lang['general']['page_title'] = array('Chemtogether 2023 - Für Besucher', 'Chemtogether 2023 - For Visitors');
 $lang['navigation']['title'] = array('Für Besucher', 'For Visitors');
 $lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 
@@ -12,8 +12,8 @@ $lang['content']['intro_text'] = array(
   'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
 
 $lang['content']['main_text'] = array(
-  'Chemtogether 2022 wird im November 2022 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
-  'Chemtogether 2022 will take place in November 2022 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
+  'Chemtogether 2023 wird im November 2023 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
+  'Chemtogether 2023 will take place in November 2023 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
 $lang['content']['links_guide'] = array('Messeführer (2022)','Expo Guide (2022)');
@@ -49,11 +49,11 @@ $lang['content']['collaboration'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2022 wieder an den zwei Tagen der Chemtogether teil.',
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2023 wieder an den zwei Tagen der Chemtogether teil.',
     'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2022. ');
 
-$lang['content']['day1'] = array('Dienstag, 8. November','Tuesday, 8th of November');
-$lang['content']['day2'] = array('Mittwoch, 9. November', 'Wednesday, 9th of November');
+$lang['content']['day1'] = array('Dienstag, 7. November','Tuesday, 7th of November');
+$lang['content']['day2'] = array('Mittwoch, 8. November', 'Wednesday, 8th of November');
 
 
 
@@ -81,11 +81,11 @@ $lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partne
   
 $lang['detail']['archive'] = array('Archiv','Archive');
   
-$lang['detail']['day'][1] = array('Dienstag, 2. November','Tuesday, 2nd November');
-$lang['detail']['day'][2] = array('Mittwoch, 3. November','Wednesday, 3rd November');
+$lang['detail']['day'][1] = array('Dienstag, 7. November','Tuesday, 2nd November');
+$lang['detail']['day'][2] = array('Mittwoch, 8. November','Wednesday, 3rd November');
   
-$lang['detail']['day_short'][1] = array('2. November','2nd November');
-$lang['detail']['day_short'][2] = array('3. November','3rd November');
+$lang['detail']['day_short'][1] = array('7. November','2nd November');
+$lang['detail']['day_short'][2] = array('8. November','3rd November');
  
 $lang['detail']['we_are'] = array('We are','We are');
 $lang['detail']['we_offer'] = array('We offer','We offer');
