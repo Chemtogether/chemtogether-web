@@ -1,15 +1,15 @@
 <?php
 
 // provides small functions
-include('php/general.php');
+include('../php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
-include('php/language_cookie.php');
+include('../php/language_cookie.php');
 
 
 
 // creates $lang array and provides translation text for common elements (navigation and footer)
-include('includes/language.php');
+include('../includes/language.php');
 
 // include all translations from local file
 include('./data.php');
@@ -70,8 +70,8 @@ $active_nav = 'archive';
 // );
 
 ?>
-<?php include('includes/head.php');  ?>
-<?php include('includes/nav.php');  ?>
+<?php include('../includes/head.php');  ?>
+<?php include('../includes/nav.php');  ?>
 
 
 <!-- START CONTENT -->
@@ -153,7 +153,7 @@ $active_nav = 'archive';
       <?php
       // FILL OUT ONLY HERE
       // EVERYTHING ELSE IS DONE AUTOMATICALLY
-      $years = array(2021, 2019, 2018, 2017, 2016, 2015, 2014, 2013);
+      $years = array(2022, 2021, 2019, 2018, 2017, 2016, 2015, 2014, 2013);
 
       foreach ($years as $year) { ?>
         <div class="spacer">
@@ -236,5 +236,5 @@ $active_nav = 'archive';
   </div>
   <!-- END CONTENT  -->
 
-  <?php include('includes/footer.php');  ?>
-  <?php include('includes/foot.php');  ?>
+  <?php include('../includes/footer.php');  ?>
+  <?php include('../includes/foot.php');  ?>

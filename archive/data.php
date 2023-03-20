@@ -30,7 +30,7 @@ $archive[$i++] = array(
   "name_short" => "avantama",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -40,7 +40,7 @@ $archive[$i++] = array(
   "name_short" => "bachem",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -50,7 +50,7 @@ $archive[$i++] = array(
   "name_short" => "basf",
   "info" => 1,
   "interviews" => 4,
-  "attendences" => array(2021 => 'gold', 2019 => 'gold', 2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
+  "attendences" => array(2022 => 'gold',2021 => 'gold', 2019 => 'gold', 2018 => 'gold', 2017 => 'gold', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -81,7 +81,7 @@ $archive[$i++] = array(
   "name_short" => "carbogenamcis",
   "info" => 1,
   "interviews" => 4,
-  "attendences" => array(2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2022 => 'silver', 2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -91,7 +91,7 @@ $archive[$i++] = array(
   "name_short" => "chemgineering",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'silver'),
+  "attendences" => array(2022 => 'silver', 2021 => 'silver'),
 );
 
 
@@ -112,7 +112,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -193,7 +193,7 @@ $archive[$i++] = array(
   "name_short" => "hoffmanneitle",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base'),
+  "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -203,7 +203,7 @@ $archive[$i++] = array(
   "name_short" => "idorsia",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -253,7 +253,7 @@ $archive[$i++] = array(
   "name_short" => "lonza",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2022 => 'gold', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -273,7 +273,7 @@ $archive[$i++] = array(
   "name_short" => "metrohm",
   "info" => 1,
   "interviews" => 5,
-  "attendences" => array(2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2022 => 'base', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -293,7 +293,7 @@ $archive[$i++] = array(
   "name_short" => "novartis",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2016 => 'silver'),
+  "attendences" => array(2022 => 'base', 2016 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -333,7 +333,7 @@ $archive[$i++] = array(
   "name_short" => "sika",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
+  "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -343,7 +343,7 @@ $archive[$i++] = array(
   "name_short" => "syngenta",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'silver', 2019 => 'silver'),
+  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
 );
 
 $archive[$i++] = array(
