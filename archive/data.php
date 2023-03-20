@@ -75,6 +75,16 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
+  "link_url" => '/archive/buchi/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/buchi/logo','png',FALSE),
+  "name" => "Büchi",
+  "name_short" => "büchi",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2022 => 'silver'),
+);
+
+$archive[$i++] = array(
   "link_url" => '/archive/carbogenamcis/index.php#info',
   "logo_url" => set_source($awss3_archive.'/carbogenamcis/logo','png',FALSE),
   "name" => "CARBOGEN AMCIS",
@@ -143,6 +153,16 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/evonik/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/evonik/logo','png',FALSE),
+  "name" => "Evonik",
+  "name_short" => "evonik",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2022 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -277,6 +297,16 @@ $archive[$i++] = array(
 );
 
 $archive[$i++] = array(
+  "link_url" => '/archive/medbase/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/medbase/logo','png',FALSE),
+  "name" => "Medbase",
+  "name_short" => "medbase",
+  "info" => 1,
+  "interviews" => 5,
+  "attendences" => array(2022 => 'silver'),
+);
+
+$archive[$i++] = array(
   "link_url" => '/archive/mettlertoledo/index.php#info',
   "logo_url" => set_source($awss3_archive.'/mettlertoledo/logo','png',FALSE),
   "name" => "Mettler Toledo",
@@ -304,6 +334,26 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2013 => 'base', 2014 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/senn/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/senn/logo','png',FALSE),
+  "name" => "Senn",
+  "name_short" => "senn",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2022 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/sensirion/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/sensirion/logo','png',FALSE),
+  "name" => "Sensirion",
+  "name_short" => "sensirion",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2022 => 'base'),
 );
 
 $archive[$i++] = array(
