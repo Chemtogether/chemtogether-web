@@ -107,7 +107,7 @@ $active_nav = 'exhibitors';
         <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-envelope"></i></td>
-            <td><?php obfuscate_mail('info', '', ''); ?></td>
+            <td><?php obfuscate_mail('contact', '', ''); ?></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-building"></i></td>
@@ -122,7 +122,7 @@ $active_nav = 'exhibitors';
         <table class="fa-table">
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/brochure_2022.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/brochure_2023.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
@@ -166,7 +166,6 @@ $active_nav = 'exhibitors';
             <td>C</td>
             <td>Ag</td>
             <td>Au</td>
-            <td>Pt</td>
           </tr>
           <?php for ($i=1; $i <= sizeof($lang['packages_table']) ; $i++) { ?>
             <tr>
@@ -174,7 +173,6 @@ $active_nav = 'exhibitors';
               <td><?php echo($lang['packages_table'][$i]['base'][$eng]); ?></td>
               <td><?php echo($lang['packages_table'][$i]['silver'][$eng]); ?></td>
               <td><?php echo($lang['packages_table'][$i]['gold'][$eng]); ?></td>
-              <td><?php echo($lang['packages_table'][$i]['platinum'][$eng]); ?></td>
             </tr>
           <?php } ?>
         </table>
@@ -208,9 +206,6 @@ $active_nav = 'exhibitors';
       </div>
       <div class="packages-gold gallery-button info-packages-button" data-targetid="info-gold" data-familyclass="info-packages" data-buttonclass="info-packages-button">
         <span>Au</span>
-      </div>
-      <div class="packages-platinum gallery-button info-packages-button" data-targetid="info-platinum" data-familyclass="info-packages" data-buttonclass="info-packages-button">
-        <span>Pt</span>
       </div>
 
       <div class="info-packages l-12 m-12 s-12 initially-gallery-opened" id="info-base">
@@ -273,26 +268,7 @@ $active_nav = 'exhibitors';
           </div>
         </div>
       </div>
-      <div class="info-packages l-12 m-12 s-12" id="info-platinum">
-        <div class="box">
-          <div class="text bg">
-            <span><?php echo($lang['packages_info']['platinum']['name'][$eng]); ?></span>
-            <span class="packages-desc"><?php echo($lang['packages_info']['platinum']['desc'][$eng]); ?></span>
-          </div>
-          <div class="text fg">
-            <table class="packages">
-              <?php for ($i=0; $i < sizeof($lang['packages_info']['platinum']['perks']); $i++) { ?>
-                <tr>
-                  <td><i class="fas fa-angle-right"></i></td>
-                  <td><?php echo($lang['packages_info']['platinum']['perks'][$i][$eng]); ?></td>
-                </tr>
-              <?php } ?>
-            </table>
-            <br>
-            <td><?php echo($lang['packages_info']['platinum']['price'][$eng]); ?></td>
-          </div>
-        </div>
-      </div>
+      
     </div>
 
     <div class="spacer">
