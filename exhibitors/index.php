@@ -404,5 +404,7 @@ $active_nav = 'exhibitors';
 </div>
 <!-- END CONTENT  -->
 
+<!-- END CONTENT  -->
+
 <?php include('../includes/footer.php');  ?>
 <?php include('../includes/foot.php');  ?>
