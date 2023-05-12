@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2022 - Aussteller', 'Chemtogether 2022 - Exhibitors');
+$lang['general']['page_title'] = array('Chemtogether 2023 - Aussteller', 'Chemtogether 2023 - Exhibitors');
 $lang['navigation']['title'] = array('Für Firmen', 'For Companies');
 $lang['navigation']['topnav_title']= array('Für Firmen', 'For Companies');
 
@@ -33,8 +33,8 @@ $lang['content'] = array(
     'Brochure for companies (2023)'),
 
   'documents_guide' => array(
-    'Messeführer (2021)',
-    'Expo Guide (2021)'),
+    'Messeführer (2022)',
+    'Expo Guide (2022)'),
 
   'documents_termsandconditions' => array(
     'AGB',
@@ -59,8 +59,8 @@ $lang['content'] = array(
     'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2022.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('info','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
-    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2022.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('info','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2023.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2023.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
     'Rückblick auf 2022',
@@ -118,7 +118,7 @@ $lang['content'] = array(
 );
 
 
-$lang['img']['1'] = array('Messetag', 'Fair day');
+$lang['img']['1'] = array('Messetage', 'Fair days');
 $lang['img']['2'] = array('Besucher', 'Daily visitors');
 $lang['img']['3'] = array('Ø Bewertung', 'Ø Rating');
 

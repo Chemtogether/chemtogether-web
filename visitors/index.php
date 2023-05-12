@@ -290,10 +290,13 @@ $fb = array(
 
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
+      <!--
         <div class="subsection">
         <?php echo($lang['content']['programme_preview']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_preview']['main_text'][$eng]); ?>
+      -->
+      <?php echo($lang['content']['programme_preview']['coming_soon'][$eng]); ?>
     </div>
     </div> 
 

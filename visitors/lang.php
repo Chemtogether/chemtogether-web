@@ -58,8 +58,8 @@ $lang['content']['day2'] = array('Mittwoch, 8. November', 'Wednesday, 8th of Nov
 
 
 $lang['content']['no-companies-notice'] = array(
-    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt! Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
-    'No company has completely confirmed its attendance yet! We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'
+    'Noch hat kein Unternehmen seine Teilnahme endgültig bestätigt. Wir aktualisieren die Teilnehmerliste regelmässig, also folge uns auch auf <a href="https://www.instagram.com/chemtogether/">Instagram</a> und <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!',
+    'No company has completely confirmed its attendance yet. We will update you as soon as possible, so check our <a href="https://www.instagram.com/chemtogether/">Instagram</a> and <a href="https://www.linkedin.com/company/chemtogether/">LinkedIn</a>!'
   );
 
 $lang['content']['preliminary-one'] = array(
@@ -104,7 +104,7 @@ $lang['content']['programme_preview'] = array(
   'title' => array('Podiumsdiskussion: <br> Die ideale Einstimmung auf Dein Chemtogether-Erlebnis','Panel Discussion:<br> The Perfect Start for your Chemtogether-Experience'),
   'main_text' => array('Wie bereits in den Vorjahren wird in der Woche vor der eigentlichen Messe eine Podiumsdiskussion mit Teilnehmern aus Akademie und Industrie stattfinden. Das genaue Datum und die Teilnehmerliste werden hier sowie auf unseren sozialen Kanälen publiziert.',
   'In the week before the fair a panel discussion with participants from academia and industry will take place. The exact date and participants will be announced here as well as on our social media channels.'),
-
+  'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
 

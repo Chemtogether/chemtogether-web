@@ -62,7 +62,7 @@ $active_nav = 'exhibitors';
     <div class="image">
       <div class="patterned">
         <div class="image-container">
-          <span>1</span>
+          <span>2</span>
           <div class="bar"></div>
           <span><?php echo($lang['img']['1'][$eng]); ?></span>
         </div>
@@ -126,7 +126,7 @@ $active_nav = 'exhibitors';
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/2021expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/2022expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
