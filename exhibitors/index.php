@@ -93,7 +93,7 @@ $active_nav = 'exhibitors';
     <br>
       <br>
       <div class="programme_button_div">
-        <a href="https://registration.chemtogether.ethz.ch/">
+        <a href="<?php echo($awss3); ?>/files/brochure_2023.pdf">
           <span><i class="fas fa-file-signature"></i>&nbsp;<?php echo($lang['content']['button_registration'][$eng]); ?></span>
         </a>
       </div>
