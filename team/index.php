@@ -61,7 +61,7 @@ $active_nav = 'team';
         <?php echo($lang['content']['new_team_text'][$eng]); ?>
       </div>
     </div> 
-<!--
+
 
     <div class="spacer">
     </div>
@@ -121,7 +121,7 @@ $active_nav = 'team';
       <div class="spacer">
       </div>
     <?php } ?>
-    -->
+    
     <div class="spacer">
     </div>
 
