@@ -43,7 +43,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('https://cabb-chemicals.com/','cabb-chemicals.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/cabb-chemicals/','Cabb');
-$template['archive'] = '/archive/cabb';
+//$template['archive'] = '/archive/cabb';
 
 $template['we_are'] = array(
   'title' => 'We are',

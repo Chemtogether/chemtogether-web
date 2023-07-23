@@ -43,7 +43,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('https://bluematterconsulting.com/','bluematterconsulting.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/blue-matter/','blue-matter');
-$template['archive'] = '/archive/bluematter';
+//$template['archive'] = '/archive/bluematter';
 
 $template['we_are'] = array(
   'title' => 'We are',

@@ -43,6 +43,16 @@ $archive[$i++] = array(
   "attendences" => array(2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
+/*$archive[$i++] = array(
+  "link_url" => '/archive/baehler/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/baehler/logo','png',FALSE),
+  "name" => "Dr. Bähler Dropa AG",
+  "name_short" => "baehler",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2023 => 'silver'),
+);*/
+
 $archive[$i++] = array(
   "link_url" => '/archive/basf/index.php#info',
   "logo_url" => set_source($awss3_archive.'/basf/logo_svg','svg',FALSE),
@@ -74,6 +84,16 @@ $archive[$i++] = array(
   "attendences" => array(2015 => 'base'),
 );
 
+/*$archive[$i++] = array(
+  "link_url" => '/archive/bluematter/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/bluematter/logo','png',FALSE),
+  "name" => "Blue Matter Consulting",
+  "name_short" => "bluematter",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2023 => 'silver'),
+);*/
+
 $archive[$i++] = array(
   "link_url" => '/archive/buchi/index.php#info',
   "logo_url" => set_source($awss3_archive.'/buchi/logo','png',FALSE),
@@ -83,6 +103,16 @@ $archive[$i++] = array(
   "interviews" => 0,
   "attendences" => array(2022 => 'silver'),
 );
+
+/*$archive[$i++] = array(
+  "link_url" => '/archive/cabb/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/cabb/logo','png',FALSE),
+  "name" => "CABB",
+  "name_short" => "cabb",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2023 => 'base'),
+);*/
 
 $archive[$i++] = array(
   "link_url" => '/archive/carbogenamcis/index.php#info',
@@ -386,6 +416,16 @@ $archive[$i++] = array(
   "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
 );
 
+/*$archive[$i++] = array(
+  "link_url" => '/archive/sulzer/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/sulzer/logo','png',FALSE),
+  "name" => "Sika",
+  "name_short" => "sulzer",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2023 => 'base'),
+);*/
+
 $archive[$i++] = array(
   "link_url" => '/archive/syngenta/index.php#info',
   "logo_url" => set_source($awss3_archive.'/syngenta/logo','png', FALSE),
@@ -395,6 +435,16 @@ $archive[$i++] = array(
   "interviews" => 1,
   "attendences" => array(2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
 );
+
+/*$archive[$i++] = array(
+  "link_url" => '/archive/systag/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/systag/logo','png',FALSE),
+  "name" => "SYSTAG Systemtechnik AG",
+  "name_short" => "systag",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2023 => 'silver'),
+);*/
 
 $archive[$i++] = array(
   "link_url" => '/archive/turbobeads/index.php#info',

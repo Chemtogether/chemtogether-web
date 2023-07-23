@@ -43,7 +43,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('https://baehlerdropa.ch/','baehlerdropa.ch');
 $template['linkedin'] = array('https://www.linkedin.com/company/baehlerdropa/','Baehlerdropa');
-$template['archive'] = '/archive/baehler';
+//$template['archive'] = '/archive/baehler';
 
 $template['we_are'] = array(
   'title' => 'We are',
