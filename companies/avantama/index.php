@@ -14,9 +14,9 @@ $active_nav = 'companies';
 $template['company_name'] = 'Avantama AG';
 $template['company_name_short'] = 'avantama';
 $template['logo_url'] = set_source($awss3.'/companies/avantama/logo','png', FALSE);
-$template['package'] = 'silver';
+$template['package'] = 'base';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('http://avantama.com/','avantama.com');
@@ -46,7 +46,11 @@ $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommission
 $template['interview_print_until'] = 1;
 ##if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
+$template['button_print_until'] = 0; 
 
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+/*
 $template['interview'][$i++] = array(
   'name' => 'Florian Grieder',
   'img_url' => $awss3.'/companies/avantama/interviewee_2022_1',
@@ -132,7 +136,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 include('../0_template/template.php');
 
 ?>

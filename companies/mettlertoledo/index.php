@@ -35,9 +35,9 @@ $template['company_name'] = 'Mettler Toledo';
 $template['company_name_short'] = 'mettlertoledo';
 $template['logo_url'] = set_source($awss3.'/companies/mettlertoledo/logo','png', FALSE);
 $template['package'] = 'base';
-$template['day'] = 1;
+$template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2019 - Firmen: '.$template['company_name'], 'Chemtogether 2019 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -71,7 +71,7 @@ $template['we_look'] = array(
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
-  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
 include('../0_template/template.php');
 

@@ -193,7 +193,7 @@ $fb = array(
           <?php echo($lang['content']['no-companies-notice'][$eng]); ?>
         </div>
     </div>
-<!--
+
     <div class="spacer">
     </div>
     <div class="content flex">
@@ -266,7 +266,7 @@ $fb = array(
           </div>
         </div>
     </div>
-                  -->
+                
     <div class="spacer">
     </div>
 

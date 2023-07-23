@@ -34,7 +34,7 @@ $active_nav = 'companies';
 $template['company_name'] = 'SYSTAG Systemtechnik AG';
 $template['company_name_short'] = 'systag';
 $template['logo_url'] = set_source($awss3.'/companies/systag/logo','png', FALSE);
-$template['package'] = 'base';
+$template['package'] = 'silver';
 $template['day'] = 2;
 
 $lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
@@ -56,12 +56,15 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => '');
-$template['button_print_until'] = 0; 
-$template['interview_print_until'] = 2;
+//$template['button_print_until'] = 0; 
+//$template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+$template['button_print_until'] = 0; 
 
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
     'name' => '',
     'img_url' => $awss3.'/companies/lonza/interviewee_2022_1',
@@ -142,7 +145,7 @@ $template['interview'][$i++] = array(
     ),
 
   ),
-);
+);*/
 include('../0_template/template.php');
 
 ?>

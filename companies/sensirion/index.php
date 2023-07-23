@@ -25,7 +25,7 @@ $template['company_name_short'] = 'sensirion';
 $template['logo_url'] = set_source($awss3.'/companies/sensirion/logo','png', FALSE);
 $template['package'] = 'base';
 $template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.sensirion.com','sensirion.com');
@@ -51,7 +51,7 @@ $template['we_look'] = array(
   $template['button_print_until'] = 0; 
   $template['interview_print_until'] = 0;
   // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
- 
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 include('../0_template/template.php');
 
 ?>
