@@ -41,9 +41,9 @@ $lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template[
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-//$template['homepage'] = array('https://www.hoffmanneitle.com','hoffmanneitle.com');
+$template['homepage'] = array('https://www.galenica.com/','galenica.com');
 // $template['facebook'] = array('', '');
-//$template['linkedin'] = array('https://www.linkedin.com/company/hoffmann-eitle/','HOFFMANN EITLE');
+$template['linkedin'] = array('https://www.linkedin.com/company/galenica-ltd/','Galenica');
 // $template['mail'] = array('','');
 //$template['archive'] = '/archive/hoffmanneitle';
 
