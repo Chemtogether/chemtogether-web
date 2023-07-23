@@ -61,7 +61,7 @@ $active_nav = 'team';
         <?php echo($lang['content']['new_team_text'][$eng]); ?>
       </div>
     </div> 
-<!--
+
 
     <div class="spacer">
     </div>
@@ -79,7 +79,7 @@ $active_nav = 'team';
         <?php echo($lang['content']['team_subsection'][$eng]); ?>
       </span>
     </div>
-  
+  <!--
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
@@ -87,7 +87,7 @@ $active_nav = 'team';
         </div>
       </div>
     </div>
-
+  -->
     <div class="spacer">
     </div>
 
@@ -121,7 +121,7 @@ $active_nav = 'team';
       <div class="spacer">
       </div>
     <?php } ?>
-    -->
+    
     <div class="spacer">
     </div>
 
