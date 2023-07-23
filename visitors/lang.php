@@ -67,6 +67,9 @@ $lang['content']['preliminary-one'] = array(
     'We are looking forward to welcome the following partner companies: BASF, Avantama AG,  CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Novartis, Sika Technology AG.'
 ); 
 
+$lang['content']['intro-text'] = array('Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2023 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen.',
+'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2023. Get to know what the individual companies offer, who they are looking for and when they attend the fair.');
+
 $lang['content']['preliminary-two'] = array(
   'Wir freuen uns auf folgende Partnerfirmen: Lonza AG, Bachem AG, BÜCHI Labortechnik AG, Chemgineering Switzerland AG, DOTTIKON EXCLUSIVE SYNTHESIS A, Evonik Industries AG, Metrohm AG, Senn Chemicals AG, Sensirion AG.',
   'We are looking forward to welcome the following partner companies: Lonza AG, Bachem AG, BÜCHI Labortechnik AG, Chemgineering Switzerland AG, DOTTIKON EXCLUSIVE SYNTHESIS A, Evonik Industries AG, Metrohm AG, Senn Chemicals AG, Sensirion AG.'

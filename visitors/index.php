@@ -190,7 +190,7 @@ $fb = array(
 
     <div class="content flex">
         <div class="text l-12 m-12 s-12">
-          <?php echo($lang['content']['no-companies-notice'][$eng]); ?>
+          <?php echo($lang['content']['intro-text'][$eng]); ?>
         </div>
     </div>
 
