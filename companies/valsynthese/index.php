@@ -44,7 +44,7 @@ $template['homepage'] = array('https://www.valsynthese.ch/','valsynthese.ch');
 //$template['facebook'] = array('https://www.facebook.com/Syngenta/', 'Syngenta');
 $template['linkedin'] = array('https://www.linkedin.com/company/valsynthese/','Valsynthese');
 // $template['mail'] = array('','');
-//$template['archive'] = '/archive/basf';
+$template['archive'] = '/archive/valsynthese';
 
 $template['we_are'] = array(
   'title' => 'We are',
