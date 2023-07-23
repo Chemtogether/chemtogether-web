@@ -34,10 +34,10 @@ $active_nav = 'companies';
 $template['company_name'] = 'Siegfried Holding AG';
 $template['company_name_short'] = 'siegfried';
 $template['logo_url'] = set_source($awss3.'/companies/siegfried/logo_svg','svg', FALSE);
-$template['package'] = 'base';
-$template['day'] = 2;
+$template['package'] = 'gold';
+$template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 

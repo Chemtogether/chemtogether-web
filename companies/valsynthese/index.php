@@ -32,9 +32,9 @@ if(isset($_GET['fb']) && $_GET['fb'] == 'i-0') {
 $template['company_name'] = 'VALSYNTHESE SA';
 $template['company_name_short'] = 'valsynthese';
 $template['logo_url'] = set_source($awss3.'/companies/valsynthese/logo','png', FALSE);
-$template['package'] = 'gold';
-$template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$template['package'] = 'silver';
+$template['day'] = 1;
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 //$template['homepage'] = array('https://www.basf.com','basf.com');
@@ -72,11 +72,12 @@ $template['we_look'] = array(
   'text' => 'Flexible and motivated people to reinforce our team and support our developpement.');
 
   $template['button_print_until'] = 0; 
-$template['interview_print_until'] = 1; 
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 // if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 2;
 
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Dr. Erika Lüthi',
   'img_url' => $awss3.'/companies/valsynthese/interviewee_2021_1',
@@ -221,7 +222,7 @@ $template['interview'][$i++] = array(
       gemeinsamen Ausflügen ist die Atmosphäre sehr gut und „familiär“.',
     ),
   ),
-);
+);*/
 
 include('../0_template/template.php');
 

@@ -34,9 +34,9 @@ $active_nav = 'companies';
 $template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
 $template['logo_url'] = set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE);
-$template['package'] = 'silver';
+$template['package'] = 'base';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('http://www.carbogen-amcis.com/home.asp','carbogen-amcis.com');
@@ -59,10 +59,14 @@ $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.');
   
-$template['button_print_until'] = 0; 
-$template['interview_print_until'] = 1;
+//$template['button_print_until'] = 0; 
+//$template['interview_print_until'] = 1;
   //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+  $template['button_print_until'] = 0; 
 
+  $template['interview_print_until'] = 0;
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+/*
   $i=0;
   $template['interview'][$i++] = array(
     'name' => 'Luca Mannocci',
@@ -155,7 +159,7 @@ $template['interview_print_until'] = 1;
       ),
     ),
   );
-
+*/
 
 include('../0_template/template.php');
 

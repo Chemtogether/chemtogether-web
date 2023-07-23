@@ -33,9 +33,9 @@ $template['company_name'] = 'Syngenta';
 $template['company_name_short'] = 'syngenta';
 $template['logo_url'] = set_source($awss3.'/companies/syngenta/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 1;
+$template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -62,13 +62,18 @@ $template['we_look'] = array(
   chemistry, biology and engineering in order to meet the present and future challenges of a dynamic
   and demanding market environment.');
 
-$template['button_print_until'] = 0; 
+//$template['button_print_until'] = 0; 
  //$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation');
 
 
-$template['interview_print_until'] = 1;
+//$template['interview_print_until'] = 1;
  // if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
+$template['button_print_until'] = 0; 
+
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+/*
   $template['interview'][$i++] = array(
     'name' => 'Amandine Kolleth',
     'img_url' => $awss3.'/companies/syngenta/interviewee_2022_1',
@@ -150,7 +155,7 @@ $template['interview_print_until'] = 1;
       ),
     ),
   );
-
+*/
 
 
 

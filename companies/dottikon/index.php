@@ -23,8 +23,8 @@ $template['company_name'] = 'DOTTIKON ES';
 $template['company_name_short'] = 'dottikon';
 $template['logo_url'] = set_source($awss3.'/companies/dottikon/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$template['day'] = 1;
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://dottikon.com/','dottikon.com');
@@ -47,14 +47,19 @@ $template['we_look'] = array(
   a sense for initiative, and good communication skills. The ability to work independently and accurately is just 
   as important as your motivation to deliver outstanding results.');
 
-  $template['button_print_until'] = 0;
+/*  $template['button_print_until'] = 0;
   $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation');
   
 
 
-$template['interview_print_until'] = 1;
-//if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+$template['interview_print_until'] = 1;*/
 
+$template['button_print_until'] = 0; 
+
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+//if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+/*
 $i = 0;
 
 $template['interview'][$i++] = array(
@@ -121,7 +126,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 
 include('../0_template/template.php');
 ?>

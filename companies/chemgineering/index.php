@@ -34,9 +34,9 @@ $active_nav = 'companies';
 $template['company_name'] = 'Chemgineering';
 $template['company_name_short'] = 'chemgineering';
 $template['logo_url'] = set_source($awss3.'/companies/chemgineering/logo','png', FALSE);
-$template['package'] = 'silver';
+$template['package'] = 'gold';
 $template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.chemgineering.com/','chemgineering.com');
@@ -91,15 +91,18 @@ $template['we_look'] = array(
   experiences in life sciences so that you now really want to get going? Career starters have found
   exactly the right place here!');
 
-$template['button_print_until'] = 0; 
-$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation');
+//$template['button_print_until'] = 0; 
+//$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation');
 
-$template['interview_print_until'] =1;
+//$template['interview_print_until'] =1;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
+$template['button_print_until'] = 0; 
 
+$template['interview_print_until'] = 0;
+if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 $i=0;
 
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Helena Wiemeyer',
   'img_url' => $awss3.'/companies/chemgineering/interviewee_2022_1',
@@ -170,7 +173,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 include('../0_template/template.php');
 
 ?>
