@@ -40,9 +40,11 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 //$template['homepage'] = array('https://www.basf.com','basf.com');
 //$template['facebook'] = array('https://facebook.com/basf/', 'BASF');
 //$template['linkedin'] = array('https://www.linkedin.com/company/basf/','BASF');
-
+$template['homepage'] = array('https://www.valsynthese.ch/','valsynthese.ch');
+//$template['facebook'] = array('https://www.facebook.com/Syngenta/', 'Syngenta');
+$template['linkedin'] = array('https://www.linkedin.com/company/valsynthese/','Valsynthese');
 // $template['mail'] = array('','');
-//$template['archive'] = '/archive/basf';
+$template['archive'] = '/archive/valsynthese';
 
 $template['we_are'] = array(
   'title' => 'We are',

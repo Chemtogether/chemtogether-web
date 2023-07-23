@@ -73,8 +73,8 @@ $template['we_offer'] = array(
   </tr></table>');
   
 $template['we_look'] = array(
- 'Flexible and motivated people to reinforce our team and support our developpement.',
- 'Flexible and motivated people to reinforce our team and support our developpement.');
+ 'Flexible and motivated people to reinforce our team and support our developement.',
+ 'Flexible and motivated people to reinforce our team and support our developement.');
 
 $i=0;
 
