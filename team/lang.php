@@ -157,11 +157,12 @@ $lang['content']['alumni_member_2013'] = 'Steffen Allner<br>Maximilian Doppelbau
 
 
 $lang['content']['organisation_subsection'] = array('Die Organisation','The Organisation');
-$lang['content']['organisation_text'] = array('Chemtogether ist ein gemeinsames Projekt der VCS und der VAC. Die folgenden Organisationen und Dachverbände unterstützen die Chemtogether.','Chemtogether is a joint effort of VCS and VAC. The following organisations and umbrella organisations support Chemtogether.');
+$lang['content']['organisation_text'] = array('Chemtogether ist ein gemeinsames Projekt der VCS, der VAC, des APV und der PSA. Die folgenden Organisationen und Dachverbände unterstützen die Chemtogether.','Chemtogether is a joint effort of VCS and VAC. The following organisations and umbrella organisations support Chemtogether.');
 
 $lang['content']['organisation']['vcs'] = array('Vereinigung der Chemiestudierenden','Association of the Chemistry Students');
 $lang['content']['organisation']['vac'] = array('Vereinigung der Assistenten der Chemischen Labore der ETH Zürich','Union of the Assistants at the Chemical Labs of ETH Zurich');
 $lang['content']['organisation']['apv'] = array('Akademischer Pharmaziestudierenden Verein','Akademischer Pharmaziestudierenden Verein');
+$lang['content']['organisation']['psa'] = array('Pharmaceutical Scientists\' Association','Pharmaceutical Scientists\' Association');
 $lang['content']['organisation']['wins'] = array('The Society for Women in Natural Sciences','The Society for Women in Natural Sciences');
 $lang['content']['organisation']['vecs'] = array('Vereinigung ehemaliger Chemiestudierender der ETH Zürich', 'Chemistry Alumni Association');
 $lang['content']['organisation']['vseth'] = array('Verband der Studierenden an der ETH Zürich','Association of Students at ETH Zurich');
