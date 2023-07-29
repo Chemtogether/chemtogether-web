@@ -29,7 +29,7 @@ $lang['team'][1] = array(
   'info' => array('PuiSan, in Solothurn geboren und aufgewachsen, studiert Pharmazeutische Wissenschaften im Bachelor. Ihres extrakurrikuläre Engagement beinhaltet unter anderem die Mitwirkung im akademischen Pharmaziestudierenden Verein der ETH, APV, im Verband der Studierenen der ETH, VSETH, sowie in dem nationalen Pharmaziestudierenden Verein, asep. In ihrer Freizeit beschäftigt sie sich mit sportlichen Aktivitäten wie Volleyball spielen, Surfen oder Ski fahren, mit sozialen Austausch in diversen Sprachen und musizieren.'
   ,'PuiSan, born and raised in Solothurn, is studying Pharmaceutical Sciences in her Bachelor’s degree. Her extracurricular activities include participation in the Academic Pharmacy Students Association of the ETH, APV, in the Association of Students of the ETH, VSETH, as well as in the National Pharmacy Students Association, asep. In her free time she enjoys sports activities such as playing volleyball, surfing or skiing, social exchange in various languages and playing music.'),
   'mail_prefix' => 'puisan.nghiem',
-  'linkedin' => 'https://www.linkedin.com/in/gabriela-libort-151a8119a'
+  'linkedin' => 'http://www.linkedin.com/in/pui-san-nghiem-34680b219'
 );
 
 $lang['team'][2] = array(
@@ -46,7 +46,7 @@ $lang['team'][3] = array(
   'task' => array('Catering','Catering'),
   'info' => array('', ''),
   'mail_prefix' => 'olivia.gampp',
-  'linkedin' => 'https://www.linkedin.com/company/chemtogether'
+  'linkedin' => ''
 );
 
 $lang['team'][4] = array(
@@ -127,7 +127,7 @@ $lang['team'][12] = array(
   'info' => array('Stefan hat kürzlich sein Masterstudium in Chemie an der ETH Zürich abgeschlossen, welches einen Forschungsaufenthalt an der Universität von Toronto beinhaltete. Ab diesem Herbst wird er ein PhD Studium an der ETH Zürich in KI-unterstützter Chemie absolvieren. In seiner Freizeit ist Stefan ein leidenschaftlicher Tischtennisspieler, fährt gerne Ski und verbringt wertvolle Zeit mit seinen Freunden.', 
   'Stefan recently completed his Master’s degree in Chemistry at ETH Zurich, which included a stay at the University of Toronto. Starting this autumn, he will pursue a PhD degree at ETH Zurich in AI-augmented Chemistry. In his free time, Stefan is a passionate table tennis player and enjoys skiing and spending quality time with his friends.'),
   'mail_prefix' => 'stefan.schmid',
-  'linkedin' => 'www.linkedin.com/in/stefan-philipp-schmid'
+  'linkedin' => 'https://www.linkedin.com/in/stefan-philipp-schmid/'
 );
 
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');

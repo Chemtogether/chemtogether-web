@@ -311,7 +311,7 @@ $active_nav = 'team';
     <div class="content flex-center">
       <div class="image-organisation l-4 m-6 s-12">
       <div>
-          <img <?php set_source($awss3.'/img/organisation/psa','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/organisation/psa','png'); ?>></img>
         </div>
       </div>
       <div class="text l-8 m-6 s-12">
@@ -358,7 +358,7 @@ $active_nav = 'team';
         <div class="subsection">
           <?php echo($lang['content']['organisation']['vecs'][$eng]); ?>
         </div>
-        <a href="https://www.vecs.ch/">www.vecs.ch</a>
+        <a href="http://www.vecs.ch/01_aktuell.htm">www.vecs.ch</a>
       </div>
     </div>
 
