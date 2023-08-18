@@ -31,7 +31,7 @@ $active_nav = 'companies';
   // );
 
 
-$template['company_name'] = 'Dr. Bähler Dropa AG';
+$template['company_name'] = 'DR. BÄHLER DROPA AG';
 $template['company_name_short'] = 'baehler';
 $template['logo_url'] = set_source($awss3.'/companies/baehler/logo','png', FALSE);
 $template['package'] = 'silver';
@@ -44,11 +44,11 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 $template['homepage'] = array('https://baehlerdropa.ch/','baehlerdropa.ch');
 $template['linkedin'] = array('https://www.linkedin.com/company/baehlerdropa/','Baehlerdropa');
 //$template['archive'] = '/archive/baehler';
-
+/*
 $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'excited to join Chemtogether this November!');
-/*
+
 $template['we_offer'] = array(
    'title' => 'We offer',
    'text' => '');
