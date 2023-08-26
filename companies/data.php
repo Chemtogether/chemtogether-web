@@ -95,7 +95,7 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
-    //"link_url" => '/companies/baehler/index.php#info',
+    "link_url" => '/companies/baehler/index.php#info',
     "logo_url" => set_source($awss3.'/companies/baehler/logo','png', FALSE),
     "name" => "<br> DR. BÄHLER DROPA AG  <br> <br> ",
     "name_short" => "baehler",
