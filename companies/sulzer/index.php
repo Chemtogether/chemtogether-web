@@ -45,17 +45,20 @@ $template['homepage'] = array('https://www.sulzer.com/','sulzer.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/sulzer/','Sulzer');
 //$template['archive'] = '/archive/sulzer';
 
+/*
 $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'excited to join Chemtogether this November!');
-/*
+
 $template['we_offer'] = array(
    'title' => 'We offer',
    'text' => '');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => '');*/
+  'text' => '');
+*/
+
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
 
