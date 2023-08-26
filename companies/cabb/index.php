@@ -45,17 +45,20 @@ $template['homepage'] = array('https://cabb-chemicals.com/','cabb-chemicals.com'
 $template['linkedin'] = array('https://www.linkedin.com/company/cabb-chemicals/','Cabb');
 //$template['archive'] = '/archive/cabb';
 
+/*
 $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'excited to join Chemtogether this November!');
-/*
+
 $template['we_offer'] = array(
    'title' => 'We offer',
    'text' => '');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => '');*/
+  'text' => '');
+*/
+
 //$template['button_print_until'] = 0; 
 //template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
