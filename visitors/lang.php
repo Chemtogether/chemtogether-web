@@ -103,101 +103,73 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 //PROGRAMME
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 
-$lang['content']['programme_preview'] = array(
-  'title' => array('Podiumsdiskussion: <br> Die ideale Einstimmung auf Dein Chemtogether-Erlebnis','Panel Discussion:<br> The Perfect Start for your Chemtogether-Experience'),
-  'main_text' => array('Wie bereits in den Vorjahren wird in der Woche vor der eigentlichen Messe eine Podiumsdiskussion mit Teilnehmern aus Akademie und Industrie stattfinden. Das genaue Datum und die Teilnehmerliste werden hier sowie auf unseren sozialen Kanälen publiziert.',
-  'In the week before the fair a panel discussion with participants from academia and industry will take place. The exact date and participants will be announced here as well as on our social media channels.'),
+$lang['content']['programme_1_preview'] = array(
+  'title' => array('Vortrag: <br> Die ideale Einstimmung auf Dein Chemtogether-Erlebnis','Talk:<br> The Perfect Start for your Chemtogether-Experience'),
+  'main_text' => array('Wie bereits in den Vorjahren führen wir einen Anlass zur Vorbereitung auf die Messe durch. Dieses Jahr wird uns Dr. Oliver Renn aus dem Infozentrum einen Beitrag zum Thema "Pitching" leisten, um einen möglichst guten Auftritt beim Jobinterview oder beim Gespräch mit Firmenvertretern an der Messe zu hinterlassen.',
+  'As in previous years, we are holding an event to prepare for the fair. This year, Dr. Oliver Renn from the Info Center will provide us with a contribution on the topic of "Pitching" in order to leave the best possible impression at the job interview or when talking to company representatives at the fair.'),
   'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Podiumsdiskussion: <br> CO2 Neutrality: How far away are we from Energy and Production
-  without Fossil Based Carbon? ','Panel Discussion:<br> CO2 Neutrality: How far away are we from Energy and Production
-  without Fossil Based Carbon? '),
-  'description' => array('We will shed light on the pressing issue of moving away from fossil
-  based carbon from an academic and industrial perspective. Our panelists are Dr. Cornelius Gropp (Development Chemist at Climeworks),
-  Prof. Dr. Jovana V. Milic (group leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg),
-  and Dr. Marco Ranocchiari (Group Leader at Paul Scherrer Institute). The discussion will be moderated by Viktoria Ivarsson (International
-  Relations Oficer at ETH Zurich). The podium session will be followed by an apéro riche.',
-  'We will shed light on the pressing issue of moving away from fossil
-  based carbon from an academic and industrial perspective. Our panelists are Dr. Cornelius Gropp (Development Chemist at Climeworks),
-  Prof. Dr. Jovana V. Milic (Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg),
-  and Dr. Marco Ranocchiari (Group Leader at Paul Scherrer Institute). The discussion will be moderated by Viktoria Ivarsson (International
-  Relations Oficer at ETH Zurich). The podium session will be followed by an apéro riche.'),
-  'guest_1' => array('Dr. Cornelius Gropp, Climeworks','Dr. Cornelius Gropp, Climeworks'),
-  'guest_2' => array('Dr. Jovana V. Milic, University of Fribourg','Dr. Jovana V. Milic, University of Fribourg'),
-  'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
-  'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
+  'title' => array('Talk: <br> How to pitch at an interview or career fair? ','Talk: <br> How to pitch at an interview or career fair? '),
+  'description' => array('The first impression you make can be decisive, especially in a short contact at a career fair, but also in a job interview. After all, you’re not always stuck in an elevator with your interviewer and have time to deliver your 30-second pitch.
+  How should you present yourself and what should you present? Make sure that your counterpart perceives you positively and remembers you, especially if you provide additional digital information afterwards. 
+  Oliver Renn will share his tips and personal experiences as a researcher, but also as a manager in different industries who has hired many people over three decades. His presentation will be complemented by telling his personal story of failure. You will see that not all resumes that look shiny are shiny. Even if you have dark spots on your resume: They do not have to be a showstopper for a successful career.',
+  'The first impression you make can be decisive, especially in a short contact at a career fair, but also in a job interview. After all, you’re not always stuck in an elevator with your interviewer and have time to deliver your 30-second pitch.
+  How should you present yourself and what should you present? Make sure that your counterpart perceives you positively and remembers you, especially if you provide additional digital information afterwards. 
+  Oliver Renn will share his tips and personal experiences as a researcher, but also as a manager in different industries who has hired many people over three decades. His presentation will be complemented by telling his personal story of failure. You will see that not all resumes that look shiny are shiny. Even if you have dark spots on your resume: They do not have to be a showstopper for a successful career.'),
+  'guest_1' => array('Oliver Renn, PhD, ETH Zürich', 'Oliver Renn, PhD, ETH Zurich'),
+  //'guest_2' => array('Dr. Jovana V. Milic, University of Fribourg','Dr. Jovana V. Milic, University of Fribourg'),
+  //'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
+  //'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Donnerstag, 3. November 2022, 17:15-18:45 Uhr','Thursday, 3rd November 2022, 17:15-18:45 h'),
-  'place' => array('HCI G3','HCI G3'),
-  'cv_header' => array('Erfahre mehr über unsere Diskussionsteilnehmer.', 'Learn more about our panelists.'),
-  'cv_guest_1' => array('<b>Dr. Cornelius Gropp</b></br>Development Chemist at Climeworks
-   </br></br> After receiving his BSc in chemistry from the University of Heidelberg and the Ecole Polytechnique, Cornelius Gropp
-   joined the group of Prof. Baran at the Scripps Research Institute in La Jolla for a research stay. Subsequently, he moved 
-   to Zürich to join the graduate program, MSc and PhD with Prof. Diederich, at ETH Zurich specializing in synthetic organic and
-   physical organic chemistry. In 2018, Cornelius Gropp was awarded a SNSF and Leopoldina Fellowship to join the materials
-   research group of Prof. Yaghi at UC Berkeley working on porous and crystalline materials for water, hydrogen and 
-   carbon capture. In 2021, he returned to Switzerland and is now working as a Scientist at Climeworks developing
-   materials for capturing CO2 from the air.',
-  '<b>Dr. Cornelius Gropp</b></br> Development Chemist at Climeworks
-   </br></br>  After receiving his BSc in chemistry from the University of Heidelberg and the Ecole Polytechnique, Cornelius Gropp
-   joined the group of Prof. Baran at the Scripps Research Institute in La Jolla for a research stay. Subsequently, he moved 
-   to Zürich to join the graduate program, MSc and PhD with Prof. Diederich, at ETH Zurich specializing in synthetic organic and
-   physical organic chemistry. In 2018, Cornelius Gropp was awarded a SNSF and Leopoldina Fellowship to join the materials
-   research group of Prof. Yaghi at UC Berkeley working on porous and crystalline materials for water, hydrogen and 
-   carbon capture. In 2021, he returned to Switzerland and is now working as a Scientist at Climeworks developing
-   materials for capturing CO2 from the air.'),
-   'cv_guest_2' => array('<b>Dr. Jovana V. Milic</b></br> Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg
-   </br></br> Jovana V. Milic has obtained her PhD in the Department of Chemistry and Applied Biosciences
-   (D-CHAB) of ETH Zürich in 2017 with Prof. Francois Diederich. She then worked as a postdoctoral researcher 
-   and scientist in the Laboratory of Photonics and Interfaces of Prof. Michael Grätzel at EPFL, until taking
-   on a Group Leader position at the Adolphe Merkle Institute in Fribourg as Swiss National Science Foundation PRIMA
-   Fellow in September 2020, where she presently leads the Smart Energy Materials group. Her research is centered around
-   the development of (supra)molecular materials for renewable energy conversion that can respond to external stimuli and 
-   adapt to their operating conditions, with a particular focus on photovoltaics. This involves a multidisciplinary
-   approach at the interface of chemistry, physics, material science, and engineering towards sustainable development. 
-   In addition to research and international collaborations, she is invested in science outreach, policy and diplomacy
-   as Science Advice Working Group Co-Lead at the Global Young Academy, as well as through activities of the Swiss
-   Young Academy, European Young Chemists Network, and International Younger Chemists Network, connecting and supporting
-   young scientists globally. ',
-  '<b>Dr. Jovana V. Milic</b></br> Group Leader at Adolphe Merkle Institute and Assistant Professor at the University of Fribourg
-   </br></br> Jovana V. Milic has obtained her PhD in the Department of Chemistry and Applied Biosciences
-   (D-CHAB) of ETH Zürich in 2017 with Prof. Francois Diederich. She then worked as a postdoctoral researcher 
-   and scientist in the Laboratory of Photonics and Interfaces of Prof. Michael Grätzel at EPFL, until taking
-   on a Group Leader position at the Adolphe Merkle Institute in Fribourg as Swiss National Science Foundation PRIMA
-   Fellow in September 2020, where she presently leads the Smart Energy Materials group. Her research is centered around
-   the development of (supra)molecular materials for renewable energy conversion that can respond to external stimuli and 
-   adapt to their operating conditions, with a particular focus on photovoltaics. This involves a multidisciplinary
-   approach at the interface of chemistry, physics, material science, and engineering towards sustainable development. 
-   In addition to research and international collaborations, she is invested in science outreach, policy and diplomacy
-   as Science Advice Working Group Co-Lead at the Global Young Academy, as well as through activities of the Swiss
-   Young Academy, European Young Chemists Network, and International Younger Chemists Network, connecting and supporting
-   young scientists globally.  '),
-   'cv_guest_3' => array('<b>Dr. Marco Ranocchiari</b></br>Group Leader at Paul Scherrer Institute, Lecturer at ETH Zurich, Co-founder and Scientific Advisor of the PSI Spin-Off novoMOF
-   </br></br>  After receiving his BSc and MSc in chemistry from the University of Milano Italy, Marco Ranocchiari did
-   his PhD studies at ETH Zurich in the Laboratory of Inorganic Chemistry. He then moved to Paul Scherrer Institute (PSI)
-   Switzerland first as a postdoc and then as a scientist in the Synchrotron Radiation and Nanotechnology department and 
-   then as a group leader in the Energy and Environment division focusing his research on the synthesis and catalytic 
-   application of metal-organic frameworks. In 2022, Marco Ranocchiari became the leader of the Energy System Integration (ESI) at PSI,
-   a platform that wants to accelerate the Net Zero transition by bridging novel technologies with industrialization and
-   commercialization. He is a lecturer of Industrial Chemistry at ETH Zurich, co-writer of a chemistry book for Italian high schools,
-   and co-founder of and scientific advisor of the PSI spin-off novoMOF',
-  '<b>Dr. Marco Ranocchiari</b></br> Group Leader at Paul Scherrer Institute, Lecturer at ETH Zurich, Co-founder and Scientific Advisor of the PSI Spin-Off novoMOF
-   </br></br>  After receiving his BSc and MSc in chemistry from the University of Milano Italy, Marco Ranocchiari did
-   his PhD studies at ETH Zurich in the Laboratory of Inorganic Chemistry. He then moved to Paul Scherrer Institute (PSI)
-   Switzerland first as a postdoc and then as a scientist in the Synchrotron Radiation and Nanotechnology department and 
-   then as a group leader in the Energy and Environment division focusing his research on the synthesis and catalytic 
-   application of metal-organic frameworks. In 2022, Marco Ranocchiari became the leader of the Energy System Integration (ESI) at PSI,
-   a platform that wants to accelerate the Net Zero transition by bridging novel technologies with industrialization and
-   commercialization. He is a lecturer of Industrial Chemistry at ETH Zurich, co-writer of a chemistry book for Italian high schools,
-   and co-founder of and scientific advisor of the PSI spin-off novoMOF. ')
+  'time' => array('Donnerstag, 2. November 2023, 16:45-17:45','Thursday, 2nd November 2023, 16:45-17:45'),
+  'place' => array('HCI J7','HCI J7'),
+  'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
+  'cv_guest_1' => array('<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich'),
+);
+
+$lang['content']['programme_2_preview'] = array(
+  'title' => array('Workshop: <br> Das ideale Begleitprogramm für Dein Chemtogether-Erlebnis','Workshop:<br> The Perfect Supporting program for your Chemtogether-Experience'),
+  'main_text' => array('Während der Messe unterstützt uns der Career Center der ETH mit einem Workshop zu Job Interviews, wo sie u.a. mithilfe eines Live-Probeinterviews nützliche Tipps geben werden. Für diesen Workshop ist eine Anmeldung erforderlich, s. Link unten.',
+  'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see link below.'),
+  'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
+);
+
+
+$lang['content']['programme_2'] = array(
+  'title' => array('Workshop: <br> Interview Preparation ','Workshop: <br> Interview Preparation '),
+  'description' => array('Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
+  During the ensuing feedback and discussion round, you will develop a better understanding of
+  •	How to behave in a first interview and what should you expect
+  •	Why interviewers ask certain questions and what interviewers are really looking for
+  •	How to formulate efficient answers using the STAR interviewing method
+  •	Certain Do’s and Don’ts of being interviewed',
+  'Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
+  During the ensuing feedback and discussion round, you will develop a better understanding of
+  •	How to behave in a first interview and what should you expect
+  •	Why interviewers ask certain questions and what interviewers are really looking for
+  •	How to formulate efficient answers using the STAR interviewing method
+  •	Certain Do’s and Don’ts of being interviewed'),
+  'guest_1' => array('Anja Pauling, Senior Career Coach ETH Career Center', 'Anja Pauling, Senior Career Coach ETH Career Center'),
+  'guest_2' => array('Christine Kaiser, Head ETH Career Center','Christine Kaiser, Head ETH Career Center'),
+  //'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
+  //'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
+
+  //'button' => array("Zum Event", "To the event"),
+  'time' => array('Dienstag, 7. November 2023, 16:00-17:30','Tuesday, 7th November 2023, 16:00-17:30'),
+  'place' => array('TBD','TBD'),
+  'cv_header' => array('Erfahre mehr über unseren Facilitators.', 'Learn more about our facilitators.'),
+  'cv_guest_1' => array('<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center'),
+  'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center'),
 );
 
 //Speaker
-$lang['content']['speaker'] = array('Unsere Diskussionsteilnehmer','Our Panelists');
+$lang['content']['speaker'] = array('Unser Vortragender','Our Speaker');
 
 //How to Careerfair
 $lang['content']['howto_subsection'] = array('Wegweiser Karrieremesse','How-To Career Fair');
