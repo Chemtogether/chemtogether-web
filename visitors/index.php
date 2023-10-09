@@ -291,11 +291,16 @@ $fb = array(
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
-        <?php echo($lang['content']['programme_preview']['title'][$eng]); ?>
+        <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
       </div>
+
       <?php echo($lang['content']['programme_preview']['main_text'][$eng]); ?>
       <!--
       <?php echo($lang['content']['programme_preview']['coming_soon'][$eng]); ?>
+      <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
+      <!--
+      <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?>
+
       -->
     </div>
     </div> 
@@ -354,6 +359,77 @@ $fb = array(
       <?php echo($lang['content']['programme_1']['cv_guest_1'][$eng]); ?> <br><br>
       <!-- <?php echo($lang['content']['programme_1']['cv_guest_2'][$eng]); ?> <br><br>
       <?php echo($lang['content']['programme_1']['cv_guest_3'][$eng]); ?> <br><br> -->
+      <br>
+      </div>
+    </div>
+
+    <div class="spacer">
+    </div> 
+
+    <div class="content flex">
+   <div class="text l-12 m-12 s-12">
+        <div class="subsection">
+        <?php echo($lang['content']['programme_2_preview']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_2_preview']['main_text'][$eng]); ?>
+      <!--
+      <?php echo($lang['content']['programme_2_preview']['coming_soon'][$eng]); ?>
+      -->
+    </div>
+    </div> 
+
+    <div class="spacer">
+    </div>  
+    
+    <div class="spacer">
+    </div>  
+    
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_2']['description'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
+      <!--<?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br> -->
+      <!-- <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?> <br> -->
+      <!-- <div class="programme_button_div">
+        <a href="https://www.chemtogether.ethz.ch/dsmlecture/">
+          <span><?php echo($lang['content']['programme_2']['button'][$eng]); ?></span>
+        </a>
+      </div> 
+    -->
+      <br>
+      <table class="fa-table">
+        <tr>
+          <td><i class="far fa-fw fa-clock"></i></td>
+          <td><?php echo($lang['content']['programme_2']['time'][$eng]); ?></td>
+        </tr>
+        <tr>
+          <td><i class="far fa-fw fa-map"></i></td>
+          <td><?php echo($lang['content']['programme_2']['place'][$eng]); ?></td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    
+    <div class="spacer">
+    </div>
+    <div class="content flex">
+      <div class="text subhead l-12 m-12 s-12">
+        <?php echo($lang['content']['speaker'][$eng]); ?>
+      </div>
+    </div>
+
+    <div class="content flex">
+    <div class="text l-12 m-12 s-12">
+      <div class="subsection">
+        <?php echo($lang['content']['programme_2']['cv_header'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_2']['cv_guest_1'][$eng]); ?> <br><br>
+       <?php echo($lang['content']['programme_2']['cv_guest_2'][$eng]); ?> <br><br>
+      <!--<?php echo($lang['content']['programme_2']['cv_guest_3'][$eng]); ?> <br><br> -->
       <br>
       </div>
     </div>
