@@ -44,18 +44,18 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 $template['homepage'] = array('https://baehlerdropa.ch/','baehlerdropa.ch');
 $template['linkedin'] = array('https://www.linkedin.com/company/baehlerdropa/','Baehlerdropa');
 //$template['archive'] = '/archive/baehler';
-
+/*
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'The family company DR. BÄHLER DROPA AG is one of the leading service providers in the Swiss healthcare system and has a long tradition of pharmaceutical and entrepreneurial excellence. Our nearly 2000 employees at over 120 locations throughout German-speaking Switzerland are committed to improve public health every day of the year. We follow trends closely, and our employees keep up with the latest developments through regular specialist training.');
+  'text' => 'excited to join Chemtogether this November!');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We combine the best of two worlds: as a family business, we attach great importance to a personable corporate culture and to appreciative collaboration. We are lean, flexible, and have short decision-making paths. At the same time, we offer the advantages of a large company with our central services, modern working conditions, and career opportunities. We offer Famulaturen, Assistenzstellen, and student jobs to pharmacy students along with flexible working hours that fit their studies. We support graduates with our 2-year Trainee@DBD training program until they acquire the federal specialist title “Fachapotheker*in in Offizinpharmazie”.');
+   'text' => '');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for inquisitive pharmacy students and graduates.');
+  'text' => '');*/
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
