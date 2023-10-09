@@ -137,6 +137,8 @@ $lang['content']['programme_2_preview'] = array(
   'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
   'main_text' => array('Während der Messe unterstützt uns der Career Center der ETH mit einem Workshop zu Job Interviews, wo sie u.a. mithilfe eines Live-Probeinterviews nützliche Tipps geben werden. Für diesen Workshop ist eine Anmeldung <a href="https://forms.gle/7khpuaKNE91mWAUr5">hier </a> erforderlich.',
   'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
+  'main_text' => array('Während der Messe unterstützt uns der Career Center der ETH mit einem Workshop zu Job Interviews, wo sie u.a. mithilfe eines Live-Probeinterviews nützliche Tipps geben werden. Für diesen Workshop ist eine Anmeldung <a href="https://forms.gle/7khpuaKNE91mWAUr5">hier </a> erforderlich.',
+  'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
   'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
@@ -152,7 +154,7 @@ $lang['content']['programme_2'] = array(
   <li>How to formulate efficient answers using the STAR interviewing method </li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
   </ul>',
-  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up Mandatory</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
@@ -166,7 +168,7 @@ $lang['content']['programme_2'] = array(
   <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
   <li>How to formulate efficient answers using the STAR interviewing method</li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
-  </ul>,
+  </ul>'),
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
