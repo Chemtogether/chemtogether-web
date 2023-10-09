@@ -152,7 +152,11 @@ $lang['content']['programme_2'] = array(
   <li>How to formulate efficient answers using the STAR interviewing method </li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
   </ul>',
+<<<<<<< HEAD
   '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up Mandatory</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+=======
+  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+>>>>>>> a87c75b (added sign-up link)
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
@@ -166,7 +170,11 @@ $lang['content']['programme_2'] = array(
   <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
   <li>How to formulate efficient answers using the STAR interviewing method</li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
+<<<<<<< HEAD
   </ul>,
+=======
+  </ul>'),
+>>>>>>> a87c75b (added sign-up link)
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
