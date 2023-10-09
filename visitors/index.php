@@ -293,10 +293,6 @@ $fb = array(
         <div class="subsection">
         <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
       </div>
-
-      <?php echo($lang['content']['programme_preview']['main_text'][$eng]); ?>
-      <!--
-      <?php echo($lang['content']['programme_preview']['coming_soon'][$eng]); ?>
       <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
       <!--
       <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?>
