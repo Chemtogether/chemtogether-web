@@ -143,7 +143,7 @@ $lang['content']['programme_2_preview'] = array(
 
 $lang['content']['programme_2'] = array(
   'title' => array('Workshop: <br> Interview Preparation ','Workshop: <br> Interview Preparation '),
-  'description' => array('<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Anmeldung</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  'description' => array('<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Anmeldung erforderlich</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
   During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   <ul>
@@ -152,7 +152,7 @@ $lang['content']['programme_2'] = array(
   <li>How to formulate efficient answers using the STAR interviewing method </li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
   </ul>',
-  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up Mandatory</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
@@ -179,7 +179,7 @@ $lang['content']['programme_2'] = array(
 
   //'button' => array("Zum Event", "To the event"),
   'time' => array('Dienstag, 7. November 2023, 16:00-17:30','Tuesday, 7th November 2023, 16:00-17:30'),
-  'place' => array('TBD','TBD'),
+  'place' => array('HCI G3','HCI G3'),
   'cv_header' => array('Erfahre mehr über unseren Facilitators.', 'Learn more about our facilitators.'),
   'cv_guest_1' => array('<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center', '<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center'),
   'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center', '<b>Christine Kaiser</b></br>Head ETH Career Center'),
