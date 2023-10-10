@@ -166,7 +166,7 @@ $lang['content']['programme_2'] = array(
   <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
   <li>How to formulate efficient answers using the STAR interviewing method</li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
-  </ul>'),
+  </ul>,
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>
