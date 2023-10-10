@@ -186,7 +186,9 @@ $lang['content']['programme_2'] = array(
 );
 
 //Speaker
-$lang['content']['speaker'] = array('Unser Vortragender','Our Speaker');
+$lang['content']['speaker_male'] = array('Unser Vortragender','Our Speaker');
+$lang['content']['speaker_female'] = array('Unsere Vortragende','Our Speaker');
+$lang['content']['speaker_multiple'] = array('Unsere Vortragenden','Our Speakers');
 
 //How to Careerfair
 $lang['content']['howto_subsection'] = array('Wegweiser Karrieremesse','How-To Career Fair');
