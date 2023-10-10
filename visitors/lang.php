@@ -128,7 +128,7 @@ $lang['content']['programme_1'] = array(
   'time' => array('Donnerstag, 2. November 2023, 16:45-17:45','Thursday, 2nd November 2023, 16:45-17:45'),
   'place' => array('HCI J7','HCI J7'),
   'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
-  'cv_guest_1' => array('<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich'),
+  'cv_guest_1' => array('<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich', '<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich'),
 );
 
 $lang['content']['programme_2_preview'] = array(
@@ -141,20 +141,24 @@ $lang['content']['programme_2_preview'] = array(
 
 $lang['content']['programme_2'] = array(
   'title' => array('Workshop: <br> Interview Preparation ','Workshop: <br> Interview Preparation '),
-  'description' => array('Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  'description' => array('<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Anmeldung</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
   During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  •	How to behave in a first interview and what should you expect <br>
-  •	Why interviewers ask certain questions and what interviewers are really looking for <br>
-  •	How to formulate efficient answers using the STAR interviewing method <br>
-  •	Certain Do’s and Don’ts of being interviewed',
-  'Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
+  <ul>
+  <li>How to behave in a first interview and what should you expect</li>
+  <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
+  <li>How to formulate efficient answers using the STAR interviewing method </li>
+  <li>Certain Do’s and Don’ts of being interviewed</li>
+  </ul>',
+  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
   During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  •	How to behave in a first interview and what should you expect <br>
-  •	Why interviewers ask certain questions and what interviewers are really looking for <br>
-  •	How to formulate efficient answers using the STAR interviewing method <br>
-  •	Certain Do’s and Don’ts of being interviewed'),
+  <ul>
+  <li>How to behave in a first interview and what should you expect</li>
+  <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
+  <li>How to formulate efficient answers using the STAR interviewing method</li>
+  <li>Certain Do’s and Don’ts of being interviewed</li>
+  </ul>'),
   'guest_1' => array('Anja Pauling, Senior Career Coach ETH Career Center', 'Anja Pauling, Senior Career Coach ETH Career Center'),
   'guest_2' => array('Christine Kaiser, Head ETH Career Center','Christine Kaiser, Head ETH Career Center'),
   //'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
@@ -164,8 +168,8 @@ $lang['content']['programme_2'] = array(
   'time' => array('Dienstag, 7. November 2023, 16:00-17:30','Tuesday, 7th November 2023, 16:00-17:30'),
   'place' => array('TBD','TBD'),
   'cv_header' => array('Erfahre mehr über unseren Facilitators.', 'Learn more about our facilitators.'),
-  'cv_guest_1' => array('<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center'),
-  'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center'),
+  'cv_guest_1' => array('<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center', '<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center'),
+  'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center', '<b>Christine Kaiser</b></br>Head ETH Career Center'),
 );
 
 //Speaker
