@@ -287,20 +287,20 @@ $fb = array(
     </div>
 
    <!-- This is new -->
-
+    <!--
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
         <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
-      <!--
+      
       <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?>
 
-      -->
+      
     </div>
     </div> 
-
+                  -->
     <div class="spacer">
     </div>  
     
@@ -315,7 +315,7 @@ $fb = array(
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
+      <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br> -->
       <!--<?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br> -->
       <!--<?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
       <!-- <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br> -->
@@ -349,9 +349,9 @@ $fb = array(
 
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
-      <div class="subsection">
+      <!-- <div class="subsection">
         <?php echo($lang['content']['programme_1']['cv_header'][$eng]); ?>
-      </div>
+      </div> -->
       <?php echo($lang['content']['programme_1']['cv_guest_1'][$eng]); ?> <br><br>
       <!-- <?php echo($lang['content']['programme_1']['cv_guest_2'][$eng]); ?> <br><br>
       <?php echo($lang['content']['programme_1']['cv_guest_3'][$eng]); ?> <br><br> -->
@@ -361,19 +361,19 @@ $fb = array(
 
     <div class="spacer">
     </div> 
-
+    <!--
     <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
         <?php echo($lang['content']['programme_2_preview']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_2_preview']['main_text'][$eng]); ?>
-      <!--
+      
       <?php echo($lang['content']['programme_2_preview']['coming_soon'][$eng]); ?>
-      -->
+      
     </div>
     </div> 
-
+    -->
     <div class="spacer">
     </div>  
     
@@ -386,8 +386,8 @@ $fb = array(
         <?php echo($lang['content']['programme_2']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_2']['description'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br>
-      <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br>
+      <!-- <?php echo($lang['content']['programme_2']['guest_1'][$eng]); ?> <br> -->
+      <!-- <?php echo($lang['content']['programme_2']['guest_2'][$eng]); ?> <br> -->
       <!--<?php echo($lang['content']['programme_2']['guest_3'][$eng]); ?> <br> -->
       <!-- <?php echo($lang['content']['programme_2']['guest_4'][$eng]); ?> <br> -->
       <!-- <div class="programme_button_div">
@@ -420,9 +420,9 @@ $fb = array(
 
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
-      <div class="subsection">
+      <!-- <div class="subsection">
         <?php echo($lang['content']['programme_2']['cv_header'][$eng]); ?>
-      </div>
+      </div> -->
       <?php echo($lang['content']['programme_2']['cv_guest_1'][$eng]); ?> <br><br>
        <?php echo($lang['content']['programme_2']['cv_guest_2'][$eng]); ?> <br><br>
       <!--<?php echo($lang['content']['programme_2']['cv_guest_3'][$eng]); ?> <br><br> -->
@@ -442,11 +442,11 @@ $fb = array(
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
-        <?php echo($lang['content']['programme_1']['cv_header'][$eng]); ?>
+        <?php echo($lang['content']['programme_2']['cv_header'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1']['cv_guest_1'][$eng]); ?> <br><br>
-      <?php echo($lang['content']['programme_1']['cv_guest_2'][$eng]); ?> <br><br>
-      <?php echo($lang['content']['programme_1']['cv_guest_3'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_2']['cv_guest_1'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_2']['cv_guest_2'][$eng]); ?> <br><br>
+      <?php echo($lang['content']['programme_2']['cv_guest_3'][$eng]); ?> <br><br>
       <br>
 
     <div class="spacer">
