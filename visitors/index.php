@@ -343,7 +343,7 @@ $fb = array(
     </div>
     <div class="content flex">
       <div class="text subhead l-12 m-12 s-12">
-        <?php echo($lang['content']['speaker'][$eng]); ?>
+        <?php echo($lang['content']['speaker_male'][$eng]); ?>
       </div>
     </div>
 
@@ -414,7 +414,7 @@ $fb = array(
     </div>
     <div class="content flex">
       <div class="text subhead l-12 m-12 s-12">
-        <?php echo($lang['content']['speaker'][$eng]); ?>
+        <?php echo($lang['content']['speaker_multiple'][$eng]); ?>
       </div>
     </div>
 
