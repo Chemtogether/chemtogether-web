@@ -48,30 +48,14 @@ $template['archive'] = '/archive/valsynthese';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'a privately owned and well-etablished Swiss CDMO for API intermediates and API drug substances, located in Brig, in the hearts of the Alps, part of the SSE Group. Specialized in hazardous chemistry, Valsynthese is serving multiple industries such as agrochemical, fragrances & flavours and medical devices.');
+  'text' => 'The Fine Chemicals BU of SSE Group and we are active in the fields of custom synthesis and contract manufacturing for the chemical and pharmaceutical industries. Our core capabilities are focused on high energetic and highly hazardous chemistry. Our mission is to bring Swiss high-quality services to our worldwide network. To reach this goal at Valsynthese we are also committed to Environment, Health, and Safety (EHS) to protect people, our communities, the environment and the company.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => '<table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Dynamic working environment in a human scale company</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Diversified and attractive job description</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Perspectives linked to a lively and growing company</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>First-rate social benefits</td>
-  </tr></table>');
+  'text' => 'Gender equality, encouraging part time working models and flexible working hours to well balance working/private life. We are putting human beings in the center and nurture a diverse, equitable and inclusive environment where everyone feels engaged, valued and respected. We encourage our employees to contribute and develop their ideas, ambitions and skills and offer transparent paths of growth.');
   
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'Flexible and motivated people to reinforce our team and support our developpement.');
+  'text' => 'Motivated people who can contribute with their ideas and skills to GROW TOGETHER.');
 
   $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
