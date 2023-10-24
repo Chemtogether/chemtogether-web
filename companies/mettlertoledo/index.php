@@ -92,6 +92,7 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
    'title' => 'We are looking for', 
    'text' => 'We are looking for motivated personalities who are always ready to develop further, who are open to new ideas and who enjoy working in a dynamic environment and realising their potential.');
+   'text' => 'We are looking for motivated personalities who are always ready to develop further, who are open to new ideas and who enjoy working in a dynamic environment and realising their potential.');
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;

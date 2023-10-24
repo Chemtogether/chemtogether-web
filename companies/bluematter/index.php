@@ -93,42 +93,7 @@ $template['we_offer'] = array(
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'At Blue Matter we look for aspiring / veteran Consultants (AC / C / SC) that are scientifically trained (either by experience or academic accomplishments) and have a solid base across all of the following competencies, which are:
-    <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Critical Thinker</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Collaborative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Communicative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Proactive</td>
-  </tr></table>
-    We would be extra thrilled if you are:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to display a mature level of structured thinking</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to integrate business, industry and academic knowledge towards creating creative solutions</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to demonstrate direct biopharma industry knowledge and experience</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Experienced in client facing environments</td>
-  </tr></table>');
+  'text' => '');
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
