@@ -49,14 +49,14 @@ $template['linkedin'] = array('https://www.linkedin.com/company/galenica-ltd/','
 
 $template['we_are'] = array(
   'title' => 'Who we are',
-  'text' => 'We are the largest pharmacy Group in Switzerland. With more than 350 pharmacies all over Switzerland, we can offer you different opportunities at all levels of your career.');
+  'text' => 'We are the leading healthcare provider and the largest pharmacy network in Switzerland. Our companies offer a wide range of future-oriented careers that have something in common: our employees are highly committed to the health and well-being of the people of Switzerland.');
 
   $template['we_offer'] = array(
   'title' => 'We offer you',
-  'text' => 'We can offer you apprenticeships during your Master studies in Pharmacy. Graduates are more than welcome to start as young Pharmacists. In addition, we offer a large selection of trainings from the begging of your career.');
+  'text' => 'We can offer you apprenticeships. We offer excellent entry opportunities for pharmacy students at all levels (parttime job, assistantship, FPH further training) in our Amavita, Coop Vitality (joint venture with Coop) and Sun Store pharmacies. Immerse yourself in the fascinating and diverse professional world of Galenica!');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for motivated pharmacists.');
+  'text' => 'We are looking for committed talents. If you’re truly passionate about a career in pharmacy, this is the right place for you, whether you are in the Bachelor’s or Master’s program or have already completed your studies.');
 
 $template['button_print_until'] = 0; 
 
