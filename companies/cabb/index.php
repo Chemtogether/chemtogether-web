@@ -48,9 +48,11 @@ $template['linkedin'] = array('https://www.linkedin.com/company/cabb-chemicals/'
 $template['we_are'] = array(
   'title' => 'We are',
   'text' => 'The CABB Group is a leading Crop Science contract development and manufacturing organization (CDMO), supplying customized active ingredients. CABB also offers high-complexity and high-purity chemical ingredients to customers in the Life Sciences and Performance Materials markets.');
+  'text' => 'The CABB Group is a leading Crop Science contract development and manufacturing organization (CDMO), supplying customized active ingredients. CABB also offers high-complexity and high-purity chemical ingredients to customers in the Life Sciences and Performance Materials markets.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
+   'text' => 'As a multinational employer, we promote a workforce with diverse talents and qualifications and offer our team members numerous opportunities for development and productive realization of their potential. Whether you’re degreed in chemistry, engineering or business, there is a wide variety of exciting career opportunities waiting for you at CABB.');
    'text' => 'As a multinational employer, we promote a workforce with diverse talents and qualifications and offer our team members numerous opportunities for development and productive realization of their potential. Whether you’re degreed in chemistry, engineering or business, there is a wide variety of exciting career opportunities waiting for you at CABB.');
 
 $template['we_look'] = array(
@@ -69,6 +71,14 @@ $template['we_look'] = array(
   <td><i class="fas fa-fw fa-chevron-right"></td>
   <td>Chemical Technicians</td>
   </tr></table>');
+=======
+    <ul>
+  <li>Development and Industrial Chemists</li>
+  <li>Production Engineers</li>
+  <li>How to formulate efficient answers using the STAR interviewing method</li>
+  <li>Chemical Technicians</li>
+  </ul>');
+>>>>>>> 79c3bb2 (Update 2023 expoguide and company description)
 
 //$template['button_print_until'] = 0; 
 //template['interview_print_until'] = 2;
