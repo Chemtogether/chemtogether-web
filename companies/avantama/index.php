@@ -29,14 +29,15 @@ $template['archive'] = '/archive/avantama';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'We are a global leader in high-tech materials for electronics. Our material innovations are used in millions of electronic devices such as printed solar cells. 
-  Our next generations of products will make displays 35% more colorul, 40% brighter and more energy-efficient than ever before.');
+  'text' => 'leader in high-tech materials for electronics. Our material innovations are used in optical and electronic coatings. Our materials are used in solar cells, displays, windows and other applications.');
+
 $template['we_offer'] = array(
-  'title' => 'We offer',
-  'text' => 'We offer internships and full-time positions in a start-up environment with a fun group of colleagues.');
+   'title' => 'We offer',
+   'text' => 'a unique environment to develop materials for a bright and efficient future.');
+
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for bright students mainly with a background in chemistry, chemical engineering or materials science. Fresh graduates are welcome.');
+  'text' => 'chemists, chemical engineers and materials scientist');
 
 
 

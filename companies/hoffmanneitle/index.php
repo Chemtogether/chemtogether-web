@@ -47,16 +47,10 @@ $template['archive'] = '/archive/hoffmanneitle';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property.
-   With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal 
-   and technical issues regarding patent applications and patent prosecution and are well known for our expertise 
-   in opposition and litigation proceedings.');
+  'text' => 'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'The only route to becoming a patent attorney is by taking a position as a trainee,
-   and being trained by an already-qualified patent attorney. 
-   We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), 
-   good long-term career perspectives, and a dynamic and rewarding work environment.');
+  'text' => 'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives, and a dynamic and rewarding work environment.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'Individuals with

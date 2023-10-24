@@ -33,20 +33,15 @@ $template['linkedin'] = array('https://www.linkedin.com/company/sensirion/','Sen
 //$template['archive'] = '/archive/sensirion';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Sensirion is an internationally active high-tech company with headquarters in Switzerland
-  and subsidiaries in Asia, North America and Europe. For two decades, the ETH spin-off has
-  been developing and producing world-leading sensors and sensor solutions for a wide range
-  of applications in the medical technology, automotive and consumer goods sectors.');
+  'text' => 'Sensirion is an international high-tech company with its headquarters in Switzerland and subsidiaries in Asia, North America and Europe. For two decades, the ETH spin-off has been developing and producing world-leading sensors and sensor solutions for a wide range of applications in the medical technology, automotive and consumer goods sectors. As a market leader, Sensirion offers stability and security – and embodies a pioneering startup spirit. Today, 1225 employees do their utmost with expertise and passion to stay one step ahead. The common goal: creating sustainable change with innovative sensor solutions. For greater health, efficiency, security and quality of life – for a smarter future across the whole world.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Sensirion offers stability and security - and lives the start-up spirit of the early days.
-  Today, around 800 employees do their utmost with expertise and passion to always be one step ahead.
-  Their common goal is to bring about lasting change that cannot be copied.
-  For better quaility of life, health, efficiency and safety - for a smarter future around the globe.');
+  'text' => 'Together, we make the world better. Contribute your ideas, make a difference and take responsibility. Sensirion is a young, dynamic and very humanly managed company with a strong corporate culture. We always strive to offer our employees - who contribute a relevant part to the overall success of our company - optimal conditions for personal and professional development. This includes, for example, taking on a high level of personal responsibility or working in interdisciplinary teams with leading and cooperative professionals. At Sensirion, you will work on independent projects from the very beginning and thus make a relevant contribution to the overall success of our company. Regular team meetings ensure the exchange of information.
+  You can find our benefits here: https://www.sensirion.com/career/work-at-sensirion');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for young, passionate people who want to write their own success story - in the largest start-up
-  in Switzerland.');
+  'text' => 'We offer various positions in development, production and sales. There are exciting tasks in particular in our software departments, in automation and construction, in process engineering or also in technical sales. Various jobs in R&D and production also involve working in our clean rooms (ISO7 and ISO6).
+  You can find an overview of our current open positions here: https://www.sensirion.com/career');
 
   $template['button_print_until'] = 0; 
   $template['interview_print_until'] = 0;
