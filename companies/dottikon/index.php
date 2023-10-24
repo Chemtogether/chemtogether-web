@@ -34,18 +34,13 @@ $template['linkedin'] = array('https://www.linkedin.com/company/dottikon-exclusi
 $template['archive'] = '/archive/dottikon';
 $template['we_are'] = array(
   'title' => 'Who we are',
-  'text' => 'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research & Development and Scale-up. 
-  A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production.');
+  'text' => 'We are the Specialist for Hazardous, Safety-Critical Chemical Reactions with a strong emphasis on technology-driven Research & Development and Scale-up. A custom manufacturer of APIs and advanced intermediates for the pharmaceutical and industrial industries around the globe, we pursue a one-site strategy in Switzerland that covers the full range from lab scale all the way to multi-ton production.');
 $template['we_offer'] = array(
   'title' => 'We offer you',
-  'text' => 'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, 
-   fast decision taking and on-site production. You will have access to all the plants and equipment where your
-  chemistry will be implemented.  We offer flat hierarchies, clear structures, competences, and responsibility in a constructive and open working environment.');
+  'text' => 'Our one-site strategy creates a unique environment that allows for rapid response times to customer inquiries, fast decision taking and on-site production. You will have access to all the plants and equipment where your chemistry will be implemented. We offer flat hierarchies, clear structures, competences, and responsibility in a constructive and open working environment.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, 
-  a sense for initiative, and good communication skills. The ability to work independently and accurately is just 
-  as important as your motivation to deliver outstanding results.');
+  'text' => 'We are looking for flexible and committed chemists with a strong team spirit, an entrepreneurial mentality, a sense for initiative, and good communication skills. The ability to work independently and accurately is just as important as your motivation to deliver outstanding results.');
 
 /*  $template['button_print_until'] = 0;
   $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation');
