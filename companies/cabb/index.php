@@ -45,16 +45,18 @@ $template['homepage'] = array('https://cabb-chemicals.com/','cabb-chemicals.com'
 $template['linkedin'] = array('https://www.linkedin.com/company/cabb-chemicals/','Cabb');
 //$template['archive'] = '/archive/cabb';
 
+/*
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'The CABB Group is a leading Crop Science contract development and manufacturing organization (CDMO), supplying customized active ingredients. CABB also offers high-complexity and high-purity chemical ingredients to customers in the Life Sciences and Performance Materials markets.');
+  'text' => 'excited to join Chemtogether this November!');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'As a multinational employer, we promote a workforce with diverse talents and qualifications and offer our team members numerous opportunities for development and productive realization of their potential. Whether you’re degreed in chemistry, engineering or business, there is a wide variety of exciting career opportunities waiting for you at CABB.');
+   'text' => '');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
+<<<<<<< HEAD
   'text' => 'We are currently looking for talented people across many of our business functions such as:
 <<<<<<< HEAD
     <table class="fa-table">
@@ -78,6 +80,10 @@ $template['we_look'] = array(
   <li>Chemical Technicians</li>
   </ul>');
 >>>>>>> 79c3bb2 (Update 2023 expoguide and company description)
+=======
+  'text' => '');
+*/
+>>>>>>> 5d71497 (added sign-up link)
 
 //$template['button_print_until'] = 0; 
 //template['interview_print_until'] = 2;

@@ -45,53 +45,12 @@ $template['homepage'] = array('https://bluematterconsulting.com/','bluemattercon
 $template['linkedin'] = array('https://www.linkedin.com/company/blue-matter/','blue-matter');
 //$template['archive'] = '/archive/bluematter';
 
-
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Blue Matter is a strategic consulting firm serving the life sciences industry. We work with some of the most innovative companies and therapies in the world. While we’re committed to excellence, we also foster a People First culture that’s collaborative and supportive, focusing on our team’s well-being and personal growth.');
+  'text' => 'excited to join Chemtogether this November!');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-<<<<<<< HEAD
-   'text' => '
-   <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A steep learning curve working on interesting and challenging projects across our clients’ products, portfolios, and organizations.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Projects from biotechs startups to multinational pharmaceutical corporations.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A Supportive environment to learn and grow, regardless of your skill and knowledge level.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Being empowered to drive your development, own your work, and manage your time from day one.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>We support the wellbeing of our employees by reimbursing health-related aspects such as gym membership, sports coaching, or sports equipment.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Cost-matching education initiatives (even if it is not work-related) for your self-improvement.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Hybrid office and home working model (depending on project schedules), with very limited travel requirement (5-10% on average).</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A structured onboarding program to help you learn basic consulting skills.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Support for your developmental journey with a Peer-level buddy to help you navigate your way around Blue Matter and share their experiences, as well as a senior-level career coach to support your overall professional development and career progression</td>
-  </tr></table>');
-=======
    'text' => '<ul>
    <li>A steep learning curve working on interesting and challenging projects across our clients’ products, portfolios, and organizations.</li>
    <li>Projects from biotechs startups to multinational pharmaceutical corporations. </li>
@@ -103,24 +62,11 @@ $template['we_offer'] = array(
    <li>A structured onboarding program to help you learn basic consulting skills. </li>
    <li>Support for your developmental journey with a Peer-level buddy to help you navigate your way around Blue Matter and share their experiences, as well as a senior-level career coach to support your overall professional development and career progression </li>
    </ul>');
->>>>>>> 79c3bb2 (Update 2023 expoguide and company description)
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'At Blue Matter we look for aspiring / veteran Consultants (AC / C / SC) that are scientifically trained (either by experience or academic accomplishments) and have a solid base across all of the following competencies, which are:
-    <ul> 
-    <li>Critical Thinker</li>
-    <li>Collaborative</li>
-    <li>Communicative</li>
-    <li>Proactive</li>
-    </ul>
-    We would be extra thrilled if you are:
-    <ul> 
-    <li>Able to display a mature level of structured thinking</li>
-    <li>Able to integrate business, industry and academic knowledge towards creating creative solutions</li>
-    <li>Able to demonstrate direct biopharma industry knowledge and experience</li>
-    <li>Experienced in client facing environments</li>
-    </ul>');
+  'text' => '');
+*/
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
