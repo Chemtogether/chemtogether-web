@@ -45,18 +45,17 @@ $template['homepage'] = array('https://www.systag.ch/','systag.ch');
 $template['linkedin'] = array('https://www.linkedin.com/company/systag-system-technik-ag/','SYSTAG');
 //$template['archive'] = '/archive/systag';
 
-/*
+
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'excited to join Chemtogether this November!');
+  'text' => 'A Swiss company operating worldwide as a partner of the pharmaceutical and chemical industry for automation in R&D laboratories.');
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => '');
+   'text' => 'The flexibility to work from home and be involved in diverse fields within the company. Our flat hierarchy allows you to develop yourself and make a difference through your own initiative.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => '');
-*/
+  'text' => 'People who do not want to be just an anonymous number in a big company. For our positions in product development (software and hardware), project management and engineering we prefere people with a background in science or engineering.');
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;

@@ -45,14 +45,13 @@ $template['homepage'] = array('https://cabb-chemicals.com/','cabb-chemicals.com'
 $template['linkedin'] = array('https://www.linkedin.com/company/cabb-chemicals/','Cabb');
 //$template['archive'] = '/archive/cabb';
 
-/*
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'excited to join Chemtogether this November!');
+  'text' => 'The CABB Group is a leading Crop Science contract development and manufacturing organization (CDMO), supplying customized active ingredients. CABB also offers high-complexity and high-purity chemical ingredients to customers in the Life Sciences and Performance Materials markets.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => '');
+   'text' => 'As a multinational employer, we promote a workforce with diverse talents and qualifications and offer our team members numerous opportunities for development and productive realization of their potential. Whether you’re degreed in chemistry, engineering or business, there is a wide variety of exciting career opportunities waiting for you at CABB.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
