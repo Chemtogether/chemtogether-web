@@ -55,10 +55,8 @@ $template['we_offer'] = array(
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-<<<<<<< HEAD
   'text' => 'We are currently looking for talented people across many of our business functions such as:
-<<<<<<< HEAD
-    <table class="fa-table">
+  <table class="fa-table">
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
   <td>Development and Industrial Chemists</td>
@@ -71,18 +69,6 @@ $template['we_look'] = array(
   <td><i class="fas fa-fw fa-chevron-right"></td>
   <td>Chemical Technicians</td>
   </tr></table>');
-=======
-    <ul>
-  <li>Development and Industrial Chemists</li>
-  <li>Production Engineers</li>
-  <li>How to formulate efficient answers using the STAR interviewing method</li>
-  <li>Chemical Technicians</li>
-  </ul>');
->>>>>>> 79c3bb2 (Update 2023 expoguide and company description)
-=======
-  'text' => '');
-*/
->>>>>>> 5d71497 (added sign-up link)
 
 //$template['button_print_until'] = 0; 
 //template['interview_print_until'] = 2;
