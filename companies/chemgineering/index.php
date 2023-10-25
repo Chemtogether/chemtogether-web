@@ -47,7 +47,11 @@ $template['archive'] = '/archive/chemgineering';
 
 $template['we_are'] = array(
   'title' => 'Who we are',
-  'text' => 'The Chemgineering Group is a global consulting and planning company focusing on the GxP-regulated environment. From consulting to concept studies to turnkey solutions, we offer the full range of services. We have engineers, process engineers, chemists, pharmacists, biotechnologists and many more specialists from many different fields, our employees also originate from a wide variety of cultures.');
+  'text' => 'The Chemgineering Group is a global consulting and planning company focusing on the GxP-regulated environment.
+   From consulting to concept studies to turnkey solutions, we offer the full range of services. 
+   We have engineers, process engineers, chemists, pharmacists, biotechnologists and many more specialists from many 
+   different fields, our employees also originate from a wide variety of cultures.  
+   ');
 
 $template['we_offer'] = array(
    'title' => 'We offer you',
@@ -63,7 +67,7 @@ $template['we_offer'] = array(
    </tr>
    <tr>
    <td><i class="fas fa-fw fa-chevron-right"></td>
-   <td> Individualized professional training according to personal development goals</td>
+   <td> Individualized professional training acoording to personal development goals</td>
    </tr>
    <tr>
    <td><i class="fas fa-fw fa-chevron-right"></td>
@@ -82,7 +86,10 @@ $template['we_offer'] = array(
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'Project engineer or Junior consultants, depending on company area. Are you on the verge of getting your science degree, and might you already have gained your first experiences in life sciences so that you now really want to get going? Career starters have found exactly the right place here!');
+  'text' => 'Project engineer or Junior consultants, depending on company area. 
+  Are you on the verge of getting your science degree, and might you already have gained your first
+  experiences in life sciences so that you now really want to get going? Career starters have found
+  exactly the right place here!');
 
 //$template['button_print_until'] = 0; 
 //$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-chemgineering">Watch our Flash presentation');
