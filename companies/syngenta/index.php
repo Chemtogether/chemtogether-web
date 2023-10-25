@@ -45,15 +45,22 @@ $template['linkedin'] = array('https://ch.linkedin.com/company/syngenta','Syngen
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Syngenta Crop Protection (CP) is one of the four business units of Syngenta Group, a global leader in agricultural technology and innovation with 57000 employees in more than 100 countries. Headquartered in Basel, Switzerland, Syngenta CP has an industry-leading R&D pipeline, strong research capabilities and a broad product portfolio of herbicides, insecticides, fungicides, and seed treatments.');
+  'text' => 'Syngenta Crop Protection (CP) is one of the four business units of Syngenta Group, 
+  a global leader in agricultural technology and innovation with 49000 employees in more than 100 countries. 
+  Headquartered in Basel, Switzerland, Syngenta CP has an industry-leading R&D pipeline, strong research capabilities 
+  and a broad product portfolio of herbicides, insecticides, fungicides, and seed treatments.');
 
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'At our company both students and graduates can apply their knowledge, gain initial experience, learn and grow in a variety of areas and benefit from the know-how and experience of our employees. We offer internships at all levels during your academic education (undergraduate, graduate, postgraduate and postdoctoral level) lasting from 3 to 12 months.');
+  'text' => 'At our company both students and graduates can apply their knowledge, gain initial experience, learn and grow
+  in a variety of areas and benefit from the know-how and experience of our employees. We offer internships at all levels
+  during your academic education (undergraduate, graduate, postgraduate and postdoctoral level) lasting from 3 to 12 months.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for enthusiastic and talented individuals who want to launch their career in science, chemistry, biology and engineering in order to meet the present and future challenges of a dynamic and demanding market environment.');
+  'text' => 'We are looking for enthusiastic and talented individuals who want to launch their career in science,
+  chemistry, biology and engineering in order to meet the present and future challenges of a dynamic
+  and demanding market environment.');
 
 //$template['button_print_until'] = 0; 
  //$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-syngenta">Watch our Flash presentation');

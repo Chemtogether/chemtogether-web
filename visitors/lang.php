@@ -8,8 +8,8 @@ $lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content']['image_floor'] = array('Stock','floor');
 $lang['content']['intro_text'] = array(
-  'Chemtogether ist eine Karrieremesse an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen.',
-  'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.');
+  'Chemtogether ist eine Karrieremesse an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen. <br> Willst auch du bei der diesjährigen Chemtogether mithelfen? Dann melde dich <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">hier</a></b> an!',
+  'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.<br> Do you also want to help at this years Chemtogether edition? Then sign up <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">here</a></b>!');
 
 $lang['content']['main_text'] = array(
   'Chemtogether 2023 wird im November 2023 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
@@ -137,6 +137,8 @@ $lang['content']['programme_2_preview'] = array(
   'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
   'main_text' => array('Während der Messe unterstützt uns der Career Center der ETH mit einem Workshop zu Job Interviews, wo sie u.a. mithilfe eines Live-Probeinterviews nützliche Tipps geben werden. Für diesen Workshop ist eine Anmeldung <a href="https://forms.gle/7khpuaKNE91mWAUr5">hier </a> erforderlich.',
   'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
+  'main_text' => array('Während der Messe unterstützt uns der Career Center der ETH mit einem Workshop zu Job Interviews, wo sie u.a. mithilfe eines Live-Probeinterviews nützliche Tipps geben werden. Für diesen Workshop ist eine Anmeldung <a href="https://forms.gle/7khpuaKNE91mWAUr5">hier </a> erforderlich.',
+  'During the fair, the ETH Career Center will support us with a workshop on job interviews, where they will provide useful tips with the help of a live mock interview, among other things. Registration is required for this workshop, see <a href="https://forms.gle/7khpuaKNE91mWAUr5">here </a>.'),
   'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
@@ -166,7 +168,7 @@ $lang['content']['programme_2'] = array(
   <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
   <li>How to formulate efficient answers using the STAR interviewing method</li>
   <li>Certain Do’s and Don’ts of being interviewed</li>
-  </ul>,
+  </ul>'),
   During the ensuing feedback and discussion round, you will develop a better understanding of <br>
   •	How to behave in a first interview and what should you expect <br>
   •	Why interviewers ask certain questions and what interviewers are really looking for <br>

@@ -33,13 +33,16 @@ $template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
 $template['archive'] = '/archive/sika';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing, and protecting in the building sector and motor vehicle industry. Sika has subsidiaries in 103 countries around the world and manufactures in over 400 factories. At this time we employ 33,000 people worldwide.');
+  'text' => 'a specialty chemicals company with a leading position in the development and production of systems and products for bonding, sealing, damping, reinforcing, and protecting in the building sector and motor vehicle industry. Sika has subsidiaries in 100 countries around the world and manufactures in over 300 factories. At this time we employ 27,000 people worldwide.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'innovating and challenging internships and traineeships focusing on specialty chemicals in the field of research and development. You will work independently and learn first-hand about the many aspects of chemistry and material sciences found in the various fields of Sika Technology.');
+  'text' => 'innovating and challenging internships and traineeships focusing on specialty chemicals in the field
+  of research and development. You will work independently and learn first-hand about the many aspects
+  of chemistry and material sciences found in the various fields of Sika Technology.');
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'open-minded and proactive people with an international focus, who are interested in new technologies and exciting challenges.');
+  'text' => 'open-minded and proactive people with an international focus, who are interested in new technologies
+  and exciting challenges.');
   $template['button_print_until'] = 0;
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;

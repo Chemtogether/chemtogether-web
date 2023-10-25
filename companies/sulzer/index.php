@@ -45,19 +45,19 @@ $template['homepage'] = array('https://www.sulzer.com/','sulzer.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/sulzer/','Sulzer');
 //$template['archive'] = '/archive/sulzer';
 
-
+/*
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Sulzer is a global leader in fluid engineering and chemical processing applications. We specialize in in energy-efficient pumping, agitation, mixing, separation,purification, crystallization, and polymerization technologies for fluids of all types. Our customers benefit from our commitment to innovation, performance, and quality and from our responsive network of 180 world-class production facilities and service centers across the globe. As a pioneer in industry, we have a proud heritage of innovation and continue to evolve for the future.');
+  'text' => 'excited to join Chemtogether this November!');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We are empowering the next generation of engineers and offer a variety of entry and career opportunities in the area of Polymer, R&D, CCUS, Application Development, and Pilot Plants. As a recognized “Top Employer 2023” we are dedicated to creating a work environment in which our people can thrive and are empowered to make a difference. We are committed to best people practices and employee experience at work and care for the development and well-being of our people. Join our story and create your own impact by developing your expertise. Current vacancies are regularly advertised on our career portal www.sulzer.com/en/about-us/careers');
+   'text' => '');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'Everyone at Sulzer plays a role in building solutions that help make our lives safer, smarter, and more sustainable. We are looking for people that enjoy a vibrant and international environment and consider themselves passionate about developing innovative, efficient, and eco-friendly solutions. If you are a team player, with a curious mindset, motivated to learn, qualified with relevant skills and problem-solving abilities, join our team, and help us take Sulzer Chemtech to the next level.');
-
+  'text' => '');
+*/
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;

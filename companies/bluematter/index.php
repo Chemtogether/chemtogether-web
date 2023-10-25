@@ -45,10 +45,10 @@ $template['homepage'] = array('https://bluematterconsulting.com/','bluemattercon
 $template['linkedin'] = array('https://www.linkedin.com/company/blue-matter/','blue-matter');
 //$template['archive'] = '/archive/bluematter';
 
-
+/*
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Blue Matter is a strategic consulting firm serving the life sciences industry. We work with some of the most innovative companies and therapies in the world. While we’re committed to excellence, we also foster a People First culture that’s collaborative and supportive, focusing on our team’s well-being and personal growth.');
+  'text' => 'excited to join Chemtogether this November!');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
@@ -94,41 +94,19 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'At Blue Matter we look for aspiring / veteran Consultants (AC / C / SC) that are scientifically trained (either by experience or academic accomplishments) and have a solid base across all of the following competencies, which are:
-    <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Critical Thinker</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Collaborative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Communicative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Proactive</td>
-  </tr></table>
+    <ul> 
+    <li>Critical Thinker</li>
+    <li>Collaborative</li>
+    <li>Communicative</li>
+    <li>Proactive</li>
+    </ul>
     We would be extra thrilled if you are:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to display a mature level of structured thinking</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to integrate business, industry and academic knowledge towards creating creative solutions</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to demonstrate direct biopharma industry knowledge and experience</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Experienced in client facing environments</td>
-  </tr></table>');
+    <ul> 
+    <li>Able to display a mature level of structured thinking</li>
+    <li>Able to integrate business, industry and academic knowledge towards creating creative solutions</li>
+    <li>Able to demonstrate direct biopharma industry knowledge and experience</li>
+    <li>Experienced in client facing environments</li>
+    </ul>');
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;

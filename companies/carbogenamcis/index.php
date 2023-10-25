@@ -47,13 +47,17 @@ $template['archive'] = '/archive/carbogenamcis';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'CARBOGEN AMCIS provides drug development and commercialisation services to the pharmaceutical and biopharmaceutical industries, at all stages of drug development. Our capabilities span from contract chemical process research and development to the supply of Active Pharmaceutical Ingredients (APIs) - as well as drug products for preclinical studies, clinical trials and commercial use. Besides being a leading service provider, we also offer high quality Cholesterol and Vitamin D analog products.');
+  'text' => 'CARBOGEN AMCIS is a leading service provider in the area of product and process development, 
+  including the commercial production of active ingredients for the pharmaceutical and biopharmaceutical industries.
+  We have 4 facilities across Switzerland (Aarau, Hunzenschwil, Bubendorf, and Vionnaz), as well as locations in Riom (FR),
+  Manchester (UK), Shanghai (CN) and Veenendaal (NL).');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We are committed to provide an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our employees and encourage our staff’s professional career. Our organization also allows across-departmental development within the company.');
+  'text' => 'We are committed to providing an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our staff and encourage our staff’s professional career. Our organization also allows a
+  cross-departmental development within the company.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in the Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of chemistry, analytics, production, quality and regulatory aspects.');
+  'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of all chemistry, analytics, production, quality and regulatory aspects.');
   
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 1;

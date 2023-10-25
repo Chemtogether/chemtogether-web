@@ -79,15 +79,15 @@ $active_nav = 'team';
         <?php echo($lang['content']['team_subsection'][$eng]); ?>
       </span>
     </div>
-  <!--
+
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/team/2022/team_full','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2023/team_full','jpg'); ?>></img>
         </div>
       </div>
     </div>
-  -->
+
     <div class="spacer">
     </div>
 
@@ -110,7 +110,7 @@ $active_nav = 'team';
           <br><br>
           <?php echo($lang['team'][$member_id]['info'][$eng]); ?>
           <br><br>
-          <?php obfuscate_mail($lang['team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
+          <!-- <?php obfuscate_mail($lang['team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?> -->
           <?php if ($lang['team'][$member_id]['linkedin'] != '') echo('<a href="'.$lang['team'][$member_id]['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
         </div>
       </div>
