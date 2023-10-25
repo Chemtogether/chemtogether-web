@@ -106,10 +106,17 @@ $template['we_offer'] = array(
    tasks in an innovative and international environ-
    ment, with the opportunity to network globally and
    achieve your career goals.');
+=======
+   'text' => 'We are the leading manufacturer and provider of precision instruments. Our weighing systems and analytical instruments are found in laboratories, industrial plants, and retail industry across the globe.');
+
+$template['we_offer'] = array(
+   'title' => 'We offer',
+   'text' => 'We offer challenging positions, attractive working conditions and good training opportunities in an innovative and world-leading high-tech company.');
+>>>>>>> 5d71497 (added sign-up link)
 
 $template['we_look'] = array(
    'title' => 'We are looking for', 
-   'text' => 'We are looking for motivated personalities who are always ready to develop further, who are open to new ideas and who enjoy working in a dynamic environment and realising their potential.');
+   'text' => 'We are looking for a motivated personality who is always ready to develop further, who is open to new ideas and who enjoys working in a dynamic environment and realising his potential.');
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
