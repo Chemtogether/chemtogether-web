@@ -45,12 +45,24 @@ $template['homepage'] = array('https://bluematterconsulting.com/','bluemattercon
 $template['linkedin'] = array('https://www.linkedin.com/company/blue-matter/','blue-matter');
 //$template['archive'] = '/archive/bluematter';
 
+
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'excited to join Chemtogether this November!');
+  'text' => 'Blue Matter is a strategic consulting firm serving the life sciences industry. We work with some of the most innovative companies and therapies in the world. While we’re committed to excellence, we also foster a People First culture that’s collaborative and supportive, focusing on our team’s well-being and personal growth.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
+   'text' => '<ul>
+   <li>A steep learning curve working on interesting and challenging projects across our clients’ products, portfolios, and organizations.</li>
+   <li>Projects from biotechs startups to multinational pharmaceutical corporations. </li>
+   <li>A Supportive environment to learn and grow, regardless of your skill and knowledge level. </li>
+   <li>Being empowered to drive your development, own your work, and manage your time from day one. </li>
+   <li>We support the wellbeing of our employees by reimbursing health-related aspects such as gym membership, sports coaching, or sports equipment. </li>
+   <li>Cost-matching education initiatives (even if it is not work-related) for your self-improvement. </li>
+   <li>Hybrid office and home working model (depending on project schedules), with very limited travel requirement (5-10% on average). </li>
+   <li>A structured onboarding program to help you learn basic consulting skills. </li>
+   <li>Support for your developmental journey with a Peer-level buddy to help you navigate your way around Blue Matter and share their experiences, as well as a senior-level career coach to support your overall professional development and career progression </li>
+   </ul>');
    'text' => '<ul>
    <li>A steep learning curve working on interesting and challenging projects across our clients’ products, portfolios, and organizations.</li>
    <li>Projects from biotechs startups to multinational pharmaceutical corporations. </li>
