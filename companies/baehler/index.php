@@ -56,6 +56,9 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for inquisitive pharmacy students and graduates.');
+$template['extra'] = array(
+  'title' => 'Get in touch',
+  'text' => 'Do you have any questions, or are you interested in a flexible student job? Please do not hesitate to get in touch with us, either by phone, email, or WhatsApp: Fabienne Schmitter, Standortbetreuerin, looks forward to hearing from you at <a href="mailto:fabienne.schmitter@baehlerdropa.ch">fabienne.schmitter@baehlerdropa.ch</a> or <a href="tel:+41789173746">078 917 37 46</a>.');
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
