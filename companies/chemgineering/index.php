@@ -78,7 +78,7 @@ $template['we_offer'] = array(
    <td>Attractive social benefits</td>
    </tr>
    </tr></table>
-   Find out more: https://www.chemgineering.com/en/careers/employee-stories');
+   Find out more: <a href="https://www.chemgineering.com/en/careers/employee-stories">https://www.chemgineering.com/en/careers/employee-stories</a>');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',

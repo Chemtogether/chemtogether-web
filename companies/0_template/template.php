@@ -167,6 +167,17 @@ $next_company = $company_list[$key_next];
     <div class="spacer">
     </div>
 
+      <div class="content flex">
+        <div class="text l-12 m-12 s-12">
+          <div class="subsection">
+            <?php if(isset($template['extra'])) {echo(bilingual($template['extra']['title']));} ?>
+          </div>
+          <?php if(isset($template['extra'])) {echo(bilingual($template['extra']['text']));} ?>
+        </div>
+      </div> 
+      <div class="spacer">
+      </div>
+
      <?php if($template['button_print_until'] >0) { // >0 originally, temporally changed to =?> 
       <div class="content flex">
         <div class="text l-12 m-12 s-12">

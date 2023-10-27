@@ -37,11 +37,11 @@ $template['we_are'] = array(
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => 'Together, we make the world better. Contribute your ideas, make a difference and take responsibility. Sensirion is a young, dynamic and very humanly managed company with a strong corporate culture. We always strive to offer our employees - who contribute a relevant part to the overall success of our company - optimal conditions for personal and professional development. This includes, for example, taking on a high level of personal responsibility or working in interdisciplinary teams with leading and cooperative professionals. At Sensirion, you will work on independent projects from the very beginning and thus make a relevant contribution to the overall success of our company. Regular team meetings ensure the exchange of information.
-  You can find our benefits here: https://www.sensirion.com/career/work-at-sensirion');
+  You can find our benefits here: <a href="https://www.sensirion.com/career/work-at-sensirion">https://www.sensirion.com/career/work-at-sensirion</a>');
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We offer various positions in development, production and sales. There are exciting tasks in particular in our software departments, in automation and construction, in process engineering or also in technical sales. Various jobs in R&D and production also involve working in our clean rooms (ISO7 and ISO6).
-  You can find an overview of our current open positions here: https://www.sensirion.com/career');
+  You can find an overview of our current open positions here: <a href="https://www.sensirion.com/career">https://www.sensirion.com/career</a>');
 
   $template['button_print_until'] = 0; 
   $template['interview_print_until'] = 0;
