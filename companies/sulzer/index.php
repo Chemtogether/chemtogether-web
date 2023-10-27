@@ -52,7 +52,7 @@ $template['we_are'] = array(
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We are empowering the next generation of engineers and offer a variety of entry and career opportunities in the area of Polymer, R&D, CCUS, Application Development, and Pilot Plants. As a recognized “Top Employer 2023” we are dedicated to creating a work environment in which our people can thrive and are empowered to make a difference. We are committed to best people practices and employee experience at work and care for the development and well-being of our people. Join our story and create your own impact by developing your expertise. Current vacancies are regularly advertised on our career portal www.sulzer.com/en/about-us/careers');
+   'text' => 'We are empowering the next generation of engineers and offer a variety of entry and career opportunities in the area of Polymer, R&D, CCUS, Application Development, and Pilot Plants. As a recognized “Top Employer 2023” we are dedicated to creating a work environment in which our people can thrive and are empowered to make a difference. We are committed to best people practices and employee experience at work and care for the development and well-being of our people. Join our story and create your own impact by developing your expertise. Current vacancies are regularly advertised on our career portal <a href="www.sulzer.com/en/about-us/careers">www.sulzer.com/en/about-us/careers</a>');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',

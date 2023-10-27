@@ -51,11 +51,14 @@ $template['we_are'] = array(
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We combine the best of two worlds: as a family business, we attach great importance to a personable corporate culture and to appreciative collaboration. We are lean, flexible, and have short decision-making paths. At the same time, we offer the advantages of a large company with our central services, modern working conditions, and career opportunities. We offer Famulaturen, Assistenzstellen, and student jobs to pharmacy students along with flexible working hours that fit their studies. We support graduates with our 2-year Trainee@DBD training program until they acquire the federal specialist title “Fachapotheker*in in Offizinpharmazie”.');
+   'text' => 'We combine the best of two worlds: as a family business, we attach great importance to a personable corporate culture and to appreciative collaboration. We are lean, flexible, and have short decision-making paths. At the same time, we offer the advantages of a large company with our central services, modern working conditions, and career opportunities. We offer <a href="https://baehlerdropa.ch/famulaturen">Famulaturen</a>, <a href="https://baehlerdropa.ch/assistenzstellen">Assistenzstellen</a>, and <a href="https://baehlerdropa.ch/jobs/pharmaziestudentinnen-sammelinserat-d-ch-aushang-und-verbaende">student jobs</a> to pharmacy students along with flexible working hours that fit their studies. We support graduates with our 2-year <a href="https://baehlerdropa.ch/trainees">Trainee@DBD</a> training program until they acquire the federal specialist title “Fachapotheker*in in Offizinpharmazie”.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'We are looking for inquisitive pharmacy students and graduates.');
+$template['extra'] = array(
+  'title' => 'Get in touch',
+  'text' => 'Do you have any questions, or are you interested in a flexible student job? Please do not hesitate to get in touch with us, either by phone, email, or WhatsApp: Fabienne Schmitter, Standortbetreuerin, looks forward to hearing from you at <a href="mailto:fabienne.schmitter@baehlerdropa.ch">fabienne.schmitter@baehlerdropa.ch</a> or <a href="tel:+41789173746">078 917 37 46</a>.');
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

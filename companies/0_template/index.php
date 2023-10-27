@@ -53,6 +53,7 @@ $template['text_titles'] = array(
   'we_are' => array('',''),
   'we_offer' => array('',''),
   'we_look' => array('',''),
+  'extra' => array('',''),
 );
 $template['we_are'] = array(
   'title' => '',
@@ -63,6 +64,9 @@ $template['we_offer'] = array(
 $template['we_look'] = array(
   'title' => '',
   'text' => '');
+  $template['extra'] = array(
+    'title' => '',
+    'text' => '');
 
 
 
