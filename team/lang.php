@@ -18,9 +18,8 @@ $lang['content']['team_subsection'] = array('Das Team 2023','The Team of 2023');
 
 $lang['content']['new_team_subsection'] = array('Werde Mitglied im Chemtogether Team 2023','Join the Chemtogether Team of 2023');
 $lang['content']['new_team_text'] = array(
-  'Auch für die Organisation der Chemtogether 2023 steht bereits ein motiviertes Team in den Startlöchern! Fotos und Vorstellungstexte der neuen Mitglieder werden in Kürze hier verfügbar sein.',
-  'A new team is ready for Chemtogether 2023! Pictures and additional information on our new members will be published here soon.'
-);
+  'Auch für die Organisation der Chemtogether 2023 steht bereits ein motiviertes Team in den Startlöchern!', // Fotos und Vorstellungstexte der neuen Mitglieder werden in Kürze hier verfügbar sein.',
+  'A new team is ready for Chemtogether 2023!'); //Pictures and additional information on our new members will be published here soon.');
 
 
 $lang['team'][1] = array(
