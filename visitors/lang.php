@@ -1,22 +1,22 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2023 - Für Besucher', 'Chemtogether 2023 - For Visitors');
+$lang['general']['page_title'] = array('Chemtogether 2024 - Für Besucher', 'Chemtogether 2024 - For Visitors');
 $lang['navigation']['title'] = array('Für Besucher', 'For Visitors');
 $lang['navigation']['topnav_title']= array('Für Besucher', 'For Visitors');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content']['image_floor'] = array('Stock','floor');
 $lang['content']['intro_text'] = array(
-  'Chemtogether ist eine Karrieremesse an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet. An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen. <br> Willst auch du bei der diesjährigen Chemtogether mithelfen? Dann melde dich <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">hier</a></b> an!',
-  'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy. During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.<br> Do you also want to help at this years Chemtogether edition? Then sign up <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">here</a></b>!');
+  'Chemtogether ist eine Karrieremesse an der ETH Zürich, die Studierende mit Firmen in den Bereichen Chemie und Pharmazie verbindet.', //An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen. <br> Willst auch du bei der diesjährigen Chemtogether mithelfen? Dann melde dich <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">hier</a></b> an!',
+  'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy.'); //During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.<br> Do you also want to help at this years Chemtogether edition? Then sign up <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">here</a></b>!');
 
 $lang['content']['main_text'] = array(
-  'Chemtogether 2023 wird im November 2023 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
-  'Chemtogether 2023 will take place in November 2023 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
+  'Chemtogether 2024 wird im November 2024 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden.',// An beiden Tagen werden jeweils von 9-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
+  'Chemtogether 2024 will take place in November 2024 on the G-floor of the HCI building at the ETH Hönggerberg campus.'); // On each of the two days, the nine different companies shown below will be present from 9am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
-$lang['content']['links_guide'] = array('Messeführer (2023)','Expo Guide (2023)');
+$lang['content']['links_guide'] = array('Messeführer (2024)','Expo Guide (2024)');
 $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exhibitors');
 
 // SUBSECTIONS
