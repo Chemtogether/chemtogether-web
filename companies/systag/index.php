@@ -43,7 +43,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('https://www.systag.ch/','systag.ch');
 $template['linkedin'] = array('https://www.linkedin.com/company/systag-system-technik-ag/','SYSTAG');
-//$template['archive'] = '/archive/systag';
+$template['archive'] = '/archive/systag';
 
 
 $template['we_are'] = array(
