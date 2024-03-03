@@ -22,17 +22,17 @@
 
     <div class="footer-right l-7 m-12 s-12">
        <div class="date-container">
-        <span id="date-day1">7.</span>
+        <!--<span id="date-day1">7.</span>
         <span class="date-bar"></span>
-        <span id="date-day2">8.</span>
+        <span id="date-day2">8.</span>-->
       </div> 
       <div class="date-container">
         <span id="date-month">Nov.</span>
-        <span id="date-year">2023</span>
+        <span id="date-year">2024</span>
       </div>
       <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
-        <span id="date-time">9.30 - 17.00</span>
+        <span id="date-time"></span>
       </div>
       <span id="contact-container">
         <?php obfuscate_mail('contact', '', '<i class="fas fa-envelope-square"></i>'); ?>
