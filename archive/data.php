@@ -30,7 +30,7 @@ $archive[$i++] = array(
   "name_short" => "avantama",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2023 => 'base', 2022 => 'silver', 2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -40,10 +40,10 @@ $archive[$i++] = array(
   "name_short" => "bachem",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2023 => 'silver', 2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
-/*$archive[$i++] = array(
+$archive[$i++] = array(
   "link_url" => '/archive/baehler/index.php#info',
   "logo_url" => set_source($awss3_archive.'/baehler/logo','png',FALSE),
   "name" => "Dr. Bähler Dropa AG",
@@ -51,7 +51,7 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2023 => 'silver'),
-);*/
+);
 
 $archive[$i++] = array(
   "link_url" => '/archive/basf/index.php#info',
@@ -84,15 +84,15 @@ $archive[$i++] = array(
   "attendences" => array(2015 => 'base'),
 );
 
-/*$archive[$i++] = array(
+$archive[$i++] = array(
   "link_url" => '/archive/bluematter/index.php#info',
   "logo_url" => set_source($awss3_archive.'/bluematter/logo','png',FALSE),
-  "name" => "Blue Matter Consulting",
+  "name" => "Blue Matter consulting",
   "name_short" => "bluematter",
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2023 => 'silver'),
-);*/
+);
 
 $archive[$i++] = array(
   "link_url" => '/archive/buchi/index.php#info',
@@ -104,7 +104,7 @@ $archive[$i++] = array(
   "attendences" => array(2022 => 'silver'),
 );
 
-/*$archive[$i++] = array(
+$archive[$i++] = array(
   "link_url" => '/archive/cabb/index.php#info',
   "logo_url" => set_source($awss3_archive.'/cabb/logo','png',FALSE),
   "name" => "CABB",
@@ -112,7 +112,7 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2023 => 'base'),
-);*/
+);
 
 $archive[$i++] = array(
   "link_url" => '/archive/carbogenamcis/index.php#info',
@@ -121,7 +121,7 @@ $archive[$i++] = array(
   "name_short" => "carbogenamcis",
   "info" => 1,
   "interviews" => 4,
-  "attendences" => array(2022 => 'silver', 2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2023 => 'base', 2022 => 'silver', 2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -131,7 +131,7 @@ $archive[$i++] = array(
   "name_short" => "chemgineering",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2022 => 'silver', 2021 => 'silver'),
+  "attendences" => array(2023 => 'gold', 2022 => 'silver', 2021 => 'silver'),
 );
 
 
@@ -152,7 +152,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -202,7 +202,7 @@ $archive[$i++] = array(
   "name_short" => "galenicare",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2021 => 'base'),
+  "attendences" => array(2023 => 'silver', 2021 => 'base'),
 );
 
 
@@ -243,7 +243,7 @@ $archive[$i++] = array(
   "name_short" => "hoffmanneitle",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base'),
+  "attendences" => array(2023 => 'base', 2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -343,7 +343,7 @@ $archive[$i++] = array(
   "name_short" => "mettlertoledo",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2021 => 'base', 2019 => 'base'),
+  "attendences" => array(2023 => 'base', 2021 => 'base', 2019 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -383,7 +383,7 @@ $archive[$i++] = array(
   "name_short" => "sensirion",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2022 => 'base'),
+  "attendences" => array(2023 => 'base', 2022 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -393,7 +393,7 @@ $archive[$i++] = array(
   "name_short" => "siegfried",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2019 => 'base', 2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
+  "attendences" => array(2023 => 'gold', 2019 => 'base', 2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -413,18 +413,18 @@ $archive[$i++] = array(
   "name_short" => "sika",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
+  "attendences" => array(2023 => 'base', 2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
 );
 
-/*$archive[$i++] = array(
+$archive[$i++] = array(
   "link_url" => '/archive/sulzer/index.php#info',
   "logo_url" => set_source($awss3_archive.'/sulzer/logo','png',FALSE),
-  "name" => "Sika",
+  "name" => "Sulzer AG",
   "name_short" => "sulzer",
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2023 => 'base'),
-);*/
+);
 
 $archive[$i++] = array(
   "link_url" => '/archive/syngenta/index.php#info',
@@ -433,10 +433,10 @@ $archive[$i++] = array(
   "name_short" => "syngenta",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
+  "attendences" => array(2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
 );
 
-/*$archive[$i++] = array(
+$archive[$i++] = array(
   "link_url" => '/archive/systag/index.php#info',
   "logo_url" => set_source($awss3_archive.'/systag/logo','png',FALSE),
   "name" => "SYSTAG Systemtechnik AG",
@@ -444,7 +444,7 @@ $archive[$i++] = array(
   "info" => 1,
   "interviews" => 0,
   "attendences" => array(2023 => 'silver'),
-);*/
+);
 
 $archive[$i++] = array(
   "link_url" => '/archive/turbobeads/index.php#info',
@@ -463,7 +463,7 @@ $archive[$i++] = array(
   "name_short" => "valsynthese",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2021 => 'gold'),
+  "attendences" => array(2023 => 'silver', 2021 => 'gold'),
 );
 
 

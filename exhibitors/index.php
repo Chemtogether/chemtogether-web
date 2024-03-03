@@ -92,11 +92,11 @@ $active_nav = 'exhibitors';
     <div class="text l-12 m-12 s-12">
     <br>
       <br>
-      <div class="programme_button_div">
+      <!-- <div class="programme_button_div">
         <a href="<?php echo($awss3); ?>/files/brochure_2023.pdf">
           <span><i class="fas fa-file-signature"></i>&nbsp;<?php echo($lang['content']['button_registration'][$eng]); ?></span>
         </a>
-      </div>
+      </div> -->
       <br>
     </div>
     </div>
@@ -120,13 +120,13 @@ $active_nav = 'exhibitors';
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['documents_text'][$eng]); ?><br style="line-height:40px;" />
         <table class="fa-table">
-          <tr>
+          <!-- <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
             <td><a href="<?php echo($awss3); ?>/files/brochure_2023.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
-          </tr>
+          </tr> -->
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/2022expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/2023expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
@@ -282,7 +282,7 @@ $active_nav = 'exhibitors';
 
     <div class="spacer l-d1 m-d1 s-d0">
     </div>
-
+    <!--
     <div class="section">
       <span class="section-slashes">
         <span>/</span><span>/</span>
@@ -354,13 +354,13 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.74</td> <!-- ?gibt es das noch-->
+            <td>4.74</td> ?gibt es das noch
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.51</td><!-- ?gibt es das noch-->
+            <td>4.51</td>?gibt es das noch
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
@@ -372,7 +372,7 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.50</td><!-- raus mit?-->
+            <td>4.50</td>raus mit?
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
@@ -391,7 +391,7 @@ $active_nav = 'exhibitors';
         </table>
       </div>
     </div>
-
+    -->
     <div class="spacer">
     </div>
 
