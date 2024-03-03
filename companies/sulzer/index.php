@@ -43,7 +43,7 @@ $lang['navigation']['topnav_title']= array($template['company_name'], $template[
 
 $template['homepage'] = array('https://www.sulzer.com/','sulzer.com');
 $template['linkedin'] = array('https://www.linkedin.com/company/sulzer/','Sulzer');
-//$template['archive'] = '/archive/sulzer';
+$template['archive'] = '/archive/sulzer';
 
 
 $template['we_are'] = array(
