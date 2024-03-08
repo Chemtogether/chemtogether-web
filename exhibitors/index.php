@@ -282,7 +282,7 @@ $active_nav = 'exhibitors';
 
     <div class="spacer l-d1 m-d1 s-d0">
     </div>
-    <!--
+    
     <div class="section">
       <span class="section-slashes">
         <span>/</span><span>/</span>
@@ -301,7 +301,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2022','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2023','png'); ?>></img>
         </div>
       </div>
     </div>
@@ -354,13 +354,13 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.74</td> ?gibt es das noch
+            <td>4.74</td> <!-- ?gibt es das noch -->
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.51</td>?gibt es das noch
+            <td>4.51</td><!-- ?gibt es das noch -->
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
@@ -372,7 +372,7 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.50</td>raus mit?
+            <td>4.50</td><!-- ?gibt es das noch -->
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
@@ -391,7 +391,7 @@ $active_nav = 'exhibitors';
         </table>
       </div>
     </div>
-    -->
+    
     <div class="spacer">
     </div>
 

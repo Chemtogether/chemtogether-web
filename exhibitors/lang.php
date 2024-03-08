@@ -63,8 +63,8 @@ $lang['content'] = array(
     'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2023.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
-    'Rückblick auf 2022',
-    '2022 in Review'),
+    'Rückblick auf vergangene ChemTogether',
+    'Previous Chemtogethers in Review'),
 
   'feedback_entries' => array(
     '1' => array(
@@ -109,12 +109,12 @@ $lang['content'] = array(
   ),
 
   'feedback_intro' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether 2022 waren mit ihrer Teilnahme zufrieden. Ausgehend von neununddreissig Rückmeldungen wurde die letztjährige Chemtogether mit durchschnittlich 4.44 von 5 Punkten bewertet. Natürlich möchten wir uns mit der zehnten Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
-    'All exhibitors of Chemtogether 2022 were satisfied with their attendence. Based on thirty-nine feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.44 out of 5. Naturally, we would like to further improve the fair in its tenth iteration and have thus begun implementing some of the suggestions we received.'),
+    'Alle ausstellenden Unternehmen der Chemtogether waren mit ihrer Teilnahme zufrieden. Ausgehend von Rückmeldungen wurden die letztjährigen Chemtogether mit durchschnittlich 4.44 von 5 Punkten bewertet. Natürlich möchten wir uns mit der elften Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'All exhibitors of Chemtogether were satisfied with their attendence. Based on thirty-nine feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.44 out of 5. Naturally, we would like to further improve the fair in its tenth iteration and have thus begun implementing some of the suggestions we received.'),
 
   'feedback_text' => array(
-    'Das vollständige Ergebnis der Feedbackauswertung 2022 lautet:',
-    'The complete feedback of 2022 is as follows:')
+    'Das vollständige Ergebnis der Feedbackauswertung lautet:',
+    'The complete feedback of the last years is as follows:')
 );
 
 
