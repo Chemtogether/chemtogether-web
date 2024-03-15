@@ -105,7 +105,7 @@ $lang['team'][9] = array(
 
 $lang['team'][10] = array(
   'name' => 'Audrey Pohlmann',
-  'task' => array('',''),
+  'task' => array('Infrastruktur','Infrastructure'),
   'info' => array('Audrey ist in München aufgewachsen. Derzeit studiert sie Biochemie an der ETH Zürich und ist dabei besonders an der molekularen Biologie interessiert. Neben ihrer akademischen Tätigkeit treibt Audrey gerne Sport. Am liebsten spielt sie Fußball und fährt Ski und genießt den damit verbundenen Ausgleich zu ihrem Studium. ',
   'Audrey was born and raised in Munich. Currently pursuing her studies in biochemistry at ETH Zurich, she is particularly fascinated by molecular biology. Outside of her academic pursuits, Audrey enjoys staying active through sports. She particularly enjoys playing soccer and skiing, embracing the balance they bring to her life.'), 
   #'mail_prefix' => '',
