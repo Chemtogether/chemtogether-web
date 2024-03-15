@@ -223,9 +223,9 @@ $lang['packages_table'][$i++] = array(
 );
 
 $lang['packages_table'][$i++] = array(
-  'perk'     => array('Preis (CHF) exkl. 7.7% MWST <br> (*) je nach Karriere-Event','price (CHF) excl. 7.7% VAT <br> (*) depending on career event'),
-  'base'     => array('1600.-','1600.-'),
-  'silver'   => array('2600.-','2600.-'),
+  'perk'     => array('Preis (CHF) exkl. 8.1% MWST <br> (*) je nach Karriere-Event','price (CHF) excl. 8.1% VAT <br> (*) depending on career event'),
+  'base'     => array('1750.-','1750.-'),
+  'silver'   => array('2750.-','2750.-'),
   'gold'     => array('4000.-','4000.-'),
 );
 
@@ -240,7 +240,7 @@ $lang['packages_info']['base']['perks'][$i++] = array('9 m² Stand mit zwei Steh
 $lang['packages_info']['base']['perks'][$i++] = array('einseitiges Firmenprofil im Messeführer','one-page company profile in the expo guide');
 $lang['packages_info']['base']['perks'][$i++] = array('Nutzung der Jobwall während der Messe','use of job wall during the fair');
 $lang['packages_info']['base']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
-$lang['packages_info']['base']['price'] = array('CHF 1600.- exkl. 7.7% MWST','CHF 1600.- excl. 7.7% VAT');
+$lang['packages_info']['base']['price'] = array('CHF 1750.- exkl. 8.1% MWST','CHF 1750.- excl. 8.1% VAT');
 
 
 $lang['packages_info']['silver']['name'] = array('Silberpaket','Silver package');
@@ -255,7 +255,7 @@ $lang['packages_info']['silver']['perks'][$i++] = array('Bewerbung der Teilnahme
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung im Messeführer','one-page advertisement in the expo guide');
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisement in the student magazine');
 $lang['packages_info']['silver']['perks'][$i++] = array('Veröffentlichung eines Mitarbeierinterviews vor der Messe','publishing of an interview with a company member prior to the fair');
-$lang['packages_info']['silver']['price'] = array('CHF 2600.- exkl. 7.7% MWST','CHF 2600.- excl. 7.7% VAT');
+$lang['packages_info']['silver']['price'] = array('CHF 2750.- exkl. 8.1% MWST','CHF 2750.- excl. 8.1% VAT');
 
 
 $lang['packages_info']['gold']['name'] = array('Goldpaket','Gold package');
@@ -271,7 +271,7 @@ $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf Doppelseite, 
 $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
 $lang['packages_info']['gold']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeier-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
 $lang['packages_info']['gold']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
-$lang['packages_info']['gold']['price'] = array('CHF 4000.- exkl. 7.7% MWST','CHF 4000.- excl. 7.7% VAT');
+$lang['packages_info']['gold']['price'] = array('CHF 4000.- exkl. 8.1% MWST','CHF 4000.- excl. 8.1% VAT');
 
 
 
