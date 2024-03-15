@@ -22,9 +22,9 @@
 
     <div class="footer-right l-7 m-12 s-12">
        <div class="date-container">
-        <!--<span id="date-day1">7.</span>
+        <span id="date-day1">12.</span>
         <span class="date-bar"></span>
-        <span id="date-day2">8.</span>-->
+        <span id="date-day2">13.</span>
       </div> 
       <div class="date-container">
         <span id="date-month">Nov.</span>
