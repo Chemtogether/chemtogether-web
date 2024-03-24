@@ -95,16 +95,16 @@ $fb = array(
     <div class="content flex">
         <div class="text l-12m-12 s-12">
         <?php 
-                echo "<h2> Your information: </h2> \n";
-                echo "Company: ".$_POST['company']." \n";
-                echo "Name: ".$_POST['full_name']." \n";
-                echo "Mail: ".$_POST['mail']." \n";
-                echo "Phone: ".$_POST['phone']." \n";
-                echo "Package: ".$_POST['package']." \n";
-                echo "Day: ".$_POST['fair_day']." \n";
-                echo "Additional Event: ".$_POST['additional_event']." \n";
-                echo "Comment: ".$_POST['comment']." \n";
-                echo "Terms and Conditions: ".$_POST['terms_and_conditions']." \n";
+            echo "<h2> Your information: </h2><br>";
+            echo "Company: " . htmlspecialchars($_POST['company']) . "<br>";
+            echo "Name: " . htmlspecialchars($_POST['full_name']) . "<br>";
+            echo "Mail: " . htmlspecialchars($_POST['mail']) . "<br>";
+            echo "Phone: " . htmlspecialchars($_POST['phone']) . "<br>";
+            echo "Package: " . htmlspecialchars($_POST['package']) . "<br>";
+            echo "<b>Day:</b> " . htmlspecialchars($_POST['fair_day']) . "<br>";
+            echo "Additional Event: " . htmlspecialchars($_POST['additional_event']) . "<br>";
+            echo "Comment: " . htmlspecialchars($_POST['comment']) . "<br>";
+            echo "Terms and Conditions: " . htmlspecialchars($_POST['terms_and_conditions']) . "<br>";   
         ?>
       </div>
     </div> 
