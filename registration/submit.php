@@ -96,15 +96,15 @@ $fb = array(
         <div class="text l-12m-12 s-12">
         <?php 
             echo "<h2> Your information: </h2><br>";
-            echo "Company: " . htmlspecialchars($_POST['company']) . "<br>";
-            echo "Name: " . htmlspecialchars($_POST['full_name']) . "<br>";
-            echo "Mail: " . htmlspecialchars($_POST['mail']) . "<br>";
-            echo "Phone: " . htmlspecialchars($_POST['phone']) . "<br>";
-            echo "Package: " . htmlspecialchars($_POST['package']) . "<br>";
+            echo "<b>Company: </b>" . htmlspecialchars($_POST['company']) . "<br>";
+            echo "<b>Name: </b>" . htmlspecialchars($_POST['full_name']) . "<br>";
+            echo "<b>Mail: </b>" . htmlspecialchars($_POST['mail']) . "<br>";
+            echo "<b>Phone: </b>" . htmlspecialchars($_POST['phone']) . "<br>";
+            echo "<b>Package:</b> " . htmlspecialchars($_POST['package']) . "<br>";
             echo "<b>Day:</b> " . htmlspecialchars($_POST['fair_day']) . "<br>";
-            echo "Additional Event: " . htmlspecialchars($_POST['additional_event']) . "<br>";
-            echo "Comment: " . htmlspecialchars($_POST['comment']) . "<br>";
-            echo "Terms and Conditions: " . htmlspecialchars($_POST['terms_and_conditions']) . "<br>";   
+            echo "<b>Additional Event:</b> " . htmlspecialchars($_POST['additional_event']) . "<br>";
+            echo "<b>Comment:</b> " . htmlspecialchars($_POST['comment']) . "<br>";
+            echo "<b>Terms and Conditions:</b> " . htmlspecialchars($_POST['terms_and_conditions']) . "<br>";   
         ?>
       </div>
     </div> 
