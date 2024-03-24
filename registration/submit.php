@@ -1,4 +1,10 @@
 <?php
+
+if (!isset($_POST["token"]) || ($_POST["token"] != getenv("REGISTRATION_TOKEN"))){
+    include('../errors/404/index.php');
+    exit();
+}
+
 $db = new SQLite3('registrations.db');
 
 $create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, company TEXT)";

@@ -1,18 +1,7 @@
 <?php
 
-if (!isset($_GET["t"])){
-    echo "token not set\n";
-    foreach ($_GET as $key => $value) {
-        echo "$key: $value\n";
-    }
-    exit();
-}
-
-if (($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
-    #include('../errors/404/index.php');
-    echo $_GET["t"];
-    echo getenv("REGISTRATION_TOKEN");
-    echo "token not valid";
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
+    include('../errors/404/index.php');
     exit();
 }
 
@@ -70,6 +59,7 @@ $fb = array(
     </div>
 
     <form method="post" action="submit.php">
+        <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
         <input type="text" name="company" placeholder="name" id="company_form">
         <label for="company_form">Company</label>
         <input type="submit" value="Submit">
