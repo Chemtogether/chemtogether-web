@@ -8,7 +8,7 @@ if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_REGISTRATIONS_TOKEN"))){
 
 $db = new SQLite3('registrations.db');
 
-$res_sql = $db->query("SELECT * FROM registrations");
+$res = $db->query("SELECT * FROM registrations");
 $res = $res_sql->fetchArray(SQLITE3_ASSOC);
 
 header( 'Content-Type: application/csv' );
@@ -20,9 +20,9 @@ ob_end_clean();
 $handle = fopen( 'php://output', 'w' );
 
 // use keys as column titles
-fputcsv( $handle, array_keys( $res['0'] ), ";" );
+fputcsv( $handle, array_keys( $res->fetchArray(SQLITE3_ASSOC)), ";" );
 
-foreach ( $res as $value ) {
+while (( $value = $res->fetchArray(SQLITE3_ASSOC) )) {
     fputcsv( $handle, $value, ";" );
 }
 
