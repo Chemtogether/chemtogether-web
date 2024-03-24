@@ -96,19 +96,23 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-            <div>
-                <input type="radio" id="package_option1" name="package" value="C">
-                <label for="package_option1"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
+                <div style="margin-bottom: 10px; font-size: 20px;">
+                    <?php echo($lang['content']['form_package'][$eng]); ?> <!-- Assuming you have a similar entry for package selection in your language file -->
+                </div>
+                <div>
+                    <input type="radio" id="package_option1" name="package" value="C">
+                    <label for="package_option1"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
+                </div>
+                <div>
+                    <input type="radio" id="package_option2" name="package" value="Ag">
+                    <label for="package_option2"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
+                </div>
+                <div>
+                    <input type="radio" id="package_option3" name="package" value="Au">
+                    <label for="package_option3"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
+                </div>
             </div>
-            <div>
-                <input type="radio" id="package_option2" name="package" value="Ag">
-                <label for="package_option2"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
-            </div>
-            <div>
-                <input type="radio" id="package_option3" name="package" value="Au">
-                <label for="package_option3"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
-            </div>
-        </div>
+            <div class="spacer"></div>
             <input type="submit" value="Submit">
         </form>
       </div>
