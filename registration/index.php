@@ -82,37 +82,80 @@ $fb = array(
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
             <div>
                 <label for="name_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_name'][$eng]); ?> </label>
-                <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+                <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
                 <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
-                <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+                <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="mail_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_mail'][$eng]); ?></label>
+                <input type="text" name="mail" placeholder=<?php echo($lang['content']['form_mail'][$eng]); ?> id="mail_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
                 <label for="phone_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_phone'][$eng]); ?></label>
-                <input type="text" name="phone" placeholder=<?php echo($lang['content']['form_phone'][$eng]); ?> id="phone_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+                <input type="text" name="phone" placeholder=<?php echo($lang['content']['form_phone'][$eng]); ?> id="phone_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
                 <div style="margin-bottom: 10px; font-size: 20px;">
-                    <?php echo($lang['content']['form_package'][$eng]); ?> <!-- Assuming you have a similar entry for package selection in your language file -->
+                    <?php echo($lang['content']['form_package'][$eng]); ?>
                 </div>
-                <div>
-                    <input type="radio" id="package_option1" name="package" value="C">
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="package_option1" name="package" value="C" style="margin-right: 20px;" required>
                     <label for="package_option1"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
                 </div>
-                <div>
-                    <input type="radio" id="package_option2" name="package" value="Ag">
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="package_option2" name="package" value="Ag" style="margin-right: 20px;" required>
                     <label for="package_option2"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
                 </div>
-                <div>
-                    <input type="radio" id="package_option3" name="package" value="Au">
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="package_option3" name="package" value="Au" style="margin-right: 20px;" required>
                     <label for="package_option3"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
                 </div>
             </div>
             <div class="spacer"></div>
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px;">
+                    <?php echo($lang['content']['form_day'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="day_option1" name="day" value="Tue" style="margin-right: 20px;" required>
+                    <label for="day_option1"><?php echo($lang['content']['day_option1'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="day_option2" name="day" value="Wed" style="margin-right: 20px;" required>
+                    <label for="day_option2"><?php echo($lang['content']['day_option2'][$eng]); ?></label>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px;">
+                    <?php echo($lang['content']['form_additional_event'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="additional_event_option1" name="additional_event" value="Yes" style="margin-right: 20px;">
+                    <label for="additional_event_option1"><?php echo($lang['content']['additional_event_option1'][$eng]); ?></label>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="comment_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
+                <textarea name="comment" id="comment_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px;">
+                    <?php echo($lang['content']['form_terms_and_conditions'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="terms_and_conditions_option1" name="terms_and_conditions" value="Yes" style="margin-right: 20px;" required>
+                    <label for="terms_and_conditions_option1"><?php echo($lang['content']['terms_and_conditions_option1'][$eng]); ?></label>
+                </div>
+            </div>
             <input type="submit" value="Submit">
         </form>
       </div>
