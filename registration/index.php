@@ -1,7 +1,14 @@
 <?php
 
-if ((!in_array("t", $_GET)) || ($_GET["t"] != getenv("REGISTRATION_TOKEN"))) {
-    include('../errors/404/index.php');
+if ((!in_array("t", $_GET)) || ) {
+    #include('../errors/404/index.php');
+    echo "token not set";
+    exit();
+}
+
+if (($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
+    #include('../errors/404/index.php');
+    echo "token not valid";
     exit();
 }
 
