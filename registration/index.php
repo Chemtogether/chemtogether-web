@@ -1,8 +1,7 @@
 <?php
 
-if (!in_array("t", $_GET)) {
-    #include('../errors/404/index.php');
-    echo "token not set";
+if (!isset($_GET["t"])){
+    echo "token not set\n";
     foreach ($_GET as $key => $value) {
         echo "$key: $value\n";
     }
