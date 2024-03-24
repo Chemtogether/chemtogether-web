@@ -3,6 +3,7 @@
 if ((!in_array("t", $_GET))) {
     #include('../errors/404/index.php');
     echo "token not set";
+    echo $_GET;
     exit();
 }
 
