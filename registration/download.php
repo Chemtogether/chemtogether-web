@@ -10,13 +10,25 @@ $db = new SQLite3('registrations.db');
 
 $res = $db->query("SELECT * FROM registrations");
 
-header('Content-Type: application/csv');
-header('Content-Disposition: attachment; filename="registrations.csv";');
+header( 'Content-Type: application/csv' );
+header( 'Content-Disposition: attachment; filename="CT_registrations.csv";' );
 
-// open the "output" stream
-// see http://www.php.net/manual/en/wrappers.php.php#refsect2-wrappers.php-unknown-unknown-unknown-descriptioq
-$f = fopen('php://output', 'w');
+// clean output buffer
+ob_end_clean();
+    
+$handle = fopen( 'php://output', 'w' );
 
-foreach ($res as $line) {
-    fputcsv($f, $line, ',');
+// use keys as column titles
+fputcsv( $handle, array_keys( $res['0'] ), ";" );
+
+foreach ( $res as $value ) {
+    fputcsv( $handle, $value, ";" );
 }
+
+fclose( $handle );
+
+// flush buffer
+ob_flush();
+
+// use exit to get rid of unexpected output afterward
+exit();
