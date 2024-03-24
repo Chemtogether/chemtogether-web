@@ -19,7 +19,9 @@ ob_end_clean();
 $handle = fopen( 'php://output', 'w' );
 
 // use keys as column titles
-fputcsv( $handle, array_keys( $res->fetchArray(SQLITE3_ASSOC)), ";" );
+$first_row = $res->fetchArray(SQLITE3_ASSOC)
+fputcsv( $handle, array_keys( $first_row ), ";" );
+fputcsv( $handle, $first_row, ";" );
 
 while (( $value = $res->fetchArray(SQLITE3_ASSOC) )) {
     fputcsv( $handle, $value, ";" );
