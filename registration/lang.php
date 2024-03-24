@@ -17,6 +17,7 @@ $lang['content']['registration_header'] = array('Registration', 'Registration');
 $lang['content']['form_name'] = array("Name: ", "Name: ");
 $lang['content']['form_company'] = array("Firma: ", "Company: ");
 $lang['content']['form_phone'] = array("Telefonnummer: ", "Phone number: ");
+$lang['content']['form_package'] = array("Gewünschte Partnerschaftsoption: ", "Desired partnership option: ");
 $lang['content']['form_package_option1'] = array("C", "C");
 $lang['content']['form_package_option2'] = array("Ag", "Ag");
 $lang['content']['form_package_option3'] = array("Au", "Au");
