@@ -60,8 +60,6 @@ $fb = array(
     </div>
 
     <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
 
     <div class="section">
       <span class="section-slashes">
@@ -73,35 +71,33 @@ $fb = array(
     </div>
 
     <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
 
     <div class="content flex">
       <div class="text l-12m-12 s-12">
         <form method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
             <div>
-                <label for="name_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_name'][$eng]); ?> </label>
+                <label for="name_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_name'][$eng]); ?> </label>
                 <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
+                <label for="company_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
                 <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="mail_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_mail'][$eng]); ?></label>
+                <label for="mail_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_mail'][$eng]); ?></label>
                 <input type="text" name="mail" placeholder=<?php echo($lang['content']['form_mail'][$eng]); ?> id="mail_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="phone_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_phone'][$eng]); ?></label>
+                <label for="phone_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_phone'][$eng]); ?></label>
                 <input type="text" name="phone" placeholder=<?php echo($lang['content']['form_phone'][$eng]); ?> id="phone_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px;">
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_package'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
@@ -119,7 +115,7 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px;">
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_day'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
@@ -133,7 +129,7 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px;">
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_additional_event'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
@@ -143,12 +139,12 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="comment_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
-                <textarea name="comment" id="comment_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
+                <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top; font-weight: bold;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
+                <textarea name="comment" id="comment_form" style="width: 60%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px;">
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_terms_and_conditions'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
