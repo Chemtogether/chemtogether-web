@@ -1,7 +1,18 @@
 <?php
 
-if (!isset($_POST["token"]) || ($_POST["token"] != getenv("REGISTRATION_TOKEN"))){
-    include('../errors/404/index.php');
+if (!isset($_POST["token"])){
+    #include('../errors/404/index.php');
+    echo "Token not set \n";
+    foreach ($_POST as $key => $value) {
+        echo "$key: $value\n";
+    }
+    exit();
+
+}
+
+if ($_POST["token"] != getenv("REGISTRATION_TOKEN")){
+    #include('../errors/404/index.php');
+    echo "Token not correct \n";
     exit();
 }
 
