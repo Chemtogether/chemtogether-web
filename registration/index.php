@@ -152,6 +152,8 @@ $fb = array(
                     <label for="terms_and_conditions_option1"><?php echo($lang['content']['terms_and_conditions_option1'][$eng]); ?></label>
                 </div>
             </div>
+            <div class="spacer"></div>
+            <div class="spacer"></div>
             <input type="submit" value="Submit" style="background-color: rgba(229,107,46,1); color: white; padding: 10px 20px; font-size: 16px; font-family: 'opensans', sans-serif; border: none; cursor: pointer;">
         </form>
       </div>

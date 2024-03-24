@@ -5,12 +5,15 @@ include('../errors/404/lang.php');
 // GENERAL TRANSLATIONS FOR THIS PAGE
 $lang['general']['page_title'] = array('Chemtogether 2024 - Registration', 'Chemtogether 2024 - Registration');
 $lang['navigation']['title'] = array('Registration', 'Registration');
+$lang['navigation']['submit_title'] = array('Registration erfolgreich', 'Registration successful');
 $lang['navigation']['topnav_title']= array('Registration', 'Registration');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content']['intro_text'] = array(
   'Willkommen auf der Registrationsseite für die Chemtogether 2024!', //An den zwei Messetagen stellen sich je 9 unterschiedliche Unternehmen vor und erlauben es den Studenten wie Doktorierenden Kontakt mit insgesamt 18 Firmen aus der industriellen Chemie und Pharmazie herzustellen. <br> Willst auch du bei der diesjährigen Chemtogether mithelfen? Dann melde dich <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">hier</a></b> an!',
   'Welcome to the registration page for Chemtogether 2024!'); //During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.<br> Do you also want to help at this years Chemtogether edition? Then sign up <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">here</a></b>!');
+
+$lang['content']['submit_text'] = array("Vielen Dank für ihre Registrierung! Sie war erfolgreich. Unser Team wird Sie demnächst kontaktieren!", "Thank you for your registration! It was successful. Our team will contact you soon!");
 
 $lang['content']['registration_header'] = array('Registration', 'Registration'); 
 

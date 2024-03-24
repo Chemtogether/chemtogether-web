@@ -8,17 +8,32 @@ if (!isset($_POST["token"]) || ($_POST["token"] != getenv("REGISTRATION_TOKEN"))
 
 $db = new SQLite3('registrations.db');
 
-$create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, company TEXT, full_name TEXT)";
+$create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, full_name TEXT, company TEXT, mail TEXT, phone TEXT, package TEXT, fair_day TEXT, additional_event TEXT, comment TEXT, terms_and_conditions TEXT)";
 $db->exec($create_query);
 
-$insert_query = $db->prepare("INSERT INTO registrations (company, full_name) VALUES (:company, :full_name)");
+$insert_query = $db->prepare("INSERT INTO registrations (company, full_name, mail, phone, package, fair_day, additional_event, comment, terms_and_conditions) VALUES (:company, :full_name, :mail, :phone, :package, :fair_day, :additional_event, :comment, :terms_and_conditions)");
 $insert_query->bindValue(':company', $_POST['company']);
 $insert_query->bindValue(':full_name', $_POST['full_name']);
+$insert_query->bindValue(':mail', $_POST['mail']);
+$insert_query->bindValue(':phone', $_POST['phone']);
+$insert_query->bindValue(':package', $_POST['package']);
+$insert_query->bindValue(':fair_day', $_POST['fair_day']);
+$insert_query->bindValue(':additional_event', $_POST['additional_event']);
+$insert_query->bindValue(':comment', $_POST['comment']);
+$insert_query->bindValue(':terms_and_conditions', $_POST['terms_and_conditions']);
 $insert_query->execute();
 
 $company = $_POST['company'];
+$full_name = $_POST['full_name'];
+$mail = $_POST['mail'];
+$phone = $_POST['phone'];
+$package = $_POST['package'];
+$fair_day = $_POST['fair_day'];
+$additional_event = $_POST['additional_event'];
+$comment = $_POST['comment'];
+$terms_and_conditions = $_POST['terms_and_conditions'];
 
-$mail_msg = "A new company has registered: $company";
+$mail_msg = "A new company has registered: \n Company: $company \n Name: $full_name \n Mail: $mail \n Phone: $phone \n Package: $package \n Fair day: $fair_day \n Additional event: $additional_event \n Comment: $comment \n Terms and conditions: $terms_and_conditions \n";
 
 mail("schmiste@chem.ethz.ch", "New Chemtogether registration", $mail_msg);
 
@@ -68,7 +83,7 @@ $fb = array(
 
     <div class="content flex">
       <div class="text l-12m-12 s-12">
-        <?php echo($lang['content']['intro_text'][$eng]); ?>
+        <?php echo($lang['content']['submit_text'][$eng]); ?>
       </div>
     </div>
 
