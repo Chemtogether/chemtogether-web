@@ -64,15 +64,15 @@ $fb = array(
         <div class="text l-12m-12 s-12">
         <?php 
             while (($row = $res->fetchArray())) {
-                echo "<h2>".$row['company']."</h2> \n";
-                echo "Name: ".$row['full_name']." \n";
-                echo "Mail: ".$row['mail']." \n";
-                echo "Phone: ".$row['phone']." \n";
-                echo "Package: ".$row['package']." \n";
-                echo "Day: ".$row['fair_day']." \n";
-                echo "Additional Event: ".$row['additional_event']." \n";
-                echo "Comment: ".$row['comment']." \n";
-                echo "Terms and Conditions: ".$row['terms_and_conditions']." \n";
+                echo "<h2>Company: " . htmlspecialchars($row['company']) . "</h2> <br>";
+                echo "<b>Name: </b>" . htmlspecialchars($row['full_name']) . "<br>";
+                echo "<b>Mail: </b>" . htmlspecialchars($row['mail']) . "<br>";
+                echo "<b>Phone: </b>" . htmlspecialchars($row['phone']) . "<br>";
+                echo "<b>Package:</b> " . htmlspecialchars($row['package']) . "<br>";
+                echo "<b>Day:</b> " . htmlspecialchars($row['fair_day']) . "<br>";
+                echo "<b>Additional Event:</b> " . htmlspecialchars($row['additional_event']) . "<br>";
+                echo "<b>Comment:</b> " . htmlspecialchars($row['comment']) . "<br>";
+                echo "<b>Terms and Conditions:</b> " . htmlspecialchars($row['terms_and_conditions']) . "<br>";  
             }
         ?>
       </div>
