@@ -47,7 +47,7 @@ $fb = array(
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['navigation']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['view_title'][$eng]); ?>
       </span>
     </div>
 
@@ -56,7 +56,7 @@ $fb = array(
 
     <div class="content flex">
       <div class="text l-12m-12 s-12">
-        <?php echo($lang['content']['intro_text'][$eng]); ?>
+        <?php echo($lang['content']['view_text'][$eng]); ?>
       </div>
     </div>
 
@@ -64,65 +64,20 @@ $fb = array(
         <div class="text l-12m-12 s-12">
         <?php 
             while (($row = $res->fetchArray())) {
-                echo "<div class='text l-12m-12 s-12'>";
-                echo "<h2>".$row['first_name']."</h2>";
-                echo "<h2>".$row['company']."</h2>";
-                echo "</div>";
+                echo "<h2>".$row['company']."</h2> \n";
+                echo "Name: ".$row['full_name']." \n";
+                echo "Mail: ".$row['mail']." \n";
+                echo "Phone: ".$row['phone']." \n";
+                echo "Package: ".$row['package']." \n";
+                echo "Day: ".$row['fair_day']." \n";
+                echo "Additional Event: ".$row['additional_event']." \n";
+                echo "Comment: ".$row['comment']." \n";
+                echo "Terms and Conditions: ".$row['terms_and_conditions']." \n";
             }
         ?>
       </div>
     </div> 
 
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
-    <div class="spacer">
-    </div>
     </div>
 
   </div>
