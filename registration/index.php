@@ -37,7 +37,7 @@ $fb = array(
 
 
 <!-- START CONTENT -->
-<div id="main" class="fair">
+<div id="main" class="registration">
 
   <div class="container">
 
@@ -72,9 +72,10 @@ $fb = array(
       <div class="text l-12m-12 s-12">
         <form method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
-            <label for="name_form">Name</label>
-            <input type="text" name="full_name" placeholder="Name" id="name_form">
-        
+            <div class="formSection">
+                <label for="name_form">Name: </label>
+                <input type="text" name="full_name" placeholder="Name" id="name_form">
+            </div>
             
             <!-- <input type="text" name="company" placeholder="company" id="company_form">
             <label for="company_form">Company</label> -->
