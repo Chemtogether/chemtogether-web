@@ -16,7 +16,7 @@ $insert_query->bindValue(':company', $_POST['company']);
 $insert_query->bindValue(':first_name', $_POST['first_name']);
 $insert_query->execute();
 
-$company = $_POST['company']
+$company = $_POST['company'];
 
 $mail_msg = "A new company has registered: $company";
 
