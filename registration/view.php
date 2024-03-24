@@ -72,7 +72,8 @@ $fb = array(
                 echo "<b>Day:</b> " . htmlspecialchars($row['fair_day']) . "<br>";
                 echo "<b>Additional Event:</b> " . htmlspecialchars($row['additional_event']) . "<br>";
                 echo "<b>Comment:</b> " . htmlspecialchars($row['comment']) . "<br>";
-                echo "<b>Terms and Conditions:</b> " . htmlspecialchars($row['terms_and_conditions']) . "<br>";  
+                echo "<b>Terms and Conditions:</b> " . htmlspecialchars($row['terms_and_conditions']) . "<br>";
+                echo "<b>Year: </b>" . htmlspecialchars($row['y']) . "<br>";
             }
         ?>
       </div>
