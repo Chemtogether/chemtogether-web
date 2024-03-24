@@ -31,7 +31,7 @@ $lang['content']['day_option1'] = array("Dienstag", "Tuesday");
 $lang['content']['day_option2'] = array("Mittwoch", "Wednesday");
 
 $lang['content']['form_additional_event'] = array("Zusätzliches Event: ", "Additional event: ");
-$lang['content']['additional_event_option1'] = array("Wir erwünschen Kontaktaufnahme bezüglich des zusätzlichen Events", "We wish to be contacted regarding the additional event");
+$lang['content']['additional_event_option1'] = array("Wir erwünschen Kontaktaufnahme bezüglich des zusätzlichen Events.", "We wish to be contacted regarding the additional event.");
 
 $lang['content']['form_comment'] = array("Weitere Kommentare: ", "Further comments: ");
 
