@@ -6,6 +6,8 @@ if (!isset($_POST["token"]) || ($_POST["token"] != getenv("REGISTRATION_TOKEN"))
     exit();
 }
 
+var_dump($_POST);
+
 $db = new SQLite3('registrations.db');
 
 $create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, full_name TEXT, company TEXT, mail TEXT, phone TEXT, package TEXT, fair_day TEXT, additional_event TEXT, comment TEXT, terms_and_conditions TEXT)";
@@ -74,7 +76,7 @@ $fb = array(
 
     <div class="title">
       <span class="title-text">
-        <?php echo($lang['navigation']['title'][$eng]); ?>
+        <?php echo($lang['navigation']['submit_title'][$eng]); ?>
       </span>
     </div>
 
