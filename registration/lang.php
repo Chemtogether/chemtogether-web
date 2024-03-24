@@ -1,5 +1,7 @@
 <?php
 
+include('../errors/404/lang.php');
+
 // GENERAL TRANSLATIONS FOR THIS PAGE
 $lang['general']['page_title'] = array('Chemtogether 2024 - Registration', 'Chemtogether 2024 - Registration');
 $lang['navigation']['title'] = array('Registration', 'Registration');
