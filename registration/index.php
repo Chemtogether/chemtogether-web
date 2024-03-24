@@ -10,6 +10,8 @@ if (!isset($_GET["t"])){
 
 if (($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
     #include('../errors/404/index.php');
+    echo $_GET["t"];
+    echo getenv("REGISTRATION_TOKEN");
     echo "token not valid";
     exit();
 }
