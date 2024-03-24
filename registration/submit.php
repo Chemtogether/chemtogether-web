@@ -16,7 +16,9 @@ $insert_query->bindValue(':company', $_POST['company']);
 $insert_query->bindValue(':first_name', $_POST['first_name']);
 $insert_query->execute();
 
-$mail_msg = "A new company has registered: $_POST['company']";
+$company = $_POST['company']
+
+$mail_msg = "A new company has registered: $company";
 
 mail("schmiste@chem.ethz.ch", "New Chemtogether registration", $mail_msg);
 
