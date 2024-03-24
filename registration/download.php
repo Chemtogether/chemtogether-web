@@ -8,7 +8,8 @@ if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_REGISTRATIONS_TOKEN"))){
 
 $db = new SQLite3('registrations.db');
 
-$res = $db->query("SELECT * FROM registrations");
+$res_sql = $db->query("SELECT * FROM registrations");
+$res = $res_sql->fetchArray(SQLITE3_ASSOC);
 
 header( 'Content-Type: application/csv' );
 header( 'Content-Disposition: attachment; filename="CT_registrations.csv";' );
