@@ -2,7 +2,6 @@
 
 if (!isset($_GET["t"]) || ($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
     http_response_code(404);
-    include('../errors/404/lang.php');
     include('../errors/404/index.php');
     exit();
 }
