@@ -92,6 +92,23 @@ $fb = array(
       </div>
     </div>
 
+    <div class="content flex">
+        <div class="text l-12m-12 s-12">
+        <?php 
+                echo "<h2> Your information: </h2> \n";
+                echo "Company: ".$_POST['company']." \n";
+                echo "Name: ".$_POST['full_name']." \n";
+                echo "Mail: ".$_POST['mail']." \n";
+                echo "Phone: ".$_POST['phone']." \n";
+                echo "Package: ".$_POST['package']." \n";
+                echo "Day: ".$_POST['fair_day']." \n";
+                echo "Additional Event: ".$_POST['additional_event']." \n";
+                echo "Comment: ".$_POST['comment']." \n";
+                echo "Terms and Conditions: ".$_POST['terms_and_conditions']." \n";
+        ?>
+      </div>
+    </div> 
+
     <div class="spacer">
     </div>
     <div class="spacer">
