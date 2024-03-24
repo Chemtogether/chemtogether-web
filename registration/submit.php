@@ -8,12 +8,12 @@ if (!isset($_POST["token"]) || ($_POST["token"] != getenv("REGISTRATION_TOKEN"))
 
 $db = new SQLite3('registrations.db');
 
-$create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, company TEXT, first_name TEXT)";
+$create_query = "CREATE TABLE IF NOT EXISTS registrations (id INTEGER PRIMARY KEY, company TEXT, full_name TEXT)";
 $db->exec($create_query);
 
-$insert_query = $db->prepare("INSERT INTO registrations (company, first_name) VALUES (:company, :first_name)");
+$insert_query = $db->prepare("INSERT INTO registrations (company, full_name) VALUES (:company, :full_name)");
 $insert_query->bindValue(':company', $_POST['company']);
-$insert_query->bindValue(':first_name', $_POST['first_name']);
+$insert_query->bindValue(':full_name', $_POST['full_name']);
 $insert_query->execute();
 
 $company = $_POST['company'];
