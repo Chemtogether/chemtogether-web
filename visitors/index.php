@@ -499,7 +499,7 @@ $fb = array(
     </div>
     <div class="spacer">
     </div>
-    </div> -->
+    </div>
 
   </div>
 </div>
