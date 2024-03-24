@@ -1,5 +1,10 @@
 <?php
 
+if ((!in_array("t", $_GET)) || ($_GET["t"] != getenv("REGISTRATION_TOKEN"))) {
+    include('../errors/404/index.php');
+    exit();
+}
+
 // provides small functions
 include('../php/general.php');
 
