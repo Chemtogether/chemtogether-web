@@ -73,13 +73,28 @@ $fb = array(
         <form method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
             <div>
-                <label for="name_form" style="margin-right: 20px; font-size: 20px;">Name: </label>
-                <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 20px; font-family: opensans;">
+                <label for="name_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_name'][$eng]); ?> </label>
+                <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 16px; font-family: opensans;">
             </div>
-            
-            <!-- <input type="text" name="company" placeholder="company" id="company_form">
-            <label for="company_form">Company</label> -->
-
+            <div class="spacer"></div>
+            <div>
+                <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
+                <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="phone_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_phone'][$eng]); ?></label>
+                <input type="text" name="phone" placeholder=<?php echo($lang['content']['form_phone'][$eng]); ?> id="phone_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="package_choice"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
+                <input type="radio" id="package_choice" name="package" value="C">
+                <label for="package_choice"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
+                <input type="radio" id="package_choice" name="package" value="Ag">
+                <label for="package_choice"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
+                <input type="radio" id="package_choice" name="package" value="Au">
+            </div>
             <input type="submit" value="Submit">
         </form>
       </div>
