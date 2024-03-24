@@ -73,7 +73,7 @@ $fb = array(
         <form method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
             <div class="formSection">
-                <label for="name_form">Name: </label>
+                <label for="name_form" style="margin-right: 20px;">Name: </label>
                 <input type="text" name="full_name" placeholder="Name" id="name_form">
             </div>
             
