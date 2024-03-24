@@ -23,7 +23,7 @@ $db->exec($create_query);
 
 $company = $_POST['company'];
 
-$insert_query = "INSERT INTO users (company) VALUES ($company)";
+$insert_query = "INSERT INTO registrations (company) VALUES ($company)";
 $db->exec($insert_query);
 
 $mail_msg = "A new company has registered: $company";
