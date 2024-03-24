@@ -60,8 +60,10 @@ $fb = array(
 
     <form method="post" action="submit.php">
         <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
-        <input type="text" name="company" placeholder="name" id="company_form">
+        <input type="text" name="company" placeholder="company" id="company_form">
         <label for="company_form">Company</label>
+        <input type="text" name="first_name" placeholder="First name" id="name_form">
+        <label for="name_form">Name</label>
         <input type="submit" value="Submit">
     </form>
 
