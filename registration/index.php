@@ -59,6 +59,10 @@ $fb = array(
       </div>
     </div>
 
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
     <div class="section">
       <span class="section-slashes">
         <span>/</span><span>/</span>
@@ -67,6 +71,10 @@ $fb = array(
         <?php echo($lang['content']['registration_header'][$eng]); ?>
       </span>
     </div>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 
     <div class="content flex">
       <div class="text l-12m-12 s-12">
@@ -88,13 +96,19 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="package_choice"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
-                <input type="radio" id="package_choice" name="package" value="C">
-                <label for="package_choice"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
-                <input type="radio" id="package_choice" name="package" value="Ag">
-                <label for="package_choice"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
-                <input type="radio" id="package_choice" name="package" value="Au">
+            <div>
+                <input type="radio" id="package_option1" name="package" value="C">
+                <label for="package_option1"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
             </div>
+            <div>
+                <input type="radio" id="package_option2" name="package" value="Ag">
+                <label for="package_option2"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
+            </div>
+            <div>
+                <input type="radio" id="package_option3" name="package" value="Au">
+                <label for="package_option3"><?php echo($lang['content']['form_package_option3'][$eng]); ?></label>
+            </div>
+        </div>
             <input type="submit" value="Submit">
         </form>
       </div>
