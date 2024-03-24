@@ -1,40 +1,68 @@
-.registration {
+.registration{
+    $primary-color: #007bff;
+    $secondary-color: #0056b3;
+    $border-color: #ccc;
+    $text-color: #333;
+    $label-margin-bottom: 10px;
+    $input-padding: 15px;
+    $input-font-size: 16px;
+    $submit-btn-padding: 10px 20px;
+    $submit-btn-font-size: 18px;
+    $border-radius: 4px;
+    $form-group-margin-bottom: 20px;
+
+    // Mixin for input styles
+    @mixin input-style {
+    display: block;
+    width: 100%;
+    padding: $input-padding;
+    font-size: $input-font-size;
+    color: $text-color;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-sizing: border-box; // Ensure padding does not affect overall width
+    }
+
+    // Basic form styling
     .form-container {
-        background-color: white;
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+
     .form-group {
-        margin-bottom: 1em;
-    }
-    .form-group label {
+    margin-bottom: $form-group-margin-bottom;
+    
+    label {
         display: block;
-        margin-bottom: .5em;
-        color: #666;
+        margin-bottom: $label-margin-bottom;
+        color: $text-color;
     }
-    .form-group input[type="text"],
-    .form-group input[type="email"],
-    .form-group input[type="date"],
-    .form-group select,
-    .form-group textarea {
-        width: 100%;
-        padding: 8px;
-        font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        @include input-style;
     }
-    .form-group button[type="submit"] {
-        background-color: #0056b3;
-        color: white;
-        padding: 10px 15px;
-        font-size: 18px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
+    
+    textarea {
+        resize: vertical;
     }
-    .form-group button[type="submit"]:hover {
-        background-color: #004494;
-    }    
+    }
+
+    input[type="submit"] {
+    background-color: $primary-color;
+    color: #fff;
+    padding: $submit-btn-padding;
+    font-size: $submit-btn-font-size;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: $secondary-color;
+    }
+    }
 }
