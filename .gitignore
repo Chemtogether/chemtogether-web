@@ -6,3 +6,6 @@
 ### Webhook ###
 webhook
 webhook/*
+
+### Registration database ###
+registration/registrations.db
