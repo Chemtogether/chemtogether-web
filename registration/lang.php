@@ -41,6 +41,6 @@ $lang['content']['additional_event_option1'] = array("Wir erwünschen Kontaktauf
 $lang['content']['form_comment'] = array("Weitere Kommentare: ", "Further comments: ");
 
 $lang['content']['form_terms_and_conditions'] = array("Teilnahmebedingungen: ", "Terms and conditions: ");
-$lang['content']['terms_and_conditions_option1'] = array("Die Teilnahmebedingungen der Chemtogether wurden berücksichtigt und werden für die Dauer der Veranstaltung eingehalten.", "Chemtogether's terms and conditions have been taken into account and will be upheld for the duration of the event.")
+$lang['content']['terms_and_conditions_option1'] = array("Die <a href='https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/Terms_and_Conditions.pdf' style='text-decoration: underline;'>Teilnahmebedingungen</a> der Chemtogether wurden berücksichtigt und werden für die Dauer der Veranstaltung eingehalten.", "Chemtogether's <a href='https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/Terms_and_Conditions.pdf' style='text-decoration: underline;'>terms and conditions</a> have been taken into account and will be upheld for the duration of the event.")
 
 ?>
