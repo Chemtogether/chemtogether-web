@@ -149,7 +149,7 @@ $fb = array(
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
                     <input type="radio" id="terms_and_conditions_option1" name="terms_and_conditions" value="Yes" style="margin-right: 20px;" required>
-                    <label for="terms_and_conditions_option1"><?php echo($lang['content']['terms_and_conditions_option1'][$eng]); ?></label>
+                    <label for="terms_and_conditions_option1"><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/Terms_and_Conditions.pdf"><?php echo($lang['content']['terms_and_conditions_option1'][$eng]); ?></a></label>
                 </div>
             </div>
             <div class="spacer"></div>
