@@ -29,7 +29,7 @@ $lang['content']['form_mail'] = array("E-Mail Adresse: ", "E-Mail address: ");
 $lang['content']['form_package'] = array("Gewünschte Partnerschaftsoption: ", "Desired partnership option: ");
 $lang['content']['form_package_option1'] = array("C", "C");
 $lang['content']['form_package_option2'] = array("Ag", "Ag");
-$lang['content']['form_package_option3'] = array("Au", "Au");
+$lang['content']['form_package_option3'] = array("Au (nur mittwochs verfügbar)", "Au (only available on Wednesdays)");
 
 $lang['content']['form_day'] = array("Gewünschter Ausstellungstag: ", "Preferred exhibition day: ");
 $lang['content']['day_option1'] = array("Dienstag", "Tuesday");
