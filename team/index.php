@@ -110,7 +110,7 @@ $active_nav = 'team';
           <br><br>
           <?php echo($lang['team'][$member_id]['info'][$eng]); ?>
           <br><br>
-          <!-- <?php obfuscate_mail($lang['team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?> -->
+          <?php obfuscate_mail($lang['team'][$member_id]['mail_prefix'], '', '<i class="far fa-lg fa-fw fa-envelope"></i>'); ?>
           <?php if ($lang['team'][$member_id]['linkedin'] != '') echo('<a href="'.$lang['team'][$member_id]['linkedin'].'"><i class="fab fa-lg fa-fw fa-linkedin-in"></i></a>'); ?>
         </div>
       </div>
