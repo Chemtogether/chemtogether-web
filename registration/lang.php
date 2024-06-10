@@ -27,7 +27,7 @@ $lang['content']['form_phone'] = array("Telefonnummer: ", "Phone number: ");
 $lang['content']['form_mail'] = array("E-Mail Adresse: ", "E-Mail address: ");
 
 $lang['content']['form_package'] = array("Gewünschte Partnerschaftsoption: ", "Desired partnership option: ");
-$lang['content']['form_package_option1'] = array("C", "C");
+$lang['content']['form_package_option1'] = array("C (Dienstag ausverkauft)", "C (Tuesday sold out)");
 $lang['content']['form_package_option2'] = array("Ag (ausverkauft)", "Ag (sold out)");
 $lang['content']['form_package_option3'] = array("Au (ausverkauft)", "Au (sold out)");
 
