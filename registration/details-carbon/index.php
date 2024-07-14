@@ -54,7 +54,7 @@ $fb = array(
     </div>
 
     <div class="content flex">
-      <div class="text l-12m-12 s-12">
+      <div class="text l-12m-12 s-12" style="padding: 1em;">
         <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
     </div>
@@ -83,13 +83,13 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="email_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_email'][$eng]); ?> </label>
-                <input type="email" name="email" placeholder="email" id="email_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="email_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_email'][$eng]); ?> </label>
+                <input type="email" name="email" placeholder="E-mail" id="email_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="company_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
-                <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
+                <input type="text" name="company" id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div class="content flex">
@@ -99,13 +99,13 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="representatives_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_representatives'][$eng]); ?></label>
-                <input type="text" name="representatives" placeholder=<?php echo($lang['content']['form_representatives'][$eng]); ?> id="representatives_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="representatives_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_representatives'][$eng]); ?></label>
+                <textarea name="representatives" id="representatives_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="cars_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_cars'][$eng]); ?></label>
-                <input type="text" name="cars" placeholder=<?php echo($lang['content']['form_cars'][$eng]); ?> id="cars_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="cars_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_cars'][$eng]); ?></label>
+                <input type="text" name="cars" id="cars_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div class="content flex">
@@ -117,24 +117,24 @@ $fb = array(
 
             <div>
                 <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
-                <label for="companylogo_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_companylogo'][$eng]); ?></label>
+                <label for="companylogo_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_companylogo'][$eng]); ?></label>
                 <input type="file" name="companylogo" id="companylogo_form" required>
             </div>
             <div class="spacer"></div>
 
 
             <div>
-                <label for="languages_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_languages'][$eng]); ?></label>
+                <label for="languages_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_languages'][$eng]); ?></label>
                 <input type="text" name="languages" placeholder=<?php echo($lang['content']['form_languages'][$eng]); ?> id="languages_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="employee_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_employee'][$eng]); ?></label>
+                <label for="employee_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_employee'][$eng]); ?></label>
                 <input type="text" name="employee" placeholder=<?php echo($lang['content']['form_employee'][$eng]); ?> id="employee_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
+                <div style="margin-bottom: 10px; font-size: 20px;">
                     <?php echo($lang['content']['form_qualification'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
@@ -156,7 +156,7 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
+                <div style="margin-bottom: 10px; font-size: 20px;;">
                     <?php echo($lang['content']['form_options'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
@@ -186,18 +186,18 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="founding_year_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_founding_year'][$eng]); ?></label>
+                <label for="founding_year_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_founding_year'][$eng]); ?></label>
                 <input type="text" name="founding_year" placeholder=<?php echo($lang['content']['form_founding_year'][$eng]); ?> id="founding_year_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="sites_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_sites'][$eng]); ?></label>
+                <label for="sites_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_sites'][$eng]); ?></label>
                 <input type="text" name="sites" placeholder=<?php echo($lang['content']['form_sites'][$eng]); ?> id="sites_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>            
             <div>
-                <label for="additional_facts_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_additional_facts'][$eng]); ?></label>
-                <input type="text" name="additional_facts" placeholder=<?php echo($lang['content']['form_additional_facts'][$eng]); ?> id="additional_facts_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+                <label for="additional_facts_form" style="margin-right: 20px; font-size: 20px; padding: 1em;"><?php echo($lang['content']['form_additional_facts'][$eng]); ?></label>
+                <textarea name="additional_facts" id="additional_facts_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
             </div>
             <div class="spacer"></div>
             <div class="content flex">
@@ -207,27 +207,27 @@ $fb = array(
             </div>
             <div class="spacer"></div> 
             <div>
-                <label for="we_are_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_we_are'][$eng]); ?></label>
-                <input type="text" name="we_are" placeholder=<?php echo($lang['content']['form_we_are'][$eng]); ?> id="we_are_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="we_are_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_are'][$eng]); ?></label>
+                <textarea id="we_are_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="we_offer_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_we_offer'][$eng]); ?></label>
-                <input type="text" name="we_offer" placeholder=<?php echo($lang['content']['form_we_offer'][$eng]); ?> id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="we_offer_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_offer'][$eng]); ?></label>
+                <textarea name="we_offer" id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
             </div>
             <div class="spacer"></div>   
             <div>
-                <label for="we_looking_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_we_looking'][$eng]); ?></label>
-                <input type="text" name="we_looking" placeholder=<?php echo($lang['content']['form_we_looking'][$eng]); ?> id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                <label for="we_looking_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_looking'][$eng]); ?></label>
+                <textarea name="we_looking" id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
             </div>
             <div class="spacer"></div>  
             <div>
-                <label for="additional_info_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_additional_info'][$eng]); ?></label>
-                <input type="text" name="additional_info" placeholder=<?php echo($lang['content']['form_additional_info'][$eng]); ?> id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+                <label for="additional_info_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_additional_info'][$eng]); ?></label>
+                <textarea name="additional_info" id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
             </div>
             <div class="spacer"></div>             
             <div>
-                <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top; font-weight: bold;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
+                <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
                 <textarea name="comment" id="comment_form" style="width: 60%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
             </div>
             <div class="spacer"></div>

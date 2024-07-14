@@ -13,22 +13,22 @@ $lang['navigation']['topnav_title']= array('Details Carbon', 'Details Carbon');
 $lang['content']['intro_text'] = array(
   'Vielen Dank für Ihre Anmeldung zur diesjährigen Chemtogether Karrieremesse! Im angehängten Dokument "How to Chemtogether" (auch online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2023.pdf">hier</a></b> verfügbar) finden Sie alle relevanten Details für den Tag der Messe. <br> Mit diesem Formular sammeln wir alle erforderlichen Details, um Ihr Firmenprofil auf unserer Website und in unserem Messeführer zu erstellen, sowie alle erforderlichen Werbematerialien zu veröffentlichen, die Teil unserer Messe sind. Für Beispiele der resultierenden Veröffentlichungen sehen Sie bitte die folgenden Dokumente:
     <ul> 
-    <li> <b><ahref="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 Messeführer</a></b> </li>
-    <li> <b><ahref="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
+    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 Messeführer</a></b> </li>
+    <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
     </ul>
-
+    <br>
     Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. Oktober 2024. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
       <ul>
         <li> Anzeigen für unsere Jobwall während der Messe. Diese können auf Papier mitgebracht oder bis zum 1. September 2024 per E-Mail an uns gesendet werden, um ihre Relevanz während der Messe sicherzustellen - wir werden kurz zuvor eine Erinnerung senden. Verwenden Sie bitte in beiden Fällen das A4-Format, vorzugsweise mit einer Seite pro offener Position. </li>
       </ul>
     ',
-    'Many thanks for your registration of this year\'s Chemtogether Career Fair! In the attached "How to Chemtogether" document (also available online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2023.pdf">here</a></b>), please find all relevant details for the day of the fair itself. <br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
+    'Many thanks for your registration of this year\'s Chemtogether Career Fair! In the attached "How to Chemtogether" document (also available online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2023.pdf">here</a></b>), please find all relevant details for the day of the fair itself. <br> <br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
     <ul> 
-    <li> <b><ahref="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 fair guide</a></b> </li>
-    <li> <b><ahref="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
+    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 fair guide</a></b> </li>
+    <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
     </ul>
-
-    Please answer the questions in english and submit all requested details by October 1st, 2024. <br> The following are not included in this form and will be organised separately:
+    <br>
+    Please submit all requested details by October 1st, 2024. <br><br> The following are not included in this form and will be organised separately:
       <ul>
         <li> Advertisements for our job wall during the fair. These can be brought on paper or sent to us via email before September 1st, 2024 to ensure their relevance during the fair - we will ensure to send a reminder shortly beforehand. In either case, please use A4 format, preferably with a single page per open position. </li>
       </ul>
@@ -49,7 +49,7 @@ $lang['content']['form_representatives'] = array("Namen und E-Mail-Adressen alle
 $lang['content']['form_cars'] = array("Ungefähre Anzahl Autos an, mit denen Sie zur ETH Hönggerberg anreisen werden, damit wir die Parkplätze organisieren können: ", "Estimate of the number of cars that will be used for travelling to ETH Hönggerberg, in order for us to arrange parking: ");
 
 $lang['content']['facts_spacer'] = array(" <b> Fakten und Zahlen </b> Die folgenden Fragen sollten kurz beantwortet werden und sind in unserem Messeführer als Tabelle oberhalb des Firmenprofils dargestellt.", "<b> Facts and figures </b> The following questions should be answered briefly and are shown as a table above the company profile in our fair guide.");
-$lang['content']['form_companylogo'] = array("Bitte laden Sie hier das aktuelle Logo Ihres Unternehmens in dem von Ihnen bevorzugten Format hoch, damit es in unserem Messeführer und auf unserer Website verwendet werden kann.", "Please upload your company's current logo here in your preferred format(s), to be used in our fair guide and on our website.");
+$lang['content']['form_companylogo'] = array("Bitte laden Sie hier das aktuelle Logo Ihres Unternehmens in dem von Ihnen bevorzugten Format hoch, damit es in unserem Messeführer und auf unserer Website verwendet werden kann.", "Please upload your company's current logo here in your preferred format, to be used in our fair guide and on our website.");
 $lang['content']['form_languages'] = array("Erforderliche/bevorzugte Sprachen: ", "Required/Preferred Languages: ");
 $lang['content']['form_employee'] = array("Anzahl Angestellte in der Schweiz: ", "Number of employees in Switzerland: ");
 
