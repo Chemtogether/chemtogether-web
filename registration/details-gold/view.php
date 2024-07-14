@@ -1,14 +1,14 @@
 <?php
 
-if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_CARBON_TOKEN"))){
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_GOLD_TOKEN"))){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
 }
 
-$db = new SQLite3('detailscarbon.db');
+$db = new SQLite3('detailsgold.db');
 
-$res = $db->query("SELECT * FROM detailscarbon");
+$res = $db->query("SELECT * FROM detailsgold");
 
 // provides small functions
 include('../../php/general.php');
@@ -22,11 +22,11 @@ include('../../includes/language.php');
 // include all translations from local file
 include('./lang.php');
 
-$active_nav = 'detailscarbon';
+$active_nav = 'registration';
 
 $fb = array(
   "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-carbon",
+  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/details-gold/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -79,6 +79,7 @@ $fb = array(
                 echo "<b>We offer: </b>" . htmlspecialchars($row['weoffer']) . "<br>";
                 echo "<b>We are looking for: </b>" . htmlspecialchars($row['welooking']) . "<br>";
                 echo "<b>Additional information: </b>" . htmlspecialchars($row['additionalinfo']) . "<br>";
+                echo "<b>Flash presentation title: </b>" . htmlspecialchars($row['flashpresentation']) . "<br>";
                 echo "<b>Comment:</b> " . htmlspecialchars($row['comment']) . "<br>"; 
                 echo "<b>Year: </b> " .htmlspecialchars($row['y']) . "<br>";
                 echo "<b>Successful Upload: </b> " .htmlspecialchars($row['succesfulupload']) . "<br>";

@@ -1,6 +1,6 @@
 <?php
 
-if (!isset($_GET["t"]) || ($_GET["t"] != getenv("DETAILS_CARBON_TOKEN"))){
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("DETAILS_SILVER_TOKEN"))){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
@@ -20,11 +20,11 @@ include('./lang.php');
 
 
 // GENERAL
-$active_nav = 'details-carbon';
+$active_nav = 'details-silver';
 
 $fb = array(
   "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-carbon",
+  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-silver",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -75,7 +75,7 @@ $fb = array(
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <form enctype="multipart/form-data" method="post" action="submit.php">
-            <input type="hidden" name="token" value="<?php echo getenv("DETAILS_CARBON_TOKEN"); ?>">
+            <input type="hidden" name="token" value="<?php echo getenv("DETAILS_SILVER_TOKEN"); ?>">
             <div class="content flex">
               <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['general_spacer'][$eng]); ?>
@@ -221,7 +221,169 @@ $fb = array(
                 <label for="additional_info_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_additional_info'][$eng]); ?></label>
                 <textarea name="additionalinfo" id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
             </div>
-            <div class="spacer"></div>             
+            </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="content flex">
+              <div class="text l-12 m-12 s-12">
+                <?php echo($lang['content']['package_spacer'][$eng]); ?>
+            <div class="spacer"></div> 
+            <div>
+                <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
+                <label for="advertisement_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_advertisement'][$eng]); ?></label>
+                <input type="file" name="advertisement" id="advertisement_form" required>
+            </div>
+            <div class="content flex">
+              <div class="text l-12 m-12 s-12">
+                <?php echo($lang['content']['booth_spacer'][$eng]); ?>
+            </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="content flex">
+            <div class="image-big l-12 m-12 s-12">
+              <div>
+                <img <?php set_source($awss3.'/img/2D_rendering','png'); ?>></img>
+              </div>
+            </div>
+          </div>
+          <div class="spacer"></div>
+            <div class="content flex">
+            <div class="image-big l-12 m-12 s-12">
+              <div>
+                <img <?php set_source($awss3.'/img/3D_rendering','png'); ?>></img>
+              </div>
+            </div>
+          </div>
+            <div class="spacer"></div>
+            
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
+                    <?php echo($lang['content']['form_booth1'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option11" name="booth1" value="A" style="margin-right: 20px;">
+                    <label for="booth_option11"><?php echo($lang['content']['form_booth_option_11'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option12" name="booth1" value="B" style="margin-right: 20px;">
+                    <label for="booth_option12"><?php echo($lang['content']['form_booth_option_12'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option13" name="booth1" value="C" style="margin-right: 20px;">
+                    <label for="booth_option13"><?php echo($lang['content']['form_booth_option_13'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option14" name="booth1" value="D" style="margin-right: 20px;">
+                    <label for="booth_option14"><?php echo($lang['content']['form_booth_option_14'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option15" name="booth1" value="E" style="margin-right: 20px;">
+                    <label for="booth_option15"><?php echo($lang['content']['form_booth_option_15'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option16" name="booth1" value="F" style="margin-right: 20px;">
+                    <label for="booth_option16"><?php echo($lang['content']['form_booth_option_16'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option17" name="booth1" value="G" style="margin-right: 20px;">
+                    <label for="booth_option17"><?php echo($lang['content']['form_booth_option_17'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option18" name="booth1" value="H" style="margin-right: 20px;">
+                    <label for="booth_option18"><?php echo($lang['content']['form_booth_option_18'][$eng]); ?></label>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
+                    <?php echo($lang['content']['form_booth2'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option21" name="booth2" value="A" style="margin-right: 20px;">
+                    <label for="booth_option21"><?php echo($lang['content']['form_booth_option_21'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option22" name="booth2" value="B" style="margin-right: 20px;">
+                    <label for="booth_option22"><?php echo($lang['content']['form_booth_option_22'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option23" name="booth2" value="C" style="margin-right: 20px;">
+                    <label for="booth_option23"><?php echo($lang['content']['form_booth_option_23'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option24" name="booth2" value="D" style="margin-right: 20px;">
+                    <label for="booth_option24"><?php echo($lang['content']['form_booth_option_24'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option25" name="booth2" value="E" style="margin-right: 20px;">
+                    <label for="booth_option25"><?php echo($lang['content']['form_booth_option_25'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option26" name="booth2" value="F" style="margin-right: 20px;">
+                    <label for="booth_option26"><?php echo($lang['content']['form_booth_option_26'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option27" name="booth2" value="G" style="margin-right: 20px;">
+                    <label for="booth_option27"><?php echo($lang['content']['form_booth_option_27'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option28" name="booth2" value="H" style="margin-right: 20px;">
+                    <label for="booth_option28"><?php echo($lang['content']['form_booth_option_28'][$eng]); ?></label>
+                </div>
+            </div>
+            <div class="spacer"></div>
+            
+            <div>
+                <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
+                    <?php echo($lang['content']['form_booth3'][$eng]); ?>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option31" name="booth3" value="A" style="margin-right: 20px;">
+                    <label for="booth_option31"><?php echo($lang['content']['form_booth_option_31'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option32" name="booth3" value="B" style="margin-right: 20px;">
+                    <label for="booth_option32"><?php echo($lang['content']['form_booth_option_32'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option33" name="booth3" value="C" style="margin-right: 20px;">
+                    <label for="booth_option33"><?php echo($lang['content']['form_booth_option_33'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option34" name="booth3" value="D" style="margin-right: 20px;">
+                    <label for="booth_option34"><?php echo($lang['content']['form_booth_option_34'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option35" name="booth3" value="E" style="margin-right: 20px;">
+                    <label for="booth_option35"><?php echo($lang['content']['form_booth_option_35'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option36" name="booth3" value="F" style="margin-right: 20px;">
+                    <label for="booth_option36"><?php echo($lang['content']['form_booth_option_36'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option37" name="booth3" value="G" style="margin-right: 20px;">
+                    <label for="booth_option37"><?php echo($lang['content']['form_booth_option_37'][$eng]); ?></label>
+                </div>
+                <div style="margin-left: 20px; margin-bottom: 5px;">
+                    <input type="radio" id="booth_option38" name="booth3" value="H" style="margin-right: 20px;">
+                    <label for="booth_option38"><?php echo($lang['content']['form_booth_option_38'][$eng]); ?></label>
+                </div>
+            </div>
+
+            <div class="spacer"></div> 
+            <div>
+                <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
+                <label for="advertisement_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_advertisement'][$eng]); ?></label>
+                <input type="file" name="advertisement" id="advertisement_form" required>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="flash_presentation_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_flash_presentation'][$eng]); ?></label>
+                <input type="text" name="flashpresentation" id="flash_presentation_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+            </div>
+            <div class="spacer"></div>
             <div>
                 <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
                 <textarea name="comment" id="comment_form" style="width: 60%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
