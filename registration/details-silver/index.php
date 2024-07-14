@@ -228,11 +228,6 @@ $fb = array(
               <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['package_spacer'][$eng]); ?>
             <div class="spacer"></div> 
-            <div>
-                <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
-                <label for="advertisement_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_advertisement'][$eng]); ?></label>
-                <input type="file" name="advertisement" id="advertisement_form" required>
-            </div>
             <div class="content flex">
               <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['booth_spacer'][$eng]); ?>
