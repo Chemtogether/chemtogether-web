@@ -94,8 +94,8 @@ $fb = array(
 
 ?>
 
-<?php include('../includes/head.php');  ?>
-<?php include('../includes/nav.php');  ?>
+<?php include('../../includes/head.php');  ?>
+<?php include('../../includes/nav.php');  ?>
 
 <!-- START CONTENT -->
 <div id="main" class="fair">
