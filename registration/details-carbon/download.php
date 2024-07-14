@@ -2,7 +2,7 @@
 
 if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_CARBON_TOKEN"))){
     http_response_code(404);
-    include('../errors/404/index.php');
+    include('../../errors/404/index.php');
     exit();
 }
 
