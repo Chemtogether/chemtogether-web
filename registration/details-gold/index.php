@@ -1,6 +1,6 @@
 <?php
 
-if (!isset($_GET["t"]) || ($_GET["t"] != getenv("DETAILS_CARBON_TOKEN"))){
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("DETAILS_GOLD_TOKEN"))){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
@@ -20,11 +20,11 @@ include('./lang.php');
 
 
 // GENERAL
-$active_nav = 'details-carbon';
+$active_nav = 'details-gold';
 
 $fb = array(
   "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-carbon",
+  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-gold",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -75,7 +75,7 @@ $fb = array(
     <div class="content flex">
       <div class="text l-12 m-12 s-12">
         <form enctype="multipart/form-data" method="post" action="submit.php">
-            <input type="hidden" name="token" value="<?php echo getenv("DETAILS_CARBON_TOKEN"); ?>">
+            <input type="hidden" name="token" value="<?php echo getenv("DETAILS_GOLD_TOKEN"); ?>">
             <div class="content flex">
               <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['general_spacer'][$eng]); ?>
@@ -221,7 +221,24 @@ $fb = array(
                 <label for="additional_info_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_additional_info'][$eng]); ?></label>
                 <textarea name="additionalinfo" id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
             </div>
-            <div class="spacer"></div>             
+            </div>
+            </div>
+            <div class="spacer"></div>
+            <div class="content flex">
+              <div class="text l-12 m-12 s-12">
+                <?php echo($lang['content']['package_spacer'][$eng]); ?>
+            <div class="spacer"></div> 
+            <div>
+                <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
+                <label for="advertisement_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_advertisement'][$eng]); ?></label>
+                <input type="file" name="advertisement" id="advertisement_form" required>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <label for="flash_presentation_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_flash_presentation'][$eng]); ?></label>
+                <input type="text" name="flashpresentation" id="flash_presentation_form" style="width: 30%; font-size: 16px; font-family: opensans;">
+            </div>
+            <div class="spacer"></div>
             <div>
                 <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
                 <textarea name="comment" id="comment_form" style="width: 60%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>

@@ -1,17 +1,17 @@
 <?php
 
-if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_CARBON_TOKEN"))){
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_SILVER_TOKEN"))){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
 }
 
-$db = new SQLite3('detailscarbon.db');
+$db = new SQLite3('detailssilver.db');
 
-$res = $db->query("SELECT * FROM detailscarbon");
+$res = $db->query("SELECT * FROM detailssilver");
 
 header( 'Content-Type: application/csv' );
-header( 'Content-Disposition: attachment; filename="CT_detailscarbon.csv";' );
+header( 'Content-Disposition: attachment; filename="CT_detailssilver.csv";' );
 
 // clean output buffer
 ob_end_clean();

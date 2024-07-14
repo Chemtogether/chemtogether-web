@@ -1,6 +1,6 @@
 <?php
 
-if (!isset($_POST["token"]) || ($_POST["token"] != getenv("DETAILS_CARBON_TOKEN"))){
+if (!isset($_POST["token"]) || ($_POST["token"] != getenv("DETAILS_SILVER_TOKEN"))){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
@@ -12,6 +12,7 @@ $uploaddir = "/home/webmaster/uploaded-company-data/$year/";
 mkdir($uploaddir);
 $companyname = preg_replace( '/[^a-z0-9]+/', '', strtolower($_POST['company']));
 $uploadfile_logo = $uploaddir . $companyname . 'logo' . basename($_FILES['companylogo']['name']);
+$uploadfile_advertisement = $uploaddir . $companyname . 'advertisment' . basename($_FILES['advertisement']['name']);
 
 if (move_uploaded_file($_FILES['companylogo']['tmp_name'], $uploadfile_logo)) {
   $successful_upload = TRUE;
@@ -21,12 +22,20 @@ else{
   echo "File submission not successful. Please send the relevant files to us by E-Mail!";
 }
 
-$db = new SQLite3('detailscarbon.db');
+if (move_uploaded_file($_FILES['advertisement']['tmp_name'], $uploadfile_advertisement)) {
+  $successful_upload = TRUE;
+}
+else{
+  $successful_upload = FALSE;
+  echo "File submission not successful. Please send the relevant files to us by E-Mail!";
+}
 
-$create_query = "CREATE TABLE IF NOT EXISTS detailscarbon (id INTEGER PRIMARY KEY, mail TEXT, company TEXT, representatives TEXT, cars TEXT, languages TEXT, employee TEXT, qualification TEXT, options TEXT, foundingyear TEXT, sites TEXT, additionalfacts TEXT, weare TEXT, weoffer TEXT, welooking TEXT, additionalinfo TEXT, comment TEXT ,y TEXT, successfulupload BOOLEAN)";
+$db = new SQLite3('detailssilver.db');
+
+$create_query = "CREATE TABLE IF NOT EXISTS detailssilver (id INTEGER PRIMARY KEY, mail TEXT, company TEXT, representatives TEXT, cars TEXT, languages TEXT, employee TEXT, qualification TEXT, options TEXT, foundingyear TEXT, sites TEXT, additionalfacts TEXT, weare TEXT, weoffer TEXT, welooking TEXT, additionalinfo TEXT, comment TEXT ,y TEXT, flashpresentation TEXT, booth1 TEXT, booth2 TEXT, booth3 TEXT, successfulupload BOOLEAN)";
 $db->exec($create_query);
 
-$insert_query = $db->prepare("INSERT INTO detailscarbon (mail, company, representatives, cars, languages, employee, qualification, options, foundingyear, sites, additionalfacts, weare, weoffer, welooking, additionalinfo, comment, y, successfulupload) VALUES (:mail, :company, :representatives, :cars, :languages, :employee, :qualification, :options, :foundingyear, :sites, :additionalfacts, :weare, :weoffer, :welooking, :additionalinfo, :comment, :y, :successfulupload)");
+$insert_query = $db->prepare("INSERT INTO detailssilver (mail, company, representatives, cars, languages, employee, qualification, options, foundingyear, sites, additionalfacts, weare, weoffer, welooking, additionalinfo, comment, y, flashpresentation, booth1, booth2, booth3, successfulupload) VALUES (:mail, :company, :representatives, :cars, :languages, :employee, :qualification, :options, :foundingyear, :sites, :additionalfacts, :weare, :weoffer, :welooking, :additionalinfo, :comment, :y, :flashpresentation, :booth1, :booth2, :booth3, :successfulupload)");
 $insert_query->bindValue(':mail', $_POST['mail']);
 $insert_query->bindValue(':company', $_POST['company']);
 $insert_query->bindValue(':representatives', $_POST['representatives']);
@@ -42,6 +51,10 @@ $insert_query->bindValue(':weare', $_POST['weare']);
 $insert_query->bindValue(':weoffer', $_POST['weoffer']);
 $insert_query->bindValue(':welooking', $_POST['welooking']);
 $insert_query->bindValue(':additionalinfo', $_POST['additionalinfo']);
+$insert_query->bindValue(':flashpresentation', $_POST['flashpresentation']);
+$insert_query->bindValue(':booth1', $_POST['booth1']);
+$insert_query->bindValue(':booth2', $_POST['booth2']);
+$insert_query->bindValue(':booth3', $_POST['booth3']);
 $insert_query->bindValue(':comment', $_POST['comment']);
 $insert_query->bindValue(':y', $year);
 $insert_query->bindValue(':successfulupload', $successful_upload);
@@ -62,6 +75,10 @@ $weare = $_POST['weare'];
 $weoffer = $_POST['weoffer'];
 $welooking = $_POST['welooking'];
 $additionalinfo = $_POST['additionalinfo'];
+$booth1 = $_POST['booth1'];
+$booth2 = $_POST['booth2'];
+$booth3 = $_POST['booth3'];
+$flashpresentation = $_POST['flashpresentation'];
 $comment = $_POST['comment'];
 
 $mail_msg = "A new company has given their details: \n Company: $company \n Mail: $mail \n Find informations on the view page.";
@@ -86,7 +103,7 @@ $active_nav = 'registration';
 
 $fb = array(
   "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
+  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-silver",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -138,6 +155,10 @@ $fb = array(
             echo "<b>We are: </b>" . htmlspecialchars($_POST['weare']) . "<br>";
             echo "<b>We offer: </b>" . htmlspecialchars($_POST['weoffer']) . "<br>";
             echo "<b>We are looking for: </b>" . htmlspecialchars($_POST['welooking']) . "<br>";
+            echo "<b>Flash presentation title: </b>" . htmlspecialchars($_POST['flashpresentation']) . "<br>";
+            echo "<b>Booth preference 1: </b>" . htmlspecialchars($_POST['booth1']) . "<br>";
+            echo "<b>Booth preference 2: </b>" . htmlspecialchars($_POST['booth3']) . "<br>";
+            echo "<b>Booth preference 3: </b>" . htmlspecialchars($_POST['booth3']) . "<br>";
             echo "<b>Additional information: </b>" . htmlspecialchars($_POST['additionalinfo']) . "<br>";
             echo "<b>Comment:</b> " . htmlspecialchars($_POST['comment']) . "<br>"; 
         ?>
