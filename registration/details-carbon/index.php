@@ -54,7 +54,7 @@ $fb = array(
     </div>
 
     <div class="content flex">
-      <div class="text l-12m-12 s-12" style="padding: 1em;">
+      <div class="text l-12 m-12 s-12" style="padding: 1.5em;">
         <?php echo($lang['content']['intro_text'][$eng]); ?>
       </div>
     </div>
@@ -73,34 +73,33 @@ $fb = array(
     <div class="spacer"></div>
 
     <div class="content flex">
-      <div class="text l-12m-12 s-12">
+      <div class="text l-12 m-12 s-12">
         <form enctype="multipart/form-data" method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("DETAILS_CARBON_TOKEN"); ?>">
             <div class="content flex">
-              <div class="text l-12m-12 s-12">
+              <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['general_spacer'][$eng]); ?>
+                <div class="spacer"></div>
+                <div>
+                    <label for="email_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_email'][$eng]); ?> </label>
+                    <input type="email" name="email" placeholder="E-mail" id="email_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                </div>
+                <div class="spacer"></div>
+                <div>
+                    <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
+                    <input type="text" name="company" id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
+                </div>
+                </div>
               </div>
-            </div>
-            <div class="spacer"></div>
-            <div>
-                <label for="email_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_email'][$eng]); ?> </label>
-                <input type="email" name="email" placeholder="E-mail" id="email_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
-            </div>
-            <div class="spacer"></div>
-            <div>
-                <label for="company_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
-                <input type="text" name="company" id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
-            </div>
+              
             <div class="spacer"></div>
             <div class="content flex">
-              <div class="text l-12m-12 s-12">
+              <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['attendance_spacer'][$eng]); ?>
-              </div>
-            </div>
             <div class="spacer"></div>
             <div>
                 <label for="representatives_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_representatives'][$eng]); ?></label>
-                <textarea name="representatives" id="representatives_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
+                <textarea name="representatives" id="representatives_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>
             <div>
@@ -109,7 +108,7 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div class="content flex">
-              <div class="text l-12m-12 s-12">
+              <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['facts_spacer'][$eng]); ?>
               </div>
             </div>
@@ -138,19 +137,19 @@ $fb = array(
                     <?php echo($lang['content']['form_qualification'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="qualification_option1" name="qualification[]" value="BSc" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="qualification_option1" name="qualification[]" value="BSc" style="margin-right: 20px;">
                     <label for="qualification_option1"><?php echo($lang['content']['form_qualification_option1'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="qualification_option2" name="qualification[]" value="MSc" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="qualification_option2" name="qualification[]" value="MSc" style="margin-right: 20px;">
                     <label for="qualification_option2"><?php echo($lang['content']['form_qualification_option2'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="qualification_option3" name="qualification[]" value="PhD" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="qualification_option3" name="qualification[]" value="PhD" style="margin-right: 20px;">
                     <label for="qualification_option3"><?php echo($lang['content']['form_qualification_option3'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="qualification_option4" name="qualification[]" value="Post-Doc" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="qualification_option4" name="qualification[]" value="Post-Doc" style="margin-right: 20px;">
                     <label for="qualification_option4"><?php echo($lang['content']['form_qualification_option4'][$eng]); ?></label>
                 </div>
             </div>
@@ -160,27 +159,27 @@ $fb = array(
                     <?php echo($lang['content']['form_options'][$eng]); ?>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option1" name="option[]" value="Thesis" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option1" name="option[]" value="Thesis" style="margin-right: 20px;">
                     <label for="options_option1"><?php echo($lang['content']['form_options_option1'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option2" name="option[]" value="Industrial PhD" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option2" name="option[]" value="Industrial PhD" style="margin-right: 20px;">
                     <label for="options_option2"><?php echo($lang['content']['form_options_option2'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option3" name="option[]" value="Industrial Post-Doc" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option3" name="option[]" value="Industrial Post-Doc" style="margin-right: 20px;">
                     <label for="options_option3"><?php echo($lang['content']['form_options_option3'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option4" name="option[]" value="Internship" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option4" name="option[]" value="Internship" style="margin-right: 20px;">
                     <label for="options_option4"><?php echo($lang['content']['form_options_option4'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option5" name="option[]" value="Trainee" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option5" name="option[]" value="Trainee" style="margin-right: 20px;">
                     <label for="options_option5"><?php echo($lang['content']['form_options_option5'][$eng]); ?></label>
                 </div>
                 <div style="margin-left: 20px; margin-bottom: 5px;">
-                    <input type="checkbox" id="options_option6" name="option[]" value="Direct Entry" style="margin-right: 20px;" required>
+                    <input type="checkbox" id="options_option6" name="option[]" value="Direct Entry" style="margin-right: 20px;">
                     <label for="options_option6"><?php echo($lang['content']['form_options_option6'][$eng]); ?></label>
                 </div>
             </div>
@@ -196,34 +195,34 @@ $fb = array(
             </div>
             <div class="spacer"></div>            
             <div>
-                <label for="additional_facts_form" style="margin-right: 20px; font-size: 20px; padding: 1em;"><?php echo($lang['content']['form_additional_facts'][$eng]); ?></label>
-                <textarea name="additional_facts" id="additional_facts_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
+                <label for="additional_facts_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_additional_facts'][$eng]); ?></label>
+                <textarea name="additional_facts" id="additional_facts_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
+            </div>
+            </div>
             </div>
             <div class="spacer"></div>
             <div class="content flex">
-              <div class="text l-12m-12 s-12">
+              <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['profile_spacer'][$eng]); ?>
-              </div>
-            </div>
             <div class="spacer"></div> 
             <div>
                 <label for="we_are_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_are'][$eng]); ?></label>
-                <textarea id="we_are_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
+                <textarea id="we_are_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>
             <div>
                 <label for="we_offer_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_offer'][$eng]); ?></label>
-                <textarea name="we_offer" id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
+                <textarea name="we_offer" id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>   
             <div>
                 <label for="we_looking_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_looking'][$eng]); ?></label>
-                <textarea name="we_looking" id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans;" required></textarea>
+                <textarea name="we_looking" id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>  
             <div>
                 <label for="additional_info_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_additional_info'][$eng]); ?></label>
-                <textarea name="additional_info" id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans;"></textarea>
+                <textarea name="additional_info" id="additional_info_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;"></textarea>
             </div>
             <div class="spacer"></div>             
             <div>
@@ -233,6 +232,8 @@ $fb = array(
             <div class="spacer"></div>
             <div class="spacer"></div>
             <input type="submit" value="Submit" style="background-color: rgba(229,107,46,1); color: white; padding: 10px 20px; font-size: 16px; font-family: 'opensans', sans-serif; border: none; cursor: pointer;">
+            </div>
+            </div>
         </form>
       </div>
     </div>
