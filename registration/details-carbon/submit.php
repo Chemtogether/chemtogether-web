@@ -67,8 +67,8 @@ $comment = $_POST['comment'];
 $mail_msg = "A new company has given their details: \n Company: $company \n Mail: $mail \n Find informations on the view page.";
 
 mail("schmiste@chem.ethz.ch", "New Chemtogether detail submission", $mail_msg);
-//mail("mmeinhardt@student.ethz.ch", "New Chemtogether registration", $mail_msg);
-//mail("tniederhoff@student.ethz.ch", "New Chemtogether registration", $mail_msg);
+mail("mmeinhardt@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
+mail("tniederhoff@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
 
 // provides small functions
 include('../../php/general.php');
