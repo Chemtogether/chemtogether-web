@@ -44,11 +44,11 @@ $lang['content']['details_header'] = array('Firmen Informationen', 'Company info
 
 $lang['content']['general_spacer'] = array(" <b> Allgemeine Informationen </b>", "<b> General informations </b>");
 $lang['content']['form_email'] = array("E-Mail Adresse: ", "E-Mail address: ");
-$lang['content']['form_company'] = array("Genaue Formulierung/Kapitalisierung auf Schildern über den Messeständen, auf unserer Website und in unserem Messeführe: ", "Exact wording/capitalization to be used on signs above the fair stands, on our website and in our fair guide: ");
+$lang['content']['form_company'] = array("Genaue Formulierung/Kapitalisierung auf Schildern über den Messeständen, auf unserer Website und in unserem Messeführer: ", "Exact wording/capitalization to be used on signs above the fair stands, on our website and in our fair guide: ");
 
 $lang['content']['attendance_spacer'] = array(" <b> Messebesuch </b>", "<b> Fair attendance </b>");
 $lang['content']['form_representatives'] = array("Namen und E-Mail-Adressen aller Unternehmensvertreter an, die an der Veranstaltung teilnehmen werden: ", "Names and email addresses of all company representatives planning to attend the event: ");
-$lang['content']['form_cars'] = array("Ungefähre Anzahl Autos an, mit denen Sie zur ETH Hönggerberg anreisen werden, damit wir die Parkplätze organisieren können: ", "Estimate of the number of cars that will be used for travelling to ETH Hönggerberg, in order for us to arrange parking: ");
+$lang['content']['form_cars'] = array("Ungefähre Anzahl Autos an, mit denen Sie zur ETH Hönggerberg anreisen werden, damit wir die Anzahl benötigte Parkplätze vor Ort organisieren können: ", "Estimate of the number of cars that will be used for travelling to ETH Hönggerberg, in order for us to arrange parking: ");
 
 $lang['content']['facts_spacer'] = array(" <b> Fakten und Zahlen </b> Die folgenden Fragen sollten kurz beantwortet werden und sind in unserem Messeführer als Tabelle oberhalb des Firmenprofils dargestellt.", "<b> Facts and figures </b> The following questions should be answered briefly and are shown as a table above the company profile in our fair guide.");
 $lang['content']['form_companylogo'] = array("Bitte laden Sie hier das aktuelle Logo Ihres Unternehmens in dem von Ihnen bevorzugten Format hoch, damit es in unserem Messeführer und auf unserer Website verwendet werden kann.", "Please upload your company's current logo here in your preferred format, to be used in our fair guide and on our website.");
