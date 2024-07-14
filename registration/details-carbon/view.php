@@ -2,7 +2,7 @@
 
 if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_DETAILS_CARBON_TOKEN"))){
     http_response_code(404);
-    include('../errors/404/index.php');
+    include('../../errors/404/index.php');
     exit();
 }
 
@@ -11,13 +11,13 @@ $db = new SQLite3('registrations.db');
 $res = $db->query("SELECT * FROM registrations");
 
 // provides small functions
-include('../php/general.php');
+include('../../php/general.php');
 
 // controls cookie, sets $eng as boolean depending on language choice and provides 'en' or 'de' in $language
-include('../php/language_cookie.php');
+include('../../php/language_cookie.php');
 
 // creates $lang array and provides translation text for common elements (navigation and footer)
-include('../includes/language.php');
+include('../../includes/language.php');
 
 // include all translations from local file
 include('./lang.php');
@@ -34,8 +34,8 @@ $fb = array(
 
 ?>
 
-<?php include('../includes/head.php');  ?>
-<?php include('../includes/nav.php');  ?>
+<?php include('../../includes/head.php');  ?>
+<?php include('../../includes/nav.php');  ?>
 
 <!-- START CONTENT -->
 <div id="main" class="fair">
@@ -94,5 +94,5 @@ $fb = array(
 
 <!-- END CONTENT  -->
 
-<?php include('../includes/footer.php');  ?>
-<?php include('../includes/foot.php');  ?>
+<?php include('../../includes/footer.php');  ?>
+<?php include('../../includes/foot.php');  ?>

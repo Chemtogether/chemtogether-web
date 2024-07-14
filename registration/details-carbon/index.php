@@ -2,7 +2,7 @@
 
 if (!isset($_GET["t"]) || ($_GET["t"] != getenv("DETAILS_CARBON_TOKEN"))){
     http_response_code(404);
-    include('../errors/404/index.php');
+    include('../../errors/404/index.php');
     exit();
 }
 
@@ -32,8 +32,8 @@ $fb = array(
 
 ?>
 
-<?php include('../includes/head.php');  ?>
-<?php include('../includes/nav.php');  ?>
+<?php include('../../includes/head.php');  ?>
+<?php include('../../includes/nav.php');  ?>
 
 
 <!-- START CONTENT -->
@@ -267,5 +267,5 @@ $fb = array(
 
 <!-- END CONTENT  -->
 
-<?php include('../includes/footer.php');  ?>
-<?php include('../includes/foot.php');  ?>
+<?php include('../../includes/footer.php');  ?>
+<?php include('../../includes/foot.php');  ?>
