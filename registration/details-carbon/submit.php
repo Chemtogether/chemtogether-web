@@ -26,7 +26,7 @@ $db = new SQLite3('detailscarbon.db');
 $create_query = "CREATE TABLE IF NOT EXISTS detailscarbon (id INTEGER PRIMARY KEY, mail TEXT, company TEXT, representatives TEXT, cars TEXT, languages TEXT, employee TEXT, qualification TEXT, options TEXT, foundingyear TEXT, sites TEXT, additionalfacts TEXT, weare TEXT, weoffer TEXT, welooking TEXT, additionalinfo TEXT, comment TEXT ,y TEXT, successfulupload BOOLEAN)";
 $db->exec($create_query);
 
-$insert_query = $db->prepare("INSERT INTO registrations (mail, company, representatives, cars, languages, employee, qualification, options, foundingyear, sites, additionalfacts, weare, weoffer, welooking, additionalinfo, comment, y, successfulupload) VALUES (:mail, :company, :representatives, :cars, :languages, :employee, :qualification, :options, :foundingyear, :sites, :additionalfacts, :weare, :weoffer, :welooking, :additionalinfo, :comment, :y, :successfulupload)");
+$insert_query = $db->prepare("INSERT INTO detailscarbon (mail, company, representatives, cars, languages, employee, qualification, options, foundingyear, sites, additionalfacts, weare, weoffer, welooking, additionalinfo, comment, y, successfulupload) VALUES (:mail, :company, :representatives, :cars, :languages, :employee, :qualification, :options, :foundingyear, :sites, :additionalfacts, :weare, :weoffer, :welooking, :additionalinfo, :comment, :y, :successfulupload)");
 $insert_query->bindValue(':mail', $_POST['mail']);
 $insert_query->bindValue(':company', $_POST['company']);
 $insert_query->bindValue(':representatives', $_POST['representatives']);

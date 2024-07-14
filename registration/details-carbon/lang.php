@@ -70,15 +70,15 @@ $lang['content']['form_options_option6'] = array("Direkteinstieg", "Direct entry
 
 $lang['content']['form_founding_year'] = array("Gründungsjahr: ", "Founding year: ");
 $lang['content']['form_sites'] = array("Standorte in der Schweiz (oder im benachbarten Ausland): ", "Locations of sites in Switzerland (or neighbouring countries): ");
-$lang['content']['form_additional_facts'] = array("(Optional) Bitte geben Sie 1-3 Fakten über Ihre Firma an, die wir in unserem Faktenblatt anführen, zum Beispiel:
-<ul>
+$lang['content']['form_additional_facts'] = array("Bitte geben Sie 1-3 Fakten über Ihre Firma an, die wir in unserem Faktenblatt anführen, zum Beispiel:
+<ul style='padding: 1.5em;'>
 <li> Anzahl Länder mit weiteren Standorten</li>
 <li>jährliches F&E Budget</li>
 <li> Zusammensetzung Belegschaft nach Feld</li>
 <li>best-verkauftes Produkt</li>
 </ul>: ", 
-"(Optional) Please enter 1-3 short facts or numbers to be included in the corresponding factsheet, for example:
-<ul>
+"Please enter 1-3 short facts or numbers to be included in the corresponding factsheet, for example:
+<ul style='padding: 1.5em;'>
 <li>number of countries with further sites </li>
 <li>annual R&D investment</li>
 <li>composition of staff by field</li>
@@ -89,7 +89,7 @@ $lang['content']['profile_spacer'] = array(" <b> Firmenprofil </b> Bitte schreib
 $lang['content']['form_we_are'] = array("We are:", "We are:");
 $lang['content']['form_we_offer'] = array("We offer:", "We offer:");
 $lang['content']['form_we_looking'] = array("We are looking for:", "We are looking for:");
-$lang['content']['form_additional_info'] = array("(Optional) <b> Zusätzliche Information </b> Wenn Sie einen zusätzlichen Absatz über Ihr Firmenprofil hinzufügen möchten (mit oder ohne Überschrift), geben Sie ihn bitte hier an: ", "(Optional) <b> Additional Information </b> If you wish to add an additional short paragraph to your company profile (with or without header), please enter it here: ");
+$lang['content']['form_additional_info'] = array("Zusätzliche Information: Wenn Sie einen zusätzlichen Absatz über Ihr Firmenprofil hinzufügen möchten (mit oder ohne Überschrift), geben Sie ihn bitte hier an: <br> ", "Additional Information: If you wish to add an additional short paragraph to your company profile (with or without header), please enter it here: <br>");
 $lang['content']['form_comment'] = array("Weitere Kommentare: ", "Further comments: ");
 
 ?>
