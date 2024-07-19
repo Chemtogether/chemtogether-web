@@ -204,17 +204,17 @@ $fb = array(
             <div class="spacer"></div> 
             <div>
                 <label for="we_are_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_are'][$eng]); ?></label>
-                <textarea id="we_are_form" name="weare" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
+                <textarea maxlength="500" id="we_are_form" name="weare" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>
             <div>
                 <label for="we_offer_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_offer'][$eng]); ?></label>
-                <textarea name="weoffer" id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
+                <textarea maxlength="500" name="weoffer" id="we_offer_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>   
             <div>
                 <label for="we_looking_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_we_looking'][$eng]); ?></label>
-                <textarea name="welooking" id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
+                <textarea maxlength="500" name="welooking" id="we_looking_form" style="width: 30%; font-size: 16px; font-family: opensans; vertical-align: top;" required></textarea>
             </div>
             <div class="spacer"></div>  
             <div>
