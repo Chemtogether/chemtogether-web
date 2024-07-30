@@ -17,7 +17,7 @@ $lang['content']['intro_text'] = array(
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
     </ul>
     <br>
-    Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. Oktober 2024. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
+    Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. September 2024. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
       <ul>
         <li> Anzeigen für unsere Jobwall während der Messe. Diese können auf Papier mitgebracht oder bis zum 1. September 2024 per E-Mail an uns gesendet werden, um ihre Relevanz während der Messe sicherzustellen - wir werden kurz zuvor eine Erinnerung senden. Verwenden Sie bitte in beiden Fällen das A4-Format, vorzugsweise mit einer Seite pro offener Position. </li>
       </ul>
@@ -28,7 +28,7 @@ $lang['content']['intro_text'] = array(
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
     </ul>
     <br>
-    Please submit all requested details by October 1st, 2024. <br><br> The following are not included in this form and will be organised separately:
+    Please submit all requested details by September 1st, 2024. <br><br> The following are not included in this form and will be organised separately:
       <ul>
         <li> Advertisements for our job wall during the fair. These can be brought on paper or sent to us via email before September 1st, 2024 to ensure their relevance during the fair - we will ensure to send a reminder shortly beforehand. In either case, please use A4 format, preferably with a single page per open position. </li>
       </ul>
