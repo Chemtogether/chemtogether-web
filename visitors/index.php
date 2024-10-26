@@ -308,13 +308,13 @@ $fb = array(
     </div>  
     
      <!-- This is new -->
-    <!--
+
     <div class="content flex">
     <div class="text l-12 m-12 s-12">
       <div class="subsection">
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br> -->
+      <!-- <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br> -->
       <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
       <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
