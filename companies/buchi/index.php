@@ -54,7 +54,7 @@ $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommission
 
 $template['interview_print_until'] = 1;
 #if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Lothar Opilik',
   'img_url' => $awss3.'/companies/buchi/interviewee_2022_1',
@@ -117,7 +117,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 
 include('../0_template/template.php');
 

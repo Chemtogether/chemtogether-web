@@ -68,7 +68,7 @@ $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommission
 $template['interview_print_until'] = 2; 
 
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Dr. Alice Glättli',
   'img_url' => $awss3.'/companies/basf/interviewee_2022_1',
@@ -202,7 +202,7 @@ $template['interview'][$i++] = array(
     ),
   )
 );
-
+*/
 include('../0_template/template.php');
 
 
