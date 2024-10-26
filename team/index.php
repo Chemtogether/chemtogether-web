@@ -80,13 +80,13 @@ $active_nav = 'team';
       </span>
     </div>
 
-    <!-- <div class="content flex">
+    <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/team/2023/team_full','jpg'); ?>></img>
+          <img <?php set_source($awss3.'/img/team/2024/team_full','jpg'); ?>></img>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="spacer">
     </div>

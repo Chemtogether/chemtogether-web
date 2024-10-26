@@ -35,9 +35,9 @@ $template['company_name'] = 'Lonza';
 $template['company_name_short'] = 'lonza';
 $template['logo_url'] = set_source($awss3.'/companies/lonza/logo','png', FALSE);
 $template['package'] = 'gold';
-$template['day'] = 2;
+$template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2022 - Firmen: '.$template['company_name'], 'Chemtogether 2022 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -47,25 +47,22 @@ $template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Lonza is a preferred global partner to the pharmaceutical, biotech and nutrition markets. We work to enable a
-  healthier world by supporting our customers to deliver new and innovative medicines that help treat a wide range of 
-  diseases. We achieve this by combining technological insight with world-class manufacturing, scientific expertise and 
-  process excellence.
-  ');
+  'text' => 'Lonza ist heute ein weltweit führendes Unternehmen im Bereich Life Sciences, welches auf drei Kontinenten tätig ist.
+Unsere wichtigste wissenschaftliche Lösung sind talentierte Mitarbeitende, die zusammenarbeiten und Ideen entwickeln, die anderen Unternehmen helfen, Menschen zu helfen. Im Gegenzug steuern unsere Mitarbeitenden ihre Karriere selbstständig. Denn ihre Ideen, ob gross und klein, verbessern die Welt.
+');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'At Lonza, we invest in great people. We encourage our employees to challenge themselves, 
-   and we offer an environment that fosters creativity and success, where you can develop your skills and knowledge 
-   by working in teams of highly collaborative experts in a rewarding and dynamic atmosphere. 
-   With headquarters in Basel, Switzerland, we operate production, R&D and business sites around the world.');
+   'text' => 'Zu Lonza kommen Menschen, die Herausforderungen annehmen und mit ihrer Kreativität im Bereich Life Science
+neue Ideen für komplexe Problemstellungen entwickeln. Zusammen leisten wir einen Beitrag, der das Leben vieler Menschen auf der ganzen Welt verbessern kann. Dies bietet ihnen die
+Gewissheit und die Zufriedenheit, mit der eigenen Arbeit wirklich einen Unterschied zu machen.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'For our sites in Visp, Basel, Stein & Monteggio we are looking for 
-  skilled  and ambitious workers from all areas of Life Science. You can expect the best of both worlds: 
-  A high-tech workplace with inspiring colleagues and an incomparable lifestyle in the middle of the Alps.
-  ');
+  'text' => 'Für unsere Standorte in Basel, Stein und Visp suchen wir Fachkräfte aus allen Bereichen der Life Science. Es er-
+wartet Sie das Beste aus zwei Welten: Ein Hightech-Arbeitsplatz mit inspirierenden Kollegen und ein unvergleichlicher Lifestyle.
+');
+
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;

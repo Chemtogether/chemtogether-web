@@ -34,9 +34,9 @@ $active_nav = 'companies';
 $template['company_name'] = 'CARBOGEN AMCIS';
 $template['company_name_short'] = 'carbogenamcis';
 $template['logo_url'] = set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE);
-$template['package'] = 'base';
-$template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$template['package'] = 'silver';
+$template['day'] = 2;
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('http://www.carbogen-amcis.com/home.asp','carbogen-amcis.com');
@@ -47,13 +47,32 @@ $template['archive'] = '/archive/carbogenamcis';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'CARBOGEN AMCIS provides drug development and commercialisation services to the pharmaceutical and biopharmaceutical industries, at all stages of drug development. Our capabilities span from contract chemical process research and development to the supply of Active Pharmaceutical Ingredients (APIs) - as well as drug products for preclinical studies, clinical trials and commercial use. Besides being a leading service provider, we also offer high quality Cholesterol and Vitamin D analog products.');
+  'text' => 'CARBOGEN AMCIS provides drug development and commercialisation services to the pharmaceutical and bio-
+pharmaceutical industries, at all stages
+of drug development. Our capabilities
+span from contract chemical process
+research and development to the supply of Active Pharmaceutical Ingredients (APIs) - as well as drug products
+for preclinical studies, clinical trials and
+commercial use. Besides being a leading service provider, we also offer high
+quality Cholesterol and Vitamin D analog products.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We are committed to provide an inclusive and rewarding work environment that acknowledges the efforts of outstanding and long-term employees. We highly support continuing education and further training of our employees and encourage our staff’s professional career. Our organization also allows across-departmental development within the company.');
+  'text' => 'We are looking for highly motivated
+individuals prepared to expand their
+high-class education & knowledge in
+the Pharma Industry. You should be
+willing to add upon what you have
+already learned helping us and our
+worldwide customers to bring their
+products to the market relating to all
+aspects of modern drug development
+in terms of chemistry, analytics, production, quality and regulatory aspects.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are looking for highly motivated individuals prepared to expand their high-class education & knowledge in the Pharma Industry. You should be willing to add upon what you have already learned helping us and our worldwide customers to bring their products to the market relating to all aspects of modern drug development in terms of chemistry, analytics, production, quality and regulatory aspects.');
+  'text' => 'We are committed to provide an inclusive and rewarding work environment
+that acknowledges the efforts of outstanding and long-term employees.
+We highly support continuing education and further training of our employees and encourage our staff’s professional career. Our organization also
+allows across-departmental development within the company.');
   
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 1;

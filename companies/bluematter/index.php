@@ -31,13 +31,13 @@ $active_nav = 'companies';
   // );
 
 
-$template['company_name'] = 'Blue matter consulting';
+$template['company_name'] = 'Blue Matter Consulting';
 $template['company_name_short'] = 'bluematter';
 $template['logo_url'] = set_source($awss3.'/companies/bluematter/logo','png', FALSE);
-$template['package'] = 'silver';
-$template['day'] = 2;
+$template['package'] = 'base';
+$template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -48,7 +48,7 @@ $template['archive'] = '/archive/bluematter';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Blue Matter is a strategic consulting firm serving the life sciences industry. We work with some of the most innovative companies and therapies in the world. While we’re committed to excellence, we also foster a People First culture that’s collaborative and supportive, focusing on our team’s well-being and personal growth.');
+  'text' => 'Blue Matter is a consulting firm serving the life sciences industry. We strive to bring a new approach to consulting with original ideas that deliver a meaningful impact.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
@@ -56,7 +56,7 @@ $template['we_offer'] = array(
    <table class="fa-table">
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A steep learning curve working on interesting and challenging projects across our clients’ products, portfolios, and organizations.</td>
+  <td>Steep learning curve working on interesting and challenging projects.</td>
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
@@ -64,7 +64,7 @@ $template['we_offer'] = array(
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A Supportive environment to learn and grow, regardless of your skill and knowledge level.</td>
+  <td>Supportive environment to learn and grow.</td>
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
@@ -72,63 +72,16 @@ $template['we_offer'] = array(
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>We support the wellbeing of our employees by reimbursing health-related aspects such as gym membership, sports coaching, or sports equipment.</td>
+  <td>We support the wellbeing of our employees.</td>
   </tr>
   <tr>
   <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Cost-matching education initiatives (even if it is not work-related) for your self-improvement.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Hybrid office and home working model (depending on project schedules), with very limited travel requirement (5-10% on average).</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A structured onboarding program to help you learn basic consulting skills.</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Support for your developmental journey with a Peer-level buddy to help you navigate your way around Blue Matter and share their experiences, as well as a senior-level career coach to support your overall professional development and career progression</td>
+  <td>Structured onboarding program.</td>
   </tr></table>');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'At Blue Matter we look for aspiring / veteran Consultants (AC / C / SC) that are scientifically trained (either by experience or academic accomplishments) and have a solid base across all of the following competencies, which are:
-    <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Critical Thinker</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Collaborative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Communicative</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Proactive</td>
-  </tr></table>
-    We would be extra thrilled if you are:
-  <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to display a mature level of structured thinking</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to integrate business, industry and academic knowledge towards creating creative solutions</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Able to demonstrate direct biopharma industry knowledge and experience</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Experienced in client facing environments</td>
-  </tr></table>');
+  'text' => 'Individuals that are: Critical Thinkers , Collaborative, Communicative and Proactive');
 
 //$template['button_print_until'] = 0; 
 //$template['interview_print_until'] = 2;
