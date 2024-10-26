@@ -35,9 +35,9 @@ $template['company_name'] = 'Sulzer AG';
 $template['company_name_short'] = 'sulzer';
 $template['logo_url'] = set_source($awss3.'/companies/sulzer/logo','png', FALSE);
 $template['package'] = 'base';
-$template['day'] = 1;
+$template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -48,15 +48,29 @@ $template['archive'] = '/archive/sulzer';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Sulzer is a global leader in fluid engineering and chemical processing applications. We specialize in in energy-efficient pumping, agitation, mixing, separation,purification, crystallization, and polymerization technologies for fluids of all types. Our customers benefit from our commitment to innovation, performance, and quality and from our responsive network of 180 world-class production facilities and service centers across the globe. As a pioneer in industry, we have a proud heritage of innovation and continue to evolve for the future.');
+  'text' => 'Sulzer is a global leader in fluid engineering and chemical processing applications. We specialize in in energy-efficient pumping, agitation, mixing, separation, purification, crystallization, and
+polymerization technologies for fluids of all types. Our customers benefit from our commitment
+to innovation, performance, and quality and from our responsive network of 180 world-class
+production facilities and service centers across the globe. As a pioneer in industry, we have a
+proud heritage of innovation and continue to evolve for the future.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We are empowering the next generation of engineers and offer a variety of entry and career opportunities in the area of Polymer, R&D, CCUS, Application Development, and Pilot Plants. As a recognized “Top Employer 2023” we are dedicated to creating a work environment in which our people can thrive and are empowered to make a difference. We are committed to best people practices and employee experience at work and care for the development and well-being of our people. Join our story and create your own impact by developing your expertise. Current vacancies are regularly advertised on our career portal <a href="www.sulzer.com/en/about-us/careers">www.sulzer.com/en/about-us/careers</a>');
+   'text' => 'We are empowering the next generation of engineers and offer a variety of career opportunities
+in the area of Polymer, R&D, CCUS, Application Development, and Pilot Plants. As a recognized
+“Top Employer 2024” we are dedicated to creating a work environment in which our people can
+thrive and are empowered to make a difference. We are committed to best people practices,
+employee experience at work, and care for the development and well-being of our people. Join
+our story and create your own impact by developing your expertise. Current vacancies are regularly advertised on our career portal: <a href="www.sulzer.com/en/about-us/careers">www.sulzer.com/en/about-us/careers</a>');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'Everyone at Sulzer plays a role in building solutions that help make our lives safer, smarter, and more sustainable. We are looking for people that enjoy a vibrant and international environment and consider themselves passionate about developing innovative, efficient, and eco-friendly solutions. If you are a team player, with a curious mindset, motivated to learn, qualified with relevant skills and problem-solving abilities, join our team, and help us take Sulzer Chemtech to the next level.');
+  'text' => 'Everyone at Sulzer plays a role in building solutions that help make our lives safer, smarter, and
+more sustainable. We are looking for people that enjoy a vibrant and international environment
+and consider themselves passionate about developing innovative, efficient, and eco-friendly
+solutions. If you are a team player, with a curious mindset, motivated to learn, qualified with
+relevant skills and problem-solving abilities, join our team, and help us take Sulzer Chemtech to
+the next level.');
 
 
 //$template['button_print_until'] = 0; 

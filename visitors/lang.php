@@ -104,31 +104,31 @@ $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 $lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
 
 $lang['content']['programme_1_preview'] = array(
-  'title' => array('Vortrag: <br> Die ideale Einstimmung auf Dein Chemtogether-Erlebnis','Talk:<br> The Perfect Start for your Chemtogether-Experience'),
-  'main_text' => array('Wie bereits in den Vorjahren führen wir einen Anlass zur Vorbereitung auf die Messe durch. Dieses Jahr wird uns Dr. Oliver Renn aus dem Infozentrum einen Beitrag zum Thema "Pitching" leisten, um einen möglichst guten Auftritt beim Jobinterview oder beim Gespräch mit Firmenvertretern an der Messe zu hinterlassen.',
-  'As in previous years, we are holding an event to prepare for the fair. This year, Dr. Oliver Renn from the Info Center will provide us with a contribution on the topic of "Pitching" in order to leave the best possible impression at the job interview or when talking to company representatives at the fair.'),
+  'title' => array('Podiumsdiskussion: <br> Beyond Bias: A Closer Look at Careers in Industry and Academia','Panel discussion:<br> Beyond Bias: A Closer Look at Careers in Industry and Academia'),
+  'main_text' => array('Unsure of what to think about careers in academia and industry? Then don’t miss out on the opportunity to get some first hand insights from our experienced panelists. Join us for Chemtogether’s Panel Discussion “Beyond Bias: A Closer Look at Careers in Industry and Academia” on 6th of November, 16:30 in HCI J7 with a networking apéro afterwards.',
+  'Unsure of what to think about careers in academia and industry? Then don’t miss out on the opportunity to get some first hand insights from our experienced panelists. Join us for Chemtogether’s Panel Discussion “Beyond Bias: A Closer Look at Careers in Industry and Academia” on 6th of November, 16:30 in HCI J7 with a networking apéro afterwards.'),
   'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Talk: <br> How to pitch at an interview or career fair? ','Talk: <br> How to pitch at an interview or career fair? '),
-  'description' => array('The first impression you make can be decisive, especially in a short contact at a career fair, but also in a job interview. After all, you’re not always stuck in an elevator with your interviewer and have time to deliver your 30-second pitch.
-  How should you present yourself and what should you present? Make sure that your counterpart perceives you positively and remembers you, especially if you provide additional digital information afterwards. 
-  Oliver Renn will share his tips and personal experiences as a researcher, but also as a manager in different industries who has hired many people over three decades. His presentation will be complemented by telling his personal story of failure. You will see that not all resumes that look shiny are shiny. Even if you have dark spots on your resume: They do not have to be a showstopper for a successful career.',
-  'The first impression you make can be decisive, especially in a short contact at a career fair, but also in a job interview. After all, you’re not always stuck in an elevator with your interviewer and have time to deliver your 30-second pitch.
-  How should you present yourself and what should you present? Make sure that your counterpart perceives you positively and remembers you, especially if you provide additional digital information afterwards. 
-  Oliver Renn will share his tips and personal experiences as a researcher, but also as a manager in different industries who has hired many people over three decades. His presentation will be complemented by telling his personal story of failure. You will see that not all resumes that look shiny are shiny. Even if you have dark spots on your resume: They do not have to be a showstopper for a successful career.'),
-  'guest_1' => array('Oliver Renn, PhD, ETH Zürich', 'Oliver Renn, PhD, ETH Zurich'),
-  //'guest_2' => array('Dr. Jovana V. Milic, University of Fribourg','Dr. Jovana V. Milic, University of Fribourg'),
-  //'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
-  //'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
+  'title' => array('Podiumsdiskussion: <br> COMING SOON ','Panel discussion: <br> COMING SOON '),
+  'description' => array('DESCRIPTION COMING SOON',
+  'DESCRIPTION COMING SOON'),
+  'guest_1' => array('<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB', '<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB'),
+  'guest_2' => array('<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL', '<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL'),
+  'guest_3' => array('<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN', '<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN'),
+  'guest_4' => array('<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head', '<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head'),
+  'guest_5' => array('Moderation: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ','Panel Leader: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Donnerstag, 2. November 2023, 16:45-17:45','Thursday, 2nd November 2023, 16:45-17:45'),
+  'time' => array('Mittwoch, 6. November 2023, 16:30-17:30','Wednesday, 6th November 2024, 16:30-17:30'),
   'place' => array('HCI J7','HCI J7'),
-  'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
-  'cv_guest_1' => array('<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich', '<b>Oliver Renn, PhD</b></br>Head Chemistry | Biology | Pharmacy Information Center, Head Science Communication Dept. Chemistry & Applied Biosciences, Head Public Relations Dept. Chemistry & Applied Biosciences, Lecturer at ETH Zurich'),
+  //'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
+  //'cv_guest_1' => array('<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB', '<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB'),
+  //'cv_guest_2' => array('<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL', '<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL'),
+  //'cv_guest_3' => array('<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN', '<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN'),
+  //'cv_guest_4' => array('<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head', '<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head')
 );
 
 $lang['content']['programme_2_preview'] = array(

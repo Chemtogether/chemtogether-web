@@ -16,7 +16,8 @@ $template['company_name_short'] = 'bachem';
 $template['logo_url'] = set_source($awss3.'/companies/bachem/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.bachem.com/','bachem.com');
@@ -25,13 +26,19 @@ $template['linkedin'] = array('https://www.linkedin.com/company/bachem/','Bachem
 $template['archive'] = '/archive/bachem';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Bachem is a leading, innovation-driven company specializing in the development and manufacture of peptides and oligonucleotides. With over 50 years of experience and expertise, Bachem provides products for research, clinical development and commercial application to pharmaceutical and biotechnology companies worldwide and offers a comprehensive range of services.');
+  'text' => 'The Swiss based Bachem Group is specialized in the development and manufacturing of pepTide- and oligonucleoTide-based active pharmaceutical ingredients. With 50 years of experience and a global reach, the group is the partner of choice for the biotech and pharma industry. Bachem attaches the utmost importance to quality, innovation and partnership. Bachem. Leading Partner in Tides.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We recognize that the knowledge and expertise of our employees are key to our success. We help our people succeed and develop, and we empower them to create their own careers at Bachem. The employee benefits and development programs encompass a wide array of offerings, which can be explored on our careers platform.');
+  'text' => 'We offer graduates with a diploma or doctoral degree the possibility to apply their
+knowledge, gain initial experience in a variety of areas and benefit from the know-
+how of our experienced employees within a highly collaborative environment with a
+respectful attitude.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are currently looking for talented people across many of our business functions. Visit our career platform to discover our vacancies and see what we can offer you at this important stage in your career.');
+  'text' => 'We are looking for young, committed and fully qualified graduates, holding a diploma
+or already in possession of a doctoral degree, who would like to join our company
+and establish in a professional environment, to secure our long-term success and
+maintain market leadership.');
 
 
 /*$template['button_print_until'] = 1;

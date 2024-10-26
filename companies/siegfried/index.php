@@ -35,9 +35,9 @@ $template['company_name'] = 'Siegfried Holding AG';
 $template['company_name_short'] = 'siegfried';
 $template['logo_url'] = set_source($awss3.'/companies/siegfried/logo_svg','svg', FALSE);
 $template['package'] = 'gold';
-$template['day'] = 1;
+$template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -49,13 +49,38 @@ $template['archive'] = '/archive/siegfried';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'In the Midst of People’s Lives – Across the Globe. The Siegfried Group is one of the world’s leading Custom Development and Manufacturing Organizations (CDMOs) developing and producing active pharmaceutical ingredients (API), intermediates and finished dosage forms. As our core competence, we successfully integrate chemical and pharmaceutical capabilities into a single business model.');
+  'text' => 'Siegfried is a worldwide leading Contract and Development Manufacturing
+Organization (CDMO). We operate on
+3 continents, 7 countries and 14 locations. We supply for ≈ 200 out of 1500
+Active Pharmaceutical Ingredients
+(APIs) approved by the FDA. We serve
+more than 500 customers globally and
+up to 1b people get in contact with our
+products every year. We offer contract
+developing and manufacturing of APIs,
+intermediates and finished dosage
+forms. Founded in 1873, we celebrated
+our 150 years.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Siegfried’s work environment is dynamic and international. With a highly professional and motivated team, the company operates in a future-oriented business field. Siegfried possesses a unique culture that leverages cultural differences to create a competitive advantage. Siegfried places highest priority on providing a flexible, diverse and discrimination-free working environment.');
+  'text' => 'Join Siegfried for the best of both
+worlds: the stability of a global leader
+with the innovative spirit of a startup.
+Collaborate with talented colleagues,
+gain international experience, and
+grow in a supportive environment.
+Here, your ideas matter, and your career can thrive.');
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'On the entry-level, we predominantly are looking for Masters/PhD in chemistry, pharmaceutical science, life science, food technology or biochemistry. In Chemical Process Development in particular we are focusing on PhD candidates in organic chemistry specializing in synthesis, preferably with several semesters abroad.');
+  'text' => 'We’re seeking Bachelor’s, Master’s
+graduates and EFZ “Lehrabgänger/
+innen” with a passion for continuous
+learning and a drive to innovate. If
+you thrive in dynamic environments,
+embrace challenges, and seek variety
+in your work, Siegfried is the place for
+you. We value curiosity, adaptability,
+and a proactive mindset.');
 
   
 $template['button_print_until'] = 0; 

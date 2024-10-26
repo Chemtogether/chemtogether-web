@@ -13,7 +13,7 @@ $lang['navigation']['topnav_title']= array('Details Gold', 'Details Gold');
 $lang['content']['intro_text'] = array(
   'Vielen Dank für Ihre Anmeldung zur diesjährigen Chemtogether Karrieremesse! Im angehängten Dokument "How to Chemtogether" (auch online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2024.pdf">hier</a></b> verfügbar) finden Sie alle relevanten Details für den Tag der Messe. <br> Mit diesem Formular sammeln wir alle erforderlichen Details, um Ihr Firmenprofil auf unserer Website und in unserem Messeführer zu erstellen, sowie alle erforderlichen Werbematerialien zu veröffentlichen, die Teil unserer Messe sind. Für Beispiele der resultierenden Veröffentlichungen sehen Sie bitte die folgenden Dokumente:
     <ul> 
-    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 Messeführer</a></b> </li>
+    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2024expoguide.pdf">2024 Messeführer</a></b> </li>
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
     </ul>
     <br>
@@ -25,7 +25,7 @@ $lang['content']['intro_text'] = array(
     ',
     'Many thanks for your registration of this year\'s Chemtogether Career Fair! In the attached "How to Chemtogether" document (also available online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2024.pdf">here</a></b>), please find all relevant details for the day of the fair itself. <br> <br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
     <ul> 
-    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2023expoguide.pdf">2023 fair guide</a></b> </li>
+    <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2024expoguide.pdf">2024 fair guide</a></b> </li>
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
     </ul>
     <br>

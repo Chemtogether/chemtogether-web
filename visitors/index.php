@@ -61,12 +61,12 @@ $fb = array(
           <span><?php echo($lang['content']['links_directions'][$eng]); ?></span>
         </a>
       </div>
-      <!--<div class="text l-6 m-12 s-12 fair-introlinks">
-        <a href="<?php echo($awss3."/files/2023expoguide.pdf"); ?>">
+      <div class="text l-6 m-12 s-12 fair-introlinks">
+        <a href="<?php echo($awss3."/files/2024expoguide.pdf"); ?>">
           <i class="far fa-fw fa-file-alt"></i>&nbsp;
           <span><?php echo($lang['content']['links_guide'][$eng]); ?></span>
         </a>
-      </div>-->
+      </div>
     </div>
 
   <div class="spacer">
@@ -179,7 +179,7 @@ $fb = array(
   <div class="spacer">
   </div>
 
-    <!--<div class="section">
+    <div class="section">
         <span class="section-slashes">
           <span>/</span><span>/</span>
         </span>
@@ -266,7 +266,7 @@ $fb = array(
           </div>
         </div>
     </div>
-                
+      
     <div class="spacer">
     </div>
 
@@ -285,9 +285,9 @@ $fb = array(
         <?php echo($lang['content']['programme_subsection'][$eng]); ?>
       </span>
     </div>
-  -->
+
    <!-- This is new -->
-    <!--
+
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
@@ -295,12 +295,12 @@ $fb = array(
       </div>
       <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
       
-      <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?>
+      <!-- <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?> -->
 
       
     </div>
     </div> 
-                  -->
+
     <div class="spacer">
     </div>  
     
@@ -315,15 +315,16 @@ $fb = array(
         <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_1']['description'][$eng]); ?> <br> -->
-      <!-- <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br> -->
-      <!--<?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br> -->
-      <!--<?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br> -->
-      <!-- <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br> -->
+      <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_4'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_5'][$eng]); ?> <br>
       <!-- <div class="programme_button_div">
         <a href="https://www.chemtogether.ethz.ch/dsmlecture/">
           <span><?php echo($lang['content']['programme_1']['button'][$eng]); ?></span>
         </a>
-      </div> 
+      </div>  -->
     
       <br>
       <table class="fa-table">
@@ -338,7 +339,7 @@ $fb = array(
       </table>
     </div>
     </div>
-    
+    <!--
     <div class="spacer">
     </div>
     <div class="content flex">

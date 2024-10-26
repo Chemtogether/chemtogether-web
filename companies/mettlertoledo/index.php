@@ -34,10 +34,10 @@ $active_nav = 'companies';
 $template['company_name'] = 'Mettler Toledo';
 $template['company_name_short'] = 'mettlertoledo';
 $template['logo_url'] = set_source($awss3.'/companies/mettlertoledo/logo','png', FALSE);
-$template['package'] = 'base';
-$template['day'] = 2;
+$template['package'] = 'silver';
+$template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -60,39 +60,25 @@ $template['linkedin'] = array('https://ch.linkedin.com/company/mettlertoledo','M
 $template['we_are'] = array(
    'title' => 'We are',
 
-   'text' => 'METTLER TOLEDO is a leading global manufacturer of precision analytical instruments, measurement technologies and services for laboratory, industrial and commercial applications. We are proud of our unique corporate culture. All 18’000 employees contribute to making METTLER TOLEDO a great employer and a strong competitor in the global market. It is built on personal commitment and offers our employees the freedom to develop their own ideas, to evolve within the company and to realize their potential. With a worldwide presence in over 40 countries, METTLER TOLEDO is globally diversified and accessible all over the world. <br>
-   Our innovation, quality, as well as our ability to keep up with the accelerating pace of change, underlines our long-standing leadership in the industry. We hold over 5,000 patents and trademarks in various technically innovative application areas. Our solutions are used in many laboratory and industrial applications worldwide in research and development, quality control, process analytics, product inspection and retail. We remain the market leader in innovative technologies that give our customers a competitive edge.In order to further strengthen and expand our global market position, we are permanently looking for creative and dynamic employees.');
+   'text' => '…a global leader in precision instruments and services. We are renowned for innovation and quality across laboratory, process analytics, industrial, product inspection,
+and food retailing solutions. As the world’s premier provider of precision instruments
+and software, our products are pivotal in research, quality control, and manufacturing
+processes in life sciences, food, chemical, and many other industries.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'Flexible working hours (depending on the role), a
-   hybrid work model, and a wide portfolio of training
-   opportunities:
-   <table class="fa-table">
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A 40-hour work week with at least 25 vacation days per year, plus 4 to 7 additional days off between bank holidays</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Free parking and direct access to public transport</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>Healthy lunches cooked onsite at our own METTLER TOLEDO restaurant, with special prices for employees</td>
-  </tr>
-  <tr>
-  <td><i class="fas fa-fw fa-chevron-right"></td>
-  <td>A range of additional attractive benefits, including employee discounts at select area businesses</td>
-  </tr></table>
-   You can expect challenging, interesting, and varied
-   tasks in an innovative and international environ-
-   ment, with the opportunity to network globally and
-   achieve your career goals.');
+   'text' => '… challenging positions, attractive working conditions and good training opportunities in an innovative and world-leading high-tech company. Our diverse portfolio
+extends across a wide range of laboratory and analytical instruments, sensors and
+automated chemistry systems critical in drug discovery and chemical development. In
+production and packaging, our advanced check-weighing, metal detection, and X-ray
+systems set industry standards. A leader in weighing and dimensioning solutions, we
+provide comprehensive automation capabilities for industrial applications globally.');
 
 $template['we_look'] = array(
    'title' => 'We are looking for', 
-   'text' => 'We are looking for motivated personalities who are always ready to develop further, who are open to new ideas and who enjoy working in a dynamic environment and realising their potential.');
+   'text' => '… motivated personalities who are always ready to develop further, who are open
+to new ideas and who enjoy working in a dynamic environment and realising their
+potential.');
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
