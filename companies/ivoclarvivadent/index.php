@@ -46,7 +46,7 @@ $template['we_look'] = array(
 $template['interview_print_until'] = 1;
 
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Dr. Michael Westphal',
   'img_url' => $awss3.'/companies/ivoclarvivadent/interviewee_2019_1',
@@ -113,7 +113,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 include('../0_template/template.php');
 
 ?>

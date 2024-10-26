@@ -68,7 +68,7 @@ $template['interview_print_until'] = 2;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
     'name' => 'Ala\'a ',
     'img_url' => $awss3.'/companies/lonza/interviewee_2022_1',
@@ -189,6 +189,7 @@ $template['interview'][$i++] = array(
 
   ),
 );
+*/
 include('../0_template/template.php');
 
 ?>

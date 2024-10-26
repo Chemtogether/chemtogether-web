@@ -79,14 +79,14 @@ allows across-departmental development within the company.');
   //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
   $template['button_print_until'] = 0; 
 
-  $template['interview_print_until'] = 0;
+  $template['interview_print_until'] = 1;
   if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-/*
+
   $i=0;
   $template['interview'][$i++] = array(
-    'name' => 'Luca Mannocci',
-    'img_url' => $awss3.'/companies/carbogenamcis/interviewee_2022_1',
-    'position' => 'Manager ADC',
+    'name' => 'Emad El Sayed',
+    'img_url' => $awss3.'/companies/carbogenamcis/interviewee_2024_1',
+    'position' => 'Senior Manager PR&D',
   
     'education' => array(
       0 => array(
@@ -104,77 +104,83 @@ allows across-departmental development within the company.');
   
     'interview' => array(
       0 => array(
-        'question' => 'What does your current role as Manager ADC at CARBOGEN AMCIS entail?',
-        'answer' => 'As Manager Antibody Drug Conjugates (ADC), I am primarily responsible for the planning
-        and coor-dination of the required tech-transfer, development (process or analytical) and
-        manufacture (non-GMP/GMP) activities within a matrix organization comprising our core
-        bioconjugation team, other internal departments as well as external key suppliers or service
-        providers.
-        I am also responsible for the management of the bioconjugation (ADC) team and
-        bioconjugation laboratories. I am Subject Matter Expert (SME) during authorities or client
-        audit and inspections.
-        Lastly, I provide support in proposal writing and project evaluation, as well as to Business
-        Develop-ment/Marketing team initiatives.
-        Previously, as ADC Senior Chemist I was leading the development and (non-GMP/GMP)
-        manufacturing operations for the production of Pre-clinical and clinical bioconjugate drug
-        substances like ADC, synthetic vaccines or anticoagulants.
-        I was also responsible for the compliance of the cleanroom laboratories, equipment as well
-        as personnel with the current GMP regulations and internal SOPs.',
+        'question' => 'What does your current role as Senior Manager PR&D at CARBOGEN AMCIS entail?',
+        'answer' => 'As Senior Manager PR&D I am primarily responsible of my group. I support my group of Chemists
+technically and organizationally. I am involved in the team formation around a project. I participate
+intensively in the pipelining process and the management of resources.
+In addition, I am involved in the path forward finding in case of trouble shooting with respect to
+resources and coordination between departments. I am also involved in the detection of new
+procedures for the evolution of processes within the enterprise.
+Through my long experience with CARBOGEN AMCIS I am strongly involved in a number of
+representations both at the level of academia as well as on an industry level.',
       ),
       1 => array(
         'question' => 'How does a typical day at CARBOGEN AMCIS look like?',
-        'answer' => 'A typical day starts with a quick check of the meeting agenda or the production schedule.
-        Those are the two main constants of the day. Between the agenda appointments, I often
-        have to deal with CMC activity planning/revision, resource coordination, process problem
-        solving and other various administrative tasks, including SOPs writing, internal document
-        revision or invoices to approve.',
+        'answer' => 'he day starts with science (new ideas, challenges, expectations, conclusions and discoveries), goes
+further to organizational work (co-ordination and communication within and between the different
+departments), customer contact (reports, e-mails and teleconferences or even visits), financial
+analysis (budgetary situation of projects, cost of materials, concordance of the services provided
+relative to contracts and defending the customer’s as well as the enterprise’s interests). Finally, the
+day will come to an end with planning for the coming days or weeks.',
       ),
       2 => array(
         'question' => 'What makes working at CARBOGEN AMCIS so unique?',
-        'answer' => 'As member of the CARBOGEN AMCIS Bioconjugation department I have the opportunity of
-        interacting closely with other various multidisciplinary team and the possibility of “hands-on
-        working” on very different edge-of-technology biotechnological projects.',
+        'answer' => 'Diversity is what I mostly love in my job. The magic impact of this word penetrating in all aspects of
+faced types of chemistry, personal interactions, faced challenges, performed roles and applications.',
       ),
       3 => array(
         'question' => 'What are the main challenges one encounters on a regular basis?',
-        'answer' => 'Communication with the various project stakeholders or with the other responsible
-        department is the main challenge of my role, as their background may be profoundly
-        different although we sit in the same rooms and often collaborate on the very same tasks.',
+        'answer' => 'Communication internally and externally remains a common challenge not only at CARBOGEN AMCIS
+but at different institutions and communities. Language, culture and scientific background can
+profoundly influence the quality of communication. For this reason, it is very important to relay on
+active listening coupled with back questions to make sure that the statements are well understood.',
       ),
       4 => array(
-        'question' => 'In which manner does the work of your PhD differ from your current tasks? Which skills did
-        you learn outside of academia?',
-        'answer' => 'During the Academy and in particular the PhD you are, to certain extent, the main author of
-        your own project. You are in charge for both the planning and (timely) execution of almost allactivities. In industry, you have to learn how to collaborate in a matrix environment with
-        people with different background and culture. You have to understand the role of the
-        collaborators (not only the names!), how they can efficiently contribute to the project and
-        keep them constantly engaged with the final scope.
-        Eventually, good planning as well as communication and coordination skills are far more
-        critical in industry than in Academia. Nonetheless, the academic knowledge you acquired
-        during the University years are in my view indispensable to sustain the project (and
-        business) discussions, persuade the stakeholders, give confidence and trust to the client or
-        to your own team and eventually successfully complete the assigned project with great
-        satisfaction.'
+        'question' => 'In which manner does the work of your PhD differ from your current tasks? Which skills did you
+learn outside of academia?',
+        'answer' => 'The technical know-how acquired during the PhD is fundamental to the scientific existence in the
+industrial field. This aspect regarded as the most important in academia is only one detail among
+other facets of what is needed in industry. I will go through a list of points that seem to be important
+in industry as follows:<br>
+<b>1. Budget and Time: </b>
+These two words are the two sides of the same and single coin. The resulting scrambling of
+both would result to a new word, called “efficiency”. This is a term that you never learn in
+academia. Usually, you have, relatively speaking to industry, more time and more budget in
+academia. In industry things are done in the shortest time and with as less but also as much
+as enough budget needed. <br>
+<b>2. Teamwork: </b>
+To be more efficient (to fulfil point 1 above) you need to work as a team of specialists. Each
+member of the team is somehow specialized in a certain topic around the mutual goal of the
+project. By doing so, (i) errors are reduced, since everybody is a specialist in one domain and
+(ii) time will be reduced, since if correctly planed certain activities can be run parallel to
+others with a different set of operators. <br>
+<b>3. Communication: </b>
+Having a team with different goals and different backgrounds requires a very good
+communication. It starts with the writing of experiments that need to be accessible and
+understood by another person. It requires communication platforms, where the team
+members can exchange. Documentation of the discussions (problems, solutions, conclusions
+and decisions) are primordia to a good communication. Added to this are also other aspects
+of active listening, transparent planning and tracking (with respect to budget and time) of the
+common project.
+Customer interaction is a very important part of the communication. <br>
+<b>4. Regulation Requirements: </b>
+In the pharma industry (GMP guidelines) and in the Chemistry industry (ISO classifications)
+are very important for the use and cleaning of equipment, manufacturing of materials /
+compounds as well as their release and shipment. This point is more of a technical part that
+is not really taught in academia. <br>'
       ),
       5 => array(
-        'question' => 'Which advice would you give to ETH students who are in particular interested in the area of
-        DNA-encoded chemical libraries?',
-        'answer' => 'DECL technology is certainly a fascinating and fertile turf of the broader
-        “Needle-in-the-Haystack” drug discovery field. Soon, DECL-innovators will have to compete
-        (or make a better use) with AI and machine learning to beat the current fierce competition.
-        Today, tools like oligo-compatible reactions, enzymatic encoding and next generation
-        sequencing for building and decoding any DNA encoded chemical libraries are readily
-        available in the public domains and are steadily increasing. Today, the main challenge
-        seems to be the same as in the LEGO game: you can get all sophisticated bricks that you
-        like but without a good idea and a good plan, you cannot build up anything. So be creative,
-        think big - out of the box- do not be your own bottleneck. Then, build your library, and do not
-        get out of the lab (or despair) until it has been properly tested against the protein target of
-        your choice. Innovative ideas rarely comes while you are sitting alone in the office. Better to
-        try going out, perhaps strolling in a park or to sit in a bar with friend in front of a good drink.',
+        'question' => 'Which advice would you give to ETH students?',
+        'answer' => 'Be open for new horizons and be conscious that there is no absolute truth. There is only a relative
+view. Try to place yourself in the other’s position to see more facets. Consequently, the view will be
+wider. Be aware that those who criticize you are bringing you out of your comfort zone and thus
+stimulating your personal and professional evolution. Keep in mind that life itself is a huge University.
+The more we learn, the more we realize that we still didn’t perceive the whole picture. Failure is the
+first step to success. Never regret, rather learn.
+Good luck!',
       ),
     ),
   );
-*/
 
 include('../0_template/template.php');
 

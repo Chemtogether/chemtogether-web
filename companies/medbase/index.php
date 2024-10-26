@@ -43,7 +43,8 @@ $template['we_look'] = array(
 
 $template['button_print_until'] = 0;
 
-$template['interview_print_until'] = 1;
+$template['interview_print_until'] = 0;
+/*
 $template['interview'][$i++] = array(
   'name' => 'Julia Gerber',
   'img_url' => $awss3.'/companies/medbase/interviewee_2022_1',
@@ -104,7 +105,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 include('../0_template/template.php');
 
 ?>

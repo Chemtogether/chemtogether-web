@@ -57,7 +57,7 @@ $template['interview_print_until'] = 0;
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 
 $i=0;
-
+/*
 $template['interview'][$i++] = array(
   'name' => 'Dr. Stephanie Moessner',
   'img_url' => $awss3.'/companies/msd/interviewee_2019_1',
@@ -128,7 +128,7 @@ $template['interview'][$i++] = array(
     ),
   ),
 );
-
+*/
 include('../0_template/template.php');
 
 ?>
