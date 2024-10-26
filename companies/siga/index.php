@@ -33,7 +33,7 @@ $active_nav = 'companies';
 
 $template['company_name'] = 'SIGA';
 $template['company_name_short'] = 'siga';
-$template['logo_url'] = set_source($awss3.'/companies/siga/logo','png', FALSE);
+$template['logo_url'] = set_source($awss3.'/companies/siga/logo','jpeg', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 2;
 
