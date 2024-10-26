@@ -95,16 +95,16 @@ $data['day2'][$i++] = array(
 );
 
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/carbogenamics/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/carbogenamics/logo','png', FALSE),
-    "name" => "<br> Carbogen amics  <br> <br> ",
-    "name_short" => "carbogenamics",
+    "link_url" => '/companies/carbogenamcis/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
+    "name" => "<br> Carbogen amcis  <br> <br> ",
+    "name_short" => "carbogenamcis",
     "package" => 'silver',
 );
 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/siga/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/siga/logo','png', FALSE),
+    "logo_url" => set_source($awss3.'/companies/siga/logo','jpeg', FALSE),
     "name" => "<br> SIGA  <br> <br> ",
     "name_short" => "siga",
     "package" => 'silver',
