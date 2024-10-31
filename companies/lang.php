@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen', 'Chemtogether 2023 - Companies');
+$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen', 'Chemtogether 2024 - Companies');
 $lang['navigation']['title'] = array('Die Firmen', 'The Companies');
 $lang['navigation']['topnav_title']= array('Die Firmen', 'The Companies');
 
