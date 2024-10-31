@@ -59,8 +59,8 @@ $lang['content'] = array(
     'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2023.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
-    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2023.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2024.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2024.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
     'Rückblick auf vergangene ChemTogether',

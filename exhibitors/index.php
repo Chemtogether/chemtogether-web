@@ -93,7 +93,7 @@ $active_nav = 'exhibitors';
     <br>
       <br>
       <!-- <div class="programme_button_div">
-        <a href="<?php echo($awss3); ?>/files/brochure_2023.pdf">
+        <a href="<?php echo($awss3); ?>/files/brochure_2024.pdf">
           <span><i class="fas fa-file-signature"></i>&nbsp;<?php echo($lang['content']['button_registration'][$eng]); ?></span>
         </a>
       </div> -->
@@ -122,7 +122,7 @@ $active_nav = 'exhibitors';
         <table class="fa-table">
           <!-- <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/brochure_2023.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/brochure_2024.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
           </tr> -->
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
