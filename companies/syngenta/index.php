@@ -87,12 +87,11 @@ $template['button_print_until'] = 0;
 
 $template['interview_print_until'] = 0;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-/*
+
   $template['interview'][$i++] = array(
-    'name' => 'Amandine Kolleth',
-    'img_url' => $awss3.'/companies/syngenta/interviewee_2022_1',
-    'position' => 'Crop Protect
-    Research Chemist (Principal Scientist)',
+    'name' => 'Simone Berardozzi',
+    'img_url' => $awss3.'/companies/syngenta/interviewee_2024_1',
+    'position' => 'Global leader in agricultural science and innovation',
   
     'education' => array(
       0 => array(
@@ -109,67 +108,42 @@ if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
     'interview' => array(
       0 => array(
-        'question' => 'What does your current role as a Crop Protect
-        Research Chemist (Principal Scientist) at Syngenta entail?',
-        'answer' => 'In Stein we cover 3 indications for crop protect research: Disease control, Insect control and
-        Plant health-Soil health (Weed control is based at Jealott\'s-Hill, our site in UK). I am currently
-        working in Insect control in lead exploration projects, these are early stage projects that have
-        just left the discovery phase. In this role, I am responsible of the chemistry of one project,
-        which starts with the design of the molecules we want to make, then elaboration of the
-        synthetic routes, bring support to the synthesis chemists in their daily work by
-        troubleshooting, advices etc, and finally, analyse the data once the molecule are tested to
-        restart a new wave of design and synthesis. In addition to this role, I am also project leader
-        which consists in having a cross functional understanding of the priorities of the project
-        (Biology, Toxicology, Bioscience etc…) to build a science plan and coordinate the activities to
-        ensure a good delivery of the project.',
+        'question' => 'Please introduce yourself and the company: Which focus and goals do you pursue?',
+        'answer' => 'My name is Simone Berardozzi, and I have a background in chemistry and medicinal chemistry. I completed my PhD at Sapienza University of Rome in December 2017 under the supervision of Prof. Bruno Botta. Following this, I conducted post-doctoral research in Prof. Karl-Heinz Altmann’s lab at ETH Zürich from 2018 to 2021. <br>
+        In March 2021, I joined Syngenta, a global leader in agricultural science and innovation. My passion for scientific innovation at the intersection of various disciplines led me to become part of the insect control lead generation team in September 2021. In this role, I coordinate chemistry, design, and project management activities for target-based projects. 
+        At Syngenta, our focus in lead generation is to be at the forefront of innovation in crop protection. We strive to: 
+        <ol> 
+        <li>Develop novel and sustainable solutions</li>
+        <li>Push the boundaries of scientific discovery in agricultural chemistry integrating cutting-edge technologies and interdisciplinary approaches in our research </li>
+        <li>Enhance crop yields and food security globally</li>
+        </ol>
+        Through our work, we aim to contribute to Syngenta’s mission of helping farmers grow safe, nutritious food in a sustainable way while striving for sustainability.',
       ),
       1 => array(
-        'question' => 'What made you want to do your postdoc at Syngenta? Was is related to your PhD
-        topic?',
-        'answer' => 'Since the beginning of my PhD I always knew I wanted to work in industry. I wanted to see
-        the direct applicability of my work and be part of a team where everybody contributes to the
-        same goal. To be completely honest I didn\'t know if I wanted to make my postdoc inacademia or in industry, the most important thing for me at that time was to keep growing my
-        knowledge in chemistry, learn new things and enrich my CV with publications as we know
-        that Organic chemistry in a highly competitive field. During the last year of my PhD, I have
-        been selected to join the Syngenta PhD workshop in Stein (organized every second year)
-        and I really enjoyed working on real case exercises and seeing the challenges that Syngenta
-        tackles. I have been lucky that, in the end of these 2 days, my future boss Dr Alain De
-        Mesmaeker proposed me a postdoc fellowship, of course I accepted and never left the
-        company since then. Obviously my role evolved a lot but this is also what I like at Syngenta,
-        the perspective of evolution are infinite. My postdoc was not related to my PhD topic, I
-        worked (2.5 years) on the synthesis of 4 membered rings in using keteniminium
-        intermediates while a spent most of my PhD on the total synthesis of a natural product.',
+        'question' => 'Why did you decide for this company?',
+        'answer' => 'My main motivation to join Syngenta stemmed from the genuine interest I felt during the interview process. The interviewers showed a sincere curiosity about my ideas and potential contributions, engaging in meaningful dialogue about scientific concepts and innovative approaches. This wasn’t just a superficial interaction; it felt like the beginning of a collaborative journey. <br>
+        What truly stood out was Syngenta’s commitment to fostering innovation in a safe and supportive environment. I sensed an openness to new and potentially unconventional ideas, coupled with a culture that values and nurtures creative thinking. <br>
+        All these impressions turned out to be true, and moreover, Syngenta demonstrated a clear willingness to transform those ideas into concrete projects. Since joining, this environment has significantly impacted my work, allowing me to grow professionally. The opportunity to see my ideas evolve from concepts to real-world applications has been incredibly fulfilling and has reaffirmed my decision to join Syngenta.',
       ),
       2 => array(
-        'question' => 'How does a typical day at the company look like? What excites you the most in your
-        job?',
-        'answer' => 'This is what I like in my job, there is not a typical day, it’s always different. Of course the
-        design of new molecules is a big part of my time, it is not only about finding the most
-        biologically active molecule but really optimize on the full spectrum even for an early phase
-        project (physchem, biology, species selectivity, toxicology, soil endpoints, …). Data analysis
-        becomes also more and more important as we generate more data than in the past since
-        biological activity was almost the only driver in the beginning of a project. I like being part of
-        a team and see everybody dedicated to the same goal.',
+        'question' => 'Of which study programme do you preferably employ students/graduates? Are there specific entry programs or internships you offer?',
+        'answer' => 'At our company both students and graduates can apply their knowledge, gain initial experience, learn and grow in a variety of areas and benefit from the know-how and experience of our employees. We offer internships at all levels during your academic education (undergraduate, graduate, postgraduate and postdoctoral level) lasting from 3 to 12 months.',
       ),
       3 => array(
-        'question' => 'How would you describe the working atmosphere at Syngenta?',
-        'answer' => 'It is highly collaborative. We are always part of a team, we can challenge our ideas,
-        reformulate our hypotheses and mix our creativity for the best of the project. We have all
-        different background, experience, expertise and this is what makes our strength.',
+        'question' => 'Requirements and qualifications: Which qualifications and abilities are you looking for in applicants for scientific research jobs in your company?',
+        'answer' => 'We are looking for enthusiastic students with a strong academic record and good communication skills (fluency in English, written and spoken). Previous experience in working in a chemistry laboratory or research setting is greatly valued. The experience gained will help you broaden the scope of your personal and professional skills. If you are a proactive team player who likes to work in diverse teams and who is goal oriented and eager to learn, we offer an inspiring global environment where you can enrich your knowledge through first hand practical experience.',
       ),
       4 => array(
-        'question' => 'Which advice would you give to ETH graduates who are looking for a job outside
-        academia?',
-        'answer' => 'I would of course advice to have a strong scientific background but beside that develop as
-        early as possible additional skills. Soft skill for instance (leadership skills, argumentation
-        skills, good oral communication) are extremely important as I said before, we never work
-        alone, and build and favor a team cohesion is essential. On top of everything, be curious:
-        research in general can only progress if we ask questions and be open to not find an
-        obvious and quick answer.',
+        'question' => 'Are there specific academic backgrounds or experiences you prefer? Concerning elective subjects? Semester projects in research? Teamwork? Case Studies?',
+        'answer' => 'We are looking for students who are currently enrolled in a Bachelor’s, Master’s or Ph. D. program in chemistry. Focus on organic synthesis, enabling technologies or modern computational approaches are a plus.',
       ),
+      5 => array(
+        'question' => 'Application process and tips: Can you explain the typical application process in your company? Do you have tips for successful applications?',
+        'answer' => 'All open positions are published throughout the year on our website at <a href="https://jobs.syngenta.com/jobs">https://jobs.syngenta.com/jobs</a>, Location Switzerland. If you are interested, please submit an online application in English via the link, with your CV and motivation letter, as well as your university diplomas and transcripts.',
+      )
     ),
   );
-*/
+
 
 
 
