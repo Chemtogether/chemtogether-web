@@ -110,11 +110,20 @@ dynamic and demanding market environment.');
         'answer' => 'My name is Simone Berardozzi, and I have a background in chemistry and medicinal chemistry. I completed my PhD at Sapienza University of Rome in December 2017 under the supervision of Prof. Bruno Botta. Following this, I conducted post-doctoral research in Prof. Karl-Heinz Altmann’s lab at ETH Zürich from 2018 to 2021. <br>
         In March 2021, I joined Syngenta, a global leader in agricultural science and innovation. My passion for scientific innovation at the intersection of various disciplines led me to become part of the insect control lead generation team in September 2021. In this role, I coordinate chemistry, design, and project management activities for target-based projects. 
         At Syngenta, our focus in lead generation is to be at the forefront of innovation in crop protection. We strive to: 
-        <ol> 
-        <li>Develop novel and sustainable solutions</li>
-        <li>Push the boundaries of scientific discovery in agricultural chemistry integrating cutting-edge technologies and interdisciplinary approaches in our research </li>
-        <li>Enhance crop yields and food security globally</li>
-        </ol>
+        <table class="fa-table">
+        <tr>
+        <td><i class="fas fa-fw fa-chevron-right"></td>
+        <td>Develop novel and sustainable solutions.</td>
+        </tr>
+        <tr>
+        <td><i class="fas fa-fw fa-chevron-right"></td>
+        <td>Push the boundaries of scientific discovery in agricultural chemistry integrating cutting-edge technologies and interdisciplinary approaches in our research.</td>
+        </tr>
+        <tr>
+        <td><i class="fas fa-fw fa-chevron-right"></td>
+        <td>Enhance crop yields and food security globally.</td>
+        </tr>
+        </table>
         Through our work, we aim to contribute to Syngenta’s mission of helping farmers grow safe, nutritious food in a sustainable way while striving for sustainability.',
       ),
       1 => array(
