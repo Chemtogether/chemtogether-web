@@ -51,86 +51,94 @@ $template['we_look'] = array(
 ability to work independently and accurately is just as important as your motivation
 to deliver outstanding results.');
 
-/*  $template['button_print_until'] = 0;
-  $template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-dottikon">Watch our Flash presentation');
-  
-
-
-$template['interview_print_until'] = 1;*/
-
 $template['button_print_until'] = 0; 
 
-$template['interview_print_until'] = 0;
-if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-//if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-/*
-$i = 0;
+  $template['interview_print_until'] = 1;
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
-$template['interview'][$i++] = array(
-  'name' => 'Matthias Frei',
-  'img_url' => $awss3.'/companies/dottikon/interviewee_2022_1',
-  'position' => '',
-
-  'education' => array(
-    0 => array(
-      'date' => '',
-      'desc' => '',
+  $i=0;
+  $template['interview'][$i++] = array(
+    'name' => 'Patrick Gäumann',
+    'img_url' => $awss3.'/companies/dottikon/interviewee_2024_1',
+    'position' => 'Junior Projektleiter Process QA',
+  
+    'education' => array(
+      0 => array(
+        'date' => '',
+        'desc' => '',
+      ),
     ),
-  ),
-
-  'career' => array(
-    0 => array(
-      'date' => '',
-      'desc' => '',
+  
+    'career' => array(
+      0 => array(
+        'date' => '',
+        'desc' => '',
+      ),
     ),
-  ),
-
-  'interview' => array(
-    0 => array(
-      'question' => 'What is your current task at DOTTIKON EXCLUSIVE SYNTHESIS AG?',
-      'answer' => 'Broadly speaking, I am responsible for the development, and scale-up of flow-chemistry
-      processes. This encompasses design of instrumentation, collecting and evaluatingexperimental data as well as developing and tuning models which are ultimately applied to
-      design production-scale processes.',
+  
+    'interview' => array(
+      0 => array(
+        'question' => 'Bitte stellen Sie sich und Ihr Unternehmen kurz vor. Welche Schwerpunkte und Ziele verfolgen Sie? ',
+        'answer' => 'Mein Name ist Patrick Gäumann und ich arbeite als Junior Projektleiter Process QA bei DOTTIKON ES. Wir stellen primär Wirkstoffe und Zwischenstufen für die Pharmaindustrie her. Veredelungschemikalien für industrielle und landwirtschaftliche Anwendungen werden auch von uns produziert, machen aber einen deutlich kleineren Teil des Nettoumsatzes aus. In meiner Funktion bin ich vor allem dafür zuständig, den Einfluss von Abweichungen im Herstellungsprozess auf die Produktqualität zu beurteilen.',
+      ),
+      1 => array(
+        'question' => 'Warum haben Sie sich für dieses Unternehmen entschieden?',
+        'answer' => 'DOTTIKON ES bietet Universitätsabgängern und -abgängerinnen die Möglichkeit Erfahrungen im GMP-Umfeld zu sammeln. Es ist ein stark wachsendes Unternehmen, bei dem ich die Chance gesehen habe, mich zusammen mit der Firma zu entwickeln und schon früh Verantwortung zu übernehmen. Ausserdem hatte ich während des Bewerbungsprozesses das Gefühl, dass innerhalb des Unternehmens ein familiärer Umgang und eine angenehme Arbeitsatmosphäre herrschen.',
+      ),
+      2 => array(
+        'question' => 'Welche Karrieremöglichkeiten bietet Ihr Unternehmen für Studierende und Absolventen im Bereich der Chemie, Biochemie, Chemieingenieurswesen, Pharmazie und Pharmazeutische Wissenschaften? ',
+        'answer' => 'DOTTIKON ES wächst momentan sehr stark, deshalb gibt es viele Jobs für Chemiker und Chemieingenieure mit unterschiedlichsten Interessen. Die ausgeschriebenen Stellen sind auf der Homepage www.dottikon.com einsehbar.',
+      ),
+      3 => array(
+        'question' => 'Welche Studiengänge stellen Sie bevorzugt ein? Gibt es spezielle Einstiegsprogramme oder Praktika, die Sie anbieten? ',
+        'answer' => 'DOTTIKON ES bietet Arbeitsstellen für eine Vielzahl von Studiengängen. Neben Chemikerinnen und Chemieingenieuren auch für Maschinenbauer und Studierende chemieverwandter Fächer (z.B. Pharmatechnik, Biochemie, Wirtschaftschemie, Pharmazie usw.). Des Weiteren bietet die Dottikon ES Praktika ab sechs Monaten Laufzeit in diversen Bereichen der Unternehmung an. Um mehr Informationen über ein Praktikum bei der DOTTIKON ES zu erhalten, können Sie sich bei der Personalabteilung melden.',
+      ),
+      4 => array(
+        'question' => 'Welche Qualifikationen und Fähigkeiten suchen Sie bei Bewerbern für wissenschaftliche Positionen in Ihrem Unternehmen?',
+        'answer' => 'Das ist abhängig von der ausgeschriebenen Stelle. Generell werden Menschen gesucht, die analytisch denken, zuverlässig und genau arbeiten, teamfähig sind und sich in Deutsch und Englisch verhandlungssicher (C1) ausdrücken können.',
+      ),
+      5 => array(
+        'question' => 'Gibt es spezifische akademische Hintergründe oder Erfahrungen, die bevorzugt werden? Im Hinblick auf Wahlfächer? Semesterarbeiten in Forschungen? Teamarbeit? Case Studies?',
+        'answer' => 'Es werden keine spezifischen Kenntnisse bevorzugt, aber ein gutes Basiswissen in organischer Chemie ist immer hilfreich in unserem Unternehmen. Generell ist uns wichtig, dass die Passion für die bisherige, eigene Arbeit spürbar ist.',
+      ),
+      6 => array(
+         'question' => 'Mit welchen Problemen/Fragestellungen befassen Sie sich aktuell in Ihrem Unternehmen? ',
+         'answer' => 'Als Custom Development and Manufacturing Organization (CDMO) und Spezialist für sicherheitskritische Reaktionen erarbeiten wir in der Prozessentwicklung die bestmöglichen Syntheserouten zur Herstellung von pharmazeutischen Wirkstoffen und entwickeln diese zu sicher skalierbaren, robusten, wirtschaftlichen und nachhaltigen Herstellprozessen für unsere Pilot- und Produktionsanlagen. Parallel dazu entwickeln wir die notwendigen analytischen Methoden, um die Herstellprozesse zu überwachen und um die Qualität der Zwischen- und Endprodukte kontrollieren zu können. Darüber hinaus unterstützen wir die Produktion bei eingeführten Produkten bis zum Ende deren Lebenszyklus.',
+      ),
+      7 => array(
+         'question' => 'Können Sie Einblicke in aktuelle Forschungs- und Entwicklungsprojekte Ihres Unternehmens geben? Eventuell auch Kooperationen in der Forschung mit der ETH?',
+         'answer' => 'Als CDMO arbeiten wir zusammen mit unseren Kunden weltweit an der Entwicklung und Optimierung der Herstellprozesse für deren Produkte. Dies sind normalerweise neue pharmazeutische Wirkstoffe oder deren Intermediate, welche sich zu Beginn meist noch in der klinischen Erprobung befinden. Wir können in unseren Prozessentwicklungs- und analytischen Laboren ungefähr 30 Entwicklungsprojekte gleichzeitig bearbeiten. Mit der ETH sind wir durch Workshops und gegenseitige Vorträge im Austausch.',
+      ),
+      8 => array(
+         'question' => 'Wie engagiert sich Ihr Unternehmen in Bezug auf Nachhaltigkeit und Umweltschutz?',
+         'answer' => 'Eine ausführliche Beschreibung des Engagements von DOTTIKON ES in Bezug auf Nachhaltigkeit und Umweltschutz ist im Sustainablility Report aufgeführt. Dieser kann auf der Homepage eingesehen werden. Grundsätzlich wird versucht, Prozesse so effizient wie möglich zu entwickeln, um Ressourcen zu sparen und die CO2-Emissionen möglichst gering zu halten.',
+      ),
+      9 => array(
+         'question' => 'In welchen Regionen oder Ländern ist Ihr Unternehmen tätig? Gibt es internationale Karrieremöglichkeiten?',
+         'answer' => 'DOTTIKON ES verfolgt eine Einstandortstrategie. Mit Ausnahme von einigen Sales Managern in den USA befinden sich alle Arbeitsplätze in Dottikon im Aargau.',
+      ),
+      10 => array(
+         'question' => 'Welche Möglichkeiten bieten Sie für die berufliche Weiterentwicklung und Fortbildung Ihrer Mitarbeitenden?',
+         'answer' => 'Die persönlichen Entwicklungsmöglichkeiten werden jährlich während der Standortbestimmung besprochen. DOTTIKON ES unterstützt die berufliche Entwicklung seiner Mitarbeitenden durch interne und externe Schulungen. Ausserdem fördert das Unternehmen den internen Stellenwechsel, wenn sich Mitarbeitende beruflich neu orientieren möchten.',
+      ),
+      11 => array(
+         'question' => 'Wie würden Sie die Unternehmenskultur in Ihrem Unternehmen beschreiben, insbesondere im Hinblick auf Teamarbeit und Zusammenarbeit?',
+         'answer' => 'Die Unternehmenskultur ist darauf ausgelegt, das Wissen der einzelnen Mitarbeitenden bestmöglich zu nutzen. In Meetings kommen alle zu Wort, unabhängig von ihrer Position innerhalb der Hierarchie. Das Ziel ist gemeinsam die ideale Lösung zu Problemen zu finden und so einen Mehrwert für den Kunden zu generieren. Deshalb ist die Unternehmenskultur geprägt durch eine offene und direkte Kommunikation. ',
+      ),
+      12 => array(
+         'question' => 'Bietet Ihr Unternehmen Vorteile neben der Arbeit z.B. GA/Sport- und Freizeitmöglichkeiten? ',
+         'answer' => 'Es befinden sich Duschen auf dem Firmengelände, sodass die Möglichkeit besteht, sich über den Mittag sportlich zu betätigen. Das Unternehmen stellt jeweils mit den Hazardous Runners ihr eigenes SOLA-Stafetten-Team. Ausserdem bietet DOTTIKON ES seinen Mitarbeitenden viele Aktionen, Vergünstigungen, eine eigene Kantine mit abwechslungsreichen Menus zu Vorzugspreisen und freie Parkplätze zur Nutzung. Der Standort, der sich direkt neben dem Bahnhof befindet, zeichnet sich durch seine gute Erreichbarkeit mit dem Auto sowie den öffentlichen Verkehrsmitteln aus. In der Betriebsfeuerwehr kann man sich zusätzliche Fertigkeiten aneignen und sein Netzwerk innerhalb der Firma stärken und ausbauen.',
+      ),
+      13 => array(
+         'question' => 'Können Sie den typischen Bewerbungsprozess in Ihrem Unternehmen erläutern? Haben Sie Tipps für erfolgreiche Bewerbungen?',
+         'answer' => 'Der Bewerbungsprozess für Universitätsabgänger setzt sich aus zwei Runden zusammen. Die erste Runde umfasst eine kurze Einführung zur DOTTIKON ES und Gespräche mit mehreren Mitarbeitenden, darunter zumindest der zukünftige Vorgesetzte und die Vertretung der Personalabteilung. Des Weiteren wird meistens in einer der beiden Runden ein Rundgang durchgeführt, bei dem man unter anderem einen Eindruck vom Arbeitsplatz erhält. Eine gute Vorbereitung ist essenziell. Bewerbende sollten sich sowohl mit dem Unternehmen auseinandersetzen als auch überzeugende Antworten zum eigenen Werdegang bereithalten. Man sollte sich authentisch geben und auf seine Intuition hören.',
+      ),
+      14 => array(
+         'question' => 'Wie können interessierte Studierende und Absolventen am besten mit Ihrem Unternehmen in Kontakt treten und Ihr berufliches Netzwerk erweitern?',
+         'answer' => 'Interessierte Studierende und Absolventen können DOTTIKON ES auf LinkedIn, Facebook und Instagram folgen. Ausserdem sind offene Stellen auf der Homepage sowie den gängigen Stellenportalen ausgeschrieben.',
+      ),
     ),
-    1 => array(
-      'question' => 'How would you describe the working atmosphere at DOTTIKON EXCLUSIVE SYNTHESIS
-      AG?',
-      'answer' => 'Overall, very enjoyable. In the research and development department, we have a healthy
-      mix of younger graduates and seasoned process chemists collaborating closely in a very
-      friendly and supportive environment. Of course, there are some stressful periods – I doubt
-      any jobs comes without them – but I have never encountered problems with, or among
-      co-workers. ',
-    ),
-    2 => array(
-      'question' => 'Which projects and challenges make your job as a chemical engineer interesting?',
-      'answer' => 'It\'s hard to pinpoint a specific topic, as the work is quite stimulating in general. I think the
-      most satisfying part is being able to put a lot of theoretical knowledge into practice and
-      seeing first-hand how well (or sometimes poorly) your theories and models perform in a real
-      plant. I also get to contribute to a wide range of different projects, so the work is far from a
-      daily routine.',
-    ),
-    3 => array(
-      'question' => 'Which strengths and capabilities acquired during your PhD are of help now in your current
-      job?',
-      'answer' => 'I don\'t work in the same field as during my thesis anymore, nevertheless, I feel my PhD
-      studies have prepared me well for my current job. Skills I apply daily stem from the process
-      of working within a scientific collaboration. Managing different projects in parallel, working as
-      part of a team, and a great deal of interdisciplinary problem solving are probably among the
-      most important of those. I get to apply a lot of engineering experience I collected in ETH\'s
-      High-Pressure Lab as well.',
-    ),
-    4 => array(
-      'question' => 'Which advice would you give to ETH students who are willing to step out into the world of
-      industry?',
-      'answer' => 'It\'s important to consider how you want to pursue your science and what you are looking for
-      as the outcome of your work. In academia, you\'sre usually focussed on a very narrow field but
-      have the opportunity to gain a lot of fundamental understanding. In industry, your research
-      may have less depth, but is much more multifaceted. You\'sll have to broaden your horizon a
-      lot, embracing commercial, technical, and environmental challenges as you go along.',
-    ),
-  ),
-);
-*/
+  );
 
 include('../0_template/template.php');
 ?>
