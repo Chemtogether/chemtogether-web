@@ -41,91 +41,82 @@ and establish in a professional environment, to secure our long-term success and
 maintain market leadership.');
 
 
-/*$template['button_print_until'] = 1;
-$template['button_info'] = array('<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">Watch our Flash presentation','<a href="https://vcs.ethz.ch/dievcs/kommissionen/chemtogether/chemtogether-2021-flash-video-bachem">Watch our Flash presentation');
-  
-
-
-$template['interview_print_until'] = 1;*/
-
 $template['button_print_until'] = 0; 
 
-$template['interview_print_until'] = 0;
-if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
+  $template['interview_print_until'] = 1;
+  if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
-#if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
-/*
-$template['interview'][$i++] = array(
-  'name' => 'Jakub Jagielski',
-  'img_url' => $awss3.'/companies/bachem/interviewee_2022_1',
-  'position' => 'Project Chemist in MSAT',
-
-  'education' => array(
-    0 => array(
-      'date' => '-',
-      'desc' => '',
+  $i=0;
+  $template['interview'][$i++] = array(
+    'name' => 'Ruben Wälchli',
+    'img_url' => $awss3.'/companies/bachem/interviewee_2024_1',
+    'position' => 'Senior Scientist in der Abteilung QC Early Phase',
+  
+    'education' => array(
+      0 => array(
+        'date' => '',
+        'desc' => '',
+      ),
     ),
-  ),
-  'career' => array(
-    0 => array(
-      'date' => '-',
-      'desc' => '-',
+  
+    'career' => array(
+      0 => array(
+        'date' => '',
+        'desc' => '',
+      ),
     ),
-  ),
-
-  'interview' => array(
-    0 => array(
-      'question' => 'What is your current task at Bachem?',
-      'answer' => 'I work as a Project Chemist in the MSAT (Manufacturing Science & Technology)
-      Department and my task is to implement new production technologies and improve
-      the existing ones. This mainly includes lab testing, definition of the user
-      requirements, planning, discussions with the equipment suppliers, authoring and
-      review of GMP-relevant documentation, and finally equipment commissioning. In
-      other words, I make sure that our production teams have everything they need to
-      focus on their job.',
+  
+    'interview' => array(
+      0 => array(
+        'question' => 'Bitte stellen Sie sich und Ihr Unternehmen kurz vor. Welche Schwerpunkte und Ziele verfolgen Sie?',
+        'answer' => 'Mein Name ist Ruben Wälchli und ich arbeite als Senior Scientist in der Abteilung QC Early Phase bei der Bachem. Die Bachem ist führend in der Entwicklung und Herstellung von Peptiden und Oligonukleotiden, welche dann als Wirkstoffe in Medikamenten eingesetzt werden.',
+      ),
+      1 => array(
+        'question' => 'Warum haben Sie sich für dieses Unternehmen entschieden?',
+        'answer' => 'Mir war Bachem schon seit meiner Zeit an der ETH Zürich (unter anderem durch das Chemtogether) als Unternehmen bekannt. Als sie dann eine Stelle ausgeschrieben hatte, welche sich mit meiner Erfahrung und meinen Interessen deckte, habe ich mich beworben.',
+      ),
+      2 => array(
+        'question' => 'Welche Karrieremöglichkeiten bietet Ihr Unternehmen für Studierende und Absolventen im Bereich der Chemie, Biochemie, Chemieingenieurswesen, Pharmazie und Pharmazeutische Wissenschaften?',
+        'answer' => 'Die Bachem hat regelmässig Stellen für Absolventen dieser Studienrichtungen ausgeschrieben. Diese bieten einen hervorragenden Einstieg in die pharmazeutische Industrie und für talentierte, motivierte Mitarbeitende eröffnen sich dann in der Regel Möglichkeiten der Weiterentwicklung, z.B. zum Fachexperten oder zur Führungskraft.',
+      ),
+      3 => array(
+        'question' => 'Welche Qualifikationen und Fähigkeiten suchen Sie bei Bewerbern für wissenschaftliche Positionen in Ihrem Unternehmen?',
+        'answer' => 'Das Kerngeschäft der Bachem ist die chemische Synthese von Peptiden und Oligonukleotiden, welche dann als Wirkstoffe für Pharmazeutika eingesetzt werden. Somit sind Kenntnisse in der Synthese, Aufreinigung und/oder Analyse von solchen Molekülen für Bewerber garantiert zentral.',
+      ),
+      4 => array(
+        'question' => 'Gibt es spezifische akademische Hintergründe oder Erfahrungen, die bevorzugt werden? Im Hinblick auf Wahlfächer? Semesterarbeiten in Forschungen? Teamarbeit? Case Studies?',
+        'answer' => 'In meiner Abteilung wäre es sicher praktische Erfahrung mit state-of-the-art analytischen Techniken wie UHPLC, hochauflösender Massenspektrometrie, NMR, etc. Idealerweise angewandt auf Peptide und/oder Oligonukleotide. Zusätzlich wären bereits gewisse Kenntnisse in der guten Herstellpraxis (GMP) und den zugehörigen Richtlinien ein grosser Vorteil. Auf der persönlichen Ebene ist die Teamfähigkeit essentiell, da jedes Projekt eine Teamleistung darstellt.',
+      ),
+      5 => array(
+        'question' => 'Mit welchen Problemen/Fragestellungen befassen Sie sich aktuell in Ihrem Unternehmen?',
+        'answer' => 'Die von unseren Kunden nachgefragten Moleküle werden zusehends komplexer. Das stellt auch die Analytik vor immer grössere Herausforderungen. Deshalb müssen wir uns stetig weiterentwickeln und unter anderem neue, leistungsfähige analytische Technologien routinetauglich machen.',
+      ),
+      6 => array(
+         'question' => 'Wie engagiert sich Ihr Unternehmen in Bezug auf Nachhaltigkeit und Umweltschutz?',
+         'answer' => 'Nachhaltigkeit und Umweltschutz sind für Bachem sehr wichtige Themen. Diese werden zum Beispiel durch effizientere Herstellprozesse, welche weniger organische Lösemittel verbrauchen, adressiert. Bachem wurde ausserdem von der Ratingagentur EcoVadis mit einem hervorragenden Nachhaltigkeitsrating ausgezeichnet.',
+      ),
+      7 => array(
+         'question' => 'In welchen Regionen oder Ländern ist Ihr Unternehmen tätig? Gibt es internationale Karrieremöglichkeiten?',
+         'answer' => 'Die Bachem hat Standorte in der Schweiz, den USA, Grossbritannien und Japan. Es ergeben sich für Mitarbeitenden immer wieder Möglichkeiten, um bei Interesse auch an einen anderen Standort zu wechseln.',
+      ),
+      8 => array(
+         'question' => 'Wie würden Sie die Unternehmenskultur in Ihrem Unternehmen beschreiben, insbesondere im Hinblick auf Teamarbeit und Zusammenarbeit?',
+         'answer' => 'Trotz der mittlerweile schon erreichten Grösse der Unternehmung, bleiben die Wege meist kurz und viele Sachen können unbürokratisch schnell umgesetzt werden. Ausserdem schätze ich die gegenseitige Hilfsbereitschaft unter den Mitarbeitenden, auch über Abteilungs- und Bereichsgrenzen hinweg.',
+      ),
+      9 => array(
+         'question' => 'Bietet Ihr Unternehmen Vorteile neben der Arbeit z.B. GA/Sport- und Freizeitmöglichkeiten?',
+         'answer' => 'Bachem bietet unter anderem Zugang zur Vorteilsplattform Swibeco mit attraktiven Rabatten bei vielen externen Firmen. Am Standort gibt es zudem ein vielfältiges, kostenloses Sportprogramm mit täglichen Kursen.',
+      ),
+      10 => array(
+         'question' => 'Können Sie den typischen Bewerbungsprozess in Ihrem Unternehmen erläutern? Haben Sie Tipps für erfolgreiche Bewerbungen?',
+         'answer' => 'Bei uns in der Abteilung findet in der Regel zuerst ein telefonisches Interview statt. Wenn danach weiterhin Interesse besteht, dann werden Bewerber meistens zu einem persönlichen Interview inklusive Präsentation und Kennenlernen vom Team eingeladen. Wichtig ist sicher, dass man dabei klar zeigen kann, dass man für die Stelle relevante Erfahrung mitbringt und dass man sich positiv in das Team einfügen kann.',
+      ),
+      11 => array(
+         'question' => 'Wie können interessierte Studierende und Absolventen am besten mit Ihrem Unternehmen in Kontakt treten und Ihr berufliches Netzwerk erweitern?',
+         'answer' => 'Absolventenmessen wie das Chemtogether sind sicher eine ideale Plattform. Zusätzlich sind auf unserer Website immer die aktuellen Karrierechancen publiziert.',
+      ),
     ),
-    1 => array(
-      'question' => 'Why did you decide to work at Bachem and how did the application
-      process look like?',
-      'answer' => 'I was always curious about working in the chemical/pharmaceutical industry. During
-      the recruitment phase, I realized Bachem is a fast-growing company where I would
-      be able to start working with almost no industry experience on challenging and
-      innovative projects relevant to production processes. I also had a very positive
-      impression of the people I would be working with.
-      I applied through Bachem’s careers portal by submitting standard job application
-      documents (CV, motivation letter, certificates etc.) and was invited for a first in-person
-      interview with my future supervisors as well as HR partner. After I successfully made
-      it to the next stage, I was invited to a second round. This time I met the rest of the
-      team, got an insight into how the company operates and what my potential projects
-      might look like. In the end, I had the opportunity to present a topic of my choice to a
-      group of Bachem colleagues from the same department.',
-    ),
-    2 => array(
-      'question' => 'Which strengths did you develop during your studies at ETH that helped
-      you in particular in your current job?',
-      'answer' => 'During my PhD studies, I learned to work independently, cope with difficult situations
-      and communicate with different collaborators in order to achieve the goal. Apart from
-      that, my studies at ETH gave me a very solid theoretical and practical knowledge in
-      the field of chemical engineering.',
-    ),
-    3 => array(
-      'question' => 'What fascinates you about your work in particular?',
-      'answer' => 'The opportunity to work on different projects, to constantly learn new technologies
-      and the ability to improve current production processes, ultimately benefiting patients
-      worldwide. There are always many challenges ahead and it never gets boring. ',
-    ),
-    4 => array(
-      'question' => 'What would you recommend ETH students to do during their studies
-      for future industry experience?',
-      'answer' => 'If possible, try to do an internship either at a company or research organization. Use
-      this chance also for going abroad in order to meet other cultures as well as working
-      styles and conditions. Sometimes they really vary from what one can experience at
-      ETH. Generally, getting used to leaving your comfort zone might be beneficial in the
-      future.',
-    ),
-  ),
-);
-*/
+  );
 
 include('../0_template/template.php');
 

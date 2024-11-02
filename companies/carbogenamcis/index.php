@@ -116,7 +116,7 @@ representations both at the level of academia as well as on an industry level.',
       ),
       1 => array(
         'question' => 'How does a typical day at CARBOGEN AMCIS look like?',
-        'answer' => 'he day starts with science (new ideas, challenges, expectations, conclusions and discoveries), goes
+        'answer' => 'Trts with science (new ideas, challenges, expectations, conclusions and discoveries), goes
 further to organizational work (co-ordination and communication within and between the different
 departments), customer contact (reports, e-mails and teleconferences or even visits), financial
 analysis (budgetary situation of projects, cost of materials, concordance of the services provided
