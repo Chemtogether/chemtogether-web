@@ -51,6 +51,7 @@ $template['we_look'] = array(
 ability to work independently and accurately is just as important as your motivation
 to deliver outstanding results.');
 
+/*
 $template['button_print_until'] = 0; 
 
   $template['interview_print_until'] = 1;
@@ -139,6 +140,6 @@ $template['button_print_until'] = 0;
       ),
     ),
   );
-
+*/
 include('../0_template/template.php');
 ?>
