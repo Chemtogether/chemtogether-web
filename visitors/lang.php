@@ -122,7 +122,7 @@ $lang['content']['programme_1'] = array(
   'guest_5' => array('Moderation: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ','Panel Leader: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Mittwoch, 6. November 2024, 16:30-17:30','Wednesday, 6th November 2024, 16:30-17:30'),
+  'time' => array('Mittwoch, 6. November 2024, 16:30-18:00','Wednesday, 6th November 2024, 16:30-18:00'),
   'place' => array('HCI J7','HCI J7'),
   //'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
   //'cv_guest_1' => array('<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB', '<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB'),
