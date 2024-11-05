@@ -51,7 +51,7 @@ $template['we_look'] = array(
 ability to work independently and accurately is just as important as your motivation
 to deliver outstanding results.');
 
-/*
+
 $template['button_print_until'] = 0; 
 
   $template['interview_print_until'] = 1;
@@ -59,7 +59,7 @@ $template['button_print_until'] = 0;
 
   $i=0;
   $template['interview'][$i++] = array(
-    'name' => 'Patrick Gäumann',
+    'name' => 'Dr. Patrick Gäumann',
     'img_url' => $awss3.'/companies/dottikon/interviewee_2024_1',
     'position' => 'Junior Projektleiter Process QA',
   
@@ -140,6 +140,6 @@ $template['button_print_until'] = 0;
       ),
     ),
   );
-*/
+
 include('../0_template/template.php');
 ?>
