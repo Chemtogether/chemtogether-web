@@ -495,6 +495,8 @@ $active_nav = 'team';
       </div>
     </div>
 
+
+<!--
     <div class="spacer">
     </div>
 
@@ -534,7 +536,7 @@ $active_nav = 'team';
         <a href="https://www.twing.ch/">www.twing.ch</a>
       </div>
     </div>
-
+    -->
     <div class="spacer">
     </div>
 
