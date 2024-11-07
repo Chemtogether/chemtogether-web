@@ -55,8 +55,8 @@ $lang['content'] = array(
   ),
 
   'packages_text' => array(
-    'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Gold- und Platinpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
-    'We offer several different packages for your participation in Chemtogether. With a silver, gold or platinum package, your company will set itself apart before, during and after the career fair.'),
+    'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Goldpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
+    'We offer several different packages for your participation in Chemtogether. With a silver or gold package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
     'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2024.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
@@ -259,7 +259,7 @@ $lang['packages_info']['silver']['price'] = array('CHF 2750.- exkl. 8.1% MWST','
 
 
 $lang['packages_info']['gold']['name'] = array('Goldpaket','Gold package');
-$lang['packages_info']['gold']['desc'] = array('limitiert auf ein Gold- oder Platinpaket pro Tag','limited to one gold or platinum package per day');
+$lang['packages_info']['gold']['desc'] = array('limitiert auf ein Goldpaket pro Tag','limited to one gold package per day');
 $i = 0;
 $lang['packages_info']['gold']['perks'][$i++] = array('Catering, WLAN und Strom','catering, WLAN and electricity');
 $lang['packages_info']['gold']['perks'][$i++] = array('zentraler 12 m² Stand mit drei Stehtischen und -stühlen','prominent 12 m² booth with three bistro tables and chairs');

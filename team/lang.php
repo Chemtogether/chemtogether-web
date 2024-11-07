@@ -177,7 +177,7 @@ $lang['content']['partners_subsection'] = array('Unsere Partner','Our Partners')
 $lang['content']['partners_text'] = array('Chemtogether kooperiert mit den folgenden Organisationen und Unternehmen. ','Chemtogether cooperates with the following organisations and companies.');
 
 $lang['content']['partners']['careercenter'] = array('ETH Career Center','ETH Career Center');
-$lang['content']['partners']['cvpics'] = array('CV Pics','CV Pics');
-$lang['content']['partners']['twing'] = array('twing','twing');
+#$lang['content']['partners']['cvpics'] = array('CV Pics','CV Pics');
+#$lang['content']['partners']['twing'] = array('twing','twing');
 
 ?>
