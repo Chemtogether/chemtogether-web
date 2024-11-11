@@ -239,14 +239,6 @@ $template['button_print_until'] = 0;
         </tr>
         </table>',
       ),
-      13 => array(
-         'question' => 'Können Sie den typischen Bewerbungsprozess in Ihrem Unternehmen erläutern? Haben Sie Tipps für erfolgreiche Bewerbungen?',
-         'answer' => 'Der Bewerbungsprozess für Universitätsabgänger setzt sich aus zwei Runden zusammen. Die erste Runde umfasst eine kurze Einführung zur DOTTIKON ES und Gespräche mit mehreren Mitarbeitenden, darunter zumindest der zukünftige Vorgesetzte und die Vertretung der Personalabteilung. Des Weiteren wird meistens in einer der beiden Runden ein Rundgang durchgeführt, bei dem man unter anderem einen Eindruck vom Arbeitsplatz erhält. Eine gute Vorbereitung ist essenziell. Bewerbende sollten sich sowohl mit dem Unternehmen auseinandersetzen als auch überzeugende Antworten zum eigenen Werdegang bereithalten. Man sollte sich authentisch geben und auf seine Intuition hören.',
-      ),
-      14 => array(
-         'question' => 'Wie können interessierte Studierende und Absolventen am besten mit Ihrem Unternehmen in Kontakt treten und Ihr berufliches Netzwerk erweitern?',
-         'answer' => 'Interessierte Studierende und Absolventen können DOTTIKON ES auf LinkedIn, Facebook und Instagram folgen. Ausserdem sind offene Stellen auf der Homepage sowie den gängigen Stellenportalen ausgeschrieben.',
-      ),
     ),
   );
 
