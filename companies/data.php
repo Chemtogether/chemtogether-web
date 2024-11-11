@@ -137,7 +137,7 @@ $data['day2'][$i++] = array(
  $data['day2'][$i++] = array(
     "link_url" => '/companies/sulzer/index.php#info',
     "logo_url" => set_source($awss3.'/companies/sulzer/logo','png', FALSE),
-    "name" => "<br> SulzerG <br> <br> ",
+    "name" => "<br> SulzerAG <br> <br> ",
     "name_short" => "sulzer",
     "package" => 'base',
 );
