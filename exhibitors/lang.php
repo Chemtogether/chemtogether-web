@@ -55,11 +55,11 @@ $lang['content'] = array(
   ),
 
   'packages_text' => array(
-    'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den beschränkt verfügbaren Goldpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
+    'Für Ihre Teilnahme an der Chemtogether bieten wir verschiedene Pakete an. Mit dem Silber- und den, beschränkt verfügbaren, Goldpaketen kann sich Ihr Unternehmen vor, während und nach der Messe weiter hervorheben.',
     'We offer several different packages for your participation in Chemtogether. With a silver or gold package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden sowie in der <a href="'.$awss3.'/files/brochure_2024.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden, sowie in der <a href="'.$awss3.'/files/brochure_2024.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
     'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2024.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
@@ -109,8 +109,8 @@ $lang['content'] = array(
   ),
 
   'feedback_intro' => array(
-    'Alle ausstellenden Unternehmen der Chemtogether waren mit ihrer Teilnahme zufrieden. Ausgehend von Rückmeldungen wurden die letztjährigen Chemtogether mit durchschnittlich 4.44 von 5 Punkten bewertet. Natürlich möchten wir uns mit der elften Chemtogether noch weiter verbessern und versuchen, die geäusserten Verbesserungsvorschläge umzusetzen.',
-    'All exhibitors of Chemtogether were satisfied with their attendence. Based on thirty-nine feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.44 out of 5. Naturally, we would like to further improve the fair in its tenth iteration and have thus begun implementing some of the suggestions we received.'),
+    'Alle ausstellenden Unternehmen der Chemtogether waren mit ihrer Teilnahme zufrieden. Ausgehend von Rückmeldungen wurden die letztjährigen Chemtogether mit durchschnittlich 4.47 von 5 Punkten bewertet. Natürlich möchten wir uns mit der elften Chemtogether noch weiter verbessern und versuchen die geäusserten Verbesserungsvorschläge umzusetzen.',
+    'All exhibitors of Chemtogether were satisfied with their attendence. Based on thirty-nine feedback forms, the average rating regarding the overall satisfaction with the career fair was 4.47 out of 5. Naturally, we would like to further improve the fair in its tenth iteration and have thus begun implementing some of the suggestions we received.'),
 
   'feedback_text' => array(
     'Das vollständige Ergebnis der Feedbackauswertung lautet:',
@@ -254,7 +254,7 @@ $lang['packages_info']['silver']['perks'][$i++] = array('kurze Firmenpräsentati
 $lang['packages_info']['silver']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung im Messeführer','one-page advertisement in the expo guide');
 $lang['packages_info']['silver']['perks'][$i++] = array('einseitige Werbung in der Fachvereinszeitschrift','one-page advertisement in the student magazine');
-$lang['packages_info']['silver']['perks'][$i++] = array('Veröffentlichung eines Mitarbeierinterviews vor der Messe','publishing of an interview with a company member prior to the fair');
+$lang['packages_info']['silver']['perks'][$i++] = array('Veröffentlichung eines Mitarbeiterinterviews vor der Messe','publishing of an interview with a company member prior to the fair');
 $lang['packages_info']['silver']['price'] = array('CHF 2750.- exkl. 8.1% MWST','CHF 2750.- excl. 8.1% VAT');
 
 
@@ -269,7 +269,7 @@ $lang['packages_info']['gold']['perks'][$i++] = array('Nutzung der Jobwall währ
 $lang['packages_info']['gold']['perks'][$i++] = array('Bewerbung der Teilnahme des Unternehmens auf Sozialen Netzwerken','promotion of the company\'s participation on social media');
 $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf Doppelseite, erster oder letzter Seite im Messeführer','first, center double or last page advertisement in expo guide');
 $lang['packages_info']['gold']['perks'][$i++] = array('Werbung auf erster oder letzter Seite in zwei Ausgaben der Fachvereinszeitschrift','advertisement on first or last page in two editions of the student magazine');
-$lang['packages_info']['gold']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeier-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
+$lang['packages_info']['gold']['perks'][$i++] = array('Veröffentlichung von zwei Mitarbeiter-Interviews vor der Messe','publishing of two interviews with a company member prior to the fair');
 $lang['packages_info']['gold']['perks'][$i++] = array('Raumreservierung für Bewerbungsgespräche','room reservation to conduct interviews');
 $lang['packages_info']['gold']['price'] = array('CHF 4000.- exkl. 8.1% MWST','CHF 4000.- excl. 8.1% VAT');
 

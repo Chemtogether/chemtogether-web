@@ -72,7 +72,7 @@ $active_nav = 'exhibitors';
           <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
-          <span>4.44/5</span>
+          <span>4.47/5</span> <!-- used to be 4.44 with covid rating -->
           <div class="bar"></div>
           <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
@@ -371,12 +371,12 @@ $active_nav = 'exhibitors';
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
           </tr>
-          <tr>
-            <td>4.50</td><!-- ?gibt es das noch -->
+          <!-- <tr>
+            <td>4.50</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
-          </tr>
+          </tr> -->
           <tr>
             <td>3.88</td>
             <td>/</td>
