@@ -32,13 +32,13 @@ $template['successstory'][$i++] = array(
   'successstory' => array(
     0 => array(
       'question' => 'You switched from academia to industry almost a year ago. What were your first steps in search for employment?',
-      'answer' => 'The first step was building a network of people outside my research field – this takes time. This is important as they help you finding out about the variety of different companies and job descriptions one is not aware of while being in the academic world. Also, with personal contacts, information on job vacancies are spread faster and easier.
+      'answer' => 'The first step was building a network of people outside my research field – this takes time. This is important as they help you find out about the variety of different companies and job descriptions one is not aware of while being in the academic world. Also, with personal contacts, information on job vacancies are spread faster and easier.
       Attending career fairs such as Chemtogether, the career night and other events offered by the career center of ETH were essential steps of building a network.
       For example, I only got to know Sika at a career event and intensified the contact at Chemtogether.',
     ),
     1 => array(
       'question' => 'You mentioned ETH career events. How were those helpful?',
-      'answer' => 'I would highly recommend them. The field trips to companies, which are regularly organized by associations such as VCS, VAC and VECS as well as the in-house career events at ETH are very beneficial. They give you great insight into which kind of jobs are out there and offer you the opportunity to get a feeling for the company and the leave the academic microcosms. The only drawback is that one has to invest time for participation in these kinds of events, which can be challenging during your studies or during doctoral research - but it’s time well spent.',
+      'answer' => 'I would highly recommend them. The field trips to companies, which are regularly organized by associations such as VCS, VAC and VECS as well as the in-house career events at ETH are very beneficial. They give you great insight into which kind of jobs are out there and offer you the opportunity to get a feeling for the company and the leave the academic microcosmos. The only drawback is that one has to invest time for participation in these kinds of events, which can be challenging during your studies or during doctoral research - but it’s time well spent.',
     ),
     2 => array(
       'question' => 'How much time passed between starting your job search until you started working at Sika?',
@@ -61,7 +61,7 @@ $template['successstory'][$i++] = array(
     ),
     6 => array(
       'question' => 'You already met HR representatives at the fair?',
-      'answer' => 'Yes, indeed most companies bring their HR representatives along. Sika, for instance, brought their HR representatives and since I already knew them from a prior career event at ETH, so it was quite easy to restart the conversation. I directly passed on my C.V. and heard about an upcoming open position that was interesting for me.',
+      'answer' => 'Yes, indeed most companies bring their HR representatives along. Sika, for instance, brought their HR representatives and since I already knew them from a prior career event at ETH, it was quite easy to restart the conversation. I directly passed on my C.V. and heard about an upcoming open position that was interesting for me.',
     ),
     7 => array(
       'question' => 'What happened after the fair?',

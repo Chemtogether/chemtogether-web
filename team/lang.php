@@ -35,7 +35,7 @@ $lang['team'][2] = array(
   'name' => 'Till Niederhoff',
   'task' => array('Co-Präsident','Co-President'),
   'info' => array('Till kommt ursprünglich aus Stuttgart und studiert nun im Bachelor Chemieingenieurswissenschaften an der ETH Zürich. Nach einem Jahr als Head of Industrial Relations der Chemie-Fachschaft VCS freut er sich nun auf diese neue Challenge. Seine freie Zeit verbringt er Sommer wie Winter am liebsten in den Bergen. Von Wandern über Hoch- und Skitouren bis zum Freeriden ist ihm keine alpine Aktivität zu schade.',
-  'Till is originally from Stuttgart and is now studying for a Bachelor’s degree in Chemical Engineering at ETH Zurich. After a year as Head of Industrial Relations at the VCS chemistry student council, he is now looking forward to this new challenge. He enjoys spending his free time in the mountains in both summer and winter. From hiking and mountaineering to ski touring and freeriding, no alpine activity is beneath him.'), 
+  'Till is originally from Stuttgart and is now pursuing a Bachelor’s degree in Chemical Engineering at ETH Zurich. After a year as Head of Industrial Relations at the VCS chemistry student council, he is now looking forward to this new challenge. He enjoys spending his free time in the mountains in both summer and winter. From hiking and mountaineering to ski touring and freeriding, no alpine activity is beneath him.'), 
   'mail_prefix' => 'till.niederhoff',
   'linkedin' => 'https://www.linkedin.com/in/till-sebastian-niederhoff-618502268/'
 );
@@ -44,7 +44,7 @@ $lang['team'][3] = array(
   'name' => 'Tobias Jenny',
   'task' => array('Catering','Catering'),
   'info' => array('Tobias ist in Volketswil in der Nähe von Zürich aufgewachsen und studiert Chemie im Master. Seine Interessen liegen auf den Gebieten der anorganischen und metallorganischen Chemie. Als Ausgleich zum Chemiestudium findet man Tobias oft in den Bergen oder beim Sport. Im Sommer gehören dazu Bouldern und Beachvolleyball, im Winter vor allem Ski- und Snowboardfahren.', 
-  'Tobias grew up in Volketswil near Zurich and is studying for a Master’s degree in chemistry. His interests lie in the fields of inorganic and organometallic chemistry. To balance out his chemistry studies, Tobias can often be found in the mountains or doing sports. In summer this includes bouldering and beach volleyball, in winter mainly skiing and snowboarding.'),
+  'Tobias grew up in Volketswil near Zurich and is pursuing a Master’s degree in chemistry. His interests lie in the fields of inorganic and organometallic chemistry. To balance out his chemistry studies, Tobias can often be found in the mountains or playing sports. In summer this includes bouldering and beach volleyball, in winter mainly skiing and snowboarding.'),
   'mail_prefix' => 'tobias.jenny',
   'linkedin' => 'https://www.linkedin.com/in/tobias-jenny/'
 );
@@ -116,7 +116,7 @@ $lang['team'][11] = array(
   'name' =>'Joshua Gwerder',
   'task' => array('Quästor','Treasurer'),
   'info' => array('Joshua, der in Schwyz aufgewachsen ist, studiert im 6. Semester Biochemie an der ETH Zürich. Seine Faszination gilt nicht nur der Chemie und Biologie, sondern auch der Anwendungen von Computertechnologien in diesen Feldern. In seiner Freizeit such Joshua den Ausgleich im Sport und findet diesen bei Schwimmen und Skifahren.'
-  ,'Joshua, who grew up in Schwyz, is in his 6th semester of biochemistry at ETH Zurich. His fascination lies not only in chemistry and biology but also in the application of computer technologies in these fields. In his free time, Joshua seeks balance through sports and find it in swimming and skiing.'), 
+  ,'Joshua, who grew up in Schwyz, is in his 6th semester of biochemistry at ETH Zurich. His fascination lies not only in chemistry and biology but also in the application of computer technologies in these fields. In his free time, Joshua seeks balance through sports and finds it in swimming and skiing.'), 
   'mail_prefix' => 'joshua.gwerder',
   #'linkedin' => ''
 );
