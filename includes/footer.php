@@ -22,13 +22,13 @@
 
     <div class="footer-right l-7 m-12 s-12">
        <div class="date-container">
-        <span id="date-day1">12.</span>
+        <span id="date-day1">11.</span>
         <span class="date-bar"></span>
-        <span id="date-day2">13.</span>
+        <span id="date-day2">12.</span>
       </div> 
       <div class="date-container">
         <span id="date-month">Nov.</span>
-        <span id="date-year">2024</span>
+        <span id="date-year">2025</span>
       </div>
       <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>

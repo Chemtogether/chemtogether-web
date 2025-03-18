@@ -18,8 +18,8 @@ include('./lang.php');
 $active_nav = 'home';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.", 
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025! Over two days, a total of eighteen companies from the chemical industry will be present and offer information on careers in their field.", 
   "url"          => "https://www.chemtogether.ethz.ch/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
@@ -52,13 +52,13 @@ $fb = array(
       </ul>
       <div id="home-top">
           <div class="date-container">
-          <span id="date-day1">12.</span>
+          <span id="date-day1">11.</span>
           <span class="date-bar"></span>
-          <span id="date-day2">13.</span>
+          <span id="date-day2">12.</span>
          </div> 
         <div class="date-container">
           <span id="date-month">Nov.</span>
-          <span id="date-year">2024</span>
+          <span id="date-year">2025</span>
         </div>
         <div class="date-container">
         <span id="date-place">HCI G-<?php echo($lang['content']['slideshow_floor'][$eng]); ?></span>

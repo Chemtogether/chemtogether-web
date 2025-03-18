@@ -18,8 +18,8 @@ include('../companies/data.php');
 $active_nav = 'visitors';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025!",  "url"          => "https://www.chemtogether.ethz.ch/visitors/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
