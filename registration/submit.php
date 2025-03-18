@@ -38,9 +38,9 @@ $terms_and_conditions = $_POST['terms_and_conditions'];
 
 $mail_msg = "A new company has registered: \n Company: $company \n Name: $full_name \n Mail: $mail \n Phone: $phone \n Package: $package \n Fair day: $fair_day \n Additional event: $additional_event \n Comment: $comment \n Terms and conditions: $terms_and_conditions \n Year: $year";
 
-mail("schmiste@chem.ethz.ch", "New Chemtogether registration", $mail_msg);
-mail("mmeinhardt@student.ethz.ch", "New Chemtogether registration", $mail_msg);
-mail("tniederhoff@student.ethz.ch", "New Chemtogether registration", $mail_msg);
+mail("imuelle@student.ethz.ch", "New Chemtogether registration", $mail_msg);
+mail("bhuerlimann@student.ethz.ch", "New Chemtogether registration", $mail_msg);
+mail("jgwerder@student.ethz.ch", "New Chemtogether registration", $mail_msg);
 
 // provides small functions
 include('../php/general.php');
@@ -57,8 +57,8 @@ include('./lang.php');
 $active_nav = 'registration';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"

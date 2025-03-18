@@ -23,8 +23,8 @@ include('./lang.php');
 $active_nav = 'registration';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -77,22 +77,22 @@ $fb = array(
         <form method="post" action="submit.php">
             <input type="hidden" name="token" value="<?php echo getenv("REGISTRATION_TOKEN"); ?>">
             <div>
-                <label for="name_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_name'][$eng]); ?> </label>
+                <label for="name_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_name'][$eng]); ?>:</label>
                 <input type="text" name="full_name" placeholder="Name" id="name_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="company_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_company'][$eng]); ?></label>
+                <label for="company_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_company'][$eng]); ?>:</label>
                 <input type="text" name="company" placeholder=<?php echo($lang['content']['form_company'][$eng]); ?> id="company_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="mail_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_mail'][$eng]); ?></label>
+                <label for="mail_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_mail'][$eng]); ?>:</label>
                 <input type="text" name="mail" placeholder=<?php echo($lang['content']['form_mail'][$eng]); ?> id="mail_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
             <div>
-                <label for="phone_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_phone'][$eng]); ?></label>
+                <label for="phone_form" style="margin-right: 20px; font-size: 20px; font-weight: bold;"><?php echo($lang['content']['form_phone'][$eng]); ?>:</label>
                 <input type="text" name="phone" placeholder=<?php echo($lang['content']['form_phone'][$eng]); ?> id="phone_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             <div class="spacer"></div>
@@ -154,7 +154,7 @@ $fb = array(
             </div>
             <div class="spacer"></div>
             <div class="spacer"></div>
-            <input type="submit" value="Submit" style="background-color: rgba(229,107,46,1); color: white; padding: 10px 20px; font-size: 16px; font-family: 'opensans', sans-serif; border: none; cursor: pointer;">
+            <input type="submit" value="Submit" style="background-color: rgba(229,107,46,1); color: white; padding: 10px 20px; font-size: 18px; font-family: 'opensans', sans-serif; border: none; cursor: pointer; border-radius: 10px;">
         </form>
       </div>
     </div>
