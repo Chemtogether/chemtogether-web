@@ -1,8 +1,8 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2024', 'Chemtogether 2024');
-$lang['navigation']['title'] = array('Chemtogether 2024', 'Chemtogether 2024');
+$lang['general']['page_title'] = array('Chemtogether 2025', 'Chemtogether 2025');
+$lang['navigation']['title'] = array('Chemtogether 2025', 'Chemtogether 2025');
 $lang['navigation']['topnav_title']= array('Home', 'Home');
 
 
@@ -15,8 +15,8 @@ $lang['content']['slideshow_linkvisitors'] = array('Informationen für Besucher'
 
 
 $lang['content']['intro_text'] = array(
-  'Zum elften Mal wird die Chemtogether im November 2024 im G-Stock des HCI-Gebäudes an der ETH Hönggerberg stattfinden! Als ein gemeinsames Projekt der Studentenorganisationen, VCS und APV, und der Vereinigungen der Doktorierenden, VAC und PSA, des Departments Chemie und Angewandte Biowissenschaften D-CHAB der ETH Zürich, laden wir alle Studenten, Doktoranden und externe Besucher dazu ein, erste Kontakte mit möglichen Arbeitgebern auf der diesjährigen Chemtogether zu knüpfen!',
-  'In its eleventh iteration, this year\'s Chemtogether will take in November 2024 on the G-floor of the HCI building on the ETH Hönggerberg campus! As a joint effort between the student associations, VCS and APV, and the associations of PhD students, VAC and PSA, of the Department of Chemistry and Applied Biosciences D-CHAB at the ETH Zürich, we welcome all students, PhDs and external visitors to forge first links with potential employers at this year\'s Chemtogether!');
+  'Zum dreizehnten Mal wird die Chemtogether im November 2025 im G-Stock des HCI-Gebäudes an der ETH Hönggerberg stattfinden! Als ein gemeinsames Projekt der Studentenorganisationen, VCS und APV, und der Vereinigungen der Doktorierenden, VAC und PSA, des Departments Chemie und Angewandte Biowissenschaften D-CHAB der ETH Zürich, laden wir alle Studenten, Doktoranden und externe Besucher dazu ein, erste Kontakte mit möglichen Arbeitgebern auf der diesjährigen Chemtogether zu knüpfen!',
+  'In its thirteenth iteration, this year\'s Chemtogether will take in November 2025 on the G-floor of the HCI building on the ETH Hönggerberg campus! As a joint effort between the student associations, VCS and APV, and the associations of PhD students, VAC and PSA, of the Department of Chemistry and Applied Biosciences D-CHAB at the ETH Zürich, we welcome all students, PhDs and external visitors to forge first links with potential employers at this year\'s Chemtogether!');
 
 $lang['content']['infobox1_text'] = array(
   'Datum, Ort, Firmen und Begleitprogramm',

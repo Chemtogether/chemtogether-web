@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2024 - Team', 'Chemtogether 2024 - Team');
+$lang['general']['page_title'] = array('Chemtogether 2025 - Team', 'Chemtogether 2025 - Team');
 $lang['navigation']['title'] = array('Unser Team', 'Our Team');
 $lang['navigation']['topnav_title']= array('Unser Team', 'Our Team');
 
@@ -14,12 +14,12 @@ $lang['content']['intro_text'] = array(
   'The team of Chemtogether consists of students and PhDs of the department for Chemistry and Applied Biosciences of ETH Zurich, organizing the career fair voluntarily. Chemtogether is supported by the student associations, VCS and APV, and the association of PhD students, VAC and PSA, as well the corresponding umbrella organisations VSETH and AVETH.'
 );
 
-$lang['content']['team_subsection'] = array('Das Team 2024','The Team of 2024');
+$lang['content']['team_subsection'] = array('Das Team 2025','The Team of 2025');
 
-$lang['content']['new_team_subsection'] = array('Werde Mitglied im Chemtogether Team 2024','Join the Chemtogether Team of 2024');
+$lang['content']['new_team_subsection'] = array('Werde Mitglied im Chemtogether Team 2025','Join the Chemtogether Team of 2025');
 $lang['content']['new_team_text'] = array(
-  'Auch für die Organisation der Chemtogether 2024 steht bereits ein motiviertes Team in den Startlöchern!', // Fotos und Vorstellungstexte der neuen Mitglieder werden in Kürze hier verfügbar sein.',
-  'A new team is ready for Chemtogether 2024!'); //Pictures and additional information on our new members will be published here soon.');
+  'Auch für die Organisation der Chemtogether 2025 steht bereits ein motiviertes Team in den Startlöchern!', // Fotos und Vorstellungstexte der neuen Mitglieder werden in Kürze hier verfügbar sein.',
+  'A new team is ready for Chemtogether 2025!'); //Pictures and additional information on our new members will be published here soon.');
 
 
 $lang['team'][1] = array(
@@ -133,6 +133,8 @@ $lang['team'][12] = array(
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
 
 $lang['content']['alumni_text'] = array('Ein grosses Dankeschön an alle, die an der Organisation der Chemtogether in früheren Jahren beteiligt waren!','A big thanks to everyone involved in the organisation of Chemtogether in the previous years!');
+
+$lang['content']['alumni_member_2024'] = 'Manuel Meinhardt<br>Till Niederhoff<br>Tobias Jenny<br>Bettina Hürlimann<br>Hannah Ahrens<br>Xenia Schleis<br>Flores Schürch<br>Hannah Osthaus<br>Marie Diederichs<br>Audrey Pohlman<br>Joshua Gwerder<br>Stefan Schmid<br>';
 
 $lang['content']['alumni_member_2023'] = 'PuiSan Nghiem<br>Henry Wetton<br>Olivia Gampp<br>Bettina Hürlimann<br>Tim Jürss<br>Severin Lustenberger<br>Lea Marti<br>Manuel Meinhardt<br>Annina Oswald<br>Lisa Reichert<br>Stefan Schmid<br><br>';
 
