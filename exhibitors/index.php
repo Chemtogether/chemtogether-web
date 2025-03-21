@@ -301,7 +301,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2023','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2024', 'png'); ?>></img>
         </div>
       </div>
     </div>
@@ -312,7 +312,7 @@ $active_nav = 'exhibitors';
         <br><br>
         <table class="feedback">
           <tr>
-            <td>4.29</td>
+            <td>4.25</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['1'][$eng]); ?></td>
@@ -323,50 +323,51 @@ $active_nav = 'exhibitors';
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['2'][$eng]); ?></td>
           </tr>
-          <tr>
-            <td>4.58</td>
+          <!-- <tr>
+            <td>4.50</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['3'][$eng]); ?></td>
-          </tr>
-          <tr>
+          </tr> -->
+          <!-- <tr>
             <td>4.50</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['4'][$eng]); ?></td>
-          </tr>
+          </tr> -->
           <tr>
-            <td>4.53</td>
+            <td>4.60</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['5'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.47</td>
+            <td>4.44</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['6'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.72</td>
+            <td>4.63</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['7'][$eng]); ?></td>
           </tr>
-          <tr>
-            <td>4.74</td> <!-- ?gibt es das noch -->
+          <!-- ?gibt es das noch -->
+          <!-- <tr>
+            <td>4.74</td> 
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['8'][$eng]); ?></td>
-          </tr>
+          </tr> -->
           <tr>
-            <td>4.51</td><!-- ?gibt es das noch -->
+            <td>4.33</td><!-- ?gibt es das noch -->
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['9'][$eng]); ?></td>
           </tr>
           <tr>
-            <td>4.37</td>
+            <td>4.67</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['10'][$eng]); ?></td>
@@ -378,15 +379,25 @@ $active_nav = 'exhibitors';
             <td><?php echo($lang['content']['feedback_entries']['11'][$eng]); ?></td>
           </tr> -->
           <tr>
-            <td>3.88</td>
+            <td>3.79</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['12'][$eng]); ?></td>
           </tr>
-          <td>4.56</td>
+          <td>4.75</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['13'][$eng]); ?></td>
+          </tr>
+          <td>4.75</td>
+            <td>/</td>
+            <td>5</td>
+            <td><?php echo($lang['content']['feedback_entries']['14'][$eng]); ?></td>
+          </tr>
+          <td>4.6</td>
+            <td>/</td>
+            <td>5</td>
+            <td><?php echo($lang['content']['feedback_entries']['15'][$eng]); ?></td>
           </tr>
         </table>
       </div>

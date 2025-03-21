@@ -105,7 +105,13 @@ $lang['content'] = array(
       'Job-Wall'),
     '13' => array(
       'Professionalität',
-      'Professionalism')
+      'Professionalism'),
+    '14' => array(
+      'Detaileinreichung',
+      'Detail-Submission'),
+    '15' => array(
+      'Leistungen im Paket',
+      'Services within Package')
   ),
 
   'feedback_intro' => array(
