@@ -72,7 +72,7 @@ $active_nav = 'exhibitors';
           <span><?php echo($lang['img']['2'][$eng]); ?></span>
         </div>
         <div class="image-container">
-          <span>4.47/5</span> <!-- used to be 4.44 with covid rating -->
+          <span>4.48/5</span> <!-- used to be 4.44 with covid rating -->
           <div class="bar"></div>
           <span><?php echo($lang['img']['3'][$eng]); ?></span>
         </div>
@@ -301,7 +301,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2024', 'png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2023', 'png'); ?>></img>
         </div>
       </div>
     </div>
@@ -394,7 +394,7 @@ $active_nav = 'exhibitors';
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['14'][$eng]); ?></td>
           </tr>
-          <td>4.6</td>
+          <td>4.60</td>
             <td>/</td>
             <td>5</td>
             <td><?php echo($lang['content']['feedback_entries']['15'][$eng]); ?></td>
