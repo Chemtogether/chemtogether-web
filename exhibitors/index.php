@@ -301,7 +301,7 @@ $active_nav = 'exhibitors';
     <div class="content flex">
       <div class="image-big l-12 m-12 s-12">
         <div>
-          <img <?php set_source($awss3.'/img/companies_2023','png'); ?>></img>
+          <img <?php set_source($awss3.'/img/companies_2024','png'); ?>></img>
         </div>
       </div>
     </div>
