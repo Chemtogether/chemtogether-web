@@ -1,6 +1,6 @@
 <?php
 
-  $PAGE_OPEN = false;
+  $PAGE_OPEN = true;
 
 if (!$PAGE_OPEN || !isset($_GET["t"]) || ($_GET["t"] != getenv("REGISTRATION_TOKEN"))){
     http_response_code(404);
