@@ -121,10 +121,10 @@ $fb = array(
                 <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_day'][$eng]); ?>
                 </div>
-                <div style="margin-left: 20px; margin-bottom: 5px;">
+                <!-- <div style="margin-left: 20px; margin-bottom: 5px;">
                     <input type="radio" id="day_option1" name="fair_day" value="Tue" style="margin-right: 20px;" required>
                     <label for="day_option1"><?php echo($lang['content']['day_option1'][$eng]); ?></label>
-                </div>
+                </div> -->
                 <div style="margin-left: 20px; margin-bottom: 5px;">
                     <input type="radio" id="day_option2" name="fair_day" value="Wed" style="margin-right: 20px;" required>
                     <label for="day_option2"><?php echo($lang['content']['day_option2'][$eng]); ?></label>
