@@ -103,10 +103,10 @@ $fb = array(
                 <div style="margin-bottom: 10px; font-size: 20px; font-weight: bold;">
                     <?php echo($lang['content']['form_package'][$eng]); ?>
                 </div>
-                <div style="margin-left: 20px; margin-bottom: 5px;">
+                <!-- <div style="margin-left: 20px; margin-bottom: 5px;">
                     <input type="radio" id="package_option1" name="package" value="C" style="margin-right: 20px;" required>
                     <label for="package_option1"><?php echo($lang['content']['form_package_option1'][$eng]); ?></label>
-                </div>
+                </div> -->
                 <div style="margin-left: 20px; margin-bottom: 5px;">
                     <input type="radio" id="package_option2" name="package" value="Ag" style="margin-right: 20px;" required>
                     <label for="package_option2"><?php echo($lang['content']['form_package_option2'][$eng]); ?></label>
