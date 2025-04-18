@@ -23,111 +23,102 @@ $lang['content']['new_team_text'] = array(
 
 
 $lang['team'][1] = array(
-  'name' => 'Manuel Meinhardt',
+  'name' => 'Bettina Hürlimann',
   'task' => array('Co-Präsident','Co-President'),
-  'info' => array('Manuel ist in Aarau aufgewachsen und studiert Chemie Ingenieurwissenschaften im Bachelor an der ETH. Neben Chemie, interessiert er sich auch für Politik, Sport und Wirtschaft. Zusammen mit fünf weiteren Freunden hat er im Rahmen von YES Switzerland bereits ein Start-Up gegründet. Zum Ausgleich fährt er im Winter viel Ski und im Sommer ist sein bevorzugter Sport das Turmspringen.'
-  ,'Manuel was born and raised in Aarau. He is in his bachelor studies in Chemical Engineering at the ETH. Besides his interest in Chemistry, he is into politics, sports and economics. Together with five of his friends he co-founded a start-up in the context of YES Switzerland. Manuel loves skiing (a lot) in winter while high diving is his main sport activity in summer.'),
-  'mail_prefix' => 'manuel.meinhardt',
-  'linkedin' => 'https://www.linkedin.com/in/manuel-meinhardt/'
+  'info' => array('Bettina ist in Zürich geboren und aufgewachsen und absolviert ein Masterstudium in Biochemie. Sie interessiert sich besonders für die Bereiche der Biotechnologie und Katalyse. Neben ihrem Studium begeistert sich Bettina für Musik, geht an Konzerte oder spielt die Songs ihrer Lieblingsband boygenius auf der Gitarre.'
+  ,'Bettina was born and raised in Zurich and is pursuing a Master’s degree in biochemistry. She is particularly interested in the fields of metal-organic biotechnology and catalysis. Besides her studies Bettina is enthusiastic about music, and can be found going to concerts, or playing the songs of her favorite band boygenius on the guitar.'),
+  'mail_prefix' => 'bettina.huerlimann',
+  'linkedin' => 'https://www.linkedin.com/in/bettinahuerlimann/'
 );
 
 $lang['team'][2] = array(
-  'name' => 'Till Niederhoff',
+  'name' => 'Joshua Gwerder',
   'task' => array('Co-Präsident','Co-President'),
-  'info' => array('Till kommt ursprünglich aus Stuttgart und studiert nun im Bachelor Chemieingenieurswissenschaften an der ETH Zürich. Nach einem Jahr als Head of Industrial Relations der Chemie-Fachschaft VCS freut er sich nun auf diese neue Challenge. Seine freie Zeit verbringt er Sommer wie Winter am liebsten in den Bergen. Von Wandern über Hoch- und Skitouren bis zum Freeriden ist ihm keine alpine Aktivität zu schade.',
-  'Till is originally from Stuttgart and is now pursuing a Bachelor’s degree in Chemical Engineering at ETH Zurich. After a year as Head of Industrial Relations at the VCS chemistry student council, he is now looking forward to this new challenge. He enjoys spending his free time in the mountains in both summer and winter. From hiking and mountaineering to ski touring and freeriding, no alpine activity is beneath him.'), 
-  'mail_prefix' => 'till.niederhoff',
-  'linkedin' => 'https://www.linkedin.com/in/till-sebastian-niederhoff-618502268/'
+  'info' => array('Joshua, der in Schwyz aufgewachsen ist, studiert im 2. Semester Master Biochemie an der ETH Zürich. Seine Faszination gilt nicht nur der Chemie und Biologie, sondern auch der Anwendungen von Computertechnologien in diesen Feldern. In seiner Freizeit sucht Joshua den Ausgleich im Sport und findet diesen im Schwimmen und Skifahren.',
+  'Joshua, who grew up in Schwyz, is in his 2nd semester master of biochemistry at ETH Zurich. His fascination lies not only in chemistry and biology but also in the application of computer technologies in these fields. In his free time, Joshua seeks balance through sports and finds it in swimming and skiing.'), 
+  'mail_prefix' => 'joshua.gwerder',
+  'linkedin' => 'https://www.linkedin.com/in/joshua-gwerder-22872835a/'
 );
 
 $lang['team'][3] = array(
-  'name' => 'Tobias Jenny',
+  'name' => 'Luis Fagundes Ros',
   'task' => array('Catering','Catering'),
-  'info' => array('Tobias ist in Volketswil in der Nähe von Zürich aufgewachsen und studiert Chemie im Master. Seine Interessen liegen auf den Gebieten der anorganischen und metallorganischen Chemie. Als Ausgleich zum Chemiestudium findet man Tobias oft in den Bergen oder beim Sport. Im Sommer gehören dazu Bouldern und Beachvolleyball, im Winter vor allem Ski- und Snowboardfahren.', 
-  'Tobias grew up in Volketswil near Zurich and is pursuing a Master’s degree in chemistry. His interests lie in the fields of inorganic and organometallic chemistry. To balance out his chemistry studies, Tobias can often be found in the mountains or playing sports. In summer this includes bouldering and beach volleyball, in winter mainly skiing and snowboarding.'),
-  'mail_prefix' => 'tobias.jenny',
-  'linkedin' => 'https://www.linkedin.com/in/tobias-jenny/'
-);
-
-$lang['team'][4] = array(
-  'name' => 'Bettina Hürlimann',
-  'task' => array('Design','Design'),
-  'info' => array('Bettina ist in Zürich geboren und aufgewachsen und absolviert ein Bachelorstudium in Biochemie. Sie interessiert sich besonders für die Bereiche der metallorganischen Chemie und der Katalyse. Neben ihrem Studium begeistert sich Bettina für Musik, geht an Konzerte oder spielt die Songs ihrer Lieblingsband boygenius auf der Gitarre.',
-  'Bettina was born and raised in Zurich and is pursuing a bachelor’s degree in biochemistry. She is particularly interested in the fields of metal-organic chemistry and catalysis. Besides her studies Bettina is enthusiastic about music, and can be found going to concerts, or playing the songs of her favorite band boygenius on the guitar.'), 
-  'mail_prefix' => 'bettina.huerlimann',
+  'info' => array('Luís, mit portugiesischen und niederländischen Wurzeln, befindet sich im 6. Semester seines Biochemie-Bachelorstudiums. Derzeit ist er sehr an den Bereichen der molekularen Rezeptoren und der RNA-Chemie interessiert, sowie auch an computergestützter Chemie. Luís verbringt gerne seine Freizeit auf Konzerten, beim Skifahren, Schwimmen oder Skaten.', 
+  'Luís, with Portuguese and Dutch roots, is in the 6th semester of his Biochemistry Bachelor’s program. He is currently very interested in the fields of molecular receptors and RNA chemistry, as well as in computational chemistry. In his free time, Luís enjoys going to concerts, skiing, swimming, or skating.'),
+  'mail_prefix' => 'luis.fagundesros',
   'linkedin' => ''
 );
 
-$lang['team'][5] = array(
+$lang['team'][4] = array(
   'name' => 'Hannah Ahrens',
-  'task' => array('Public Relations','Public Relations'),
+  'task' => array('Design','Design'),
   'info' => array('Hannah ist in München groß geworden und studiert derzeit den Bachelorstudiengang Interdisziplinäre Naturwissenschaften. Sie interessiert sich sehr für Chemie, insbesondere für organische Chemie und Computational Chemistry, ist aber offen für alle Arten von Naturwissenschaften. Als Ausgleich zum Studium macht Hannah gerne Sport, vor allem Tennis, Joggen und Skifahren.',
   'Hannah was raised in Munich, Germany and is currently pursuing a Bachelor’s degree in Interdisciplinary Science. Her interests lie strongly in the field of chemistry, especially organic and computational chemistry, but she is open to all kinds of science. To balance her studies, Hannah can often be found playing sports, especially tennis, going for a run or skiing.'), 
   'mail_prefix' => 'hannah.ahrens',
   'linkedin' => 'https://www.linkedin.com/in/hannah-ahrens-b25b80260/'
 );
 
+$lang['team'][5] = array(
+  'name' => 'Swagata Dutta',
+  'task' => array('Public Relations','Public Relations'),
+  'info' => array('Swagata kommt aus einem kleinen Städtchen bei Freiburg und studiert derzeit im 6. Semester Biochemie. Ihr Studium macht ihr viel Spaß, besonders begeistert sie sich für organische Chemie und Molekularbiologie. Wenn sie nicht gerade im Labor steht, ist sie gern sportlich unterwegs und genießt sonnige Nachmittage auf der Werdinsel. ',
+  'Swagata comes from a small town near Freiburg and is currently in her sixth semester of studying biochemistry. She really enjoys her studies, especially organic chemistry and molecular biology. When she’s not in the lab, she likes being active and spending sunny afternoons on the Werdinsel. '), 
+  'mail_prefix' => 'swagata.dutta',
+  'linkedin' => 'https://www.linkedin.com/in/swagata-dutta-a075b6254'
+);
+
 $lang['team'][6] = array(
   'name' => 'Xenia Schleis',
   'task' => array('Begleitprogramm','Supporting Program'),
-  'info' => array('Xenia kommt aus der Nähe von Koblenz (DE) und studiert nun Interdisziplinäre Naturwissenschaften im vierten Semester. Im Grunde interessiert sie sich für alles, was sich an den Schnittstellen von Chemie, Biologie und Medizin befindet. Ausserhalb des Studiums verbringt sie ihre Zeit am liebsten mit dem Kochen und Schwimmen.',
+  'info' => array('Xenia kommt aus der Nähe von Koblenz (DE) und studiert nun Interdisziplinäre Naturwissenschaften im sechsten Semester. Im Grunde interessiert sie sich für alles, was sich an den Schnittstellen von Chemie, Biologie und Medizin befindet. Ausserhalb des Studiums verbringt sie ihre Zeit am liebsten mit dem Kochen und Schwimmen.',
   'Xenia grew up near Koblenz (Germany) and is currently pursuing her Bachelor’s degree in Interdisciplinary Sciences. In principle, she is interested in everything at the intersection of chemistry, biology and medicine. Besides her studies, she enjoys cooking and swimming.'),
   'mail_prefix' => 'xenia.schleis',
   'linkedin' => 'https://www.linkedin.com/in/xenia-schleis-993770271'
 );
 
 $lang['team'][7] = array(
-  'name' => 'Flores Schürch',
+  'name' => 'Leonard Hummer',
   'task' => array('Messebau','Fair Construction'),
-  'info' => array('Flores kommt ursprünglich aus Solothurn, lebt aber seit dem Beginn ihres Bachelorestudiums in Chemieingenieurwissenschaften in Zürich. Sie betreibt fast alle Sportarten, die in den Bergen möglich sind, also von Klettern & Bouldern über Bergsteigen zum Skifahren und Skitourengehen macht ihr alles Freude. Sie ist im Leitungsteam des Projekts Together Weltweit welches eine Partnerschaft mit einer Gemeinde auf Kuba pflegt und freut sich nun als Teil des Chemtogether OKs auf die neue Herausforderung.',
-  'Flores is originally from Solothurn, but has lived in Zurich since starting her bachelor’s degree in chemical engineering. She enjoys almost all sports that are possible in the mountains, from climbing and bouldering to mountaineering, skiing and ski touring. She is on the management team of the Together Weltweit project, which maintains a partnership with a community in Cuba, and is now looking forward to the new challenge as part of the Chemtogether team.'),
-  'mail_prefix' => 'flores.schuerch',
-  #'linkedin' => ''
-);
-
-$lang['team'][8] = array(
-  'name' => 'Hannah Osthaus',
-  'task' => array('Public Relations','Public Relations'),
-  'info' => array('Hannah kommt aus Düsseldorf und studiert Interdisziplinäre Naturwissenschaften im Bachelor. Sie interessiert sich besonders für Biochemie, medizinische Chemie und Pharmazie. Neben ihrer Tätigkeit im VCS Vorstand freut sie sich auf eine neue spannende Herausforderung bei der ChemTogether. Von der Uni lenkt sie sich gerne durch Skifahren, Schwimmen oder einen entspannten Kochabend mit Freunden ab.',
-  'Hannah grew up in Düsseldorf and is studying for a Bachelor’s degree in Interdisciplinary Sciences. She is particularly interested in biochemistry, medicinal chemistry and pharmacy. In addition to her work on the VCS Board, she is looking forward to a new and exciting challenge at ChemTogether. She likes to take her mind off studying by skiing, swimming or enjoying a relaxed evening of cooking with friends.'), 
-  'mail_prefix' => 'hannah.osthaus',
-  'linkedin' => 'https://www.linkedin.com/in/hannah-osthaus-a727872a3/'
-);
-
-$lang['team'][9] = array(
-  'name' => 'Marie Diederichs',
-  'task' => array('Akquiseleitung','Head of Company Acquisition'),
-  'info' => array('Marie ist in Dortmund aufgewachsen und studiert Biochemie im Bachelor an der ETH. Sie hat ein besonderes Interesse an Physikalischer Chemie, Organischer Chemie und Neurowissenschaften. Neben ihrem Studium engagiert sie sich gerne in Musik, Sport, Kultur und reist gerne. In der vorlesungsfreien Zeit findet man sie oft in Amsterdam, um Freunde zu besuchen.',
-  'Marie grew up in Dortmund and is pursuing a Bachelor’s degree in Biochemistry at ETH. She has a keen interest in Physical Chemistry, Organic Chemistry, and Neuroscience. Besides her studies, she enjoys engaging in music, sports, culture, and traveling. During the lecture-free periods, she is often found in Amsterdam visiting friends.'), 
-  'mail_prefix' => 'marie.diederichs',
+  'info' => array('',
+  ''),
+  'mail_prefix' => 'leonard.hummer',
   'linkedin' => ''
 );
 
-$lang['team'][10] = array(
+$lang['team'][8] = array(
   'name' => 'Audrey Pohlman',
-  'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('Audrey ist in München aufgewachsen. Derzeit studiert sie Biochemie an der ETH Zürich und ist dabei besonders an der molekularen Biologie interessiert. Neben ihrer akademischen Tätigkeit treibt Audrey gerne Sport. Am liebsten spielt sie Fußball und fährt Ski und genießt den damit verbundenen Ausgleich zu ihrem Studium. ',
-  'Audrey was born and raised in Munich. Currently pursuing her studies in biochemistry at ETH Zurich, she is particularly fascinated by molecular biology. Outside of her academic pursuits, Audrey enjoys staying active through sports. She particularly enjoys playing soccer and skiing, embracing the balance they bring to her life.'), 
+  'task' => array('Akquiseleitung','Head of Company Acquisition'),
+  'info' => array('Audrey ist in München aufgewachsen. Derzeit studiert sie Biochemie an der ETH Zürich und ist dabei besonders an der molekularen Biologie interessiert. Neben ihrer akademischen Tätigkeit treibt Audrey gerne Sport. Am liebsten spielt sie Fußball und fährt Ski und genießt den damit verbundenen Ausgleich zu ihrem Studium.',
+  'Audrey was born and raised in Munich. Currently pursuing her studies in biochemistry at ETH Zurich, she’s particularly fascinated by molecular biology. Outside of her academic pursuits, Audrey enjoys staying active through sports. She particularly enjoys playing soccer and skiing, embracing the balance they bring to her life.'), 
   'mail_prefix' => 'audrey.pohlman',
   'linkedin' => ''
 );
 
-$lang['team'][11] = array(
-  'name' =>'Joshua Gwerder',
-  'task' => array('Quästor','Treasurer'),
-  'info' => array('Joshua, der in Schwyz aufgewachsen ist, studiert im 6. Semester Biochemie an der ETH Zürich. Seine Faszination gilt nicht nur der Chemie und Biologie, sondern auch der Anwendungen von Computertechnologien in diesen Feldern. In seiner Freizeit such Joshua den Ausgleich im Sport und findet diesen bei Schwimmen und Skifahren.'
-  ,'Joshua, who grew up in Schwyz, is in his 6th semester of biochemistry at ETH Zurich. His fascination lies not only in chemistry and biology but also in the application of computer technologies in these fields. In his free time, Joshua seeks balance through sports and finds it in swimming and skiing.'), 
-  'mail_prefix' => 'joshua.gwerder',
-  #'linkedin' => ''
+$lang['team'][9] = array(
+  'name' => 'Diana Rebholz',
+  'task' => array('Infrastruktur','Infrastructure'),
+  'info' => array('',
+  ''), 
+  'mail_prefix' => 'diana.rebholz',
+  'linkedin' => ''
 );
 
-$lang['team'][12] = array(
-  'name' => 'Stefan Schmid',
-  'task' => array('Webmaster','Webmaster'),
-  'info' => array('Stefan schloss sein Masterstudium 2023 in Chemie an der ETH Zürich ab, welches einen Forschungsaufenthalt an der Universität von Toronto beinhaltete. Seit Oktober 2023 ist er ein PhD Studium an der ETH Zürich in KI-unterstützter Chemie absolvieren. In seiner Freizeit ist Stefan ein leidenschaftlicher Tischtennisspieler, fährt gerne Ski und verbringt wertvolle Zeit mit seinen Freunden.', 
-  'Stefan completed his Master’s degree in Chemistry at ETH Zurich in 2023, which included a stay at the University of Toronto. Since October 2023, he pursues a PhD degree at ETH Zurich in AI-augmented Chemistry. In his free time, Stefan is a passionate table tennis player and enjoys skiing and spending quality time with his friends.'),
-  'mail_prefix' => 'stefan.schmid',
-  'linkedin' => 'https://www.linkedin.com/in/stefan-philipp-schmid/'
+$lang['team'][10] = array(
+  'name' => 'Till Niederhoff',
+  'task' => array('Quästur','Treasurer'),
+  'info' => array('Till kommt ursprünglich aus Stuttgart und studiert nun im Bachelor Chemieingenieurswissenschaften an der ETH Zürich. Nach einem Jahr als Co-Präsident der Chemtogether unterstützt er nun das Präsidium und kümmert sich um die Finanzen. Seine freie Zeit verbringt er Sommer wie Winter am liebsten in den Bergen. Von Wandern über Hoch- und Skitouren bis zum Freeriden ist ihm keine alpine Aktivität zu schade.',
+  'Till is originally from Stuttgart and is now studying for a bachelor’s degree in chemical engineering at ETH Zurich. After a year as Co-President of Chemtogether, he now supports the Executive Committee and takes care of the finances. He prefers to spend his free time in the mountains in both summer and winter. From hiking to mountaineering and ski touring to freeriding, no alpine activity is beneath him.'), 
+  'mail_prefix' => 'till.niederhoff',
+  'linkedin' => 'https://www.linkedin.com/in/till-sebastian-niederhoff-618502268/'
+);
+
+$lang['team'][11] = array(
+  'name' => 'Isabella Müller-Vogt',
+  'task' => array('IT','IT'),
+  'info' => array('Isabella ist in der Nähe von Stuttgart aufgewachsen und studiert derzeit im 4. Semester Interdisziplinäre Naturwissenschaften. Sie interessiert sich besonders für Biomedical Engineering und alle Möglichkeiten, wie Chemie, Biologie, Technologie und Medizin zusammenkommen.Außerhalb der Universität kann man sie beim Schwimmen, Radfahren oder Laufen antreffen.', 
+  'Isabella grew up close to Stuttgart and is currently pursuing a Bachelor’s degree in Interdisciplinary Sciences. She’s particularly interested in biomedical engineering and all the ways that chemistry, biology, technology and medicine come together. Outside of university, you will probably find her swimming laps, riding her bike or going for a run.'),
+  'mail_prefix' => 'isabella.mueller-vogt',
+  'linkedin' => 'https://www.linkedin.com/in/isabellamueller-vogt/'
 );
 
 $lang['content']['alumni_subsection'] = array('Chemtogether Alumni','Chemtogether Alumni');
