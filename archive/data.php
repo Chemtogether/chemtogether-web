@@ -40,7 +40,7 @@ $archive[$i++] = array(
   "name_short" => "bachem",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2023 => 'silver', 2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2024 => 'silver', 2023 => 'silver', 2022 => 'silver',2021 => 'silver', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -91,7 +91,7 @@ $archive[$i++] = array(
   "name_short" => "bluematter",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2023 => 'silver'),
+  "attendences" => array(2024 => 'base', 2023 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -101,7 +101,7 @@ $archive[$i++] = array(
   "name_short" => "büchi",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2022 => 'silver'),
+  "attendences" => array(2024 => 'base', 2022 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -121,7 +121,7 @@ $archive[$i++] = array(
   "name_short" => "carbogenamcis",
   "info" => 1,
   "interviews" => 4,
-  "attendences" => array(2023 => 'base', 2022 => 'silver', 2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
+  "attendences" => array(2024 => 'silver', 2023 => 'base', 2022 => 'silver', 2021 => 'silver',2019 => 'silver', 2018 => 'silver', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base', 2013 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -152,7 +152,7 @@ $archive[$i++] = array(
   "name_short" => "dottikon",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2024 => 'silver', 2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'base', 2018 => 'base', 2017 => 'base', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -303,7 +303,7 @@ $archive[$i++] = array(
   "name_short" => "lonza",
   "info" => 1,
   "interviews" => 2,
-  "attendences" => array(2022 => 'gold', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2024 => 'gold', 2022 => 'gold', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'silver', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -323,7 +323,7 @@ $archive[$i++] = array(
   "name_short" => "metrohm",
   "info" => 1,
   "interviews" => 5,
-  "attendences" => array(2022 => 'base', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
+  "attendences" => array(2024 => 'base', 2022 => 'base', 2021 => 'silver', 2019 => 'silver', 2018 => 'silver', 2017 => 'silver', 2016 => 'base', 2015 => 'base', 2014 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -343,7 +343,7 @@ $archive[$i++] = array(
   "name_short" => "mettlertoledo",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2023 => 'base', 2021 => 'base', 2019 => 'base'),
+  "attendences" => array(2024 => 'silver', 2023 => 'base', 2021 => 'base', 2019 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -393,7 +393,7 @@ $archive[$i++] = array(
   "name_short" => "siegfried",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2023 => 'gold', 2019 => 'base', 2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
+  "attendences" => array(2024 => 'silver', 2023 => 'gold', 2019 => 'base', 2018 => 'base', 2013 => 'gold', 2014 => 'base', 2015 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -413,7 +413,7 @@ $archive[$i++] = array(
   "name_short" => "sika",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2023 => 'base', 2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
+  "attendences" => array(2024 => 'base', 2023 => 'base', 2022 => 'base', 2021 => 'base', 2019 => 'base', 2018 => 'base', 2017 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -423,7 +423,7 @@ $archive[$i++] = array(
   "name_short" => "sulzer",
   "info" => 1,
   "interviews" => 0,
-  "attendences" => array(2023 => 'base'),
+  "attendences" => array(2024 => 'base', 2023 => 'base'),
 );
 
 $archive[$i++] = array(
@@ -433,7 +433,7 @@ $archive[$i++] = array(
   "name_short" => "syngenta",
   "info" => 1,
   "interviews" => 1,
-  "attendences" => array(2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
+  "attendences" => array(2024 => 'silver', 2023 => 'silver', 2022 => 'silver', 2021 => 'silver', 2019 => 'silver'),
 );
 
 $archive[$i++] = array(
@@ -466,6 +466,65 @@ $archive[$i++] = array(
   "attendences" => array(2023 => 'silver', 2021 => 'gold'),
 );
 
+$archive[$i++] = array(
+  "link_url" => '/archive/corden/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/corden/logo','png',FALSE),
+  "name" => "Corden",
+  "name_short" => "corden",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2024 => 'silver'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/impag/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/impag/logo','png',FALSE),
+  "name" => "IMPAG AG",
+  "name_short" => "impag",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2024 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/siga/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/siga/logo','jpeg',FALSE),
+  "name" => "SIGA",
+  "name_short" => "siga",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2024 => 'silver'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/dfmp/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/dfmp/logo','png',FALSE),
+  "name" => "df-mp",
+  "name_short" => "dfmp",
+  "info" => 1,
+  "interviews" => 1,
+  "attendences" => array(2024 => 'silver'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/datahow/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/datahow/logo','png',FALSE),
+  "name" => "datahow",
+  "name_short" => "datahow",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2024 => 'base'),
+);
+
+$archive[$i++] = array(
+  "link_url" => '/archive/astrazeneca/index.php#info',
+  "logo_url" => set_source($awss3_archive.'/astrazeneca/logo','png',FALSE),
+  "name" => "astrazeneca",
+  "name_short" => "astrazeneca",
+  "info" => 1,
+  "interviews" => 0,
+  "attendences" => array(2024 => 'base'),
+);
 
 // Sort archive array alphabetically based on "name" index, case-insensitive
 usort($archive, function($a, $b){ return strcasecmp($a["name"], $b["name"]); });
