@@ -79,10 +79,10 @@ $lang['team'][6] = array(
 $lang['team'][7] = array(
   'name' => 'Leonard Hummer',
   'task' => array('Messebau','Fair Construction'),
-  'info' => array('',
-  ''),
+  'info' => array('Leonard stammt aus Wien und befindet sich im 2. Semester seines Bachelorstudiums in Interdisziplinären Naturwissenschaften an der ETH Zürich. Besonders fasziniert ihn die Schnittstelle zwischen Physik, Chemie und Biologie, wobei sein Hauptinteresse dem Bereich Biomedical Engineering gilt. In seiner Freizeit reist er gerne, widmet sich dem Zeichnen oder treibt Sport.',
+  'Leonard is from Vienna and is currently in his second semester of a Bachelor’s degree in Interdisciplinary Natural Sciences at ETH Zurich. He is particularly fascinated by the intersection of physics, chemistry, and biology, with a strong interest in biomedical engineering. In his free time, he enjoys traveling, drawing, and playing sports.'),
   'mail_prefix' => 'leonard.hummer',
-  'linkedin' => ''
+  'linkedin' => 'https://www.linkedin.com/in/leonard-hummer-9a52872b6/'
 );
 
 $lang['team'][8] = array(
@@ -94,16 +94,16 @@ $lang['team'][8] = array(
   'linkedin' => ''
 );
 
-$lang['team'][9] = array(
-  'name' => 'Diana Rebholz',
-  'task' => array('Infrastruktur','Infrastructure'),
-  'info' => array('',
-  ''), 
-  'mail_prefix' => 'diana.rebholz',
-  'linkedin' => ''
-);
+// $lang['team'][9] = array(
+//   'name' => 'Diana Rebholz',
+//   'task' => array('Infrastruktur','Infrastructure'),
+//   'info' => array('',
+//   ''), 
+//   'mail_prefix' => 'diana.rebholz',
+//   'linkedin' => ''
+// );
 
-$lang['team'][10] = array(
+$lang['team'][9] = array(
   'name' => 'Till Niederhoff',
   'task' => array('Quästur','Treasurer'),
   'info' => array('Till kommt ursprünglich aus Stuttgart und studiert nun im Bachelor Chemieingenieurswissenschaften an der ETH Zürich. Nach einem Jahr als Co-Präsident der Chemtogether unterstützt er nun das Präsidium und kümmert sich um die Finanzen. Seine freie Zeit verbringt er Sommer wie Winter am liebsten in den Bergen. Von Wandern über Hoch- und Skitouren bis zum Freeriden ist ihm keine alpine Aktivität zu schade.',
@@ -112,7 +112,7 @@ $lang['team'][10] = array(
   'linkedin' => 'https://www.linkedin.com/in/till-sebastian-niederhoff-618502268/'
 );
 
-$lang['team'][11] = array(
+$lang['team'][10] = array(
   'name' => 'Isabella Müller-Vogt',
   'task' => array('IT','IT'),
   'info' => array('Isabella ist in der Nähe von Stuttgart aufgewachsen und studiert derzeit im 4. Semester Interdisziplinäre Naturwissenschaften. Sie interessiert sich besonders für Biomedical Engineering und alle Möglichkeiten, wie Chemie, Biologie, Technologie und Medizin zusammenkommen.Außerhalb der Universität kann man sie beim Schwimmen, Radfahren oder Laufen antreffen.', 
