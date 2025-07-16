@@ -101,7 +101,8 @@ $lang['detail']['interviews']['present'] = array('heute','present');
 $lang['detail']['interviews']['read_more'] = array('Lies weiter','Read more');
 
 //PROGRAMME
-$lang['content']['programme_subsection'] = array('Begleitprogramm','Supporting Programme');
+$lang['content']['programme_subsection']['title'] = array('Begleitprogramm','Supporting Programme');
+$lang['content']['programme_subsection']['coming_soon'] = array('Mehr Details werden bald veröffentlicht', 'More details are being published soon');
 
 $lang['content']['programme_1_preview'] = array(
   'title' => array('Podiumsdiskussion: <br> Beyond Bias: A Closer Look at Careers in Industry and Academia','Panel discussion:<br> Beyond Bias: A Closer Look at Careers in Industry and Academia'),
