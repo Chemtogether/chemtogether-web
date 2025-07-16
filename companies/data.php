@@ -25,14 +25,6 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-    "link_url" => '/companies/dottikon/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/dottikon/logo','png', FALSE),
-    "name" => "<br> DOTTIKON  <br> <br> ",
-    "name_short" => "dottikon",
-    "package" => 'silver',
-);
-
-$data['day1'][$i++] = array(
     "link_url" => '/companies/mettlertoledo/index.php#info',
     "logo_url" => set_source($awss3.'/companies/mettlertoledo/logo','png', FALSE),
     "name" => "<br>  Mettler Toledo <br>  <br> ",
@@ -41,20 +33,20 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-    "link_url" => '/companies/corden/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/corden/logo','png', FALSE),
-    "name" => "<br>  Corden <br>  <br> ",
-    "name_short" => "corden",
+    "link_url" => '/companies/dfmp/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/dfmp/logo','png', FALSE),
+    "name" => "df-mp",
+    "name_short" => "dfmp",
+    "package" => 'silver',
+ );
+
+ $data['day1'][$i++] = array(
+    "link_url" => '/companies/valsynthese/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/valsynthese/logo','png', FALSE),
+    "name" => "<br> VALSYNTHESE AG <br>  <br> ",
+    "name_short" => "valsynthese",
     "package" => 'silver',
 );
-
-$data['day1'][$i++] = array(
-    "link_url" => '/companies/sika/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/sika/logo','png', FALSE),
-    "name" => "<br> Sika Technology AG <br>  <br> ",
-    "name_short" => "sika",
-    "package" => 'base',
-); 
 
 $data['day1'][$i++] = array(
     "link_url" => '/companies/buchi/index.php#info',
@@ -65,48 +57,58 @@ $data['day1'][$i++] = array(
 );
 
 $data['day1'][$i++] = array(
-    "link_url" => '/companies/bluematter/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/bluematter/logo','png', FALSE),
-    "name" => "<br> Blue Matter Consulting <br>  <br> ",
-    "name_short" => "bluematter",
+    "link_url" => '/companies/carbogenamcis/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
+    "name" => "<br> Carbogen amcis  <br> <br> ",
+    "name_short" => "carbogenamcis",
     "package" => 'base',
 );
 
-$data['day1'][$i++] = array(
-    "link_url" => '/companies/impag/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/impag/logo','png', FALSE),
-    "name" => "<br> IMPAG AG <br>  <br> ",
-    "name_short" => "impag",
+ $data['day1'][$i++] = array(
+    "link_url" => '/companies/metrohm/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
+    "name" => "<br> Metrohm AG <br> <br> ",
+    "name_short" => "metrohm",
     "package" => 'base',
 );
+
+ $data['day1'][$i++] = array(
+    "link_url" => '/companies/sulzer/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/sulzer/logo','png', FALSE),
+    "name" => "<br> SulzerAG <br> <br> ",
+    "name_short" => "sulzer",
+    "package" => 'base',
+);
+
+
+
 
 // Tag 2 Firmen
 
 $lang['day2'] = null;
 $i = 0; 
 
-
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/siegfried/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/siegfried/logo','png', FALSE),
-    "name" => "<br> Siegfried AG <br> <br> ",
-    "name_short" => "siegfried",
-    "package" => 'gold',
-);
-
-$data['day2'][$i++] = array(
-    "link_url" => '/companies/carbogenamcis/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/carbogenamcis/logo','png', FALSE),
-    "name" => "<br> Carbogen amcis  <br> <br> ",
-    "name_short" => "carbogenamcis",
+    "link_url" => '/companies/baehler/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/baehler/logo','png', FALSE),
+    "name" => "<br> DR. BÄHLER DROPA AG <br> <br> ",
+    "name_short" => "baehler",
     "package" => 'silver',
 );
 
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/siga/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/siga/logo','jpeg', FALSE),
-    "name" => "<br> SIGA  <br> <br> ",
-    "name_short" => "siga",
+    "link_url" => '/companies/ems/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/ems/logo','png', FALSE),
+    "name" => "<br> EMS-CHEMIE AG <br> <br> ",
+    "name_short" => "ems",
+    "package" => 'silver',
+);
+
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/impag/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/impag/logo','png', FALSE),
+    "name" => "<br> IMPAG AG <br>  <br> ",
+    "name_short" => "impag",
     "package" => 'silver',
 );
 
@@ -118,45 +120,43 @@ $data['day2'][$i++] = array(
     "package" => 'silver',
  );
 
+// wednesday this year
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/dfmp/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/dfmp/logo','png', FALSE),
-    "name" => "df-mp",
-    "name_short" => "dfmp",
-    "package" => 'silver',
- );
-
- $data['day2'][$i++] = array(
-    "link_url" => '/companies/metrohm/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
-    "name" => "<br> Metrohm AG <br> <br> ",
-    "name_short" => "metrohm",
+    "link_url" => '/companies/corden/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/corden/logo','png', FALSE),
+    "name" => "<br>  Corden <br>  <br> ",
+    "name_short" => "corden",
     "package" => 'base',
 );
 
- $data['day2'][$i++] = array(
-    "link_url" => '/companies/sulzer/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/sulzer/logo','png', FALSE),
-    "name" => "<br> SulzerAG <br> <br> ",
-    "name_short" => "sulzer",
+//  hier fehlt noch grunenthal
+
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/hoffmanneitle/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/hoffmanneitle/logo','png', FALSE),
+    "name" => "<br>  HOFFMANN EITLE <br>  <br> ",
+    "name_short" => "hoffmanneitle",
     "package" => 'base',
 );
 
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/datahow/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/datahow/logo','png', FALSE),
-    "name" => "datahow",
-    "name_short" => "datahow",
+    "link_url" => '/companies/siga/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/siga/logo','jpeg', FALSE),
+    "name" => "<br> SIGA  <br> <br> ",
+    "name_short" => "siga",
     "package" => 'base',
 );
 
+// coming wednesday this year
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/astrazeneca/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/astrazeneca/logo','png', FALSE),
-    "name" => "AstraZeneca Switzerland",
-    "name_short" => "astrazeneca",
+    "link_url" => '/companies/sika/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/sika/logo','png', FALSE),
+    "name" => "<br> Sika Technology AG <br>  <br> ",
+    "name_short" => "sika",
     "package" => 'base',
-);
+); 
+
+
 
 $i = 0; 
 ?>
