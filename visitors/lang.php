@@ -12,8 +12,8 @@ $lang['content']['intro_text'] = array(
   'Chemtogether is a career fair at ETH Zürich with the aim of connecting students and companies in the general field of chemistry and pharmacy.'); //During both days, 9 companies will present themselves and allow for the exchange of career options with the students and PhDs. In total, 18 companies from the industrial world of chemistry and pharmacy will be present.<br> Do you also want to help at this years Chemtogether edition? Then sign up <b><a href="https://docs.google.com/spreadsheets/d/1SjfU0WA_YhLHrcQYAr7p9XUQ1tqg0fXvgrLKQBy_PVo/edit?usp=sharing">here</a></b>!');
 
 $lang['content']['main_text'] = array(
-  'Chemtogether 2024 wird am 11. und 12. November 2025 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9:30-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
-  'Chemtogether 2024 will take place on the 11th and 12th of November 2025 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9:30am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
+  'Chemtogether 2025 wird am 11. und 12. November 2025 im G-Stock des HCI-Gebäudes der ETH Hönggerberg stattfinden. An beiden Tagen werden jeweils von 9:30-17 Uhr die weiter unten aufgeführten neun Firmen anwesend sein. Jeder Tag beginnt mit Kaffee &amp; Croissants und endet mit einem Apéro. Die Messe ist offen für jeden, es ist also keine Registrierung notwendig.',
+  'Chemtogether 2025 will take place on the 11th and 12th of November 2025 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9:30am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
 $lang['content']['links_guide'] = array('Messeführer (2024)','Expo Guide (2024)');
@@ -49,8 +49,8 @@ $lang['content']['collaboration'] = array(
 // COMPANIES  
 $lang['content']['companies_subsection'] = array('Die Firmen','The Companies');
 $lang['content']['companies_text'] = array(
-    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2024 wieder an den zwei Tagen der Chemtogether teil.',
-    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2024. ');
+    'Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen auch 2025 wieder an den zwei Tagen der Chemtogether teil.',
+    'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2025. ');
 
 $lang['content']['day1'] = array('Dienstag, 11. November','Tuesday, 11th of November');
 $lang['content']['day2'] = array('Mittwoch, 12. November', 'Wednesday, 12th of November');
@@ -67,8 +67,8 @@ $lang['content']['preliminary-one'] = array(
     'We are looking forward to welcome the following partner companies: BASF, Avantama AG,  CARBOGEN AMCIS, Medbase Apotheken AG, Syngenta Crop Protection AG, Hoffmann Eitle, Idorsia Pharmaceuticals Ltd., Novartis, Sika Technology AG.'
 ); 
 
-$lang['content']['intro-text'] = array('Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2024 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen.',
-'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2024. Get to know what the individual companies offer, who they are looking for and when they attend the fair.');
+$lang['content']['intro-text'] = array('Insgesamt 18 Unternehmen der chemischen und pharmazeutischen Industrie nehmen an den zwei Tagen der Chemtogether 2025 teil. Erfahre an welchem Tag die einzelnen Firmen teilnehmen, sowie was sie anbieten und wen sie suchen.',
+'A total of 18 companies from the chemical and pharmaceutical industry will be present during the two days of Chemtogether 2025. Get to know what the individual companies offer, who they are looking for and when they attend the fair.');
 
 $lang['content']['preliminary-two'] = array(
   'Wir freuen uns auf folgende Partnerfirmen: Lonza AG, Bachem AG, BÜCHI Labortechnik AG, Chemgineering Switzerland AG, DOTTIKON EXCLUSIVE SYNTHESIS A, Evonik Industries AG, Metrohm AG, Senn Chemicals AG, Sensirion AG.',
