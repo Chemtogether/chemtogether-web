@@ -35,7 +35,7 @@ $template['company_name'] = 'df-mp';
 $template['company_name_short'] = 'dfmp';
 $template['logo_url'] = set_source($awss3.'/companies/dfmp/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 2;
+$template['day'] = 1;
 
 $lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
