@@ -35,7 +35,7 @@ $template['company_name'] = 'Corden';
 $template['company_name_short'] = 'corden';
 $template['logo_url'] = set_source($awss3.'/companies/corden/logo','png', FALSE);
 $template['package'] = 'silver';
-$template['day'] = 1;
+$template['day'] = 2;
 
 $lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);

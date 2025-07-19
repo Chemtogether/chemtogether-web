@@ -37,11 +37,11 @@ $lang['detail']['packages']['platinum'] = array('Platinpartner','Platinum Partne
 
 $lang['detail']['archive'] = array('Archiv','Archive');
 
-$lang['detail']['day'][1] = array('Dienstag, 12. November','Tuesday, 12th November');
-$lang['detail']['day'][2] = array('Mittwoch, 13. November','Wednesday, 13th November');
+$lang['detail']['day'][1] = array('Dienstag, 11. November','Tuesday, 11th November');
+$lang['detail']['day'][2] = array('Mittwoch, 12. November','Wednesday, 12th November');
 
-$lang['detail']['day_short'][1] = array('12. November','12th November');
-$lang['detail']['day_short'][2] = array('13. November','13th November');
+$lang['detail']['day_short'][1] = array('11. November','11th November');
+$lang['detail']['day_short'][2] = array('12. November','12th November');
 
 
 $lang['detail']['we_are'] = array('We are','We are');
