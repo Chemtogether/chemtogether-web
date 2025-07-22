@@ -29,8 +29,8 @@ $db->exec($create_query);
 $insert_query = $db->prepare("INSERT INTO detailscarbon (mail, company, representatives, cars, languages, employee, qualification, options, foundingyear, sites, additionalfacts, weare, weoffer, welooking, additionalinfo, comment, y, successfulupload) VALUES (:mail, :company, :representatives, :cars, :languages, :employee, :qualification, :options, :foundingyear, :sites, :additionalfacts, :weare, :weoffer, :welooking, :additionalinfo, :comment, :y, :successfulupload)");
 $insert_query->bindValue(':mail', $_POST['mail']);
 $insert_query->bindValue(':company', $_POST['company']);
-$insert_query->bindValue(':representatives', $_POST['representatives']);
-$insert_query->bindValue(':cars', $_POST['cars']);
+// $insert_query->bindValue(':representatives', $_POST['representatives']);
+// $insert_query->bindValue(':cars', $_POST['cars']);
 $insert_query->bindValue(':languages', $_POST['languages']);
 $insert_query->bindValue(':employee', $_POST['employee']);
 $insert_query->bindValue(':qualification', implode(", ", $_POST['qualification']));
@@ -49,8 +49,8 @@ $insert_query->execute();
 
 $mail = $_POST['mail'];
 $company = $_POST['company'];
-$representatives = $_POST['representatives'];
-$cars = $_POST['cars'];
+// $representatives = $_POST['representatives'];
+// $cars = $_POST['cars'];
 $languages = $_POST['languages'];
 $employee = $_POST['employee'];
 $qualification = implode(", ", $_POST['qualification']);
@@ -66,9 +66,9 @@ $comment = $_POST['comment'];
 
 $mail_msg = "A new company has given their details: \n Company: $company \n Mail: $mail \n Find informations on the view page.";
 
-mail("schmiste@chem.ethz.ch", "New Chemtogether detail submission", $mail_msg);
-mail("mmeinhardt@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
-mail("tniederhoff@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
+mail("imuelle@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
+mail("bhuerlimann@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
+mail("jgwerder@student.ethz.ch", "New Chemtogether detail submission", $mail_msg);
 
 // provides small functions
 include('../../php/general.php');
@@ -85,8 +85,8 @@ include('./lang.php');
 $active_nav = 'registration';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025!",  "url"          => "https://www.chemtogether.ethz.ch/registration/",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -126,8 +126,8 @@ $fb = array(
             echo "<h2> Your information: </h2><br>";
             echo "<b>Mail: </b>" . htmlspecialchars($_POST['mail']) . "<br>";
             echo "<b>Company: </b>" . htmlspecialchars($_POST['company']) . "<br>";
-            echo "<b>Representatives: </b>" . htmlspecialchars($_POST['representatives']) . "<br>";
-            echo "<b>Cars: </b>" . htmlspecialchars($_POST['cars']) . "<br>";
+            // echo "<b>Representatives: </b>" . htmlspecialchars($_POST['representatives']) . "<br>";
+            // echo "<b>Cars: </b>" . htmlspecialchars($_POST['cars']) . "<br>";
             echo "<b>Languages: </b>" . htmlspecialchars($_POST['languages']) . "<br>";
             echo "<b>Employees: </b>" . htmlspecialchars($_POST['employee']) . "<br>";
             echo "<b>Desired qualifications: </b>" . htmlspecialchars(implode(", ", $_POST['qualification'])) . "<br>";

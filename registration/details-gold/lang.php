@@ -3,7 +3,7 @@
 include('../../errors/404/lang.php');
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2024 - Details Gold', 'Chemtogether 2024 - Details Gold');
+$lang['general']['page_title'] = array('Chemtogether 2025 - Details Gold', 'Chemtogether 2025 - Details Gold');
 $lang['navigation']['title'] = array('Details Gold', 'Details Gold');
 $lang['navigation']['submit_title'] = array('Details erfolgreich versandt', 'Details sent successfully');
 $lang['navigation']['view_title'] = array('Details erfolgreich versandt', 'Details sent successfully');
@@ -17,10 +17,9 @@ $lang['content']['intro_text'] = array(
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
     </ul>
     <br>
-    Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. September 2024. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
+    Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. September 2025. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
       <ul>
-        <li> Anzeigen für unsere Jobwall während der Messe. Diese können auf Papier mitgebracht oder bis zum 1. September 2024 per E-Mail an uns gesendet werden, um ihre Relevanz während der Messe sicherzustellen - wir werden kurz zuvor eine Erinnerung senden. Verwenden Sie bitte in beiden Fällen das A4-Format, vorzugsweise mit einer Seite pro offener Position. </li>
-        <li> Mitarbeitergespräche. Unser Team sendet Ihnen die entsprechenden Fragen separat per E-Mail zu und Sie können diese schriftlich und digital beantworten. </li>
+        <li> Anzeigen für unsere Jobwall während der Messe. Diese können auf Papier mitgebracht oder bis zum 1. September 2025 per E-Mail an uns gesendet werden, um ihre Relevanz während der Messe sicherzustellen - wir werden kurz zuvor eine Erinnerung senden. Verwenden Sie bitte in beiden Fällen das A4-Format, vorzugsweise mit einer Seite pro offener Position. </li>
       </ul>
     ',
     'Many thanks for your registration of this year\'s Chemtogether Career Fair! In the attached "How to Chemtogether" document (also available online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2024.pdf">here</a></b>), please find all relevant details for the day of the fair itself. <br> <br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
@@ -29,13 +28,15 @@ $lang['content']['intro_text'] = array(
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
     </ul>
     <br>
-    Please submit all requested details by September 1st, 2024. <br><br> The following are not included in this form and will be organised separately:
+    Please submit all requested details by September 1st, 2025. <br><br> The following are not included in this form and will be organised separately:
       <ul>
-        <li> Advertisements for our job wall during the fair. These can be brought on paper or sent to us via email before September 1st, 2024 to ensure their relevance during the fair - we will ensure to send a reminder shortly beforehand. In either case, please use A4 format, preferably with a single page per open position. </li>
-        <li> Employee interviews. Our team will send you the corresponding questions separately by email and these can be answered in writing digitally.</li>
+        <li> Advertisements for our job wall during the fair. These can be brought on paper or sent to us via email before September 1st, 2025 to ensure their relevance during the fair - we will ensure to send a reminder shortly beforehand. In either case, please use A4 format, preferably with a single page per open position. </li>
       </ul>
     '
   );
+
+  //   <li> Mitarbeitergespräche. Unser Team sendet Ihnen die entsprechenden Fragen separat per E-Mail zu und Sie können diese schriftlich und digital beantworten. </li>
+  // <li> Employee interviews. Our team will send you the corresponding questions separately by email and these can be answered in writing digitally.</li>
 
 $lang['content']['submit_text'] = array("Vielen Dank für ihre Einreichung der Informationen! Sie war erfolgreich. Unser Team wird Sie gegebenenfalls mit weiteren Informationen kontaktieren!", "Thank you for your submission of information! It was successful. Our team will contact you soon with further information!");
 $lang['content']['view_text'] = array("Ansichtsseite für die erfolgreichen Chemtogether Firmeninformationen", "View page for successful Chemtogether company informations");
