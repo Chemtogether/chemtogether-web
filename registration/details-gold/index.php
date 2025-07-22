@@ -23,8 +23,8 @@ include('./lang.php');
 $active_nav = 'details-gold';
 
 $fb = array(
-  "title"        => "Chemtogether 2024",
-  "desc"         => "This year's Chemtogether will take place in November 2024!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-gold",
+  "title"        => "Chemtogether 2025",
+  "desc"         => "This year's Chemtogether will take place in November 2025!",  "url"          => "https://www.chemtogether.ethz.ch/registration/details-gold",
   "image_url"    => $awss3."/opengraph/home_20180315.jpg",
   "image_width"  => "1200",
   "image_height" => "627"
@@ -92,7 +92,7 @@ $fb = array(
                 </div>
               </div>
               
-            <div class="spacer"></div>
+            <!-- <div class="spacer"></div>
             <div class="content flex">
               <div class="text l-12 m-12 s-12">
                 <?php echo($lang['content']['attendance_spacer'][$eng]); ?>
@@ -107,7 +107,8 @@ $fb = array(
                 <input type="text" name="cars" id="cars_form" style="width: 30%; font-size: 16px; font-family: opensans;" required>
             </div>
             </div>
-            </div>
+            </div> -->
+
             <div class="spacer"></div>
             <div class="content flex">
               <div class="text l-12 m-12 s-12">
@@ -234,10 +235,10 @@ $fb = array(
                 <input type="file" name="advertisement" id="advertisement_form" required>
             </div>
             <div class="spacer"></div>
-            <div>
+            <!-- <div>
                 <label for="flash_presentation_form" style="margin-right: 20px; font-size: 20px;"><?php echo($lang['content']['form_flash_presentation'][$eng]); ?></label>
                 <input type="text" name="flashpresentation" id="flash_presentation_form" style="width: 30%; font-size: 16px; font-family: opensans;">
-            </div>
+            </div> -->
             <div class="spacer"></div>
             <div>
                 <label for="comment_form" style="margin-right: 20px; font-size: 20px; vertical-align: top;"><?php echo($lang['content']['form_comment'][$eng]); ?> </label>
