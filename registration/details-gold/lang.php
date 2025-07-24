@@ -11,27 +11,39 @@ $lang['navigation']['topnav_title']= array('Details Gold', 'Details Gold');
 
 // CONTENT TRANSLATIONS FOR THIS PAGE
 $lang['content']['intro_text'] = array(
-  'Vielen Dank für Ihre Anmeldung zur diesjährigen Chemtogether Karrieremesse! Im angehängten Dokument "How to Chemtogether" (auch online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2024.pdf">hier</a></b> verfügbar) finden Sie alle relevanten Details für den Tag der Messe. <br> Mit diesem Formular sammeln wir alle erforderlichen Details, um Ihr Firmenprofil auf unserer Website und in unserem Messeführer zu erstellen, sowie alle erforderlichen Werbematerialien zu veröffentlichen, die Teil unserer Messe sind. Für Beispiele der resultierenden Veröffentlichungen sehen Sie bitte die folgenden Dokumente:
-    <ul> 
+  'Vielen Dank für Ihre Anmeldung zur diesjährigen Chemtogether Karrieremesse! <br><br> Mit diesem Formular erfassen wir alle erforderlichen Angaben, um Ihr Unternehmensprofil auf unserer Website und in unserem Messeführer zu erstellen sowie alle erforderlichen Werbematerialien für die Veröffentlichung im Rahmen unserer Messe. Beispiele für die daraus resultierenden Publikationen finden Sie in den folgenden Dokumenten:
+    <br><br>
+    <ul style="margin-left:2em;"> 
     <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2024expoguide.pdf">2024 Messeführer</a></b> </li>
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online-Archiv früherer Partner</a></b></li>
     </ul>
     <br>
-    Bitte beantworten Sie die Fragen in englischer Sprache und senden Sie uns alle Informationen bis zum 1. September 2025. <br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
-      <ul>
-        <li> Anzeigen für unsere Jobwall während der Messe. Diese können auf Papier mitgebracht oder bis zum 1. September 2025 per E-Mail an uns gesendet werden, um ihre Relevanz während der Messe sicherzustellen - wir werden kurz zuvor eine Erinnerung senden. Verwenden Sie bitte in beiden Fällen das A4-Format, vorzugsweise mit einer Seite pro offener Position. </li>
+    Bitte übermitteln Sie alle erforderlichen Angaben bis zum 1. September 2025. <br><br> Folgende Punkte sind nicht in diesem Formular enthalten und werden separat organisiert:
+      <br><br>
+      <ul style="margin-left:2em;">
+        <li> Anzeigen für unsere Jobwall während der Messe </li>
+        <li> Flash-Präsentation </li>
+        <li> Mitarbeiter-Interviews </li>
+        <li> Organisatorische Details für die Teilnahme an der Messe </li>
       </ul>
+      <br> Wir werden Ihnen zu gegebener Zeit weitere Details zu diesen Themen zukommen lassen.
     ',
-    'Many thanks for your registration of this year\'s Chemtogether Career Fair! In the attached "How to Chemtogether" document (also available online <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/How-to-Chemtogether-2024.pdf">here</a></b>), please find all relevant details for the day of the fair itself. <br> <br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
-    <ul> 
+    'Many thanks for your registration of this year\'s Chemtogether Career Fair! <br><br> With this form, we will be collecting all required details to create your company profile on our website and in our fair guide, along with all required promotional material to publish as part of our fair. For examples of the resulting publications, please see the following documents:
+    <br><br>
+      <ul style="margin-left:2em;"> 
     <li> <b><a href="https://s3.eu-central-1.amazonaws.com/static.chemtogether.2018/files/2024expoguide.pdf">2024 fair guide</a></b> </li>
     <li> <b><a href="https://www.chemtogether.ethz.ch/archive/">Online archive of previous partners</a></b></li>
     </ul>
     <br>
     Please submit all requested details by September 1st, 2025. <br><br> The following are not included in this form and will be organised separately:
-      <ul>
-        <li> Advertisements for our job wall during the fair. These can be brought on paper or sent to us via email before September 1st, 2025 to ensure their relevance during the fair - we will ensure to send a reminder shortly beforehand. In either case, please use A4 format, preferably with a single page per open position. </li>
+      <br><br>
+      <ul style="margin-left:2em;">
+        <li> Advertisements for our job wall during the fair </li>       
+        <li> Flashpresentation </li>
+        <li> Employee Interviews </li>
+        <li> Organisational details for fair attendance </li>
       </ul>
+      <br> We will reach out with further details on these matters in due course.
     '
   );
 
