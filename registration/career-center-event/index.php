@@ -1,12 +1,17 @@
 <?php
 
   $PAGE_OPEN = true;
-
-if (!$PAGE_OPEN || !isset($_GET["t"]) || ($_GET["t"] != getenv("EVENT_REGISTRATION_TOKEN"))){
+if (!$PAGE_OPEN){
     http_response_code(404);
     include('../../errors/404/index.php');
     exit();
 }
+
+// if (!$PAGE_OPEN || !isset($_GET["t"]) || ($_GET["t"] != getenv("EVENT_REGISTRATION_TOKEN"))){
+//     http_response_code(404);
+//     include('../../errors/404/index.php');
+//     exit();
+// }
 
 
 // provides small functions
