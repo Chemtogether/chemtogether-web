@@ -1,12 +1,12 @@
 <?php
 
-if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_REGISTRATIONS_TOKEN"))){
+if (!isset($_GET["t"]) || ($_GET["t"] != getenv("VIEW_EVENT_REGISTRATIONS_TOKEN"))){
     http_response_code(404);
-    include('../errors/404/index.php');
+    include('../../errors/404/index.php');
     exit();
 }
 
-$db = new SQLite3('registrations.db');
+$db = new SQLite3('event-registrations.db');
 
 $res = $db->query("SELECT * FROM registrations");
 
