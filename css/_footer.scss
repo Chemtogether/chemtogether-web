@@ -5,7 +5,6 @@
   z-index: 20;
   background-color: $ct-orange;
 }
-
 @media only screen and (min-width: $bp-large) {
   #footer-container {
     position: fixed;
@@ -16,8 +15,6 @@
     z-index: 10;
   }
 }
-
-
 #footer {
   max-width: 960px;
   width: 90%;
@@ -27,7 +24,6 @@
   align-items: stretch;
   justify-content: center;
 }
-
 .footer-left, .footer-right {
   position: relative;
   text-align: justify;
@@ -36,34 +32,19 @@
   padding-top: 15px;
   padding-bottom: 35px;
 }
-
-
 .footer-left {
   order: 2;
 }
-
 .footer-right {
   order: 1;
   padding-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
 #date-day1, #date-day2, #date-month, #date-year {
   color: $text-white;
   font-family: montserrat;
   font-size: 50px;
   font-size: 10vw;
 }
-
 #date-place, #date-time {
   padding-top: 5px;
   color: $text-white;
@@ -71,7 +52,6 @@
   font-size: 20px;
   font-size: 5vw;
 }
-
 .date-container {
   display: flex;
   flex-direction: row;
@@ -80,7 +60,6 @@
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-
   .date-bar {
     flex-grow: 1;
     height: 1px;
@@ -93,61 +72,74 @@
   }
 }
 
+// Award badge styling
+#award-badge {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+  img {
+    width: 140px;
+    height: auto;
+    max-width: 35vw;
+  }
+}
 
 @media only screen and (min-width: $bp-large) {
-
   .footer-left {
     order: 1;
   }
-
   .footer-right {
     order: 2;
   }
-
   #date-day1, #date-day2, #date-month, #date-year {
     font-size: 70px !important;
   }
-
   #date-place, #date-time {
     font-size: 25px !important;
   }
-
   .date-bar {
     height: 5px !important;
   }
+  
+  #award-badge {
+    position: absolute;
+    right: 15px;
+    bottom: 110px;
+    margin: 0;
+    
+    img {
+      width: 180px;
+      max-width: none;
+    }
+  }
 }
 
-
 @media only screen and (min-width: $bp-max + $sidenav-width_closed) {
-
   #date-day1, #date-day2, #date-month, #date-year {
     font-size: 100px !important;
   }
-
   #date-place, #date-time {
     font-size: 40px !important;
   }
-
   .date-bar {
     height: 5px !important;
   }
-
+  
+  #award-badge {
+    img {
+      width: 220px;
+    }
+  }
 }
 
-
-
-
-
-
 @media only screen and (min-width: $bp-medium) {
-
   #footer-container {
     width: calc(100vw - #{$sidenav-width_closed});
   }
-
 }
-
-
 
 #contact-container {
   position: absolute;
@@ -155,7 +147,6 @@
   right: 0px;
   margin-bottom: 25px;
   padding-right: 15px;
-
   a {
     color: $text-white;
     font-size: 40px;
@@ -163,23 +154,12 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 #footer-text {
   display: block;
   color: $text-white;
   font-family: opensans;
   font-size: 16px;
   padding-top: 20px;
-
   img {
     position: relative;
     left: -9%;
@@ -188,22 +168,18 @@
     height: auto;
     image-rendering: crisp-edges;
   }
-
   .footer-text-1 {
     font-family: montserrat;
     font-size: 26px;
   }
-
   .footer-text-2 {
     font-family: opensans;
     font-size: 18px;
   }
-
   .footer-text-3 {
     font-family: montserrat;
     font-size: 18px;
   }
-
   .footer-text-4 {
     font-size: 16px;
     a {
@@ -212,7 +188,6 @@
       font-size: 16px;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }

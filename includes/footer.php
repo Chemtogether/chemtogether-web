@@ -19,7 +19,6 @@
       </span>
     </div>
 
-
     <div class="footer-right l-7 m-12 s-12">
        <div class="date-container">
         <span id="date-day1">11.</span>
@@ -34,6 +33,11 @@
         <span id="date-place">HCI G-<?php echo($lang['footer']['floor'][$eng]); ?></span>
         <span id="date-time">9.30 - 17.00</span>
       </div>
+
+      <div id="award-badge">
+        <img <?php set_source($awss3.'/img/chemtogether_gold_label','png'); ?> alt="Sustainable Event GOLD - ETH Zürich">
+      </div>
+
       <span id="contact-container">
         <?php obfuscate_mail('contact', '', '<i class="fas fa-envelope-square"></i>'); ?>
         <a href="https://www.linkedin.com/company/chemtogether"><i class="fab fa-linkedin"></i></a>
