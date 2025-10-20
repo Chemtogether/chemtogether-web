@@ -20,36 +20,38 @@ $active_nav = 'companies';
 // );
 $template['company_name'] = 'Sika Services AG';
 $template['company_name_short'] = 'sika';
-$template['logo_url'] = set_source($awss3.'/companies/sika/logo','png', FALSE);
+$template['logo_url'] = set_source($awss3.'/companies/sika/logo','jpg', FALSE);
 $template['package'] = 'base';
 $template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('http://che.sika.com/','che.sika.com');
 //$template['facebook'] = array('https://www.facebook.com/SikaSchweizAG/', 'Sika Schweiz AG');
 $template['linkedin'] = array('https://www.linkedin.com/company/sika/','Sika');
 // $template['mail'] = array('','');
-$template['archive'] = '/archive/sika';
+// $template['archive'] = '/archive/sika';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'A specialty chemicals company with a
-globally leading position in the development and production of systems
-and products for bonding, sealing,
-damping, reinforcing, and protecting
-in the building sector and motor vehicle industry.
-Sika has subsidiaries in 103 countries,
-manufactures in over 400 factories,
-and develops innovative technologies
-for customers around the world that
-facilitate the sustainable transformation of the construction and at this
-time we employ 33,000 people worldwide.');
+  'text' => 'Sika is a global specialty chemicals
+company leading in bonding, sealing,
+damping, reinforcing, and protection solutions
+for construction and industrial manufacturing.
+With subsidiaries in 102 countries, over 400
+factories, and 34,000 employees, it
+produces innovative technologies that drive
+environmentally compatible transformation in
+construction and transportation, generating CHF
+11.76 billion in sales in 2024.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Innovating and challenging internships
-and traineeships focusing on specialty chemicals in the field of research
-and development. You will work independently and learn first-hand about
-the many aspects of chemistry and material sciences found in the various fields of Sika Technology.');
+  'text' => 'Innovative and challenging internships and
+traineeships in the field of specialty chemicals,
+with a focus on research and development.
+Participants will have the opportunity to work
+independently and gain hands-on experience
+across various areas of chemistry and materials
+science within Sika Technology.');
 $template['we_look'] = array(
   'title' => 'We look for',
   'text' => 'Open-minded and proactive people

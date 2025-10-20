@@ -37,7 +37,7 @@ $template['logo_url'] = set_source($awss3.'/companies/ems/logo_svg','svg', FALSE
 $template['package'] = 'base';
 $template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2021 - Firmen: '.$template['company_name'], 'Chemtogether 2021 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -49,7 +49,22 @@ $template['archive'] = '/archive/ems';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'The EMS Group is active worldwide in the business areas High Performance Polymers and Specialty Chemicals. The companies within the group are consolidated in the EMS-CHEMIE HOLDING AG domiciled in Domat/Ems. The business area High Performance Polymers is comprised of EMS-GRIVORY and EMS-EFTEC. EMS-GRIVORY is a leading specialised manufacturer of high-performance polyamides and the supplier with the widest range of polyamide materials. EMS-EFTEC is represented under the name EFTEC as leading supplier worldwide for adhesives, sealants and coatings including application engineering systems for the automotive industry. The business area Specialty Chemicals is made up of the Business Units EMS- GRILTECH and EMS-PAT-VAG. EMS-GRILTECH is specialized in the development and production of fibres, fusible adhesives and adhesive yarn adhesion promoters for the tyre industry, powder coatings and reactive and diluents. EMS-PATVAG specialises in ignitors for airbag gas generators. EMS has 26 production sites in 16 countries.');
+  'text' => 'The EMS Group is active worldwide in the business areas High Performance Polymers and Specialty Chemicals. 
+  The companies within the group are consolidated in the EMS-CHEMIE HOLDING AG domiciled in Domat/Ems. 
+  The business area High Performance Polymers is comprised of EMS-GRIVORY and EMS-EFTEC. 
+  EMS-GRIVORY is a leading specialised manufacturer of high-performance polyamides and the supplier with the widest range of polyamide materials. 
+  EMS-EFTEC is represented
+under the name EFTEC as leading supplier
+worldwide for adhesives, sealants and coatings including application engineering
+systems for the automotive industry. The
+business area Specialty Chemicals is made
+up of the Business Units EMS-GRILTECH and
+EMS-PATVAG. EMS-GRILTECH is specialized
+in the development and production of fibres, fusible adhesives and adhesive yarn
+adhesion promoters for the tyre industry,
+powder coatings and reactive and diluents.
+EMS-PATVAG specialises in ignitors for airbag gas generators. EMS has 26 production
+sites in 16 countries.');
 $template['we_offer'] = array(
   'title' => 'We offer',
   'text' => 'Besides jobs we also offer internships in the following areas for high school graduates, students and graduates: laboratory (chemistry), business economics, application technology, engineering/system technology/IT as preparation for the ETH. We offer you fair conditions of employment, a salary based on performance and function as well as an individual support and mentorship through hands-on training. In addition, EMS is characterised by a well-defined and lively corporate culture.');

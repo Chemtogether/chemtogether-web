@@ -36,7 +36,7 @@ $template['company_name_short'] = 'hoffmanneitle';
 $template['logo_url'] = set_source($awss3.'/companies/hoffmanneitle/logo_svg','svg', FALSE);
 $template['package'] = 'base';
 $template['day'] = 2;
-$lang['general']['page_title'] = array('Chemtogether 2023 - Firmen: '.$template['company_name'], 'Chemtogether 2023 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.hoffmanneitle.com','hoffmanneitle.com');
@@ -47,10 +47,14 @@ $template['archive'] = '/archive/hoffmanneitle';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'HOFFMANN EITLE is one of Europe’s leading firms specializing in the protection of intellectual property. With seven offices across Europe, the firm is one of the largest of its type. We advise our clients on all legal and technical issues regarding patent applications and patent prosecution and are well known for our expertise in opposition and litigation proceedings.');
+  'text' => 'One of Europe’s leading firms specializing in intellectual property. With eight offices across
+Europe, the firm is one of the largest of its type. We advise our clients on all legal and
+technical issues regarding patent applications and patent prosecution and are well known
+for our expertise in opposition and litigation proceedings.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'The only route to becoming a patent attorney is by taking a position as a trainee, and being trained by an already-qualified patent attorney. We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above average), good long-term career perspectives, and a dynamic and rewarding work environment.');
+  'text' => 'We offer our trainees top-quality training (our pass rates for the Qualifying Exams are well above
+average), good long-term career perspectives, and a dynamic and rewarding work environment.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
   'text' => 'Individuals with

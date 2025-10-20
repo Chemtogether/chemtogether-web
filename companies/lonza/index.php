@@ -37,7 +37,7 @@ $template['logo_url'] = set_source($awss3.'/companies/lonza/logo','png', FALSE);
 $template['package'] = 'gold';
 $template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -47,21 +47,45 @@ $template['archive'] = '/archive/lonza';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'Lonza ist heute ein weltweit führendes Unternehmen im Bereich Life Sciences, welches auf drei Kontinenten tätig ist.
-Unsere wichtigste wissenschaftliche Lösung sind talentierte Mitarbeitende, die zusammenarbeiten und Ideen entwickeln, die anderen Unternehmen helfen, Menschen zu helfen. Im Gegenzug steuern unsere Mitarbeitenden ihre Karriere selbstständig. Denn ihre Ideen, ob gross und klein, verbessern die Welt.
+  'text' => 'As a dedicated contract development
+and manufacturing organization (CDMO)
+serving the healthcare industry, we bring
+life-enhancing and life-saving treatments
+to market for our customers and their
+patients. We are a pioneer and world
+leader in the CDMO industry and turn our
+customers’ breakthrough innovations into viable therapies and manufacture the med-
+icines of tomorrow.
 ');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'Zu Lonza kommen Menschen, die Herausforderungen annehmen und mit ihrer Kreativität im Bereich Life Science
-neue Ideen für komplexe Problemstellungen entwickeln. Zusammen leisten wir einen Beitrag, der das Leben vieler Menschen auf der ganzen Welt verbessern kann. Dies bietet ihnen die
-Gewissheit und die Zufriedenheit, mit der eigenen Arbeit wirklich einen Unterschied zu machen.');
+   'text' => 'Our business is structured to meet our
+customers’ complex needs across three
+synergistic Business Platforms: Integrated
+Biologics, Advanced Synthesis and
+Specialized Modalities. Our services span
+from early development to drug substance
+and drug product manufacturing, and we lead in both established and emerg-
+ing technologies including mammalian biologics, small molecules, highly potent
+active pharmaceutical ingredients (APIs),
+bioconjugates, mRNA, microbial, and cell
+and gene.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'Für unsere Standorte in Basel, Stein und Visp suchen wir Fachkräfte aus allen Bereichen der Life Science. Es er-
-wartet Sie das Beste aus zwei Welten: Ein Hightech-Arbeitsplatz mit inspirierenden Kollegen und ein unvergleichlicher Lifestyle.
-');
+  'text' => 'Are you a graduate in manufacturing,
+engineering, quality, or R&D? We are
+looking for motivated individuals who are
+eager to work across technologies and
+contribute to integrated solutions that
+support patients throughout the
+entire treatment lifecycle. Explore exciting
+opportunities in Basel, Stein, Visp or around
+the globe - and become part of a team that
+is shaping the future of healthcare. Find
+out more on our career page: https://www.
+lonza.com/careers');
 
 $template['button_print_until'] = 0; 
 

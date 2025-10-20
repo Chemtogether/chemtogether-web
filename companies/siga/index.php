@@ -37,7 +37,7 @@ $template['logo_url'] = set_source($awss3.'/companies/siga/logo','jpeg', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 2;
 
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
@@ -60,14 +60,16 @@ $template['linkedin'] = array('https://www.linkedin.com/company/sigaswiss/','SIG
 $template['we_are'] = array(
    'title' => 'We are',
 
-   'text' => 'SIGA, a Swiss family-owned company
-with over 650 employees across 24
-countries, develops, manufactures,
-and educates on products for energy-efficient building envelopes, including diffusion-permeable membranes
-and non-toxic adhesive tapes. Tight
-building envelopes protect against uncontrolled air exchange, reduce energy
-consumption for heating and cooling,
-and contribute to combating climate change.');
+   'text' => 'SIGA, a Swiss family-owned company with
+over 650 employees across 24 countries,
+develops, manufactures, and educates
+on products for energy-efficient building
+envelopes, including di"usion-permeable
+membranes and non-toxic adhesive tapes.
+Tight building envelopes protect against
+uncontrolled air exchange, reduce energy
+consumption for heating and cooling, an
+contribute to combating climate change.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',

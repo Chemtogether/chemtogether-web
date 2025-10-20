@@ -65,10 +65,10 @@ $data['day1'][$i++] = array(
 );
 
  $data['day1'][$i++] = array(
-    "link_url" => '/companies/metrohm/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/metrohm/logo','png', FALSE),
-    "name" => "<br> Metrohm AG <br> <br> ",
-    "name_short" => "metrohm",
+    "link_url" => '/companies/astrazeneca/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/astrazeneca/logo','png', FALSE),
+    "name" => "<br> AstraZeneca <br> <br> ",
+    "name_short" => "astrazeneca",
     "package" => 'base',
 );
 
@@ -122,14 +122,20 @@ $data['day2'][$i++] = array(
 
 // wednesday this year
 $data['day2'][$i++] = array(
-    "link_url" => '/companies/corden/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/corden/logo','png', FALSE),
-    "name" => "<br>  Corden <br>  <br> ",
-    "name_short" => "corden",
-    "package" => 'base',
+    "link_url" => '/companies/qcella/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/qcella/logo','png', FALSE),
+    "name" => "<br>  qCella <br>  <br> ",
+    "name_short" => "qcella",
+    "package" => 'silver',
 );
 
-//  hier fehlt noch grunenthal
+$data['day2'][$i++] = array(
+    "link_url" => '/companies/gruenenthal/index.php#info',
+    "logo_url" => set_source($awss3.'/companies/gruenenthal/logo','png', FALSE),
+    "name" => "<br>  Grünenthal <br>  <br> ",
+    "name_short" => "gruenenthal",
+    "package" => 'base',
+);
 
 $data['day2'][$i++] = array(
     "link_url" => '/companies/hoffmanneitle/index.php#info',
@@ -147,10 +153,9 @@ $data['day2'][$i++] = array(
     "package" => 'base',
 );
 
-// coming wednesday this year
 $data['day2'][$i++] = array(
     "link_url" => '/companies/sika/index.php#info',
-    "logo_url" => set_source($awss3.'/companies/sika/logo','png', FALSE),
+    "logo_url" => set_source($awss3.'/companies/sika/logo','jpg', FALSE),
     "name" => "<br> Sika Technology AG <br>  <br> ",
     "name_short" => "sika",
     "package" => 'base',

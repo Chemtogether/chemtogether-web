@@ -34,7 +34,7 @@ $template['company_name_short'] = 'valsynthese';
 $template['logo_url'] = set_source($awss3.'/companies/valsynthese/logo','png', FALSE);
 $template['package'] = 'silver';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 //$template['homepage'] = array('https://www.basf.com','basf.com');
@@ -48,14 +48,25 @@ $template['archive'] = '/archive/valsynthese';
 
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'The Fine Chemicals BU of SSE Group and we are active in the fields of custom synthesis and contract manufacturing for the chemical and pharmaceutical industries. Our core capabilities are focused on high energetic and highly hazardous chemistry. Our mission is to bring Swiss high-quality services to our worldwide network. To reach this goal at Valsynthese we are also committed to Environment, Health, and Safety (EHS) to protect people, our communities, the environment and the company.');
+  'text' => 'SSE/Valsynthese is a company that wants its employees to be proud. Passion, Innovation,
+Teamwork and an Enterpreneurial culture are our core values. We are putting human beings in
+the center and nurture a diverse, equitable and inclusive environment where everyone feels
+engaged, valued and respected. Gender equality, encouraging part time working models and
+flexible working hours to well balance working/private life are part of our organizational DNA.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'Gender equality, encouraging part time working models and flexible working hours to well balance working/private life. We are putting human beings in the center and nurture a diverse, equitable and inclusive environment where everyone feels engaged, valued and respected. We encourage our employees to contribute and develop their ideas, ambitions and skills and offer transparent paths of growth.');
+  'text' => '<ul>
+  <li>Room for innovation and your own ideas.</li>
+  <li>A family-like working atmosphere and a culture of appreciation.</li>
+  <li>Excellent social benefits and employment conditions.</li>
+  <li> Flexible working hours.</li>
+</ul>');
   
 $template['we_look'] = array(
   'title' => 'We look for',
-  'text' => 'Motivated people who can contribute with their ideas and skills to GROW TOGETHER.');
+  'text' => 'We are looking for passionate individuals who are eager to contribute their expertise and
+curiosity to a dynamic and collaborative environment. We value initiative, precision, and a
+flexible mindset—ready to adapt to evolving challenges and diverse contexts.');
 
   $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;
