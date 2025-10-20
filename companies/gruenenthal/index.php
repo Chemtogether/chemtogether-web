@@ -31,19 +31,19 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'astrazeneca';
-$template['company_name_short'] = 'astrazeneca';
-$template['logo_url'] = set_source($awss3.'/companies/astrazeneca/logo','png', FALSE);
+$template['company_name'] = 'gruenenthal';
+$template['company_name_short'] = 'gruenenthal';
+$template['logo_url'] = set_source($awss3.'/companies/gruenenthal/logo','png', FALSE);
 $template['package'] = 'base';
-$template['day'] = 1;
+$template['day'] = 2;
 
 $lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('https://www.astrazeneca.ch','astrazeneca.ch');
+$template['homepage'] = array('https://www.grunenthal.ch/','grunenthal.ch');
 //$template['facebook'] = array('https://www.facebook.com/mettlertoledo/', 'METTLER TOLEDO');
-$template['linkedin'] = array('https://www.linkedin.com/company/astrazeneca/','AstraZeneca');
+$template['linkedin'] = array('https://de.linkedin.com/company/gruenenthal','Grünenthal');
 
 
 // $template['we_are'] = array(
@@ -60,36 +60,24 @@ $template['linkedin'] = array('https://www.linkedin.com/company/astrazeneca/','A
 $template['we_are'] = array(
    'title' => 'We are',
 
-   'text' => 'AstraZeneca is a global, science-led biopharmaceutical company that has been present in
-Switzerland for nearly 50 years, ranking among the country’s top ten revenue-generating
-pharmaceutical "rms. The company focuses on the discovery, development, and
-commercialisation of prescription medicines in the areas of Oncology, Cardiovascular, Renal and
-Metabolism, Respiratory and Immunology, and Rare Diseases. AstraZeneca is represented in 80
-countries. Our medicines are manufactured in 26 facilities.');
+   'text' => 'a global science-based pharmaceutical company headquartered in Aachen, Germany. We
+specialize in pain management and related diseases, with a strong focus on innovation,
+sustainability, and responsible production. Our Swiss site in Mitlödi plays a key role in active
+pharmaceutical ingredient manufacturing using 100% renewable electricity.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'Over 285 employees in Switzerland are
-committed to providing patients with
-life-changing medicines and making a
-positive impact on the healthcare system,
-society, and the planet. AstraZeneca has
-pledged to an inclusive work environment
-based on respect and acceptance. The
-company was thus recognised as a «Great
-Place to Work» for the sixth consecutive
-time in 2025 and carries the «Swiss LGBTI
-label».');
+   'text' => 'We provide high-quality medicines and cutting-edge research in pain therapy, supported by a
+robust R&D pipeline and sustainable production practices. Our teams work across 29 countries,
+delivering solutions that improve patients’ lives. We also o!er expertise in digital transformation
+and inclusive workplace culture.');
 
 $template['we_look'] = array(
    'title' => 'We are looking for', 
-   'text' => 'Currently, over 250,000 people are
-treated with a drug from AstraZeneca in
-Switzerland. By end of 2027, the
-company expects the approval of over 35
-new therapies. We are looking for talents
-who are keen to join us in achieving our
-ambitious goals.');
+   'text' => 'We seek partnerships and talent that share our commitment to innovation, sustainability,
+and patient-centric care. Whether in research, digitalization, or manufacturing, we welcome
+collaboration with organizations and individuals who aim to shape the future of healthcare
+together with us.');
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;

@@ -16,7 +16,7 @@ $template['company_name_short'] = 'buchi';
 $template['logo_url'] = set_source($awss3.'/companies/buchi/logo','png', FALSE);
 $template['package'] = 'base';
 $template['day'] = 1;
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.buchi.com/','buchi.com');
@@ -24,27 +24,28 @@ $template['linkedin'] = array('https://www.linkedin.com/company/büchi-labortech
 //$template['archive'] = '/archive/buchi';
 $template['we_are'] = array(
   'title' => 'We are',
-  'text' => 'For more than 80 years, BÜCHI has been one of the world’s leading providers of
-laboratory solutions for research and development, quality assurance and
-production. The company is headquartered in eastern Switzerland and has R&D
-facilities, production sites and sales & service organizations spread all over the world.');
+  'text' => 'For 85 years, BUCHI has been a leading solution provider in laboratory technology for R&D, 
+  quality control and production worldwide. The company is headquartered in Eastern Switzerland and has R&D, 
+  production, sales and service facilities around the world.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => 'We are looking for innovative minds!
-Our common goal is to make a valuable
-contribution to health and safety of
-people and environment through our
-innovative and high-quality products
-and solutions.');
+  'text' => 'As a Swiss family-owned business with a global footprint, we work in a very close-knit environment while being 
+highly international and diverse at the same time.
+We build close relationships with our team
+members around the world to exchange
+knowledge and ensure that we can deliver
+the very best solutions to our customers.
+Imagine Swiss reliability and values mixed
+with global orientation and a highly diverse
+customer segment – this is the field we
+inhabit daily.');
 $template['we_look'] = array(
   'title' => 'We are looking for',
-  'text' => 'We are committed to providing an
-inclusive and rewarding work environment that acknowledges the efforts of
-outstanding and long-term employees.
-We highly support continuing education
-and training of our staff and encourage
-professional careers. Our organization
-also allows a cross-departmental development within the company.');
+  'text' => 'Are you looking for a company where
+you can get involved proactively? Are you
+passionate about working with exciting
+technology and being an active part of
+innovation? Then you’ve found the right place.');
 
 
 $template['button_print_until'] = 0;

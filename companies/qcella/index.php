@@ -31,19 +31,19 @@ $active_nav = 'companies';
 // );
 
 
-$template['company_name'] = 'astrazeneca';
-$template['company_name_short'] = 'astrazeneca';
-$template['logo_url'] = set_source($awss3.'/companies/astrazeneca/logo','png', FALSE);
+$template['company_name'] = 'qCella';
+$template['company_name_short'] = 'qcella';
+$template['logo_url'] = set_source($awss3.'/companies/qcella/logo','png', FALSE);
 $template['package'] = 'base';
-$template['day'] = 1;
+$template['day'] = 2;
 
 $lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 
-$template['homepage'] = array('https://www.astrazeneca.ch','astrazeneca.ch');
+$template['homepage'] = array('https://qcella.com/','qcella.com');
 //$template['facebook'] = array('https://www.facebook.com/mettlertoledo/', 'METTLER TOLEDO');
-$template['linkedin'] = array('https://www.linkedin.com/company/astrazeneca/','AstraZeneca');
+$template['linkedin'] = array('https://www.linkedin.com/company/qcella/','qCella');
 
 
 // $template['we_are'] = array(
@@ -60,36 +60,29 @@ $template['linkedin'] = array('https://www.linkedin.com/company/astrazeneca/','A
 $template['we_are'] = array(
    'title' => 'We are',
 
-   'text' => 'AstraZeneca is a global, science-led biopharmaceutical company that has been present in
-Switzerland for nearly 50 years, ranking among the country’s top ten revenue-generating
-pharmaceutical "rms. The company focuses on the discovery, development, and
-commercialisation of prescription medicines in the areas of Oncology, Cardiovascular, Renal and
-Metabolism, Respiratory and Immunology, and Rare Diseases. AstraZeneca is represented in 80
-countries. Our medicines are manufactured in 26 facilities.');
+   'text' => 'qCella is redefining product heating in automotive interiors and for machine components. As an innovative hard-
+ware start-up from ETH Zurich, we have developed a patent-pending copper-cellulose-based material for resistance
+heating applications and beyond. Our mission is to replace traditional wire-based heating systems with our paper-thin, homogeneously heating, 
+and customizable heating mats, offering exceptional versatility, energy efficiency, and seamless integration across industries.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'Over 285 employees in Switzerland are
-committed to providing patients with
-life-changing medicines and making a
-positive impact on the healthcare system,
-society, and the planet. AstraZeneca has
-pledged to an inclusive work environment
-based on respect and acceptance. The
-company was thus recognised as a «Great
-Place to Work» for the sixth consecutive
-time in 2025 and carries the «Swiss LGBTI
-label».');
+   'text' => 'We provide challenging opportunities
+to work on cutting-edge materials and
+chemical processes, with hands-on
+involvement in experiment design, reaction optimization, and process development. Our team members benefit from close mentorship, access to advanced
+laboratory facilities, and a
+dynamic startup setting that encourages creativity, rapid learning, and the ability to directly contribute to
+innovative products with real-world impact.');
 
 $template['we_look'] = array(
    'title' => 'We are looking for', 
-   'text' => 'Currently, over 250,000 people are
-treated with a drug from AstraZeneca in
-Switzerland. By end of 2027, the
-company expects the approval of over 35
-new therapies. We are looking for talents
-who are keen to join us in achieving our
-ambitious goals.');
+   'text' => 'We are seeking motivated students
+or recent graduates in chemistry,
+chemical engineering, or related fields
+who are eager to gain practical experience
+in research and development. Ideal candidates are independent, collaborative, and enthusiastic about tackling experimental challenges, optimizing
+reactions, and contributing to the creation of novel heating materials in a fast-paced, interdisciplinary startup environment.');
 
 $template['button_print_until'] = 0; 
 $template['interview_print_until'] = 0;

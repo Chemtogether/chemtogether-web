@@ -17,7 +17,7 @@ $template['logo_url'] = set_source($awss3.'/companies/bachem/logo','png', FALSE)
 $template['package'] = 'silver';
 $template['day'] = 1;
 
-$lang['general']['page_title'] = array('Chemtogether 2024 - Firmen: '.$template['company_name'], 'Chemtogether 2024 - Companies:'.$template['company_name']);
+$lang['general']['page_title'] = array('Chemtogether 2025 - Firmen: '.$template['company_name'], 'Chemtogether 2025 - Companies:'.$template['company_name']);
 $lang['navigation']['title'] = array($template['company_name'], $template['company_name']);
 $lang['navigation']['topnav_title']= array($template['company_name'], $template['company_name']);
 $template['homepage'] = array('https://www.bachem.com/','bachem.com');
