@@ -120,13 +120,13 @@ $active_nav = 'exhibitors';
       <div class="text l-12 m-12 s-12">
         <?php echo($lang['content']['documents_text'][$eng]); ?><br style="line-height:40px;" />
         <table class="fa-table">
-          <!-- <tr>
-            <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/brochure_2024.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
-          </tr> -->
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
-            <td><a href="<?php echo($awss3); ?>/files/2024expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
+            <td><a href="<?php echo($awss3); ?>/files/brochure_2025.pdf"><?php echo($lang['content']['documents_broschure'][$eng]); ?></a></td>
+          </tr>
+          <tr>
+            <td><i class="fa-fw far fa-file-alt"></i></td>
+            <td><a href="<?php echo($awss3); ?>/files/2025expoguide.pdf"><?php echo($lang['content']['documents_guide'][$eng]); ?></a></td>
           </tr>
           <tr>
             <td><i class="fa-fw far fa-file-alt"></i></td>
