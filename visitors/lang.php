@@ -16,7 +16,7 @@ $lang['content']['main_text'] = array(
   'Chemtogether 2025 will take place on the 11th and 12th of November 2025 on the G-floor of the HCI building at the ETH Hönggerberg campus. On each of the two days, the nine different companies shown below will be present from 9:30am to 5pm. Each day will begin with coffee &amp; croissants and end with an apéro. The fair is open for everyone, so no registration is necessary.');
 
 $lang['content']['links_directions'] = array('Infos zur Anreise','Get directions');
-$lang['content']['links_guide'] = array('Messeführer (2024)','Expo Guide (2024)');
+$lang['content']['links_guide'] = array('Messeführer (2025)','Expo Guide (2025)');
 $lang['content']['links_companies'] = array('Zur Firmenliste','Check out the exhibitors');
 
 // SUBSECTIONS

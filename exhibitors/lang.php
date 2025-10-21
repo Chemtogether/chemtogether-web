@@ -1,7 +1,7 @@
 <?php
 
 // GENERAL TRANSLATIONS FOR THIS PAGE
-$lang['general']['page_title'] = array('Chemtogether 2024 - Aussteller', 'Chemtogether 2024 - Exhibitors');
+$lang['general']['page_title'] = array('Chemtogether 2025 - Aussteller', 'Chemtogether 2025 - Exhibitors');
 $lang['navigation']['title'] = array('Für Firmen', 'For Companies');
 $lang['navigation']['topnav_title']= array('Für Firmen', 'For Companies');
 
@@ -29,12 +29,12 @@ $lang['content'] = array(
     'Additional information:'),
 
   'documents_broschure' => array(
-    'Broschüre für Firmen (2024)',
-    'Brochure for companies (2024)'),
+    'Broschüre für Firmen (2025)',
+    'Brochure for companies (2025)'),
 
   'documents_guide' => array(
-    'Messeführer (2024)',
-    'Expo Guide (2024)'),
+    'Messeführer (2025)',
+    'Expo Guide (2025)'),
 
   'documents_termsandconditions' => array(
     'AGB',
@@ -59,8 +59,8 @@ $lang['content'] = array(
     'We offer several different packages for your participation in Chemtogether. With a silver or gold package, your company will set itself apart before, during and after the career fair.'),
 
   'packages_info' => array(
-    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden, sowie in der <a href="'.$awss3.'/files/brochure_2024.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
-    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2024.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
+    'Mehr Informationen zu den einzelnen Paketen und eine vollständige Liste aller Leistungen finden Sie im Folgenden, sowie in der <a href="'.$awss3.'/files/brochure_2025.pdf">Broschüre für Firmen</a>. Für Fragen und Anmeldungen können Sie uns gerne jederzeit '.obfuscate_mail('contact','','per Mail','chemtogether.ethz.ch',FALSE).' kontaktieren.',
+    'More information regarding the packages and a complete list of all perks is found below as well as in the <a href="'.$awss3.'/files/brochure_2025.pdf">brochure for companies</a>. For questions and registration, please contact us '.obfuscate_mail('contact','','per mail','chemtogether.ethz.ch',FALSE).' at any time.'),
 
   'feedback_subsection' => array(
     'Rückblick auf vergangene ChemTogether',
