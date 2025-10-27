@@ -105,9 +105,22 @@ $lang['content']['programme_subsection']['title'] = array('Begleitprogramm','Sup
 $lang['content']['programme_subsection']['coming_soon'] = array('Mehr Details werden bald veröffentlicht', 'More details are being published soon');
 
 $lang['content']['programme_1_preview'] = array(
-  'title' => array('Podiumsdiskussion: <br> Beyond Bias: A Closer Look at Careers in Industry and Academia','Panel discussion:<br> Beyond Bias: A Closer Look at Careers in Industry and Academia'),
-  'main_text' => array('Unsure of what to think about careers in academia and industry? Then don’t miss out on the opportunity to get some first hand insights from our experienced panelists. Join us for Chemtogether’s Panel Discussion “Beyond Bias: A Closer Look at Careers in Industry and Academia” on 6th of November, 16:30 in HCI J7 with a networking apéro afterwards.',
-  'Unsure of what to think about careers in academia and industry? Then don’t miss out on the opportunity to get some first hand insights from our experienced panelists. Join us for Chemtogether’s Panel Discussion “Beyond Bias: A Closer Look at Careers in Industry and Academia” on 6th of November, 16:30 in HCI J7 with a networking apéro afterwards.'),
+  'title' => array('Podiumsdiskussion: <br> Lab Coats or Spreadsheets? Start-Ups and Giants in the Chemical and Life Science Industry','Panel discussion:<br>Lab Coats or Spreadsheets? Start-Ups and Giants in the Chemical and Life Science Industry'),
+  'main_text' => array('Wenn Sie nach Ihrem Abschluss Ihre Karriere beginnen, werden Sie möglicherweise mit mehreren Situationen konfrontiert, in denen Sie Entscheidungen treffen müssen. <br><br> Auch bei Ihrer ersten Anstellung gibt es möglicherweise verschiedene Optionen. Wir können Ihnen die Entscheidungen nicht abnehmen, aber wir können Ihnen zeigen, wie Sie kluge Entscheidungen treffen. <br><br> In dieser Präsentation unterstützen wir Sie bei Ihrem Entscheidungsprozess. <br><br> Wir werden uns mit folgenden Themen befassen:
+    <br><br><ul style="margin-left:2em;">
+        <li> Die drei Gehirne der Entscheidungsfindung </li>       
+        <li> Rationale Entscheidungsfindung, Emotionen und der Entscheidungsprozess nach Bauchgefühl </li>
+        <li> Maßnahmen oder erste Schritte zur Lösung Ihrer Entscheidungsherausforderung entwerfen </li>
+      </ul>
+    ',
+  'Starting off your career after graduation, you might face several moments, where you have to take decisions. <br><br> Event for your first job there might be options. We cannot take over the decisions for you but show you how to take decisions wisely. <br><br> In this presentation we will support your decision journey. <br><br> We will get to know and discuss:
+    <br><br><ul style="margin-left:2em;">
+        <li> The three brains of decision making </li>       
+        <li> Rational decision making, emotions and the gut feeling decision making process </li>
+        <li> Design actions or first steps for solving your decision challenge </li>
+      </ul>'),
+  'registration_link' => array('Klicken Sie hier, um sich für das Event zu registrieren!', 'Click here to register for the Event!'),
+  'link_url' => array('https://www.chemtogether.ethz.ch/registration/career-center-event/index.php', 'https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'),
   'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 

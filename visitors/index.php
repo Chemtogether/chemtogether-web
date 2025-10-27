@@ -287,28 +287,29 @@ $fb = array(
     </div>
 
     <!-- new coming soon section to be uncommented/commented in -->
-  <div class="content flex">
+  <!-- <div class="content flex">
   <div class="text l-12 m-12 s-12">
       <div class="subsection">
       <?php echo($lang['content']['programme_subsection']['coming_soon'][$eng]); ?>
       </div>     
   </div>
-  </div> 
+  </div>  -->
 
    <!-- This is new -->
 
-   <!-- <div class="content flex">
+   <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
         <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
       </div>
       <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
-      
-      <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?>
+      <br>
+      <a href='https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'><b><?php echo($lang['content']['programme_1_preview']['registration_link'][$eng]);?></b></a>
+      <!-- <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?> -->
 
       
     </div>
-    </div>  -->
+    </div> 
 
     <div class="spacer">
     </div>  
