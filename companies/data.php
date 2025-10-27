@@ -93,7 +93,7 @@ $data['day2'][$i++] = array(
     "logo_url" => set_source($awss3.'/companies/baehler/logo','png', FALSE),
     "name" => "<br> DR. BÄHLER DROPA AG <br> <br> ",
     "name_short" => "baehler",
-    "package" => 'silver',
+    "package" => 'gold',
 );
 
 $data['day2'][$i++] = array(
