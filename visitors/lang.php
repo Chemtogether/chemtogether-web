@@ -113,7 +113,7 @@ $lang['content']['programme_1_preview'] = array(
         <li> Maßnahmen oder erste Schritte zur Lösung Ihrer Entscheidungsherausforderung entwerfen </li>
       </ul>
     ',
-  'Starting off your career after graduation, you might face several moments, where you have to take decisions. <br><br> Event for your first job there might be options. We cannot take over the decisions for you but show you how to take decisions wisely. <br><br> In this presentation we will support your decision journey. <br><br> We will get to know and discuss:
+  'Starting off your career after graduation, you might face several moments, where you have to take decisions. <br><br> Even for your first job there might be options. We cannot take over the decisions for you but show you how to take decisions wisely. <br><br> In this presentation we will support your decision journey. <br><br> We will get to know and discuss:
     <br><br><ul style="margin-left:2em;">
         <li> The three brains of decision making </li>       
         <li> Rational decision making, emotions and the gut feeling decision making process </li>
