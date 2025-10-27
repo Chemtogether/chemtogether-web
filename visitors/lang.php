@@ -160,7 +160,7 @@ $lang['content']['programme_2_preview'] = array(
 
 
 $lang['content']['programme_2'] = array(
-  'title' => array('Chemtogether - Carrer Center Event: Decision Making','Chemtogether - Carrer Center Event: Decision Making'),
+  'title' => array('Chemtogether - Career Center Event: Decision Making','Chemtogether - Career Center Event: Decision Making'),
   'description' => array('Wenn Sie nach Ihrem Abschluss Ihre Karriere beginnen, werden Sie möglicherweise mit mehreren Situationen konfrontiert, in denen Sie Entscheidungen treffen müssen. <br><br> Auch bei Ihrer ersten Anstellung gibt es möglicherweise verschiedene Optionen. Wir können Ihnen die Entscheidungen nicht abnehmen, aber wir können Ihnen zeigen, wie Sie kluge Entscheidungen treffen. <br><br> In dieser Präsentation unterstützen wir Sie bei Ihrem Entscheidungsprozess. <br><br> Wir werden uns mit folgenden Themen befassen:
     <br><br><ul style="margin-left:2em;">
         <li> Die drei Gehirne der Entscheidungsfindung </li>       
