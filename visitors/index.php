@@ -296,17 +296,29 @@ $fb = array(
   </div>  -->
 
    <!-- This is new -->
+    <div class="spacer">
+    </div>  
 
    <div class="content flex">
    <div class="text l-12 m-12 s-12">
         <div class="subsection">
-        <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
+        <?php echo($lang['content']['programme_1']['title'][$eng]); ?>
       </div>
-      <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
+      <!-- <?php echo($lang['content']['programme_1']['description'][$eng]); ?> -->
+      <table class="fa-table">
+      <tr>
+        <td><i class="far fa-fw fa-clock"></i></td>
+        <td><?php echo($lang['content']['programme_1']['time'][$eng]); ?></td>
+      </tr>
+      <tr>
+        <td><i class="far fa-fw fa-map"></i></td>
+        <td><?php echo($lang['content']['programme_1']['place'][$eng]); ?></td> 
+      </tr>
+      </table>
       <br>
-      <a href='https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'><b><?php echo($lang['content']['programme_1_preview']['registration_link'][$eng]);?></b></a>
-      <!-- <?php echo($lang['content']['programme_1_preview']['coming_soon'][$eng]); ?> -->
-
+      <?php echo($lang['content']['programme_1']['guest_1'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_2'][$eng]); ?> <br>
+      <?php echo($lang['content']['programme_1']['guest_3'][$eng]); ?> <br>
       
     </div>
     </div> 
@@ -314,10 +326,31 @@ $fb = array(
     <div class="spacer">
     </div>  
     
-    <div class="spacer">
-    </div>  
-    
      <!-- This is new -->
+
+    <div class="content flex">
+   <div class="text l-12 m-12 s-12">
+        <div class="subsection">
+        <?php echo($lang['content']['programme_1_preview']['title'][$eng]); ?>
+      </div>
+      <?php echo($lang['content']['programme_1_preview']['main_text'][$eng]); ?>
+      <br>
+      <table class="fa-table">
+      <tr>
+        <td><i class="far fa-fw fa-clock"></i></td>
+        <td><?php echo($lang['content']['programme_1_preview']['time'][$eng]); ?></td>
+      </tr>
+      <tr>
+        <td><i class="far fa-fw fa-map"></i></td>
+        <td><?php echo($lang['content']['programme_1_preview']['place'][$eng]); ?></td> 
+      </tr>
+      </table>
+      <br>
+      <a href='https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'><b><?php echo($lang['content']['programme_1_preview']['registration_link'][$eng]);?></b></a>
+
+      
+    </div>
+    </div> 
 
     <div class="content flex">
     <div class="text l-12 m-12 s-12">

@@ -105,7 +105,7 @@ $lang['content']['programme_subsection']['title'] = array('Begleitprogramm','Sup
 $lang['content']['programme_subsection']['coming_soon'] = array('Mehr Details werden bald veröffentlicht', 'More details are being published soon');
 
 $lang['content']['programme_1_preview'] = array(
-  'title' => array('Podiumsdiskussion: <br> Lab Coats or Spreadsheets? Start-Ups and Giants in the Chemical and Life Science Industry','Panel discussion:<br>Lab Coats or Spreadsheets? Start-Ups and Giants in the Chemical and Life Science Industry'),
+  'title' => array('Chemtogether - Carrer Center Event: Decision Making','Chemtogether - Carrer Center Event: Decision Making'),
   'main_text' => array('Wenn Sie nach Ihrem Abschluss Ihre Karriere beginnen, werden Sie möglicherweise mit mehreren Situationen konfrontiert, in denen Sie Entscheidungen treffen müssen. <br><br> Auch bei Ihrer ersten Anstellung gibt es möglicherweise verschiedene Optionen. Wir können Ihnen die Entscheidungen nicht abnehmen, aber wir können Ihnen zeigen, wie Sie kluge Entscheidungen treffen. <br><br> In dieser Präsentation unterstützen wir Sie bei Ihrem Entscheidungsprozess. <br><br> Wir werden uns mit folgenden Themen befassen:
     <br><br><ul style="margin-left:2em;">
         <li> Die drei Gehirne der Entscheidungsfindung </li>       
@@ -121,23 +121,27 @@ $lang['content']['programme_1_preview'] = array(
       </ul>'),
   'registration_link' => array('Klicken Sie hier, um sich für das Event zu registrieren!', 'Click here to register for the Event!'),
   'link_url' => array('https://www.chemtogether.ethz.ch/registration/career-center-event/index.php', 'https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'),
-  'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
+  'time' => array('Dienstag, 11. November 2025, 15:00-16:30','Tuesday, 11th November 2025, 15:00-16:30'),
+  'place' => array('HCI G2','HCI G2')
+  // 'coming_soon' => array('Unser Begleitprogramm für dieses Messejahr wird bald hier bekanntgegeben!', 'Our supporting programme for this year will be announced here soon!')
 );
 
 
 $lang['content']['programme_1'] = array(
-  'title' => array('Podiumsdiskussion: <br> COMING SOON ','Panel discussion: <br> COMING SOON '),
+  'title' => array('Podiumsdiskussion: <br> “Lab Coats or Spreadsheets? Start-Ups and Giants in the Chemical and Life Science Industry.” ','Panel discussion: <br> “Lab Coats or Spreadsheets? Start-Ups and Giants
+in the Chemical and Life Science Industry.”'),
   'description' => array('DESCRIPTION COMING SOON',
   'DESCRIPTION COMING SOON'),
-  'guest_1' => array('<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB', '<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB'),
-  'guest_2' => array('<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL', '<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL'),
-  'guest_3' => array('<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN', '<b>Dr. Ana Godinho</b>, Former Head of Education, Communications and Outreach at CERN'),
+  'guest_1' => array('<b>Roberto Rigobello </b>, Head of Sustainability, Novo Nordisk', '<b>Roberto Rigobello </b>, Head of Sustainability, Novo Nordisk'),
+  'guest_2' => array('<b>Dr. Mamta Chabria</b>, Co-founder & CEO, Tandem Therapeutics AG', '<b>Dr. Mamta Chabria</b>, Co-founder & CEO, Tandem Therapeutics AG'),
+  'guest_3' => array('<b>Dr. Thomas Fessard</b>, Co-founder & CEO, SpiroChem AG', '<b>Dr. Thomas Fessard</b>, Co-founder & CEO, SpiroChem AG'),
   'guest_4' => array('<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head', '<b>Marcel Staudt</b>, Bayer Consumer Health Divisional Engineering Head'),
   'guest_5' => array('Moderation: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ','Panel Leader: <b>Viktoria Ivarsson</b>, Head of Alumni Engagement at ETHZ'),
 
+
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Mittwoch, 6. November 2024, 16:30-18:00','Wednesday, 6th November 2024, 16:30-18:00'),
-  'place' => array('HCI J7','HCI J7'),
+  'time' => array('Dienstag, 4. November 2024, 17:00-18:30','Tuesday, 4th November 2024, 17:00-18:30'),
+  'place' => array('HCI G3','HCI G3'),
   //'cv_header' => array('Erfahre mehr über unseren Vortragenden.', 'Learn more about our speaker.'),
   //'cv_guest_1' => array('<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB', '<b>Prof. Dr. Dario Neri </b>, CEO of Philogen and Professor at D-CHAB'),
   //'cv_guest_2' => array('<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL', '<b>Prof. Dr. Nako Nakatsuka</b>, Assistence Professor of Neurotechnology at EPFL'),
@@ -156,48 +160,33 @@ $lang['content']['programme_2_preview'] = array(
 
 
 $lang['content']['programme_2'] = array(
-  'title' => array('Workshop: <br> Interview Preparation ','Workshop: <br> Interview Preparation '),
-  'description' => array('<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Anmeldung erforderlich</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
-  During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
-  During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  <ul>
-  <li>How to behave in a first interview and what should you expect</li>
-  <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
-  <li>How to formulate efficient answers using the STAR interviewing method </li>
-  <li>Certain Do’s and Don’ts of being interviewed</li>
-  </ul>',
-  '<b><a href="https://forms.gle/7khpuaKNE91mWAUr5">Sign-Up Mandatory</a></b> <br> Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
-  During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  •	How to behave in a first interview and what should you expect <br>
-  •	Why interviewers ask certain questions and what interviewers are really looking for <br>
-  •	How to formulate efficient answers using the STAR interviewing method <br>
-  •	Certain Do’s and Don’ts of being interviewed',
-  'Do you already break out into a sweat when you hear the word “interview”? Don’t worry. Job interviews can be daunting… Nevertheless, with some input (like this event) and some practice, these somewhat challenging situations can become doable and pleasurable!
-  During this event, you will have the opportunity to observe a live mock interview between the facilitators and a pre-selected student. By observing the interview, you will learn more about potential questions and possible “tricky” interview situations.
-  During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  <ul>
-  <li>How to behave in a first interview and what should you expect</li>
-  <li>Why interviewers ask certain questions and what interviewers are really looking for</li>
-  <li>How to formulate efficient answers using the STAR interviewing method</li>
-  <li>Certain Do’s and Don’ts of being interviewed</li>
-  </ul>,
-  During the ensuing feedback and discussion round, you will develop a better understanding of <br>
-  •	How to behave in a first interview and what should you expect <br>
-  •	Why interviewers ask certain questions and what interviewers are really looking for <br>
-  •	How to formulate efficient answers using the STAR interviewing method <br>
-  •	Certain Do’s and Don’ts of being interviewed'),
-  'guest_1' => array('Anja Pauling, Senior Career Coach ETH Career Center', 'Anja Pauling, Senior Career Coach ETH Career Center'),
-  'guest_2' => array('Christine Kaiser, Head ETH Career Center','Christine Kaiser, Head ETH Career Center'),
+  'title' => array('Chemtogether - Carrer Center Event: Decision Making','Chemtogether - Carrer Center Event: Decision Making'),
+  'description' => array('Wenn Sie nach Ihrem Abschluss Ihre Karriere beginnen, werden Sie möglicherweise mit mehreren Situationen konfrontiert, in denen Sie Entscheidungen treffen müssen. <br><br> Auch bei Ihrer ersten Anstellung gibt es möglicherweise verschiedene Optionen. Wir können Ihnen die Entscheidungen nicht abnehmen, aber wir können Ihnen zeigen, wie Sie kluge Entscheidungen treffen. <br><br> In dieser Präsentation unterstützen wir Sie bei Ihrem Entscheidungsprozess. <br><br> Wir werden uns mit folgenden Themen befassen:
+    <br><br><ul style="margin-left:2em;">
+        <li> Die drei Gehirne der Entscheidungsfindung </li>       
+        <li> Rationale Entscheidungsfindung, Emotionen und der Entscheidungsprozess nach Bauchgefühl </li>
+        <li> Maßnahmen oder erste Schritte zur Lösung Ihrer Entscheidungsherausforderung entwerfen </li>
+      </ul>
+    <br><br> Even for your first job there might be options. We cannot take over the decisions for you but show you how to take decisions wisely. <br><br> In this presentation we will support your decision journey. <br><br> We will get to know and discuss:
+    <br><br><ul style="margin-left:2em;">
+        <li> The three brains of decision making </li>       
+        <li> Rational decision making, emotions and the gut feeling decision making process </li>
+        <li> Design actions or first steps for solving your decision challenge </li>
+      </ul>'),
+  'registration_link' => array('Klicken Sie hier, um sich für das Event zu registrieren!', 'Click here to register for the Event!'),
+  'link_url' => array('https://www.chemtogether.ethz.ch/registration/career-center-event/index.php', 'https://www.chemtogether.ethz.ch/registration/career-center-event/index.php'),
+  'guest_1' => array('Franziska Liese | ETH Career Center', 'Franziska Liese | ETH Career Center'),
+  'guest_2' => array('Peter Dorthe | ETH Career Center','Peter Dorthe | ETH Career Center'),
   //'guest_3' => array('Dr. Marco Ranocchiari, Paul-Scherrer-Institut, ETH Zürich, novoMOF','Dr. Marco Ranocchiari, Paul-Scherrer-Institute, ETH Zürich, novoMOF'),
   //'guest_4' => array('Moderation: Viktoria Ivarsson, ETH International Relations Officer','Panel Leader: Viktoria Ivarsson, ETH International Relations Officer'),
 
   //'button' => array("Zum Event", "To the event"),
-  'time' => array('Dienstag, 7. November 2024, 16:00-17:30','Tuesday, 7th November 2024, 16:00-17:30'),
-  'place' => array('HCI G3','HCI G3'),
+  'time' => array('Dienstag, 11. November 2025, 15:00-16:30','Tuesday, 11th November 2025, 15:00-16:30'),
+  'place' => array('HCI G2','HCI G2'),
   'cv_header' => array('Erfahre mehr über unseren Facilitators.', 'Learn more about our facilitators.'),
   'cv_guest_1' => array('<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center', '<b>Anja Pauling</b></br>Senior Career Coach ETH Career Center'),
-  'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center', '<b>Christine Kaiser</b></br>Head ETH Career Center'),
-);
+  'cv_guest_2' => array('<b>Christine Kaiser</b></br>Head ETH Career Center', '<b>Christine Kaiser</b></br>Head ETH Career Center')
+  );
 
 //Speaker
 $lang['content']['speaker_male'] = array('Unser Vortragender','Our Speaker');
