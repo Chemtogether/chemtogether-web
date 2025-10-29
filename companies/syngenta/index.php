@@ -84,72 +84,51 @@ and demanding market environment.');
   if(isset($_GET['preview'])) $template['interview_print_until'] = 0;
 
   $i=0;
+$template['interview'][$i++] = array(
+  'name' => 'Nico Santschi',
+  'img_url' => $awss3.'/companies/syngenta/logo',
+  'position' => 'Global leader in agricultural science and innovation',
 
-  $template['interview'][$i++] = array(
-    'name' => 'Simone Berardozzi',
-    'img_url' => $awss3.'/companies/syngenta/interviewee_2024_1',
-    'position' => 'Global leader in agricultural science and innovation',
-  
-    'education' => array(
-      0 => array(
-        'date' => '',
-        'desc' => '',
-      ),
+  'education' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
     ),
-    'career' => array(
-      0 => array(
-        'date' => '',
-        'desc' => '',
-      ),
+  ),
+  'career' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
     ),
+  ),
 
-    'interview' => array(
-      0 => array(
-        'question' => 'Please introduce yourself and the company: Which focus and goals do you pursue?',
-        'answer' => 'My name is Simone Berardozzi, and I have a background in chemistry and medicinal chemistry. I completed my PhD at Sapienza University of Rome in December 2017 under the supervision of Prof. Bruno Botta. Following this, I conducted post-doctoral research in Prof. Karl-Heinz Altmann’s lab at ETH Zürich from 2018 to 2021. <br>
-        In March 2021, I joined Syngenta, a global leader in agricultural science and innovation. My passion for scientific innovation at the intersection of various disciplines led me to become part of the insect control lead generation team in September 2021. In this role, I coordinate chemistry, design, and project management activities for target-based projects. 
-        At Syngenta, our focus in lead generation is to be at the forefront of innovation in crop protection. We strive to: 
-        <table class="fa-table">
-        <tr>
-        <td><i class="fas fa-fw fa-chevron-right"></td>
-        <td>Develop novel and sustainable solutions.</td>
-        </tr>
-        <tr>
-        <td><i class="fas fa-fw fa-chevron-right"></td>
-        <td>Push the boundaries of scientific discovery in agricultural chemistry integrating cutting-edge technologies and interdisciplinary approaches in our research.</td>
-        </tr>
-        <tr>
-        <td><i class="fas fa-fw fa-chevron-right"></td>
-        <td>Enhance crop yields and food security globally.</td>
-        </tr>
-        </table>
-        Through our work, we aim to contribute to Syngenta’s mission of helping farmers grow safe, nutritious food in a sustainable way while striving for sustainability.',
-      ),
-      1 => array(
-        'question' => 'Why did you decide for this company?',
-        'answer' => 'My main motivation to join Syngenta stemmed from the genuine interest I felt during the interview process. The interviewers showed a sincere curiosity about my ideas and potential contributions, engaging in meaningful dialogue about scientific concepts and innovative approaches. This wasn’t just a superficial interaction; it felt like the beginning of a collaborative journey. <br>
-        What truly stood out was Syngenta’s commitment to fostering innovation in a safe and supportive environment. I sensed an openness to new and potentially unconventional ideas, coupled with a culture that values and nurtures creative thinking. <br>
-        All these impressions turned out to be true, and moreover, Syngenta demonstrated a clear willingness to transform those ideas into concrete projects. Since joining, this environment has significantly impacted my work, allowing me to grow professionally. The opportunity to see my ideas evolve from concepts to real-world applications has been incredibly fulfilling and has reaffirmed my decision to join Syngenta.',
-      ),
-      2 => array(
-        'question' => 'Of which study programme do you preferably employ students/graduates? Are there specific entry programs or internships you offer?',
-        'answer' => 'At our company both students and graduates can apply their knowledge, gain initial experience, learn and grow in a variety of areas and benefit from the know-how and experience of our employees. We offer internships at all levels during your academic education (undergraduate, graduate, postgraduate and postdoctoral level) lasting from 3 to 12 months.',
-      ),
-      3 => array(
-        'question' => 'Requirements and qualifications: Which qualifications and abilities are you looking for in applicants for scientific research jobs in your company?',
-        'answer' => 'We are looking for enthusiastic students with a strong academic record and good communication skills (fluency in English, written and spoken). Previous experience in working in a chemistry laboratory or research setting is greatly valued. The experience gained will help you broaden the scope of your personal and professional skills. If you are a proactive team player who likes to work in diverse teams and who is goal oriented and eager to learn, we offer an inspiring global environment where you can enrich your knowledge through first hand practical experience.',
-      ),
-      4 => array(
-        'question' => 'Are there specific academic backgrounds or experiences you prefer? Concerning elective subjects? Semester projects in research? Teamwork? Case Studies?',
-        'answer' => 'We are looking for students who are currently enrolled in a Bachelor’s, Master’s or Ph. D. program in chemistry. Focus on organic synthesis, enabling technologies or modern computational approaches are a plus.',
-      ),
-      5 => array(
-        'question' => 'Application process and tips: Can you explain the typical application process in your company? Do you have tips for successful applications?',
-        'answer' => 'All open positions are published throughout the year on our website at <a href="https://jobs.syngenta.com/jobs">https://jobs.syngenta.com/jobs</a>, Location Switzerland. If you are interested, please submit an online application in English via the link, with your CV and motivation letter, as well as your university diplomas and transcripts.',
-      )
+  'interview' => array(
+    0 => array(
+      'question' => 'What is your current task at your company?',
+      'answer' => 'For the past seven years, I have worked at Syngenta Crop Protection AG, and since 2023, I have served as the Head of Pilot Plant Process Technology. This is a manufacturing facility operating on up to a 4000-liter scale. The purposes of the asset are twofold: (1) demonstrating scale-up and manufacturability of chemical processes and (2) provision of larger quantities of active ingredients for research. As such, I am responsible for the organization operating safely and for the timely delivery of the required material.'
     ),
-  );
-
+    1 => array(
+      'question' => 'Why did you decide to work at your company and what did the application process look like?',
+      'answer' => 'After my decision to move from academia into industry, I was looking for a job profile that would cater to my varied interests, ranging from pure organic synthesis to method development to physical chemistry — a career in process chemistry fitted the bill perfectly. I was also fortunate to have had fellow students, colleagues, and advisors previously working for Syngenta Crop Protection AG, even in the process technology department, and sharing their insights. In the end, the combination of an intellectually stimulating and welcoming environment paired with the outlook of contributing to a tangible product made Syngenta Crop Protection AG the perfect choice. The application process consisted of three stages: (1) submission of the application, (2) a telephone interview focusing on my CV, cover letter, and motivation, and finally (3) a full-day interview. The latter comprised a presentation and technical as well as behavioral interviews. The day after the interview, I received a job offer and have been with the company since then.'
+    ),
+    2 => array(
+      'question' => 'Which strengths did you develop during your studies that helped you in particular in your current job?',
+      'answer' => 'Apart from the chemical education, most likely and more generally the "scientific method". That is the formulation of a hypothesis and conceiving, in the wider sense, experiments to falsify and/or corroborate certain aspects. In addition, the academic environment also very much invites "curiosity", enabling students to venture into different fields and think outside the box or perceived constraints. Last but certainly not least, success during one’s studies is also deeply rooted in successful "collaboration" — for example, either in joint preparation for finals or supporting each other on research projects. All these aspects have accompanied me through my journey so far.'
+    ),
+    3 => array(
+      'question' => 'What fascinates you about your work in particular?',
+      'answer' => 'With no day being like the previous one, every day presents an opportunity to learn something new and further my understanding of certain aspects of the wider industry. There is always agency, but sometimes effects may be seen immediately, and sometimes we are operating on time horizons of several years. Being part of the Production & Supply branch of Syngenta Crop Protection AG, I am constantly fascinated and intrigued by the multitude of functions collaborating across fields of expertise, research, development, and production sites, as well as borders, to realize new products addressing the immediate needs of farmers globally.'
+    ),
+    4 => array(
+      'question' => 'How would you describe the corporate culture in your company, especially with regard to teamwork and collaboration?',
+      'answer' => '"Collaboration" is one of the pillars of the Syngenta Group leadership framework and a key aspect of day-to-day operations. The introduction of a new product to the market requires hundreds of individual experts working towards the same goal. As such, I have always perceived the general atmosphere as very collaborative, as well as welcoming new ideas, inputs, and approaches. From the first day, the company took a genuine interest in assisting in my personal development to contribute to its success effectively.'
+    ),
+    5 => array(
+      'question' => 'What would you recommend ETH students to do during their studies for future industry experience?',
+      'answer' => 'Invest some time to get an understanding of the companies you are interested in and the general entry-level positions that are typically offered. When open days or lectures are hosted or industrial visits organized by student functions or societies, participate to get a first flair of the industrial setting, the specific ways-of-working and mingle with the employees. Also consider performing a research project or carrying out a postdoc in an industrial setting to get relevant hands-on experience and distinguish yourself from other applicants.'
+    ),
+  ),
+);
 
 
 

@@ -48,6 +48,54 @@ $template['button_print_until'] = 0;
 
   $i=0;
   $template['interview'][$i++] = array(
+  'name' => 'Lara Tomisch',
+  'img_url' => $awss3.'/companies/bachem/interviewee_2025_1',
+  'position' => 'Scientist QC Late Phase, Deputy Group Leader GC/IC',
+
+  'education' => array(
+    0 => array('date' => '', 'desc' => ''),
+  ),
+
+  'career' => array(
+    0 => array('date' => '', 'desc' => ''),
+  ),
+
+  'interview' => array(
+
+    0 => array(
+      'question' => 'What is your current task at your company? / Was ist Ihre derzeitige Aufgabe in Ihrem Unternehmen?',
+      'answer' => 'DE: Ich bin Scientist in der QC Late Phase und stellvertretende Gruppenleiterin der Gruppe GC/IC (Abteilung QC Late Phase). Zu meinen Aufgaben gehören neben der Methodenvalidierung und -entwicklung auch die Bearbeitung von Quality Events, die Schnittstellenkommunikation mit anderen Abteilungen oder externen Kunden (Subject Matter Expert / Single Point Of Contact), die Vorbereitung und Leitung von Team-Meetings, die Analysenplanung sowie die Prüfung und Freigabe von Analysedaten. Zusammen mit meinen Kolleginnen und Kollegen kümmere ich mich ausserdem um Dokumenten-Updates oder die Erstellung von Analysenvorschriften.<br><br>EN: I am a scientist in QC Late Phase and deputy group leader of the GC/IC team (QC Late Phase department). In addition to method validation and development, my responsibilities include working on quality events, interface communication with other departments or external customers (Subject Matter Expert / Single Point Of Contact), preparing and leading team meetings, planning analyses, as well as reviewing and approving analytical data. Together with my colleagues, I am also responsible for document updates and the preparation of analytical procedures.'
+    ),
+
+    1 => array(
+      'question' => 'Why did you decide to work at your company and what did the application process look like? / Warum haben Sie sich entschieden, in Ihrem Unternehmen zu arbeiten, und wie sah der Bewerbungsprozess aus?',
+      'answer' => 'DE: Für die Bachem habe ich mich entschieden, weil sich mir dort ein spannendes, abwechslungsreiches und herausforderndes Tätigkeitsfeld bietet, das es mir ermöglicht, Büroarbeiten und praktisches Arbeiten im Labor zu kombinieren. Zudem ist die Produktion von Peptiden und Oligonukleotiden ein Bereich, der grosses Potenzial für Wachstum und Entwicklung bietet – nicht nur für das Unternehmen, sondern auch für die Mitarbeitenden. Darüber hinaus kann ich als Scientist in der Freigabeabteilung einen Beitrag zur Sicherheit und Entwicklung zukunftsweisender Wirkstoffe leisten.<br><br>EN: I decided to join Bachem because it offers an exciting, dynamic, and challenging work environment where I can combine office-based tasks with hands-on laboratory work. The production of peptides and oligonucleotides is a field with exceptional potential for innovation, growth, and development — not only for the company but also for its employees. As a scientist in the release department, I am proud to contribute to the safety and advancement of pioneering active pharmaceutical ingredients that have the potential to shape the future of medicine.'
+    ),
+
+    2 => array(
+      'question' => 'Which strengths did you develop during your studies that helped you in particular in your current job? / Welche Stärken haben Sie während Ihres Studiums entwickelt, die Ihnen besonders in Ihrer jetzigen Tätigkeit geholfen haben?',
+      'answer' => 'DE: Während meines Studiums habe ich insbesondere meine Fähigkeit zum selbstständigen Arbeiten, zum strukturierten Erarbeiten komplexer Zusammenhänge sowie zur effektiven Teamarbeit weiterentwickelt.<br><br>EN: During my studies, I developed strong skills in independent work, structured analysis of complex topics, and effective teamwork.'
+    ),
+
+    3 => array(
+      'question' => 'What fascinates you about your work in particular? / Was fasziniert Sie besonders an Ihrer Arbeit?',
+      'answer' => 'DE: Besonders fasziniert mich an meiner aktuellen Tätigkeit die Vielschichtigkeit analytischer Fragestellungen sowie die bereichsübergreifende Zusammenarbeit, die zur Optimierung von Abläufen und Prozessen beiträgt. Diese Kombination aus analytischem Denken und kooperativem Arbeiten macht meinen Berufsalltag spannend und abwechslungsreich.<br><br>EN: What fascinates me most about my current position is the multifaceted nature of analytical challenges and the cross-functional collaboration aimed at optimizing workflows and processes. This combination of analytical thinking and cooperative teamwork makes my work both engaging and rewarding.'
+    ),
+
+    4 => array(
+      'question' => 'How would you describe the corporate culture in your company, especially with regard to teamwork and collaboration? / Wie würden Sie die Unternehmenskultur in Ihrem Unternehmen beschreiben, insbesondere im Hinblick auf Teamarbeit und Zusammenarbeit?',
+      'answer' => 'Bachem ist ein Vielschichtiges Unternehmen. Teamarbeit und Zusammenarbeit ist ein wichtiger Bestandteil unserer Tätigkeit vorallem in Bereichsübergreifenden Projekten aber auch innerhalb von unseren Gruppen/Teams. Wir legen viel Wert auf einen offen, respektvollen und wertschätzenden Umgang untereinander. Eine stetige Verbesserung unserer Feedback und Fehlerkultur ist uns wichtig.'
+    ),
+
+    5 => array(
+      'question' => 'What would you recommend ETH students to do during their studies for future industry experience? / Was würden Sie ETH-Studierenden empfehlen, während ihres Studiums zu tun, um für künftige Praxiserfahrungen in der Industrie vorbereitet zu sein?',
+      'answer' => '<ul><li>Sammelt wenn möglich schon während des Studiums praktische Erfahrung, z.&nbsp;B. über Praktika.</li><li>Wenn ihr Interesse daran habt, im GMP-regulierten Umfeld zu arbeiten, besucht nach Möglichkeit einen GMP-Basiskurs.</li></ul>'
+    ),
+
+  ),
+);
+
+  $template['interview'][$i++] = array(
     'name' => 'Ruben Wälchli',
     'img_url' => $awss3.'/companies/bachem/interviewee_2024_1',
     'position' => 'Senior Scientist in der Abteilung QC Early Phase',
