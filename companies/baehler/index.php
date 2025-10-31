@@ -81,7 +81,7 @@ $template['extra'] = array(
 //if(isset($_GET['preview']) && $_GET['preview'] == sha1($template['company_name_short'])) $template['interview_print_until'] = 1;
 $template['button_print_until'] = 0; 
 
-$template['interview_print_until'] = 1;
+$template['interview_print_until'] = 2;
 if(isset($_GET['preview'])) $template['interview_print_until'] = 1;
 $i=0;
 
@@ -89,8 +89,8 @@ $i=0;
 
 $template['interview'][$i++] = array(
   'name' => 'Simone Carmone',
-  'img_url' => $awss3.'/companies/baehler/logo',
-  'position' => 'Site Manager & Site Supervisor',
+  'img_url' => $awss3.'/companies/baehler/interviewee_2025_1',
+  'position' => 'Eidg. Dipl. Apotheker ETH, Standortleiter',
 
   'education' => array(
     0 => array(
@@ -155,6 +155,62 @@ And finally: pursue your own path with passion and perseverance. My own journey 
 
   ),
 );
+
+
+$template['interview'][$i++] = array(
+  'name' => 'Jessica Dang',
+  'img_url' => $awss3.'/companies/baehler/interviewee_2025_2',
+  'position' => 'Eidg. Dipl. Apothekerin',
+
+  'education' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+  ),
+
+  'career' => array(
+    0 => array(
+      'date' => '',
+      'desc' => '',
+    ),
+  ),
+  'interview' => array(
+
+    0 => array(
+      'question' => 'What is your current task at your company?',
+      'answer' => 'I currently work as a pharmacist in a community pharmacy, where my primary responsibilities include dispensing medications, providing comprehensive customer counseling and health management support, and ensuring the safe and effective use of pharmaceuticals. Furthermore, we offer various services such as vaccinations, capillary blood analysis and measuring blood pressure. Additionally, as the daily pharmacist in charge, I am responsible for the smooth operations of the pharmacy as well as for the team on duty.'
+    ),
+
+    1 => array(
+      'question' => 'Why did you decide to work at your company and what did the application process look like?',
+      'answer' => 'I initially joined the pharmacy as an assistant pharmacist while studying for my Master\'s degree. This experience provided me with valuable practical knowledge, and I felt genuinely welcomed and well supported by the team. When I graduated, accepting the pharmacist position was an easy decision. What continues to attract me to the company is its supportive culture and the growth opportunities it provides. I also appreciate that the company has many other locations, enabling us to connect and collaborate with colleagues from across the organization. This network provides excellent opportunities for knowledge sharing and professional development.'
+    ),
+
+    2 => array(
+      'question' => 'Which strengths did you develop during your studies that helped you in particular in your current job?',
+      'answer' => 'During my studies, I strengthened my communication and teamwork skills, which are essential for collaboration within the team, with other healthcare professionals, and for advising our customers. I also built strong memorization skills and the ability to retain detailed information, which helps me in my daily work, especially when recalling medications, dosages, drug interactions, and potential adverse reactions.'
+    ),
+
+    3 => array(
+      'question' => 'What fascinates you about your work in particular?',
+      'answer' => 'What fascinates me most about my work is the dynamic nature of a pharmacy. No two days are the same. There is always something new to learn, whether it is new medications, updated treatment guidelines, or recent scientific discoveries. Additionally, each patient interaction is unique. This constant learning and variety make the work both challenging and rewarding.'
+    ),
+
+    4 => array(
+      'question' => 'How would you describe the corporate culture in your company, especially with regard to teamwork and collaboration?',
+      'answer' => 'Teamwork is essential in a pharmacy. You really cannot function without one another. I work closely with other pharmacists, pharma-assistants, and apprentices on a daily basis. The culture in our pharmacy is very supportive and open. Together, we share knowledge, learn from one another, and work collaboratively to maintain a high standard of care for our customers.'
+    ),
+
+    5 => array(
+      'question' => 'What would you recommend ETH students to do during their studies for future industry experience?',
+      'answer' => 'I would recommend that students gain practical experience during their studies. For example, they could work as assistant pharmacists or take on student positions in pharmacies. This will give you a real feel for what pharmacy work is like beyond the textbooks. You will learn how to interact with customers for the first time, work as part of a healthcare team and apply all the theory you have studied. After all those exams and study sessions, it is finally time to put that theoretical knowledge into action!'
+    ),
+
+  ),
+);
+
+
 
 
 include('../0_template/template.php');
