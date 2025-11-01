@@ -61,7 +61,7 @@ development to the supply of Active
 Pharmaceutical Ingredients (APIs) - as well
 as drug products for preclinical studies,
 clinical trials and commercial use. Besides
-being a service provider we also o!er high
+being a service provider we also offer high
 quality Cholesterol and Vitamin D analog
 products.');
   

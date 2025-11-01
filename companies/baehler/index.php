@@ -62,13 +62,13 @@ specialist training.');
 
 $template['we_offer'] = array(
    'title' => 'We offer',
-   'text' => 'We combine the best of two worlds: as a family business, we attach great importance to a personable corporate culture and to appreciative collaboration. We are lean, flexible, and have short decision-making paths. At the same time, we offer the advantages of a large company with our central services, modern working conditions, and career opportunities. We o!er Famulaturen, Assistenzstellen,
+   'text' => 'We combine the best of two worlds: as a family business, we attach great importance to a personable corporate culture and to appreciative collaboration. We are lean, flexible, and have short decision-making paths. At the same time, we offer the advantages of a large company with our central services, modern working conditions, and career opportunities. We offer Famulaturen, Assistenzstellen,
 and student jobs to pharmacy students
 along with "exible working hours that fit
 their studies. We support graduates with
 our 2-year Trainee@DBD training program
 until they acquire the federal specialist title
-“Fachapotheker*in in O$zinpharmazie”.');
+“Fachapotheker*in in Offizinpharmazie”.');
 
 $template['we_look'] = array(
   'title' => 'We are looking for',
