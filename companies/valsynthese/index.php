@@ -55,12 +55,26 @@ engaged, valued and respected. Gender equality, encouraging part time working mo
 flexible working hours to well balance working/private life are part of our organizational DNA.');
 $template['we_offer'] = array(
   'title' => 'We offer',
-  'text' => '<ul>
-  <li>Room for innovation and your own ideas.</li>
-  <li>A family-like working atmosphere and a culture of appreciation.</li>
-  <li>Excellent social benefits and employment conditions.</li>
-  <li> Flexible working hours.</li>
-</ul>');
+  'text' => '
+  
+  <table class="fa-table">
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Room for innovation and your own ideas.</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>A family-like working atmosphere and a culture of appreciation.</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Excellent social benefits and employment conditions.</td>
+  </tr>
+  <tr>
+  <td><i class="fas fa-fw fa-chevron-right"></td>
+  <td>Flexible working hours.</td>
+  </tr>
+  </table>');
   
 $template['we_look'] = array(
   'title' => 'We look for',
