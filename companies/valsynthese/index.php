@@ -90,9 +90,9 @@ if(isset($_GET['preview'])) $template['interview_print_until'] = 1;
 $i=0;
 
 $template['interview'][$i++] = array(
-  'name' => 'Diego',
+  'name' => 'Diego Zenhäusern',
   'img_url' => $awss3.'/companies/valsynthese/interviewee_2025_1',
-  'position' => 'Quality Control in Gamsen, Switzerland',
+  'position' => 'Lab Technician Quality Control',
 
   'education' => array(
     0 => array(
